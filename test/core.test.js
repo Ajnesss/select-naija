@@ -123,3 +123,16 @@ test('streams: TMDB offers only for catalogued titles, deduplicated, never throw
   const s2 = await buildStreams('movie', 'tt0000001', data, { tmdbApiKey: 'k', fetchImpl: broken, now: NOW });
   assert.equal(s2.length, 3);
 });
+
+test('UK check results are merged with the main results', async () => {
+  const fs = require('fs');
+  const path = require('path');
+  const d = baseData();
+  const ukOnly = { 'kava:iyalode': d.status.links['kava:iyalode'] };
+  delete d.status.links['kava:iyalode'];
+  const dir = writeData({ status: d.status });
+  fs.writeFileSync(path.join(dir, 'status-uk.json'), JSON.stringify({ generatedAt: hoursAgo(1), links: ukOnly, providers: { kava: { score: 90 } } }));
+  const data = loadData(dir);
+  assert.ok(queryCatalog('movie', 'snaija-yoruba', {}, data, NOW).some((m) => m.id === 'snaija-iyalode-2025'));
+  assert.equal(data.status.providers.kava.score, 90);
+});

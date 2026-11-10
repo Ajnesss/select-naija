@@ -4,6 +4,9 @@ Versions follow semantic versioning. Each release passes `npm test` and `node sc
 
 ## 0.1.0 (unreleased)
 
+- Provider pages only count as verified when checked from a UK connection (first GitHub run passed
+  Tubi from the US while the UK showed "Content unavailable"). UK check point: `scripts/verify-uk.ps1`.
+
 - Addon server with no dependencies: manifest, catalogue rows by language with filters and paging,
   accent-insensitive search, detail pages for Select Naija IDs, streams for IMDb and Select Naija IDs.
 - Three resolver layers: TMDB/JustWatch UK offers, provider index, verified direct files.
