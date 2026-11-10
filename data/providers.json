@@ -1,0 +1,52 @@
+{
+  "providers": [
+    {
+      "id": "kava",
+      "name": "Kava",
+      "access": "subscription",
+      "unavailableMarkers": ["not available in your region", "content unavailable"]
+    },
+    {
+      "id": "circuits",
+      "name": "Circuits",
+      "access": "rental",
+      "unavailableMarkers": ["not available in your region", "content unavailable"]
+    },
+    {
+      "id": "arewa24",
+      "name": "Arewa24 On Demand",
+      "access": "subscription",
+      "unavailableMarkers": ["not available in your region", "content unavailable"]
+    },
+    {
+      "id": "tubi",
+      "name": "Tubi",
+      "access": "free",
+      "unavailableMarkers": ["content unavailable", "not available in your region", "remind me"]
+    },
+    {
+      "id": "plex",
+      "name": "Plex",
+      "access": "free",
+      "unavailableMarkers": ["not available in your region", "this title is no longer available"]
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "access": "subscription",
+      "unavailableMarkers": ["not available to watch", "this title is not available"]
+    },
+    {
+      "id": "archive",
+      "name": "Open archive",
+      "access": "free",
+      "unavailableMarkers": []
+    },
+    {
+      "id": "selftest",
+      "name": "Select Naija test file",
+      "access": "free",
+      "unavailableMarkers": []
+    }
+  ]
+}

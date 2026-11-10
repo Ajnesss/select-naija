@@ -1,0 +1,7 @@
+{
+  "_note": "Fixed test catalogue used for coverage reports. Groups: recent, classics, yoruba, igbo, hausa, series, other. Target 20 per group; v0.1 starts with the seed titles and grows in v0.2 to v0.4. A title counts as covered only if at least one verified link is shown for it.",
+  "titles": [
+    { "id": "tt1288595", "group": "classics", "note": "documentary, Plex" },
+    { "id": "tt8355352", "group": "recent", "note": "documentary, Tubi (marked unavailable on 10 Nov 2026)" }
+  ]
+}
