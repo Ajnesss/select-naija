@@ -1,39 +1,48 @@
 {
- "generatedAt": "2026-11-10T23:18:50.458Z",
- "statusGeneratedAt": null,
+ "generatedAt": "2026-11-10T23:29:44.484Z",
+ "statusGeneratedAt": "2026-11-10T23:29:44.443Z",
  "groups": {
   "classics": {
    "total": 1,
-   "covered": 0,
-   "coverage": 0
+   "covered": 1,
+   "coverage": 100
   },
   "recent": {
    "total": 1,
-   "covered": 0,
-   "coverage": 0
+   "covered": 1,
+   "coverage": 100
   }
  },
  "languages": {
   "en": {
    "catalogued": 2,
-   "covered": 0,
+   "covered": 2,
    "withoutTmdb": 0,
-   "coverage": 0
+   "coverage": 100
   }
  },
- "providers": {},
- "gaps": [
-  {
-   "id": "tt1288595",
-   "group": "classics",
-   "note": "documentary, Plex",
-   "name": "Nollywood Babylon"
+ "providers": {
+  "tubi": {
+   "score": 100,
+   "reliability30d": 100,
+   "accuracy": 100,
+   "freshness": 100,
+   "checks30d": 1
   },
-  {
-   "id": "tt8355352",
-   "group": "recent",
-   "note": "documentary, Tubi (marked unavailable on 10 Nov 2026)",
-   "name": "Buddy Goes to Nollywood"
+  "plex": {
+   "score": 100,
+   "reliability30d": 100,
+   "accuracy": 100,
+   "freshness": 100,
+   "checks30d": 1
+  },
+  "selftest": {
+   "score": 100,
+   "reliability30d": 100,
+   "accuracy": 100,
+   "freshness": 100,
+   "checks30d": 1
   }
- ]
+ },
+ "gaps": []
 }
