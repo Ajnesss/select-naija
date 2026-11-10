@@ -1,0 +1,125 @@
+#!/usr/bin/env node
+'use strict';
+
+// Coverage and reliability report. Writes reports/coverage.md and reports/coverage.json.
+// A title is covered only when at least one verified (or stale) Select Naija link is shown for it.
+// TMDB/JustWatch "where to watch" offers are NOT counted: they are unverified by us.
+// With --gate, exits 2 if coverage in any group or language fell more than 5 points since the last report,
+// or a provider scored under 50 (its links are hidden, which must be a conscious decision before release).
+
+const fs = require('fs');
+const path = require('path');
+const { loadData, readJson, LANGUAGES } = require('../src/data');
+const { isAvailable } = require('../src/catalog');
+
+const ROOT = path.join(__dirname, '..');
+const DATA = path.join(ROOT, 'data');
+const OUT = path.join(ROOT, 'reports');
+const GATE_DROP = 5;
+
+function pct(n, d) {
+  return d ? Math.round((1000 * n) / d) / 10 : null;
+}
+
+function main() {
+  const now = Date.now();
+  const data = loadData(DATA);
+  const testset = readJson(path.join(DATA, 'testset.json')).titles;
+  const previous = readJson(path.join(OUT, 'coverage.json'), null);
+
+  const groups = {};
+  const missing = [];
+  for (const entry of testset) {
+    const t = data.byId.get(entry.id);
+    const covered = t ? isAvailable(t, data, now) : false;
+    groups[entry.group] = groups[entry.group] || { total: 0, covered: 0 };
+    groups[entry.group].total += 1;
+    if (covered) groups[entry.group].covered += 1;
+    else missing.push({ ...entry, name: t?.name || '(not in catalogue)' });
+  }
+
+  const languages = {};
+  for (const t of data.titles) {
+    if (t.category === 'test') continue;
+    for (const l of t.languages || []) {
+      languages[l] = languages[l] || { catalogued: 0, covered: 0, withoutTmdb: 0 };
+      languages[l].catalogued += 1;
+      if (isAvailable(t, data, now)) languages[l].covered += 1;
+      if (!/^tt\d+$/.test(t.id)) languages[l].withoutTmdb += 1;
+    }
+  }
+
+  const report = {
+    generatedAt: new Date(now).toISOString(),
+    statusGeneratedAt: data.statusGeneratedAt,
+    groups: Object.fromEntries(Object.entries(groups).map(([g, v]) => [g, { ...v, coverage: pct(v.covered, v.total) }])),
+    languages: Object.fromEntries(
+      Object.entries(languages).map(([l, v]) => [l, { ...v, coverage: pct(v.covered, v.catalogued) }]),
+    ),
+    providers: data.status.providers,
+    gaps: missing,
+  };
+
+  const lines = [
+    `# Select Naija coverage report`,
+    ``,
+    `Generated ${report.generatedAt}. Links last verified ${report.statusGeneratedAt || 'never'}.`,
+    `A title counts as covered only if a verified Select Naija link is shown for it.`,
+    ``,
+    `## Test catalogue by group`,
+    ``,
+    `| Group | Covered | Total | Coverage |`,
+    `| --- | --- | --- | --- |`,
+    ...Object.entries(report.groups).map(([g, v]) => `| ${g} | ${v.covered} | ${v.total} | ${v.coverage ?? '–'}% |`),
+    ``,
+    `## Catalogue by language`,
+    ``,
+    `| Language | Catalogued | Covered | Coverage | Without TMDB/IMDb ID |`,
+    `| --- | --- | --- | --- | --- |`,
+    ...Object.entries(report.languages).map(
+      ([l, v]) => `| ${LANGUAGES[l] || l} | ${v.catalogued} | ${v.covered} | ${v.coverage ?? '–'}% | ${v.withoutTmdb} |`,
+    ),
+    ``,
+    `## Providers`,
+    ``,
+    `| Provider | Score | Reliability 30d | Accuracy | Freshness | Checks 30d |`,
+    `| --- | --- | --- | --- | --- | --- |`,
+    ...Object.entries(report.providers).map(
+      ([p, v]) => `| ${data.providerById.get(p)?.name || p} | ${v.score} | ${v.reliability30d}% | ${v.accuracy}% | ${v.freshness}% | ${v.checks30d} |`,
+    ),
+    ``,
+    `## Gaps: test titles with no verified source`,
+    ``,
+    ...(missing.length ? missing.map((m) => `- ${m.name} (${m.id}, ${m.group})`) : ['None.']),
+    ``,
+  ];
+
+  fs.mkdirSync(OUT, { recursive: true });
+  fs.writeFileSync(path.join(OUT, 'coverage.md'), lines.join('\n'));
+  fs.writeFileSync(path.join(OUT, 'coverage.json'), `${JSON.stringify(report, null, 1)}\n`);
+  console.log(lines.join('\n'));
+
+  if (process.argv.includes('--gate')) {
+    const problems = [];
+    if (previous) {
+      for (const [g, v] of Object.entries(report.groups)) {
+        const before = previous.groups?.[g]?.coverage;
+        if (before != null && v.coverage != null && before - v.coverage > GATE_DROP)
+          problems.push(`group ${g} coverage fell ${before}% → ${v.coverage}%`);
+      }
+      for (const [l, v] of Object.entries(report.languages)) {
+        const before = previous.languages?.[l]?.coverage;
+        if (before != null && v.coverage != null && before - v.coverage > GATE_DROP)
+          problems.push(`language ${l} coverage fell ${before}% → ${v.coverage}%`);
+      }
+    }
+    for (const [p, v] of Object.entries(report.providers)) if (v.score < 50) problems.push(`provider ${p} scored ${v.score}`);
+    if (problems.length) {
+      console.error(`\nRELEASE BLOCKED:\n- ${problems.join('\n- ')}`);
+      process.exit(2);
+    }
+    console.log('\nRelease gate passed.');
+  }
+}
+
+main();
