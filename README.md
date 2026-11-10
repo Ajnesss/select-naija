@@ -46,8 +46,24 @@ Below 80 a provider ranks lower; below 50 its links are hidden.
 
 ## Where checks run
 
-Nightly checks run on GitHub Actions, which is not in the UK. A page that is region-locked could pass
-there and fail for UK viewers. A UK check point is planned before v0.3 (provider verification).
+Provider pages are region-locked, so they only count as verified when checked **from the UK**
+(`ukCheckRequired` in `data/providers.json`). The first GitHub run proved why: Tubi's page for
+*Buddy Goes to Nollywood* passed from GitHub's US servers while showing "Content unavailable" in the UK.
+
+| Run | Where | Checks | Writes |
+| --- | --- | --- | --- |
+| Nightly GitHub Action | GitHub (US) | in-app files, which aren't region-locked | `data/status.json` |
+| `scripts/verify-uk.ps1` | Fortune's PC (UK) | provider pages | `data/status-uk.json` |
+
+The UK run refuses to start unless the connection really is in the UK (a VPN set elsewhere would give
+false results). To run it nightly, in PowerShell:
+
+```powershell
+$a = New-ScheduledTaskAction -Execute 'powershell.exe' -Argument "-NoProfile -ExecutionPolicy Bypass -File `"$env:USERPROFILE\select-naija-checks\scripts\verify-uk.ps1`""
+$t = New-ScheduledTaskTrigger -Daily -At 9pm
+$s = New-ScheduledTaskSettingsSet -StartWhenAvailable
+Register-ScheduledTask -TaskName 'Select Naija UK check' -Action $a -Trigger $t -Settings $s
+```
 
 ## Server
 

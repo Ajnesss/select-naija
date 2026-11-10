@@ -28,7 +28,9 @@ function loadData(dataDir) {
   const catalogue = readJson(path.join(dataDir, 'catalogue.json'));
   const links = readJson(path.join(dataDir, 'links.json'));
   const providers = readJson(path.join(dataDir, 'providers.json'));
+  // Results from GitHub (unrestricted files) and from the UK check point (region-locked providers) are merged.
   const status = readJson(path.join(dataDir, 'status.json'), { links: {}, providers: {} });
+  const statusUk = readJson(path.join(dataDir, 'status-uk.json'), { links: {}, providers: {} });
 
   const titles = (catalogue.titles || []).filter((t) => !t.hidden);
   const byId = new Map();
@@ -55,8 +57,12 @@ function loadData(dataDir) {
     providerById,
     linksByStreamId,
     allLinks: links.links || [],
-    status: { links: status.links || {}, providers: status.providers || {} },
+    status: {
+      links: { ...(status.links || {}), ...(statusUk.links || {}) },
+      providers: { ...(status.providers || {}), ...(statusUk.providers || {}) },
+    },
     statusGeneratedAt: status.generatedAt || null,
+    statusUkGeneratedAt: statusUk.generatedAt || null,
   };
 }
 
