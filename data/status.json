@@ -1,5 +1,68 @@
 {
-  "generatedAt": null,
-  "links": {},
-  "providers": {}
+ "generatedAt": "2026-11-10T23:29:44.443Z",
+ "links": {
+  "selftest:bbb-10s": {
+   "checks": [
+    {
+     "at": "2026-11-10T23:29:43.630Z",
+     "ok": true,
+     "reason": null
+    }
+   ],
+   "lastCheck": "2026-11-10T23:29:43.630Z",
+   "lastReason": null,
+   "lastOk": "2026-11-10T23:29:43.630Z",
+   "finalUrl": "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4"
+  },
+  "tubi:100014072": {
+   "checks": [
+    {
+     "at": "2026-11-10T23:29:44.051Z",
+     "ok": true,
+     "reason": null
+    }
+   ],
+   "lastCheck": "2026-11-10T23:29:44.051Z",
+   "lastReason": null,
+   "lastOk": "2026-11-10T23:29:44.051Z",
+   "finalUrl": "https://tubitv.com/en-gb/movies/100014072/buddy-goes-to-nollywood"
+  },
+  "plex:nollywood-babylon": {
+   "checks": [
+    {
+     "at": "2026-11-10T23:29:44.442Z",
+     "ok": true,
+     "reason": null
+    }
+   ],
+   "lastCheck": "2026-11-10T23:29:44.442Z",
+   "lastReason": null,
+   "lastOk": "2026-11-10T23:29:44.442Z",
+   "finalUrl": "https://watch.plex.tv/en-GB/movie/nollywood-babylon-2008?supportsPublicPosts=1&supportsUdpDiscussionUgcCards=1&supportsMentions=1"
+  }
+ },
+ "providers": {
+  "tubi": {
+   "score": 100,
+   "reliability30d": 100,
+   "accuracy": 100,
+   "freshness": 100,
+   "checks30d": 1
+  },
+  "plex": {
+   "score": 100,
+   "reliability30d": 100,
+   "accuracy": 100,
+   "freshness": 100,
+   "checks30d": 1
+  },
+  "selftest": {
+   "score": 100,
+   "reliability30d": 100,
+   "accuracy": 100,
+   "freshness": 100,
+   "checks30d": 1
+  }
+ },
+ "checkedFrom": "github-actions (not UK; see README \"Where checks run\")"
 }
