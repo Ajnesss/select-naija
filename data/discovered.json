@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T21:56:00.572Z",
+ "generatedAt": "2026-11-11T22:19:22.583Z",
  "source": "TMDB discover, UK availability from JustWatch",
  "entries": [
   {
@@ -7502,6 +7502,449 @@
   },
   {
    "title": {
+    "id": "tt3136112",
+    "tmdbId": 287426,
+    "type": "movie",
+    "name": "Shelter",
+    "aliases": [],
+    "year": 2014,
+    "languages": [
+     "en"
+    ],
+    "category": "film",
+    "genres": [
+     "Drama"
+    ],
+    "runtime": "105 min",
+    "description": "Hannah and Tahir fall in love while homeless on the streets of New York. Shelter explores how they got there, and as we learn about their pasts we realize they need each other to build a future.",
+    "poster": "https://image.tmdb.org/t/p/w342/1EtMTtKDLp2MGhddZuLgeGZVbRk.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/pHSTy4aFEcBnslMACAawkr6oum5.jpg",
+    "country": "US",
+    "sources": {
+     "all": "TMDB",
+     "availability": "JustWatch via TMDB (UK)"
+    }
+   },
+   "offers": [
+    {
+     "providerName": "Tubi TV",
+     "tmdbProviderId": 73,
+     "access": "ads"
+    },
+    {
+     "providerName": "Amazon Prime Video Free with Ads",
+     "tmdbProviderId": 613,
+     "access": "ads"
+    },
+    {
+     "providerName": "Amazon MX Player",
+     "tmdbProviderId": 1898,
+     "access": "ads"
+    },
+    {
+     "providerName": "Amazon Prime Video",
+     "tmdbProviderId": 9,
+     "access": "subscription"
+    },
+    {
+     "providerName": "Amazon Prime Video with Ads",
+     "tmdbProviderId": 2100,
+     "access": "subscription"
+    }
+   ],
+   "watchLink": "https://www.themoviedb.org/movie/287426-shelter/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "80017283"
+   }
+  },
+  {
+   "title": {
+    "id": "tt8530796",
+    "tmdbId": 706753,
+    "type": "movie",
+    "name": "Light in the Dark",
+    "aliases": [],
+    "year": 2020,
+    "languages": [
+     "en"
+    ],
+    "category": "film",
+    "genres": [
+     "Thriller",
+     "Drama"
+    ],
+    "runtime": "104 min",
+    "description": "In the face of unspeakable pain, a couple must find a way to live and love again.",
+    "poster": "https://image.tmdb.org/t/p/w342/o1sSFyrcidccSmbYcUgbFOzkv6z.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/iA4BqTym2b8vKGxpyMAqoIABMF6.jpg",
+    "country": "US",
+    "sources": {
+     "all": "TMDB",
+     "availability": "JustWatch via TMDB (UK)"
+    }
+   },
+   "offers": [
+    {
+     "providerName": "Tubi TV",
+     "tmdbProviderId": 73,
+     "access": "ads"
+    }
+   ],
+   "watchLink": "https://www.themoviedb.org/movie/706753-light-in-the-dark/watch?locale=GB"
+  },
+  {
+   "title": {
+    "id": "tt2451550",
+    "tmdbId": 225283,
+    "type": "movie",
+    "name": "Gone Too Far!",
+    "aliases": [],
+    "year": 2014,
+    "languages": [
+     "en"
+    ],
+    "category": "film",
+    "genres": [
+     "Comedy"
+    ],
+    "runtime": "87 min",
+    "description": "When London teenager Yemi’s big brother comes to live with him from Nigeria, Ikudayisi’s terrible fashion sense, broad Yoruba accent and misplaced confidence with the opposite sex threaten to destroy Yemi’s already small amount of street cred. When the pair are forced to spend the day together on their Peckham estate Yemi is forced to confront local bullies, the unattainable girl of his dreams and his own African heritage, eventually teaching both of them the values of family and self-respect.",
+    "poster": "https://image.tmdb.org/t/p/w342/nooqUxiukNiB33DYdIRwZY1BSGJ.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/hFJv5lvycxcRkBtfwPesMCbhRwU.jpg",
+    "country": "GB, US",
+    "sources": {
+     "all": "TMDB",
+     "availability": "JustWatch via TMDB (UK)"
+    }
+   },
+   "offers": [
+    {
+     "providerName": "Amazon Prime Video",
+     "tmdbProviderId": 9,
+     "access": "subscription"
+    },
+    {
+     "providerName": "BFI Player",
+     "tmdbProviderId": 224,
+     "access": "subscription"
+    },
+    {
+     "providerName": "BFI Player Amazon Channel",
+     "tmdbProviderId": 287,
+     "access": "subscription"
+    },
+    {
+     "providerName": "BFI Player Apple TV Channel",
+     "tmdbProviderId": 2041,
+     "access": "subscription"
+    },
+    {
+     "providerName": "Amazon Prime Video with Ads",
+     "tmdbProviderId": 2100,
+     "access": "subscription"
+    }
+   ],
+   "watchLink": "https://www.themoviedb.org/movie/225283-gone-too-far/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "80127505"
+   }
+  },
+  {
+   "title": {
+    "id": "tt10912990",
+    "tmdbId": 632718,
+    "type": "movie",
+    "name": "The Millions",
+    "aliases": [],
+    "year": 2019,
+    "languages": [
+     "en"
+    ],
+    "category": "film",
+    "genres": [
+     "Drama"
+    ],
+    "runtime": "94 min",
+    "description": "Some con artists come together to work on stealing a huge sum of money as failure with the operation puts their lives in the way. The mission leads to betrayal, friendship and true love.",
+    "poster": "https://image.tmdb.org/t/p/w342/cU2buWVHq3wiU6hR6OLKjyAGyTH.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/heo3QuQAN5yJAWOBjBhAcJGc9og.jpg",
+    "country": "US",
+    "sources": {
+     "all": "TMDB",
+     "availability": "JustWatch via TMDB (UK)"
+    }
+   },
+   "offers": [
+    {
+     "providerName": "Plex",
+     "tmdbProviderId": 538,
+     "access": "ads"
+    }
+   ],
+   "watchLink": "https://www.themoviedb.org/movie/632718-the-millions/watch?locale=GB"
+  },
+  {
+   "title": {
+    "id": "tt6923990",
+    "tmdbId": 1392445,
+    "type": "movie",
+    "name": "Unnamed",
+    "aliases": [],
+    "year": 2024,
+    "languages": [
+     "en"
+    ],
+    "category": "film",
+    "genres": [
+     "Drama",
+     "Crime",
+     "Thriller"
+    ],
+    "runtime": "96 min",
+    "poster": "https://image.tmdb.org/t/p/w342/ncYfVxf9i2DD6vZZquVQABPb999.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/bNHMZ7UAJPdcVUwq1GxYBVd0W1O.jpg",
+    "country": "US",
+    "sources": {
+     "all": "TMDB",
+     "availability": "JustWatch via TMDB (UK)"
+    }
+   },
+   "offers": [
+    {
+     "providerName": "Amazon Prime Video",
+     "tmdbProviderId": 9,
+     "access": "subscription"
+    },
+    {
+     "providerName": "Amazon Prime Video with Ads",
+     "tmdbProviderId": 2100,
+     "access": "subscription"
+    }
+   ],
+   "watchLink": "https://www.themoviedb.org/movie/1392445-unnamed/watch?locale=GB"
+  },
+  {
+   "title": {
+    "id": "tt10279102",
+    "tmdbId": 658739,
+    "type": "movie",
+    "name": "4th Republic",
+    "aliases": [],
+    "year": 2019,
+    "languages": [
+     "en"
+    ],
+    "category": "film",
+    "genres": [
+     "Drama",
+     "Crime"
+    ],
+    "runtime": "120 min",
+    "description": "After the gruesome murder of her campaign manager Sikiru, gubernatorial aspirant Mabel King challenges the victory of the incumbent, Idris Sani for her mandate. While governor Sani’s associate, St. Jamesand Ike’s Law School rival, Danladi attempt to subvert the course of justice by eliminating witnesses, King is supported by her loyal aide Ike, and Sikiru’s daughter Bukky.",
+    "poster": "https://image.tmdb.org/t/p/w342/uIcra0iTCTSUICwhedN7rwWqSxA.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/nOxUau0MZtAjGF9uBX7N8nMaKpV.jpg",
+    "country": "US",
+    "sources": {
+     "all": "TMDB",
+     "availability": "JustWatch via TMDB (UK)"
+    }
+   },
+   "offers": [
+    {
+     "providerName": "Tubi TV",
+     "tmdbProviderId": 73,
+     "access": "ads"
+    }
+   ],
+   "watchLink": "https://www.themoviedb.org/movie/658739-4th-republic/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81049899"
+   }
+  },
+  {
+   "title": {
+    "id": "tt8329618",
+    "tmdbId": 570465,
+    "type": "movie",
+    "name": "King of Boys",
+    "aliases": [],
+    "year": 2018,
+    "languages": [
+     "en",
+     "ha",
+     "ig",
+     "yo"
+    ],
+    "category": "film",
+    "genres": [
+     "Drama"
+    ],
+    "runtime": "169 min",
+    "description": "The story of Alhaja Eniola Salami, a businesswoman and philanthropist with a checkered past and a promising political future. As her political ambitions see her outgrowing the underworld connections responsible for her considerable wealth, she's drawn into a power struggle that threatens everything she holds dear.",
+    "poster": "https://image.tmdb.org/t/p/w342/3nO3VboeVLVOwIHMkTRIwTrrKQP.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/8lUYBdpIo8ysI9UzVn8Zs1AwB5x.jpg",
+    "country": "US",
+    "sources": {
+     "all": "TMDB",
+     "availability": "JustWatch via TMDB (UK)"
+    }
+   },
+   "offers": [
+    {
+     "providerName": "Netflix",
+     "tmdbProviderId": 8,
+     "access": "subscription"
+    },
+    {
+     "providerName": "Netflix Standard with Ads",
+     "tmdbProviderId": 1796,
+     "access": "subscription"
+    }
+   ],
+   "watchLink": "https://www.themoviedb.org/movie/570465-king-of-boys/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81172721"
+   }
+  },
+  {
+   "title": {
+    "id": "tt11417930",
+    "tmdbId": 712911,
+    "type": "movie",
+    "name": "Merry Men 2: Another Mission",
+    "aliases": [],
+    "year": 2019,
+    "languages": [
+     "en"
+    ],
+    "category": "film",
+    "genres": [
+     "Action",
+     "Comedy"
+    ],
+    "runtime": "114 min",
+    "description": "Four men have stopped robbing the rich to give to the poor and now are focusing on running their businesses.",
+    "poster": "https://image.tmdb.org/t/p/w342/fPrnMPhzv54U2IpdkT6avP1Ezck.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/reORrkCB0SiqRGRsoVeaNhJrD6N.jpg",
+    "country": "US",
+    "sources": {
+     "all": "TMDB",
+     "availability": "JustWatch via TMDB (UK)"
+    }
+   },
+   "offers": [
+    {
+     "providerName": "Tubi TV",
+     "tmdbProviderId": 73,
+     "access": "ads"
+    },
+    {
+     "providerName": "Plex",
+     "tmdbProviderId": 538,
+     "access": "ads"
+    },
+    {
+     "providerName": "Amazon Prime Video",
+     "tmdbProviderId": 9,
+     "access": "subscription"
+    },
+    {
+     "providerName": "Amazon Prime Video with Ads",
+     "tmdbProviderId": 2100,
+     "access": "subscription"
+    }
+   ],
+   "watchLink": "https://www.themoviedb.org/movie/712911-merry-men-2-another-mission/watch?locale=GB"
+  },
+  {
+   "title": {
+    "id": "tt5978822",
+    "tmdbId": 412196,
+    "type": "movie",
+    "name": "The Wedding Party",
+    "aliases": [],
+    "year": 2016,
+    "languages": [
+     "en"
+    ],
+    "category": "film",
+    "genres": [
+     "Comedy",
+     "Romance"
+    ],
+    "runtime": "110 min",
+    "description": "A lavish wedding escalates into pure Lagosian chaos, in this wild romcom produced by media mogul Mo Abudu.",
+    "poster": "https://image.tmdb.org/t/p/w342/qJpP0QJZE1Lcxswchana8opO9uW.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/dxknBvE4QZYZlJvV5OwvCpIzSkl.jpg",
+    "country": "US",
+    "sources": {
+     "all": "TMDB",
+     "availability": "JustWatch via TMDB (UK)"
+    }
+   },
+   "offers": [
+    {
+     "providerName": "Amazon Prime Video Free with Ads",
+     "tmdbProviderId": 613,
+     "access": "ads"
+    },
+    {
+     "providerName": "Runtime",
+     "tmdbProviderId": 1875,
+     "access": "ads"
+    },
+    {
+     "providerName": "Amazon MX Player",
+     "tmdbProviderId": 1898,
+     "access": "ads"
+    }
+   ],
+   "watchLink": "https://www.themoviedb.org/movie/412196-the-wedding-party/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "80168301"
+   }
+  },
+  {
+   "title": {
+    "id": "tt36188455",
+    "tmdbId": 1449447,
+    "type": "movie",
+    "name": "Finding Me",
+    "aliases": [],
+    "year": 2025,
+    "languages": [
+     "en"
+    ],
+    "category": "film",
+    "genres": [
+     "Thriller"
+    ],
+    "runtime": "155 min",
+    "description": "Tinuke Phillips, a shy and self-conscious young woman, has always struggled with low self-esteem due to being mocked for not fitting society's standards of class, despite her wealthy background. She believes she's unworthy of love until she meets Kola, a kind and driven man who treats her with respect. Smitten by his warmth, she falls in love, and they eventually marry.",
+    "poster": "https://image.tmdb.org/t/p/w342/jO7a8s21tJKYuzyaYjfMepcA8Rz.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/fCrC6ZmwTG54jTGktzwzH5pnmBr.jpg",
+    "country": "US",
+    "sources": {
+     "all": "TMDB",
+     "availability": "JustWatch via TMDB (UK)"
+    }
+   },
+   "offers": [
+    {
+     "providerName": "Amazon Prime Video",
+     "tmdbProviderId": 9,
+     "access": "subscription"
+    },
+    {
+     "providerName": "Amazon Prime Video with Ads",
+     "tmdbProviderId": 2100,
+     "access": "subscription"
+    }
+   ],
+   "watchLink": "https://www.themoviedb.org/movie/1449447-finding-me/watch?locale=GB"
+  },
+  {
+   "title": {
     "id": "tt7707314",
     "tmdbId": 543774,
     "type": "movie",
@@ -7786,41 +8229,6 @@
   },
   {
    "title": {
-    "id": "tt8530796",
-    "tmdbId": 706753,
-    "type": "movie",
-    "name": "Light in the Dark",
-    "aliases": [],
-    "year": 2020,
-    "languages": [
-     "en"
-    ],
-    "category": "film",
-    "genres": [
-     "Thriller",
-     "Drama"
-    ],
-    "runtime": "104 min",
-    "description": "In the face of unspeakable pain, a couple must find a way to live and love again.",
-    "poster": "https://image.tmdb.org/t/p/w342/o1sSFyrcidccSmbYcUgbFOzkv6z.jpg",
-    "background": "https://image.tmdb.org/t/p/w1280/iA4BqTym2b8vKGxpyMAqoIABMF6.jpg",
-    "country": "US",
-    "sources": {
-     "all": "TMDB",
-     "availability": "JustWatch via TMDB (UK)"
-    }
-   },
-   "offers": [
-    {
-     "providerName": "Tubi TV",
-     "tmdbProviderId": 73,
-     "access": "ads"
-    }
-   ],
-   "watchLink": "https://www.themoviedb.org/movie/706753-light-in-the-dark/watch?locale=GB"
-  },
-  {
-   "title": {
     "id": "snaija-tmdb-movie-1330591",
     "tmdbId": 1330591,
     "type": "movie",
@@ -7858,40 +8266,6 @@
     }
    ],
    "watchLink": "https://www.themoviedb.org/movie/1330591-ayra-starr-dare-to-dream/watch?locale=GB"
-  },
-  {
-   "title": {
-    "id": "tt10912990",
-    "tmdbId": 632718,
-    "type": "movie",
-    "name": "The Millions",
-    "aliases": [],
-    "year": 2019,
-    "languages": [
-     "en"
-    ],
-    "category": "film",
-    "genres": [
-     "Drama"
-    ],
-    "runtime": "94 min",
-    "description": "Some con artists come together to work on stealing a huge sum of money as failure with the operation puts their lives in the way. The mission leads to betrayal, friendship and true love.",
-    "poster": "https://image.tmdb.org/t/p/w342/cU2buWVHq3wiU6hR6OLKjyAGyTH.jpg",
-    "background": "https://image.tmdb.org/t/p/w1280/heo3QuQAN5yJAWOBjBhAcJGc9og.jpg",
-    "country": "US",
-    "sources": {
-     "all": "TMDB",
-     "availability": "JustWatch via TMDB (UK)"
-    }
-   },
-   "offers": [
-    {
-     "providerName": "Plex",
-     "tmdbProviderId": 538,
-     "access": "ads"
-    }
-   ],
-   "watchLink": "https://www.themoviedb.org/movie/632718-the-millions/watch?locale=GB"
   },
   {
    "title": {
@@ -7968,94 +8342,6 @@
    "serviceIds": {
     "netflix": "81172727"
    }
-  },
-  {
-   "title": {
-    "id": "tt10279102",
-    "tmdbId": 658739,
-    "type": "movie",
-    "name": "4th Republic",
-    "aliases": [],
-    "year": 2019,
-    "languages": [
-     "en"
-    ],
-    "category": "film",
-    "genres": [
-     "Drama",
-     "Crime"
-    ],
-    "runtime": "120 min",
-    "description": "After the gruesome murder of her campaign manager Sikiru, gubernatorial aspirant Mabel King challenges the victory of the incumbent, Idris Sani for her mandate. While governor Sani’s associate, St. Jamesand Ike’s Law School rival, Danladi attempt to subvert the course of justice by eliminating witnesses, King is supported by her loyal aide Ike, and Sikiru’s daughter Bukky.",
-    "poster": "https://image.tmdb.org/t/p/w342/uIcra0iTCTSUICwhedN7rwWqSxA.jpg",
-    "background": "https://image.tmdb.org/t/p/w1280/nOxUau0MZtAjGF9uBX7N8nMaKpV.jpg",
-    "country": "US",
-    "sources": {
-     "all": "TMDB",
-     "availability": "JustWatch via TMDB (UK)"
-    }
-   },
-   "offers": [
-    {
-     "providerName": "Tubi TV",
-     "tmdbProviderId": 73,
-     "access": "ads"
-    }
-   ],
-   "watchLink": "https://www.themoviedb.org/movie/658739-4th-republic/watch?locale=GB",
-   "serviceIds": {
-    "netflix": "81049899"
-   }
-  },
-  {
-   "title": {
-    "id": "tt11417930",
-    "tmdbId": 712911,
-    "type": "movie",
-    "name": "Merry Men 2: Another Mission",
-    "aliases": [],
-    "year": 2019,
-    "languages": [
-     "en"
-    ],
-    "category": "film",
-    "genres": [
-     "Action",
-     "Comedy"
-    ],
-    "runtime": "114 min",
-    "description": "Four men have stopped robbing the rich to give to the poor and now are focusing on running their businesses.",
-    "poster": "https://image.tmdb.org/t/p/w342/fPrnMPhzv54U2IpdkT6avP1Ezck.jpg",
-    "background": "https://image.tmdb.org/t/p/w1280/reORrkCB0SiqRGRsoVeaNhJrD6N.jpg",
-    "country": "US",
-    "sources": {
-     "all": "TMDB",
-     "availability": "JustWatch via TMDB (UK)"
-    }
-   },
-   "offers": [
-    {
-     "providerName": "Tubi TV",
-     "tmdbProviderId": 73,
-     "access": "ads"
-    },
-    {
-     "providerName": "Plex",
-     "tmdbProviderId": 538,
-     "access": "ads"
-    },
-    {
-     "providerName": "Amazon Prime Video",
-     "tmdbProviderId": 9,
-     "access": "subscription"
-    },
-    {
-     "providerName": "Amazon Prime Video with Ads",
-     "tmdbProviderId": 2100,
-     "access": "subscription"
-    }
-   ],
-   "watchLink": "https://www.themoviedb.org/movie/712911-merry-men-2-another-mission/watch?locale=GB"
   },
   {
    "title": {
@@ -9851,6 +10137,70 @@
     }
    ],
    "watchLink": "https://www.themoviedb.org/tv/273350-life-and-dirt/watch?locale=GB"
+  },
+  {
+   "title": {
+    "id": "tt30702016",
+    "tmdbId": 242433,
+    "type": "series",
+    "name": "War: Wrath and Revenge",
+    "aliases": [],
+    "year": 2023,
+    "languages": [
+     "en"
+    ],
+    "category": "series",
+    "genres": [
+     "Drama"
+    ],
+    "description": "Nuhu Bula looks set to be the next governor of Kowa. Until his wife learns he wants to marry another woman — and does everything she can to stop him.",
+    "poster": "https://image.tmdb.org/t/p/w342/r4H9gQtTUiB1OLYyaSPhRQ6zz4t.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/aErQf6fsZGYlNbK69RSNfEfSW3Q.jpg",
+    "country": "US",
+    "sources": {
+     "all": "TMDB",
+     "availability": "JustWatch via TMDB (UK)"
+    },
+    "videos": [
+     {
+      "season": 1,
+      "episode": 1
+     },
+     {
+      "season": 1,
+      "episode": 2
+     },
+     {
+      "season": 1,
+      "episode": 3
+     },
+     {
+      "season": 1,
+      "episode": 4
+     },
+     {
+      "season": 1,
+      "episode": 5
+     },
+     {
+      "season": 1,
+      "episode": 6
+     }
+    ]
+   },
+   "offers": [
+    {
+     "providerName": "Netflix",
+     "tmdbProviderId": 8,
+     "access": "subscription"
+    },
+    {
+     "providerName": "Netflix Standard with Ads",
+     "tmdbProviderId": 1796,
+     "access": "subscription"
+    }
+   ],
+   "watchLink": "https://www.themoviedb.org/tv/242433-war-wrath-and-revenge/watch?locale=GB"
   }
  ]
 }
