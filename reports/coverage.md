@@ -1,6 +1,6 @@
 # Select Naija coverage report
 
-Generated 2026-11-11T20:44:31.866Z. Links last verified 2026-11-11T10:57:45.112Z.
+Generated 2026-11-11T21:02:58.725Z. Links last verified 2026-11-11T21:02:58.676Z.
 A title counts as covered only if a verified Select Naija link is shown for it.
 
 ## Test catalogue by group
@@ -20,9 +20,9 @@ A title counts as covered only if a verified Select Naija link is shown for it.
 
 | Provider | Score | Reliability 30d | Accuracy | Freshness | Checks 30d |
 | --- | --- | --- | --- | --- | --- |
-| Select Naija test file | 100 | 100% | 100% | 100% | 2 |
 | Tubi | 40 | 0% | 100% | 100% | 1 |
 | Plex | 100 | 100% | 100% | 100% | 1 |
+| Select Naija test file | 100 | 100% | 100% | 100% | 3 |
 
 ## Gaps: test titles with no verified source
 
