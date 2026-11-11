@@ -1,0 +1,7 @@
+URL: https://filmzie.com/api/v1/search?query=nigeria
+FINAL: https://filmzie.com/api/v1/search?query=nigeria
+STATUS: 404
+TYPE: application/json; charset=utf-8
+LENGTH: 2
+
+{}

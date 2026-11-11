@@ -1,7 +1,0 @@
-URL: https://api.themoviedb.org/3/search/company?query=Kunle%20Afolayan%20Productions&api_key={TMDB}
-FINAL: https://api.themoviedb.org/3/search/company?query=Kunle%20Afolayan%20Productions&api_key=***
-STATUS: 200
-TYPE: application/json;charset=utf-8
-LENGTH: 138
-
-{"page":1,"results":[{"id":166476,"logo_path":null,"name":"KAP Motion Pictures","origin_country":"NG"}],"total_pages":1,"total_results":1}

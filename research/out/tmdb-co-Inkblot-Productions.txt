@@ -1,7 +1,0 @@
-URL: https://api.themoviedb.org/3/search/company?query=Inkblot%20Productions&api_key={TMDB}
-FINAL: https://api.themoviedb.org/3/search/company?query=Inkblot%20Productions&api_key=***
-STATUS: 200
-TYPE: application/json;charset=utf-8
-LENGTH: 247
-
-{"page":1,"results":[{"id":102730,"logo_path":"/4Ol44DHb1jDzndmjy1Pv71bnu7T.png","name":"InkBlot Productions","origin_country":"NG"},{"id":6648,"logo_path":null,"name":"pinkplot productions","origin_country":""}],"total_pages":1,"total_results":2}
