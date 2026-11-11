@@ -3,6 +3,9 @@
 const fs = require('fs');
 const path = require('path');
 const { FRESH_DAYS, DAY } = require('./states');
+const { normalize } = require('./text');
+
+const normalizeName = (n) => normalize(String(n || '')).replace(/^the /, '');
 
 const LANGUAGES = {
   en: 'English',
@@ -84,6 +87,7 @@ function loadData(dataDir, { now = Date.now(), freeOnly = process.env.SELECT_NAI
         kind: 'external',
         url,
         discovered: true,
+        synthetic: true,
       });
       // Being in TMDB's UK list on the last discovery run is the check for these links.
       const at = discovered.generatedAt;
@@ -110,11 +114,60 @@ function loadData(dataDir, { now = Date.now(), freeOnly = process.env.SELECT_NAI
         label: total > 1 ? `Part ${part.part} of ${total}` : undefined,
         order: part.part,
         minutes: part.minutes,
+        synthetic: true,
       });
       // Listed as public, published and not blocked for the UK on the last nightly read: that is the check.
       const at = dm.generatedAt;
       discoveredStatus[id] = { lastOk: at, lastCheck: at, checks: [{ at, ok: true }], ukSignal: 'provider' };
     }
+  }
+
+  // Tubi UK's own Nollywood collection (scripts/discover-tubi.js). Matched to a title already in the
+  // catalogue by name and year where possible; otherwise it becomes a title of its own. These links are
+  // checked every night through the London check point like any hand-added link.
+  const tubi = readJson(path.join(dataDir, 'tubi.json'), { titles: [] });
+  const nameYear = new Map();
+  const key = (name, year) => `${normalizeName(name)}|${year || ''}`;
+  for (const t of titles) nameYear.set(key(t.name, t.year), t);
+  for (const e of tubi.titles || []) {
+    let t = nameYear.get(key(e.name, e.year)) || nameYear.get(key(e.name, e.year - 1)) || nameYear.get(key(e.name, e.year + 1));
+    if (!t) {
+      t = {
+        id: `snaija-tubi-${e.tubiId}`,
+        type: e.type,
+        name: e.name,
+        aliases: [],
+        year: e.year,
+        languages: e.languages,
+        category: e.type === 'series' ? 'series' : 'film',
+        genres: e.genres,
+        runtime: e.runtime,
+        description: e.description,
+        cast: e.cast,
+        director: e.director,
+        poster: e.poster,
+        background: e.background,
+        sources: { all: 'Tubi UK title page' },
+      };
+      if (byId.has(t.id)) continue;
+      titles.push(t);
+      byId.set(t.id, t);
+      nameYear.set(key(t.name, t.year), t);
+    }
+    extraLinks.push({
+      id: `tubi:${e.tubiId}`,
+      titleId: t.id,
+      provider: 'tubi',
+      kind: 'external',
+      url: `https://tubitv.com/${e.type === 'series' ? 'series' : 'movies'}/${e.tubiId}`,
+      expectTitle: e.name,
+    });
+  }
+  // A direct Tubi page beats a Tubi search link from the JustWatch route for the same title.
+  const tubiTitles = new Set(extraLinks.filter((l) => l.id.startsWith('tubi:')).map((l) => l.titleId));
+  for (let i = extraLinks.length - 1; i >= 0; i--) {
+    const l = extraLinks[i];
+    if (l.synthetic && l.provider === 'tubi' && tubiTitles.has(l.titleId)) extraLinks.splice(i, 1);
   }
 
   const linksByStreamId = new Map();
