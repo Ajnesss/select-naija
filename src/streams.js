@@ -102,6 +102,7 @@ async function buildStreams(type, streamId, data, { tmdbApiKey, fetchImpl, now =
   if (title && /^tt\d+$/.test(titleId)) {
     const offers = await ukOffers(titleId, type, { apiKey: tmdbApiKey, fetchImpl, now });
     for (const o of offers) {
+      if (data.freeOnly && o.offer === 'subscription') continue;
       if (o.providerId && listedProviders.has(o.providerId)) continue;
       if (listedNames.has(o.providerName.toLowerCase())) continue;
       streams.push({

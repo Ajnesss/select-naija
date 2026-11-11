@@ -2,6 +2,13 @@
 
 Versions follow semantic versioning. Each release passes `npm test` and `node scripts/report.js --gate`.
 
+## 0.2.1 (2026-11-11)
+
+- Free only by default: subscription and rental links are hidden, so every title shown can be watched
+  without a paid service (Tubi, Plex, Prime Video's free section, BBC iPlayer, Channel 4, Filmzie).
+  `SELECT_NAIJA_FREE_ONLY=0` shows paid services again.
+- Netflix links open the film itself (Netflix IDs from Wikidata) instead of a search.
+
 ## 0.2.0 (2026-11-11)
 
 - Nightly discovery of Nigerian films and series watchable in the UK (TMDB, UK data from JustWatch):

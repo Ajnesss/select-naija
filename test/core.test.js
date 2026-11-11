@@ -219,3 +219,12 @@ test('discovered titles join the catalogue with JustWatch-confirmed links; curat
   // A week after the last discovery run the links are only stale; they never turn into unverified.
   assert.equal(linkState(data.status.links['jw:netflix2:tt2000001'], NOW + 8 * 864e5), 'stale');
 });
+
+test('free only: subscription and rental links are dropped, and titles with nothing free leave the rows', async () => {
+  const data = loadData(writeData(), { now: NOW, freeOnly: true });
+  const streams = await buildStreams('movie', 'tt0000001', data, { now: NOW });
+  assert.ok(!streams.some((s) => s.externalUrl === 'https://kava.example/osun')); // Kava is a subscription
+  assert.ok(streams.some((s) => s.externalUrl === 'https://tubi.example/osun')); // Tubi is free
+  // Iyalode is only on Kava → gone from the Yoruba row; Osun stays (Tubi, open archive).
+  assert.deepEqual(queryCatalog('movie', 'snaija-yoruba', {}, data, NOW).map((m) => m.id), ['tt0000001']);
+});
