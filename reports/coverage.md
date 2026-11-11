@@ -1,6 +1,6 @@
 # Select Naija coverage report
 
-Generated 2026-11-11T21:56:01.399Z. Links last verified 2026-11-11T21:56:01.358Z.
+Generated 2026-11-11T22:19:24.697Z. Links last verified 2026-11-11T22:19:24.658Z.
 A title counts as covered only if a verified Select Naija link is shown for it.
 
 ## Test catalogue by group
@@ -14,10 +14,10 @@ A title counts as covered only if a verified Select Naija link is shown for it.
 
 | Language | Catalogued | Covered | Coverage | Without TMDB/IMDb ID |
 | --- | --- | --- | --- | --- |
-| English | 214 | 213 | 99.5% | 25 |
-| Yoruba | 52 | 52 | 100% | 6 |
-| Igbo | 12 | 12 | 100% | 0 |
-| Hausa | 5 | 5 | 100% | 0 |
+| English | 221 | 75 | 33.9% | 25 |
+| Yoruba | 53 | 13 | 24.5% | 6 |
+| Igbo | 13 | 6 | 46.2% | 0 |
+| Hausa | 6 | 1 | 16.7% | 0 |
 | fr | 1 | 1 | 100% | 1 |
 
 ## Providers
@@ -26,7 +26,7 @@ A title counts as covered only if a verified Select Naija link is shown for it.
 | --- | --- | --- | --- | --- | --- |
 | Tubi | 40 | 0% | 100% | 100% | 1 |
 | Plex | 100 | 100% | 100% | 100% | 1 |
-| Select Naija test file | 100 | 100% | 100% | 100% | 9 |
+| Select Naija test file | 100 | 100% | 100% | 100% | 10 |
 
 ## Gaps: test titles with no verified source
 
