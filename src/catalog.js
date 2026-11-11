@@ -97,7 +97,7 @@ function toPreview(title) {
     type: title.type,
     name: title.name,
     poster: posterFor(title),
-    posterShape: 'poster',
+    posterShape: title.posterShape || 'poster',
     releaseInfo: title.year ? String(title.year) : undefined,
     genres: title.genres || [],
     description: title.description || undefined,

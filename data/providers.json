@@ -134,6 +134,18 @@
       "unavailableMarkers": [],
       "ukCheckRequired": true,
       "_note": "Catch-all for UK services TMDB lists that Select Naija has no entry for yet; the link shows the service's own name and opens TMDB's where-to-watch page."
+    },
+    {
+      "id": "dailymotion",
+      "name": "Dailymotion",
+      "access": "ads",
+      "unavailableMarkers": [
+        "video not found",
+        "this video is not available",
+        "private video"
+      ],
+      "ukCheckRequired": false,
+      "_note": "Approved channels only (data/channels.json). UK availability from Dailymotion's own geoblocking field."
     }
   ]
 }

@@ -25,6 +25,8 @@ jobs:
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: node scripts/discover.js
+      - name: Read approved video channels
+        run: node scripts/discover-dailymotion.js
       - name: Check every link
         env:
           VERIFY_LOCATION: github-actions
@@ -36,6 +38,6 @@ jobs:
         run: |
           git config user.name "select-naija-verifier"
           git config user.email "actions@users.noreply.github.com"
-          git add data/status.json data/discovered.json reports/
+          git add data/status.json data/discovered.json data/dailymotion.json reports/
           git diff --cached --quiet || git commit -m "Nightly verification $(date -u +%Y-%m-%d)"
           for i in 1 2 3; do git pull --rebase -q origin main && git push && break; sleep 5; done
