@@ -47,7 +47,8 @@
       "tmdbNames": [
         "Tubi TV",
         "Tubi"
-      ]
+      ],
+      "openUrl": "https://tubitv.com/search/{q}"
     },
     {
       "id": "plex",
@@ -107,6 +108,8 @@
       "tmdbNames": [
         "Amazon Prime Video",
         "Amazon Prime Video with Ads",
+        "Amazon Prime Video Free with Ads",
+        "Amazon MX Player",
         "Amazon Video"
       ],
       "openUrl": "https://www.primevideo.com/search?phrase={q}"
