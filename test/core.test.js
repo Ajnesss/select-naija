@@ -179,7 +179,7 @@ test('discovered titles join the catalogue with JustWatch-confirmed links; curat
   const { toEntry } = require('../scripts/discover');
   const d = baseData();
   d.providers.providers.push(
-    { id: 'netflix2', name: 'Netflix', access: 'subscription', tmdbNames: ['Netflix'], openUrl: 'https://www.netflix.com/search?q={q}' },
+    { id: 'netflix2', name: 'Netflix', access: 'subscription', tmdbNames: ['Netflix'], openUrl: 'https://www.netflix.com/search?q={q}', titleUrl: 'https://www.netflix.com/title/{id}' },
     { id: 'other', name: 'Other UK service', access: 'subscription' },
   );
   const dir = writeData({ providers: d.providers });
@@ -197,7 +197,9 @@ test('discovered titles join the catalogue with JustWatch-confirmed links; curat
   const show = toEntry('tv', { id: 9, name: 'Lakatabu', original_language: 'yo', first_air_date: '2024-01-01', seasons: [{ season_number: 0, episode_count: 2 }, { season_number: 1, episode_count: 2 }], 'watch/providers': fresh && detail({})['watch/providers'] });
   assert.equal(show.title.id, 'snaija-tmdb-tv-9');
   assert.deepEqual(show.title.videos, [{ season: 1, episode: 1 }, { season: 1, episode: 2 }]);
-  fs.writeFileSync(path.join(dir, 'discovered.json'), JSON.stringify({ generatedAt: hoursAgo(5), entries: [fresh, dupe, show] }));
+  const withId = toEntry('movie', detail({ id: 6, title: 'Aníkúlápó', external_ids: { imdb_id: 'tt2000002' } }));
+  withId.serviceIds = { netflix2: '81234567' };
+  fs.writeFileSync(path.join(dir, 'discovered.json'), JSON.stringify({ generatedAt: hoursAgo(5), entries: [fresh, dupe, show, withId] }));
 
   const data = loadData(dir, { now: NOW });
   assert.equal(data.byId.get('tt0000001').name, 'Ọ̀ṣun Sẹ̀ẹ̀gẹ̀sí'); // curated wins
@@ -210,6 +212,8 @@ test('discovered titles join the catalogue with JustWatch-confirmed links; curat
   const c5 = streams.find((s) => /Channel 5/.test(s.name));
   assert.equal(c5.externalUrl, 'https://tmdb/watch');
   assert.equal(streams.length, 2);
+  const direct = await buildStreams('movie', 'tt2000002', data, { now: NOW });
+  assert.ok(direct.some((x) => x.externalUrl === 'https://www.netflix.com/title/81234567'));
   const ep = await buildStreams('series', 'snaija-tmdb-tv-9:1:2', data, { now: NOW });
   assert.equal(ep.length, 2);
   // A week after the last discovery run the links are only stale; they never turn into unverified.

@@ -62,7 +62,13 @@ function loadData(dataDir, { now = Date.now() } = {}) {
       const slug = p.id === 'other' ? `other-${offer.tmdbProviderId}` : p.id;
       const id = `jw:${slug}:${t.id}`;
       if (discoveredStatus[id]) continue; // e.g. "Prime Video" and "Prime Video with Ads": one link, cheapest offer first
-      const url = p.openUrl ? p.openUrl.replace('{q}', encodeURIComponent(t.name)) : entry.watchLink;
+      const serviceId = entry.serviceIds?.[p.id];
+      const url =
+        serviceId && p.titleUrl
+          ? p.titleUrl.replace('{id}', encodeURIComponent(serviceId))
+          : p.openUrl
+            ? p.openUrl.replace('{q}', encodeURIComponent(t.name))
+            : entry.watchLink;
       if (!url) continue;
       extraLinks.push({
         id,
