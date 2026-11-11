@@ -1,0 +1,7 @@
+URL: https://api.themoviedb.org/3/search/keyword?query=igbo&api_key={TMDB}
+FINAL: https://api.themoviedb.org/3/search/keyword?query=igbo&api_key=***
+STATUS: 200
+TYPE: application/json;charset=utf-8
+LENGTH: 220
+
+{"page":1,"results":[{"id":331191,"name":"igbo"},{"id":363383,"name":"igbo culture"},{"id":363385,"name":"igbo spirituality"},{"id":351163,"name":"agbo"},{"id":365898,"name":"igboora"}],"total_pages":1,"total_results":5}

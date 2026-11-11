@@ -1,0 +1,7 @@
+URL: https://api.themoviedb.org/3/search/company?query=Greoh%20Studios&api_key={TMDB}
+FINAL: https://api.themoviedb.org/3/search/company?query=Greoh%20Studios&api_key=***
+STATUS: 200
+TYPE: application/json;charset=utf-8
+LENGTH: 234
+
+{"page":1,"results":[{"id":136717,"logo_path":"/1MEi8BiqZhHxG5Jfc8kuH1IjgI7.png","name":"Greoh Studios","origin_country":"NG"},{"id":295463,"logo_path":null,"name":"GEO Studios","origin_country":""}],"total_pages":1,"total_results":2}

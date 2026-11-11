@@ -1,0 +1,7 @@
+URL: https://api.themoviedb.org/3/search/company?query=Trino%20Studios&api_key={TMDB}
+FINAL: https://api.themoviedb.org/3/search/company?query=Trino%20Studios&api_key=***
+STATUS: 200
+TYPE: application/json;charset=utf-8
+LENGTH: 1200
+
+{"page":1,"results":[{"id":226723,"logo_path":"/u64dTaH3JEWdHJgbB1pexZIbFOP.png","name":"Trino Studios","origin_country":"NG"},{"id":172702,"logo_path":null,"name":"Trium Studios","origin_country":"MY"},{"id":30957,"logo_path":null,"name":"Trent Studios","origin_country":""},{"id":252039,"logo_path":null,"name":"TRITS Studios","origin_country":""},{"id":109054,"logo_path":null,"name":"Taiko Studios","origin_country":"CN"},{"id":78324,"logo_path":null,"name":"Triad Studios","origin_country":""},{"id":226593,"logo_path":null,"name":"Tripod Studios","origin_country":""},{"id":281435,"logo_path":null,"name":"Kriko Studios","origin_country":""},{"id":164726,"logo_path":null,"name":"Think Studios","origin_country":"IN"},{"id":316457,"logo_path":null,"name":"Aruno Studios","origin_country":""},{"id":284252,"logo_path":null,"name":"Runo Studios","origin_country":""},{"id":172684,"logo_path":null,"name":"Jino Studios","origin_country":""},{"id":262196,"logo_path":null,"name":"KINO Studios","origin_country":"CA"},{"id":288677,"logo_path":null,"name":"Tran Studios","origin_country":""},{"id":273522,"logo_path":null,"name":"Ino Studios","origin_country":""}],"total_pages":1,"total_results":15}

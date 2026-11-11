@@ -1,0 +1,7 @@
+URL: https://api.themoviedb.org/3/search/keyword?query=lagos&api_key={TMDB}
+FINAL: https://api.themoviedb.org/3/search/keyword?query=lagos&api_key=***
+STATUS: 200
+TYPE: application/json;charset=utf-8
+LENGTH: 228
+
+{"page":1,"results":[{"id":226611,"name":"lagos"},{"id":274658,"name":"logos"},{"id":322758,"name":"lagons"},{"id":8810,"name":"laos"},{"id":304354,"name":"lago"},{"id":292407,"name":"logo's"}],"total_pages":1,"total_results":6}
