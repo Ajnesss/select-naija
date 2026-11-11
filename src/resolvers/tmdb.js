@@ -112,7 +112,11 @@ async function ukProvidersFor(imdbId, type, { apiKey, fetchImpl = fetch, timeout
     if (!hit) return { known: false, reason: 'not_on_tmdb' };
     const kind = type === 'series' ? 'tv' : 'movie';
     const wp = await getJson(`${API}/${kind}/${hit.id}/watch/providers?api_key=${encodeURIComponent(apiKey)}`, fetchImpl, timeoutMs);
-    const gb = wp.results?.[REGION] || {};
+    const gb = wp.results?.[REGION];
+    // No UK listing at all means JustWatch doesn't cover this title here (common for Nollywood), not that
+    // it's unavailable: Nollywood Babylon has no JustWatch UK page yet plays on Plex in the UK.
+    if (!gb || !['free', 'ads', 'flatrate', 'rent', 'buy'].some((f) => (gb[f] || []).length))
+      return { known: false, reason: 'no_uk_data' };
     const providers = new Set();
     for (const field of ['free', 'ads', 'flatrate', 'rent', 'buy'])
       for (const p of gb[field] || []) {

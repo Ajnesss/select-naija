@@ -60,8 +60,9 @@ How a provider link is judged in the nightly run (`ukCheckRequired` providers):
 
 - Page fails (gone, wrong title, "unavailable" wording) → fails.
 - Provider is one JustWatch tracks in the UK (`justwatchTracked`: Tubi, Plex, Netflix) and JustWatch's UK
-  list for the title doesn't include it → fails as `not_in_uk:justwatch`.
-- No UK answer possible (title has no IMDb/TMDB entry, provider not tracked by JustWatch, TMDB down) → passes,
+  has UK offers for the title but not on that provider → fails as `not_in_uk:justwatch`.
+- No UK answer possible (JustWatch has no UK listing for the title, which is common for Nollywood; no
+  IMDb/TMDB entry; provider not tracked by JustWatch; TMDB down) → passes,
   ranked after confirmed links and labelled "UK availability not confirmed" in Nuvio.
 
 A TMDB failure never counts as "not in the UK". The UK run, when it happens, is the most accurate answer:
