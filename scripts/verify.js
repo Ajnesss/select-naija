@@ -16,7 +16,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { readJson } = require('../src/data');
+const { readJson, loadData } = require('../src/data');
 const { checkExternal, checkDirect, confirmUk, applyResult, scoreProvider } = require('../src/verifier');
 const { ukProvidersFor } = require('../src/resolvers/tmdb');
 
@@ -87,7 +87,10 @@ async function main() {
   }
   const statusFile = path.join(DATA, ukRun ? 'status-uk.json' : 'status.json');
   const providers = new Map(readJson(path.join(DATA, 'providers.json')).providers.map((p) => [p.id, p]));
-  const links = readJson(path.join(DATA, 'links.json')).links.filter(
+  // Every real link: hand-added ones plus Tubi UK collection links. Links that exist only because a nightly
+  // listing confirmed them (JustWatch offers, Dailymotion parts) carry that listing as their check.
+  const realLinks = loadData(DATA, { freeOnly: false }).allLinks.filter((l) => !l.synthetic);
+  const links = realLinks.filter(
     (l) => (!only || l.provider === only) && (!ukRun || Boolean(providers.get(l.provider)?.ukCheckRequired)),
   );
   const owns = (pid) => !ukRun || Boolean(providers.get(pid)?.ukCheckRequired);
@@ -140,7 +143,7 @@ async function main() {
   );
 
   // Keep only records this kind of run owns, for links that still exist.
-  const allLinks = readJson(path.join(DATA, 'links.json')).links;
+  const allLinks = realLinks;
   const providerOf = new Map(allLinks.map((l) => [l.id, l.provider]));
   for (const id of Object.keys(status.links)) {
     const pid = providerOf.get(id);
