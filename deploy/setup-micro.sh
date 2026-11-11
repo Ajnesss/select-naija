@@ -1,6 +1,6 @@
 #!/bin/bash
 # Select Naija on its own Oracle "Micro" server (VM.Standard.E2.1.Micro, 1 GB, Ubuntu).
-# Paste this whole file into "Cloud-init script" (Show advanced options → Management) when creating
+# Paste this whole file into "Cloud-init script" (Show advanced options -> Management) when creating
 # the Select Naija server. It installs everything on first boot and touches nothing else.
 # It is NOT for the German server and must never be run there.
 # Progress log on the server: /var/log/select-naija-setup.log
