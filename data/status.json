@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T21:04:30.846Z",
+ "generatedAt": "2026-11-11T21:05:11.004Z",
  "links": {
   "selftest:bbb-10s": {
    "checks": [
@@ -22,11 +22,16 @@
      "at": "2026-11-11T21:04:29.922Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-11T21:05:10.121Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-11T21:04:29.922Z",
+   "lastCheck": "2026-11-11T21:05:10.121Z",
    "lastReason": null,
-   "lastOk": "2026-11-11T21:04:29.922Z",
+   "lastOk": "2026-11-11T21:05:10.121Z",
    "finalUrl": "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4"
   },
   "plex:nollywood-babylon": {
@@ -40,10 +45,16 @@
      "at": "2026-11-11T21:04:30.845Z",
      "ok": false,
      "reason": "not_in_uk:justwatch"
+    },
+    {
+     "at": "2026-11-11T21:05:11.004Z",
+     "ok": false,
+     "reason": "not_in_uk:justwatch"
     }
    ],
-   "lastCheck": "2026-11-11T21:04:30.845Z",
-   "lastReason": "not_in_uk:justwatch"
+   "lastCheck": "2026-11-11T21:05:11.004Z",
+   "lastReason": "not_in_uk:justwatch",
+   "ukListed": "Filmzie (ads)"
   },
   "tubi:100014072": {
    "checks": [
@@ -56,10 +67,16 @@
      "at": "2026-11-11T21:04:30.535Z",
      "ok": false,
      "reason": "not_in_uk:justwatch"
+    },
+    {
+     "at": "2026-11-11T21:05:10.635Z",
+     "ok": false,
+     "reason": "not_in_uk:justwatch"
     }
    ],
-   "lastCheck": "2026-11-11T21:04:30.535Z",
-   "lastReason": "not_in_uk:justwatch"
+   "lastCheck": "2026-11-11T21:05:10.635Z",
+   "lastReason": "not_in_uk:justwatch",
+   "ukListed": "Apple TV Store (rent), Amazon Video (rent), Sky Store (rent), YouTube (rent), Apple TV Store (buy), Amazon Video (buy), Sky Store (buy), YouTube (buy)"
   }
  },
  "providers": {
@@ -68,21 +85,21 @@
    "reliability30d": 0,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 2
+   "checks30d": 3
   },
   "plex": {
    "score": 40,
    "reliability30d": 0,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 2
+   "checks30d": 3
   },
   "selftest": {
    "score": 100,
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 4
+   "checks30d": 5
   }
  },
  "checkedFrom": "github-actions; UK availability from JustWatch via TMDB"
