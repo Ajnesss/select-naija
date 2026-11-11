@@ -1,7 +1,0 @@
-URL: https://api.themoviedb.org/3/search/company?query=Kemi%20Adetiba&api_key={TMDB}
-FINAL: https://api.themoviedb.org/3/search/company?query=Kemi%20Adetiba&api_key=***
-STATUS: 200
-TYPE: application/json;charset=utf-8
-LENGTH: 137
-
-{"page":1,"results":[{"id":112657,"logo_path":null,"name":"Kemi Adetiba Visuals","origin_country":""}],"total_pages":1,"total_results":1}

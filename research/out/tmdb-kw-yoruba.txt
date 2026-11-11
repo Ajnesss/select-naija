@@ -1,7 +1,0 @@
-URL: https://api.themoviedb.org/3/search/keyword?query=yoruba&api_key={TMDB}
-FINAL: https://api.themoviedb.org/3/search/keyword?query=yoruba&api_key=***
-STATUS: 200
-TYPE: application/json;charset=utf-8
-LENGTH: 261
-
-{"page":1,"results":[{"id":253854,"name":"yoruba"},{"id":375699,"name":"iorubá"},{"id":287114,"name":"nouba"},{"id":352357,"name":"corba"},{"id":237391,"name":"aruba"},{"id":321019,"name":"yarub"},{"id":358546,"name":"zorba"}],"total_pages":1,"total_results":7}

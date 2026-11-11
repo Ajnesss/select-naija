@@ -1,0 +1,7 @@
+URL: https://api.dailymotion.com/user/Yorubahood?fields=id,username,screenname,videos_total,followers_total,verified,partner,description,country,website_url,created_time
+FINAL: https://api.dailymotion.com/user/Yorubahood?fields=id,username,screenname,videos_total,followers_total,verified,partner,description,country,website_url,created_time
+STATUS: 200
+TYPE: application/json; charset=UTF-8
+LENGTH: 216
+
+{"id":"x1natog","username":"Yorubahood","screenname":"Yorubahood","videos_total":482,"followers_total":369,"verified":false,"partner":true,"description":"","country":"GB","website_url":null,"created_time":1445872059}

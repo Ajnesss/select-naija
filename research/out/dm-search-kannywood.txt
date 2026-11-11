@@ -1,7 +1,0 @@
-URL: https://api.dailymotion.com/videos?search=kannywood&fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,owner.partner&limit=100&longer_than=50
-FINAL: https://api.dailymotion.com/videos?search=kannywood&fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,owner.partner&limit=100&longer_than=50
-STATUS: 200
-TYPE: application/json; charset=UTF-8
-LENGTH: 300
-
-{"page":1,"limit":100,"explicit":false,"total":1,"has_more":false,"list":[{"id":"x5w8u4b","title":"Dadin Kowa Sabon Salo Episode 9","duration":3349,"created_time":1502145939,"owner.username":"AllisonIvory5484714","owner.screenname":"AllisonIvory5484714","owner.verified":false,"owner.partner":true}]}

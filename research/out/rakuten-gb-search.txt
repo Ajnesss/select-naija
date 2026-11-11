@@ -1,7 +1,0 @@
-URL: https://gizmo.rakuten.tv/v3/search?classification_id=18&device_identifier=web&locale=en&market_code=uk&q=nollywood&per_page=50
-FINAL: https://gizmo.rakuten.tv/v3/search?classification_id=18&device_identifier=web&locale=en&market_code=uk&q=nollywood&per_page=50
-STATUS: 404
-TYPE: application/json; charset=utf-8
-LENGTH: 88
-
-{"errors":[{"field":"base","code":"error.route_not_found","message":"Route not found"}]}

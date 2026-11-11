@@ -1,7 +1,0 @@
-URL: https://api.themoviedb.org/3/search/company?query=EbonyLife&api_key={TMDB}
-FINAL: https://api.themoviedb.org/3/search/company?query=EbonyLife&api_key=***
-STATUS: 200
-TYPE: application/json;charset=utf-8
-LENGTH: 348
-
-{"page":1,"results":[{"id":158227,"logo_path":null,"name":"EbonyLife TV","origin_country":"NG"},{"id":180943,"logo_path":"/9rlSVKVlqpAGDh2QItGPENiv7Iz.png","name":"EbonyLife Studios","origin_country":"NG"},{"id":71025,"logo_path":"/ztZVgCr9gw4m6ceBe3HagXWvv8q.png","name":"EbonyLife Films","origin_country":"NG"}],"total_pages":1,"total_results":3}

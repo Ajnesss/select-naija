@@ -1,7 +1,0 @@
-URL: https://api.themoviedb.org/3/search/company?query=Anakle&api_key={TMDB}
-FINAL: https://api.themoviedb.org/3/search/company?query=Anakle&api_key=***
-STATUS: 200
-TYPE: application/json;charset=utf-8
-LENGTH: 297
-
-{"page":1,"results":[{"id":203941,"logo_path":"/lW9UcxOcwqlxISHVC04KfpVmVLU.png","name":"Anakle Films","origin_country":"NG"},{"id":277359,"logo_path":null,"name":"Angle","origin_country":"JP"},{"id":128886,"logo_path":null,"name":"Anele","origin_country":"IT"}],"total_pages":1,"total_results":3}
