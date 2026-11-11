@@ -1,29 +1,83 @@
 {
- "_note": "Batch 4: Tubi UK Nollywood category.",
+ "_note": "Batch 5: Tubi UK search and paging.",
  "probes": [
   {
-   "name": "tubi-uk-nolly-cat",
-   "url": "https://tubitv.com/category/nollywood_naija_tales",
+   "name": "tubi-uk-nolly-cursor",
+   "url": "https://tubitv.com/category/nollywood_naija_tales?cursor=50",
    "viaUk": true,
    "max": 3000000
   },
   {
-   "name": "tubi-uk-nolly-oz",
-   "url": "https://tubitv.com/oz/containers/nollywood_naija_tales/content?parentId=&cursor=0&limit=200&isKidsMode=false&expand=0",
+   "name": "tubi-uk-search-yoruba",
+   "url": "https://tubitv.com/search/yoruba",
    "viaUk": true,
    "max": 3000000
   },
   {
-   "name": "tubi-uk-black-cat",
-   "url": "https://tubitv.com/category/black_cinema",
+   "name": "tubi-uk-search-nollywood",
+   "url": "https://tubitv.com/search/nollywood",
    "viaUk": true,
    "max": 3000000
   },
   {
-   "name": "tubi-uk-movie-buddy",
-   "url": "https://tubitv.com/movies/100014072",
+   "name": "tubi-uk-search-nigerian",
+   "url": "https://tubitv.com/search/nigerian",
    "viaUk": true,
-   "max": 600000
+   "max": 3000000
+  },
+  {
+   "name": "tubi-uk-search-igbo",
+   "url": "https://tubitv.com/search/igbo",
+   "viaUk": true,
+   "max": 3000000
+  },
+  {
+   "name": "tubi-uk-search-hausa",
+   "url": "https://tubitv.com/search/hausa",
+   "viaUk": true,
+   "max": 3000000
+  },
+  {
+   "name": "tubi-uk-search-odunlade-adekola",
+   "url": "https://tubitv.com/search/odunlade%20adekola",
+   "viaUk": true,
+   "max": 3000000
+  },
+  {
+   "name": "tubi-uk-search-funke-akindele",
+   "url": "https://tubitv.com/search/funke%20akindele",
+   "viaUk": true,
+   "max": 3000000
+  },
+  {
+   "name": "tubi-uk-search-mercy-aigbe",
+   "url": "https://tubitv.com/search/mercy%20aigbe",
+   "viaUk": true,
+   "max": 3000000
+  },
+  {
+   "name": "tubi-uk-search-ramsey-nouah",
+   "url": "https://tubitv.com/search/ramsey%20nouah",
+   "viaUk": true,
+   "max": 3000000
+  },
+  {
+   "name": "tubi-uk-search-nkem-owoh",
+   "url": "https://tubitv.com/search/nkem%20owoh",
+   "viaUk": true,
+   "max": 3000000
+  },
+  {
+   "name": "tubi-uk-search-ali-nuhu",
+   "url": "https://tubitv.com/search/ali%20nuhu",
+   "viaUk": true,
+   "max": 3000000
+  },
+  {
+   "name": "tubi-uk-search-lateef-adedimeji",
+   "url": "https://tubitv.com/search/lateef%20adedimeji",
+   "viaUk": true,
+   "max": 3000000
   }
  ]
 }
