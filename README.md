@@ -33,7 +33,8 @@ Nuvio the final address.
 ## Provider score
 
 0–100 = 60% link reliability over 30 days + 30% hand-checked accuracy (`data/accuracy.json`) + 10% freshness.
-Below 80 a provider ranks lower; below 50 its links are hidden.
+Below 80 a provider ranks lower; below 50 its links are hidden. A score only counts once it rests on
+at least 10 checks in 30 days, so one dead link can't hide a whole provider.
 
 ## Reports and release gate
 

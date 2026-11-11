@@ -16,6 +16,7 @@ const ROOT = path.join(__dirname, '..');
 const DATA = path.join(ROOT, 'data');
 const OUT = path.join(ROOT, 'reports');
 const GATE_DROP = 5;
+const { MIN_CHECKS } = require('../src/streams');
 
 function pct(n, d) {
   return d ? Math.round((1000 * n) / d) / 10 : null;
@@ -113,7 +114,8 @@ function main() {
           problems.push(`language ${l} coverage fell ${before}% → ${v.coverage}%`);
       }
     }
-    for (const [p, v] of Object.entries(report.providers)) if (v.score < 50) problems.push(`provider ${p} scored ${v.score}`);
+    for (const [p, v] of Object.entries(report.providers))
+      if (v.score < 50 && v.checks30d >= MIN_CHECKS) problems.push(`provider ${p} scored ${v.score}`);
     if (problems.length) {
       console.error(`\nRELEASE BLOCKED:\n- ${problems.join('\n- ')}`);
       process.exit(2);

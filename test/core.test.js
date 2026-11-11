@@ -86,7 +86,7 @@ test('streams: in-app first with resolved file address, then verified, then stal
 
 test('streams: providers scoring under 50 are hidden', async () => {
   const d = baseData();
-  d.status.providers.kava = { score: 40 };
+  d.status.providers.kava = { score: 40, checks30d: 25 };
   const data = loadData(writeData({ status: d.status }));
   const streams = await buildStreams('movie', 'tt0000001', data, { now: NOW });
   assert.ok(!streams.some((s) => s.externalUrl === 'https://kava.example/osun'));
@@ -135,4 +135,12 @@ test('UK check results are merged with the main results', async () => {
   const data = loadData(dir);
   assert.ok(queryCatalog('movie', 'snaija-yoruba', {}, data, NOW).some((m) => m.id === 'snaija-iyalode-2025'));
   assert.equal(data.status.providers.kava.score, 90);
+});
+
+test('a provider with too few checks is not demoted or hidden', async () => {
+  const d = baseData();
+  d.status.providers.kava = { score: 40, checks30d: 1 };
+  const data = loadData(writeData({ status: d.status }));
+  const streams = await buildStreams('movie', 'tt0000001', data, { now: NOW });
+  assert.ok(streams.some((s) => s.externalUrl === 'https://kava.example/osun'));
 });
