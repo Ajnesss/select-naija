@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T21:28:13.916Z",
+ "generatedAt": "2026-11-11T21:56:00.572Z",
  "source": "TMDB discover, UK availability from JustWatch",
  "entries": [
   {
@@ -81,7 +81,10 @@
      "access": "subscription"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/1172009-the-black-book/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/1172009-the-black-book/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81698992"
+   }
   },
   {
    "title": {
@@ -122,7 +125,10 @@
      "access": "subscription"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/588346-chief-daddy/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/588346-chief-daddy/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81074015"
+   }
   },
   {
    "title": {
@@ -164,7 +170,10 @@
      "access": "subscription"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/874562-swallow/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/874562-swallow/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81392180"
+   }
   },
   {
    "title": {
@@ -198,7 +207,10 @@
      "access": "ads"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/412189-the-arbitration/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/412189-the-arbitration/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "80208830"
+   }
   },
   {
    "title": {
@@ -238,7 +250,10 @@
      "access": "subscription"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/1311550-house-of-ga-a/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/1311550-house-of-ga-a/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81681233"
+   }
   },
   {
    "title": {
@@ -428,7 +443,10 @@
      "access": "subscription"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/1214891-blood-vessel/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/1214891-blood-vessel/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81676887"
+   }
   },
   {
    "title": {
@@ -508,7 +526,10 @@
      "access": "subscription"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/1063242-disconnect-the-wedding-planner/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/1063242-disconnect-the-wedding-planner/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81598307"
+   }
   },
   {
    "title": {
@@ -544,7 +565,10 @@
      "access": "ads"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/412195-taxi-driver-oko-ashewo/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/412195-taxi-driver-oko-ashewo/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "80127504"
+   }
   },
   {
    "title": {
@@ -578,7 +602,10 @@
      "access": "subscription"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/922017-chief-daddy-2-going-for-broke/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/922017-chief-daddy-2-going-for-broke/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81323628"
+   }
   },
   {
    "title": {
@@ -619,7 +646,10 @@
      "access": "subscription"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/1364082-hijack-93/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/1364082-hijack-93/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81676888"
+   }
   },
   {
    "title": {
@@ -665,7 +695,10 @@
      "access": "subscription"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/648041-living-in-bondage-breaking-free/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/648041-living-in-bondage-breaking-free/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81270668"
+   }
   },
   {
    "title": {
@@ -700,7 +733,10 @@
      "access": "ads"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/488424-the-wedding-party-2-destination-dubai/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/488424-the-wedding-party-2-destination-dubai/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81172728"
+   }
   },
   {
    "title": {
@@ -1055,7 +1091,10 @@
      "access": "subscription"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/1163045-jagun-jagun/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/1163045-jagun-jagun/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81681240"
+   }
   },
   {
    "title": {
@@ -1246,7 +1285,10 @@
      "access": "subscription"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/1190800-merry-men-3-nemesis/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/1190800-merry-men-3-nemesis/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81689059"
+   }
   },
   {
    "title": {
@@ -1287,7 +1329,10 @@
      "access": "subscription"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/669374-2-weeks-in-lagos/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/669374-2-weeks-in-lagos/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81435742"
+   }
   },
   {
    "title": {
@@ -1326,7 +1371,10 @@
      "access": "subscription"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/982981-glamour-girls/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/982981-glamour-girls/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81478629"
+   }
   },
   {
    "title": {
@@ -1448,7 +1496,10 @@
      "access": "subscription"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/1005774-elesin-oba-the-king-s-horseman/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/1005774-elesin-oba-the-king-s-horseman/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81332042"
+   }
   },
   {
    "title": {
@@ -1745,7 +1796,10 @@
      "access": "subscription"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/1463785-a-lagos-love-story/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/1463785-a-lagos-love-story/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81690316"
+   }
   },
   {
    "title": {
@@ -2085,7 +2139,10 @@
      "access": "subscription"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/1076955-entre-el-amor-y-la-amistad/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/1076955-entre-el-amor-y-la-amistad/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81462490"
+   }
   },
   {
    "title": {
@@ -2338,7 +2395,10 @@
      "access": "subscription"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/1023994-anikulapo/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/1023994-anikulapo/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81392197"
+   }
   },
   {
    "title": {
@@ -2765,7 +2825,10 @@
      "access": "subscription"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/1263066-a-taste-of-sin/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/1263066-a-taste-of-sin/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81746729"
+   }
   },
   {
    "title": {
@@ -3348,7 +3411,10 @@
      "access": "subscription"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/1210724-afamefuna-an-nwa-boi-story/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/1210724-afamefuna-an-nwa-boi-story/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81730157"
+   }
   },
   {
    "title": {
@@ -3393,7 +3459,10 @@
      "access": "subscription"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/555745-dinner/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/555745-dinner/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81735961"
+   }
   },
   {
    "title": {
@@ -3509,7 +3578,10 @@
      "access": "subscription"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/1179061-ij-gb-n/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/1179061-ij-gb-n/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81671712"
+   }
   },
   {
    "title": {
@@ -3793,7 +3865,10 @@
      "access": "ads"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/665867-the-set-up/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/665867-the-set-up/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81270837"
+   }
   },
   {
    "title": {
@@ -3902,7 +3977,10 @@
      "access": "ads"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/605199-the-accidental-spy/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/605199-the-accidental-spy/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81172908"
+   }
   },
   {
    "title": {
@@ -4052,7 +4130,10 @@
      "access": "subscription"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/882102-a-naija-christmas/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/882102-a-naija-christmas/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81434660"
+   }
   },
   {
    "title": {
@@ -4957,7 +5038,10 @@
      "access": "subscription"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/475943-couple-of-days/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/475943-couple-of-days/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "80126995"
+   }
   },
   {
    "title": {
@@ -5420,7 +5504,10 @@
      "access": "subscription"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/1201949-adire/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/1201949-adire/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81730156"
+   }
   },
   {
    "title": {
@@ -5797,7 +5884,10 @@
      "access": "ads"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/572210-moms-at-war/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/572210-moms-at-war/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81172848"
+   }
   },
   {
    "title": {
@@ -6305,7 +6395,10 @@
      "access": "ads"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/459990-the-visit/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/459990-the-visit/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "80127441"
+   }
   },
   {
    "title": {
@@ -6659,7 +6752,10 @@
      "access": "ads"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/796733-three-thieves/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/796733-three-thieves/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81412173"
+   }
   },
   {
    "title": {
@@ -7444,7 +7540,10 @@
      "access": "subscription"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/543774-lionheart/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/543774-lionheart/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81030789"
+   }
   },
   {
    "title": {
@@ -7523,7 +7622,10 @@
      "access": "subscription"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/1174917-strained/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/1174917-strained/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81730158"
+   }
   },
   {
    "title": {
@@ -7594,7 +7696,10 @@
      "access": "ads"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/475938-the-department/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/475938-the-department/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "80127440"
+   }
   },
   {
    "title": {
@@ -7674,7 +7779,10 @@
      "access": "subscription"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/20526-tron-legacy/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/20526-tron-legacy/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "70124805"
+   }
   },
   {
    "title": {
@@ -7856,7 +7964,10 @@
      "access": "ads"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/629742-merry-men-the-real-yoruba-demons/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/629742-merry-men-the-real-yoruba-demons/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81172727"
+   }
   },
   {
    "title": {
@@ -7891,7 +8002,10 @@
      "access": "ads"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/658739-4th-republic/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/658739-4th-republic/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81049899"
+   }
   },
   {
    "title": {
@@ -8071,7 +8185,10 @@
      "access": "subscription"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/274-the-silence-of-the-lambs/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/274-the-silence-of-the-lambs/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "14546747"
+   }
   },
   {
    "title": {
@@ -8222,7 +8339,10 @@
      "access": "subscription"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/tv/197428-blood-sisters/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/tv/197428-blood-sisters/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81521086"
+   }
   },
   {
    "title": {
@@ -8489,7 +8609,10 @@
      "access": "subscription"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/tv/215874-far-from-home/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/tv/215874-far-from-home/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81282563"
+   }
   },
   {
    "title": {
@@ -8748,7 +8871,10 @@
      "access": "subscription"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/tv/293479-the-party/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/tv/293479-the-party/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81940044"
+   }
   },
   {
    "title": {

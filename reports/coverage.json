@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-11T21:28:14.651Z",
- "statusGeneratedAt": "2026-11-11T21:28:14.602Z",
+ "generatedAt": "2026-11-11T21:56:01.399Z",
+ "statusGeneratedAt": "2026-11-11T21:56:01.358Z",
  "groups": {
   "classics": {
    "total": 1,
@@ -65,7 +65,7 @@
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 8
+   "checks30d": 9
   }
  },
  "gaps": [
