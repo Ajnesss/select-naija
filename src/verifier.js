@@ -100,7 +100,8 @@ async function confirmUk(pageResult, link, provider, title, lookup) {
   if (!provider.justwatchTracked) return { ...pageResult, ukSignal: 'page-only' };
   const uk = await lookup(link.titleId, title?.type === 'series' ? 'series' : 'movie');
   if (!uk.known) return { ...pageResult, ukSignal: 'page-only' };
-  if (!uk.providers.has(link.provider)) return { ok: false, reason: 'not_in_uk:justwatch' };
+  if (!uk.providers.has(link.provider))
+    return { ok: false, reason: 'not_in_uk:justwatch', ukListed: (uk.names || []).join(', ') || null };
   return { ...pageResult, ukSignal: 'justwatch' };
 }
 
@@ -110,6 +111,7 @@ function applyResult(record, result, now = Date.now()) {
   next.checks = [...(next.checks || []), { at, ok: result.ok, reason: result.reason || null }].slice(-KEEP_CHECKS);
   next.lastCheck = at;
   next.lastReason = result.ok ? null : result.reason;
+  if (result.ukListed !== undefined) next.ukListed = result.ukListed;
   if (result.ok) {
     next.lastOk = at;
     if (result.finalUrl) next.finalUrl = result.finalUrl;

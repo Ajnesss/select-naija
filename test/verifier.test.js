@@ -78,7 +78,7 @@ test('confirmUk: JustWatch UK data decides for tracked providers, otherwise page
   const notListed = async () => ({ known: true, providers: new Set(['netflix']) });
   const unknown = async () => ({ known: false, reason: 'tmdb_error' });
   assert.equal((await confirmUk(pass, link, tubi, {}, listed)).ukSignal, 'justwatch');
-  assert.deepEqual(await confirmUk(pass, link, tubi, {}, notListed), { ok: false, reason: 'not_in_uk:justwatch' });
+  assert.equal((await confirmUk(pass, link, tubi, {}, notListed)).reason, 'not_in_uk:justwatch');
   assert.equal((await confirmUk(pass, link, tubi, {}, unknown)).ukSignal, 'page-only');
   assert.equal((await confirmUk(pass, { ...link, provider: 'kava' }, kava, {}, notListed)).ukSignal, 'page-only');
   const fail = { ok: false, reason: 'http_404' };

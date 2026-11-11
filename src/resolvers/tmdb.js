@@ -118,12 +118,14 @@ async function ukProvidersFor(imdbId, type, { apiKey, fetchImpl = fetch, timeout
     if (!gb || !['free', 'ads', 'flatrate', 'rent', 'buy'].some((f) => (gb[f] || []).length))
       return { known: false, reason: 'no_uk_data' };
     const providers = new Set();
+    const names = new Set();
     for (const field of ['free', 'ads', 'flatrate', 'rent', 'buy'])
       for (const p of gb[field] || []) {
+        names.add(`${p.provider_name} (${field})`);
         const id = NAME_TO_PROVIDER[String(p.provider_name).toLowerCase()];
         if (id) providers.add(id);
       }
-    return { known: true, providers };
+    return { known: true, providers, names: [...names] };
   } catch (err) {
     return { known: false, reason: 'tmdb_error' };
   }
