@@ -6,14 +6,14 @@ watch, legitimate (rights-holder or licensed platform), no YouTube, no paid serv
 
 | Source | Free in UK | Legitimacy | Size (Nigerian) | Languages | How it opens on Fire TV | Status |
 | --- | --- | --- | --- | --- | --- | --- |
-| Tubi UK | Yes, ads | Licensed AVOD (Fox) | Large; launched in UK with a Nollywood focus. ~57 matched via TMDB so far | Mostly English, some Yoruba | Tubi app (title link to test) | **Live** via TMDB; full catalogue needs a UK vantage point |
+| Tubi UK | Yes, ads | Licensed AVOD (Fox) | 98 titles: UK-only "Nollywood Naija Tales" collection (50 shown per visit, rotates; seen titles kept and re-checked) plus TMDB matches | Mostly English, some Yoruba/Hausa | Tubi app (title link to test) | **Live**, checked nightly from London |
 | Prime Video free section (ex-Freevee, MX Player) | Yes, ads; Amazon account only | Licensed | 22 via TMDB | English | Prime Video app (link to test) | **Live** via TMDB |
 | Plex free | Yes, ads | Licensed AVOD | 12 via TMDB | English | Plex app | **Live** via TMDB |
 | BBC iPlayer, Channel 4 | Yes | Broadcaster | 3 | English | iPlayer / Channel 4 apps | **Live** via TMDB |
 | Filmzie | Yes, ads | Licensed AVOD | 2 | English | Browser | **Live** via TMDB |
-| Dailymotion: Extra Nolly TV (`realnollywoodmovies`) | Yes, ads | Dailymotion-verified partner channel | 5,862 videos (films often split into parts) | English | Browser (Silk) | **Next: integrate** |
-| Dailymotion: YORUBAWOOD (`yorubaplay`, iBAKATV's channel) | Yes, ads | Verified; official channel of distributor iBAKATV | 67 full Yoruba films | Yoruba | Browser (Silk) | **Next: integrate** |
-| Dailymotion: Yorubahood, NollyExtra | Yes | Partner but **not verified**; rights unclear | 482 / 178 | Yoruba / English | Browser | Hold until rights confirmed |
+| Dailymotion: Extra Nolly TV (`realnollywoodmovies`) | Yes, ads | Dailymotion-verified partner channel | 5,720 videos → 1,641 films | English, some Igbo | Browser (Silk), tested: plays | **Live** (nightly) |
+| Dailymotion: YORUBAWOOD (`yorubaplay`, iBAKATV's channel) | Yes, ads | Verified; official channel of distributor iBAKATV | 64 films | Yoruba | Browser (Silk) | **Live** (nightly) |
+| Dailymotion: Yorubahood, NollyExtra | Yes | Partner but **not verified**; both UK accounts created the same minute in 2015, owner unconfirmed (iROKO's own brands are NollywoodLove and YorubaLove) | 482 / 178 | Yoruba / English | Browser | Hold until rights confirmed |
 | Nolly Africa HD (African Movie Channel), live channel | Yes | Licensed FAST channel | 24/7 channel | English | Plex / Rakuten TV / Samsung TV Plus / Freeview | To add as a live-channel row |
 | NolliStream | Yes (AVOD) | Licensed; filmmakers upload directly | Unknown | Unknown | Mobile apps only; no web catalogue | Investigate catalogue access |
 | KALLO (Hausa) | Yes, "free, always" | Spacekraft, launched as a Hausa platform | Unknown | Hausa | App (HLS) | Investigate: key for Hausa coverage |
@@ -24,8 +24,16 @@ watch, legitimate (rights-holder or licensed platform), no YouTube, no paid serv
 | Netflix, Prime Video subscription, Kava, IrokoTV, Circuits, Arewa24 On Demand | No | Licensed | — | — | — | Excluded (paid) |
 | YouTube (incl. official channels) | — | — | — | — | — | Excluded by rule |
 
-## Infrastructure gap
+## UK check point
 
-Region-locked catalogues (Tubi above all) can only be read correctly from a UK internet address. GitHub
-(US) and the Oracle server (Frankfurt) can't. Candidate free UK vantage point: a serverless function pinned
-to London (for example Vercel's free Hobby plan, region `lhr1`), called by the nightly run.
+`uk-edge/` runs on Vercel's free plan in London (`lhr1`, confirmed: AWS eu-west-2, GB). The nightly run
+reads Tubi UK and checks every region-locked provider page through it; it only fetches allow-listed
+provider sites and needs a secret token. If it's down or not in the UK, checks fall back to JustWatch UK data.
+
+## Open leads
+
+- Tubi: deeper than the first 50 of a collection needs Tubi's app API (token); the rotating collection is
+  accumulated instead for now.
+- Hausa: KALLO (free) has no web catalogue; Arewa24 free content; more verified Dailymotion channels.
+- Yoruba: confirm owners of Yorubahood / NollyExtra; NolliStream catalogue; AfroLandTV catalogue.
+- Live channels: Nolly Africa HD (Plex live TV page confirmed in the UK).
