@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-11T20:44:31.866Z",
- "statusGeneratedAt": "2026-11-11T10:57:45.112Z",
+ "generatedAt": "2026-11-11T21:02:58.725Z",
+ "statusGeneratedAt": "2026-11-11T21:02:58.676Z",
  "groups": {
   "classics": {
    "total": 1,
@@ -22,13 +22,6 @@
   }
  },
  "providers": {
-  "selftest": {
-   "score": 100,
-   "reliability30d": 100,
-   "accuracy": 100,
-   "freshness": 100,
-   "checks30d": 2
-  },
   "tubi": {
    "score": 40,
    "reliability30d": 0,
@@ -42,6 +35,13 @@
    "accuracy": 100,
    "freshness": 100,
    "checks30d": 1
+  },
+  "selftest": {
+   "score": 100,
+   "reliability30d": 100,
+   "accuracy": 100,
+   "freshness": 100,
+   "checks30d": 3
   }
  },
  "gaps": [
