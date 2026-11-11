@@ -25,7 +25,11 @@ function readJson(file, fallback) {
  * Loads every data file and builds the lookups the server needs.
  * Throws on a malformed catalogue so a bad deploy fails loudly instead of serving nothing.
  */
-function loadData(dataDir, { now = Date.now() } = {}) {
+// Free only: Fortune's mum has no paid services, so links that need a subscription or rental are left out
+// and titles available only that way disappear from the rows. Set SELECT_NAIJA_FREE_ONLY=0 to show them.
+const FREE_ACCESS = new Set(['free', 'ads']);
+
+function loadData(dataDir, { now = Date.now(), freeOnly = process.env.SELECT_NAIJA_FREE_ONLY !== '0' } = {}) {
   const catalogue = readJson(path.join(dataDir, 'catalogue.json'));
   const links = readJson(path.join(dataDir, 'links.json'));
   const providers = readJson(path.join(dataDir, 'providers.json'));
@@ -57,6 +61,7 @@ function loadData(dataDir, { now = Date.now() } = {}) {
       byId.set(t.id, t);
     }
     for (const offer of entry.offers || []) {
+      if (freeOnly && !FREE_ACCESS.has(offer.access)) continue;
       const p = providerByTmdbName.get(String(offer.providerName).toLowerCase()) || providerById.get('other');
       if (!p) continue;
       const slug = p.id === 'other' ? `other-${offer.tmdbProviderId}` : p.id;
@@ -88,7 +93,9 @@ function loadData(dataDir, { now = Date.now() } = {}) {
 
   // links grouped by the stream id Nuvio asks for: "<titleId>" or "<titleId>:<season>:<episode>"
   const linksByStreamId = new Map();
-  const curated = links.links || [];
+  const curated = (links.links || []).filter(
+    (l) => !freeOnly || FREE_ACCESS.has(l.access || providerById.get(l.provider)?.access),
+  );
   const curatedProviders = new Set(curated.map((l) => `${l.titleId}|${l.provider}`));
   const allLinks = [...curated, ...extraLinks.filter((l) => !curatedProviders.has(`${l.titleId}|${l.provider}`))];
   for (const link of allLinks) {
@@ -114,6 +121,7 @@ function loadData(dataDir, { now = Date.now() } = {}) {
     providerById,
     linksByStreamId,
     allLinks,
+    freeOnly,
     discoveredGeneratedAt: discovered.generatedAt || null,
     status: {
       links: mergedLinks,
