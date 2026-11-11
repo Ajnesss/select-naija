@@ -1,155 +1,67 @@
 {
- "_note": "Addresses fetched by scripts/probe.js for source research. Batch 2.",
+ "_note": "Batch 3: UK check point probes.",
  "probes": [
   {
-   "name": "dm2-verified-nollywood",
-   "url": "https://api.dailymotion.com/videos?search=nollywood&flags=verified&fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,geoblocking,allow_embed,channel,language&limit=100&longer_than=40",
-   "max": 300000
+   "name": "uk-ip",
+   "url": "https://ipinfo.io/json",
+   "viaUk": true
   },
   {
-   "name": "dm2-verified-yoruba",
-   "url": "https://api.dailymotion.com/videos?search=yoruba&flags=verified&fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,geoblocking,allow_embed,channel,language&limit=100&longer_than=40",
-   "max": 300000
+   "name": "tubi-uk-home",
+   "url": "https://tubitv.com/home",
+   "viaUk": true,
+   "max": 900000
   },
   {
-   "name": "dm2-verified-igbo-movie",
-   "url": "https://api.dailymotion.com/videos?search=igbo%20movie&flags=verified&fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,geoblocking,allow_embed,channel,language&limit=100&longer_than=40",
-   "max": 300000
+   "name": "tubi-uk-movies",
+   "url": "https://tubitv.com/category/movies",
+   "viaUk": true,
+   "max": 900000
   },
   {
-   "name": "dm2-verified-hausa",
-   "url": "https://api.dailymotion.com/videos?search=hausa&flags=verified&fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,geoblocking,allow_embed,channel,language&limit=100&longer_than=40",
-   "max": 300000
+   "name": "tubi-uk-search-nollywood",
+   "url": "https://tubitv.com/search/nollywood",
+   "viaUk": true,
+   "max": 900000
   },
   {
-   "name": "dm2-verified-nigerian-movie",
-   "url": "https://api.dailymotion.com/videos?search=nigerian%20movie&flags=verified&fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,geoblocking,allow_embed,channel,language&limit=100&longer_than=40",
-   "max": 300000
+   "name": "tubi-uk-categories",
+   "url": "https://tubitv.com/categories",
+   "viaUk": true,
+   "max": 900000
   },
   {
-   "name": "dm2-verified-kannywood",
-   "url": "https://api.dailymotion.com/videos?search=kannywood&flags=verified&fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,geoblocking,allow_embed,channel,language&limit=100&longer_than=40",
-   "max": 300000
+   "name": "tubi-us-categories",
+   "url": "https://tubitv.com/categories",
+   "max": 900000
   },
   {
-   "name": "dm2-verified-yoruba-movie",
-   "url": "https://api.dailymotion.com/videos?search=yoruba%20movie&flags=verified&fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,geoblocking,allow_embed,channel,language&limit=100&longer_than=40",
-   "max": 300000
-  },
-  {
-   "name": "dm2-verified-african-movie",
-   "url": "https://api.dailymotion.com/videos?search=african%20movie&flags=verified&fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,geoblocking,allow_embed,channel,language&limit=100&longer_than=40",
-   "max": 300000
-  },
-  {
-   "name": "dm2-user-yorubaplay",
-   "url": "https://api.dailymotion.com/user/yorubaplay?fields=id,username,screenname,videos_total,followers_total,verified,partner,description,country,website_url,created_time",
-   "max": 5000
-  },
-  {
-   "name": "dm2-uservids-yorubaplay",
-   "url": "https://api.dailymotion.com/user/yorubaplay/videos?fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,geoblocking,allow_embed,channel,language&limit=100&sort=recent",
-   "max": 300000
-  },
-  {
-   "name": "dm2-user-realnollywoodmovies",
-   "url": "https://api.dailymotion.com/user/realnollywoodmovies?fields=id,username,screenname,videos_total,followers_total,verified,partner,description,country,website_url,created_time",
-   "max": 5000
-  },
-  {
-   "name": "dm2-uservids-realnollywoodmovies",
-   "url": "https://api.dailymotion.com/user/realnollywoodmovies/videos?fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,geoblocking,allow_embed,channel,language&limit=100&sort=recent",
-   "max": 300000
-  },
-  {
-   "name": "dm2-user-Yorubahood",
-   "url": "https://api.dailymotion.com/user/Yorubahood?fields=id,username,screenname,videos_total,followers_total,verified,partner,description,country,website_url,created_time",
-   "max": 5000
-  },
-  {
-   "name": "dm2-uservids-Yorubahood",
-   "url": "https://api.dailymotion.com/user/Yorubahood/videos?fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,geoblocking,allow_embed,channel,language&limit=100&sort=recent",
-   "max": 300000
-  },
-  {
-   "name": "dm2-user-NollyExtra",
-   "url": "https://api.dailymotion.com/user/NollyExtra?fields=id,username,screenname,videos_total,followers_total,verified,partner,description,country,website_url,created_time",
-   "max": 5000
-  },
-  {
-   "name": "dm2-uservids-NollyExtra",
-   "url": "https://api.dailymotion.com/user/NollyExtra/videos?fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,geoblocking,allow_embed,channel,language&limit=100&sort=recent",
-   "max": 300000
-  },
-  {
-   "name": "tubi-sitemap",
-   "url": "https://tubitv.com/sitemap.xml",
-   "max": 40000
-  },
-  {
-   "name": "tubi-robots",
-   "url": "https://tubitv.com/robots.txt",
-   "max": 20000
-  },
-  {
-   "name": "nollistream-ols",
-   "url": "https://nollistream.com/sitemap.ols.xml",
-   "max": 40000
-  },
-  {
-   "name": "nollistream-site",
-   "url": "https://nollistream.com/sitemap.website.xml",
-   "max": 40000
-  },
-  {
-   "name": "kallo-app",
-   "url": "https://kallo.ng/app",
-   "max": 40000
-  },
-  {
-   "name": "kallo-api",
-   "url": "https://api.kallo.ng/",
-   "max": 10000
-  },
-  {
-   "name": "afroland-browse",
-   "url": "https://www.afrolandtv.com/browse",
-   "max": 120000
-  },
-  {
-   "name": "afroland-movies",
-   "url": "https://www.afrolandtv.com/movies",
-   "max": 120000
+   "name": "tubi-cat-sitemap",
+   "url": "https://tubitv.com/sitemaps/category-pages.xml",
+   "max": 200000
   },
   {
    "name": "pluto-gb-channels",
    "url": "https://api.pluto.tv/v2/channels?country=GB",
-   "max": 400000
+   "max": 3000000
   },
   {
-   "name": "samsung-gb",
-   "url": "https://i.mjh.nz/SamsungTVPlus/gb.m3u8",
-   "max": 200000
-  },
-  {
-   "name": "rakuten-gb",
-   "url": "https://www.rakuten.tv/uk/search?q=nollywood",
-   "max": 100000
-  },
-  {
-   "name": "bfi-player-search",
-   "url": "https://player.bfi.org.uk/search?q=nigeria",
-   "max": 100000
-  },
-  {
-   "name": "plex-nolly-africa",
+   "name": "plex-uk-nolly",
    "url": "https://watch.plex.tv/live-tv/channel/nolly-africa-hd",
-   "max": 60000
+   "viaUk": true,
+   "max": 50000
   },
   {
-   "name": "filmzie-api",
-   "url": "https://filmzie.com/api/v1/search?query=nigeria",
-   "max": 40000
+   "name": "kallo-home",
+   "url": "https://kallo.ng/",
+   "viaUk": true,
+   "max": 300000
+  },
+  {
+   "name": "afroland-home",
+   "url": "https://www.afrolandtv.com/",
+   "viaUk": true,
+   "max": 300000
   }
  ]
 }

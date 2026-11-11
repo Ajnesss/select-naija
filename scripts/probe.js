@@ -20,16 +20,24 @@ async function main() {
   for (const p of probes) {
     const url = p.url.replace('{TMDB}', encodeURIComponent(key));
     let text;
+    const viaUk = p.viaUk && process.env.UK_EDGE_URL;
+    const target = viaUk ? `${process.env.UK_EDGE_URL}/api/fetch?url=${encodeURIComponent(url)}` : url;
     try {
-      const res = await fetch(url, {
+      const res = await fetch(target, {
         method: p.method || 'GET',
-        headers: { 'user-agent': UA, 'accept-language': 'en-GB,en;q=0.9', ...(p.headers || {}) },
+        headers: {
+          'user-agent': UA,
+          'accept-language': 'en-GB,en;q=0.9',
+          ...(viaUk ? { 'x-select-naija-token': process.env.UK_EDGE_TOKEN } : {}),
+          ...(p.headers || {}),
+        },
         body: p.body,
         redirect: 'follow',
         signal: AbortSignal.timeout(30000),
       });
       const body = await res.text();
-      text = `URL: ${p.url}\nFINAL: ${res.url.replace(key, '***')}\nSTATUS: ${res.status}\nTYPE: ${res.headers.get('content-type')}\nLENGTH: ${body.length}\n\n${body.slice(0, p.max || 60000)}`;
+      const upstream = viaUk ? ` (UK check point; upstream ${res.headers.get('x-upstream-status')} ${res.headers.get('x-upstream-url')})` : '';
+      text = `URL: ${p.url}\nFINAL: ${res.url.replace(key, '***')}${upstream}\nSTATUS: ${res.status}\nTYPE: ${res.headers.get('content-type')}\nLENGTH: ${body.length}\n\n${body.slice(0, p.max || 60000)}`;
     } catch (err) {
       text = `URL: ${p.url}\nERROR: ${err.message}`;
     }
