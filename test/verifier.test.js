@@ -81,6 +81,9 @@ test('confirmUk: JustWatch UK data decides for tracked providers, otherwise page
   assert.equal((await confirmUk(pass, link, tubi, {}, notListed)).reason, 'not_in_uk:justwatch');
   assert.equal((await confirmUk(pass, link, tubi, {}, unknown)).ukSignal, 'page-only');
   assert.equal((await confirmUk(pass, { ...link, provider: 'kava' }, kava, {}, notListed)).ukSignal, 'page-only');
+  // Untracked provider that JustWatch does list → confirmed.
+  const kavaListed = async () => ({ known: true, providers: new Set(['kava']) });
+  assert.equal((await confirmUk(pass, { ...link, provider: 'kava' }, kava, {}, kavaListed)).ukSignal, 'justwatch');
   const fail = { ok: false, reason: 'http_404' };
   assert.equal(await confirmUk(fail, link, tubi, {}, listed), fail);
 });
