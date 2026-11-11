@@ -1,0 +1,6 @@
+{
+  "name": "select-naija-uk-edge",
+  "private": true,
+  "description": "Select Naija's UK check point: fetches provider pages from London so UK availability is seen correctly.",
+  "engines": { "node": ">=20" }
+}
