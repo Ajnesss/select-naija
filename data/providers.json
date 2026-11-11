@@ -50,8 +50,7 @@
         "not available in your region",
         "this title is no longer available"
       ],
-      "ukCheckRequired": true,
-      "justwatchTracked": true
+      "ukCheckRequired": true
     },
     {
       "id": "netflix",

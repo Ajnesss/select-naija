@@ -97,12 +97,14 @@ async function checkDirect(link, { fetchImpl = fetch, timeoutMs = 20000 } = {}) 
  */
 async function confirmUk(pageResult, link, provider, title, lookup) {
   if (!pageResult.ok) return pageResult;
-  if (!provider.justwatchTracked) return { ...pageResult, ukSignal: 'page-only' };
   const uk = await lookup(link.titleId, title?.type === 'series' ? 'series' : 'movie');
   if (!uk.known) return { ...pageResult, ukSignal: 'page-only' };
-  if (!uk.providers.has(link.provider))
+  if (uk.providers.has(link.provider)) return { ...pageResult, ukSignal: 'justwatch' };
+  // Only providers whose JustWatch UK data has proved complete may be failed on its absence.
+  // Plex isn't one: Nollywood Babylon plays on Plex in the UK, but JustWatch UK doesn't list it there.
+  if (provider.justwatchTracked)
     return { ok: false, reason: 'not_in_uk:justwatch', ukListed: (uk.names || []).join(', ') || null };
-  return { ...pageResult, ukSignal: 'justwatch' };
+  return { ...pageResult, ukSignal: 'page-only' };
 }
 
 function applyResult(record, result, now = Date.now()) {
