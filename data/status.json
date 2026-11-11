@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T21:02:58.676Z",
+ "generatedAt": "2026-11-11T21:04:30.846Z",
  "links": {
   "selftest:bbb-10s": {
    "checks": [
@@ -17,11 +17,16 @@
      "at": "2026-11-11T21:02:57.433Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-11T21:04:29.922Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-11T21:02:57.433Z",
+   "lastCheck": "2026-11-11T21:04:29.922Z",
    "lastReason": null,
-   "lastOk": "2026-11-11T21:02:57.433Z",
+   "lastOk": "2026-11-11T21:04:29.922Z",
    "finalUrl": "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4"
   },
   "plex:nollywood-babylon": {
@@ -30,9 +35,14 @@
      "at": "2026-11-11T21:02:58.205Z",
      "ok": false,
      "reason": "not_in_uk:justwatch"
+    },
+    {
+     "at": "2026-11-11T21:04:30.845Z",
+     "ok": false,
+     "reason": "not_in_uk:justwatch"
     }
    ],
-   "lastCheck": "2026-11-11T21:02:58.205Z",
+   "lastCheck": "2026-11-11T21:04:30.845Z",
    "lastReason": "not_in_uk:justwatch"
   },
   "tubi:100014072": {
@@ -41,9 +51,14 @@
      "at": "2026-11-11T21:02:58.675Z",
      "ok": false,
      "reason": "not_in_uk:justwatch"
+    },
+    {
+     "at": "2026-11-11T21:04:30.535Z",
+     "ok": false,
+     "reason": "not_in_uk:justwatch"
     }
    ],
-   "lastCheck": "2026-11-11T21:02:58.675Z",
+   "lastCheck": "2026-11-11T21:04:30.535Z",
    "lastReason": "not_in_uk:justwatch"
   }
  },
@@ -53,21 +68,21 @@
    "reliability30d": 0,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 1
+   "checks30d": 2
   },
   "plex": {
    "score": 40,
    "reliability30d": 0,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 1
+   "checks30d": 2
   },
   "selftest": {
    "score": 100,
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 3
+   "checks30d": 4
   }
  },
  "checkedFrom": "github-actions; UK availability from JustWatch via TMDB"
