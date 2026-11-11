@@ -1,212 +1,154 @@
 {
- "_note": "Addresses fetched by scripts/probe.js for source research.",
+ "_note": "Addresses fetched by scripts/probe.js for source research. Batch 2.",
  "probes": [
   {
-   "name": "dm-search-yoruba-movie",
-   "url": "https://api.dailymotion.com/videos?search=yoruba%20movie&fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,owner.partner&limit=100&longer_than=50",
-   "max": 200000
+   "name": "dm2-verified-nollywood",
+   "url": "https://api.dailymotion.com/videos?search=nollywood&flags=verified&fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,geoblocking,allow_embed,channel,language&limit=100&longer_than=40",
+   "max": 300000
   },
   {
-   "name": "dm-search-yoruba-film",
-   "url": "https://api.dailymotion.com/videos?search=yoruba%20film&fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,owner.partner&limit=100&longer_than=50",
-   "max": 200000
+   "name": "dm2-verified-yoruba",
+   "url": "https://api.dailymotion.com/videos?search=yoruba&flags=verified&fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,geoblocking,allow_embed,channel,language&limit=100&longer_than=40",
+   "max": 300000
   },
   {
-   "name": "dm-search-nollywood-movie",
-   "url": "https://api.dailymotion.com/videos?search=nollywood%20movie&fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,owner.partner&limit=100&longer_than=50",
-   "max": 200000
+   "name": "dm2-verified-igbo-movie",
+   "url": "https://api.dailymotion.com/videos?search=igbo%20movie&flags=verified&fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,geoblocking,allow_embed,channel,language&limit=100&longer_than=40",
+   "max": 300000
   },
   {
-   "name": "dm-search-igbo-movie",
-   "url": "https://api.dailymotion.com/videos?search=igbo%20movie&fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,owner.partner&limit=100&longer_than=50",
-   "max": 200000
+   "name": "dm2-verified-hausa",
+   "url": "https://api.dailymotion.com/videos?search=hausa&flags=verified&fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,geoblocking,allow_embed,channel,language&limit=100&longer_than=40",
+   "max": 300000
   },
   {
-   "name": "dm-search-hausa-film",
-   "url": "https://api.dailymotion.com/videos?search=hausa%20film&fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,owner.partner&limit=100&longer_than=50",
-   "max": 200000
+   "name": "dm2-verified-nigerian-movie",
+   "url": "https://api.dailymotion.com/videos?search=nigerian%20movie&flags=verified&fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,geoblocking,allow_embed,channel,language&limit=100&longer_than=40",
+   "max": 300000
   },
   {
-   "name": "dm-search-kannywood",
-   "url": "https://api.dailymotion.com/videos?search=kannywood&fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,owner.partner&limit=100&longer_than=50",
-   "max": 200000
+   "name": "dm2-verified-kannywood",
+   "url": "https://api.dailymotion.com/videos?search=kannywood&flags=verified&fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,geoblocking,allow_embed,channel,language&limit=100&longer_than=40",
+   "max": 300000
   },
   {
-   "name": "dm-search-nigerian-movie",
-   "url": "https://api.dailymotion.com/videos?search=nigerian%20movie&fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,owner.partner&limit=100&longer_than=50",
-   "max": 200000
+   "name": "dm2-verified-yoruba-movie",
+   "url": "https://api.dailymotion.com/videos?search=yoruba%20movie&flags=verified&fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,geoblocking,allow_embed,channel,language&limit=100&longer_than=40",
+   "max": 300000
   },
   {
-   "name": "dm-search-latest-yoruba-movie-2025",
-   "url": "https://api.dailymotion.com/videos?search=latest%20yoruba%20movie%202025&fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,owner.partner&limit=100&longer_than=50",
-   "max": 200000
+   "name": "dm2-verified-african-movie",
+   "url": "https://api.dailymotion.com/videos?search=african%20movie&flags=verified&fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,geoblocking,allow_embed,channel,language&limit=100&longer_than=40",
+   "max": 300000
   },
   {
-   "name": "dm-user-yorubaplay",
-   "url": "https://api.dailymotion.com/user/yorubaplay?fields=id,username,screenname,videos_total,followers_total,verified,partner,description,country,created_time"
+   "name": "dm2-user-yorubaplay",
+   "url": "https://api.dailymotion.com/user/yorubaplay?fields=id,username,screenname,videos_total,followers_total,verified,partner,description,country,website_url,created_time",
+   "max": 5000
   },
   {
-   "name": "dm-user-Mstudio",
-   "url": "https://api.dailymotion.com/user/Mstudio?fields=id,username,screenname,videos_total,followers_total,verified,partner,description,country,created_time"
+   "name": "dm2-uservids-yorubaplay",
+   "url": "https://api.dailymotion.com/user/yorubaplay/videos?fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,geoblocking,allow_embed,channel,language&limit=100&sort=recent",
+   "max": 300000
   },
   {
-   "name": "dm-user-x229ox5",
-   "url": "https://api.dailymotion.com/user/x229ox5?fields=id,username,screenname,videos_total,followers_total,verified,partner,description,country,created_time"
+   "name": "dm2-user-realnollywoodmovies",
+   "url": "https://api.dailymotion.com/user/realnollywoodmovies?fields=id,username,screenname,videos_total,followers_total,verified,partner,description,country,website_url,created_time",
+   "max": 5000
   },
   {
-   "name": "tmdb-kw-nollywood",
-   "url": "https://api.themoviedb.org/3/search/keyword?query=nollywood&api_key={TMDB}"
+   "name": "dm2-uservids-realnollywoodmovies",
+   "url": "https://api.dailymotion.com/user/realnollywoodmovies/videos?fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,geoblocking,allow_embed,channel,language&limit=100&sort=recent",
+   "max": 300000
   },
   {
-   "name": "tmdb-kw-nigeria",
-   "url": "https://api.themoviedb.org/3/search/keyword?query=nigeria&api_key={TMDB}"
+   "name": "dm2-user-Yorubahood",
+   "url": "https://api.dailymotion.com/user/Yorubahood?fields=id,username,screenname,videos_total,followers_total,verified,partner,description,country,website_url,created_time",
+   "max": 5000
   },
   {
-   "name": "tmdb-kw-yoruba",
-   "url": "https://api.themoviedb.org/3/search/keyword?query=yoruba&api_key={TMDB}"
+   "name": "dm2-uservids-Yorubahood",
+   "url": "https://api.dailymotion.com/user/Yorubahood/videos?fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,geoblocking,allow_embed,channel,language&limit=100&sort=recent",
+   "max": 300000
   },
   {
-   "name": "tmdb-kw-lagos",
-   "url": "https://api.themoviedb.org/3/search/keyword?query=lagos&api_key={TMDB}"
+   "name": "dm2-user-NollyExtra",
+   "url": "https://api.dailymotion.com/user/NollyExtra?fields=id,username,screenname,videos_total,followers_total,verified,partner,description,country,website_url,created_time",
+   "max": 5000
   },
   {
-   "name": "tmdb-kw-igbo",
-   "url": "https://api.themoviedb.org/3/search/keyword?query=igbo&api_key={TMDB}"
+   "name": "dm2-uservids-NollyExtra",
+   "url": "https://api.dailymotion.com/user/NollyExtra/videos?fields=id,title,duration,created_time,owner.username,owner.screenname,owner.verified,geoblocking,allow_embed,channel,language&limit=100&sort=recent",
+   "max": 300000
   },
   {
-   "name": "tmdb-kw-hausa",
-   "url": "https://api.themoviedb.org/3/search/keyword?query=hausa&api_key={TMDB}"
-  },
-  {
-   "name": "tmdb-kw-nigerian",
-   "url": "https://api.themoviedb.org/3/search/keyword?query=nigerian&api_key={TMDB}"
-  },
-  {
-   "name": "tmdb-co-Anthill-Studios",
-   "url": "https://api.themoviedb.org/3/search/company?query=Anthill%20Studios&api_key={TMDB}"
-  },
-  {
-   "name": "tmdb-co-Inkblot-Productions",
-   "url": "https://api.themoviedb.org/3/search/company?query=Inkblot%20Productions&api_key={TMDB}"
-  },
-  {
-   "name": "tmdb-co-FilmOne",
-   "url": "https://api.themoviedb.org/3/search/company?query=FilmOne&api_key={TMDB}"
-  },
-  {
-   "name": "tmdb-co-EbonyLife",
-   "url": "https://api.themoviedb.org/3/search/company?query=EbonyLife&api_key={TMDB}"
-  },
-  {
-   "name": "tmdb-co-Scene-One",
-   "url": "https://api.themoviedb.org/3/search/company?query=Scene%20One&api_key={TMDB}"
-  },
-  {
-   "name": "tmdb-co-Kunle-Afolayan-Productions",
-   "url": "https://api.themoviedb.org/3/search/company?query=Kunle%20Afolayan%20Productions&api_key={TMDB}"
-  },
-  {
-   "name": "tmdb-co-Greoh-Studios",
-   "url": "https://api.themoviedb.org/3/search/company?query=Greoh%20Studios&api_key={TMDB}"
-  },
-  {
-   "name": "tmdb-co-Funke-Akindele",
-   "url": "https://api.themoviedb.org/3/search/company?query=Funke%20Akindele&api_key={TMDB}"
-  },
-  {
-   "name": "tmdb-co-Play-Network-Studios",
-   "url": "https://api.themoviedb.org/3/search/company?query=Play%20Network%20Studios&api_key={TMDB}"
-  },
-  {
-   "name": "tmdb-co-Trino-Studios",
-   "url": "https://api.themoviedb.org/3/search/company?query=Trino%20Studios&api_key={TMDB}"
-  },
-  {
-   "name": "tmdb-co-Ninalowo",
-   "url": "https://api.themoviedb.org/3/search/company?query=Ninalowo&api_key={TMDB}"
-  },
-  {
-   "name": "tmdb-co-Mo-Abudu",
-   "url": "https://api.themoviedb.org/3/search/company?query=Mo%20Abudu&api_key={TMDB}"
-  },
-  {
-   "name": "tmdb-co-Ojy-Okpe",
-   "url": "https://api.themoviedb.org/3/search/company?query=Ojy%20Okpe&api_key={TMDB}"
-  },
-  {
-   "name": "tmdb-co-Kemi-Adetiba",
-   "url": "https://api.themoviedb.org/3/search/company?query=Kemi%20Adetiba&api_key={TMDB}"
-  },
-  {
-   "name": "tmdb-co-Anakle",
-   "url": "https://api.themoviedb.org/3/search/company?query=Anakle&api_key={TMDB}"
-  },
-  {
-   "name": "tmdb-providers-gb",
-   "url": "https://api.themoviedb.org/3/watch/providers/movie?watch_region=GB&api_key={TMDB}",
-   "max": 200000
-  },
-  {
-   "name": "tmdb-ng-movies-all",
-   "url": "https://api.themoviedb.org/3/discover/movie?with_origin_country=NG&api_key={TMDB}"
-  },
-  {
-   "name": "tmdb-yo-movies-all",
-   "url": "https://api.themoviedb.org/3/discover/movie?with_original_language=yo&api_key={TMDB}"
-  },
-  {
-   "name": "tubi-us-nollywood",
-   "url": "https://tubitv.com/category/nollywood",
-   "max": 150000
-  },
-  {
-   "name": "tubi-gb-nollywood",
-   "url": "https://tubitv.com/en-gb/category/nollywood",
-   "max": 150000
-  },
-  {
-   "name": "nollistream-home",
-   "url": "https://nollistream.com/",
-   "max": 80000
-  },
-  {
-   "name": "nollistream-sitemap",
-   "url": "https://nollistream.com/sitemap.xml",
-   "max": 80000
-  },
-  {
-   "name": "archive-nollywood",
-   "url": "https://archive.org/advancedsearch.php?q=(nollywood%20OR%20yoruba%20OR%20%22nigerian%20movie%22)%20AND%20mediatype%3Amovies&fl[]=identifier&fl[]=title&fl[]=licenseurl&fl[]=collection&fl[]=year&rows=300&output=json",
-   "max": 200000
-  },
-  {
-   "name": "rakuten-gb-search",
-   "url": "https://gizmo.rakuten.tv/v3/search?classification_id=18&device_identifier=web&locale=en&market_code=uk&q=nollywood&per_page=50",
-   "max": 100000
-  },
-  {
-   "name": "plex-search",
-   "url": "https://watch.plex.tv/search?q=nollywood",
-   "max": 100000
-  },
-  {
-   "name": "filmzie-search",
-   "url": "https://filmzie.com/search?q=nigeria",
-   "max": 100000
-  },
-  {
-   "name": "afrolandtv",
-   "url": "https://afrolandtv.com/",
-   "max": 60000
-  },
-  {
-   "name": "kallo",
-   "url": "https://kallo.ng/",
+   "name": "tubi-sitemap",
+   "url": "https://tubitv.com/sitemap.xml",
    "max": 40000
   },
   {
-   "name": "northflix",
-   "url": "https://northflix.ng/",
+   "name": "tubi-robots",
+   "url": "https://tubitv.com/robots.txt",
+   "max": 20000
+  },
+  {
+   "name": "nollistream-ols",
+   "url": "https://nollistream.com/sitemap.ols.xml",
+   "max": 40000
+  },
+  {
+   "name": "nollistream-site",
+   "url": "https://nollistream.com/sitemap.website.xml",
+   "max": 40000
+  },
+  {
+   "name": "kallo-app",
+   "url": "https://kallo.ng/app",
+   "max": 40000
+  },
+  {
+   "name": "kallo-api",
+   "url": "https://api.kallo.ng/",
+   "max": 10000
+  },
+  {
+   "name": "afroland-browse",
+   "url": "https://www.afrolandtv.com/browse",
+   "max": 120000
+  },
+  {
+   "name": "afroland-movies",
+   "url": "https://www.afrolandtv.com/movies",
+   "max": 120000
+  },
+  {
+   "name": "pluto-gb-channels",
+   "url": "https://api.pluto.tv/v2/channels?country=GB",
+   "max": 400000
+  },
+  {
+   "name": "samsung-gb",
+   "url": "https://i.mjh.nz/SamsungTVPlus/gb.m3u8",
+   "max": 200000
+  },
+  {
+   "name": "rakuten-gb",
+   "url": "https://www.rakuten.tv/uk/search?q=nollywood",
+   "max": 100000
+  },
+  {
+   "name": "bfi-player-search",
+   "url": "https://player.bfi.org.uk/search?q=nigeria",
+   "max": 100000
+  },
+  {
+   "name": "plex-nolly-africa",
+   "url": "https://watch.plex.tv/live-tv/channel/nolly-africa-hd",
+   "max": 60000
+  },
+  {
+   "name": "filmzie-api",
+   "url": "https://filmzie.com/api/v1/search?query=nigeria",
    "max": 40000
   }
  ]
