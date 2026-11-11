@@ -9,12 +9,16 @@
 //   VERIFY_COUNTRY=GB  → checks region-locked provider links (ukCheckRequired) → data/status-uk.json
 //                        Refuses to run unless this machine's internet connection really is in the UK
 //                        (a VPN set to another country would give false results).
-//   otherwise          → checks everything that isn't region-locked (direct files) → data/status.json
+//   otherwise          → the hands-off nightly run (GitHub): checks EVERY link → data/status.json.
+//                        Region-locked provider pages are cross-checked against JustWatch's UK data
+//                        (via TMDB, needs TMDB_API_KEY) so Select Naija never depends on a UK computer.
+//                        The UK run is an optional extra: a UK result from the last 7 days takes precedence.
 
 const fs = require('fs');
 const path = require('path');
 const { readJson } = require('../src/data');
-const { checkExternal, checkDirect, applyResult, scoreProvider } = require('../src/verifier');
+const { checkExternal, checkDirect, confirmUk, applyResult, scoreProvider } = require('../src/verifier');
+const { ukProvidersFor } = require('../src/resolvers/tmdb');
 
 const DATA = path.join(__dirname, '..', 'data');
 const DELAY_MS = Number(process.env.VERIFY_DELAY_MS ?? 2000);
@@ -46,8 +50,17 @@ async function main() {
   const statusFile = path.join(DATA, ukRun ? 'status-uk.json' : 'status.json');
   const providers = new Map(readJson(path.join(DATA, 'providers.json')).providers.map((p) => [p.id, p]));
   const links = readJson(path.join(DATA, 'links.json')).links.filter(
-    (l) => (!only || l.provider === only) && Boolean(providers.get(l.provider)?.ukCheckRequired) === ukRun,
+    (l) => (!only || l.provider === only) && (!ukRun || Boolean(providers.get(l.provider)?.ukCheckRequired)),
   );
+  const owns = (pid) => !ukRun || Boolean(providers.get(pid)?.ukCheckRequired);
+  const titles = new Map(readJson(path.join(DATA, 'catalogue.json')).titles.map((t) => [t.id, t]));
+  const apiKey = process.env.TMDB_API_KEY;
+  if (!ukRun && !apiKey) console.warn('No TMDB_API_KEY: provider links will pass as "UK availability not confirmed".');
+  const ukLookups = new Map();
+  const lookup = (id, type) => {
+    if (!ukLookups.has(id)) ukLookups.set(id, ukProvidersFor(id, type, { apiKey }));
+    return ukLookups.get(id);
+  };
   const accuracy = readJson(path.join(DATA, 'accuracy.json'), {});
   const status = readJson(statusFile, { links: {}, providers: {} });
   status.links = status.links || {};
@@ -66,7 +79,9 @@ async function main() {
       for (const [i, link] of group.entries()) {
         if (i) await sleep(DELAY_MS);
         const provider = providers.get(link.provider);
-        const result = link.kind === 'direct' ? await checkDirect(link) : await checkExternal(link, provider);
+        let result = link.kind === 'direct' ? await checkDirect(link) : await checkExternal(link, provider);
+        if (!ukRun && provider.ukCheckRequired && link.kind === 'external')
+          result = await confirmUk(result, link, provider, titles.get(link.titleId), lookup);
         status.links[link.id] = applyResult(status.links[link.id], result);
         results.push({ link, result });
         console.log(`${result.ok ? 'PASS' : 'FAIL'}  ${link.id}${result.ok ? '' : `  (${result.reason})`}`);
@@ -79,12 +94,12 @@ async function main() {
   const providerOf = new Map(allLinks.map((l) => [l.id, l.provider]));
   for (const id of Object.keys(status.links)) {
     const pid = providerOf.get(id);
-    if (!pid || Boolean(providers.get(pid)?.ukCheckRequired) !== ukRun) delete status.links[id];
+    if (!pid || !owns(pid)) delete status.links[id];
   }
 
   status.providers = {};
   for (const [pid, p] of providers) {
-    if (Boolean(p.ukCheckRequired) !== ukRun) continue;
+    if (!owns(pid)) continue;
     const records = Object.entries(status.links)
       .filter(([id]) => providerOf.get(id) === pid)
       .map(([, r]) => r);
@@ -92,7 +107,9 @@ async function main() {
     if (s) status.providers[pid] = s;
   }
   status.generatedAt = new Date().toISOString();
-  status.checkedFrom = ukRun ? 'GB (connection confirmed)' : process.env.VERIFY_LOCATION || 'unknown';
+  status.checkedFrom = ukRun
+    ? 'GB (connection confirmed)'
+    : `${process.env.VERIFY_LOCATION || 'unknown'}; UK availability from JustWatch via TMDB${apiKey ? '' : ' (no key set)'}`;
 
   fs.writeFileSync(statusFile, `${JSON.stringify(status, null, 1)}\n`);
   const passed = results.filter((r) => r.result.ok).length;

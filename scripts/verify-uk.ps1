@@ -1,6 +1,7 @@
 # Select Naija UK check point (Windows).
 # Checks the region-locked provider links from a real UK connection and uploads the results.
-# Needs: Git for Windows and Node.js. Run by hand, or nightly via Task Scheduler (see README).
+# Optional extra: Select Naija checks itself nightly without this. A UK result from the last 7 days
+# takes precedence for its links. Needs: Git for Windows and Node.js.
 # Touches only its own folder and the Ajnesss/select-naija repo; nothing to do with Select DE.
 #
 # Works in Windows PowerShell 5.1: errors are checked through exit codes, because 5.1 turns

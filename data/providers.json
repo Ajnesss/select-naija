@@ -39,7 +39,8 @@
         "not available in your region",
         "remind me"
       ],
-      "ukCheckRequired": true
+      "ukCheckRequired": true,
+      "justwatchTracked": true
     },
     {
       "id": "plex",
@@ -49,7 +50,8 @@
         "not available in your region",
         "this title is no longer available"
       ],
-      "ukCheckRequired": true
+      "ukCheckRequired": true,
+      "justwatchTracked": true
     },
     {
       "id": "netflix",
@@ -59,7 +61,8 @@
         "not available to watch",
         "this title is not available"
       ],
-      "ukCheckRequired": true
+      "ukCheckRequired": true,
+      "justwatchTracked": true
     },
     {
       "id": "archive",

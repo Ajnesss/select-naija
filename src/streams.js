@@ -53,9 +53,13 @@ function formatLink(link, record, state, data, title, now) {
       behaviorHints: { bingeGroup: `selectnaija-${link.provider}` },
     };
   }
+  const unconfirmed = provider.ukCheckRequired && record?.ukSignal === 'page-only' ? 'UK availability not confirmed' : '';
   return {
     name: `Select Naija\n${provider.name} ↗`,
-    title: [`Open on ${provider.name}`, [access, state === 'stale' ? `last checked ${ago(record.lastOk, now)}` : checked].filter(Boolean).join(' · ')].join('\n'),
+    title: [
+      `Open on ${provider.name}`,
+      [access, state === 'stale' ? `last checked ${ago(record.lastOk, now)}` : checked, unconfirmed].filter(Boolean).join(' · '),
+    ].join('\n'),
     externalUrl: link.url,
   };
 }
@@ -82,7 +86,8 @@ async function buildStreams(type, streamId, data, { tmdbApiKey, fetchImpl, now =
   shown.sort((a, b) => {
     const kind = (x) => (x.link.kind === 'direct' ? 0 : 1);
     const st = (x) => (x.state === 'verified' ? 0 : 1);
-    return kind(a) - kind(b) || st(a) - st(b) || b.score - a.score;
+    const uk = (x) => (x.record?.ukSignal === 'page-only' ? 1 : 0);
+    return kind(a) - kind(b) || st(a) - st(b) || uk(a) - uk(b) || b.score - a.score;
   });
 
   const streams = shown.map((s) => formatLink(s.link, s.record, s.state, data, title, now));

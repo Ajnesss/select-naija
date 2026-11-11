@@ -23,7 +23,8 @@ jobs:
           node-version: 22
       - name: Check every link
         env:
-          VERIFY_LOCATION: github-actions (not UK; see README "Where checks run")
+          VERIFY_LOCATION: github-actions
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: node scripts/verify.js
       - name: Coverage report
         run: node scripts/report.js

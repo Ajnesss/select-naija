@@ -67,3 +67,34 @@ test('provider score weights reliability 60%, accuracy 30%, freshness 10%', () =
   const old = [{ lastCheck: hoursAgo(24 * 40), checks: [{ at: hoursAgo(24 * 40), ok: true }] }];
   assert.equal(scoreProvider(old, null, NOW), null, 'checks older than 30 days do not count');
 });
+
+test('confirmUk: JustWatch UK data decides for tracked providers, otherwise page-only', async () => {
+  const { confirmUk } = require('../src/verifier');
+  const pass = { ok: true, finalUrl: 'https://x' };
+  const tubi = { id: 'tubi', justwatchTracked: true };
+  const kava = { id: 'kava' };
+  const link = { titleId: 'tt1', provider: 'tubi' };
+  const listed = async () => ({ known: true, providers: new Set(['tubi']) });
+  const notListed = async () => ({ known: true, providers: new Set(['netflix']) });
+  const unknown = async () => ({ known: false, reason: 'tmdb_error' });
+  assert.equal((await confirmUk(pass, link, tubi, {}, listed)).ukSignal, 'justwatch');
+  assert.deepEqual(await confirmUk(pass, link, tubi, {}, notListed), { ok: false, reason: 'not_in_uk:justwatch' });
+  assert.equal((await confirmUk(pass, link, tubi, {}, unknown)).ukSignal, 'page-only');
+  assert.equal((await confirmUk(pass, { ...link, provider: 'kava' }, kava, {}, notListed)).ukSignal, 'page-only');
+  const fail = { ok: false, reason: 'http_404' };
+  assert.equal(await confirmUk(fail, link, tubi, {}, listed), fail);
+});
+
+test('ukProvidersFor never reads a TMDB failure as "not in the UK"', async () => {
+  const { ukProvidersFor } = require('../src/resolvers/tmdb');
+  assert.equal((await ukProvidersFor('tt1', 'movie', {})).known, false);
+  assert.equal((await ukProvidersFor('snaija-x-2020', 'movie', { apiKey: 'k' })).known, false);
+  const down = async () => { throw new Error('down'); };
+  assert.deepEqual(await ukProvidersFor('tt1', 'movie', { apiKey: 'k', fetchImpl: down }), { known: false, reason: 'tmdb_error' });
+  const ok = async (url) => fakeResponse({ body: JSON.stringify(url.includes('/find/') ? { movie_results: [{ id: 7 }] } : { results: { GB: { ads: [{ provider_name: 'Tubi TV' }] } } }) });
+  const r = await ukProvidersFor('tt1', 'movie', { apiKey: 'k', fetchImpl: ok });
+  assert.ok(r.known && r.providers.has('tubi') && !r.providers.has('plex'));
+  const noGb = async (url) => fakeResponse({ body: JSON.stringify(url.includes('/find/') ? { movie_results: [{ id: 7 }] } : { results: { US: {} } }) });
+  const r2 = await ukProvidersFor('tt1', 'movie', { apiKey: 'k', fetchImpl: noGb });
+  assert.ok(r2.known && r2.providers.size === 0);
+});

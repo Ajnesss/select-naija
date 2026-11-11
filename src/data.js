@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { FRESH_DAYS, DAY } = require('./states');
 
 const LANGUAGES = {
   en: 'English',
@@ -24,7 +25,7 @@ function readJson(file, fallback) {
  * Loads every data file and builds the lookups the server needs.
  * Throws on a malformed catalogue so a bad deploy fails loudly instead of serving nothing.
  */
-function loadData(dataDir) {
+function loadData(dataDir, { now = Date.now() } = {}) {
   const catalogue = readJson(path.join(dataDir, 'catalogue.json'));
   const links = readJson(path.join(dataDir, 'links.json'));
   const providers = readJson(path.join(dataDir, 'providers.json'));
@@ -51,6 +52,16 @@ function loadData(dataDir) {
     linksByStreamId.get(key).push(link);
   }
 
+  // Per link: a UK check from the last 7 days wins (it saw exactly what UK viewers see).
+  // Otherwise the nightly hands-off result counts, so nothing depends on the laptop being on.
+  const fresh = (iso) => iso && now - Date.parse(iso) <= FRESH_DAYS * DAY;
+  const mergedLinks = { ...(status.links || {}) };
+  for (const [id, rec] of Object.entries(statusUk.links || {})) {
+    if (fresh(rec.lastCheck) || !mergedLinks[id]) mergedLinks[id] = { ...rec, ukSignal: 'uk-check' };
+  }
+  const mergedProviders = { ...(status.providers || {}) };
+  if (fresh(statusUk.generatedAt)) Object.assign(mergedProviders, statusUk.providers || {});
+
   return {
     titles,
     byId,
@@ -58,8 +69,8 @@ function loadData(dataDir) {
     linksByStreamId,
     allLinks: links.links || [],
     status: {
-      links: { ...(status.links || {}), ...(statusUk.links || {}) },
-      providers: { ...(status.providers || {}), ...(statusUk.providers || {}) },
+      links: mergedLinks,
+      providers: mergedProviders,
     },
     statusGeneratedAt: status.generatedAt || null,
     statusUkGeneratedAt: statusUk.generatedAt || null,

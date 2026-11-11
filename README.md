@@ -47,24 +47,29 @@ at least 10 checks in 30 days, so one dead link can't hide a whole provider.
 
 ## Where checks run
 
-Provider pages are region-locked, so they only count as verified when checked **from the UK**
-(`ukCheckRequired` in `data/providers.json`). The first GitHub run proved why: Tubi's page for
-*Buddy Goes to Nollywood* passed from GitHub's US servers while showing "Content unavailable" in the UK.
+Select Naija checks itself every night with nothing to switch on, like Select DE. Provider pages are
+region-locked, though: Tubi's page for *Buddy Goes to Nollywood* loaded fine from GitHub's US servers while
+showing "Content unavailable" in the UK. So the nightly run asks a second, UK-specific source.
 
 | Run | Where | Checks | Writes |
 | --- | --- | --- | --- |
-| Nightly GitHub Action | GitHub (US) | in-app files, which aren't region-locked | `data/status.json` |
-| `scripts/verify-uk.ps1` | Fortune's PC (UK) | provider pages | `data/status-uk.json` |
+| Nightly GitHub Action (required, automatic) | GitHub (US) | every link; provider pages are cross-checked against JustWatch's UK data via TMDB | `data/status.json` |
+| `scripts/verify-uk.ps1` (optional extra) | Fortune's PC (UK) | provider pages, seen exactly as a UK viewer sees them | `data/status-uk.json` |
 
-The UK run refuses to start unless the connection really is in the UK (a VPN set elsewhere would give
-false results). To run it nightly, in PowerShell:
+How a provider link is judged in the nightly run (`ukCheckRequired` providers):
 
-```powershell
-$a = New-ScheduledTaskAction -Execute 'powershell.exe' -Argument "-NoProfile -ExecutionPolicy Bypass -File `"$env:USERPROFILE\select-naija-checks\scripts\verify-uk.ps1`""
-$t = New-ScheduledTaskTrigger -Daily -At 9pm
-$s = New-ScheduledTaskSettingsSet -StartWhenAvailable
-Register-ScheduledTask -TaskName 'Select Naija UK check' -Action $a -Trigger $t -Settings $s
-```
+- Page fails (gone, wrong title, "unavailable" wording) → fails.
+- Provider is one JustWatch tracks in the UK (`justwatchTracked`: Tubi, Plex, Netflix) and JustWatch's UK
+  list for the title doesn't include it → fails as `not_in_uk:justwatch`.
+- No UK answer possible (title has no IMDb/TMDB entry, provider not tracked by JustWatch, TMDB down) → passes,
+  ranked after confirmed links and labelled "UK availability not confirmed" in Nuvio.
+
+A TMDB failure never counts as "not in the UK". The UK run, when it happens, is the most accurate answer:
+a UK result from the last 7 days takes precedence for that link; older ones give way to the nightly run.
+The nightly run needs the repo secret `TMDB_API_KEY` (free TMDB key); without it every provider link passes
+as unconfirmed.
+
+To run the optional UK check by hand, in PowerShell: `& "$env:USERPROFILE\select-naija-checks\scripts\verify-uk.ps1"`.
 
 ## Server
 
