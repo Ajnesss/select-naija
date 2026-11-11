@@ -1,0 +1,7 @@
+URL: https://api.themoviedb.org/3/search/company?query=Anthill%20Studios&api_key={TMDB}
+FINAL: https://api.themoviedb.org/3/search/company?query=Anthill%20Studios&api_key=***
+STATUS: 200
+TYPE: application/json;charset=utf-8
+LENGTH: 164
+
+{"page":1,"results":[{"id":172248,"logo_path":"/p7eeo2JFDbKBuY0yjj8fo0qv7bF.png","name":"Anthill Studios","origin_country":"NG"}],"total_pages":1,"total_results":1}
