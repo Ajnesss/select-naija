@@ -50,7 +50,21 @@ function main() {
     }
   }
 
+  // Titles watchable through each service (a title on two services counts for both).
+  const bySource = {};
+  const { linkState, isShown } = require('../src/states');
+  for (const t of data.titles) {
+    if (t.category === 'test') continue;
+    const seen = new Set();
+    for (const [k, links] of data.linksByStreamId) {
+      if (k !== t.id && !k.startsWith(`${t.id}:`)) continue;
+      for (const l of links) if (isShown(linkState(data.status.links[l.id], now))) seen.add(l.providerName || data.providerById.get(l.provider)?.name || l.provider);
+    }
+    for (const src of seen) bySource[src] = (bySource[src] || 0) + 1;
+  }
+
   const report = {
+    bySource,
     generatedAt: new Date(now).toISOString(),
     statusGeneratedAt: data.statusGeneratedAt,
     groups: Object.fromEntries(Object.entries(groups).map(([g, v]) => [g, { ...v, coverage: pct(v.covered, v.total) }])),
@@ -80,6 +94,12 @@ function main() {
     ...Object.entries(report.languages).map(
       ([l, v]) => `| ${LANGUAGES[l] || l} | ${v.catalogued} | ${v.covered} | ${v.coverage ?? '–'}% | ${v.withoutTmdb} |`,
     ),
+    ``,
+    `## Watchable titles by service`,
+    ``,
+    `| Service | Titles |`,
+    `| --- | --- |`,
+    ...Object.entries(report.bySource).sort((a, b) => b[1] - a[1]).map(([k, v]) => `| ${k} | ${v} |`),
     ``,
     `## Providers`,
     ``,

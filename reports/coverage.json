@@ -1,5 +1,15 @@
 {
- "generatedAt": "2026-11-11T22:42:04.165Z",
+ "bySource": {
+  "Plex": 13,
+  "Tubi": 98,
+  "Channel 4": 1,
+  "Runtime": 4,
+  "Prime Video": 24,
+  "BBC iPlayer": 2,
+  "Filmzie": 2,
+  "Dailymotion": 1705
+ },
+ "generatedAt": "2026-11-11T22:42:47.390Z",
  "statusGeneratedAt": "2026-11-11T22:42:04.102Z",
  "groups": {
   "classics": {

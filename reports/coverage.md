@@ -1,6 +1,6 @@
 # Select Naija coverage report
 
-Generated 2026-11-11T22:42:04.165Z. Links last verified 2026-11-11T22:42:04.102Z.
+Generated 2026-11-11T22:42:47.390Z. Links last verified 2026-11-11T22:42:04.102Z.
 A title counts as covered only if a verified Select Naija link is shown for it.
 
 ## Test catalogue by group
@@ -19,6 +19,19 @@ A title counts as covered only if a verified Select Naija link is shown for it.
 | Igbo | 24 | 17 | 70.8% | 11 |
 | Hausa | 6 | 1 | 16.7% | 0 |
 | fr | 1 | 1 | 100% | 1 |
+
+## Watchable titles by service
+
+| Service | Titles |
+| --- | --- |
+| Dailymotion | 1705 |
+| Tubi | 98 |
+| Prime Video | 24 |
+| Plex | 13 |
+| Runtime | 4 |
+| BBC iPlayer | 2 |
+| Filmzie | 2 |
+| Channel 4 | 1 |
 
 ## Providers
 
