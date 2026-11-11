@@ -37,6 +37,44 @@ async function connectionCountry() {
   return null;
 }
 
+// The London check point (uk-edge/, Vercel free plan). When it's configured and really answers from the UK,
+// region-locked provider pages are loaded through it, so they're judged exactly as a UK viewer sees them.
+function edgeFetch(base, token) {
+  return async (url, opts = {}) => {
+    const res = await fetch(`${base.replace(/\/$/, '')}/api/fetch?url=${encodeURIComponent(url)}`, {
+      signal: opts.signal,
+      headers: { 'x-select-naija-token': token, accept: opts.headers?.accept || '*/*' },
+    });
+    if (res.status !== 200) throw new Error(`check point ${res.status}`);
+    const status = Number(res.headers.get('x-upstream-status'));
+    return {
+      ok: status >= 200 && status < 300,
+      status,
+      url: res.headers.get('x-upstream-url') || url,
+      headers: res.headers,
+      body: res.body,
+      text: () => res.text(),
+      json: () => res.json(),
+    };
+  };
+}
+
+async function ukEdge() {
+  const base = process.env.UK_EDGE_URL;
+  const token = process.env.UK_EDGE_TOKEN;
+  if (!base || !token) return null;
+  try {
+    const f = edgeFetch(base, token);
+    const res = await f('https://ipinfo.io/country', { signal: AbortSignal.timeout(20000) });
+    const country = (await res.text()).trim().toUpperCase();
+    if (country === 'GB') return f;
+    console.warn(`London check point answered from ${country}; not used.`);
+  } catch (err) {
+    console.warn(`London check point unavailable (${err.message}); falling back to JustWatch UK data.`);
+  }
+  return null;
+}
+
 async function main() {
   const only = process.argv.includes('--only') ? process.argv[process.argv.indexOf('--only') + 1] : null;
   const ukRun = (process.env.VERIFY_COUNTRY || '').toUpperCase() === 'GB';
@@ -56,6 +94,8 @@ async function main() {
   const titles = new Map(readJson(path.join(DATA, 'catalogue.json')).titles.map((t) => [t.id, t]));
   const apiKey = process.env.TMDB_API_KEY;
   if (!ukRun && !apiKey) console.warn('No TMDB_API_KEY: provider links will pass as "UK availability not confirmed".');
+  const edge = ukRun ? null : await ukEdge();
+  if (edge) console.log('Region-locked provider pages are checked through the London check point.');
   const ukLookups = new Map();
   const lookup = (id, type) => {
     if (!ukLookups.has(id)) ukLookups.set(id, ukProvidersFor(id, type, { apiKey }));
@@ -79,9 +119,19 @@ async function main() {
       for (const [i, link] of group.entries()) {
         if (i) await sleep(DELAY_MS);
         const provider = providers.get(link.provider);
-        let result = link.kind === 'direct' ? await checkDirect(link) : await checkExternal(link, provider);
-        if (!ukRun && provider.ukCheckRequired && link.kind === 'external')
-          result = await confirmUk(result, link, provider, titles.get(link.titleId), lookup);
+        let result;
+        if (!ukRun && edge && provider.ukCheckRequired && link.kind === 'external') {
+          result = await checkExternal(link, provider, { fetchImpl: edge });
+          if (result.ok) result.ukSignal = 'uk-check';
+          else if (/^(network_error|timeout)$/.test(result.reason)) {
+            // The check point itself failed, not the link: fall back to the JustWatch route for tonight.
+            result = await confirmUk(await checkExternal(link, provider), link, provider, titles.get(link.titleId), lookup);
+          }
+        } else {
+          result = link.kind === 'direct' ? await checkDirect(link) : await checkExternal(link, provider);
+          if (!ukRun && provider.ukCheckRequired && link.kind === 'external')
+            result = await confirmUk(result, link, provider, titles.get(link.titleId), lookup);
+        }
         status.links[link.id] = applyResult(status.links[link.id], result);
         results.push({ link, result });
         console.log(`${result.ok ? 'PASS' : 'FAIL'}  ${link.id}${result.ok ? '' : `  (${result.reason})`}`);
@@ -109,7 +159,9 @@ async function main() {
   status.generatedAt = new Date().toISOString();
   status.checkedFrom = ukRun
     ? 'GB (connection confirmed)'
-    : `${process.env.VERIFY_LOCATION || 'unknown'}; UK availability from JustWatch via TMDB${apiKey ? '' : ' (no key set)'}`;
+    : edge
+      ? `${process.env.VERIFY_LOCATION || 'unknown'}; provider pages through the London check point (UK)`
+      : `${process.env.VERIFY_LOCATION || 'unknown'}; UK availability from JustWatch via TMDB${apiKey ? '' : ' (no key set)'}`;
 
   fs.writeFileSync(statusFile, `${JSON.stringify(status, null, 1)}\n`);
   const passed = results.filter((r) => r.result.ok).length;
