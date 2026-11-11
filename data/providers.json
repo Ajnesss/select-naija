@@ -79,7 +79,8 @@
         "Netflix Standard with Ads",
         "Netflix basic with Ads"
       ],
-      "openUrl": "https://www.netflix.com/search?q={q}"
+      "openUrl": "https://www.netflix.com/search?q={q}",
+      "titleUrl": "https://www.netflix.com/title/{id}"
     },
     {
       "id": "archive",

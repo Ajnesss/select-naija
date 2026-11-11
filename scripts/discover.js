@@ -131,6 +131,42 @@ async function seedIds(kind, seeds, opts) {
   return ids;
 }
 
+// Service-specific title IDs from Wikidata (open data), so a link can open the film itself instead of a
+// search page: on Fire TV a Netflix search address opens the browser, a title address opens the app.
+// Wikidata properties: P345 IMDb ID, P1874 Netflix ID. Failures are logged and ignored.
+const WIKIDATA_PROPS = { netflix: 'P1874' };
+
+async function addServiceIds(entries, fetchImpl) {
+  const imdb = entries.map((e) => e.title.id).filter((id) => /^tt\d+$/.test(id));
+  if (!imdb.length) return;
+  for (const [service, prop] of Object.entries(WIKIDATA_PROPS)) {
+    for (let i = 0; i < imdb.length; i += 150) {
+      const values = imdb.slice(i, i + 150).map((id) => `"${id}"`).join(' ');
+      const query = `SELECT ?imdb ?sid WHERE { VALUES ?imdb { ${values} } ?item wdt:P345 ?imdb; wdt:${prop} ?sid. }`;
+      try {
+        const res = await fetchImpl('https://query.wikidata.org/sparql', {
+          method: 'POST',
+          signal: AbortSignal.timeout(30000),
+          headers: {
+            accept: 'application/sparql-results+json',
+            'content-type': 'application/x-www-form-urlencoded',
+            'user-agent': 'SelectNaija/0.2 (https://github.com/Ajnesss/select-naija)',
+          },
+          body: `query=${encodeURIComponent(query)}`,
+        });
+        if (!res.ok) throw new Error(`Wikidata ${res.status}`);
+        const body = await res.json();
+        const map = new Map(body.results.bindings.map((b) => [b.imdb.value, b.sid.value]));
+        for (const e of entries) if (map.has(e.title.id)) (e.serviceIds = e.serviceIds || {})[service] = map.get(e.title.id);
+      } catch (err) {
+        console.warn(`Wikidata ${service} IDs skipped: ${err.message}`);
+      }
+    }
+    const n = entries.filter((e) => e.serviceIds?.[service]).length;
+    console.log(`${service} title IDs found for ${n} titles`);
+  }
+}
+
 async function discover({ apiKey, fetchImpl = fetch, seeds = [] } = {}) {
   const opts = { apiKey, fetchImpl };
   const entries = [];
@@ -143,6 +179,7 @@ async function discover({ apiKey, fetchImpl = fetch, seeds = [] } = {}) {
       if (entry) entries.push(entry);
     }
   }
+  await addServiceIds(entries, fetchImpl);
   return { generatedAt: new Date().toISOString(), source: 'TMDB discover, UK availability from JustWatch', entries };
 }
 
@@ -182,4 +219,4 @@ async function main() {
 
 if (require.main === module) main();
 
-module.exports = { discover, toEntry };
+module.exports = { discover, toEntry, addServiceIds };
