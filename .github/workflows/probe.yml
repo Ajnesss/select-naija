@@ -22,6 +22,8 @@ jobs:
       - name: Run probes
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          UK_EDGE_URL: https://select-naija-uk-edge.vercel.app
+          UK_EDGE_TOKEN: ${{ secrets.UK_EDGE_TOKEN }}
         run: node scripts/probe.js
       - name: Save results
         run: |
