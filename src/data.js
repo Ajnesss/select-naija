@@ -42,10 +42,49 @@ function loadData(dataDir, { now = Date.now() } = {}) {
   }
 
   const providerById = new Map((providers.providers || []).map((p) => [p.id, p]));
+  const providerByTmdbName = new Map();
+  for (const p of providers.providers || []) for (const n of p.tmdbNames || []) providerByTmdbName.set(n.toLowerCase(), p);
+
+  // Titles found automatically (scripts/discover.js). Hand-curated entries always win.
+  const discovered = readJson(path.join(dataDir, 'discovered.json'), { entries: [] });
+  const extraLinks = [];
+  const discoveredStatus = {};
+  for (const entry of discovered.entries || []) {
+    const t = entry.title;
+    if (!t?.id || !t.name || !t.type) continue;
+    if (!byId.has(t.id)) {
+      titles.push(t);
+      byId.set(t.id, t);
+    }
+    for (const offer of entry.offers || []) {
+      const p = providerByTmdbName.get(String(offer.providerName).toLowerCase()) || providerById.get('other');
+      if (!p) continue;
+      const slug = p.id === 'other' ? `other-${offer.tmdbProviderId}` : p.id;
+      const id = `jw:${slug}:${t.id}`;
+      const url = p.openUrl ? p.openUrl.replace('{q}', encodeURIComponent(t.name)) : entry.watchLink;
+      if (!url) continue;
+      extraLinks.push({
+        id,
+        titleId: t.id,
+        provider: p.id,
+        providerName: p.id === 'other' ? offer.providerName : undefined,
+        access: offer.access,
+        kind: 'external',
+        url,
+        discovered: true,
+      });
+      // Being in TMDB's UK list on the last discovery run is the check for these links.
+      const at = discovered.generatedAt;
+      discoveredStatus[id] = { lastOk: at, lastCheck: at, checks: [{ at, ok: true }], ukSignal: 'justwatch' };
+    }
+  }
 
   // links grouped by the stream id Nuvio asks for: "<titleId>" or "<titleId>:<season>:<episode>"
   const linksByStreamId = new Map();
-  for (const link of links.links || []) {
+  const curated = links.links || [];
+  const curatedProviders = new Set(curated.map((l) => `${l.titleId}|${l.provider}`));
+  const allLinks = [...curated, ...extraLinks.filter((l) => !curatedProviders.has(`${l.titleId}|${l.provider}`))];
+  for (const link of allLinks) {
     if (!providerById.has(link.provider)) throw new Error(`Link ${link.id} uses unknown provider ${link.provider}`);
     const key = link.season != null ? `${link.titleId}:${link.season}:${link.episode}` : link.titleId;
     if (!linksByStreamId.has(key)) linksByStreamId.set(key, []);
@@ -55,7 +94,7 @@ function loadData(dataDir, { now = Date.now() } = {}) {
   // Per link: a UK check from the last 7 days wins (it saw exactly what UK viewers see).
   // Otherwise the nightly hands-off result counts, so nothing depends on the laptop being on.
   const fresh = (iso) => iso && now - Date.parse(iso) <= FRESH_DAYS * DAY;
-  const mergedLinks = { ...(status.links || {}) };
+  const mergedLinks = { ...discoveredStatus, ...(status.links || {}) };
   for (const [id, rec] of Object.entries(statusUk.links || {})) {
     if (fresh(rec.lastCheck) || !mergedLinks[id]) mergedLinks[id] = { ...rec, ukSignal: 'uk-check' };
   }
@@ -67,7 +106,8 @@ function loadData(dataDir, { now = Date.now() } = {}) {
     byId,
     providerById,
     linksByStreamId,
-    allLinks: links.links || [],
+    allLinks,
+    discoveredGeneratedAt: discovered.generatedAt || null,
     status: {
       links: mergedLinks,
       providers: mergedProviders,

@@ -41,8 +41,10 @@ function candidateLinks(streamId, data) {
 }
 
 function formatLink(link, record, state, data, title, now) {
-  const provider = data.providerById.get(link.provider);
+  const base = data.providerById.get(link.provider);
+  const provider = link.providerName ? { ...base, name: link.providerName } : base;
   const access = ACCESS_LABEL[link.access || provider.access] || '';
+  const credit = link.discovered ? 'UK availability: JustWatch via TMDB' : '';
   const checked = record?.lastOk ? `checked ${ago(record.lastOk, now)}` : '';
   const name = title?.name || '';
   if (link.kind === 'direct') {
@@ -59,7 +61,8 @@ function formatLink(link, record, state, data, title, now) {
     title: [
       `Open on ${provider.name}`,
       [access, state === 'stale' ? `last checked ${ago(record.lastOk, now)}` : checked, unconfirmed].filter(Boolean).join(' · '),
-    ].join('\n'),
+      credit,
+    ].filter(Boolean).join('\n'),
     externalUrl: link.url,
   };
 }
@@ -92,6 +95,7 @@ async function buildStreams(type, streamId, data, { tmdbApiKey, fetchImpl, now =
 
   const streams = shown.map((s) => formatLink(s.link, s.record, s.state, data, title, now));
   const listedProviders = new Set(shown.map((s) => s.link.provider));
+  const listedNames = new Set(shown.map((s) => (s.link.providerName || '').toLowerCase()).filter(Boolean));
 
   // Only titles in Select Naija's own catalogue get TMDB offers, so non-Nigerian titles stay untouched.
   // Series episodes use the show's availability: TMDB has no per-episode provider data.
@@ -99,6 +103,7 @@ async function buildStreams(type, streamId, data, { tmdbApiKey, fetchImpl, now =
     const offers = await ukOffers(titleId, type, { apiKey: tmdbApiKey, fetchImpl, now });
     for (const o of offers) {
       if (o.providerId && listedProviders.has(o.providerId)) continue;
+      if (listedNames.has(o.providerName.toLowerCase())) continue;
       streams.push({
         name: `Select Naija\n${o.providerName} ↗`,
         title: `Where to watch: ${o.providerName} (UK) · ${ACCESS_LABEL[o.offer]}\nAvailability data: JustWatch via TMDB`,

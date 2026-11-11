@@ -172,3 +172,46 @@ test('streams: links whose UK availability is unconfirmed are labelled and ranke
   assert.ok(!/not confirmed/.test(streams[0].title));
   assert.match(streams[1].title, /UK availability not confirmed/);
 });
+
+test('discovered titles join the catalogue with JustWatch-confirmed links; curated entries win', async () => {
+  const fs = require('fs');
+  const path = require('path');
+  const { toEntry } = require('../scripts/discover');
+  const d = baseData();
+  d.providers.providers.push(
+    { id: 'netflix2', name: 'Netflix', access: 'subscription', tmdbNames: ['Netflix'], openUrl: 'https://www.netflix.com/search?q={q}' },
+    { id: 'other', name: 'Other UK service', access: 'subscription' },
+  );
+  const dir = writeData({ providers: d.providers });
+  const detail = (over) => ({
+    id: 5, title: 'Jagun Jagun', original_language: 'yo', release_date: '2023-08-10', genres: [{ name: 'Action' }],
+    poster_path: '/p.jpg', overview: 'A warrior.', external_ids: { imdb_id: 'tt2000001' },
+    'watch/providers': { results: { GB: { link: 'https://tmdb/watch', flatrate: [{ provider_name: 'Netflix', provider_id: 8 }], ads: [{ provider_name: 'Channel 5', provider_id: 99 }], rent: [{ provider_name: 'Apple', provider_id: 2 }] } } },
+    ...over,
+  });
+  const fresh = toEntry('movie', detail({}));
+  assert.deepEqual(fresh.offers.map((o) => o.providerName).sort(), ['Channel 5', 'Netflix']); // rental left out
+  const dupe = toEntry('movie', detail({ title: 'Osun', external_ids: { imdb_id: 'tt0000001' } }));
+  const noUk = toEntry('movie', detail({ 'watch/providers': { results: { US: {} } } }));
+  assert.equal(noUk, null);
+  const show = toEntry('tv', { id: 9, name: 'Lakatabu', original_language: 'yo', first_air_date: '2024-01-01', seasons: [{ season_number: 0, episode_count: 2 }, { season_number: 1, episode_count: 2 }], 'watch/providers': fresh && detail({})['watch/providers'] });
+  assert.equal(show.title.id, 'snaija-tmdb-tv-9');
+  assert.deepEqual(show.title.videos, [{ season: 1, episode: 1 }, { season: 1, episode: 2 }]);
+  fs.writeFileSync(path.join(dir, 'discovered.json'), JSON.stringify({ generatedAt: hoursAgo(5), entries: [fresh, dupe, show] }));
+
+  const data = loadData(dir, { now: NOW });
+  assert.equal(data.byId.get('tt0000001').name, 'Ọ̀ṣun Sẹ̀ẹ̀gẹ̀sí'); // curated wins
+  assert.ok(queryCatalog('movie', 'snaija-yoruba', {}, data, NOW).some((m) => m.id === 'tt2000001'));
+  assert.ok(queryCatalog('series', 'snaija-series', {}, data, NOW).some((m) => m.id === 'snaija-tmdb-tv-9'));
+  const streams = await buildStreams('movie', 'tt2000001', data, { now: NOW });
+  const nf = streams.find((s) => s.externalUrl.includes('netflix'));
+  assert.equal(nf.externalUrl, 'https://www.netflix.com/search?q=Jagun%20Jagun');
+  assert.match(nf.title, /JustWatch via TMDB/);
+  const c5 = streams.find((s) => /Channel 5/.test(s.name));
+  assert.equal(c5.externalUrl, 'https://tmdb/watch');
+  assert.equal(streams.length, 2);
+  const ep = await buildStreams('series', 'snaija-tmdb-tv-9:1:2', data, { now: NOW });
+  assert.equal(ep.length, 2);
+  // A week after the last discovery run the links are only stale; they never turn into unverified.
+  assert.equal(linkState(data.status.links['jw:netflix2:tt2000001'], NOW + 8 * 864e5), 'stale');
+});

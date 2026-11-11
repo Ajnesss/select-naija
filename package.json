@@ -9,6 +9,7 @@
   },
   "scripts": {
     "start": "node src/server.js",
+    "discover": "node scripts/discover.js",
     "verify": "node scripts/verify.js",
     "report": "node scripts/report.js",
     "test": "node --test test/*.test.js"
