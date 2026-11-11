@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-11T22:32:33.348Z",
- "statusGeneratedAt": "2026-11-11T22:32:33.295Z",
+ "generatedAt": "2026-11-11T22:42:04.165Z",
+ "statusGeneratedAt": "2026-11-11T22:42:04.102Z",
  "groups": {
   "classics": {
    "total": 1,
@@ -15,16 +15,16 @@
  },
  "languages": {
   "en": {
-   "catalogued": 1851,
-   "covered": 1705,
-   "withoutTmdb": 1655,
-   "coverage": 92.1
+   "catalogued": 1888,
+   "covered": 1742,
+   "withoutTmdb": 1692,
+   "coverage": 92.3
   },
   "yo": {
-   "catalogued": 117,
-   "covered": 77,
-   "withoutTmdb": 70,
-   "coverage": 65.8
+   "catalogued": 119,
+   "covered": 79,
+   "withoutTmdb": 72,
+   "coverage": 66.4
   },
   "ig": {
    "catalogued": 24,
@@ -65,7 +65,7 @@
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 13
+   "checks30d": 14
   }
  },
  "gaps": [
