@@ -38,11 +38,23 @@ async function tmdb(pathAndQuery, { apiKey, fetchImpl }) {
   throw new Error(`TMDB rate limit for ${pathAndQuery}`);
 }
 
+// TMDB keyword and company IDs found by the research probes (research/out/tmdb-kw-*, tmdb-co-*), 11 Nov 2026.
+// Keywords: nollywood, nollywood movies, nigerian, nigerian cinema, nigeria films, yoruba, igbo, igbo culture, hausa.
+const KEYWORDS = [284361, 381111, 208742, 179572, 345508, 253854, 331191, 363383, 362299];
+// Nigerian studios: Anthill, EbonyLife (TV/Studios/Films), FilmOne (all entries), FAAN (Funke Akindele), Greoh,
+// Inkblot, Kemi Adetiba Visuals, KAP Motion Pictures (Kunle Afolayan), Play Network, SceneOne, Trino, Anakle.
+const COMPANIES = [
+  172248, 158227, 180943, 71025, 124870, 217680, 205814, 136716, 102729, 238821, 202153, 136717, 102730, 112657,
+  166476, 159223, 209396, 226723, 203941,
+];
+
 const QUERIES = [
   'with_origin_country=NG',
   'with_original_language=yo',
   'with_original_language=ig',
   'with_original_language=ha',
+  `with_keywords=${KEYWORDS.join('|')}`,
+  `with_companies=${COMPANIES.join('|')}`,
 ];
 
 async function discoverIds(kind, opts) {
