@@ -2,6 +2,14 @@
 
 Versions follow semantic versioning. Each release passes `npm test` and `node scripts/report.js --gate`.
 
+## 0.2.0 (2026-11-11)
+
+- Nightly discovery of Nigerian films and series watchable in the UK (TMDB, UK data from JustWatch):
+  224 titles on the first run (Prime Video, Netflix, Tubi, Plex, Filmzie, MUBI, BBC iPlayer and more).
+- Seed list for titles TMDB's country and language filters miss.
+- New providers: Prime Video, Filmzie, and a catch-all for other UK services (named by TMDB).
+- Netflix, Prime Video and Tubi links open that service's search for the title.
+
 ## 0.1.1 (2026-11-11)
 
 - Fully hands-off checking: the nightly run now checks provider links too, using JustWatch's UK data

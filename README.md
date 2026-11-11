@@ -10,6 +10,11 @@ and AIOStreams config.
   and classics, each filterable by genre, language, decade and free/subscription. Its own search, which
   ignores accents (Ọ̀ṣun = Osun). Titles with no TMDB or IMDb entry get a `snaija-<slug>-<year>` ID and a
   full detail page, so they are never second-class.
+- **Automatic discovery.** Every night `scripts/discover.js` asks TMDB for every Nigerian film and series
+  (made in Nigeria, or originally in Yoruba, Igbo or Hausa, plus the hand-picked `data/seeds.json`) that
+  can be watched in the UK free, with ads or by subscription (UK data from JustWatch). They join the
+  catalogue with a link per service; a title leaves as soon as it leaves UK services. Hand-curated
+  entries in `data/catalogue.json` and `data/links.json` always win.
 - **Three resolver layers** per title:
   1. TMDB watch providers (UK, powered by JustWatch), for catalogued titles only.
   2. Our own provider index (`data/links.json`): Kava, Circuits, Arewa24, Tubi, Plex and more.

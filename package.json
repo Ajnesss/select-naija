@@ -1,6 +1,6 @@
 {
   "name": "select-naija",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Select Naija: Nigerian films and series for Nuvio/Stremio from legitimate sources, with its own catalogue and verified links.",
   "main": "src/server.js",
   "type": "commonjs",
