@@ -2,6 +2,13 @@
 
 Versions follow semantic versioning. Each release passes `npm test` and `node scripts/report.js --gate`.
 
+## 0.1.1 (2026-11-11)
+
+- Fully hands-off checking: the nightly run now checks provider links too, using JustWatch's UK data
+  (via TMDB) to catch titles that aren't available in the UK. No computer needs to be on.
+- The UK check from Fortune's PC is now an optional extra; a UK result from the last 7 days wins.
+- Links whose UK availability can't be confirmed are labelled in Nuvio and ranked after confirmed ones.
+
 ## 0.1.0 (2026-11-11)
 
 - Provider pages only count as verified when checked from a UK connection (first GitHub run passed

@@ -132,7 +132,7 @@ test('UK check results are merged with the main results', async () => {
   delete d.status.links['kava:iyalode'];
   const dir = writeData({ status: d.status });
   fs.writeFileSync(path.join(dir, 'status-uk.json'), JSON.stringify({ generatedAt: hoursAgo(1), links: ukOnly, providers: { kava: { score: 90 } } }));
-  const data = loadData(dir);
+  const data = loadData(dir, { now: NOW });
   assert.ok(queryCatalog('movie', 'snaija-yoruba', {}, data, NOW).some((m) => m.id === 'snaija-iyalode-2025'));
   assert.equal(data.status.providers.kava.score, 90);
 });
@@ -143,4 +143,32 @@ test('a provider with too few checks is not demoted or hidden', async () => {
   const data = loadData(writeData({ status: d.status }));
   const streams = await buildStreams('movie', 'tt0000001', data, { now: NOW });
   assert.ok(streams.some((s) => s.externalUrl === 'https://kava.example/osun'));
+});
+
+test('a recent UK check wins over the hands-off result; an old one does not', () => {
+  const fs = require('fs');
+  const path = require('path');
+  const d = baseData();
+  d.status.links['kava:osun'].ukSignal = 'justwatch';
+  const dir = writeData({ status: d.status });
+  const ukFail = (h) => ({ lastCheck: hoursAgo(h), lastOk: null, checks: [{ at: hoursAgo(h), ok: false }, { at: hoursAgo(h), ok: false }] });
+  fs.writeFileSync(path.join(dir, 'status-uk.json'), JSON.stringify({ generatedAt: hoursAgo(3), links: { 'kava:osun': ukFail(3) } }));
+  assert.equal(linkState(loadData(dir, { now: NOW }).status.links['kava:osun'], NOW), 'unverified');
+  fs.writeFileSync(path.join(dir, 'status-uk.json'), JSON.stringify({ generatedAt: hoursAgo(24 * 9), links: { 'kava:osun': ukFail(24 * 9) } }));
+  const merged = loadData(dir, { now: NOW }).status.links['kava:osun'];
+  assert.equal(linkState(merged, NOW), 'verified');
+  assert.equal(merged.ukSignal, 'justwatch');
+});
+
+test('streams: links whose UK availability is unconfirmed are labelled and ranked after confirmed ones', async () => {
+  const d = baseData();
+  d.providers.providers.find((p) => p.id === 'kava').ukCheckRequired = true;
+  d.providers.providers.find((p) => p.id === 'tubi').ukCheckRequired = true;
+  d.status.links['kava:osun'].ukSignal = 'page-only';
+  d.status.links['tubi:osun'] = { ...d.status.links['kava:osun'], ukSignal: 'justwatch' };
+  const data = loadData(writeData({ providers: d.providers, status: d.status }), { now: NOW });
+  const streams = (await buildStreams('movie', 'tt0000001', data, { now: NOW })).filter((s) => s.externalUrl);
+  assert.equal(streams[0].externalUrl, 'https://tubi.example/osun');
+  assert.ok(!/not confirmed/.test(streams[0].title));
+  assert.match(streams[1].title, /UK availability not confirmed/);
 });

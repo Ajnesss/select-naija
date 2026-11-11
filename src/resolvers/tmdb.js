@@ -94,8 +94,39 @@ async function ukOffers(imdbId, type, { apiKey, fetchImpl = fetch, now = Date.no
   return offers;
 }
 
+/**
+ * For the nightly check: which Select Naija providers JustWatch lists for this title in the UK.
+ * Returns { known: true, providers: Set } or { known: false, reason } when it couldn't be determined
+ * (no key, no IMDb id, TMDB error). Unlike ukOffers, a TMDB failure is reported, never read as "not in the UK".
+ */
+async function ukProvidersFor(imdbId, type, { apiKey, fetchImpl = fetch, timeoutMs = 10000 } = {}) {
+  if (!apiKey) return { known: false, reason: 'no_tmdb_key' };
+  if (!/^tt\d+$/.test(imdbId)) return { known: false, reason: 'no_imdb_id' };
+  try {
+    const found = await getJson(
+      `${API}/find/${imdbId}?external_source=imdb_id&api_key=${encodeURIComponent(apiKey)}`,
+      fetchImpl,
+      timeoutMs,
+    );
+    const hit = type === 'series' ? found.tv_results?.[0] : found.movie_results?.[0];
+    if (!hit) return { known: false, reason: 'not_on_tmdb' };
+    const kind = type === 'series' ? 'tv' : 'movie';
+    const wp = await getJson(`${API}/${kind}/${hit.id}/watch/providers?api_key=${encodeURIComponent(apiKey)}`, fetchImpl, timeoutMs);
+    const gb = wp.results?.[REGION] || {};
+    const providers = new Set();
+    for (const field of ['free', 'ads', 'flatrate', 'rent', 'buy'])
+      for (const p of gb[field] || []) {
+        const id = NAME_TO_PROVIDER[String(p.provider_name).toLowerCase()];
+        if (id) providers.add(id);
+      }
+    return { known: true, providers };
+  } catch (err) {
+    return { known: false, reason: 'tmdb_error' };
+  }
+}
+
 function clearCache() {
   cache.clear();
 }
 
-module.exports = { ukOffers, clearCache, NAME_TO_PROVIDER };
+module.exports = { ukOffers, ukProvidersFor, clearCache, NAME_TO_PROVIDER };

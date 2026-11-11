@@ -89,6 +89,21 @@ async function checkDirect(link, { fetchImpl = fetch, timeoutMs = 20000 } = {}) 
   return { ok: true, finalUrl: res.url || link.url };
 }
 
+/**
+ * Hands-off UK check for a region-locked provider link, run from outside the UK (the nightly GitHub run).
+ * The page check has already passed; this adds the UK answer from JustWatch's UK data (via TMDB) when the
+ * provider is one JustWatch tracks in the UK. Not listed there → fails as not in the UK. No answer
+ * possible (custom-ID title, provider not tracked, TMDB down) → passes as 'page-only', which Nuvio labels.
+ */
+async function confirmUk(pageResult, link, provider, title, lookup) {
+  if (!pageResult.ok) return pageResult;
+  if (!provider.justwatchTracked) return { ...pageResult, ukSignal: 'page-only' };
+  const uk = await lookup(link.titleId, title?.type === 'series' ? 'series' : 'movie');
+  if (!uk.known) return { ...pageResult, ukSignal: 'page-only' };
+  if (!uk.providers.has(link.provider)) return { ok: false, reason: 'not_in_uk:justwatch' };
+  return { ...pageResult, ukSignal: 'justwatch' };
+}
+
 function applyResult(record, result, now = Date.now()) {
   const at = new Date(now).toISOString();
   const next = { ...(record || {}) };
@@ -98,6 +113,7 @@ function applyResult(record, result, now = Date.now()) {
   if (result.ok) {
     next.lastOk = at;
     if (result.finalUrl) next.finalUrl = result.finalUrl;
+    if (result.ukSignal) next.ukSignal = result.ukSignal;
   }
   return next;
 }
@@ -128,4 +144,4 @@ function scoreProvider(records, accuracy, now = Date.now()) {
   };
 }
 
-module.exports = { checkExternal, checkDirect, applyResult, scoreProvider, looksLikeVideo, USER_AGENT };
+module.exports = { checkExternal, checkDirect, confirmUk, applyResult, scoreProvider, looksLikeVideo, USER_AGENT };
