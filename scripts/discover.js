@@ -116,11 +116,26 @@ function toEntry(kind, d) {
   return { title, offers, watchLink: gb.link };
 }
 
-async function discover({ apiKey, fetchImpl = fetch } = {}) {
+// Hand-picked titles TMDB's country/language filters miss (its country data is patchy for Nollywood).
+// Each is looked up by name (and year when given); it's only kept if TMDB lists a UK offer for it.
+async function seedIds(kind, seeds, opts) {
+  const ids = [];
+  for (const seed of seeds.filter((x) => (x.kind || 'movie') === kind)) {
+    const yearParam = seed.year ? `&${kind === 'tv' ? 'first_air_date_year' : 'year'}=${seed.year}` : '';
+    const body = await tmdb(`/search/${kind}?query=${encodeURIComponent(seed.name)}${yearParam}`, opts);
+    const hit = seed.tmdbId ? { id: seed.tmdbId } : (body.results || [])[0];
+    if (hit) ids.push(hit.id);
+    else console.warn(`Seed not found on TMDB: ${seed.name}${seed.year ? ` (${seed.year})` : ''}`);
+    await sleep(DELAY_MS);
+  }
+  return ids;
+}
+
+async function discover({ apiKey, fetchImpl = fetch, seeds = [] } = {}) {
   const opts = { apiKey, fetchImpl };
   const entries = [];
   for (const kind of ['movie', 'tv']) {
-    const ids = await discoverIds(kind, opts);
+    const ids = [...new Set([...(await discoverIds(kind, opts)), ...(await seedIds(kind, seeds, opts))])];
     for (const id of ids) {
       await sleep(DELAY_MS);
       const d = await tmdb(`/${kind}/${id}?append_to_response=external_ids,watch/providers`, opts);
@@ -139,7 +154,8 @@ async function main() {
   }
   let result;
   try {
-    result = await discover({ apiKey });
+    const seeds = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'seeds.json'), 'utf8')).titles || [];
+    result = await discover({ apiKey, seeds });
   } catch (err) {
     // Keep yesterday's list rather than emptying the catalogue on a TMDB outage.
     console.error(`Discovery failed, previous list kept: ${err.message}`);

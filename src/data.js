@@ -61,6 +61,7 @@ function loadData(dataDir, { now = Date.now() } = {}) {
       if (!p) continue;
       const slug = p.id === 'other' ? `other-${offer.tmdbProviderId}` : p.id;
       const id = `jw:${slug}:${t.id}`;
+      if (discoveredStatus[id]) continue; // e.g. "Prime Video" and "Prime Video with Ads": one link, cheapest offer first
       const url = p.openUrl ? p.openUrl.replace('{q}', encodeURIComponent(t.name)) : entry.watchLink;
       if (!url) continue;
       extraLinks.push({

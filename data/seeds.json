@@ -1,0 +1,290 @@
+{
+ "_note": "Titles TMDB's country/language filters miss. scripts/discover.js looks each up on TMDB and keeps it only if TMDB lists a UK offer (free, ads or subscription). Add tmdbId to pin an exact match. Sources: JustWatch UK Nigeria list (11 Nov 2026), titles Fortune's mum watches, well-known Nollywood releases.",
+ "titles": [
+  {
+   "name": "Lionheart",
+   "year": 2018,
+   "kind": "movie"
+  },
+  {
+   "name": "A Song from the Dark",
+   "kind": "movie"
+  },
+  {
+   "name": "Strained",
+   "kind": "movie"
+  },
+  {
+   "name": "One Lagos Night",
+   "year": 2021,
+   "kind": "movie"
+  },
+  {
+   "name": "The Department",
+   "year": 2015,
+   "kind": "movie"
+  },
+  {
+   "name": "Blood & Oil",
+   "kind": "movie"
+  },
+  {
+   "name": "Desecration",
+   "kind": "movie"
+  },
+  {
+   "name": "Timeless",
+   "kind": "movie"
+  },
+  {
+   "name": "Dara Ju",
+   "kind": "movie"
+  },
+  {
+   "name": "Legacy",
+   "year": 2010,
+   "kind": "movie"
+  },
+  {
+   "name": "Light in the Dark",
+   "kind": "movie"
+  },
+  {
+   "name": "Ayra Starr: Dare to Dream",
+   "kind": "movie"
+  },
+  {
+   "name": "Hide 'N' Seek",
+   "year": 2021,
+   "kind": "movie"
+  },
+  {
+   "name": "Time Looped",
+   "kind": "movie"
+  },
+  {
+   "name": "New Money",
+   "year": 2018,
+   "kind": "movie"
+  },
+  {
+   "name": "The Millions",
+   "kind": "movie"
+  },
+  {
+   "name": "Saving Onome",
+   "kind": "movie"
+  },
+  {
+   "name": "Merry Men: The Real Yoruba Demons",
+   "year": 2018,
+   "kind": "movie"
+  },
+  {
+   "name": "The Brightons",
+   "kind": "movie"
+  },
+  {
+   "name": "Finding Me",
+   "kind": "movie"
+  },
+  {
+   "name": "4th Republic",
+   "year": 2019,
+   "kind": "movie"
+  },
+  {
+   "name": "Merry Men 2: Another Mission",
+   "year": 2019,
+   "kind": "movie"
+  },
+  {
+   "name": "Tainted Canvas",
+   "kind": "movie"
+  },
+  {
+   "name": "Boycott",
+   "year": 2022,
+   "kind": "movie"
+  },
+  {
+   "name": "Say Who Die",
+   "kind": "movie"
+  },
+  {
+   "name": "Offshoot",
+   "kind": "movie"
+  },
+  {
+   "name": "Silence",
+   "year": 2024,
+   "kind": "movie"
+  },
+  {
+   "name": "Onyeegwu",
+   "kind": "movie"
+  },
+  {
+   "name": "Payday",
+   "year": 2018,
+   "kind": "movie"
+  },
+  {
+   "name": "Dognapped",
+   "kind": "movie"
+  },
+  {
+   "name": "Orí: Rebirth",
+   "year": 2025,
+   "kind": "movie"
+  },
+  {
+   "name": "The Polygamist",
+   "kind": "movie"
+  },
+  {
+   "name": "King of Thieves",
+   "year": 2022,
+   "kind": "movie"
+  },
+  {
+   "name": "Brotherhood",
+   "year": 2022,
+   "kind": "movie"
+  },
+  {
+   "name": "Citation",
+   "year": 2020,
+   "kind": "movie"
+  },
+  {
+   "name": "The Figurine",
+   "year": 2009,
+   "kind": "movie"
+  },
+  {
+   "name": "Phone Swap",
+   "year": 2012,
+   "kind": "movie"
+  },
+  {
+   "name": "October 1",
+   "year": 2014,
+   "kind": "movie"
+  },
+  {
+   "name": "'76",
+   "year": 2016,
+   "kind": "movie"
+  },
+  {
+   "name": "Half of a Yellow Sun",
+   "year": 2013,
+   "kind": "movie"
+  },
+  {
+   "name": "Òlòtūré",
+   "year": 2019,
+   "kind": "movie"
+  },
+  {
+   "name": "Isoken",
+   "year": 2017,
+   "kind": "movie"
+  },
+  {
+   "name": "Omo Ghetto: The Saga",
+   "year": 2020,
+   "kind": "movie"
+  },
+  {
+   "name": "Ajosepo",
+   "year": 2024,
+   "kind": "movie"
+  },
+  {
+   "name": "Lisabi: The Uprising",
+   "year": 2024,
+   "kind": "movie"
+  },
+  {
+   "name": "Water & Garri",
+   "year": 2024,
+   "kind": "movie"
+  },
+  {
+   "name": "Agemo",
+   "year": 2023,
+   "kind": "movie"
+  },
+  {
+   "name": "Afamefuna: An Nwa Boi Story",
+   "year": 2023,
+   "kind": "movie"
+  },
+  {
+   "name": "Funmilayo Ransome-Kuti",
+   "year": 2024,
+   "kind": "movie"
+  },
+  {
+   "name": "Ada Omo Daddy",
+   "year": 2023,
+   "kind": "movie"
+  },
+  {
+   "name": "Ijakumo: The Born Again Stripper",
+   "year": 2022,
+   "kind": "movie"
+  },
+  {
+   "name": "Mikolo",
+   "year": 2024,
+   "kind": "movie"
+  },
+  {
+   "name": "The Bling Lagosians",
+   "kind": "tv"
+  },
+  {
+   "name": "Oversabi Aunty",
+   "year": 2024,
+   "kind": "tv"
+  },
+  {
+   "name": "Blood Sisters",
+   "year": 2022,
+   "kind": "tv"
+  },
+  {
+   "name": "Far From Home",
+   "year": 2022,
+   "kind": "tv"
+  },
+  {
+   "name": "Jenifa's Diary",
+   "year": 2015,
+   "kind": "tv"
+  },
+  {
+   "name": "Seven Doors",
+   "year": 2024,
+   "kind": "tv"
+  },
+  {
+   "name": "Òlòtūré: The Journey",
+   "year": 2023,
+   "kind": "tv"
+  },
+  {
+   "name": "Postcards",
+   "year": 2024,
+   "kind": "tv"
+  },
+  {
+   "name": "Shanty Town",
+   "year": 2023,
+   "kind": "tv"
+  }
+ ]
+}
