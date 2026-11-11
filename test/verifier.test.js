@@ -96,5 +96,5 @@ test('ukProvidersFor never reads a TMDB failure as "not in the UK"', async () =>
   assert.ok(r.known && r.providers.has('tubi') && !r.providers.has('plex'));
   const noGb = async (url) => fakeResponse({ body: JSON.stringify(url.includes('/find/') ? { movie_results: [{ id: 7 }] } : { results: { US: {} } }) });
   const r2 = await ukProvidersFor('tt1', 'movie', { apiKey: 'k', fetchImpl: noGb });
-  assert.ok(r2.known && r2.providers.size === 0);
+  assert.deepEqual(r2, { known: false, reason: 'no_uk_data' });
 });
