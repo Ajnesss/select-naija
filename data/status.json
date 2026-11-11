@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T21:25:49.724Z",
+ "generatedAt": "2026-11-11T21:28:14.602Z",
  "links": {
   "selftest:bbb-10s": {
    "checks": [
@@ -37,11 +37,16 @@
      "at": "2026-11-11T21:25:46.387Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-11T21:28:14.095Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-11T21:25:46.387Z",
+   "lastCheck": "2026-11-11T21:28:14.095Z",
    "lastReason": null,
-   "lastOk": "2026-11-11T21:25:46.387Z",
+   "lastOk": "2026-11-11T21:28:14.095Z",
    "finalUrl": "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4"
   },
   "plex:nollywood-babylon": {
@@ -70,12 +75,17 @@
      "at": "2026-11-11T21:25:49.724Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-11T21:28:14.602Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-11T21:25:49.724Z",
+   "lastCheck": "2026-11-11T21:28:14.602Z",
    "lastReason": null,
    "ukListed": "Filmzie (ads)",
-   "lastOk": "2026-11-11T21:25:49.724Z",
+   "lastOk": "2026-11-11T21:28:14.602Z",
    "finalUrl": "https://watch.plex.tv/en-GB/movie/nollywood-babylon-2008?supportsPublicPosts=1&supportsUdpDiscussionUgcCards=1&supportsMentions=1",
    "ukSignal": "page-only"
   },
@@ -105,9 +115,14 @@
      "at": "2026-11-11T21:25:46.869Z",
      "ok": false,
      "reason": "not_in_uk:justwatch"
+    },
+    {
+     "at": "2026-11-11T21:28:14.433Z",
+     "ok": false,
+     "reason": "not_in_uk:justwatch"
     }
    ],
-   "lastCheck": "2026-11-11T21:25:46.869Z",
+   "lastCheck": "2026-11-11T21:28:14.433Z",
    "lastReason": "not_in_uk:justwatch",
    "ukListed": "Apple TV Store (rent), Amazon Video (rent), Sky Store (rent), YouTube (rent), Apple TV Store (buy), Amazon Video (buy), Sky Store (buy), YouTube (buy)"
   }
@@ -118,21 +133,21 @@
    "reliability30d": 0,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 5
+   "checks30d": 6
   },
   "plex": {
-   "score": 64,
-   "reliability30d": 40,
+   "score": 70,
+   "reliability30d": 50,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 5
+   "checks30d": 6
   },
   "selftest": {
    "score": 100,
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 7
+   "checks30d": 8
   }
  },
  "checkedFrom": "github-actions; UK availability from JustWatch via TMDB"
