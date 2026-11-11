@@ -1,67 +1,29 @@
 {
- "_note": "Batch 3: UK check point probes.",
+ "_note": "Batch 4: Tubi UK Nollywood category.",
  "probes": [
   {
-   "name": "uk-ip",
-   "url": "https://ipinfo.io/json",
-   "viaUk": true
-  },
-  {
-   "name": "tubi-uk-home",
-   "url": "https://tubitv.com/home",
+   "name": "tubi-uk-nolly-cat",
+   "url": "https://tubitv.com/category/nollywood_naija_tales",
    "viaUk": true,
-   "max": 900000
-  },
-  {
-   "name": "tubi-uk-movies",
-   "url": "https://tubitv.com/category/movies",
-   "viaUk": true,
-   "max": 900000
-  },
-  {
-   "name": "tubi-uk-search-nollywood",
-   "url": "https://tubitv.com/search/nollywood",
-   "viaUk": true,
-   "max": 900000
-  },
-  {
-   "name": "tubi-uk-categories",
-   "url": "https://tubitv.com/categories",
-   "viaUk": true,
-   "max": 900000
-  },
-  {
-   "name": "tubi-us-categories",
-   "url": "https://tubitv.com/categories",
-   "max": 900000
-  },
-  {
-   "name": "tubi-cat-sitemap",
-   "url": "https://tubitv.com/sitemaps/category-pages.xml",
-   "max": 200000
-  },
-  {
-   "name": "pluto-gb-channels",
-   "url": "https://api.pluto.tv/v2/channels?country=GB",
    "max": 3000000
   },
   {
-   "name": "plex-uk-nolly",
-   "url": "https://watch.plex.tv/live-tv/channel/nolly-africa-hd",
+   "name": "tubi-uk-nolly-oz",
+   "url": "https://tubitv.com/oz/containers/nollywood_naija_tales/content?parentId=&cursor=0&limit=200&isKidsMode=false&expand=0",
    "viaUk": true,
-   "max": 50000
+   "max": 3000000
   },
   {
-   "name": "kallo-home",
-   "url": "https://kallo.ng/",
+   "name": "tubi-uk-black-cat",
+   "url": "https://tubitv.com/category/black_cinema",
    "viaUk": true,
-   "max": 300000
+   "max": 3000000
   },
   {
-   "name": "afroland-home",
-   "url": "https://www.afrolandtv.com/",
+   "name": "tubi-uk-movie-buddy",
+   "url": "https://tubitv.com/movies/100014072",
    "viaUk": true,
-   "max": 300000
+   "max": 600000
   }
  ]
 }
