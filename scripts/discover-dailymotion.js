@@ -16,7 +16,6 @@ const OUT = path.join(ROOT, 'data', 'dailymotion.json');
 const API = 'https://api.dailymotion.com';
 const FIELDS = 'id,title,duration,created_time,thumbnail_720_url,description,geoblocking,status,private,language';
 const MIN_SECONDS = 20 * 60;
-const MAX_PAGES = 100; // Dailymotion's cap: 100 pages of 100
 const SKIP = /\b(trailer|teaser|preview|remix|behind the scenes|bts|interview|music video|official video|skit)\b/i;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -67,19 +66,34 @@ function languagesFor(title, channel) {
   return found.length ? found : channel.languages;
 }
 
+// Dailymotion lists at most 1,000 videos per query, so walk back in time: newest first, then repeat the
+// listing for everything uploaded before the oldest video seen so far.
 async function channelVideos(channel, fetchImpl) {
-  const out = [];
-  for (let page = 1; page <= MAX_PAGES; page++) {
-    const res = await fetchImpl(`${API}/user/${encodeURIComponent(channel.user)}/videos?fields=${FIELDS}&limit=100&page=${page}`, {
-      signal: AbortSignal.timeout(30000),
-    });
-    if (!res.ok) throw new Error(`Dailymotion ${res.status} for ${channel.user} page ${page}`);
-    const body = await res.json();
-    out.push(...(body.list || []));
-    if (!body.has_more) break;
-    await sleep(300);
+  const out = new Map();
+  let before = null;
+  for (let round = 0; round < 50; round++) {
+    let oldest = null;
+    let added = 0;
+    for (let page = 1; page <= 10; page++) {
+      const window = before ? `&created_before=${before}` : '';
+      const res = await fetchImpl(
+        `${API}/user/${encodeURIComponent(channel.user)}/videos?fields=${FIELDS}&limit=100&page=${page}&sort=recent${window}`,
+        { signal: AbortSignal.timeout(30000) },
+      );
+      if (!res.ok) throw new Error(`Dailymotion ${res.status} for ${channel.user} page ${page}`);
+      const body = await res.json();
+      for (const v of body.list || []) {
+        if (!out.has(v.id)) added++;
+        out.set(v.id, v);
+        if (oldest == null || v.created_time < oldest) oldest = v.created_time;
+      }
+      if (!body.has_more) break;
+      await sleep(300);
+    }
+    if (!added || oldest == null || oldest === before) break;
+    before = oldest;
   }
-  return out;
+  return [...out.values()];
 }
 
 /** Groups a channel's videos into films. Pure, so it can be tested without the network. */
