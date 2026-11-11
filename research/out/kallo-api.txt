@@ -1,7 +1,0 @@
-URL: https://api.kallo.ng/
-FINAL: https://api.kallo.ng/
-STATUS: 404
-TYPE: application/json; charset=utf-8
-LENGTH: 93
-
-{"statusCode":404,"timestamp":"2026-11-11T22:20:10.184Z","path":"/","message":"Cannot GET /"}

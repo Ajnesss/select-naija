@@ -1,7 +1,0 @@
-URL: https://api.dailymotion.com/user/NollyExtra?fields=id,username,screenname,videos_total,followers_total,verified,partner,description,country,website_url,created_time
-FINAL: https://api.dailymotion.com/user/NollyExtra?fields=id,username,screenname,videos_total,followers_total,verified,partner,description,country,website_url,created_time
-STATUS: 200
-TYPE: application/json; charset=UTF-8
-LENGTH: 216
-
-{"id":"x1natpr","username":"NollyExtra","screenname":"NollyExtra","videos_total":178,"followers_total":252,"verified":false,"partner":true,"description":"","country":"GB","website_url":null,"created_time":1445872256}

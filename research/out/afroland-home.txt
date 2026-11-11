@@ -1,8 +1,8 @@
-URL: https://www.afrolandtv.com/browse
-FINAL: https://www.afrolandtv.com/browse
+URL: https://www.afrolandtv.com/
+FINAL: https://select-naija-uk-edge.vercel.app/api/fetch?url=https%3A%2F%2Fwww.afrolandtv.com%2F (UK check point; upstream 200 https://www.afrolandtv.com/)
 STATUS: 200
 TYPE: text/html; charset=UTF-8
-LENGTH: 25376
+LENGTH: 25883
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" prefix="og: http://ogp.me/ns#">
@@ -20,14 +20,18 @@ LENGTH: 25376
         .devices-list .device-icon.tcl { background-image: url("https://www.afrolandtv.com/themes/contrib/codes_themes/codesbase/images/devices/logo-tcl.jpeg"); }
       </style>
         <meta charset="utf-8" />
-<meta name="title" content="Browse | AfroLandTV" />
+<meta name="title" content="Free Black Movies &amp; TV - AfroLandTV" />
 <meta name="twitter:card" content="summary" />
-<link rel="canonical" href="https://www.afrolandtv.com/browse" />
-<meta name="twitter:title" content="Browse | AfroLandTV | AfroLandTV" />
+<link rel="shortlink" href="https://www.afrolandtv.com/" />
+<link rel="canonical" href="https://www.afrolandtv.com/" />
+<meta name="twitter:description" content="Watch hundreds of free African movies, Nollywood, and TV shows from Africa and its diaspora!" />
+<meta name="twitter:title" content="Free Black Movies &amp; TV - AfroLandTV | AfroLandTV" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.afrolandtv.com/browse" />
-<meta property="og:title" content="Browse | AfroLandTV | AfroLandTV" />
-<meta name="twitter:url" content="https://www.afrolandtv.com/browse" />
+<meta name="description" content="Watch hundreds of free African movies, Nollywood, and TV shows from Africa and its diaspora!" />
+<meta property="og:url" content="https://www.afrolandtv.com/" />
+<meta property="og:title" content="Free Black Movies &amp; TV - AfroLandTV | AfroLandTV" />
+<meta name="twitter:url" content="https://www.afrolandtv.com/" />
+<meta property="og:description" content="Watch hundreds of free African movies, Nollywood, and TV shows from Africa and its diaspora!" />
 <meta name="apple-itunes-app" content="app-id=1512789635" />
 <link rel="alternate" href="tv.afroland.afrolandtv" />
 <link rel="alternate" href="tv.afroland.afrolandtv" />
@@ -38,7 +42,7 @@ LENGTH: 25376
 <meta http-equiv="content-language" content="en" />
 <link rel="shortcut icon" href="/themes/custom/alt/afrolandtv/favicon.png" type="image/png" />
 
-    <title>Browse | AfroLandTV</title>
+    <title>Free Black Movies &amp; TV - AfroLandTV</title>
     <link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/ajax-progress.module.css?to8z5a" />
 <link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/align.module.css?to8z5a" />
 <link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/autocomplete-loading.module.css?to8z5a" />
@@ -77,7 +81,7 @@ LENGTH: 25376
 <![endif]-->
 
           </head>
-  <body>
+  <body class="is-front page-app">
             <script>
       window.fbAsyncInit = function() {
         FB.init({
@@ -209,7 +213,7 @@ LENGTH: 25376
   
     
       
-  <h1>Browse</h1>
+  <h1>Home</h1>
 
 
   </div>
@@ -245,9 +249,7 @@ LENGTH: 25376
     <div id="block-afrolandtv-content">
   
     
-            <h2>Browse</h2>
-
-      <div id="ottera-js-root--browse"></div>
+      <div id="ottera-js-root"></div>
   </div>
 
   </div>
@@ -404,7 +406,7 @@ LENGTH: 25376
         </div>
       </div>
     </div>
-              <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"browse","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en","currentQuery":{"q":"\/browse"}},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"codesOtp":{"settings":{"otpLength":6,"ttl":600}},"codesBase":{"channel":{"id":"1","name":"AfroLandTV"}},"codesbasePublic":{"options":{"api":"https:\/\/api-ott.afrolandtv.com","language":"en","regcode":true,"html5_path":"html5_afrolandtv_com","web_app":true,"cs_auth_token":"s8B8CYQrUKMFsHFhMU","version":"14","auto_play":{"mobile":true,"desktop":true}},"pages":{"devices":{"title":"Devices","path":"internal:\/devices","menu":{"id":"main","title":"Devices","weight":-49}},"upgrade":{"title":"Upgrade","path":"\/upgrade","body":"\u003Cdiv class=\u0022upgrade-header\u0022\u003E\u003Ch2\u003EUpgrade your Account\u003C\/h2\u003E\u003Cdiv class=\u0022row align-center\u0022\u003E\u003Cdiv class=\u0022small-12 large-6 columns\u0022\u003E\u003Cp\u003EPremium users get access to limitless ad-free content anytime on any of our supported devices.\u003C\/p\u003E\u003C\/div\u003E\u003C\/div\u003E\u003C\/div\u003E\u003Cdiv class=\u0022upgrade-body\u0022\u003E\u003Cdiv class=\u0022row\u0022\u003E\u003Cdiv class=\u0022small-12 large-6 align-center columns\u0022\u003E\u003Cdiv class=\u0022row\u0022 id=\u0022products\u0022\u003E\u0026nbsp;\u003C\/div\u003E\u003C\/div\u003E\u003C\/div\u003E\u003C\/div\u003E\u003Cdiv class=\u0022row align-center\u0022\u003E\u003Cdiv class=\u0022small-12 large-6 large-centered columns\u0022\u003E\u003Cstyle type=\u0022text\/css\u0022\u003E#regcode-wrapper input { display: inline-block; }\u003C\/style\u003E\u003Cdiv id=\u0022regcode-wrapper\u0022\u003E\u0026nbsp;\u003C\/div\u003E\u003C\/div\u003E\u003C\/div\u003E","menu":{"id":"main","title":"Upgrade","weight":-48}},"account":{"title":"Account","path":"internal:\/#account","menu":{"id":"main","title":"Account","weight":-49}},"search":{"title":"Search","path":"internal:\/search"}},"gdpr":{"blocked":[]},"devices":{"ios":{"device_id":1512789635,"url":"https:\/\/itunes.apple.com\/us\/app\/id1512789635?ls=1\u0026mt=8","display":true,"img_url":""},"apple_tv":{"device_id":1512789635,"url":"https:\/\/itunes.apple.com\/us\/app\/id1512789635?ls=1\u0026mt=8","display":true,"img_url":""},"android":{"device_id":"tv.perception.android.afroland","url":"https:\/\/play.google.com\/store\/apps\/details?id=tv.perception.android.afroland","display":true,"img_url":""},"android_tv":{"device_id":"tv.perception.clients.tv.android.afroland","url":"https:\/\/play.google.com\/store\/apps\/details?id=tv.perception.clients.tv.android.afroland","display":true,"img_url":""},"fire_tv":{"device_id":"tv.perception.clients.tv.android.afroland","url":"https:\/\/www.amazon.com\/AfroLandTV\/dp\/B088P48ZG9\/","display":true,"img_url":""},"roku":{"device_id":"tv.afroland.afrolandtv","url":"https:\/\/channelstore.roku.com\/details\/e37f05b6d94e406453512764340cdd9b\/afrolandtv","display":true,"img_url":""},"vizio":{"deice_id":null,"url":"","display":true,"image_url":"url(\u0022\/themes\/contrib\/codes_themes\/codesbase\/images\/ce-logos\/vizio.jpg\u0022)"}},"ads":{"divId":"Ep4BUpBZnhtoqWEQ4kik","unblockMessage":"We noticed you have your ad blocker turned on. Please disable it to watch this title."},"coppa":false,"main_url":"https:\/\/www.afrolandtv.com","channel":"al","site_prefix":"alt","available_languages":["en","uk"],"language":"en","site_name":"AfroLandTV","commerce":false,"premium":{"message":"You must upgrade to watch this video.","link":"\/upgrade"},"reg_only":{"message":"You must be logged in to watch this.","link":"\/?open=login"},"theme":{"name":"afrolandtv","path":"themes\/custom\/alt\/afrolandtv","logo":"themes\/custom\/alt\/afrolandtv\/themes\/custom\/alt\/afrolandtv\/logo.png"}},"user":{"uid":0,"permissionsHash":"20c98c09337fa0b445dc701835896cad792700811f546a58ed674f71312273ae"}}</script>
+              <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"app","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en","currentQuery":{"q":"\/"}},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"codesOtp":{"settings":{"otpLength":6,"ttl":600}},"codesBase":{"channel":{"id":"1","name":"AfroLandTV"}},"codesbasePublic":{"options":{"api":"https:\/\/api-ott.afrolandtv.com","language":"en","regcode":true,"html5_path":"html5_afrolandtv_com","web_app":true,"cs_auth_token":"s8B8CYQrUKMFsHFhMU","version":"14","auto_play":{"mobile":true,"desktop":true}},"pages":{"devices":{"title":"Devices","path":"internal:\/devices","menu":{"id":"main","title":"Devices","weight":-49}},"upgrade":{"title":"Upgrade","path":"\/upgrade","body":"\u003Cdiv class=\u0022upgrade-header\u0022\u003E\u003Ch2\u003EUpgrade your Account\u003C\/h2\u003E\u003Cdiv class=\u0022row align-center\u0022\u003E\u003Cdiv class=\u0022small-12 large-6 columns\u0022\u003E\u003Cp\u003EPremium users get access to limitless ad-free content anytime on any of our supported devices.\u003C\/p\u003E\u003C\/div\u003E\u003C\/div\u003E\u003C\/div\u003E\u003Cdiv class=\u0022upgrade-body\u0022\u003E\u003Cdiv class=\u0022row\u0022\u003E\u003Cdiv class=\u0022small-12 large-6 align-center columns\u0022\u003E\u003Cdiv class=\u0022row\u0022 id=\u0022products\u0022\u003E\u0026nbsp;\u003C\/div\u003E\u003C\/div\u003E\u003C\/div\u003E\u003C\/div\u003E\u003Cdiv class=\u0022row align-center\u0022\u003E\u003Cdiv class=\u0022small-12 large-6 large-centered columns\u0022\u003E\u003Cstyle type=\u0022text\/css\u0022\u003E#regcode-wrapper input { display: inline-block; }\u003C\/style\u003E\u003Cdiv id=\u0022regcode-wrapper\u0022\u003E\u0026nbsp;\u003C\/div\u003E\u003C\/div\u003E\u003C\/div\u003E","menu":{"id":"main","title":"Upgrade","weight":-48}},"account":{"title":"Account","path":"internal:\/#account","menu":{"id":"main","title":"Account","weight":-49}},"search":{"title":"Search","path":"internal:\/search"}},"gdpr":{"blocked":[]},"devices":{"ios":{"device_id":1512789635,"url":"https:\/\/itunes.apple.com\/us\/app\/id1512789635?ls=1\u0026mt=8","display":true,"img_url":""},"apple_tv":{"device_id":1512789635,"url":"https:\/\/itunes.apple.com\/us\/app\/id1512789635?ls=1\u0026mt=8","display":true,"img_url":""},"android":{"device_id":"tv.perception.android.afroland","url":"https:\/\/play.google.com\/store\/apps\/details?id=tv.perception.android.afroland","display":true,"img_url":""},"android_tv":{"device_id":"tv.perception.clients.tv.android.afroland","url":"https:\/\/play.google.com\/store\/apps\/details?id=tv.perception.clients.tv.android.afroland","display":true,"img_url":""},"fire_tv":{"device_id":"tv.perception.clients.tv.android.afroland","url":"https:\/\/www.amazon.com\/AfroLandTV\/dp\/B088P48ZG9\/","display":true,"img_url":""},"roku":{"device_id":"tv.afroland.afrolandtv","url":"https:\/\/channelstore.roku.com\/details\/e37f05b6d94e406453512764340cdd9b\/afrolandtv","display":true,"img_url":""},"vizio":{"deice_id":null,"url":"","display":true,"image_url":"url(\u0022\/themes\/contrib\/codes_themes\/codesbase\/images\/ce-logos\/vizio.jpg\u0022)"}},"ads":{"divId":"Ep4BUpBZnhtoqWEQ4kik","unblockMessage":"We noticed you have your ad blocker turned on. Please disable it to watch this title."},"coppa":false,"main_url":"https:\/\/www.afrolandtv.com","channel":"al","site_prefix":"alt","available_languages":["en","uk"],"language":"en","site_name":"AfroLandTV","commerce":false,"premium":{"message":"You must upgrade to watch this video.","link":"\/upgrade"},"reg_only":{"message":"You must be logged in to watch this.","link":"\/?open=login"},"theme":{"name":"afrolandtv","path":"themes\/custom\/alt\/afrolandtv","logo":"themes\/custom\/alt\/afrolandtv\/themes\/custom\/alt\/afrolandtv\/logo.png"}},"user":{"uid":0,"permissionsHash":"20c98c09337fa0b445dc701835896cad792700811f546a58ed674f71312273ae"}}</script>
 <script src="/core/assets/vendor/jquery/jquery.min.js?v=3.4.1"></script>
 <script src="/core/assets/vendor/jquery-once/jquery.once.min.js?v=2.2.0"></script>
 <script src="/core/misc/drupalSettingsLoader.js?v=8.8.1"></script>
