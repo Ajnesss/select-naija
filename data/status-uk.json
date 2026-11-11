@@ -1,0 +1,46 @@
+{
+ "links": {
+  "tubi:100014072": {
+   "checks": [
+    {
+     "at": "2026-11-11T20:44:31.418Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
+    }
+   ],
+   "lastCheck": "2026-11-11T20:44:31.418Z",
+   "lastReason": "unavailable:content unavailable"
+  },
+  "plex:nollywood-babylon": {
+   "checks": [
+    {
+     "at": "2026-11-11T20:44:31.735Z",
+     "ok": true,
+     "reason": null
+    }
+   ],
+   "lastCheck": "2026-11-11T20:44:31.735Z",
+   "lastReason": null,
+   "lastOk": "2026-11-11T20:44:31.735Z",
+   "finalUrl": "https://watch.plex.tv/en-GB/movie/nollywood-babylon-2008?supportsPublicPosts=1&supportsUdpDiscussionUgcCards=1&supportsMentions=1"
+  }
+ },
+ "providers": {
+  "tubi": {
+   "score": 40,
+   "reliability30d": 0,
+   "accuracy": 100,
+   "freshness": 100,
+   "checks30d": 1
+  },
+  "plex": {
+   "score": 100,
+   "reliability30d": 100,
+   "accuracy": 100,
+   "freshness": 100,
+   "checks30d": 1
+  }
+ },
+ "generatedAt": "2026-11-11T20:44:31.737Z",
+ "checkedFrom": "GB (connection confirmed)"
+}

@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-11-11T10:57:45.174Z",
+ "generatedAt": "2026-11-11T20:44:31.866Z",
  "statusGeneratedAt": "2026-11-11T10:57:45.112Z",
  "groups": {
   "classics": {
    "total": 1,
-   "covered": 0,
-   "coverage": 0
+   "covered": 1,
+   "coverage": 100
   },
   "recent": {
    "total": 1,
@@ -16,9 +16,9 @@
  "languages": {
   "en": {
    "catalogued": 2,
-   "covered": 0,
+   "covered": 1,
    "withoutTmdb": 0,
-   "coverage": 0
+   "coverage": 50
   }
  },
  "providers": {
@@ -28,15 +28,23 @@
    "accuracy": 100,
    "freshness": 100,
    "checks30d": 2
+  },
+  "tubi": {
+   "score": 40,
+   "reliability30d": 0,
+   "accuracy": 100,
+   "freshness": 100,
+   "checks30d": 1
+  },
+  "plex": {
+   "score": 100,
+   "reliability30d": 100,
+   "accuracy": 100,
+   "freshness": 100,
+   "checks30d": 1
   }
  },
  "gaps": [
-  {
-   "id": "tt1288595",
-   "group": "classics",
-   "note": "documentary, Plex",
-   "name": "Nollywood Babylon"
-  },
   {
    "id": "tt8355352",
    "group": "recent",
