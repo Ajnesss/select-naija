@@ -5,6 +5,7 @@ const { ukOffers } = require('./resolvers/tmdb');
 
 const HIDE_BELOW = 50; // provider score under which its links are hidden
 const DEFAULT_SCORE = 70; // providers not yet scored rank below proven ones
+const MIN_CHECKS = 10; // a provider's score only counts once it rests on this many checks in 30 days
 
 const ACCESS_LABEL = { free: 'Free', ads: 'Free with ads', subscription: 'Subscription', rental: 'Rental' };
 
@@ -23,7 +24,10 @@ function ago(iso, now) {
 
 function providerScore(data, providerId) {
   const s = data.status.providers[providerId];
-  return s && typeof s.score === 'number' ? s.score : DEFAULT_SCORE;
+  if (!s || typeof s.score !== 'number') return DEFAULT_SCORE;
+  // A handful of checks is not enough evidence to demote or hide a whole provider.
+  if (typeof s.checks30d === 'number' && s.checks30d < MIN_CHECKS) return DEFAULT_SCORE;
+  return s.score;
 }
 
 // Links that answer a stream request: exact matches, plus title-level external links for an episode
@@ -100,4 +104,4 @@ async function buildStreams(type, streamId, data, { tmdbApiKey, fetchImpl, now =
   return streams;
 }
 
-module.exports = { buildStreams, parseStreamId, candidateLinks, HIDE_BELOW, DEFAULT_SCORE };
+module.exports = { buildStreams, parseStreamId, candidateLinks, HIDE_BELOW, DEFAULT_SCORE, MIN_CHECKS };
