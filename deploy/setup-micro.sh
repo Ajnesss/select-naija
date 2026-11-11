@@ -43,6 +43,9 @@ apt-get install -y caddy
 # 4. the code, run by its own unprivileged user
 id snaija >/dev/null 2>&1 || useradd --system --home "$APP_DIR" --shell /usr/sbin/nologin snaija
 [ -d "$APP_DIR/.git" ] || git clone --depth 1 "$REPO" "$APP_DIR"
+# The folder belongs to the service user but updates run as root; without this, git refuses
+# ("dubious ownership") and every update silently fails.
+git config --system --add safe.directory "$APP_DIR"
 chown -R snaija:snaija "$APP_DIR"
 
 # 5. settings. Public address = this server's IP as an sslip.io name (free, no account, gets https)
@@ -104,7 +107,10 @@ cat > /usr/local/bin/select-naija-deploy <<'DEPLOY'
 set -uo pipefail
 cd /opt/select-naija || exit 1
 OLD=$(git rev-parse HEAD)
-git fetch -q --depth 1 origin main || exit 0
+if ! git fetch -q --depth 1 origin main; then
+  echo "$(date -Is) fetch FAILED, kept $OLD"
+  exit 0
+fi
 NEW=$(git rev-parse FETCH_HEAD)
 [ "$OLD" = "$NEW" ] && exit 0
 git reset -q --hard "$NEW"
