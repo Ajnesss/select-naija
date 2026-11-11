@@ -92,6 +92,31 @@ function loadData(dataDir, { now = Date.now(), freeOnly = process.env.SELECT_NAI
   }
 
   // links grouped by the stream id Nuvio asks for: "<titleId>" or "<titleId>:<season>:<episode>"
+  // Films from approved video channels (scripts/discover-dailymotion.js): one link per part.
+  const dm = readJson(path.join(dataDir, 'dailymotion.json'), { titles: [] });
+  for (const t of dm.titles || []) {
+    if (!t?.id || !t.name || byId.has(t.id)) continue;
+    titles.push(t);
+    byId.set(t.id, t);
+    const total = (t.parts || []).length;
+    for (const part of t.parts || []) {
+      const id = `dm:${part.videoId}`;
+      extraLinks.push({
+        id,
+        titleId: t.id,
+        provider: 'dailymotion',
+        kind: 'external',
+        url: `https://www.dailymotion.com/video/${part.videoId}`,
+        label: total > 1 ? `Part ${part.part} of ${total}` : undefined,
+        order: part.part,
+        minutes: part.minutes,
+      });
+      // Listed as public, published and not blocked for the UK on the last nightly read: that is the check.
+      const at = dm.generatedAt;
+      discoveredStatus[id] = { lastOk: at, lastCheck: at, checks: [{ at, ok: true }], ukSignal: 'provider' };
+    }
+  }
+
   const linksByStreamId = new Map();
   const curated = (links.links || []).filter(
     (l) => !freeOnly || FREE_ACCESS.has(l.access || providerById.get(l.provider)?.access),

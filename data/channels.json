@@ -1,0 +1,45 @@
+{
+ "_note": "Video channels Select Naija reads. approved=true only after checking the channel is the rights-holder or a licensed distributor (Dailymotion 'verified' at minimum). See research/SOURCES.md.",
+ "channels": [
+  {
+   "platform": "dailymotion",
+   "user": "realnollywoodmovies",
+   "name": "Extra Nolly TV",
+   "languages": [
+    "en"
+   ],
+   "approved": true,
+   "why": "Dailymotion-verified partner channel; 5,800+ Nollywood films published free by the channel."
+  },
+  {
+   "platform": "dailymotion",
+   "user": "yorubaplay",
+   "name": "YORUBAWOOD (iBAKATV)",
+   "languages": [
+    "yo"
+   ],
+   "approved": true,
+   "why": "Dailymotion-verified; official channel of distributor iBAKATV."
+  },
+  {
+   "platform": "dailymotion",
+   "user": "Yorubahood",
+   "name": "Yorubahood",
+   "languages": [
+    "yo"
+   ],
+   "approved": false,
+   "why": "Partner but not verified; rights position unconfirmed."
+  },
+  {
+   "platform": "dailymotion",
+   "user": "NollyExtra",
+   "name": "NollyExtra",
+   "languages": [
+    "en"
+   ],
+   "approved": false,
+   "why": "Partner but not verified; mixed uploads (music, episodes)."
+  }
+ ]
+}

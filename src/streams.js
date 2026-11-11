@@ -45,6 +45,7 @@ function formatLink(link, record, state, data, title, now) {
   const provider = link.providerName ? { ...base, name: link.providerName } : base;
   const access = ACCESS_LABEL[link.access || provider.access] || '';
   const credit = link.discovered ? 'UK availability: JustWatch via TMDB' : '';
+  const part = link.label ? `${link.label}${link.minutes ? ` (${link.minutes} min)` : ''}` : '';
   const checked = record?.lastOk ? `checked ${ago(record.lastOk, now)}` : '';
   const name = title?.name || '';
   if (link.kind === 'direct') {
@@ -59,7 +60,7 @@ function formatLink(link, record, state, data, title, now) {
   return {
     name: `Select Naija\n${provider.name} ↗`,
     title: [
-      `Open on ${provider.name}`,
+      [`Open on ${provider.name}`, part].filter(Boolean).join(' · '),
       [access, state === 'stale' ? `last checked ${ago(record.lastOk, now)}` : checked, unconfirmed].filter(Boolean).join(' · '),
       credit,
     ].filter(Boolean).join('\n'),
@@ -90,7 +91,10 @@ async function buildStreams(type, streamId, data, { tmdbApiKey, fetchImpl, now =
     const kind = (x) => (x.link.kind === 'direct' ? 0 : 1);
     const st = (x) => (x.state === 'verified' ? 0 : 1);
     const uk = (x) => (x.record?.ukSignal === 'page-only' ? 1 : 0);
-    return kind(a) - kind(b) || st(a) - st(b) || uk(a) - uk(b) || b.score - a.score;
+    return (
+      kind(a) - kind(b) || st(a) - st(b) || uk(a) - uk(b) || b.score - a.score ||
+      (a.link.provider === b.link.provider ? (a.link.order || 0) - (b.link.order || 0) : 0)
+    );
   });
 
   const streams = shown.map((s) => formatLink(s.link, s.record, s.state, data, title, now));
