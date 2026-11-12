@@ -1,0 +1,27 @@
+{
+ "name": "circuits-www",
+ "home": {
+  "url": "https://www.circuits.tv/",
+  "finalUrl": "https://www.circuits.tv/page/646792d82a19035a166745f6",
+  "status": 200,
+  "title": "Now Showing | Circuits - Africa's Premier Virtual Cinema",
+  "text": "You can skip ad in Ad will start in.. Now Showing Premium FlexiWatch FreeFlex Uganda Catalog Log in Agesinkole 2 Watch King of Thieves (1) Watch Asiri Ade PG-18 Watch Atiko PG-15 Watch U-Turn Watch Ruthless PG-18 Watch Pre-order Now Showing Premium FlexiWatch FreeFlex Privacy Policy Terms and Conditions About Us FAQs Refund Policy",
+  "walls": [
+   "log in"
+  ],
+  "media": [
+   "https://papaya-do.vod.immergo.tv/papaya-immergo/transcoded/04c8bde4-59dd-40a1-a68b-386665081e74/hls/master.m3u8",
+   "https://papaya-do.vod.immergo.tv/papaya-immergo/transcoded/04c8bde4-59dd-40a1-a68b-386665081e74/hls/1200k/streamPlaylist.m3u8",
+   "https://papaya-do.vod.immergo.tv/papaya-immergo/transcoded/04c8bde4-59dd-40a1-a68b-386665081e74/hls/subs_vtt.m3u8",
+   "https://papaya-do.vod.immergo.tv/papaya-immergo/transcoded/04c8bde4-59dd-40a1-a68b-386665081e74/hls/1200k/seg_2087814_0.ts",
+   "https://papaya-do.vod.immergo.tv/papaya-immergo/transcoded/04c8bde4-59dd-40a1-a68b-386665081e74/hls/6000k/streamPlaylist.m3u8"
+  ],
+  "drm": [
+   "https://snippet.univtec.com/js/drm-session.js"
+  ],
+  "players": []
+ },
+ "titleLinksFound": 0,
+ "titleLinkSamples": [],
+ "titles": []
+}

@@ -1,0 +1,17 @@
+{
+ "name": "irokotv",
+ "home": {
+  "url": "https://irokotv.com/",
+  "finalUrl": "https://irokotv.com/",
+  "status": 404,
+  "title": "Page Not Found - The content you are searching for is not available",
+  "text": " Site under maintenance. Contact the admin for assistance!",
+  "walls": [],
+  "media": [],
+  "drm": [],
+  "players": []
+ },
+ "titleLinksFound": 0,
+ "titleLinkSamples": [],
+ "titles": []
+}

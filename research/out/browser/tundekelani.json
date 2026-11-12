@@ -1,0 +1,17 @@
+{
+ "name": "tundekelani",
+ "home": {
+  "url": "https://tundekelani.tv/",
+  "finalUrl": "chrome-error://chromewebdata/",
+  "status": "error: page.goto: net::ERR_CONNECTION_CLOSED at https://tundekelani.tv/",
+  "title": "",
+  "text": "",
+  "walls": [],
+  "media": [],
+  "drm": [],
+  "players": []
+ },
+ "titleLinksFound": 0,
+ "titleLinkSamples": [],
+ "titles": []
+}

@@ -1,0 +1,17 @@
+{
+ "name": "moreplex",
+ "home": {
+  "url": "https://moreplex.com/",
+  "finalUrl": "chrome-error://chromewebdata/",
+  "status": "error: page.goto: net::ERR_CONNECTION_REFUSED at https://moreplex.com/",
+  "title": "",
+  "text": "",
+  "walls": [],
+  "media": [],
+  "drm": [],
+  "players": []
+ },
+ "titleLinksFound": 0,
+ "titleLinkSamples": [],
+ "titles": []
+}
