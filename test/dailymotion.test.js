@@ -114,3 +114,18 @@ test('YouTube links are handed to the app as ytId streams and count as in-app', 
   assert.equal(streams[0].ytId, 'abcdefghijk');
   assert.ok(!streams[0].externalUrl && !streams[0].url);
 });
+
+test('YouTube channel films join the catalogue with one ytId stream per part', async () => {
+  const dir = writeData();
+  const d = baseData();
+  d.providers.providers.push({ id: 'youtube', name: 'YouTube', access: 'free' }, { id: 'dailymotion', name: 'Dailymotion', access: 'ads' });
+  fs.writeFileSync(path.join(dir, 'providers.json'), JSON.stringify(d.providers));
+  fs.writeFileSync(path.join(dir, 'youtube.json'), JSON.stringify({ generatedAt: hoursAgo(3), titles: [
+    { id: 'snaija-yt-koleoso-2025', type: 'movie', name: 'Koleoso', year: 2025, languages: ['yo'], channel: 'UCx', parts: [{ part: 1, videoId: 'aaaaaaaaaaa', minutes: 90 }, { part: 2, videoId: 'bbbbbbbbbbb', minutes: 80 }] },
+  ] }));
+  const data = loadData(dir, { now: NOW, inAppOnly: true });
+  assert.ok(queryCatalog('movie', 'snaija-yoruba', {}, data, NOW).some((m) => m.id === 'snaija-yt-koleoso-2025'));
+  const streams = await buildStreams('movie', 'snaija-yt-koleoso-2025', data, { now: NOW });
+  assert.deepEqual(streams.map((s) => s.ytId), ['aaaaaaaaaaa', 'bbbbbbbbbbb']);
+  assert.match(streams[0].title, /Part 1 of 2/);
+});

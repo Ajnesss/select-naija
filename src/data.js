@@ -110,33 +110,40 @@ function loadData(
   // links grouped by the stream id Nuvio asks for: "<titleId>" or "<titleId>:<season>:<episode>"
   // Films from approved video channels (scripts/discover-dailymotion.js): one link per part.
   const dm = readJson(path.join(dataDir, 'dailymotion.json'), { titles: [] });
+  const yt = readJson(path.join(dataDir, 'youtube.json'), { titles: [] });
   const channels = readJson(path.join(dataDir, 'channels.json'), { channels: [] }).channels || [];
   const authorisedChannels = new Map(
     channels.filter((c) => c.platform === 'dailymotion' && c.ownerAuthorised && credentialsFor(c, env)).map((c) => [c.user, c]),
   );
-  for (const t of dm.titles || []) {
+  const videoTitles = [
+    ...(dm.titles || []).map((t) => ({ t, platform: 'dailymotion', at: dm.generatedAt })),
+    ...(yt.titles || []).map((t) => ({ t, platform: 'youtube', at: yt.generatedAt })),
+  ];
+  for (const { t, platform, at } of videoTitles) {
     if (!t?.id || !t.name || byId.has(t.id)) continue;
     titles.push(t);
     byId.set(t.id, t);
     const total = (t.parts || []).length;
     for (const part of t.parts || []) {
-      const id = `dm:${part.videoId}`;
-      const owner = authorisedChannels.get(t.channel);
+      const isYt = platform === 'youtube';
+      const id = `${isYt ? 'yt' : 'dm'}:${part.videoId}`;
+      const owner = isYt ? null : authorisedChannels.get(t.channel);
       extraLinks.push({
         id,
         titleId: t.id,
-        provider: 'dailymotion',
-        // Owner-authorised channel: a stream address from the owner's own API key, played in Nuvio.
-        kind: owner ? 'direct' : 'external',
+        provider: platform,
+        // YouTube: handed to the app as a video ID it plays itself. Dailymotion: in-app only for an
+        // owner-authorised channel (stream address from the owner's own API key), otherwise external.
+        kind: isYt ? 'youtube' : owner ? 'direct' : 'external',
+        ytId: isYt ? part.videoId : undefined,
         resolve: owner ? { via: 'dailymotion-owner', videoId: part.videoId, channel: owner } : undefined,
-        url: `https://www.dailymotion.com/video/${part.videoId}`,
+        url: isYt ? `https://www.youtube.com/watch?v=${part.videoId}` : `https://www.dailymotion.com/video/${part.videoId}`,
         label: total > 1 ? `Part ${part.part} of ${total}` : undefined,
         order: part.part,
         minutes: part.minutes,
         synthetic: true,
       });
       // Listed as public, published and not blocked for the UK on the last nightly read: that is the check.
-      const at = dm.generatedAt;
       discoveredStatus[id] = { lastOk: at, lastCheck: at, checks: [{ at, ok: true }], ukSignal: 'provider' };
     }
   }
