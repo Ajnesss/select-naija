@@ -9,8 +9,874 @@
   "nigerian movie",
   "nollywood series"
  ],
- "claimsFound": 0,
- "channels": {},
- "longFilms": 0,
- "tests": []
+ "claimsFound": 797,
+ "channels": {
+  "@ScreenplaysandOpinions": {
+   "title": "Screenplays and Opinions",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "(anonymous)": {
+   "videos": 22,
+   "longVideos": 15,
+   "examples": [
+    "DEADLY PROPOSAL - Classic Nollywood Movie (93 min)",
+    "ROMP (EREPA)Latest Yoruba Movie 2021 (83 min)",
+    "A Night To Remember | Classic Nigerian Movie (91 min)",
+    "Arusi Iyi | Classic Nigerian Movie (102 min)"
+   ]
+  },
+  "@creatv": {
+   "title": "CREA TV ",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@DrNasFam": {
+   "title": "DrNasNuggets Academy",
+   "videos": 3,
+   "longVideos": 3,
+   "examples": [
+    "ARUN (2026) | Full Nollywood Movie | Latest Nigerian Movie | HD (99 min)",
+    "Project Assault 2025: Last Night as DPO – Deadly Revenge Siege (87 min)",
+    "Oku Orun Sọnu - Yoruba Movie 2026 Odunlade Adekola, Anike Ami, Iya Gbokan, Abeni Agbon (78 min)"
+   ]
+  },
+  "@NasHapNollyTV": {
+   "title": "NasHap NollyTv",
+   "videos": 26,
+   "longVideos": 8,
+   "examples": [
+    "Behind His Smile (2026) – Full Nollywood Movie | Monica Friday, Ichie Fuego | Nigerian Drama (63 min)",
+    "My True Lover |True Love Test | Latest Nollywood Drama 2025| Romantic Drama 2025 (61 min)",
+    "SINKING SAND (2026) – Powerful Nollywood Drama | Full Movie Trailer (90 min)",
+    "THE WOMEN IN MY HOUSE (FULL MOVIE) | Nigerian Family Drama Comedy | Nollywood Movie 2026 (82 min)"
+   ]
+  },
+  "@searchforuhuru": {
+   "title": "Search For Uhuru",
+   "videos": 1,
+   "longVideos": 1,
+   "examples": [
+    "Black Hollywood Starpower Is Struggling, Why A Collab With Nollywood Is Needed (56 min)"
+   ]
+  },
+  "@tgoldenbabatv": {
+   "title": "TGOLDENBABA TV",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@bbosstv": {
+   "title": "BBoss Tv Nollywood Movie Channel",
+   "videos": 106,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@uzzyefizzytv": {
+   "title": "UzzyEfizzy",
+   "videos": 13,
+   "longVideos": 1,
+   "examples": [
+    "Dirty Desire Full Movie | New Nollywood movie | Rated 18 (75 min)"
+   ]
+  },
+  "@godwinibe": {
+   "title": "Godwin Ibe",
+   "videos": 7,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@davesfinance": {
+   "title": "Dave's Finance",
+   "videos": 2,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@Mbiretv": {
+   "title": "MBIRE TV",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@JohnSelePhilip": {
+   "title": "John Sele Philip",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@Debroz": {
+   "title": "De Broz",
+   "videos": 3,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@ReiSubs": {
+   "title": "RS",
+   "videos": 4,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@Funnybelieverbg": {
+   "title": "funny believer bg",
+   "videos": 8,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@Joyuniverse": {
+   "title": "Joy Universe",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@Fortunesworld": {
+   "title": "Fortunesworldtv",
+   "videos": 2,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@OGBETA_tv": {
+   "title": "Ogbeta TV",
+   "videos": 1,
+   "longVideos": 1,
+   "examples": [
+    "BACK HOME: Latest 2022 Exclusive Nigerian Nollywood Movie (113 min)"
+   ]
+  },
+  "@AfroMovieTrailer": {
+   "title": "Afro Movie Trailers",
+   "videos": 9,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@evatalkcoaching": {
+   "title": "Eva Talk With You Coaching",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@Tvafrikbase": {
+   "title": "STREAMFLIX",
+   "videos": 10,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@Supasly75": {
+   "title": "Supasly75",
+   "videos": 1,
+   "longVideos": 1,
+   "examples": [
+    "Nigeria, Nollywood, & Money Rituals (95 min)"
+   ]
+  },
+  "@egboj20": {
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@nahawa.review": {
+   "title": "Nahawa Review",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@MarkWillWrite": {
+   "title": "Mark Will",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@Biscuitdemer": {
+   "title": "Biscuitdemer",
+   "videos": 2,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@afroptv": {
+   "title": "AFROP TV.",
+   "videos": 5,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@AfricantalesByVictoria": {
+   "title": "African Tales by Victoria",
+   "videos": 30,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@IpobRaptureMedia": {
+   "title": "Ipob Rapture Media",
+   "videos": 2,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@Chukssurvival": {
+   "title": "CHUKS SURVIVAL",
+   "videos": 3,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@IdealLedger": {
+   "title": "CuriosityCentral",
+   "videos": 2,
+   "longVideos": 2,
+   "examples": [
+    "Care Giver (2026) - She Took the Job, He Took Her Last Nerve (93 min)",
+    "NAKED LIES | Full Movie | Kunle Remi, Omowunmi Dada, Uche Montana, Eso Dike (92 min)"
+   ]
+  },
+  "@encoretv": {
+   "title": "Encore TV",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@AfricanDiasporaNewsChannel": {
+   "title": "African Diaspora News Channel",
+   "videos": 6,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@KonkoBandTv": {
+   "title": "Konko Band",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@CurvyAngels": {
+   "title": "Curvy Angels",
+   "videos": 2,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@enkline": {
+   "title": "Crypto, Gaming, Education",
+   "videos": 1,
+   "longVideos": 1,
+   "examples": [
+    "// New Movie // Latest Nollywood African Movie 2020 Full Movie // Second Life // Nigeria // Film (43 min)"
+   ]
+  },
+  "@TheRenaissance": {
+   "title": "THE RENAISSANCE",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@CurRecap": {
+   "title": "Cur",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@Bossempiremedia": {
+   "title": "Boss Empire Media",
+   "videos": 3,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@mystèredel'afrique": {
+   "title": "The Mysteries of Africa",
+   "videos": 2,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@Creatorq168": {
+   "title": "Amir tech 15 k",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@Kaysmediaug": {
+   "title": "KAYS MEDIA UG",
+   "videos": 3,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@ayokolafolktalestories": {
+   "title": "Ayokola Folktale Stories",
+   "videos": 3,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@HOLY": {
+   "title": "HOLY The Artist",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@kharala": {
+   "title": "kharala TV",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@Brhem_Osyris": {
+   "title": "Brhem Osyris",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@duncandegross": {
+   "title": "¿Cómo Quieres que Cuente Estrellas?",
+   "videos": 4,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@KennyIsabop": {
+   "title": "KennyIsaBop",
+   "videos": 6,
+   "longVideos": 1,
+   "examples": [
+    "My Twin 4 FINAL SAGA Latest Yoruba Movie 2023 Drama|Wumi Toriola |Odunlade Adekola|Tosin |Akeem (82 min)"
+   ]
+  },
+  "@efo-starbwoytv": {
+   "title": "Efo Starbwoy Tv",
+   "videos": 2,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@ClassicMovies": {
+   "title": "Classic Movies",
+   "videos": 124,
+   "longVideos": 123,
+   "examples": [
+    "Classic Drama & Romance Movie : A Shriek in the Night (1933) by Albert Ray (67 min)",
+    "Classic Drama & Romance Movie : Below the Deadline (1936) by Charles Lamont (69 min)",
+    "Classic Drama & Romance Movie : Big Town After Dark (1947) by William C. Thomas (70 min)",
+    "Classic Drama & Romance Movie : Broadway Limited (1941) by Gordon Douglas (75 min)"
+   ]
+  },
+  "@AllInOnePlace": {
+   "title": "99Auth World",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@isotopemohit": {
+   "title": "ISOTOPE_mohit",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@FAMOUSGAKURU(f_gtv)": {
+   "title": "FAMOUSGAKURU( F_G TV)",
+   "videos": 2,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@raysetv": {
+   "title": "RAYSE TV CHANNEL",
+   "videos": 3,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@TheRushcutters": {
+   "title": "Rushcutter Entertainment",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@BaaadMoviesArchívum": {
+   "title": "Baaad Movies Archívum",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@meetgodone": {
+   "title": "The Film House Entertainment & Gist",
+   "videos": 2,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@Nollywood": {
+   "title": "Movies",
+   "videos": 5,
+   "longVideos": 5,
+   "examples": [
+    "Koleoso part 4 (94 min)",
+    "Koleoso part 5 (70 min)",
+    "Koleoso part 1 (101 min)",
+    "Koleoso_Pt_2_-_Latest_Yoruba_Movie_2025_Drama_Iteledicon,_Kemity,_Ogboluke,_Lalude,_Yetunde_Banabas(360p) (86 min)"
+   ]
+  },
+  "@MariquinaConservatoryAI": {
+   "title": "The Mariquina Conservatory Gaming",
+   "videos": 10,
+   "longVideos": 10,
+   "examples": [
+    "Nier Automata End of Yorha Edition Part 01 Game Movie & Walkthrough and Lets Play Full Game No Commentaries (98 min)",
+    "Nier Automata End of Yorha Edition Part 02 Game Movie & Walkthrough and Lets Play Full Game No Commentaries (108 min)",
+    "Nier Automata End of Yorha Edition Part 03 Game Movie & Walkthrough and Lets Play Full Game No Commentaries (162 min)",
+    "Nier Automata End of Yorha Edition Part 04 Game Movie & Walkthrough and Lets Play Full Game No Commentaries (157 min)"
+   ]
+  },
+  "@NollyNet": {
+   "title": "Mad Visuals",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@HaveASeat": {
+   "title": "Ayshat",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@WHATABOUT": {
+   "title": "What About",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@RickyTv1": {
+   "title": "Ricky Tv📺📽️",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@CaduhTechtk": {
+   "title": "caduh tech TK",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@conmech": {
+   "title": "Efe Aydal",
+   "videos": 2,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@Justwargames": {
+   "title": "OnlyGamePlay",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@elitecreator10": {
+   "title": "Elite Creator",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@Hausavevotv": {
+   "title": "HAUSA_VEVO_TV",
+   "videos": 70,
+   "longVideos": 1,
+   "examples": [
+    "Cikakkiyar Kokowar Dosso Vs Zinder Niamey Agadez Da Diffa #KundinShahara (92 min)"
+   ]
+  },
+  "@spliffytv": {
+   "title": "Spliffy TV",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@Ashraful-saudi": {
+   "title": "M/S Enter-fail",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@Stickers-Anime": {
+   "title": "StickersAnime",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@Faulty": {
+   "title": "FUNthere",
+   "videos": 8,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@KingJamesBibleFilms": {
+   "videos": 1,
+   "longVideos": 1,
+   "examples": [
+    "The Gospel of Luke - KJV Film - The Two Preachers (252 min)"
+   ]
+  },
+  "@Zeitgeschichte": {
+   "title": "Zeitgeschichte",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@steinemeister": {
+   "title": "Steine ​​Meister - Klemmbausteine für Erwachsene",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@TOPPEXT": {
+   "title": "TOPPEXT",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@gomagic": {
+   "title": "Go Magic",
+   "videos": 4,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@Ditto_pc_gaming": {
+   "title": "Ditto pc gaming",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@Mirrorafricantv": {
+   "title": "Mirror African TV",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@SolidReview": {
+   "title": "Solid Review",
+   "videos": 1,
+   "longVideos": 1,
+   "examples": [
+    "Igby Goes Down Full Movie Facts And Knowledge |  Kieran Culkin | Claire Danes (109 min)"
+   ]
+  },
+  "@echoplex": {
+   "title": "Echoplex Media",
+   "videos": 1,
+   "longVideos": 1,
+   "examples": [
+    "Interview - Otis Johnson of the Haus Film Festival (56 min)"
+   ]
+  },
+  "@Zanzarah4Kidz": {
+   "title": "Zanzarah4Kidz ッ Familyfun",
+   "videos": 2,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@HausaTopTv": {
+   "title": "HausaTop Tv",
+   "videos": 35,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@Sukhdeepvlogs": {
+   "title": "sukhdeep vlogs",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@Strangebrewpodcast": {
+   "title": "Strange Brew Podcast!",
+   "videos": 1,
+   "longVideos": 1,
+   "examples": [
+    "Vampires! 🦇 Fangs in Film! 🎬 Haus of Trash! @firstclasshorror (126 min)"
+   ]
+  },
+  "@Stunrix": {
+   "title": "Stunrix",
+   "videos": 5,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@allesgute32": {
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@Abduldone": {
+   "title": "Abdul D One",
+   "videos": 50,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@Profit_from_the_Internet": {
+   "title": "Webx",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@AbdulrapperTV": {
+   "title": "Abdulrapper tv",
+   "videos": 32,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@cogency": {
+   "title": "MURADI TV 24",
+   "videos": 35,
+   "longVideos": 1,
+   "examples": [
+    "Live Interview With Kannywood Stars (60 min)"
+   ]
+  },
+  "@JesusChristTV.": {
+   "title": "JesusChrist TV.",
+   "videos": 3,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@MorganEtSonCIné": {
+   "title": "Morgan et son ciné",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@officialjaziri": {
+   "title": "Jaziri",
+   "videos": 9,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@DiamondstepLD": {
+   "title": "Diamondstep",
+   "videos": 2,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@KannywoodTV": {
+   "title": "KannywoodTV",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@TechieAbba": {
+   "title": "Techie Abba",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@UCurU6GLM4ggcLtWWAOTzlYw": {
+   "title": "Bollywood Tashan",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@LilinBaba": {
+   "title": "Lilin Baba",
+   "videos": 21,
+   "longVideos": 5,
+   "examples": [
+    "( WUFF!! Episode  1&2  ) Ali Nuhu Abdul M Shareef Lilin Baba Azima Gidan Badamasi Najmar (62 min)",
+    "( WUFF!! Episode 3/4) Ali Nuhu Abdul M Shareef Lilin Baba Azima Gidan Badamasi Najmar (64 min)",
+    "( WUFF!! Episode 5/6) Ali Nuhu Abdul M Shareef Lilin Baba Azima Gidan Badamasi Najmar (80 min)",
+    "( WUFF!! Episode 7/8) Ali Nuhu Abdul M Shareef Lilin Baba Azima Gidan Badamasi Najmar (44 min)"
+   ]
+  },
+  "@quranqureem1102": {
+   "title": "@Quran Qureem1",
+   "videos": 3,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@Maarki": {
+   "title": "FASSARAN MAFARKI 50 DA SIRRUKA",
+   "videos": 2,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@planB": {
+   "title": "PLAN B - das ORIGINAL !",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@MaheshTmZ": {
+   "title": "Mahesh TmZ",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@ahmedoadam": {
+   "title": "Somali Cryptofolio",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@Kawudansarki": {
+   "title": "Kawu Dan Sarki",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@Sourceofincome": {
+   "title": "SOURCE OF INCOME",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@NsisongEyo": {
+   "title": "Lovely Tips",
+   "videos": 2,
+   "longVideos": 2,
+   "examples": [
+    "Unintentional (See The Movie that Leaves Everyone Crying ) Nigerian Movies (116 min)",
+    "Love at First Sight ( Tide  - When Every Member of your Family writes you off ) Nigerian Movies (114 min)"
+   ]
+  },
+  "@uncle🕋murry": {
+   "title": "uncle🕋murry",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@RashOnline": {
+   "title": "Rash Online",
+   "videos": 2,
+   "longVideos": 1,
+   "examples": [
+    "GHANA TV STATION CALLS OUT & ADDRESSES BIMBO (THE NIGERIAN MOVIE PRODUCER) (42 min)"
+   ]
+  },
+  "@TMGHLive": {
+   "title": "TMGHLive",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@KELLENKASH": {
+   "title": "KELLEN KASH",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@Eguchi": {
+   "title": "EGUCHI TV",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@haitianaute": {
+   "title": "Haïtianaute",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@thedifferentwoman": {
+   "title": "The Different Woman TV",
+   "videos": 2,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@HyperionFalcon": {
+   "title": "Hyperion Falcon",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@HNiCC": {
+   "title": "Franklyn Jones",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@MoviesTrend": {
+   "title": "Movies Trend",
+   "videos": 1,
+   "longVideos": 1,
+   "examples": [
+    "Imaginary Husband - (I CAN NEVER ACCEPT OR  BE A FATHER TO THAT CHILD YOU CALL MY OWN) Latest Nigerian Movies (93 min)"
+   ]
+  },
+  "@samcrypto013": {
+   "title": "SAM - CRYPTO",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@CandyTvShortfilm": {
+   "title": "Candy tv",
+   "videos": 3,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@鴻偉動畫HongWeiAnimations": {
+   "title": "鴻偉動畫 HongWei Animations",
+   "videos": 2,
+   "longVideos": 0,
+   "examples": []
+  },
+  "@Best8": {
+   "title": "Best8",
+   "videos": 1,
+   "longVideos": 0,
+   "examples": []
+  }
+ },
+ "longFilms": 187,
+ "tests": [
+  {
+   "title": "DEADLY PROPOSAL - Classic Nollywood Movie",
+   "channel": "(anonymous)",
+   "stream": "https://player.odycdn.com/v6/streams/1e76e9b32872d249c5f65a7bb51456b054ce03db/418e42.mp4",
+   "us": {
+    "status": 401,
+    "type": "text/plain; charset=utf-8",
+    "finalUrl": "https://player.odycdn.com/v6/streams/1e76e9b32872d249c5f65a7bb51456b054ce03db/418e42.mp4",
+    "magic": " content"
+   },
+   "uk": {
+    "status": 401,
+    "type": "text/plain; charset=utf-8",
+    "finalUrl": "https://player.odycdn.com/v6/streams/1e76e9b32872d249c5f65a7bb51456b054ce03db/418e42.mp4",
+    "magic": " content"
+   }
+  },
+  {
+   "title": "ARUN (2026) | Full Nollywood Movie | Latest Nigerian Movie | HD",
+   "channel": "@DrNasFam",
+   "stream": "https://player.odycdn.com/v6/streams/d084014ccd761891b143cf4d450b55b1623bd2b7/e0a267.mp4",
+   "us": {
+    "status": 401,
+    "type": "text/plain; charset=utf-8",
+    "finalUrl": "https://player.odycdn.com/v6/streams/d084014ccd761891b143cf4d450b55b1623bd2b7/e0a267.mp4",
+    "magic": " content"
+   },
+   "uk": {
+    "status": 401,
+    "type": "text/plain; charset=utf-8",
+    "finalUrl": "https://player.odycdn.com/v6/streams/d084014ccd761891b143cf4d450b55b1623bd2b7/e0a267.mp4",
+    "magic": " content"
+   }
+  },
+  {
+   "title": "Behind His Smile (2026) – Full Nollywood Movie | Monica Friday, Ichie Fuego | Nigerian Drama",
+   "channel": "@NasHapNollyTV",
+   "stream": "https://player.odycdn.com/v6/streams/d16bde3a61af7fc8e61a9adb01b9129dc407de52/fc5a96.mp4",
+   "us": {
+    "status": 401,
+    "type": "text/plain; charset=utf-8",
+    "finalUrl": "https://player.odycdn.com/v6/streams/d16bde3a61af7fc8e61a9adb01b9129dc407de52/fc5a96.mp4",
+    "magic": " content"
+   },
+   "uk": {
+    "status": 401,
+    "type": "text/plain; charset=utf-8",
+    "finalUrl": "https://player.odycdn.com/v6/streams/d16bde3a61af7fc8e61a9adb01b9129dc407de52/fc5a96.mp4",
+    "magic": " content"
+   }
+  },
+  {
+   "title": "Black Hollywood Starpower Is Struggling, Why A Collab With Nollywood Is Needed",
+   "channel": "@searchforuhuru",
+   "stream": "https://player.odycdn.com/v6/streams/54b517caac959dad8a0af7ce960cd4e119b49516/b14b01.mp4",
+   "us": {
+    "status": 401,
+    "type": "text/plain; charset=utf-8",
+    "finalUrl": "https://player.odycdn.com/v6/streams/54b517caac959dad8a0af7ce960cd4e119b49516/b14b01.mp4",
+    "magic": " content"
+   },
+   "uk": {
+    "status": 401,
+    "type": "text/plain; charset=utf-8",
+    "finalUrl": "https://player.odycdn.com/v6/streams/54b517caac959dad8a0af7ce960cd4e119b49516/b14b01.mp4",
+    "magic": " content"
+   }
+  }
+ ]
 }
