@@ -37,3 +37,22 @@ provider sites and needs a secret token. If it's down or not in the UK, checks f
 - Hausa: KALLO (free) has no web catalogue; Arewa24 free content; more verified Dailymotion channels.
 - Yoruba: confirm owners of Yorubahood / NollyExtra; NolliStream catalogue; AfroLandTV catalogue.
 - Live channels: Nolly Africa HD (Plex live TV page confirmed in the UK).
+
+## In-app playability (tested 12 Nov 2026, `scripts/playtest.js`)
+
+The requirement is playback inside Nuvio's own player, so each source was tested for a direct stream address.
+
+| Source | Stream the source itself serves | Encrypted (DRM)? | Login/paywall? | Plays from another address? | In-app route |
+| --- | --- | --- | --- | --- | --- |
+| Tubi UK | Plain HLS (`hlsv6`), address in the public title page, no licence server | No | No | Yes: issued in London, played from the US; valid ~7 days | Server resolves through the London check point at request time |
+| Dailymotion (approved channels) | Plain HLS from the public player metadata, `protected_delivery: false` | No | No | **No**: 403 from any other address | Resolve on the viewer's device (Nuvio plugin) or relay through the Select Naija server |
+| Nigerian broadcasters' live channels (Free-TV list: Rave TV, Itage TV, Superscreen, Wazobia Max, Channels, TVC and more) | Public HLS published by the broadcaster | No | No | Yes | Direct |
+| Internet Archive (CC/public domain) | MP4 | No | No | Yes | Direct, but almost no Nollywood films with a reliable licence (447 hits, nearly all news, lectures, self-labelled uploads) |
+| PeerTube (Sepia search) | MP4/HLS | No | No | Yes | Nothing Nigerian found |
+| KALLO, AfroLandTV, NolliStream | App-only; no public web catalogue or API found | ? | Kallo: Wikipedia says subscription; site says free | — | Not reachable |
+| Plex, Prime Video free, Netflix | Widevine DRM | Yes | Prime/Netflix: yes | — | Excluded |
+| Existing Nollywood Stremio/Nuvio addons | Scrape unlicensed download sites (netnaija-type) | — | — | — | Excluded: not legitimate |
+
+Trade-off to decide: Tubi and Dailymotion fund free films with ads shown by their own players. Playing their
+plain streams in Nuvio involves no DRM, login or paywall, but skips those ads and is against both services'
+terms of use, which only allow viewing through their apps and players.
