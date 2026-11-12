@@ -1,29 +1,38 @@
 {
-  "_note": "Every playable or linkable source per title. Nothing here is shown until the verifier has confirmed it (see data/status.json). kind: direct = plays in Nuvio, external = opens the provider. expectTitle is what must appear on the provider page.",
-  "links": [
-    {
-      "id": "plex:nollywood-babylon",
-      "titleId": "tt1288595",
-      "provider": "plex",
-      "kind": "external",
-      "url": "https://watch.plex.tv/movie/nollywood-babylon",
-      "expectTitle": "Nollywood Babylon"
-    },
-    {
-      "id": "tubi:100014072",
-      "titleId": "tt8355352",
-      "provider": "tubi",
-      "kind": "external",
-      "url": "https://tubitv.com/en-gb/movies/100014072/buddy-goes-to-nollywood",
-      "expectTitle": "Buddy Goes to Nollywood"
-    },
-    {
-      "id": "selftest:bbb-10s",
-      "titleId": "snaija-linktest-2026",
-      "provider": "selftest",
-      "kind": "direct",
-      "url": "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4",
-      "expectTitle": null
-    }
-  ]
+ "_note": "Every playable or linkable source per title. Nothing here is shown until the verifier has confirmed it (see data/status.json). kind: direct = plays in Nuvio, external = opens the provider. expectTitle is what must appear on the provider page.",
+ "links": [
+  {
+   "id": "plex:nollywood-babylon",
+   "titleId": "tt1288595",
+   "provider": "plex",
+   "kind": "external",
+   "url": "https://watch.plex.tv/movie/nollywood-babylon",
+   "expectTitle": "Nollywood Babylon"
+  },
+  {
+   "id": "tubi:100014072",
+   "titleId": "tt8355352",
+   "provider": "tubi",
+   "kind": "external",
+   "url": "https://tubitv.com/en-gb/movies/100014072/buddy-goes-to-nollywood",
+   "expectTitle": "Buddy Goes to Nollywood"
+  },
+  {
+   "id": "selftest:bbb-10s",
+   "titleId": "snaija-linktest-2026",
+   "provider": "selftest",
+   "kind": "direct",
+   "url": "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4",
+   "expectTitle": null
+  },
+  {
+   "id": "youtube:1FfwOJzNxfQ",
+   "titleId": "snaija-yttest-2026",
+   "provider": "youtube",
+   "kind": "youtube",
+   "ytId": "1FfwOJzNxfQ",
+   "url": "https://www.youtube.com/watch?v=1FfwOJzNxfQ",
+   "expectTitle": null
+  }
+ ]
 }

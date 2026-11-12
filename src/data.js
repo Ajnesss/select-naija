@@ -196,7 +196,8 @@ function loadData(
   const curatedProviders = new Set(curated.map((l) => `${l.titleId}|${l.provider}`));
   const allLinks = [...curated, ...extraLinks.filter((l) => !curatedProviders.has(`${l.titleId}|${l.provider}`))];
   for (const link of allLinks) {
-    if (inAppOnly && link.kind !== 'direct') continue;
+    // YouTube links count as in-app candidates: the app plays them itself (confirmed per device by testing).
+    if (inAppOnly && link.kind !== 'direct' && link.kind !== 'youtube') continue;
     if (!providerById.has(link.provider)) throw new Error(`Link ${link.id} uses unknown provider ${link.provider}`);
     const key = link.season != null ? `${link.titleId}:${link.season}:${link.episode}` : link.titleId;
     if (!linksByStreamId.has(key)) linksByStreamId.set(key, []);

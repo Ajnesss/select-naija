@@ -1,48 +1,92 @@
 {
-  "_note": "Master list. id = IMDb id when one exists, otherwise snaija-<slug>-<year>. languages use ISO 639: en, yo (Yoruba), ig (Igbo), ha (Hausa), pcm (Nigerian Pidgin). Every field must come from a named source in 'sources'.",
-  "titles": [
-    {
-      "id": "tt1288595",
-      "type": "movie",
-      "name": "Nollywood Babylon",
-      "aliases": [],
-      "year": 2008,
-      "languages": ["en"],
-      "category": "documentary",
-      "genres": ["Documentary"],
-      "runtime": "74 min",
-      "description": "A documentary on Nigeria's video film industry, Nollywood.",
-      "poster": null,
-      "sources": { "id": "Cinemeta", "year": "Cinemeta", "runtime": "Plex title page" }
-    },
-    {
-      "id": "tt8355352",
-      "type": "movie",
-      "name": "Buddy Goes to Nollywood",
-      "aliases": [],
-      "year": 2018,
-      "languages": ["en"],
-      "category": "documentary",
-      "genres": ["Documentary"],
-      "runtime": "85 min",
-      "description": "An out-of-work British entertainer spends ten days trying to make it in Nollywood.",
-      "poster": null,
-      "sources": { "id": "Cinemeta", "year": "Cinemeta (Tubi lists 2020)", "runtime": "Tubi title page" }
-    },
-    {
-      "id": "snaija-linktest-2026",
-      "type": "movie",
-      "name": "Select Naija Test Title",
-      "aliases": [],
-      "year": 2026,
-      "languages": ["en"],
-      "category": "test",
-      "genres": ["Test"],
-      "runtime": "1 min",
-      "description": "Diagnostic entry with Select Naija's own ID (no TMDB or IMDb entry). If this opens and plays, custom-ID titles work end to end.",
-      "poster": null,
-      "hidden": false,
-      "sources": { "id": "Select Naija" }
-    }
-  ]
+ "_note": "Master list. id = IMDb id when one exists, otherwise snaija-<slug>-<year>. languages use ISO 639: en, yo (Yoruba), ig (Igbo), ha (Hausa), pcm (Nigerian Pidgin). Every field must come from a named source in 'sources'.",
+ "titles": [
+  {
+   "id": "tt1288595",
+   "type": "movie",
+   "name": "Nollywood Babylon",
+   "aliases": [],
+   "year": 2008,
+   "languages": [
+    "en"
+   ],
+   "category": "documentary",
+   "genres": [
+    "Documentary"
+   ],
+   "runtime": "74 min",
+   "description": "A documentary on Nigeria's video film industry, Nollywood.",
+   "poster": null,
+   "sources": {
+    "id": "Cinemeta",
+    "year": "Cinemeta",
+    "runtime": "Plex title page"
+   }
+  },
+  {
+   "id": "tt8355352",
+   "type": "movie",
+   "name": "Buddy Goes to Nollywood",
+   "aliases": [],
+   "year": 2018,
+   "languages": [
+    "en"
+   ],
+   "category": "documentary",
+   "genres": [
+    "Documentary"
+   ],
+   "runtime": "85 min",
+   "description": "An out-of-work British entertainer spends ten days trying to make it in Nollywood.",
+   "poster": null,
+   "sources": {
+    "id": "Cinemeta",
+    "year": "Cinemeta (Tubi lists 2020)",
+    "runtime": "Tubi title page"
+   }
+  },
+  {
+   "id": "snaija-linktest-2026",
+   "type": "movie",
+   "name": "Select Naija Test Title",
+   "aliases": [],
+   "year": 2026,
+   "languages": [
+    "en"
+   ],
+   "category": "test",
+   "genres": [
+    "Test"
+   ],
+   "runtime": "1 min",
+   "description": "Diagnostic entry with Select Naija's own ID (no TMDB or IMDb entry). If this opens and plays, custom-ID titles work end to end.",
+   "poster": null,
+   "hidden": false,
+   "sources": {
+    "id": "Select Naija"
+   }
+  },
+  {
+   "id": "snaija-yttest-2026",
+   "type": "movie",
+   "name": "Select Naija YouTube Test: The River Remembers",
+   "aliases": [],
+   "year": 2026,
+   "languages": [
+    "en"
+   ],
+   "category": "test",
+   "genres": [
+    "Test"
+   ],
+   "runtime": "166 min",
+   "description": "Playback test: a full film from Omoni Oboli TV, the official channel of producer Omoni Oboli, handed to Nuvio as a YouTube stream (ytId). If it plays inside Nuvio's player, official distributors' YouTube channels can be in-app sources.",
+   "poster": "https://i.ytimg.com/vi/1FfwOJzNxfQ/hqdefault.jpg",
+   "hidden": false,
+   "sources": {
+    "id": "Select Naija",
+    "video": "YouTube, Omoni Oboli TV (UCbvdwZvZgdl-pPyomEmaEfg)"
+   }
+  }
+ ]
 }
