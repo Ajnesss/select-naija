@@ -25,10 +25,10 @@ async function main() {
       const res = await fetch(target, {
         method: p.method || 'GET',
         headers: {
-          'user-agent': UA,
           'accept-language': 'en-GB,en;q=0.9',
           ...(viaUk ? { 'x-select-naija-token': process.env.UK_EDGE_TOKEN } : {}),
           ...(p.headers || {}),
+          'user-agent': p.headers?.['user-agent'] || UA,
         },
         body: p.body,
         redirect: 'follow',
