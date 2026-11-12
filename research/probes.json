@@ -1,4 +1,90 @@
 {
- "_note": "Batch 7: playtest only.",
- "probes": []
+ "_note": "Batch 8: broadcasters' own live pages.",
+ "probes": [
+  {
+   "name": "live-channels",
+   "url": "https://www.channelstv.com/live/",
+   "max": 400000
+  },
+  {
+   "name": "live-tvc",
+   "url": "https://www.tvcnews.tv/live/",
+   "max": 400000
+  },
+  {
+   "name": "live-wazobiamax",
+   "url": "https://wazobiamax.tv/",
+   "max": 400000
+  },
+  {
+   "name": "live-wazobia-live",
+   "url": "https://wazobia.live/",
+   "max": 400000
+  },
+  {
+   "name": "live-ravetv",
+   "url": "https://ravetv.ng/",
+   "max": 400000
+  },
+  {
+   "name": "live-itage",
+   "url": "https://itage.tv/",
+   "max": 400000
+  },
+  {
+   "name": "live-superscreen",
+   "url": "https://superscreentv.com/",
+   "max": 400000
+  },
+  {
+   "name": "live-soundcity",
+   "url": "https://soundcity.tv/live/",
+   "max": 400000
+  },
+  {
+   "name": "live-nta",
+   "url": "https://www.nta.ng/live/",
+   "max": 400000
+  },
+  {
+   "name": "live-arise",
+   "url": "https://www.arise.tv/live/",
+   "max": 400000
+  },
+  {
+   "name": "live-plustv",
+   "url": "https://plustvafrica.com/live/",
+   "max": 400000
+  },
+  {
+   "name": "live-waffi",
+   "url": "https://waffitv.com/",
+   "max": 400000
+  },
+  {
+   "name": "live-bozztv",
+   "url": "https://www.bozztv.com/",
+   "max": 400000
+  },
+  {
+   "name": "live-newscentral",
+   "url": "https://newscentral.ng/live/",
+   "max": 400000
+  },
+  {
+   "name": "live-silverbird",
+   "url": "https://silverbirdtv.com/live/",
+   "max": 400000
+  },
+  {
+   "name": "live-africa-magic-free",
+   "url": "https://www.dstv.com/africamagic/en-ng/",
+   "max": 400000
+  },
+  {
+   "name": "freetv-ng",
+   "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/lists/nigeria.md",
+   "max": 60000
+  }
+ ]
 }
