@@ -34,6 +34,8 @@ function ukAllowed(geo) {
  */
 function parseTitle(raw) {
   let s = String(raw)
+    .replace(/\p{Extended_Pictographic}|\uFE0F/gu, ' ')
+    .replace(/@[\w.]+/g, ' ')
     .replace(/\s+/g, ' ')
     .replace(/\{[^}]*\}?/g, ' ')
     .replace(/\[[^\]]*\]?/g, ' ')
@@ -49,6 +51,16 @@ function parseTitle(raw) {
     const base = parseTitle(ep[1]);
     const yearMatch = String(raw).match(/\b(19[89]\d|20[0-3]\d)\b/);
     return { ...base, name: base.name, part: null, season: Number(ep[2]), episode: Number(ep[3]), year: yearMatch ? Number(yearMatch[1]) : base.year };
+  }
+  // Episodes without a season ("Obidike Episode 12", "Sibe Episode One", "Jenifa's Diary 16 Episode") are season 1.
+  const WORDS = { one: 1, two: 2, three: 3, four: 4, five: 5, six: 6, seven: 7, eight: 8, nine: 9, ten: 10 };
+  const ep1 = s.match(/^(.*?)[\s\-–:|(]*\b(?:final\s+episode\s*\(\s*)?(?:episode|ep\.?)\s*(\d{1,3}|one|two|three|four|five|six|seven|eight|nine|ten)\b/i)
+    || s.match(/^(.*?)\s+(\d{1,3})\s*(?:st|nd|rd|th)?\s+episode\b/i);
+  if (ep1 && ep1[1].replace(/[^a-z]/gi, '').length >= 2 && !/\bfunny\b/i.test(s)) {
+    const base = parseTitle(ep1[1]);
+    const n = WORDS[String(ep1[2]).toLowerCase()] || Number(ep1[2]);
+    const yearMatch = String(raw).match(/\b(19[89]\d|20[0-3]\d)\b/);
+    return { ...base, part: null, season: 1, episode: n, year: yearMatch ? Number(yearMatch[1]) : base.year };
   }
   // In Nollywood uploads "Season 3" on its own is the third part of a film, not a TV season.
   s = s.replace(/\b(?:season|sn)\s*(\d{1,2})\b/i, ' $1').replace(/\s+/g, ' ').trim();
@@ -85,6 +97,18 @@ function parseTitle(raw) {
     .replace(/(^|[\s(\-])([a-zà-ÿ])/g, (m, pre, c) => pre + c.toUpperCase())
     .replace(/\b(Of|The|And|In|On|A|An|To|For)\b/g, (w, _x, i) => (i === 0 ? w : w.toLowerCase()));
   return { name, part, year, cast: cast.length ? cast : castFromTail };
+}
+
+// Grouping key for one film or show: ignores apostrophes, a plural s, and leftover words like "Season",
+// "Complete Season" or "Season Finale" ("Jenifa's Diary Season" = "Jenifas Diary").
+function groupKey(name) {
+  return normalize(String(name).replace(/['’`]/g, ''))
+    .replace(/\b(?:complete|compete|complet|compele)?\s*seasons?\b(?:\s*finale)?/g, ' ')
+    .replace(/\bfinal(?:e)?\b/g, ' ')
+    .split(' ')
+    .filter(Boolean)
+    .map((w) => w.replace(/s$/, ''))
+    .join(' ');
 }
 
 function languagesFor(title, channel) {
@@ -134,9 +158,21 @@ function buildTitles(channel, videos, { idPrefix = 'snaija-dm' } = {}) {
     if (!parsed.name || parsed.name.length < 2) continue;
     // "Anger of Immortal 3" and "Anger of Immortals 4" are the same film: ignore a plural s when grouping.
     const series = parsed.episode != null;
-    const key = `${series ? 'S|' : ''}${normalize(parsed.name).split(' ').map((w) => w.replace(/s$/, '')).join(' ')}`;
+    const key = `${series ? 'S|' : ''}${groupKey(parsed.name)}`;
     if (!groups.has(key)) groups.set(key, { parsed, series, videos: [] });
     groups.get(key).videos.push({ ...v, part: parsed.part, season: parsed.season, episode: parsed.episode, year: parsed.year });
+  }
+  // A show uploaded partly as "Aiyetoro Town 3" (no word Episode) and partly as "Season 2 Episode 19":
+  // when a series exists under the same name and has no season 1, the numbered parts become season 1.
+  for (const [key, g] of groups) {
+    if (g.series) continue;
+    const show = groups.get(`S|${key}`);
+    if (!show || show.videos.some((v) => v.season === 1)) continue;
+    const numbered = g.videos.filter((v) => v.part != null);
+    if (numbered.length < 2) continue;
+    for (const v of numbered) show.videos.push({ ...v, season: 1, episode: v.part, part: null });
+    g.videos = g.videos.filter((v) => v.part == null);
+    if (!g.videos.length) groups.delete(key);
   }
   const titles = [];
   for (const { parsed, series, videos: vids } of groups.values()) {
@@ -240,4 +276,4 @@ async function main() {
 
 if (require.main === module) main();
 
-module.exports = { parseTitle, buildTitles, ukAllowed };
+module.exports = { parseTitle, buildTitles, ukAllowed, groupKey };

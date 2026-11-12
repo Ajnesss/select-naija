@@ -154,3 +154,22 @@ test('series episodes group into a series with per-episode streams', async () =>
   assert.deepEqual(ep.map((s) => s.ytId), ['e2']);
   assert.ok(queryCatalog('series', 'snaija-series', {}, data, NOW).some((m) => m.id === show.id));
 });
+
+test('episodes without a season, name variants and numbered parts all land in one series', () => {
+  const v = (id, title, minutes = 30) => ({ id, title, duration: minutes * 60, created_time: 1700000000, geoblocking: ['allow'], status: 'published' });
+  const titles = buildTitles({ user: 'c', name: 'C', languages: ['en'], platform: 'youtube' }, [
+    v('a1', 'Aiyetoro Town 1'),
+    v('a2', 'Aiyetoro Town 2'),
+    v('a3', 'Aiyetoro Town Season 2 Episode 1 - Busted'),
+    v('o1', 'Obidike 🎬 Episode 1. @frederickleonardtv'),
+    v('o2', 'Obidike Episode 2. @frederickleonardtv'),
+    v('j1', "Jenifa's Diary Season 3 Episode 1"),
+    v('j2', 'Jenifas Diary Season 3 Episode 2'),
+  ], { idPrefix: 'snaija-yt' });
+  const byName = Object.fromEntries(titles.map((t) => [t.name, t]));
+  assert.deepEqual(byName['Aiyetoro Town'].episodes.map((e) => [e.season, e.episode]), [[1, 1], [1, 2], [2, 1]]);
+  assert.equal(byName.Obidike.type, 'series');
+  assert.equal(byName.Obidike.episodes.length, 2);
+  assert.equal(titles.filter((t) => /jenifa/i.test(t.name)).length, 1);
+  assert.equal(titles.length, 3);
+});
