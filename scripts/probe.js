@@ -14,7 +14,6 @@ const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 
 async function main() {
   const probes = JSON.parse(fs.readFileSync(path.join(ROOT, 'research', 'probes.json'), 'utf8')).probes;
-  fs.rmSync(OUT, { recursive: true, force: true });
   fs.mkdirSync(OUT, { recursive: true });
   const key = process.env.TMDB_API_KEY || '';
   for (const p of probes) {
