@@ -2,6 +2,7 @@
 
 // Most tests cover general behaviour with every kind of link; the free-only filter has its own test.
 if (process.env.SELECT_NAIJA_FREE_ONLY === undefined) process.env.SELECT_NAIJA_FREE_ONLY = '0';
+if (process.env.SELECT_NAIJA_IN_APP_ONLY === undefined) process.env.SELECT_NAIJA_IN_APP_ONLY = '0';
 
 const fs = require('fs');
 const os = require('os');

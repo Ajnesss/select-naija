@@ -2,6 +2,17 @@
 
 Versions follow semantic versioning. Each release passes `npm test` and `node scripts/report.js --gate`.
 
+## 0.3.0 (2026-11-12)
+
+- In-app only by default: a stream is shown only if it plays inside Nuvio's own player. External links
+  (browser, Netflix/Tubi/Plex apps, Dailymotion pages) are no longer shown, and titles without an in-app
+  stream leave the rows. Coverage reports count in-app streams only. `SELECT_NAIJA_IN_APP_ONLY=0` restores links.
+- Owner-authorised Dailymotion playback: when a channel owner supplies a Partner API key with the "Generate
+  Stream URLs" permission, their films play in Nuvio from permanent stream addresses Dailymotion issues for
+  the owner (no IP lock, no expiry). Ready for Extra Nolly TV and YORUBAWOOD; inactive until they agree.
+- Research: source register with in-app playability and authorisation checks (`research/SOURCES.md`),
+  research probes and a playback test that can run through the London check point.
+
 ## 0.2.1 (2026-11-11)
 
 - Free only by default: subscription and rental links are hidden, so every title shown can be watched

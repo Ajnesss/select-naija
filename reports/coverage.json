@@ -1,21 +1,12 @@
 {
- "bySource": {
-  "Plex": 13,
-  "Tubi": 101,
-  "Channel 4": 1,
-  "Runtime": 4,
-  "Prime Video": 24,
-  "BBC iPlayer": 2,
-  "Filmzie": 2,
-  "Dailymotion": 1705
- },
- "generatedAt": "2026-11-12T11:15:50.615Z",
+ "bySource": {},
+ "generatedAt": "2026-11-12T18:59:13.489Z",
  "statusGeneratedAt": "2026-11-12T11:15:50.569Z",
  "groups": {
   "classics": {
    "total": 1,
-   "covered": 1,
-   "coverage": 100
+   "covered": 0,
+   "coverage": 0
   },
   "recent": {
    "total": 1,
@@ -26,33 +17,33 @@
  "languages": {
   "en": {
    "catalogued": 1891,
-   "covered": 1745,
+   "covered": 0,
    "withoutTmdb": 1695,
-   "coverage": 92.3
+   "coverage": 0
   },
   "yo": {
    "catalogued": 119,
-   "covered": 79,
+   "covered": 0,
    "withoutTmdb": 72,
-   "coverage": 66.4
+   "coverage": 0
   },
   "ig": {
    "catalogued": 24,
-   "covered": 17,
+   "covered": 0,
    "withoutTmdb": 11,
-   "coverage": 70.8
+   "coverage": 0
   },
   "ha": {
    "catalogued": 6,
-   "covered": 1,
+   "covered": 0,
    "withoutTmdb": 0,
-   "coverage": 16.7
+   "coverage": 0
   },
   "fr": {
    "catalogued": 1,
-   "covered": 1,
+   "covered": 0,
    "withoutTmdb": 1,
-   "coverage": 100
+   "coverage": 0
   }
  },
  "providers": {
@@ -79,6 +70,12 @@
   }
  },
  "gaps": [
+  {
+   "id": "tt1288595",
+   "group": "classics",
+   "note": "documentary, Plex",
+   "name": "Nollywood Babylon"
+  },
   {
    "id": "tt8355352",
    "group": "recent",

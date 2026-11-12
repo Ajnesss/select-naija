@@ -61,3 +61,42 @@ test('Dailymotion films appear in rows with one link per part, in order', async 
   assert.deepEqual(streams.map((s) => s.externalUrl), ['https://www.dailymotion.com/video/x1', 'https://www.dailymotion.com/video/x2']);
   assert.match(streams[0].title, /Part 1 of 2 \(62 min\)/);
 });
+
+test('in-app only: external links are never shown, and titles without an in-app stream leave the rows', async () => {
+  const data = loadData(writeData(), { now: NOW, freeOnly: false, inAppOnly: true });
+  const streams = await buildStreams('movie', 'tt0000001', data, { now: NOW, tmdbApiKey: 'k', fetchImpl: async () => { throw new Error('no TMDB in in-app mode'); } });
+  assert.deepEqual(streams.map((s) => s.url), ['https://ia800.example/osun.mp4']);
+  assert.ok(streams.every((s) => !s.externalUrl));
+  assert.ok(!queryCatalog('movie', 'snaija-yoruba', {}, data, NOW).some((m) => m.id === 'snaija-iyalode-2025')); // Kava only
+});
+
+test('owner-authorised Dailymotion channel: parts play in Nuvio through the owner\'s API key; nothing without it', async () => {
+  const { clearDailymotionCache } = require('../src/resolvers/dailymotion');
+  const dir = writeData();
+  fs.writeFileSync(path.join(dir, 'providers.json'), JSON.stringify({ providers: [...baseData().providers.providers, { id: 'dailymotion', name: 'Dailymotion', access: 'ads' }] }));
+  fs.writeFileSync(path.join(dir, 'channels.json'), JSON.stringify({ channels: [{ platform: 'dailymotion', user: 'owner1', ownerAuthorised: true, credentialsEnv: 'DM_OWNER1' }] }));
+  fs.writeFileSync(path.join(dir, 'dailymotion.json'), JSON.stringify({ generatedAt: hoursAgo(2), titles: [
+    { id: 'snaija-dm-ipe-2018', type: 'movie', name: 'Ipe', year: 2018, languages: ['yo'], channel: 'owner1', parts: [{ part: 1, videoId: 'x1', minutes: 60 }, { part: 2, videoId: 'x2', minutes: 58 }] },
+  ] }));
+  const calls = [];
+  const fetchImpl = async (url, opts) => {
+    calls.push(url);
+    if (url.endsWith('/oauth/v1/token')) {
+      assert.match(String(opts.body), /grant_type=client_credentials/);
+      return { ok: true, json: async () => ({ access_token: 'T', expires_in: 3600 }) };
+    }
+    assert.match(url, /no_expire=1&no_ip_lock=1/);
+    const id = url.match(/video\/(\w+)/)[1];
+    return { ok: true, json: async () => ({ stream_hls_url: `https://dm.example/${id}.m3u8` }) };
+  };
+  clearDailymotionCache();
+  const noKey = loadData(dir, { now: NOW, inAppOnly: true, env: {} });
+  assert.deepEqual(await buildStreams('movie', 'snaija-dm-ipe-2018', noKey, { now: NOW, fetchImpl }), []);
+  assert.equal(calls.length, 0);
+  const env = { DM_OWNER1_CLIENT_ID: 'id', DM_OWNER1_CLIENT_SECRET: 'secret' };
+  const data = loadData(dir, { now: NOW, inAppOnly: true, env });
+  const streams = await buildStreams('movie', 'snaija-dm-ipe-2018', data, { now: NOW, fetchImpl, env });
+  assert.deepEqual(streams.map((s) => s.url), ['https://dm.example/x1.m3u8', 'https://dm.example/x2.m3u8']);
+  assert.match(streams[0].title, /Part 1 of 2/);
+  assert.ok(queryCatalog('movie', 'snaija-yoruba', {}, data, NOW).some((m) => m.id === 'snaija-dm-ipe-2018'));
+});

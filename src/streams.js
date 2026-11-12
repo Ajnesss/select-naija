@@ -2,6 +2,7 @@
 
 const { linkState, isShown } = require('./states');
 const { ukOffers } = require('./resolvers/tmdb');
+const { ownerStreamUrl } = require('./resolvers/dailymotion');
 
 const HIDE_BELOW = 50; // provider score under which its links are hidden
 const DEFAULT_SCORE = 70; // providers not yet scored rank below proven ones
@@ -51,7 +52,7 @@ function formatLink(link, record, state, data, title, now) {
   if (link.kind === 'direct') {
     return {
       name: `Select Naija\n${provider.name}`,
-      title: [`▶ ${name}`, [access, 'plays in Nuvio', checked].filter(Boolean).join(' · ')].join('\n'),
+      title: [[`▶ ${name}`, part].filter(Boolean).join(' · '), [access, 'plays in Nuvio', checked].filter(Boolean).join(' · ')].join('\n'),
       url: record?.finalUrl || link.url,
       behaviorHints: { bingeGroup: `selectnaija-${link.provider}` },
     };
@@ -73,7 +74,7 @@ function formatLink(link, record, state, data, title, now) {
  * Order: in-app streams, then verified links by provider score, then stale links, then TMDB/JustWatch offers
  * for providers not already listed. Unverified and failing links are never returned.
  */
-async function buildStreams(type, streamId, data, { tmdbApiKey, fetchImpl, now = Date.now() } = {}) {
+async function buildStreams(type, streamId, data, { tmdbApiKey, fetchImpl, now = Date.now(), env = process.env } = {}) {
   const { titleId } = parseStreamId(streamId);
   const title = data.byId.get(titleId);
   const shown = [];
@@ -97,13 +98,25 @@ async function buildStreams(type, streamId, data, { tmdbApiKey, fetchImpl, now =
     );
   });
 
-  const streams = shown.map((s) => formatLink(s.link, s.record, s.state, data, title, now));
+  // Links that need a stream address fetched at play time (owner-authorised sources). Dropped if it fails.
+  await Promise.all(
+    shown.map(async (s) => {
+      if (s.link.resolve?.via !== 'dailymotion-owner') return;
+      s.resolvedUrl = await ownerStreamUrl(s.link.resolve.videoId, s.link.resolve.channel, { fetchImpl: fetchImpl || fetch, now, env });
+    }),
+  );
+  const playable = shown.filter((s) => !s.link.resolve || s.resolvedUrl);
+  const streams = playable.map((s) => {
+    const st = formatLink(s.link, s.record, s.state, data, title, now);
+    if (s.resolvedUrl) st.url = s.resolvedUrl;
+    return st;
+  });
   const listedProviders = new Set(shown.map((s) => s.link.provider));
   const listedNames = new Set(shown.map((s) => (s.link.providerName || '').toLowerCase()).filter(Boolean));
 
   // Only titles in Select Naija's own catalogue get TMDB offers, so non-Nigerian titles stay untouched.
   // Series episodes use the show's availability: TMDB has no per-episode provider data.
-  if (title && /^tt\d+$/.test(titleId)) {
+  if (title && /^tt\d+$/.test(titleId) && !data.inAppOnly) {
     const offers = await ukOffers(titleId, type, { apiKey: tmdbApiKey, fetchImpl, now });
     for (const o of offers) {
       if (data.freeOnly && o.offer === 'subscription') continue;
