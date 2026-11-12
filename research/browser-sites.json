@@ -1,94 +1,60 @@
 {
- "_note": "Sites opened by scripts/browser-probe.js (headless browser, research only).",
+ "_note": "Browser probe batch 2.",
  "sites": [
   {
-   "name": "ibakatv",
-   "url": "https://www.ibakatv.com/",
+   "name": "circuits",
+   "url": "https://circuits.tv/",
    "open": 3
   },
   {
-   "name": "ibakatv-browse",
-   "url": "https://www.ibakatv.com/browse",
+   "name": "circuits-www",
+   "url": "https://www.circuits.tv/",
    "open": 3
   },
   {
-   "name": "afrolandtv",
-   "url": "https://www.afrolandtv.com/",
-   "open": 3
-  },
-  {
-   "name": "afrolandtv-movies",
-   "url": "https://www.afrolandtv.com/?section=moviessection",
-   "open": 3
-  },
-  {
-   "name": "nollistream",
-   "url": "https://nollistream.com/",
+   "name": "afriplay",
+   "url": "https://afriplay.tv/",
    "open": 2
   },
   {
-   "name": "nollistream-web",
-   "url": "https://app.nollistream.com/",
+   "name": "afriplay-app",
+   "url": "https://www.afriplay.co/",
    "open": 2
   },
   {
-   "name": "tvnolly",
-   "url": "https://tvnolly.tv/",
+   "name": "irokotv",
+   "url": "https://irokotv.com/",
    "open": 2
   },
   {
-   "name": "apatatvplus",
-   "url": "https://apatatvplus.com/",
+   "name": "nollyland",
+   "url": "https://www.nollyland.com/",
    "open": 2
   },
   {
-   "name": "nollywoodpicturestv",
-   "url": "https://www.nollywoodpicturestv.com/",
+   "name": "moreplex",
+   "url": "https://moreplex.com/",
    "open": 2
   },
   {
-   "name": "afrinolly",
-   "url": "https://afrinolly.com/",
+   "name": "aforevo",
+   "url": "https://aforevo.com/",
    "open": 2
   },
   {
-   "name": "abidontv",
-   "url": "https://abidontv.com/",
+   "name": "kava",
+   "url": "https://kava.tv/",
    "open": 2
   },
   {
-   "name": "olaniitv",
-   "url": "https://olaniitv.com/",
+   "name": "tundekelani",
+   "url": "https://tundekelani.tv/",
    "open": 2
   },
   {
-   "name": "kallo",
-   "url": "https://kallo.ng/",
-   "open": 1
-  },
-  {
-   "name": "filmzie-ng",
-   "url": "https://filmzie.com/search?q=nigeria",
-   "titlePattern": "/content/|/movie/|/watch",
+   "name": "filmporte",
+   "url": "https://filmporte.com/",
    "open": 2
-  },
-  {
-   "name": "vimeo-search",
-   "url": "https://vimeo.com/search?q=nollywood%20full%20movie",
-   "titlePattern": "vimeo\\.com/\\d{6,}",
-   "open": 4
-  },
-  {
-   "name": "vimeo-search-yoruba",
-   "url": "https://vimeo.com/search?q=yoruba%20film",
-   "titlePattern": "vimeo\\.com/\\d{6,}",
-   "open": 3
-  },
-  {
-   "name": "vimeo-streets-of-lagos",
-   "url": "https://vimeo.com/434567464",
-   "titlePattern": "vimeo\\.com/\\d{6,}",
-   "open": 0
   }
  ]
 }
