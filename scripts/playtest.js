@@ -15,12 +15,12 @@ const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 async function direct(url) {
   const res = await fetch(url, { headers: { 'user-agent': UA }, signal: AbortSignal.timeout(20000) });
   const buf = Buffer.from(await res.arrayBuffer());
-  return { status: res.status, text: buf.toString('utf8', 0, Math.min(buf.length, 400000)), bytes: buf.length };
+  return { status: res.status, text: buf.toString('utf8', 0, Math.min(buf.length, 4000000)), bytes: buf.length };
 }
 async function viaUk(url) {
   const res = await fetch(`${EDGE}/api/fetch?url=${encodeURIComponent(url)}`, { headers: { 'x-select-naija-token': TOKEN }, signal: AbortSignal.timeout(30000) });
   const buf = Buffer.from(await res.arrayBuffer());
-  return { status: Number(res.headers.get('x-upstream-status') || res.status), text: buf.toString('utf8', 0, Math.min(buf.length, 400000)), bytes: buf.length };
+  return { status: Number(res.headers.get('x-upstream-status') || res.status), text: buf.toString('utf8', 0, Math.min(buf.length, 4000000)), bytes: buf.length };
 }
 const abs = (base, ref) => new URL(ref, base).toString();
 
@@ -58,8 +58,12 @@ async function main() {
   // Tubi UK: stream addresses are in the public title page.
   for (const id of ['559737', '100048274']) {
     const page = await viaUk(`https://tubitv.com/movies/${id}`);
-    const urls = [...new Set(page.text.match(/https:\/\/[a-z0-9\-]+\.tubi\.video\/[^"\\]+?\.m3u8\?token=[\w\-.]+/g) || [])];
-    out.push({ source: 'tubi', id, pageStatus: page.status, manifests: urls.length, drmHint: /license_server|widevine|playready|fairplay/i.test(page.text) });
+    const m = page.text.match(/window\.__data\s*=\s*/);
+    const end = page.text.indexOf('</script>', m.index);
+    const data = JSON.parse(page.text.slice(m.index + m[0].length, end).trim().replace(/;$/, '').replace(/\bundefined\b/g, 'null'));
+    const res = data.video.byId[id]?.video_resources || [];
+    const urls = res.map((r) => r.manifest?.url).filter(Boolean);
+    out.push({ source: 'tubi', id, pageStatus: page.status, manifests: urls.length, types: res.map((r) => r.type), licenseServers: res.map((r) => r.license_server || null) });
     if (urls[0]) {
       out.push(await hlsReport(`tubi ${id} played from London`, urls[0], viaUk));
       out.push(await hlsReport(`tubi ${id} played from US`, urls[0], direct));
