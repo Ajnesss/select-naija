@@ -1,7 +1,7 @@
 {
  "bySource": {
   "Plex": 13,
-  "Tubi": 98,
+  "Tubi": 101,
   "Channel 4": 1,
   "Runtime": 4,
   "Prime Video": 24,
@@ -9,8 +9,8 @@
   "Filmzie": 2,
   "Dailymotion": 1705
  },
- "generatedAt": "2026-11-11T22:42:47.390Z",
- "statusGeneratedAt": "2026-11-11T22:42:04.102Z",
+ "generatedAt": "2026-11-12T11:15:50.615Z",
+ "statusGeneratedAt": "2026-11-12T11:15:50.569Z",
  "groups": {
   "classics": {
    "total": 1,
@@ -25,9 +25,9 @@
  },
  "languages": {
   "en": {
-   "catalogued": 1888,
-   "covered": 1742,
-   "withoutTmdb": 1692,
+   "catalogued": 1891,
+   "covered": 1745,
+   "withoutTmdb": 1695,
    "coverage": 92.3
   },
   "yo": {
@@ -75,7 +75,7 @@
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 14
+   "checks30d": 15
   }
  },
  "gaps": [

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T22:38:20.349Z",
+ "generatedAt": "2026-11-12T11:11:30.206Z",
  "source": "TMDB discover, UK availability from JustWatch",
  "entries": [
   {
@@ -572,43 +572,6 @@
   },
   {
    "title": {
-    "id": "tt16760592",
-    "tmdbId": 922017,
-    "type": "movie",
-    "name": "Chief Daddy 2: Going for Broke",
-    "aliases": [],
-    "year": 2021,
-    "languages": [
-     "en"
-    ],
-    "category": "film",
-    "genres": [
-     "Comedy"
-    ],
-    "runtime": "112 min",
-    "description": "The Beecroft family are ready to spend all of Chief Daddy's inheritance, but not if the CEO of his company has anything to do with it.",
-    "poster": "https://image.tmdb.org/t/p/w342/mCOhpT4thaUTPbBvFKYibgpNnCy.jpg",
-    "background": "https://image.tmdb.org/t/p/w1280/6Y014ckpxww11CGAIRL8uT4Pz5n.jpg",
-    "country": "NG",
-    "sources": {
-     "all": "TMDB",
-     "availability": "JustWatch via TMDB (UK)"
-    }
-   },
-   "offers": [
-    {
-     "providerName": "Netflix",
-     "tmdbProviderId": 8,
-     "access": "subscription"
-    }
-   ],
-   "watchLink": "https://www.themoviedb.org/movie/922017-chief-daddy-2-going-for-broke/watch?locale=GB",
-   "serviceIds": {
-    "netflix": "81323628"
-   }
-  },
-  {
-   "title": {
     "id": "tt33540966",
     "tmdbId": 1364082,
     "type": "movie",
@@ -776,6 +739,43 @@
     }
    ],
    "watchLink": "https://www.themoviedb.org/movie/1315844-the-beads/watch?locale=GB"
+  },
+  {
+   "title": {
+    "id": "tt16760592",
+    "tmdbId": 922017,
+    "type": "movie",
+    "name": "Chief Daddy 2: Going for Broke",
+    "aliases": [],
+    "year": 2021,
+    "languages": [
+     "en"
+    ],
+    "category": "film",
+    "genres": [
+     "Comedy"
+    ],
+    "runtime": "112 min",
+    "description": "The Beecroft family are ready to spend all of Chief Daddy's inheritance, but not if the CEO of his company has anything to do with it.",
+    "poster": "https://image.tmdb.org/t/p/w342/mCOhpT4thaUTPbBvFKYibgpNnCy.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/6Y014ckpxww11CGAIRL8uT4Pz5n.jpg",
+    "country": "NG",
+    "sources": {
+     "all": "TMDB",
+     "availability": "JustWatch via TMDB (UK)"
+    }
+   },
+   "offers": [
+    {
+     "providerName": "Netflix",
+     "tmdbProviderId": 8,
+     "access": "subscription"
+    }
+   ],
+   "watchLink": "https://www.themoviedb.org/movie/922017-chief-daddy-2-going-for-broke/watch?locale=GB",
+   "serviceIds": {
+    "netflix": "81323628"
+   }
   },
   {
    "title": {
