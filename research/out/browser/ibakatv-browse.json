@@ -1,0 +1,17 @@
+{
+ "name": "ibakatv-browse",
+ "home": {
+  "url": "https://www.ibakatv.com/browse",
+  "finalUrl": "https://www.ibakatv.com/browse",
+  "status": 404,
+  "title": "",
+  "text": "This XML file does not appear to have any style information associated with it. The document tree is shown below. <Error> <Code>NoSuchKey</Code> <Message>The specified key does not exist.</Message> <Key>websites/ibakatv/iBakaTV-Website/browse</Key> <RequestId>PFXNRS5HZGPXNZ0S</RequestId> <HostId>W4r2KoOhEF7HrjbbPGHae1D9P4QejX3eNEdFHgoX8ndpFgYoL3S70077UZKCFBD3XKeioKZlTsM=</HostId> </Error>",
+  "walls": [],
+  "media": [],
+  "drm": [],
+  "players": []
+ },
+ "titleLinksFound": 0,
+ "titleLinkSamples": [],
+ "titles": []
+}

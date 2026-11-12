@@ -1,0 +1,17 @@
+{
+ "name": "vimeo-search-yoruba",
+ "home": {
+  "url": "https://vimeo.com/search?q=yoruba%20film",
+  "finalUrl": "https://vimeo.com/search?q=yoruba%20film",
+  "status": 403,
+  "title": "Just a moment...",
+  "text": "Verify to continue To continue, please confirm that you're a human (and not a spambot). Ray ID: a59809474fc5c415",
+  "walls": [],
+  "media": [],
+  "drm": [],
+  "players": []
+ },
+ "titleLinksFound": 0,
+ "titleLinkSamples": [],
+ "titles": []
+}
