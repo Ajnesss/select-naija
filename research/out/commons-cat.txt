@@ -1,0 +1,7 @@
+URL: https://commons.wikimedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:Films_of_Nigeria&cmlimit=200&format=json
+FINAL: https://commons.wikimedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:Films_of_Nigeria&cmlimit=200&format=json
+STATUS: 200
+TYPE: application/json; charset=utf-8
+LENGTH: 790
+
+{"batchcomplete":"","query":{"categorymembers":[{"pageid":129089251,"ns":14,"title":"Category:All the Colours of the World Are Between Black and White"},{"pageid":182794199,"ns":14,"title":"Category:Lady (film)"},{"pageid":132793057,"ns":14,"title":"Category:Ojuju"},{"pageid":42442773,"ns":6,"title":"File:Black november.jpg"},{"pageid":189190677,"ns":6,"title":"File:Rogba Arimoro Portrait.jpg"},{"pageid":52259581,"ns":6,"title":"File:Ruth Kadiri -First Class.png"},{"pageid":52259578,"ns":6,"title":"File:Ruth Kadiri During Interview In \" First Class.png"},{"pageid":52259579,"ns":6,"title":"File:Ruth Kadiri In \" First Class.png"},{"pageid":52259580,"ns":6,"title":"File:Ruth Kadiri plays Interview In \" First Class.png"},{"pageid":81441760,"ns":6,"title":"File:The Tenants.png"}]}}

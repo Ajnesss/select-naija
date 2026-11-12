@@ -1,0 +1,1056 @@
+URL: https://www.demandafrica.com/
+FINAL: https://demandafrica.com/
+STATUS: 200
+TYPE: text/html; charset=UTF-8
+LENGTH: 141705
+
+<!DOCTYPE html>
+<html class="no-touch" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="">
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<script id="cookie-law-info-gcm-var-js">
+var _ckyGcm = {"status":true,"default_settings":[{"analytics":"denied","advertisement":"denied","functional":"denied","necessary":"granted","ad_user_data":"denied","ad_personalization":"denied","regions":"All"}],"wait_for_update":2000,"url_passthrough":true,"ads_data_redaction":true}</script>
+<script id="cookie-law-info-gcm-js" type="text/javascript" src="https://demandafrica.com/wp-content/plugins/cookie-law-info/lite/frontend/js/gcm.min.js"></script> <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/7ae8a87fdb857843a25e0faf/script.js"></script>		<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+<!-- This site is optimized with the Yoast SEO plugin v24.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>Demand Africa - African Movies, TV Series, &amp; Entertainment.</title>
+<meta name="description" content="Stream the best movies, food, culture and lifestyle series and more on Demand Africa. Available on web, smartphones, tablets and smart TV&#039;s." />
+<link rel="canonical" href="https://demandafrica.com/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Demand Africa - African Movies, TV Series, &amp; Entertainment." />
+<meta property="og:description" content="Stream the best movies, food, culture and lifestyle series and more on Demand Africa. Available on web, smartphones, tablets and smart TV&#039;s." />
+<meta property="og:url" content="https://demandafrica.com/" />
+<meta property="og:site_name" content="Demand Africa" />
+<meta property="article:publisher" content="http://www.facebook.com/demandafrica" />
+<meta property="article:modified_time" content="2020-03-10T23:58:09+00:00" />
+<meta property="og:image" content="https://demandafrica.com/wp-content/uploads/2019/10/DEMANDAFRICA_social_1200x630.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Demand Africa - African Movies, TV Series, &amp; Entertainment." />
+<meta name="twitter:description" content="Stream the best movies, food, culture and lifestyle series and more on Demand Africa. Available on web, smartphones, tablets and smart TV&#039;s." />
+<meta name="twitter:image" content="https://demandafrica.com/wp-content/uploads/2019/10/DEMANDAFRICA_social_1200x630.jpg" />
+<meta name="twitter:site" content="@demandafrica" />
+<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://demandafrica.com/","url":"https://demandafrica.com/","name":"Demand Africa - African Movies, TV Series, & Entertainment.","isPartOf":{"@id":"https://demandafrica.com/#website"},"about":{"@id":"https://demandafrica.com/#organization"},"datePublished":"2016-09-23T17:52:47+00:00","dateModified":"2020-03-10T23:58:09+00:00","description":"Stream the best movies, food, culture and lifestyle series and more on Demand Africa. Available on web, smartphones, tablets and smart TV's.","breadcrumb":{"@id":"https://demandafrica.com/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://demandafrica.com/"]}]},{"@type":"BreadcrumbList","@id":"https://demandafrica.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://demandafrica.com/#website","url":"https://demandafrica.com/","name":"Demand Africa","description":"The best in African Diaspora lifestyle, drama, documentaries and movies on demand","publisher":{"@id":"https://demandafrica.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://demandafrica.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://demandafrica.com/#organization","name":"Demand Africa","url":"https://demandafrica.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://demandafrica.com/#/schema/logo/image/","url":"https://demandafrica.com/wp-content/uploads/2017/05/DemandAfricalogo_Gold-H.png","contentUrl":"https://demandafrica.com/wp-content/uploads/2017/05/DemandAfricalogo_Gold-H.png","width":1972,"height":358,"caption":"Demand Africa"},"image":{"@id":"https://demandafrica.com/#/schema/logo/image/"},"sameAs":["http://www.facebook.com/demandafrica","https://x.com/demandafrica","http://www.instagram.com/demandafrica","http://www.pinterest.com/demandafrica","https://www.youtube.com/demandafrica"]}]}</script>
+<meta name="msvalidate.01" content="EE05E23168A2C3001DEEA9E3B8BB6C88" />
+<meta name="p:domain_verify" content="53df4037694344a3957f723bcf62768c" />
+<!-- / Yoast SEO plugin. -->
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//players.brightcove.net' />
+<script>(()=>{"use strict";const e=[400,500,600,700,800,900],t=e=>`wprm-min-${e}`,n=e=>`wprm-max-${e}`,s=new Set,o="ResizeObserver"in window,r=o?new ResizeObserver((e=>{for(const t of e)c(t.target)})):null,i=.5/(window.devicePixelRatio||1);function c(s){const o=s.getBoundingClientRect().width||0;for(let r=0;r<e.length;r++){const c=e[r],a=o<=c+i;o>c+i?s.classList.add(t(c)):s.classList.remove(t(c)),a?s.classList.add(n(c)):s.classList.remove(n(c))}}function a(e){s.has(e)||(s.add(e),r&&r.observe(e),c(e))}!function(e=document){e.querySelectorAll(".wprm-recipe").forEach(a)}();if(new MutationObserver((e=>{for(const t of e)for(const e of t.addedNodes)e instanceof Element&&(e.matches?.(".wprm-recipe")&&a(e),e.querySelectorAll?.(".wprm-recipe").forEach(a))})).observe(document.documentElement,{childList:!0,subtree:!0}),!o){let e=0;addEventListener("resize",(()=>{e&&cancelAnimationFrame(e),e=requestAnimationFrame((()=>s.forEach(c)))}),{passive:!0})}})();</script><!-- demandafrica.com is managing ads with Advanced Ads 2.0.26 – https://wpadvancedads.com/ --><script data-wpfc-render="false" id="deman-ready">
+window.advanced_ads_ready=function(e,a){a=a||"complete";var d=function(e){return"interactive"===a?"loading"!==e:"complete"===e};d(document.readyState)?e():document.addEventListener("readystatechange",(function(a){d(a.target.readyState)&&e()}),{once:"interactive"===a})},window.advanced_ads_ready_queue=window.advanced_ads_ready_queue||[];		</script>
+<link rel='stylesheet' id='layerslider-css' href='//demandafrica.com/wp-content/cache/wpfc-minified/d2kg9a9n/dch9v.css' type='text/css' media='all' />
+<link rel='stylesheet' id='ls-google-fonts-css' href='https://fonts.googleapis.com/css?family=Lato:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7COpen+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7CIndie+Flower:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7COswald:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css' href='//demandafrica.com/wp-content/cache/wpfc-minified/1455tjct/dch9v.css' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='//demandafrica.com/wp-content/cache/wpfc-minified/9k52trxm/dch9v.css' type='text/css' media='all' />
+<link rel='stylesheet' id='uncodefont-google-css' href='//fonts.googleapis.com/css?family=Poppins%3A300%2Cregular%2C500%2C600%2C700%7CHind%3A300%2Cregular%2C500%2C600%2C700%7CMontserrat%3Aregular%2C700&#038;subset=devanagari%2Clatin-ext%2Clatin' type='text/css' media='all' />
+<link rel='stylesheet' id='uncode-privacy-css' href='//demandafrica.com/wp-content/cache/wpfc-minified/k9bwxi35/dch9v.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wprm-template-css' href='//demandafrica.com/wp-content/cache/wpfc-minified/lx90a2kt/dch9v.css' type='text/css' media='all' />
+<link rel='stylesheet' id='megamenu-css' href='//demandafrica.com/wp-content/cache/wpfc-minified/86nzzxoj/dch9v.css' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='//demandafrica.com/wp-content/cache/wpfc-minified/lclvchyf/dch9v.css' type='text/css' media='all' />
+<link rel='stylesheet' id='da-parent-style-css' href='//demandafrica.com/wp-content/themes/uncode/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='brightcove-pip-css-css' href='https://players.brightcove.net/videojs-pip/1/videojs-pip.css' type='text/css' media='all' />
+<link rel='stylesheet' id='brightcove-playlist-css' href='//demandafrica.com/wp-content/cache/wpfc-minified/6zbmu4jb/dch9v.css' type='text/css' media='all' />
+<link rel='stylesheet' id='uncode-style-css' href='//demandafrica.com/wp-content/cache/wpfc-minified/781axpb3/dch9v.css' type='text/css' media='all' />
+<style id='uncode-style-inline-css' type='text/css'>
+@media (max-width: 959px) { .navbar-brand > * { height: 45px !important;}}
+@media (min-width: 960px) { .limit-width { max-width: 1200px; margin: auto;}}
+#changer-back-color { transition: background-color 1000ms cubic-bezier(0.25, 1, 0.5, 1) !important; } #changer-back-color > div { transition: opacity 1000ms cubic-bezier(0.25, 1, 0.5, 1) !important; } body.bg-changer-init.disable-hover .main-wrapper .style-light,  body.bg-changer-init.disable-hover .main-wrapper .style-light h1,  body.bg-changer-init.disable-hover .main-wrapper .style-light h2, body.bg-changer-init.disable-hover .main-wrapper .style-light h3, body.bg-changer-init.disable-hover .main-wrapper .style-light h4, body.bg-changer-init.disable-hover .main-wrapper .style-light h5, body.bg-changer-init.disable-hover .main-wrapper .style-light h6, body.bg-changer-init.disable-hover .main-wrapper .style-light a, body.bg-changer-init.disable-hover .main-wrapper .style-dark, body.bg-changer-init.disable-hover .main-wrapper .style-dark h1, body.bg-changer-init.disable-hover .main-wrapper .style-dark h2, body.bg-changer-init.disable-hover .main-wrapper .style-dark h3, body.bg-changer-init.disable-hover .main-wrapper .style-dark h4, body.bg-changer-init.disable-hover .main-wrapper .style-dark h5, body.bg-changer-init.disable-hover .main-wrapper .style-dark h6, body.bg-changer-init.disable-hover .main-wrapper .style-dark a { transition: color 1000ms cubic-bezier(0.25, 1, 0.5, 1) !important; } body.bg-changer-init.disable-hover .main-wrapper .heading-text-highlight-inner { transition-property: right, background; transition-duration: 1000ms }
+</style>
+<link rel='stylesheet' id='uncode-icons-css' href='//demandafrica.com/wp-content/cache/wpfc-minified/8ke4m91x/dch9v.css' type='text/css' media='all' />
+<link rel='stylesheet' id='uncode-custom-style-css' href='//demandafrica.com/wp-content/cache/wpfc-minified/2c6lwfpz/dch9v.css' type='text/css' media='all' />
+<style id='uncode-custom-style-inline-css' type='text/css'>
+.main-container .row-container .row-parent .single-internal-gutter .uncont > * {margin-top:20px;}.half-block-padding {padding:0px 0px 0px 0px;}.post-info {margin:10px 0px 0px 0px;}.category-info{ pointer-events:none; cursor:default;} .date-info{ display:none!important; } .share-button.share-inline .social.top li.social-gplus,.share-button.share-inline .social.top li.social-linkedin {display:none!important;}.videoWrapper {position:relative;padding-bottom:56.25%; padding-top:25px;height:0;}.videoWrapper iframe {position:absolute;top:0;left:0;width:100%;height:100%;}.menu-white .widget .menu-footer-menu-container .menu li a {color:white;}.text-white p {color:#fff !important;}.social-hover:hover {color:#0cb4ce;}.social-hover .widget .menu-footer-menu-container .menu a:hover {color:#0cb4ce;}.t-entry-title .single-gutter .isotope-container .tmb .t-inside .t-entry-text .single-block-padding {padding:24px 24px 24px 24px;}.social-xing {display:none !important;visibility:hidden;position:absolute !important;left:-999em;}.header-wrapper .header-content-inner {margin:0 auto;padding:54px 36px 54px 36px !important;}.style-color-prif-bg {background:-moz-linear-gradient(left, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0) 100%);background:-webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.95)), color-stop(100%,rgba(0,0,0,0)));background:-webkit-linear-gradient(left, rgba(0,0,0,0.95) 0%,rgba(0,0,0,0) 100%);background:-o-linear-gradient(left, rgba(0,0,0,0.95) 0%,rgba(0,0,0,0) 100%);background:-ms-linear-gradient(left, rgba(0,0,0,0.95) 0%,rgba(0,0,0,0) 100%);background:linear-gradient(to right, rgba(0,0,0,0.95) 0%,rgba(0,0,0,0) 100%);}.disable-gradient {background:#303133 !important;background:-webkit-linear-gradient(left, #303133, #303133) !important;background:-o-linear-gradient(right, #303133, #303133) !important;background:-moz-linear-gradient(right, #303133, #303133) !important;background:linear-gradient(to right, #303133, #303133) !important;}.season-list-margin .row-container {margin-top:15px;}.season-number {color:grey;}.episode-number {color:black;text-decoration:bold;}.episode-title {color:rgb(27, 157, 232);}.episode-description {margin:0px;}.style-light .link-hover, .style-light.style-override .link-hover,.style-dark .style-light .link-hover, .style-light a:hover:not(.btn-text-skin),.style-light.style-override a:hover:not(.btn-text-skin),.style-dark .style-light a:hover:not(.btn-text-skin),.style-light a:focus:not(.btn-text-skin),.style-light.style-override a:focus:not(.btn-text-skin),.style-dark .style-light a:focus:not(.btn-text-skin), .style-light a.active,.style-light.style-override a.active, .style-dark .style-light a.active,.style-light .tmb .t-entry-text .t-entry-title a:hover,.style-light.style-override .tmb .t-entry-text .t-entry-title a:hover,.style-dark .style-light .tmb .t-entry-text .t-entry-title a:hover,.style-light .tmb .t-entry-text .t-entry-title a:focus,.style-light.style-override .tmb .t-entry-text .t-entry-title a:focus,.style-dark .style-light .tmb .t-entry-text .t-entry-title a:focus,.style-light .tmb .t-entry p.t-entry-comments .extras a:hover i,.style-light.style-override .tmb .t-entry p.t-entry-comments .extras a:hover i,.style-dark .style-light .tmb .t-entry p.t-entry-comments .extras a:hover i,.style-light .tmb .t-entry p.t-entry-comments .extras a.active i,.style-light.style-override .tmb .t-entry p.t-entry-comments .extras a.active i,.style-dark .style-light .tmb .t-entry p.t-entry-comments .extras a.active i,.style-light .tmb .t-entry p.t-entry-comments .extras a:focus i,.style-light.style-override .tmb .t-entry p.t-entry-comments .extras a:focus i,.style-dark .style-light .tmb .t-entry p.t-entry-comments .extras a:focus i,.style-light .widget_nav_menu li.active > a,.style-light.style-override .widget_nav_menu li.active > a,.style-dark .style-light .widget_nav_menu li.active > a,.style-light div.share-button[class*="sharer-"] label:hover,.style-light.style-override div.share-button[class*="sharer-"] label:hover,.style-dark .style-light div.share-button[class*="sharer-"] label:hover,.style-light div.share-button[class*="sharer-"] label:focus,.style-light.style-override div.share-button[class*="sharer-"] label:focus,.style-dark .style-light div.share-button[class*="sharer-"] label:focus {color:#f69a3b;}.social-hover .widget .menu-footer-menu-container .menu a:hover {color:#f69a3b;}.social-icon a i:hover {color:#f69a3b;}.cta-recipes .row {padding-bottom:20px !important;padding-top:20px !important;background:#f69a3b;}.style-light .cta-button {color:#fff !important;background-color:transparent !important;border-color:#fff !important;}.author-profile .contact-methods li a .fa {display:block;line-height:inherit;margin:0;width:inherit;color:white;}.author-profile .style-light {color:#ffffff;font-weight:600;}.tags-all-in-one a {font-size:11px !important;padding:2px 5px 2px 5px;display:inline-block;border:1px solid #eaeaea;border-radius:4px;margin:0px 5px 9px 0px;text-transform:uppercase;font-weight:600;}.style-color-wayh-bg {background-color:#141618;background:-moz-linear-gradient(top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0) 100%);background:-webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.95)), color-stop(100%,rgba(0,0,0,0)));background:-webkit-linear-gradient(top, rgba(0,0,0,0.95) 0%,rgba(0,0,0,0) 100%);background:-o-linear-gradient(top, rgba(0,0,0,0.95) 0%,rgba(0,0,0,0) 100%);background:-ms-linear-gradient(top, rgba(0,0,0,0.95) 0%,rgba(0,0,0,0) 100%);background:linear-gradient(to bottom, rgba(0,0,0,0.95) 0%,rgba(0,0,0,0) 100%);}@media (max-width:1600px) {.limit-width {max-width:1360px;margin:auto;}}@media (max-width:1920px) {.half-gutter .tmb {position:unset !important;width:100% !important;}.limit-width {max-width:1600px;margin:auto;}}.box-wrapper {background:#eeeeee;}.box-container.limit-width {background:#fdfdfd;overflow:hidden;}#page-header {height:100px;overflow:hidden;}#masthead .menu-container {background:#fff !important;}#masthead .menu-container a {color:#000 !important;}#masthead .menu-container .drop-menu a {color:#fff !important;}.navbar-brand .logo-image.logo-dark {display:none !important;}.navbar-brand .logo-image.logo-light {display:block !important;}.demand-shows-section h4.pull-right {margin:6px 0 0 0;vertical-align:;}.watch-jumbo-section {background:none;padding-top:45px;}.watch-jumbo-section::after {content:"";display:block;background:#F89B2B;width:100%;height:75%;position:absolute;top:0;z-index:-1;}.section-jumbo-img {width:100%;display:block;}.section-jumbo-img > div.uncol {position:absolute;width:100%;}body.page-id-48941 .wpcf7 .wpcf7-not-valid-tip {text-align:left !important;}.watch-jumbo-section .white-box {background:#fff;display:inline-block;padding:40px;border:1px solid #eee;border-radius:4px;box-shadow:0 8px 10px -10px rgba(0,0,0,0.3);text-align:center;margin-right:20px;}.watch-jumbo-section .white-box h4 {font-size:13px;display:block;}.watch-jumbo-section .white-box img {font-size:13px;display:block;height:60px;}.watch-jumbo-section .white-box a.btn {background:#F89B2B;border:none;border-radius:50px;color:#fff;font-size:14px;letter-spacing:0;}.watch-jumbo-section h1 {color:#fff;font-size:4rem;font-weight:100;letter-spacing:normal;font-family:'montserrat';margin:0 0;}.watch-jumbo-section p {color:#fff;font-size:1.35rem;line-height:1.6;}.sectionx-title {overflow:hidden;}.sectionx-title h2 {color:#F89B2B;font-size:22px;font-family:'montserrat', sans-serif;}.sectionx-title h2 strong {color:#000;}.sectionx-title h4 {font-size:15px;margin:0;}.demand-shows-section {padding:60px 0 0 0;}.demand-shows-section-rows .row-inner {margin-left:0;}.demand-shows-section-rows .column_child.col-lg-3 {padding:0px 0px 0px 0px !important;background:#ddd;overflow:hidden;}.demand-shows-section-rows .column_child.col-lg-3 .uncode-single-media {height:100px;border:1px solid white;overflow:hidden;border-radius:100%;width:100px;}.demand-white-heading h2 {font-family:'montserrat', sans-serif;color:#fff;}.demand-listing-inline ul {list-style-type:none;padding:0 0 0 0;}.demand-listing-inline li {list-style-type:none;display:inline-block;margin-right:20px;}.demand-restaurants-section {padding:50px 0;}.demand-recipes-section {padding:0px 0;}.demand-recipes-section > .row {padding:0 0 !important;}.demand-recipes-div {margin:0 0 !important;}.demand-recipe-actual {padding:0 0 0 0 !important;}.demand-recipe-actual .uncell.boomapps_vccolumn {padding:600px 0 40px 30px !important;}.demand-recipes-section .sectionx-title {position:absolute;top:0;width:100%;padding:20px 20px;z-index:20;text-shadow:0 0 2px black;left:50%;transform:translateX(-50%);}.demand-recipes-section .demand-white-heading {margin:0 0 !important;}.demand-recipes-section h5 {font-size:15px;color:#F89B2B;text-shadow:0 1px 2px black;}.demand-recipes-section > .row > .row-inner {margin:0;}.demand-shows-item {padding-top:200px;}.demand-shows-item h2, .demand-shows-item h6 {color:#fff !important;font-family:'montserrat', sans-serif;font-size:20px;text-shadow:0 1px 1px rgba(0,0,0,0.8);}.demand-shows-item h6 {color:#F89B2B !important;font-size:13px;}.demand-shows-item p {color:#fff !important;font-size:16px;text-shadow:0 1px 1px rgba(0,0,0,0.8);}.demand-shows-item p strong {color:#fff !important;font-weight:bold;}.demand-shows-section-rows .uncell.single-block-padding {padding:20px 20px !important;}.demand-white-footer p, .demand-white-footer li a {color:#999 !important;font-size:17px !important;}.demand-white-footer h4 {color:#000 !important;font-size:22px !important;font-family:'montserrat', sans-serif;text-transform:capitalize;}.demand-white-footer {background:#fff !important;color:#000;border:1px solid #eee !important;}.demand-white-footer .text-white p {color:#000 !important;}.demand-white-footer .social-icon a i {color:#000;font-size:24px;}.demand-play-btn {padding:20px 20px 10px 18px !important;border:4px solid;text-shadow:0 0px 2px rgba(0,0,0,0.5);}.demand-sample-slider > .row.single-bottom-padding {padding:0px 0px 0px 0px;}.xumo-tv-heading-text h4 strong {color:#01B1E0;font-weight:bold;}.xumo-tv-heading-text h4 {color:#fff;font-weight:normal;}.demand-restaurants-section .demand-white-heading {margin-top:80px !important;}.box-container #masthead.is_stuck > .menu-container {background:rgba(0,0,0,0.8);}.site-footer .site-info.uncell {font-size:16px;color:#aaa;}.dark-bg-overlay .column-background.background-element::after,.dark-bg-overlay .row-background.background-element::after {content:"";display:block;position:absolute;width:100%;height:100%;background:rgba(0,0,0,0.3);}.dark-bg-gradient .column-background.background-element::after,.dark-bg-gradient .row-background.background-element::after {content:"";display:block;position:absolute;width:100%;height:100%;background:-moz-linear-gradient(top,rgba(0,0,0,0) 25%, rgba(0,0,0,0.8) 100%);background:-webkit-linear-gradient(top,rgba(0,0,0,0) 25%,rgba(0,0,0,0.8) 100%);background:linear-gradient(to bottom,rgba(0,0,0,0) 25%,rgba(0,0,0,0.8) 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000',GradientType=0 );}.newsletter_sidebar_form {background:#f1f1f1;padding:0 20px 20px;border-top:1px solid #ddd;font-weight:normal;margin-top:20px;}.newsletter_sidebar_form h4 {margin-bottom:16px;font-size:18px;color:#777;font-weight:100;}.newsletter_sidebar_form p {font-weight:normal;font-size:13px;margin:10px 0;line-height:1.4;}.newsletter_sidebar_form p.small {color:#000;font-style:italic;margin-top:20px;}.pure-full-width > .row {padding:0px !important;}.pure-full-width > .row > .row-inner {margin-left:0px !important;}.pure-full-width > .row > .row-inner > .column_parent {padding-left:0px !important;}.demand-recipes-shortcode-section > .row {padding:0px !important;}.page-id-49737 .widget-container.widget_text img{margin:0;}.form-style .mc-field-group input {box-shadow:none !important;width:100%;border:1px solid #eaeaea !important;}#mc_embed_signup_scroll > h2 {font-size:29px;margin-bottom:30px;margin-top:40px;}#mc_embed_signup_scroll .button {background-color:#fa9b01;color:#fff;margin-top:15px;width:100%;}.demand-quad-section-item .uncell {padding:140px 0 !important;text-align:center;}.demand-recipes-section .demand-white-heading {margin:0 0 !important;}.demand-quad-section .demand-white-heading h1 {font-family:'montserrat', sans-serif;color:#fff;font-size:54px;text-shadow:0 1px 1px rgba(0,0,0,0.5);text-align:left;}.demand-quad-section .demand-white-heading strong {display:block;color:#000;}.demand-quad-section .custom-link.btn.btn-lg.style-light.btn-color-xsdn.btn-round.btn-icon-left {border-radius:50px !important;color:#000 !important;}.demand-quad-section .uncell .uncont {display:inline-block;text-align:left !important;}.demand-quad-section > .row {padding-bottom:0px !important;}.demand-quad-section.recipe-mode .uncell .uncont .custom-link.btn {border-radius:50px !important;color:#000 !important;letter-spacing:normal;padding:6px 24px !important;font-size:14px;}.demand-quad-section.recipe-mode .uncell .uncont .custom-link.btn:hover {color:orange !important;}.demand-quad-section.recipe-mode .uncell .uncont {display:inline-block;text-align:center !important;margin:0 auto !important;display:block !important;}.demand-quad-section.recipe-mode .uncell .uncont .custom-link.btn {border-radius:50px !important;color:orange !important;font-size:18px;letter-spacing:normal;padding:6px 24px !important;}.demand-quad-section.recipe-mode > .row {padding:0px !important;}.demand-quad-section.recipe-mode> .row > .row-inner {margin-left:0px !important;}.demand-quad-section.recipe-mode .row-inner > .column_parent {padding-left:0px !important;}.demand-quad-section.recipe-mode .demand-white-heading h2 {text-shadow:0 1px 0px black;}.demand-quad-section.recipe-mode .demand-white-heading h4 {font-size:18px;font-weight:500 !important;text-shadow:0 1px 0px black;}.demand-subscribe-section {padding:0 0 0 0;}.demand-subscribe-section > .row > .row-inner {background:#F89B2B;margin-left:0;padding:50px 0;}.demand-subscribe-section h3 {font-family:'montserrat', sans-serif;color:#000;margin:0;}.demand-subscribe-section h4 {color:white;margin-top:12px;}.demand-subscribe-form input[type="email"] {float:none !important;}.wpcf7 .wpcf7-mail-sent-ok, .wpcf7 .wpcf7-validation-errors, .wpcf7 span.wpcf7-not-valid-tip {text-align:center;}.wpcf7 .wpcf7-response-output.wpcf7-display-none.wpcf7-validation-errors {clear:both;color:#777 !important;font-size:13px !important;text-align:center !important;width:90% !important;margin:15px auto;}.tp-parallax-wrap .wpcf7 .wpcf7-response-output.wpcf7-display-none.wpcf7-validation-errors {color:#fff !important;}.demand-subscribe-form {background:white none repeat scroll 0 0;border-radius:50px;box-shadow:0 5px 15px -5px rgba(0, 0, 0, 0.3);float:none;margin:0 auto;overflow:hidden;position:relative;width:90%;}body .wpcf7 .wpcf7-not-valid-tip {color:#f00 !important;text-align:center !important;}.demand-Launch-section .demand-subscribe-form{width:30%;}.demand-subscribe-form input[type='email'] {float:left;margin:10px 30px;width:80%;background:transparent;box-shadow:none;padding:10px;font-size:16px;border:none;}.demand-subscribe-form button, .demand-subscribe-form input[type='submit'] {display:inline-block;background:#F89B2B;border:none;color:#fff;text-transform:uppercase;font-weight:bold;font-size:16px;padding:10px 20px;border-radius:50px;position:absolute;width:180px;right:10px;top:10px;letter-spacing:normal;}.tp-revslider-mainul .demand-subscribe-form button, .tp-revslider-mainul .demand-subscribe-form input[type='submit'] {line-height:1.3 !important;}.demand-subscribe-form button:hover, .demand-subscribe-form button:focus,.demand-subscribe-form button:active {border:none;}.demand-subscribe-form div.wpcf7-response-output {margin:0 0;padding:0 0;position:absolute;bottom:20px;color:black !important;}.demand-subscribe-form div.wpcf7-response-output {margin:0 0;padding:0 0;position:absolute;bottom:-40px;color:black !important;left:42px;}.demand-post-sharing-btns .uncode-wrapper.uncode-share {float:left;margin-top:0 !important;}.demand-post-sharing-btns .wpb_raw_code.wpb_content_element.wpb_raw_html {display:inline-block;padding:52px 0 0 20px;}@media all and (max-width:1630px) {.demand-Launch-section .demand-subscribe-form {width:40%;} }@media all and (max-width:1220px) {.demand-Launch-section .demand-subscribe-form {width:55%;} }@media all and (max-width:960px) {.demand-subscribe-section h3, .demand-subscribe-section h4 {text-align:center;}.demand-Launch-section .demand-subscribe-form {width:70%;} .half-gutter .tmb {padding-right:0 !important;width:100% !important;float:left !important;}.tmb.tmb-iso-w3.tmb-iso-h4.tmb-light.tmb-text-showed.tmb-overlay-text-anim.tmb-overlay-showed.tmb-overlay-anim.tmb-overlay-bottom.tmb-overlay-text-left.tmb-text-space-reduced.tmb-image-anim.tmb-bordered.tmb-id-49310.tmb-img-ratio.tmb-media-first.tmb-media-last.tmb-content-overlay.tmb-no-bg {position:unset !important;}.tmb.tmb-id-49363, .tmb.tmb-id-49310 {position:unset !important;}}@media all and (max-width:620px) {.demand-Launch-section .demand-subscribe-form {width:100%;} }@media all and (max-width:480px) {.demand-subscribe-form {width:96%;height:120px;margin-right:2%;border-radius:28px;}.demand-subscribe-form button, .demand-subscribe-form input[type='submit']{width:96%;right:2%;top:68px;}.demand-subscribe-form div.wpcf7-response-output {bottom:-60px;left:0;width:100%;height:auto;text-align:center;}div.wpcf7 .ajax-loader {bottom:-25px;right:48%;}}.tmb-img-ratio.tmb .t-entry-visual .t-entry-visual-cont > img, .tmb-img-ratio.tmb .t-entry-visual .t-entry-visual-cont > a > img {height:100%;width:100%;object-fit:cover;}@media all and (max-width:1200px) {.demand-quad-section-item .uncell {padding:100px 0 !important;}.demand-quad-section.recipe-mode .demand-white-heading h2 {font-size:24px;}.demand-quad-section.recipe-mode .demand-white-heading h4 {font-size:16px;}}@media all and (max-width:960px) {.mobile-menu-button-dark .lines, .mobile-menu-button-dark .lines::before,.mobile-menu-button-dark .lines::after {background:#000;}#masthead .menu-container .menu-primary-inner a {color:#fff !important;}.demand-quad-section-item .uncell {padding:40px 100px !important;text-align:center;}.demand-quad-section .demand-white-heading h1 {font-size:46px;}.demand-quad-section .custom-link.btn.btn-lg.style-light.btn-color-xsdn.btn-round.btn-icon-left {padding:12px 20px !important;font-size:14px !important;}.demand-quad-section.recipe-mode .row-inner > .column_parent {padding-top:0px !important;}.form-style .uncell.boomapps_vccolumn{padding:0 !important;}}@media all and (max-width:480px) {.demand-quad-section-item .uncell {padding:30px 30px !important;text-align:center;}.demand-quad-section .demand-white-heading h1 {font-size:34px;}.demand-quad-section .demand-white-heading a.btn {-webkit-transform-origin:left !important; -moz-transform-origin:left !important; -o-transform-origin:left !important;-ms-transform-origin:left !important;transform-origin:left !important;}}.overlay-search .search-container-inner button {position:absolute;right:0;top:0.8em;font-size:1.4rem;font-size:2.8vh;background-color:transparent !important;}a.btn.btn-login-custom {position:absolute;background:#fff;color:#000;display:inline-block;z-index:9999;height:34px;width:80px;border:2px solid orange;border-radius:4px;top:30px;right:270px;text-align:center;padding:0 !important;margin:0;line-height:32px;transition:all 0.3s ease;overflow:hidden;}a.btn.btn-login-custom:hover,a.btn.btn-login-custom:focus {background:orange;color:#fff;}a.btn.btn-play-custom {position:absolute;background:orange;color:#fff;display:inline-block;z-index:9999;height:34px;width:200px;border:2px solid orange;border-radius:4px;top:30px;right:50px;text-align:center;padding:0 !important;margin:0;line-height:32px;transition:all 0.3s ease;overflow:hidden;}a.btn.btn-play-custom span.upper {color:#fff;display:block;height:14px;line-height:14px;position:absolute;top:4px;width:90%;text-transform:none;}a.btn.btn-play-custom span.lower {color:#000;display:block;height:14px;line-height:14px;position:absolute;top:18px;width:90%;font-size:10px;letter-spacing:0;text-transform:none;}a.btn.btn-play-custom span.resp {position:absolute;color:#fff;display:inline-block;text-align:center;line-height:32px;top:0;left:10px;display:none;}a.btn.btn-play-custom i.fa {color:#fff;position:absolute;right:14px;top:0;height:30px;width:10px;font-size:20px;}a.btn.btn-play-custom:hover i.fa,a.btn.btn-play-custom:focus i.fa {color:#000;}@media all and (max-width:959px) {.menu-horizontal-inner > div:last-child .menu-smart {padding-bottom:60px !important;}a.btn.btn-login-custom {position:relative;top:-35px;right:-15px;}a.btn.btn-play-custom {position:relative;top:-35px;right:-35px;}}@media all and (min-width:959px) and (max-width:1200px) {body.hmenu-position-center .main-menu-container .navbar-nav-last {min-width:140px !important;}a.btn.btn-play-custom span.upper,a.btn.btn-play-custom span.lower {display:none;}a.btn.btn-play-custom span.resp {display:inline-block;}a.btn.btn-play-custom {top:30px;right:30px;width:100px;}a.btn.btn-login-custom {right:45px;display:none;}}@media all and (max-width:1600px) {#mc_embed_signup_scroll > h2 {font-size:24px;margin-bottom:20px;margin-top:45px;}.page-id-49582 .uncode_text_column h2 {font-size:24px;}.post-content .vc_custom_1494306891460 {padding-left:150px !important;padding-right:0 !important;}.page-id-49582 .pos-middle.pos-center.align_left.column_parent.col-lg-6.boomapps_vccolumn.single-internal-gutter {padding:0;}.watch-jumbo-section > .row-background > .background-wrapper > .background-inner {background-size:660px !important;}.watch-jumbo-section .white-box {padding:25px;}.watch-jumbo-section h1 {font-size:3rem;}.demand-shows-item {padding-top:100px;}}@media all and (max-width:1200px) {.form-style .row-inner {margin:0 !important;}.form-style.row-container.boomapps_vcrow {padding:0 !important;}#mc_embed_signup_scroll > h2 {margin-top:0px;}.post-content .vc_custom_1494306891460 {padding-left:0 !important;}.page-id-49582 .uncol .uncont {max-width:100% !important;}.page-id-49582 .boomapps_vcrow .p1 {font-size:14px;}.page-id-49582 .wp-image-49599.alignleft {padding-right:0;}.watch-jumbo-section > .row-background > .background-wrapper > .background-inner {background-size:540px !important;}.watch-jumbo-section h1 {font-size:2.4rem;}.watch-jumbo-section p {font-size:1.1rem;}.watch-jumbo-section .white-box {padding:16px;}.watch-jumbo-section .white-box a.btn {padding:10px 18px !important;}.watch-jumbo-section .white-box img {height:36px;margin:6px auto;}.demand-shows-item {padding-top:10px;}.demand-recipe-actual .uncell.boomapps_vccolumn {padding:380px 0 40px 30px !important;}.social-icon.icon-box.icon-box-top.icon-inline {display:block;text-align:left;padding:0;}.social-icon.icon-box.icon-box-top.icon-inline a {font-size:16px !important;display:inline-block;}.footer-extra-column {display:none;}}@media all and (max-width:960px) {#page-header {height:auto; }.page-id-49582 #page-header {overflow:hidden;}#mc_embed_signup_scroll > h2 {margin-bottom:20px;margin-top:0;text-align:center;}#page-header .column_parent.col-lg-6 {width:50%;float:left;clear:none;padding:0;}.watch-jumbo-section > .row-background > .background-wrapper > .background-inner {background-position:center bottom !important;background-size:500px !important;}.watch-jumbo-section h1 {font-size:2.4rem;text-align:center;display:block !important;}.watch-jumbo-section p {font-size:1.1rem;text-align:center;}.watch-jumbo-section .uncell .uncode_text_column {margin-top:16px !important;}.white-box:nth-child(1) {float:left;margin-left:20px;}.white-box:nth-child(2) {float:right;}.watch-jumbo-section .wpb_wrapper {text-align:center;}.demand-recipe-actual .uncell.boomapps_vccolumn {padding:120px 0 40px 30px !important;}.trigger-overlay.search-icon span span, .trigger-overlay.search-icon i.fa {color:#fff !important;}}@media all and (max-width:768px) {}@media all and (max-width:480px) {.page-id-49582 .boomapps_vccolumn .uncode_text_column h2 {overflow:hidden;width:100% !important;}.page-id-49582 .uncell.vc_custom_1494306761346.boomapps_vccolumn.no-block-padding {padding-left:0 !important;}.page-id-49582 .wp-image-49599.alignleft {float:none;}.watch-jumbo-section .white-box {display:block;margin-bottom:16px;}.watch-jumbo-section .white-box:nth-child(1),.watch-jumbo-section .white-box:nth-child(2) {float:none;width:100%;margin:10px 0;text-align:center;}.demand-subscribe-form {width:96%;height:120px;margin-right:2%;border-radius:28px;}.demand-subscribe-form button {width:96%;right:2%;top:68px;}.main-container .row-container .row-parent {padding:31px 10px 0px 10px;} }
+</style>
+<link rel='stylesheet' id='hm_custom_css-css' href='//demandafrica.com/wp-content/cache/wpfc-minified/13k35zbi/dch9v.css' type='text/css' media='all' />
+<link rel='stylesheet' id='pcs-styles-css' href='//demandafrica.com/wp-content/cache/wpfc-minified/fqgaalug/dch9v.css' type='text/css' media='screen' />
+<script type="text/javascript" src="https://demandafrica.com/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://demandafrica.com/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<script type="text/javascript" id="layerslider-utils-js-extra">
+/* <![CDATA[ */
+var LS_Meta = {"v":"7.1.3","fixGSAP":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://demandafrica.com/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js" id="layerslider-utils-js"></script>
+<script type="text/javascript" src="https://demandafrica.com/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js" id="layerslider-js"></script>
+<script type="text/javascript" src="https://demandafrica.com/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js" id="layerslider-transitions-js"></script>
+<script type="text/javascript" src="https://demandafrica.com/wp-content/plugins/revslider/public/assets/js/rbtools.min.js" async id="tp-tools-js"></script>
+<script type="text/javascript" src="https://demandafrica.com/wp-content/plugins/revslider/public/assets/js/rs6.min.js" async id="revmin-js"></script>
+<script type="text/javascript" id="uncode-init-js-extra">
+/* <![CDATA[ */
+var SiteParameters = {"days":"days","hours":"hours","minutes":"minutes","seconds":"seconds","constant_scroll":"on","scroll_speed":"2","parallax_factor":"0.25","loading":"Loading\u2026","slide_name":"slide","slide_footer":"footer","ajax_url":"https:\/\/demandafrica.com\/wp-admin\/admin-ajax.php","nonce_adaptive_images":"43d09e0378","nonce_srcset_async":"286eabf3a1","enable_debug":"","block_mobile_videos":"","is_frontend_editor":"","main_width":["1200","px"],"mobile_parallax_allowed":"","wireframes_plugin_active":"1","sticky_elements":"off","lazyload_type":"","resize_quality":"90","register_metadata":"","bg_changer_time":"1000","update_wc_fragments":"1","optimize_shortpixel_image":"","custom_cursor_selector":"[href], .trigger-overlay, .owl-next, .owl-prev, .owl-dot, input[type=\"submit\"], button[type=\"submit\"], a[class^=\"ilightbox\"], .ilightbox-thumbnail, .ilightbox-prev, .ilightbox-next, .overlay-close, .unmodal-close, .qty-inset > span, .share-button li, .uncode-post-titles .tmb.tmb-click-area, .btn-link, .tmb-click-row .t-inside, .lg-outer button, .lg-thumb img","mobile_parallax_animation":"","lbox_enhanced":"","native_media_player":"1","vimeoPlayerParams":"?autoplay=0","ajax_filter_key_search":"key","ajax_filter_key_unfilter":"unfilter"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://demandafrica.com/wp-content/themes/uncode/library/js/init.min.js" id="uncode-init-js"></script>
+<script type="text/javascript" src="https://demandafrica.com/wp-content/uploads/hm_custom_css_js/custom.js" id="hm_custom_js-js"></script>
+<meta name="generator" content="Powered by LayerSlider 7.1.3 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.com -->
+<link rel="alternate" type="application/json+oembed" href="https://demandafrica.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemandafrica.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://demandafrica.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemandafrica.com%2F&#038;format=xml" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Pinterest tracking code -->
+<meta name="p:domain_verify" content="53df4037694344a3957f723bcf62768c"/>
+<!-- Start ZONKE Search authentication Tag Manager -->
+<meta name="google-site-verification" content="U0EUmt6JUfNMvn8DaKGQk3aX_AwL8Oattz3qt5aG3O0" />
+<!-- End ZONKE Search authentication Tag Manager --><style type="text/css"> html body .wprm-recipe-container .wprm-recipe { font-size: 14px; } html body .wprm-recipe-container .wprm-recipe .wprm-recipe-name { font-family: montserrat; } html body .wprm-recipe-container .wprm-recipe .wprm-recipe-header { font-family: montserrat; } html body .wprm-recipe-container { color: #828282; } html body .wprm-recipe-container a.wprm-recipe-print { color: #828282; } html body .wprm-recipe-container a.wprm-recipe-print:hover { color: #828282; } html body .wprm-recipe-container .wprm-recipe { background-color: #ffffff; } html body .wprm-recipe-container .wprm-recipe { border-color: #dbdbdb; } html body .wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-time-container { border-color: #dbdbdb; } html body .wprm-recipe-container .wprm-recipe .wprm-color-border { border-color: #dbdbdb; } html body .wprm-recipe-container a { color: #f69a3b; } html body .wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-name { color: #000000; } html body .wprm-recipe-container .wprm-recipe-tastefully-simple .wprm-recipe-header { color: #000000; } html body .wprm-recipe-container h1 { color: #000000; } html body .wprm-recipe-container h2 { color: #000000; } html body .wprm-recipe-container h3 { color: #000000; } html body .wprm-recipe-container h4 { color: #000000; } html body .wprm-recipe-container h5 { color: #000000; } html body .wprm-recipe-container h6 { color: #000000; } html body .wprm-recipe-container svg path { fill: #343434; } html body .wprm-recipe-container svg rect { fill: #343434; } html body .wprm-recipe-container svg polygon { stroke: #343434; } html body .wprm-recipe-container .wprm-rating-star-full svg polygon { fill: #343434; } html body .wprm-recipe-container .wprm-recipe .wprm-color-accent { background-color: #f69a3b; } html body .wprm-recipe-container .wprm-recipe .wprm-color-accent { color: #ffffff; } html body .wprm-recipe-container .wprm-recipe .wprm-color-accent a.wprm-recipe-print { color: #ffffff; } html body .wprm-recipe-container .wprm-recipe .wprm-color-accent a.wprm-recipe-print:hover { color: #ffffff; } html body .wprm-recipe-container .wprm-recipe-colorful .wprm-recipe-header { background-color: #f69a3b; } html body .wprm-recipe-container .wprm-recipe-colorful .wprm-recipe-header { color: #ffffff; } html body .wprm-recipe-container .wprm-recipe-colorful .wprm-recipe-meta > div { background-color: #3498db; } html body .wprm-recipe-container .wprm-recipe-colorful .wprm-recipe-meta > div { color: #353535; } html body .wprm-recipe-container .wprm-recipe-colorful .wprm-recipe-meta > div a.wprm-recipe-print { color: #353535; } html body .wprm-recipe-container .wprm-recipe-colorful .wprm-recipe-meta > div a.wprm-recipe-print:hover { color: #353535; } .wprm-rating-star svg polygon { stroke: #343434; } .wprm-rating-star.wprm-rating-star-full svg polygon { fill: #343434; } html body .wprm-recipe-container .wprm-recipe-instruction-image { text-align: left; } html body .wprm-recipe-container li.wprm-recipe-ingredient { list-style-type: disc; } html body .wprm-recipe-container li.wprm-recipe-instruction { list-style-type: decimal; } .tippy-box[data-theme~="wprm"] { background-color: #333333; color: #FFFFFF; } .tippy-box[data-theme~="wprm"][data-placement^="top"] > .tippy-arrow::before { border-top-color: #333333; } .tippy-box[data-theme~="wprm"][data-placement^="bottom"] > .tippy-arrow::before { border-bottom-color: #333333; } .tippy-box[data-theme~="wprm"][data-placement^="left"] > .tippy-arrow::before { border-left-color: #333333; } .tippy-box[data-theme~="wprm"][data-placement^="right"] > .tippy-arrow::before { border-right-color: #333333; } .tippy-box[data-theme~="wprm"] a { color: #FFFFFF; } .wprm-comment-rating svg { width: 18px !important; height: 18px !important; } img.wprm-comment-rating { width: 90px !important; height: 18px !important; } body { --comment-rating-star-color: #f69a3b; } body { --wprm-popup-font-size: 16px; } body { --wprm-popup-background: #ffffff; } body { --wprm-popup-title: #000000; } body { --wprm-popup-content: #444444; } body { --wprm-popup-button-background: #444444; } body { --wprm-popup-button-text: #ffffff; }</style><style type="text/css">.wprm-glossary-term {color: #5A822B;text-decoration: underline;cursor: help;}</style><script type="text/javascript">
+var ajaxurl = 'https://demandafrica.com/wp-admin/admin-ajax.php';
+</script>
+<meta name="facebook-domain-verification" content="t0f2ntlbq5vxzlu7lbe4fxzhxzswy3" /><meta name="generator" content="Powered by Slider Revolution 6.6.5 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<link rel="icon" href="https://demandafrica.com/wp-content/uploads/2017/10/cropped-demandAfricalogo_Vert_D_trans_300dpi-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://demandafrica.com/wp-content/uploads/2017/10/cropped-demandAfricalogo_Vert_D_trans_300dpi-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://demandafrica.com/wp-content/uploads/2017/10/cropped-demandAfricalogo_Vert_D_trans_300dpi-180x180.png" />
+<meta name="msapplication-TileImage" content="https://demandafrica.com/wp-content/uploads/2017/10/cropped-demandAfricalogo_Vert_D_trans_300dpi-270x270.png" />
+<script>function setREVStartSize(e){
+//window.requestAnimationFrame(function() {
+window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
+window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;
+try {
+var pw = document.getElementById(e.c).parentNode.offsetWidth,
+newh;
+pw = pw===0 || isNaN(pw) || (e.l=="fullwidth" || e.layout=="fullwidth") ? window.RSIW : pw;
+e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);
+if(e.layout==="fullscreen" || e.l==="fullscreen")
+newh = Math.max(e.mh,window.RSIH);
+else{
+e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];
+e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+var nl = new Array(e.rl.length),
+ix = 0,
+sl;
+e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;
+for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+sl = nl[0];
+for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}
+var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);
+newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+}
+var el = document.getElementById(e.c);
+if (el!==null && el) el.style.height = newh+"px";
+el = document.getElementById(e.c+"_wrapper");
+if (el!==null && el) {
+el.style.height = newh+"px";
+el.style.display = "block";
+}
+} catch(e){
+console.log("Failure at Presize of Slider:" + e)
+}
+//});
+};</script>
+<style type="text/css" id="wp-custom-css">
+.search-container-inner i.fa {
+top: 2.2em;
+}
+.overlay-search .search-container-inner i.fa {
+top: 1.4em;
+}
+.demand-subscribe-form {
+max-height: 64px;
+}
+.disable-hover .page-wrapper *{
+pointer-events:auto !important;
+}
+@media only screen and (max-width: 767px) {
+.social-icon.icon-box.icon-box-top.icon-inline {
+display: inline;
+padding: 10px;
+}
+.demand-white-footer {
+padding-bottom: 5px;
+}
+footer .footer-last .uncell, footer .footer-last {
+padding: 0px;
+margin-bottom: 0px;
+}
+.footer-last .row {
+padding: 15px !important;
+}
+}
+.grecaptcha-badge { visibility: hidden; }
+.forminator-orange {
+background-color: #fcb128 !important;
+}
+.xtraSmallText {
+font-size: xx-small !important;
+}		</style>
+<style type="text/css" data-type="vc_custom-css">/********************
+HEADER ESSENTIALS
+*********************/
+#masthead .menu-container {
+background-color: transparent  !important;
+}
+#masthead .menu-container a {
+color: #fff !important;
+}
+#masthead .menu-container .drop-menu a {
+color: #fff !important;
+}
+.navbar-brand .logo-image.logo-dark {
+display: block !important;
+}
+.navbar-brand .logo-image.logo-light {
+display: none !important;
+}
+.box-container #masthead.is_stuck > .menu-container {
+background: rgba(0,0,0,0.8) !important;
+}
+.box-container > .menu-wrapper {
+position: absolute;
+top: 0px;
+background: none !important;
+z-index: 100;
+}
+.box-container > .menu-wrapper.menu-sticky.with-header {
+position: absolute;
+top: 97px;
+background: none !important;
+background-color: rgba(0,0,0,0)  !important;
+}
+.box-container > #masthead > .menu-container {
+top: 90px;
+background: none;
+}
+/*********************
+PAGE STYLE
+*********************/
+.demand-single-related-posts .t-entry-title a {
+font-size: 22px;
+}
+.demand-single-related-posts .t-entry-text {
+position: absolute;
+bottom: 0;
+width: 100%;
+z-index: 20;
+padding: 36px 36px;
+overflow: hidden;
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 100%);
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 100%);
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 100%);
+}
+.demand-single-related-posts .t-entry-text * {
+color: white !important;
+text-shadow: 0 1px 1px rgba(0,0,0,0.8);
+}
+.demand-single-related-posts .t-entry-title a {
+color: white !important;
+font-size: 24px;
+font-family: 'montserrat', sans-serif;
+}
+.demand-single-related-posts .t-entry-meta {
+transform: none !important;
+}
+.demand-single-related-posts .t-entry-type span,
+.demand-single-related-posts .t-entry-category a,
+.demand-single-related-posts .t-entry-category i{
+color: orange !important;
+font-size: 18px;
+font-weight: bold;
+pointer-events: none;
+}
+.demand-single-related-posts .tmb-no-bg.tmb > .t-inside {
+background: #eee !important;
+}
+.demand-single-related-posts .tmb .t-entry-text .t-entry-text-tc .t-entry-title {
+transform: none !important;
+}
+/*custom here */
+.demand-subscribe-section {
+background-color: transparent;
+}
+.demand-quad-section.recipe-mode > .row {
+padding: 36px !important;
+max-width: 1600px;
+margin: auto;
+}
+.demand-quad-section.recipe-mode .row-inner > .column_parent {
+padding-right: 1px;
+}
+.no-padding-bottom > .row {
+padding-bottom: 0px !important;
+position: relative;
+top: 6px;
+}
+.new-on-demand p {
+font-size: 13px !important;
+line-height: 1.3 !important;
+}
+.new-on-demand .tmb .t-entry .t-entry-title {
+color: orange !important;
+line-height: 1.3 !important;
+}
+/*********************
+RESPONSIVE
+*********************/
+/* Portrait tablet to landscape and desktop to 1600px */
+@media all and (max-width: 1600px) {
+}
+/* Portrait tablet to landscape and desktop to 1200px */
+@media all and (max-width: 1200px) {
+}
+/* Portrait tablet to landscape and desktop to 960px */
+@media all and (max-width: 960px) {
+.mobile-menu-button-dark .lines, .mobile-menu-button-dark .lines::before,
+.mobile-menu-button-dark .lines::after {
+background: #000;
+}
+#masthead .menu-container .menu-primary-inner a {
+color: #fff !important;
+}
+.demand-shows-section-rows .column_child.col-lg-3 {
+width: 50%;
+}
+.demand-quad-section.recipe-mode > .row {
+max-width: 1200px;
+margin: auto;
+}
+}
+/* Tablets phones and down upto 768px */
+@media all and (max-width: 768px) {
+#masthead .menu-container {
+background: #1B1D1F !important;
+}
+.mobile-menu-button-dark .lines, .mobile-menu-button-dark .lines::before,
+.mobile-menu-button-dark .lines::after {
+background: #fff !important;
+}
+.demand-sample-slider {
+padding-top: 80px !important;
+}
+}
+/* Landscape phones and down upto 480px */
+@media all and (max-width: 480px) {
+.demand-shows-section-rows .column_child.col-lg-3 {
+width: 100%;
+}
+}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><style type="text/css">/** Mega Menu CSS: fs **/</style>
+</head>
+<body class="home page-template-default page page-id-2  style-color-lxmt-bg group-blog hormenu-position-left hmenu hmenu-position-left header-full-width main-center-align mobile-parallax-not-allowed ilb-no-bounce unreg qw-body-scroll-disabled wpb-js-composer js-comp-ver-6.9.0 vc_responsive aa-prefix-deman-" data-border="0">
+<div id="vh_layout_help"></div><div class="body-borders" data-border="0"><div class="top-border body-border-shadow"></div><div class="right-border body-border-shadow"></div><div class="bottom-border body-border-shadow"></div><div class="left-border body-border-shadow"></div><div class="top-border style-light-bg"></div><div class="right-border style-light-bg"></div><div class="bottom-border style-light-bg"></div><div class="left-border style-light-bg"></div></div>	<div class="box-wrapper">
+<div class="box-container">
+<script type="text/javascript" id="initBox">UNCODE.initBox();</script>
+<div class="menu-wrapper menu-hide-only">
+<header id="masthead" class="navbar menu-primary menu-dark submenu-dark style-dark-original menu-with-logo">
+<div class="menu-container menu-hide style-color-wayh-bg menu-no-borders">
+<div class="row-menu limit-width">
+<div class="row-menu-inner">
+<div id="logo-container-mobile" class="col-lg-0 logo-container middle">
+<div id="main-logo" class="navbar-header style-dark">
+<a href="https://demandafrica.com/" class="navbar-brand" data-minheight="20"><div class="logo-image main-logo  logo-light" data-maxheight="50" style="height: 50px;display:none;"><img fetchpriority="high" decoding="async" src="https://demandafrica.com/wp-content/uploads/2024/05/DA_byTAC_stackedtext_glowv05-dark-1.png" alt="logo" width="563" height="100" class="img-responsive" /></div><div class="logo-image main-logo  logo-dark" data-maxheight="50" style="height: 50px;"><img decoding="async" src="https://demandafrica.com/wp-content/uploads/2023/06/DA_byTAC_stackedtext_glowv05.png" alt="logo" width="563" height="100" class="img-responsive" /></div></a>
+</div>
+<div class="mmb-container"><div class="mobile-additional-icons"></div><div class="mobile-menu-button mobile-menu-button-dark lines-button"><span class="lines"><span></span></span></div></div>
+</div>
+<div class="col-lg-12 main-menu-container middle">
+<div class="menu-horizontal">
+<div class="menu-horizontal-inner">
+<div class="nav navbar-nav navbar-main navbar-nav-first"><ul id="menu-demand-africa-content" class="menu-primary-inner menu-smart sm"><li id="menu-item-55303" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-55303 dropdown menu-item-link"><a title="WATCH TV &amp; MOVIES" href="https://watch.demandafrica.com" data-toggle="dropdown" class="dropdown-toggle" data-type="title">WATCH TV &#038; MOVIES<i class="fa fa-angle-down fa-dropdown"></i></a>
+<ul role="menu" class="drop-menu">
+<li id="menu-item-55302" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-55302"><a title="STREAM ONLINE" href="https://watch.demandafrica.com">STREAM ONLINE<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+<li id="menu-item-55304" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-55304"><a title="GET THE APP" href="https://demandafrica.com/get-the-app/">GET THE APP<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+<li id="menu-item-55305" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-55305"><a title="SUPPORTED PLATFORMS" href="https://demandafrica.com/demand-africa-supported-platforms/">SUPPORTED PLATFORMS<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+</ul>
+</li>
+<li id="menu-item-57807" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-57807 dropdown menu-item-link"><a title="FOOD" href="https://demandafrica.com/discover-african-food/" data-toggle="dropdown" class="dropdown-toggle" data-type="title">FOOD<i class="fa fa-angle-down fa-dropdown"></i></a>
+<ul role="menu" class="drop-menu">
+<li id="menu-item-57808" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57808"><a title="FOOD BLOG" href="https://demandafrica.com/discover-african-food/">FOOD BLOG<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+<li id="menu-item-61190" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-61190"><a title="OUR AFRICAN RECIPES" href="https://demandafrica.com/category/food/recipes/">OUR AFRICAN RECIPES<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+<li id="menu-item-56290" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56290"><a title="SUBMIT YOUR RECIPE" href="https://demandafrica.com/submit-your-recipe/">SUBMIT YOUR RECIPE<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+<li id="menu-item-56289" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56289"><a title="FIND AFRICAN RESTAURANTS" href="https://demandafrica.com/find-african-restaurants/">FIND AFRICAN RESTAURANTS<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+</ul>
+</li>
+<li id="menu-item-57832" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57832 menu-item-link"><a title="TRAVEL" href="https://demandafrica.com/discover-african-travel/">TRAVEL<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+<li id="menu-item-57818" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57818 menu-item-link"><a title="ENTERTAINMENT" href="https://demandafrica.com/discover-african-entertainment/">ENTERTAINMENT<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+<li id="menu-item-57794" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57794 menu-item-link"><a title="STYLE" href="https://demandafrica.com/discover-african-style/">STYLE<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+<li id="menu-item-69192" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-69192 dropdown menu-item-link"><a title="SUPPORT" href="#" data-toggle="dropdown" class="dropdown-toggle" data-type="title">SUPPORT<i class="fa fa-angle-down fa-dropdown"></i></a>
+<ul role="menu" class="drop-menu">
+<li id="menu-item-67539" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67539"><a title="FAQs" href="https://demandafrica.com/faqs/">FAQs<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+<li id="menu-item-69193" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69193"><a title="CONTACT US" href="https://demandafrica.com/contact-demand-africa/">CONTACT US<i class="fa fa-angle-right fa-dropdown"></i></a></li>
+</ul>
+</li>
+<div class="header-btns" style="display:none;"><span style="display:none;"> <a href="https://www.demandafrica.com/sign-up/" class="btn btn-login-custom">LOGIN</a> </span><span> <a href="https://watch.demandafrica.com/" class="btn btn-play-custom"><span class="upper">Stream TV &amp; Movies</span><span class="lower">Start your <strong>FREE</strong> trial now</span><i class="fa fa-play"></i><span class="resp">Stream </span></a> </span></div></ul></div><div class="nav navbar-nav navbar-nav-last"><ul class="menu-smart sm menu-icons menu-smart-social"><li class="menu-item-link search-icon style-dark dropdown "><a href="#" class="trigger-overlay search-icon" data-area="search" data-container="box-container">
+<i class="fa fa-search3"></i><span class="desktop-hidden"><span>Search</span></span><i class="fa fa-angle-down fa-dropdown desktop-hidden"></i>
+</a><ul role="menu" class="drop-menu desktop-hidden">
+<li>
+<form class="search ccc" method="get" action="https://demandafrica.com/">
+<input type="search" class="search-field no-livesearch" placeholder="Search…" value="" name="s" title="Search…" /></form>
+</li>
+</ul></li></ul></div></div>
+</div>
+</div>
+</div>
+</div></div>
+</header>
+</div>			    <button class="custom-login-button" style="display: none;" 
+data-cleeng-trigger
+data-action="checkout"
+data-display-type="overlay"
+data-offer-id="S238864628_US"
+data-completed-callback="cleengCallbackHandler(result)">
+Buy now $6.99/monthly
+</button>
+<script>
+jQuery( document ).ready(function() {
+jQuery('.btn-login-custom').click(function() {
+jQuery( ".custom-login-button" ).trigger( "click" );
+});
+jQuery( ".header-btns" ).insertAfter( ".menu-horizontal-inner" );
+jQuery( ".header-btns" ).css("display", "block");
+});
+</script>
+<script>
+/*function cleengCallbackHandler(result) {
+if (result.accessGranted == true) {
+window.location.reload('https://watch.demandafrica.com');
+}
+}*/
+</script>
+<!-- code moved to partials/menus.php line: 484 -->
+<style>
+body.hmenu-position-center .main-menu-container .header-btns {
+display: block;
+}
+body.hmenu-position-center .main-menu-container .navbar-nav-last {
+min-width: 360px;
+}
+.menu-horizontal {
+position: unset;
+}
+</style>
+<!--<script type="text/javascript" id="fixMenuHeight">UNCODE.fixMenuHeight();</script>-->
+<div class="main-wrapper">
+<div class="main-container">
+<div class="page-wrapper">
+<div class="sections-container">
+<script type="text/javascript">UNCODE.initHeader();</script><article id="post-2" class="page-body style-light-bg post-2 page type-page status-publish hentry">
+<div class="post-wrapper">
+<div class="post-body"><div class="post-content un-no-sidebar-layout"><div data-parent="true" class="vc_row demand-sample-slider vc_custom_1495584677155 row-container" style="margin-bottom: 0px ;border-bottom-width: 0px ;padding-bottom: 0px ;" id="row-unique-0"><div class="row single-top-padding single-bottom-padding single-h-padding limit-width row-parent"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_left column_parent col-lg-12 single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont">
+<!-- START Homepage 3.0 REVOLUTION SLIDER 6.6.5 --><p class="rs-p-wp-fix"></p>
+<rs-module-wrap id="rev_slider_14_1_wrapper" data-source="gallery" style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+<rs-module id="rev_slider_14_1" style="" data-version="6.6.5">
+<rs-slides style="overflow: hidden; position: absolute;">
+<rs-slide style="position: absolute;" data-key="rs-42" data-title="Slide" data-thumb="//demandafrica.com/wp-content/uploads/2020/11/Demand-Africa-Show-wall-55-100x50.jpg" data-anim="ms:600;" data-in="o:0;" data-out="a:false;">
+<img decoding="async" src="//demandafrica.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="Demand Africa Show wall 55" title="Demand Africa Show wall 55" width="1562" height="876" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//demandafrica.com/wp-content/uploads/2020/11/Demand-Africa-Show-wall-55.jpg" data-no-retina>
+<!--
+--><rs-layer
+id="slider-14-slide-42-layer-4" 
+data-type="text"
+data-color="rgba(255, 255, 255, 1)"
+data-rsp_ch="on"
+data-xy="x:c;xo:0,0,0,-17px;y:b;yo:73px,73px,1px,17px;"
+data-text="w:normal;s:20,20,20,16;l:47,47,47,23;a:center,center,left,left;"
+data-dim="w:839px,839px,630px,414px;h:auto,auto,95px,45px;"
+data-frame_1="e:power2.inOut;sp:310;sR:10;"
+data-frame_999="o:0;e:nothing;st:w;sR:8680;"
+style="z-index:8;font-family:'Roboto';"
+><center>Available on web, mobile-web, iOS, Android, Roku, Apple TV, Android TV, and Amazon Fire TV. </center>
+<bold>Brought to you by The Africa Channel, Inc. </bold> 
+</rs-layer><!--
+--><rs-layer
+id="slider-14-slide-42-layer-17" 
+class="rev-btn rev-hiddenicon"
+data-type="button"
+data-xy="x:c;xo:0,0,12px,-20px;y:m;yo:55px,38px,-85px,70px;"
+data-text="s:23,22,22,22;l:17;fw:500;a:inherit;"
+data-dim="w:344px,auto,auto,auto;"
+data-actions='o:click;a:simplelink;target:_self;url:https://watch.demandafrica.com;'
+data-rsp_bd="off"
+data-padding="t:12;r:35;b:12;l:35;"
+data-border="bos:solid;boc:#ffffff;bow:3px,3px,3px,3px;bor:30px,30px,30px,30px;"
+data-frame_1="sR:10;"
+data-frame_999="o:0;st:w;sR:8690;"
+data-frame_hover="c:#000;bgc:#fff;boc:#000;bor:30px,30px,30px,30px;bos:solid;bow:0,0,0,0;oX:50;oY:50;sp:0;e:none;"
+style="z-index:10;background-color:rgba(0,0,0,0);font-family:'Montserrat';cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;"
+>Watch <strong>FREE</strong> for 7 Days!<i class="fa-chevron-right"></i> 
+</rs-layer><!--
+--><rs-layer
+id="slider-14-slide-42-layer-18" 
+data-type="text"
+data-rsp_ch="on"
+data-xy="x:l,l,l,c;xo:816px,538px,395px,-20px;y:m,m,m,t;yo:4px,-35px,-169px,335px;"
+data-text="s:60,42,40,41;l:22,22,22,22;fw:900,900,900,700;a:inherit;"
+data-dim="w:407px,auto,auto,auto;h:91px,auto,auto,auto;"
+data-layeronlimit="on"
+data-frame_1="sR:10;"
+data-frame_999="o:0;st:w;sR:8690;"
+style="z-index:11;font-family:'Montserrat';"
+>NOW STREAMING 
+</rs-layer><!--
+--><rs-layer
+id="slider-14-slide-42-layer-19" 
+class="montserrat"
+data-type="text"
+data-color="#f69a3b"
+data-rsp_ch="on"
+data-xy="x:l,l,l,c;xo:224px,133px,13px,-25px;y:m;yo:-27px,-34px,-168px,-62px;"
+data-text="s:60,42,40,46;l:70,70,70,48;fw:900,900,900,700;"
+data-dim="w:390px,389px,382px,auto;h:72px,72px,72px,auto;"
+data-frame_1="e:power2.inOut;sp:310;sR:10;"
+data-frame_999="o:0;e:nothing;st:w;sR:8680;"
+style="z-index:12;font-family:'Montserrat';"
+>DEMAND AFRICA  
+</rs-layer><!--
+-->						</rs-slide>
+<rs-slide style="position: absolute;" data-key="rs-47" data-title="Slide" data-thumb="//demandafrica.com/wp-content/uploads/2017/05/Discover-Food-header-light-100x50.jpg" data-anim="adpr:false;">
+<img decoding="async" src="//demandafrica.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" title="Demand Africa" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//demandafrica.com/wp-content/uploads/2017/05/Discover-Food-header-light.jpg" data-no-retina>
+<!--
+--><rs-layer
+id="slider-14-slide-47-layer-3" 
+class="montserratt"
+data-type="text"
+data-color="#f69a3b"
+data-rsp_ch="on"
+data-xy="xo:57px,57px,57px,29px;yo:261px;"
+data-text="s:60;l:70;fw:700;"
+data-frame_0="tp:600;"
+data-frame_1="tp:600;e:power2.inOut;st:500.00030517578;sp:310;sR:500.00030517578;"
+data-frame_999="o:0;tp:600;e:nothing;st:w;sp:310;sR:8190;"
+style="z-index:5;font-family:'';"
+>Demand Food 
+</rs-layer><!--
+--><rs-layer
+id="slider-14-slide-47-layer-4" 
+data-type="text"
+data-color="rgba(255, 255, 255, 1)"
+data-rsp_ch="on"
+data-xy="xo:59px,59px,59px,28px;yo:348px,348px,348px,343px;"
+data-text="w:normal;s:40,40,40,28;l:47;"
+data-dim="w:590px,590px,590px,434px;"
+data-frame_0="tp:600;"
+data-frame_1="tp:600;e:power2.inOut;st:500.00030517578;sp:310;sR:500.00030517578;"
+data-frame_999="o:0;tp:600;e:nothing;st:w;sp:310;sR:8190;"
+style="z-index:6;font-family:'';"
+>African and Caribbean inspired recipes, restaurants, and chefs.  
+</rs-layer><!--
+--><rs-layer
+id="slider-14-slide-47-layer-12" 
+class="rev-btn rev-hiddenicon"
+data-type="button"
+data-color="rgba(255,255,255,1)"
+data-xy="xo:57px,57px,57px,79px;yo:470px,470px,470px,468px;"
+data-text="s:17;l:17;fw:700;a:inherit;"
+data-actions='o:click;a:simplelink;target:_self;url:https://demandafrica.com/discover-african-food/;'
+data-rsp_bd="off"
+data-padding="t:12;r:35;b:12;l:35;"
+data-border="bor:30px,30px,30px,30px;"
+data-frame_0="tp:600;"
+data-frame_1="tp:600;sp:310;sR:10;"
+data-frame_999="o:0;tp:600;st:w;sp:310;sR:8680.0003051758;"
+data-frame_hover="c:#000;bgc:#fff;boc:#000;bor:30px,30px,30px,30px;bos:solid;oX:50;oY:50;sp:0;e:none;"
+style="z-index:7;background-color:#f69a3b;font-family:'Montserrat';cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;"
+>Discover Food <i class="fa-chevron-right"></i> 
+</rs-layer><!--
+-->						</rs-slide>
+<rs-slide style="position: absolute;" data-key="rs-43" data-title="Slide" data-thumb="//demandafrica.com/wp-content/uploads/2017/07/Ebook-Download-web-100x50.jpg" data-anim="adpr:false;">
+<img decoding="async" src="//demandafrica.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" title="Demand Africa" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//demandafrica.com/wp-content/uploads/2017/07/Ebook-Download-web.jpg" data-no-retina>
+<!--
+--><rs-layer
+id="slider-14-slide-43-layer-3" 
+class="montserratt"
+data-type="text"
+data-color="#f69a3b"
+data-rsp_ch="on"
+data-xy="xo:57px,57px,57px,29px;yo:261px;"
+data-text="s:60,60,60,49;l:70;fw:700;"
+data-frame_0="tp:600;"
+data-frame_1="tp:600;e:power2.inOut;st:500;sp:310;sR:500;"
+data-frame_999="o:0;tp:600;e:nothing;st:w;sp:310;sR:8190;"
+style="z-index:5;font-family:'';"
+>FREE e-Cookbook 
+</rs-layer><!--
+--><rs-layer
+id="slider-14-slide-43-layer-4" 
+data-type="text"
+data-color="rgba(255, 255, 255, 1)"
+data-rsp_ch="on"
+data-xy="xo:59px,59px,59px,28px;yo:348px,348px,348px,343px;"
+data-text="w:normal;s:40,40,40,28;l:47;"
+data-dim="w:590px,590px,590px,434px;"
+data-frame_0="tp:600;"
+data-frame_1="tp:600;e:power2.inOut;st:500;sp:310;sR:500;"
+data-frame_999="o:0;tp:600;e:nothing;st:w;sp:310;sR:8190;"
+style="z-index:6;font-family:'';"
+>Download 25 free African and Caribbean inspired recipes. 
+</rs-layer><!--
+--><rs-layer
+id="slider-14-slide-43-layer-12" 
+class="rev-btn rev-hiddenicon"
+data-type="button"
+data-color="rgba(255,255,255,1)"
+data-xy="xo:57px,57px,57px,113px;yo:470px,470px,470px,456px;"
+data-text="s:17;l:17;fw:700;a:inherit;"
+data-actions='o:click;a:simplelink;target:_self;url:https://demandafrica.com/25-free-african-recipes/;'
+data-rsp_bd="off"
+data-padding="t:12;r:35;b:12;l:35;"
+data-border="bor:30px,30px,30px,30px;"
+data-frame_0="tp:600;"
+data-frame_1="tp:600;st:130;sp:310;sR:130;"
+data-frame_999="o:0;tp:600;st:w;sp:310;sR:8560;"
+data-frame_hover="c:#000;bgc:#fff;boc:#000;bor:30px,30px,30px,30px;bos:solid;oX:50;oY:50;sp:0;e:none;"
+style="z-index:7;background-color:#f69a3b;font-family:'Montserrat';cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;"
+>Download<i class="fa-chevron-right"></i> 
+</rs-layer><!--
+-->						</rs-slide>
+</rs-slides>
+</rs-module>
+<script>
+setREVStartSize({c: 'rev_slider_14_1',rl:[1240,1024,778,480],el:[800,768,960,720],gw:[1600,1024,778,480],gh:[800,768,960,720],type:'standard',justify:'',layout:'fullwidth',mh:"0"});if (window.RS_MODULES!==undefined && window.RS_MODULES.modules!==undefined && window.RS_MODULES.modules["revslider141"]!==undefined) {window.RS_MODULES.modules["revslider141"].once = false;window.revapi14 = undefined;if (window.RS_MODULES.checkMinimal!==undefined) window.RS_MODULES.checkMinimal()}
+</script>
+</rs-module-wrap>
+<!-- END REVOLUTION SLIDER -->
+</div></div></div></div></div><script id="script-row-unique-0" data-row="script-row-unique-0" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("row-unique-0"));</script></div></div></div><div data-parent="true" class="vc_row watch-jumbo-section style-color-lxmt-bg row-container desktop-hidden tablet-hidden mobile-hidden" id="row-unique-1"><div class="row-background background-element">
+<div class="background-wrapper">
+<div class="background-inner" style="background-image: url(https://demandafrica.com/wp-content/uploads/2016/09/Platforms_2.png);background-repeat: no-repeat;background-position: right bottom;background-attachment: scroll;background-size: contain;"></div>
+</div>
+</div><div class="row limit-width row-parent"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_left column_parent col-lg-12 single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="vc_row row-internal row-container"><div class="row row-child"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_left column_child col-lg-6 single-internal-gutter"><div class="uncol style-light" ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="vc_custom_heading_wrap "><div class="heading-text el-text" ><h1><strong>Watch Demand Africa now <span class="breaker" style="color: black;">your way!</span></strong></h1>
+</div><div class="clear"></div></div><div class="uncode_text_column" ><p>Streaming TV, movies and entertainment. Designed for you.</p>
+</div>
+<div class="wpb_raw_code wpb_content_element wpb_raw_html" >
+<div class="wpb_wrapper">
+<div class="white-box">
+<h4> Watch on </h4>
+<img decoding="async" src="http://www.demandafrica.com/wp-content/uploads/2016/09/Demand-africa-roku-logo.png" alt="roku">
+<a class="btn" href="#"> Watch on </a>
+</div>
+<div class="white-box">
+<h4> Watch on </h4>
+<img decoding="async" src="http://www.demandafrica.com/wp-content/uploads/2016/09/Demand-africa-xumo-logo.png" alt="xumo">
+<a class="btn" href="#"> Watch on </a>
+</div>
+</div>
+</div>
+</div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_child col-lg-6 section-jumbo-img single-internal-gutter"><div class="uncol style-light unexpand" ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"></div></div></div></div></div></div></div></div></div></div></div></div></div><script id="script-row-unique-1" data-row="script-row-unique-1" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("row-unique-1"));</script></div></div></div><div data-parent="true" class="vc_row demand-shows-section row-container" id="row-unique-2"><div class="row limit-width row-parent"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_left column_parent col-lg-12 single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="vc_row new-on-demand row-internal row-container"><div class="row row-child"><div class="wpb_row row-inner row-inner-force"><div class="wpb_column pos-top pos-center align_left column_child col-lg-12 single-internal-gutter"><div class="uncol style-light" ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode_text_column sectionx-title" ><h2 class="pull-left">Demand Shows. <strong>Now Streaming.</strong></h2>
+<h4 class="pull-right"><a href="https://watch.demandafrica.com/series/">See All Shows <i class="fa fa-arrow-right"></i></a></h4>
+</div><div id="gallery-675505" class="isotope-system isotope-general-light grid-general-light">
+<div class="isotope-wrapper grid-wrapper no-gutter">
+<div class="isotope-container isotope-layout style-metro" data-type="metro" data-layout="masonry" data-lg="1000" data-md="600" data-sm="480">
+<div class="tmb tmb-iso-w4 tmb-iso-h2 tmb-light tmb-overlay-text-anim tmb-overlay-anim tmb-overlay-middle tmb-overlay-text-left tmb-text-space-reduced tmb-image-anim tmb-id-64490  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg" ><div class="t-inside animate_when_almost_visible zoom-in" data-delay="200"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><a tabindex="-1" href="https://watch.demandafrica.com/series/Battleground" target="_blank" data-lb-index="0"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-dark-bg" style="opacity: 0.5;"></div></div><div class="t-overlay-wrap"><div class="t-overlay-inner">
+<div class="t-overlay-content">
+<div class="t-overlay-text single-block-padding"><div class="t-entry"><h3 class="t-entry-title h4 title-scale">Battleground</h3><p class="t-entry-meta"><span>The Bhadmus family's love is put to the test when an unfortunate tragedy leads to shocking secrets being exposed and power struggles within their ranks. From infidelity to crooked business deals and constant media scrutiny, the drama never stops!</span></p></div></div></div></div></div><div class="t-background-cover" style="background-image:url('https://demandafrica.com/wp-content/uploads/2019/05/Battleground-Hero-1920x1080-uai-1920x960.jpg')"></div></a></div>
+</div>
+</div></div></div><div class="tmb tmb-iso-w4 tmb-iso-h4 tmb-light tmb-overlay-text-anim tmb-overlay-anim tmb-overlay-middle tmb-overlay-text-left tmb-text-space-reduced tmb-image-anim tmb-id-64494  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg" ><div class="t-inside animate_when_almost_visible zoom-in" data-delay="200"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><a tabindex="-1" href="https://watch.demandafrica.com/series/xtreme+outdoors+africa" target="_blank" data-lb-index="1"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-dark-bg" style="opacity: 0.5;"></div></div><div class="t-overlay-wrap"><div class="t-overlay-inner">
+<div class="t-overlay-content">
+<div class="t-overlay-text single-block-padding"><div class="t-entry"><h3 class="t-entry-title h4 title-scale">Xtreme Outdoors Africa</h3><p class="t-entry-meta"><span>Follow hosts and extreme adventure enthusiasts, Benni and Michelle as they journey outside their comfort zones and push their physical and mental limits to bring us a wild new perspective on Africa.</span></p></div></div></div></div></div><div class="t-background-cover" style="background-image:url('https://demandafrica.com/wp-content/uploads/2019/05/Xtreme-Outdoors-Africa-Hero-1920x1080-2-uai-1080x1080.jpg')"></div></a></div>
+</div>
+</div></div></div><div class="tmb tmb-iso-w4 tmb-iso-h2 tmb-light tmb-overlay-text-anim tmb-overlay-anim tmb-overlay-middle tmb-overlay-text-left tmb-text-space-reduced tmb-image-anim tmb-id-64492  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg" ><div class="t-inside animate_when_almost_visible zoom-in" data-delay="200"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><a tabindex="-1" href="https://watch.demandafrica.com/series/jacob%27s+cross" target="_blank" data-lb-index="2"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-dark-bg" style="opacity: 0.5;"></div></div><div class="t-overlay-wrap"><div class="t-overlay-inner">
+<div class="t-overlay-content">
+<div class="t-overlay-text single-block-padding"><div class="t-entry"><h3 class="t-entry-title h4 title-scale">Jacob's Cross</h3><p class="t-entry-meta"><span>Jacob’s Cross is an epic story centered on one man’s quest to build the next great South African empire. Set against the backdrop of powerful oil magnates battling for Africa’s rich off-shore oil resources.</span></p></div></div></div></div></div><div class="t-background-cover" style="background-image:url('https://demandafrica.com/wp-content/uploads/2019/05/Jacobs-Cross-Hero-1920x1080-uai-1920x960.jpg')"></div></a></div>
+</div>
+</div></div></div><div class="tmb tmb-iso-w4 tmb-iso-h4 tmb-light tmb-overlay-text-anim tmb-overlay-anim tmb-overlay-middle tmb-overlay-text-left tmb-text-space-reduced tmb-image-anim tmb-id-64491  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg" ><div class="t-inside animate_when_almost_visible zoom-in" data-delay="200"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><a tabindex="-1" href="https://watch.demandafrica.com/series/cooking+with+siba" target="_blank" data-lb-index="3"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-dark-bg" style="opacity: 0.5;"></div></div><div class="t-overlay-wrap"><div class="t-overlay-inner">
+<div class="t-overlay-content">
+<div class="t-overlay-text single-block-padding"><div class="t-entry"><h3 class="t-entry-title h4 title-scale">Cooking with Siba</h3><p class="t-entry-meta"><span>Siba Mtongana is a South African celebrity chef known for her spunky style and creative cooking. In Cooking with Siba, she shares her best kept secrets and offers invaluable tips on how to create healthier takes on favorite recipes.</span></p></div></div></div></div></div><div class="t-background-cover" style="background-image:url('https://demandafrica.com/wp-content/uploads/2019/05/Cooking-with-Siba-Hero-1920x1080-uai-1080x1080.jpg')"></div></a></div>
+</div>
+</div></div></div><div class="tmb tmb-iso-w4 tmb-iso-h4 tmb-light tmb-overlay-text-anim tmb-overlay-anim tmb-overlay-middle tmb-overlay-text-left tmb-text-space-reduced tmb-image-anim tmb-id-56275  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg" ><div class="t-inside animate_when_almost_visible zoom-in" data-delay="200"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><a tabindex="-1" href="https://watch.demandafrica.com/watch/36263484" target="_blank" data-lb-index="4"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-dark-bg" style="opacity: 0.5;"></div></div><div class="t-overlay-wrap"><div class="t-overlay-inner">
+<div class="t-overlay-content">
+<div class="t-overlay-text single-block-padding"><div class="t-entry"><h3 class="t-entry-title h4 title-scale">Flower Girl</h3><p class="t-entry-meta"><span>Kemi is dying to get married. Umar is dying to get ahead in his career. When their relationship hits troubled waters, Kemi seeks the help of movie superstar Tunde and they hatch a plan to get Kemi what she wants – but the plan doesn’t quite work out as they anticipate and soon they realize why people say love is a funny thing.</span></p></div></div></div></div></div><div class="t-background-cover" style="background-image:url('https://demandafrica.com/wp-content/uploads/2017/12/Flower-Girl-uai-750x750.jpg')"></div></a></div>
+</div>
+</div></div></div><div class="tmb tmb-iso-w4 tmb-iso-h2 tmb-light tmb-overlay-text-anim tmb-overlay-anim tmb-overlay-middle tmb-overlay-text-left tmb-text-space-reduced tmb-image-anim tmb-id-64493  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg" ><div class="t-inside animate_when_almost_visible zoom-in" data-delay="200"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><a tabindex="-1" href="https://watch.demandafrica.com/watch/36262613" target="_blank" data-lb-index="5"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-dark-bg" style="opacity: 0.5;"></div></div><div class="t-overlay-wrap"><div class="t-overlay-inner">
+<div class="t-overlay-content">
+<div class="t-overlay-text single-block-padding"><div class="t-entry"><h3 class="t-entry-title h4 title-scale">When Love Happens</h3><p class="t-entry-meta"><span>A 28 year old event planner feels the clock ticking on her chances of getting married. With a friend getting engaged and being tasked to handle the wedding, she starts online dating and a VLog of her journey. After many dates, she may finally have a real chance at love.</span></p></div></div></div></div></div><div class="t-background-cover" style="background-image:url('https://demandafrica.com/wp-content/uploads/2019/05/When-Love-Happens-Hero-1920x1080-uai-1920x960.jpg')"></div></a></div>
+</div>
+</div></div></div>						</div>
+</div>
+</div>
+</div></div></div></div></div></div></div></div></div></div></div></div></div><script id="script-row-unique-2" data-row="script-row-unique-2" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("row-unique-2"));</script></div></div></div><div data-parent="true" class="vc_row demand-subscribe-section style-color-128348-bg row-container" id="row-unique-4"><div class="row limit-width row-parent"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_left column_parent col-lg-6 single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode_text_column" ><h3>Demand Updates!</h3>
+<h4 style="color: white;">Get updates, offers and news!</h4>
+</div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-6 single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont">
+<div class="wpcf7 no-js" id="wpcf7-f49796-p2-o1" lang="en-US" dir="ltr">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="/#wpcf7-f49796-p2-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="49796" />
+<input type="hidden" name="_wpcf7_version" value="5.9.8" />
+<input type="hidden" name="_wpcf7_locale" value="en_US" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f49796-p2-o1" />
+<input type="hidden" name="_wpcf7_container_post" value="2" />
+<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+<input type="hidden" name="_wpcf7_recaptcha_response" value="" />
+</div>
+<div class="subscribe-box">
+<div class="demand-subscribe-form">
+<p><span class="wpcf7-form-control-wrap" data-name="your-email"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Enter your email" value="" type="email" name="your-email" /></span><br />
+<input class="wpcf7-form-control wpcf7-hidden" value="Orange box Demand Updates" type="hidden" name="your-signupsrc" />
+</p>
+<p><input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="Demand Updates" />
+</p>
+</div>
+</div><div class="wpcf7-response-output" aria-hidden="true"></div>
+</form>
+</div>
+</div></div></div></div></div><script id="script-row-unique-4" data-row="script-row-unique-4" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("row-unique-4"));</script></div></div></div><div data-parent="true" class="vc_row demand-restaurants-sectionxxx row-container" id="row-unique-5"><div class="row limit-width row-parent"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_left column_parent col-lg-12 single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode_text_column sectionx-title vc_custom_1519230475272"  style="padding-bottom: 10px ;"><h2 class="pull-left"><span style="color: orange;">Demand Community.</span> <span style="color: black;">Discover Blog</span></h2>
+<h4 class="pull-right"><a style="color: #000;" href="/discover-africa/">See All Blogs <i class="fa fa-arrow-right"></i></a></h4>
+</div><div class="owl-carousel-wrapper demand-single-related-posts" >
+<div class="owl-carousel-container owl-carousel-loading single-gutter">						<div id="index-120398" class="owl-carousel owl-element owl-height-equal" data-nav="true" data-navmobile="false" data-navskin="light" data-navspeed="400" data-autoplay="false" data-autoheight="true" data-stagepadding="0" data-lg="4" data-md="3" data-sm="1" data-vp-height="false">			<div class="tmb tmb-carousel atc-typography-inherit tmb-iso-h33 tmb-light tmb-overlay-text-anim tmb-overlay-anim tmb-content-left tmb-image-anim tmb-bordered  grid-cat-2694 grid-cat-2553 tmb-id-69480 tmb-img-ratio tmb-only-text tmb-content-under tmb-no-bg" ><div class="t-inside" ><div class="t-entry-text">
+<div class="t-entry-text-tc no-block-padding"><div class="t-entry"><p class="t-entry-meta"><span class="t-entry-category t-entry-tax"><i class="fa fa-archive2 fa-push-right"></i><a class="" href="https://demandafrica.com/category/entertainment/tv/">TV</a><span class="cat-comma">,</span></span><span class="t-entry-category t-entry-tax"><a href="https://demandafrica.com/category/entertainment/">Entertainment</a></span></p><h3 class="t-entry-title h6 title-scale"><a href="https://demandafrica.com/entertainment/life-locked-up-life-inside-south-african-womens-prisons/" target="_self">Life Locked up — Life inside South African women’s prisons</a></h3></div></div>
+</div></div></div><div class="tmb tmb-carousel atc-typography-inherit tmb-iso-h33 tmb-light tmb-overlay-text-anim tmb-overlay-anim tmb-content-left tmb-image-anim tmb-bordered  grid-cat-2554 grid-cat-2553 grid-cat-2694 tmb-id-68786 tmb-img-ratio tmb-content-under tmb-media-first tmb-no-bg" ><div class="t-inside" ><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><div class="dummy" style="padding-top: 133.3%;"></div><a tabindex="-1" href="https://demandafrica.com/entertainment/top-10-female-lead-south-african-shows-you-should-watch/" class="pushed" target="_self" data-lb-index="1"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-dark-bg" style="opacity: 0.5;"></div></div><img decoding="async" class="wp-image-68787" src="https://demandafrica.com/wp-content/uploads/2021/08/LDUS_poster_16x9_1920x1080-uai-810x1080.jpg" width="810" height="1080" alt="Lockdown Series" /></a></div>
+</div>
+</div><div class="t-entry-text">
+<div class="t-entry-text-tc single-block-padding"><div class="t-entry"><p class="t-entry-meta"><span class="t-entry-category t-entry-tax"><i class="fa fa-archive2 fa-push-right"></i><a href="https://demandafrica.com/category/entertainment/movies/">Movies</a><span class="cat-comma">,</span></span><span class="t-entry-category t-entry-tax"><a href="https://demandafrica.com/category/entertainment/">Entertainment</a><span class="cat-comma">,</span></span><span class="t-entry-category t-entry-tax"><a class="" href="https://demandafrica.com/category/entertainment/tv/">TV</a></span></p><h3 class="t-entry-title h6 title-scale"><a href="https://demandafrica.com/entertainment/top-10-female-lead-south-african-shows-you-should-watch/" target="_self">Top 10 Female-Lead South African Shows You Should Watch</a></h3></div></div>
+</div></div></div><div class="tmb tmb-carousel atc-typography-inherit tmb-iso-h33 tmb-light tmb-overlay-text-anim tmb-overlay-anim tmb-content-left tmb-image-anim tmb-bordered  grid-cat-2694 grid-cat-2553 tmb-id-68706 tmb-img-ratio tmb-content-under tmb-media-first tmb-no-bg" ><div class="t-inside" ><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><div class="dummy" style="padding-top: 133.4%;"></div><a tabindex="-1" href="https://demandafrica.com/entertainment/tv/which-lockdown-character-are-you/" class="pushed" target="_self" data-lb-index="2"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-dark-bg" style="opacity: 0.5;"></div></div><img decoding="async" class="wp-image-68715" src="https://demandafrica.com/wp-content/uploads/2021/08/LOCKDOWN-01-004-uai-964x1286.jpg" width="964" height="1286" alt="LOCKDOWN 01 004" /></a></div>
+</div>
+</div><div class="t-entry-text">
+<div class="t-entry-text-tc single-block-padding"><div class="t-entry"><p class="t-entry-meta"><span class="t-entry-category t-entry-tax"><i class="fa fa-archive2 fa-push-right"></i><a class="" href="https://demandafrica.com/category/entertainment/tv/">TV</a><span class="cat-comma">,</span></span><span class="t-entry-category t-entry-tax"><a href="https://demandafrica.com/category/entertainment/">Entertainment</a></span></p><h3 class="t-entry-title h6 title-scale"><a href="https://demandafrica.com/entertainment/tv/which-lockdown-character-are-you/" target="_self">Which &#8216;Lockdown&#8217; character are you?</a></h3></div></div>
+</div></div></div><div class="tmb tmb-carousel atc-typography-inherit tmb-iso-h33 tmb-light tmb-overlay-text-anim tmb-overlay-anim tmb-content-left tmb-image-anim tmb-bordered  grid-cat-416 tmb-id-68656 tmb-img-ratio tmb-content-under tmb-media-first tmb-no-bg" ><div class="t-inside" ><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><div class="dummy" style="padding-top: 133.5%;"></div><a tabindex="-1" href="https://demandafrica.com/travel/the-africa-channel-presents-top-10-black-cruises/" class="pushed" target="_self" data-lb-index="3"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-dark-bg" style="opacity: 0.5;"></div></div><img decoding="async" class="wp-image-68657" src="https://demandafrica.com/wp-content/uploads/2021/08/Festival-at-Seas-Cruise-uai-472x630.jpg" width="472" height="630" alt="Festival at Seas Cruise" /></a></div>
+</div>
+</div><div class="t-entry-text">
+<div class="t-entry-text-tc single-block-padding"><div class="t-entry"><p class="t-entry-meta"><span class="t-entry-category t-entry-tax"><i class="fa fa-archive2 fa-push-right"></i><a href="https://demandafrica.com/category/travel/">Travel</a></span></p><h3 class="t-entry-title h6 title-scale"><a href="https://demandafrica.com/travel/the-africa-channel-presents-top-10-black-cruises/" target="_self">The Africa Channel Presents Top 10: Black Cruises</a></h3></div></div>
+</div></div></div><div class="tmb tmb-carousel atc-typography-inherit tmb-iso-h33 tmb-light tmb-overlay-text-anim tmb-overlay-anim tmb-content-left tmb-image-anim tmb-bordered  grid-cat-2580 grid-cat-2581 tmb-id-67629 tmb-img-ratio tmb-content-under tmb-media-first tmb-no-bg" ><div class="t-inside" ><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><div class="dummy" style="padding-top: 133.5%;"></div><a tabindex="-1" href="https://demandafrica.com/style/lifestyle-news/harvard-center-for-african-studies-hosts-virtual-conference-around-women-led-socio-economic-change-in-africa/" class="pushed" target="_self" data-lb-index="4"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-dark-bg" style="opacity: 0.5;"></div></div><img decoding="async" class="wp-image-67630" src="https://demandafrica.com/wp-content/uploads/2020/09/African-Business-Women-Conference-uai-493x658.jpg" width="493" height="658" alt="Harvard Center for African Studies African Business Women Conference" /></a></div>
+</div>
+</div><div class="t-entry-text">
+<div class="t-entry-text-tc single-block-padding"><div class="t-entry"><p class="t-entry-meta"><span class="t-entry-category t-entry-tax"><i class="fa fa-archive2 fa-push-right"></i><a href="https://demandafrica.com/category/style/lifestyle-news/">News</a><span class="cat-comma">,</span></span><span class="t-entry-category t-entry-tax"><a href="https://demandafrica.com/category/entertainment/pop-culture/">Pop-Culture</a></span></p><h3 class="t-entry-title h6 title-scale"><a href="https://demandafrica.com/style/lifestyle-news/harvard-center-for-african-studies-hosts-virtual-conference-around-women-led-socio-economic-change-in-africa/" target="_self">Harvard Center for African Studies Hosts Virtual Conference Around Women-led Socio-economic Change in Africa  </a></h3></div></div>
+</div></div></div><div class="tmb tmb-carousel atc-typography-inherit tmb-iso-h33 tmb-light tmb-overlay-text-anim tmb-overlay-anim tmb-content-left tmb-image-anim tmb-bordered  grid-cat-2577 tmb-id-67459 tmb-img-ratio tmb-content-under tmb-media-first tmb-no-bg" ><div class="t-inside" ><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><div class="dummy" style="padding-top: 133.3%;"></div><a tabindex="-1" href="https://demandafrica.com/entertainment/music/afropop-plus-on-spotify-our-collection-of-popular-afropop-hits-from-across-africa-and-beyond/" class="pushed" target="_self" data-lb-index="5"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-dark-bg" style="opacity: 0.5;"></div></div><img decoding="async" class="wp-image-67462" src="https://demandafrica.com/wp-content/uploads/2020/08/Afropop-Plus-v2-clean-uai-900x1200.jpg" width="900" height="1200" alt="Afropop Plus Playlist African Music Afrobeats" /></a></div>
+</div>
+</div><div class="t-entry-text">
+<div class="t-entry-text-tc single-block-padding"><div class="t-entry"><p class="t-entry-meta"><span class="t-entry-category t-entry-tax"><i class="fa fa-archive2 fa-push-right"></i><a href="https://demandafrica.com/category/entertainment/music/">Music</a></span></p><h3 class="t-entry-title h6 title-scale"><a href="https://demandafrica.com/entertainment/music/afropop-plus-on-spotify-our-collection-of-popular-afropop-hits-from-across-africa-and-beyond/" target="_self">Afropop Plus on Spotify: Our Collection of Popular Afropop Hits From Across Africa and Beyond!</a></h3></div></div>
+</div></div></div><div class="tmb tmb-carousel atc-typography-inherit tmb-iso-h33 tmb-light tmb-overlay-text-anim tmb-overlay-anim tmb-content-left tmb-image-anim tmb-bordered  grid-cat-2581 grid-cat-2580 tmb-id-67344 tmb-img-ratio tmb-content-under tmb-media-first tmb-no-bg" ><div class="t-inside" ><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><div class="dummy" style="padding-top: 133.3%;"></div><a tabindex="-1" href="https://demandafrica.com/style/lifestyle-news/demand-africa-partners-with-the-nigerian-diaspora-commission-for-national-nigerian-diaspora-day/" class="pushed" target="_self" data-lb-index="6"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-dark-bg" style="opacity: 0.5;"></div></div><img decoding="async" class="wp-image-67345" src="https://demandafrica.com/wp-content/uploads/2020/07/NIDCOM-uai-810x1080.jpg" width="810" height="1080" alt="NIDCOM" /></a></div>
+</div>
+</div><div class="t-entry-text">
+<div class="t-entry-text-tc single-block-padding"><div class="t-entry"><p class="t-entry-meta"><span class="t-entry-category t-entry-tax"><i class="fa fa-archive2 fa-push-right"></i><a href="https://demandafrica.com/category/entertainment/pop-culture/">Pop-Culture</a><span class="cat-comma">,</span></span><span class="t-entry-category t-entry-tax"><a href="https://demandafrica.com/category/style/lifestyle-news/">News</a></span></p><h3 class="t-entry-title h6 title-scale"><a href="https://demandafrica.com/style/lifestyle-news/demand-africa-partners-with-the-nigerian-diaspora-commission-for-national-nigerian-diaspora-day/" target="_self">Demand Africa Partners with the Nigerians in Diaspora Commission for  National Nigerian Diaspora Day</a></h3></div></div>
+</div></div></div><div class="tmb tmb-carousel atc-typography-inherit tmb-iso-h33 tmb-light tmb-overlay-text-anim tmb-overlay-anim tmb-content-left tmb-image-anim tmb-bordered  grid-cat-2614 tmb-id-67283 tmb-img-ratio tmb-content-under tmb-media-first tmb-no-bg" ><div class="t-inside" ><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="t-entry-visual-cont"><div class="dummy" style="padding-top: 133.3%;"></div><a tabindex="-1" href="https://demandafrica.com/entertainment/books/exclusive-interview-c-t-rwizis-scarlet-odyssey/" class="pushed" target="_self" data-lb-index="7"><div class="t-entry-visual-overlay"><div class="t-entry-visual-overlay-in style-dark-bg" style="opacity: 0.5;"></div></div><img decoding="async" class="wp-image-67287" src="https://demandafrica.com/wp-content/uploads/2020/07/CT-Rwizi-Interview-Exclusive-Scarlet-Odyssey-uai-810x1080.jpg" width="810" height="1080" alt="EXCLUSIVE INTERVIEW: C.T. Rwizi's Scarlet Odyssey" /></a></div>
+</div>
+</div><div class="t-entry-text">
+<div class="t-entry-text-tc single-block-padding"><div class="t-entry"><p class="t-entry-meta"><span class="t-entry-category t-entry-tax"><i class="fa fa-archive2 fa-push-right"></i><a href="https://demandafrica.com/category/entertainment/books/">Books</a></span></p><h3 class="t-entry-title h6 title-scale"><a href="https://demandafrica.com/entertainment/books/exclusive-interview-c-t-rwizis-scarlet-odyssey/" target="_self">EXCLUSIVE INTERVIEW: C.T. Rwizi&#8217;s Scarlet Odyssey</a></h3></div></div>
+</div></div></div>		</div>
+</div>			</div>
+</div></div></div></div></div><script id="script-row-unique-5" data-row="script-row-unique-5" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("row-unique-5"));</script></div></div></div><div data-parent="true" class="vc_row no-padding-bottom vc_custom_1495523529620 row-container" style="padding-bottom: 0px ;" id="row-unique-6"><div class="row limit-width row-parent"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_left column_parent col-lg-12 single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode_text_column sectionx-title vc_custom_1497994899421"  style="padding-bottom: 0px ;"><h2 class="pull-left"><span style="color: orange;">Demand More.</span> <span style="color: black;">Community Tools </span></h2>
+<h4 class="pull-right"><a style="color: #000;" href="/discover-african-food/">Discover All Food <i class="fa fa-arrow-right"></i></a></h4>
+</div></div></div></div></div></div><script id="script-row-unique-6" data-row="script-row-unique-6" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("row-unique-6"));</script></div></div></div><div data-parent="true" class="vc_row demand-quad-section recipe-mode row-container" id="row-unique-8"><div class="row full-width row-parent"><div class="wpb_row row-inner"><div class="wpb_column pos-middle pos-center align_center column_parent col-lg-3 demand-quad-section-item dark-bg-gradient single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell  vc_custom_1494228334019 single-block-padding" style="padding-top: 200px ;padding-right: 0px ;padding-bottom: 200px ;padding-left: 0px ;" ><div class="column-background background-element">
+<div class="background-wrapper">
+<div class="background-inner" style="background-image: url(https://demandafrica.com/wp-content/uploads/2017/04/food-button-four.jpg);background-repeat: no-repeat;background-position: center center;background-size: cover;" data-o_src="https://demandafrica.com/wp-content/uploads/2017/04/food-button-four.jpg"></div>
+</div>
+</div><div class="uncont"><div class="vc_custom_heading_wrap demand-white-heading style-dark"><div class="heading-text el-text" ><h2>Find Recipes</h2>
+<h4>You will Love</h4>
+</div><div class="clear"></div></div><span class="btn-container" ><a href="https://www.demandafrica.com/category/food/recipes/" class="custom-link btn border-width-0 style-light btn-color-xsdn btn-round btn-icon-left">Search Now</a></span></div></div></div></div></div><div class="wpb_column pos-middle pos-center align_center column_parent col-lg-3 demand-quad-section-item dark-bg-gradient single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell  vc_custom_1494228209216 single-block-padding" style="padding-top: 200px ;padding-right: 0px ;padding-bottom: 200px ;padding-left: 0px ;" ><div class="column-background background-element">
+<div class="background-wrapper">
+<div class="background-inner" style="background-image: url(https://demandafrica.com/wp-content/uploads/2017/04/Food-button-one.jpg);background-repeat: no-repeat;background-position: center center;background-size: cover;" data-o_src="https://demandafrica.com/wp-content/uploads/2017/04/Food-button-one.jpg"></div>
+</div>
+</div><div class="uncont"><div class="vc_custom_heading_wrap demand-white-heading style-dark"><div class="heading-text el-text" ><h2>Submit Recipes</h2>
+<h4>Share your Creation</h4>
+</div><div class="clear"></div></div><span class="btn-container" ><a href="https://www.demandafrica.com/submit-your-recipe/" class="custom-link btn border-width-0 style-light btn-color-xsdn btn-round btn-icon-left">Submit now</a></span></div></div></div></div></div><div class="wpb_column pos-middle pos-center align_center column_parent col-lg-3 demand-quad-section-item dark-bg-gradient single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell  vc_custom_1495780876303 single-block-padding" style="padding-top: 200px ;padding-right: 0px ;padding-bottom: 200px ;padding-left: 0px ;" ><div class="column-background background-element">
+<div class="background-wrapper">
+<div class="background-inner" style="background-image: url(https://demandafrica.com/wp-content/uploads/2017/04/food-button-five.jpg);background-repeat: no-repeat;background-position: center center;background-size: cover;" data-o_src="https://demandafrica.com/wp-content/uploads/2017/04/food-button-five.jpg"></div>
+</div>
+</div><div class="uncont"><div class="vc_custom_heading_wrap demand-white-heading style-dark"><div class="heading-text el-text" ><h2>Discover Food</h2>
+<h4>Learn. Read. Watch.</h4>
+</div><div class="clear"></div></div><span class="btn-container" ><a href="https://www.demandafrica.com/discover-african-food/" class="custom-link btn border-width-0 style-light btn-color-xsdn btn-round btn-icon-left">Explore now</a></span></div></div></div></div></div><script id="script-row-unique-8" data-row="script-row-unique-8" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("row-unique-8"));</script></div></div></div><div class="row-container">
+<div class="row row-parent style-light limit-width no-top-padding double-bottom-padding">
+<div class="deman-before-content-mobile deman-entity-placement" style="text-align: center;" id="deman-3483779839"><div id="deman-2070552827"><p><img decoding="async" class="alignnone size-full wp-image-64559" title="300x250 When Love Happens" src="https://demandafrica.com/wp-content/uploads/2019/05/300x250-When-Love-Happens.jpg" alt="300x250 When Love Happens" width="300" height="250" /></p>
+</div></div><div class="deman-before-content deman-entity-placement" id="deman-4255580466"><div id="deman-1202798917" style="margin-left: auto;margin-right: auto;text-align: center;"><p><img decoding="async" class="alignnone size-full wp-image-66565" title="DA FREETV purple 728X90" src="https://demandafrica.com/wp-content/uploads/2020/04/DA_FREETV_purple_728X90.jpg" alt="DA FREETV purple 728X90" width="728" height="90" srcset="https://demandafrica.com/wp-content/uploads/2020/04/DA_FREETV_purple_728X90.jpg 728w, https://demandafrica.com/wp-content/uploads/2020/04/DA_FREETV_purple_728X90-300x37.jpg 300w, https://demandafrica.com/wp-content/uploads/2020/04/DA_FREETV_purple_728X90-600x74.jpg 600w" sizes="(max-width: 728px) 100vw, 728px" /></p>
+</div></div>
+</div>
+</div></div></div>
+</div>
+</article>
+								</div><!-- sections container -->
+</div><!-- page wrapper -->
+<footer id="colophon" class="site-footer">
+<div data-parent="true" class="vc_row disable-gradient style-dark demand-white-footer style-color-xsdn-bg row-container" id="row-unique-9"><div class="row limit-width row-parent"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_left column_parent col-lg-4 single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 60%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-48996" src="https://demandafrica.com/wp-content/uploads/2016/11/demandAfricalogo_horizontal_black.png" width="2048" height="376" alt="demandAfricalogo horizontal black" srcset="https://demandafrica.com/wp-content/uploads/2016/11/demandAfricalogo_horizontal_black.png 2048w, https://demandafrica.com/wp-content/uploads/2016/11/demandAfricalogo_horizontal_black-600x110.png 600w, https://demandafrica.com/wp-content/uploads/2016/11/demandAfricalogo_horizontal_black-300x55.png 300w, https://demandafrica.com/wp-content/uploads/2016/11/demandAfricalogo_horizontal_black-768x141.png 768w, https://demandafrica.com/wp-content/uploads/2016/11/demandAfricalogo_horizontal_black-1024x188.png 1024w" sizes="(max-width: 2048px) 100vw, 2048px" /></div>
+</div>
+</div></div></div></div></div><div class="uncode_text_column vc_custom_1496453655697"  style="padding-right: 20% ;"><p><span class="s1">Demand Africa is the premiere destination showcasing world-class lifestyle, travel, and entertainment. Stream TV series, documentaries, and more. Watch, learn, laugh, connect, and explore online, in-home or on-the-go. </span></p>
+</div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="vc_custom_heading_wrap "><div class="heading-text el-text" ><h4 class="h4 text-color-xsdn-color text-uppercase" ><span>Quick Links</span></h4></div><div class="clear"></div></div><div class="vc_wp_custommenu wpb_content_element menu-white social-hover"  data-id="1"><div class="widget widget_nav_menu"><div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu"><li id="menu-item-50108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-50108"><a href="https://demandafrica.com/watch-demand-africa/">Watch Demand Africa</a></li>
+<li id="menu-item-67918" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-67918"><a href="https://demandafrica.com/category/buy-black/">Buy Black</a></li>
+<li id="menu-item-56164" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56164"><a href="https://demandafrica.com/discover-africa/">Discover Blogs</a></li>
+<li id="menu-item-50106" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-50106"><a href="https://demandafrica.com/find-african-recipes/">Find African Recipes</a></li>
+<li id="menu-item-50107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-50107"><a href="https://demandafrica.com/find-african-restaurants/">Find African Restaurants</a></li>
+<li id="menu-item-48419" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48419"><a href="https://theafricachannel.com/">TheAfricaChannel.com</a></li>
+<li id="menu-item-68939" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68939"><a href="https://demandafrica.com/faqs/">FAQs</a></li>
+</ul></div></div></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="vc_custom_heading_wrap "><div class="heading-text el-text" ><h4 class="h4 text-color-xsdn-color text-uppercase" ><span>Company</span></h4></div><div class="clear"></div></div><div class="vc_wp_custommenu wpb_content_element menu-white social-hover"  data-id="2"><div class="widget widget_nav_menu"><div class="menu-footer-company-menu-container"><ul id="menu-footer-company-menu" class="menu"><li id="menu-item-50175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-50175"><a href="https://demandafrica.com/about-demand-africa/">About Us</a></li>
+<li id="menu-item-56271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56271"><a href="https://demandafrica.com/demand-africa-media-press/">Press</a></li>
+<li id="menu-item-49061" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49061"><a href="https://demandafrica.com/contact-demand-africa/">Contact us</a></li>
+<li id="menu-item-49813" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-49813"><a rel="privacy-policy" href="https://demandafrica.com/privacy/">Privacy Policy</a></li>
+<li id="menu-item-49814" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49814"><a href="https://demandafrica.com/terms-of-use/">Terms of Use</a></li>
+</ul></div></div></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="vc_custom_heading_wrap "><div class="heading-text el-text" ><h4 class="h4 text-color-xsdn-color text-uppercase" ><span>Social</span></h4></div><div class="clear"></div></div>
+<div class="wpb_raw_code wpb_content_element wpb_raw_html" >
+<div class="wpb_wrapper">
+<div class="uncell col-lg-6 pos-middle text-left" style="padding: 0px;"><div class="social-icon icon-box icon-box-top icon-inline"><a href="https://www.facebook.com/demandafrica" target="_blank" style="color: white;font-size: 40px;"><i class="fa fa-facebook-official social-hover"></i></a></div><div class="social-icon icon-box icon-box-top icon-inline" style="/*! color: white; *//*! font-size: 40px; */"><a href="https://twitter.com/demandafrica" target="_blank" style="color: white;font-size: 40px;"><i class="fa fa-twitter social-hover"></i></a></div><div class="social-icon icon-box icon-box-top icon-inline"><a href="https://instagram.com/demandafrica" target="_blank" style="color: white;font-size: 40px;"><i class="fa fa-instagram social-hover"></i></a></div><div class="social-icon icon-box icon-box-top icon-inline"><a href="https://www.youtube.com/demandafrica" target="_blank" style="color: white;font-size: 38px;"><i class="fa fa-youtube social-hover"></i></a></div></div>
+</div>
+</div>
+</div></div></div></div></div><script id="script-row-unique-9" data-row="script-row-unique-9" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("row-unique-9"));</script></div></div></div><div class="row-container style-color-xsdn-bg footer-last">
+<div class="row row-parent style-light limit-width no-top-padding no-h-padding no-bottom-padding">
+<div class="site-info uncell col-lg-6 pos-middle text-left">&copy; 2026 Demand Africa. All rights reserved</div><!-- site info -->
+</div>
+</div>						</footer>
+</div><!-- main container -->
+</div><!-- main wrapper -->
+</div><!-- box container -->
+</div><!-- box wrapper -->
+<div class="style-light footer-scroll-top"><a href="#" class="scroll-top"><i class="fa fa-angle-up fa-stack btn-default btn-hover-nobg"></i></a></div>
+<div class="overlay overlay-sequential style-dark style-dark-bg overlay-search" data-area="search" data-container="box-container">
+<div class="mmb-container"><div class="menu-close-search mobile-menu-button menu-button-offcanvas mobile-menu-button-dark lines-button x2 overlay-close close" data-area="search" data-container="box-container"><span class="lines"></span></div></div>
+<div class="search-container"><form action="https://demandafrica.com/" method="get">
+<div class="search-container-inner">
+<input type="search" class="search-field form-fluid no-livesearch" placeholder="Search…" value="" name="s" title="Search for:">
+<button type="submit"> Search &nbsp; &nbsp;<i class="fa fa-search3"></i> </button>
+</div>
+</form>
+</div>
+</div>
+<script>
+window.RS_MODULES = window.RS_MODULES || {};
+window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+window.RS_MODULES.defered = false;
+window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+window.RS_MODULES.type = 'compiled';
+</script>
+<div class="gdpr-overlay"></div><div class="gdpr gdpr-privacy-preferences" data-nosnippet="true">
+<div class="gdpr-wrapper">
+<form method="post" class="gdpr-privacy-preferences-frm" action="https://demandafrica.com/wp-admin/admin-post.php">
+<input type="hidden" name="action" value="uncode_privacy_update_privacy_preferences">
+<input type="hidden" id="update-privacy-preferences-nonce" name="update-privacy-preferences-nonce" value="2efd58bdac" /><input type="hidden" name="_wp_http_referer" value="/" />			<header>
+<div class="gdpr-box-title">
+<h3>Privacy Preference Center</h3>
+<span class="gdpr-close"></span>
+</div>
+</header>
+<div class="gdpr-content">
+<div class="gdpr-tab-content">
+<div class="gdpr-consent-management gdpr-active">
+<header>
+<h4>Privacy Preferences</h4>
+</header>
+<div class="gdpr-info">
+<p></p>
+</div>
+</div>
+</div>
+</div>
+<footer>
+<input type="submit" class="btn-accent btn-flat" value="Save Preferences">
+<input type="hidden" id="uncode_privacy_save_cookies_from_banner" name="uncode_privacy_save_cookies_from_banner" value="false">
+<input type="hidden" id="uncode_privacy_save_cookies_from_banner_button" name="uncode_privacy_save_cookies_from_banner_button" value="">
+</footer>
+</form>
+</div>
+</div>
+<script type="text/javascript">jQuery( document ).ready(function() {
+jQuery(".demand-restaurants-section .demand-white-heading").css("cssText", "margin-top: 80px !important;");
+});
+</script><script type="text/html" id="wpb-modifications"></script><link href="https://fonts.googleapis.com/css?family=Roboto:400%7CMontserrat:500%2C900%2C700&display=swap" rel="stylesheet" property="stylesheet" media="all" type="text/css" >
+<script>
+if(typeof revslider_showDoubleJqueryError === "undefined") {function revslider_showDoubleJqueryError(sliderID) {console.log("You have some jquery.js library include that comes after the Slider Revolution files js inclusion.");console.log("To fix this, you can:");console.log("1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on");console.log("2. Find the double jQuery.js inclusion and remove it");return "Double Included jQuery Library";}}
+</script>
+<link rel="preload" as="font" id="rs-icon-set-fa-icon-woff" type="font/woff2" crossorigin="anonymous" href="https://demandafrica.com/wp-content/plugins/revslider/public/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0" media="all" />
+<link rel="stylesheet" property="stylesheet" id="rs-icon-set-fa-icon-css" href='//demandafrica.com/wp-content/cache/wpfc-minified/qt3tm1xh/dchwh.css' type="text/css" media="all" />
+<link rel='stylesheet' id='rs-plugin-settings-css' href='//demandafrica.com/wp-content/cache/wpfc-minified/dfidk59k/dch9v.css' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+.rev_slider .slotholder:after{width:100%;  height:100%;  content:"";  position:absolute;  left:0;  top:0;  pointer-events:none;  background:rgba(0,0,0,0.5)}		.rev_slider_wrapper .rs-parallax-wrap{padding:0 20px}.rs-parallax-wrap .demand-subscribe-form input[type="email"]{padding:10px 4px !important;color:#555;font-size:14px !important;margin-bottom:10px !important}.rs-parallax-wrap .demand-subscribe-form{float:left !important}
+#rev_slider_14_1_wrapper .ares.tp-bullets{}#rev_slider_14_1_wrapper .ares.tp-bullets:before{content:' ';position:absolute;width:100%;height:100%;background:transparent;padding:10px;margin-left:-10px;margin-top:-10px;box-sizing:content-box}#rev_slider_14_1_wrapper .ares .tp-bullet{width:13px;height:13px;position:absolute;background:#e5e5e5;border-radius:50%;cursor:pointer;box-sizing:content-box}#rev_slider_14_1_wrapper .ares .tp-bullet.rs-touchhover,#rev_slider_14_1_wrapper .ares .tp-bullet.selected{background:#ffffff}#rev_slider_14_1_wrapper .ares .tp-bullet-title{position:absolute; color:#888888; font-size:12px; padding:0px 10px; font-weight:600; right:27px; top:-4px;  background:rgba(255,255,255,0.75); visibility:hidden; transform:translatex(-20px); -webkit-transform:translatex(-20px); transition:transform 0.3s; -webkit-transition:transform 0.3s; line-height:20px; white-space:nowrap}#rev_slider_14_1_wrapper .ares .tp-bullet-title:after{width:0px;height:0px;border-style:solid;border-width:10px 0 10px 10px;border-color:transparent transparent transparent rgba(255,255,255,0.75);content:' ';  position:absolute;  right:-10px;top:0px}#rev_slider_14_1_wrapper .ares .tp-bullet.rs-touchhover .tp-bullet-title{visibility:visible;  transform:translatex(0px); -webkit-transform:translatex(0px)}#rev_slider_14_1_wrapper .ares .tp-bullet.selected.rs-touchhover .tp-bullet-title{background:#ffffff}#rev_slider_14_1_wrapper .ares .tp-bullet.selected.rs-touchhover .tp-bullet-title:after{border-color:transparent transparent transparent #ffffff}#rev_slider_14_1_wrapper .ares.tp-bullets.rs-touchhover .tp-bullet-title{visibility:hidden}#rev_slider_14_1_wrapper .ares.tp-bullets.rs-touchhover .tp-bullet.rs-touchhover .tp-bullet-title{visibility:visible;  transform:translateX(0px) translatey(0px); -webkit-transform:translateX(0px) translatey(0px)}#rev_slider_14_1_wrapper .ares.nav-dir-vertical.nav-pos-hor-left .tp-bullet-title{right:auto; left:27px; transform:translatex(20px); -webkit-transform:translatex(20px)}#rev_slider_14_1_wrapper .ares.nav-dir-vertical.nav-pos-hor-left .tp-bullet-title:after{border-width:10px 10px 10px 0 !important; border-color:transparent rgba(255,255,255,0.75) transparent transparent; right:auto !important; left:-10px !important}#rev_slider_14_1_wrapper .ares.nav-dir-vertical.nav-pos-hor-left .tp-bullet.selected.rs-touchhover .tp-bullet-title:after{border-color:transparent #ffffff transparent transparent !important}#rev_slider_14_1_wrapper .ares.nav-dir-horizontal.nav-pos-ver-center .tp-bullet-title,#rev_slider_14_1_wrapper .ares.nav-dir-horizontal.nav-pos-ver-bottom .tp-bullet-title{top:-35px; left:50%; right:auto; transform:translateX(-50%) translateY(-10px);-webkit-transform:translateX(-50%) translateY(-10px)}#rev_slider_14_1_wrapper .ares.nav-dir-horizontal.nav-pos-ver-center .tp-bullet-title:after,#rev_slider_14_1_wrapper .ares.nav-dir-horizontal.nav-pos-ver-bottom .tp-bullet-title:after{border-width:10px 10px 0px 10px; border-color:rgba(255,255,255,0.75) transparent transparent transparent; right:auto; left:50%; margin-left:-10px; top:auto; bottom:-10px}#rev_slider_14_1_wrapper .ares.nav-dir-horizontal.nav-pos-ver-center .tp-bullet.selected.rs-touchhover .tp-bullet-title:after,#rev_slider_14_1_wrapper .ares.nav-dir-horizontal.nav-pos-ver-bottom .tp-bullet.selected.rs-touchhover .tp-bullet-title:after{border-color:#ffffff transparent transparent transparent}#rev_slider_14_1_wrapper .ares.nav-dir-horizontal.nav-pos-ver-center .tp-bullet.rs-touchhover .tp-bullet-title,#rev_slider_14_1_wrapper .ares.nav-dir-horizontal.nav-pos-ver-bottom .tp-bullet.rs-touchhover .tp-bullet-title{transform:translateX(-50%) translatey(0px); -webkit-transform:translateX(-50%) translatey(0px)}#rev_slider_14_1_wrapper .ares.nav-dir-horizontal.nav-pos-ver-top .tp-bullet-title{top:25px; left:50%; right:auto; transform:translateX(-50%) translateY(10px);-webkit-transform:translateX(-50%) translateY(10px)}#rev_slider_14_1_wrapper .ares.nav-dir-horizontal.nav-pos-ver-top .tp-bullet-title:after{border-width:0 10px 10px 10px; border-color:transparent transparent rgba(255,255,255,0.75) transparent; right:auto; left:50%; margin-left:-10px; bottom:auto; top:-10px}#rev_slider_14_1_wrapper .ares.nav-dir-horizontal.nav-pos-ver-top .tp-bullet.selected.rs-touchhover .tp-bullet-title:after{border-color:transparent transparent #ffffff transparent}#rev_slider_14_1_wrapper .ares.nav-dir-horizontal.nav-pos-ver-top .tp-bullet.rs-touchhover .tp-bullet-title{transform:translateX(-50%) translatey(0px); -webkit-transform:translateX(-50%) translatey(0px)}
+#rev_slider_14_1_wrapper rs-loader.spinner4 div{background-color:#FFFFFF !important}
+</style>
+<script type="text/javascript" src="https://demandafrica.com/wp-content/plugins/advanced-ads/admin/assets/js/advertisement.js" id="advanced-ads-find-adblocker-js"></script>
+<script type="text/javascript" src="https://demandafrica.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js" id="wp-polyfill-inert-js"></script>
+<script type="text/javascript" src="https://demandafrica.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js" id="regenerator-runtime-js"></script>
+<script type="text/javascript" src="https://demandafrica.com/wp-includes/js/dist/vendor/wp-polyfill.min.js" id="wp-polyfill-js"></script>
+<script type="text/javascript" src="https://demandafrica.com/wp-includes/js/dist/hooks.min.js" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://demandafrica.com/wp-includes/js/dist/i18n.min.js" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://demandafrica.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/demandafrica.com\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://demandafrica.com/wp-content/plugins/contact-form-7/includes/js/index.js" id="contact-form-7-js"></script>
+<script type="text/javascript" src="https://demandafrica.com/wp-content/plugins/uncode-privacy/assets/js/js-cookie.min.js" id="js-cookie-js"></script>
+<script type="text/javascript" id="uncode-privacy-js-extra">
+/* <![CDATA[ */
+var Uncode_Privacy_Parameters = {"accent_color":"#ffc42e"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://demandafrica.com/wp-content/plugins/uncode-privacy/assets/js/uncode-privacy-public.min.js" id="uncode-privacy-js"></script>
+<script type="text/javascript" id="wp-bruiser-client-js-extra">
+/* <![CDATA[ */
+var WPBruiserConfig = {"ajaxUrl":"\/wp-admin\/admin-ajax.php","action":"gdbcRetrieveToken","nonceAction":"gdbcRetrieveNonce","inputName":"C-mx-HW-Zrp-SO-sVW","nonce":"025a799c8f","adminNote":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://demandafrica.com/wp-content/plugins/goodbye-captcha/assets/public/scripts/gdbc-client.js" id="wp-bruiser-client-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://demandafrica.com/wp-content/themes/uncode/library/js/plugins.min.js" id="uncode-plugins-js"></script>
+<script type="text/javascript" src="https://demandafrica.com/wp-content/themes/uncode/library/js/app.min.js" id="uncode-app-js"></script>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?render=6Lc15qIUAAAAAMVRISaMWZGsN0FR9cPCj1-NWazm" id="google-recaptcha-js"></script>
+<script type="text/javascript" id="wpcf7-recaptcha-js-extra">
+/* <![CDATA[ */
+var wpcf7_recaptcha = {"sitekey":"6Lc15qIUAAAAAMVRISaMWZGsN0FR9cPCj1-NWazm","actions":{"homepage":"homepage","contactform":"contactform"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://demandafrica.com/wp-content/plugins/contact-form-7/modules/recaptcha/index.js" id="wpcf7-recaptcha-js"></script>
+<script type="text/javascript" src="https://demandafrica.com/wp-includes/js/hoverIntent.min.js" id="hoverIntent-js"></script>
+<script type="text/javascript" src="https://demandafrica.com/wp-content/plugins/megamenu/js/maxmegamenu.js" id="megamenu-js"></script>
+<script id="rs-initialisation-scripts">
+var	tpj = jQuery;
+var	revapi14;
+if(window.RS_MODULES === undefined) window.RS_MODULES = {};
+if(RS_MODULES.modules === undefined) RS_MODULES.modules = {};
+RS_MODULES.modules["revslider141"] = {once: RS_MODULES.modules["revslider141"]!==undefined ? RS_MODULES.modules["revslider141"].once : undefined, init:function() {
+window.revapi14 = window.revapi14===undefined || window.revapi14===null || window.revapi14.length===0  ? document.getElementById("rev_slider_14_1") : window.revapi14;
+if(window.revapi14 === null || window.revapi14 === undefined || window.revapi14.length==0) { window.revapi14initTry = window.revapi14initTry ===undefined ? 0 : window.revapi14initTry+1; if (window.revapi14initTry<20) requestAnimationFrame(function() {RS_MODULES.modules["revslider141"].init()}); return;}
+window.revapi14 = jQuery(window.revapi14);
+if(window.revapi14.revolution==undefined){ revslider_showDoubleJqueryError("rev_slider_14_1"); return;}
+revapi14.revolutionInit({
+revapi:"revapi14",
+DPR:"dpr",
+sliderLayout:"fullwidth",
+visibilityLevels:"1240,1024,778,480",
+gridwidth:"1600,1024,778,480",
+gridheight:"800,768,960,720",
+lazyType:"single",
+spinner:"spinner4",
+perspective:600,
+perspectiveType:"local",
+editorheight:"800,768,960,720",
+responsiveLevels:"1240,1024,778,480",
+progressBar:{disableProgressBar:true},
+navigation: {
+mouseScrollNavigation:false,
+wheelCallDelay:1000,
+touch: {
+touchenabled:true
+},
+bullets: {
+enable:true,
+tmp:"<span class=\"tp-bullet-title\">{{title}}</span>",
+style:"ares",
+hide_onmobile:true,
+hide_under:480,
+hide_onleave:true,
+h_align:"right",
+h_offset:80,
+v_offset:100
+}
+},
+viewPort: {
+global:true,
+globalDist:"-200px",
+enable:false,
+visible_area:"20%"
+},
+fallbacks: {
+allowHTML5AutoPlayOnAndroid:true
+},
+});
+}} // End of RevInitScript
+if (window.RS_MODULES.checkMinimal!==undefined) { window.RS_MODULES.checkMinimal();};
+</script>
+<script data-wpfc-render="false">!function(){window.advanced_ads_ready_queue=window.advanced_ads_ready_queue||[],advanced_ads_ready_queue.push=window.advanced_ads_ready;for(var d=0,a=advanced_ads_ready_queue.length;d<a;d++)advanced_ads_ready(advanced_ads_ready_queue[d])}();</script><script type="text/javascript">
+jQuery(document).ready(function(){
+jQuery(".page-id-54259 .text-color-128348-color.custom-link").click(function(e) {
+jQuery('html, body').animate({
+scrollTop: jQuery("#Food").offset().top - 150
+}, 2500);
+});
+});
+jQuery(document).ready(function() {
+var stickyNavTop = jQuery('.africastick').offset.top;        
+var stickyNav = function(){
+var scrollTop = jQuery(window).scrollTop();               
+if (scrollTop > stickyNavTop) { 
+jQuery('.africastick').addClass('africastickynave');
+} else {
+jQuery('.africastick').removeClass('africastickynave'); 
+}
+};
+stickyNav();      
+jQuery(window).scroll(function() {
+stickyNav();
+});
+});
+</script>
+<script>/*fix for wpcf7 wp-adax refill performance*/wpcf7.cached = 0;</script>
+<style type="text/css">
+.cleeng_button button {
+background: #303133 none repeat scroll 0 0;
+border: 1px solid #303133;
+border-radius: 2px;
+color: #fff;
+font-family: Poppins;
+font-size: 12px;
+letter-spacing: 0.1em;
+padding: 13px 31px;
+text-transform: uppercase;
+transition: color 200ms cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s, background-color 200ms cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s, border-color 200ms cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
+font-weight: 600;
+}
+.uncode_text_column.cleeng_button {
+background: #fff none repeat scroll 0 0;
+margin: 0 !important;
+padding: 16px 36px 18px;
+text-align: center;
+}
+.annual_btn .plan-button {
+display: none;
+}
+.demand-launch-pricing .uncode_text_column.cleeng_button {
+padding: 36px 36px 36px 36px;
+}
+.uncode_text_column.cleeng_button button:hover {
+background: transparent none repeat scroll 0 0;
+color: #303133;
+}
+.page-id-55765 .uncode-single-media.text-center {
+display: inline-block;
+width: 50%;
+vertical-align: middle;
+}
+.page-id-55765 .main-container .row-container .row-parent .column_child.half-internal-gutter .uncont > *:not(:first-child) {
+margin-top: 0;
+}
+@media (max-width:959px){
+.page-id-55765 .pos-middle.pos-center.align_left.column_child.col-lg-6.boomapps_vccolumn.single-internal-gutter iframe {
+left: 0 !important;
+}
+.page-id-55765 .page-id-55765 .site-footer .footer-last {
+padding-top: 0;
+padding-bottom: 0;
+}
+}
+@media (max-width:767px){
+.page-id-55765 .uncode-single-media.text-center:nth-child(1) .single-wrapper {
+max-width: 33% !important;
+}
+.page-id-55765 .uncode-single-media.text-center:nth-child(2) .single-wrapper {
+max-width: 66% !important;
+}
+.page-id-55765 .uncode-single-media.text-center {
+width: 100%;
+}
+.page-id-55765 .main-container .row-container .row-parent .column_child.half-internal-gutter .uncont > *:not(:first-child) {
+margin-top: 18px;
+}
+}
+@media (max-width:480px){
+.page-id-55765 .main-container .row-container .row-parent {
+padding: 0 10px;
+}
+}
+</style>
+</body>
+</html><!-- WP Fastest Cache file was created in 2.087 seconds, on November 7, 2026 @ 5:22 pm --><!-- via php -->

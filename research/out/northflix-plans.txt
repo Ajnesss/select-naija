@@ -1,0 +1,7 @@
+URL: https://northflix.ng/
+FINAL: https://select-naija-uk-edge.vercel.app/api/fetch?url=https%3A%2F%2Fnorthflix.ng%2F (UK check point; upstream null null)
+STATUS: 502
+TYPE: application/json; charset=utf-8
+LENGTH: 25
+
+{"error":"network_error"}
