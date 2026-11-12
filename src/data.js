@@ -3,7 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 const { FRESH_DAYS, DAY } = require('./states');
-const { normalize } = require('./text');
+const { normalize, groupKey } = require('./text');
 
 const normalizeName = (n) => normalize(String(n || '')).replace(/^the /, '');
 
@@ -112,6 +112,7 @@ function loadData(
   const dm = readJson(path.join(dataDir, 'dailymotion.json'), { titles: [] });
   const yt = readJson(path.join(dataDir, 'youtube.json'), { titles: [] });
   const channels = readJson(path.join(dataDir, 'channels.json'), { channels: [] }).channels || [];
+  const channelNames = new Map(channels.map((c) => [c.user || c.channelId, c.name]));
   const authorisedChannels = new Map(
     channels.filter((c) => c.platform === 'dailymotion' && c.ownerAuthorised && credentialsFor(c, env)).map((c) => [c.user, c]),
   );
@@ -136,6 +137,7 @@ function loadData(
         kind: isYt ? 'youtube' : 'external',
         ytId: isYt ? e.videoId : undefined,
         url: isYt ? `https://www.youtube.com/watch?v=${e.videoId}` : `https://www.dailymotion.com/video/${e.videoId}`,
+        source: t.channelName || channelNames.get(t.channel),
         minutes: e.minutes,
         synthetic: true,
       });
@@ -156,6 +158,7 @@ function loadData(
         ytId: isYt ? part.videoId : undefined,
         resolve: owner ? { via: 'dailymotion-owner', videoId: part.videoId, channel: owner } : undefined,
         url: isYt ? `https://www.youtube.com/watch?v=${part.videoId}` : `https://www.dailymotion.com/video/${part.videoId}`,
+        source: t.channelName || channelNames.get(t.channel),
         label: total > 1 ? `Part ${part.part} of ${total}` : undefined,
         order: part.part,
         minutes: part.minutes,
@@ -216,11 +219,56 @@ function loadData(
 
   const linksByStreamId = new Map();
   const linksByTitle = new Map();
+  // One title per film: the same film from several channels or services (same name, same type, release
+  // years at most a year apart) becomes one title carrying every stream. The kept title is the best
+  // described one: an IMDb title first, then TMDB, Tubi, hand-curated, then the source with most streams.
+  const alias = new Map();
+  {
+    const rank = (t) => (/^tt\d+$/.test(t.id) ? 0 : /^snaija-tmdb/.test(t.id) ? 1 : /^snaija-tubi/.test(t.id) ? 2 : /^snaija-(yt|dm)-/.test(t.id) ? 4 : 3);
+    const size = (t) => (t.parts || t.episodes || []).length;
+    const groups = new Map();
+    for (const t of titles) {
+      if (t.category === 'test' || !t.name) continue;
+      const k = `${t.type}|${groupKey(t.name)}`;
+      if (!groups.has(k)) groups.set(k, []);
+      groups.get(k).push(t);
+    }
+    for (const list of groups.values()) {
+      if (list.length < 2) continue;
+      list.sort((a, b) => rank(a) - rank(b) || size(b) - size(a));
+      const kept = [];
+      for (const t of list) {
+        const home = kept.find((k) => !t.year || !k.year || Math.abs(k.year - t.year) <= 1);
+        if (!home) {
+          kept.push(t);
+          continue;
+        }
+        alias.set(t.id, home.id);
+        home.languages = [...new Set([...(home.languages || []), ...(t.languages || [])])];
+        home.cast = [...new Set([...(home.cast || []), ...(t.cast || [])])].slice(0, 10);
+        if (!home.poster && t.poster) home.poster = t.poster;
+        if (!home.description && t.description) home.description = t.description;
+        if (home.type === 'series') {
+          const have = new Set((home.videos || []).map((v) => `${v.season}:${v.episode}`));
+          for (const v of t.videos || []) if (!have.has(`${v.season}:${v.episode}`)) (home.videos = home.videos || []).push(v);
+          home.videos?.sort((a, b) => a.season - b.season || a.episode - b.episode);
+        }
+      }
+    }
+    if (alias.size) {
+      for (let i = titles.length - 1; i >= 0; i--) if (alias.has(titles[i].id)) titles.splice(i, 1);
+      for (const id of alias.keys()) byId.delete(id);
+      for (const l of extraLinks) if (alias.has(l.titleId)) l.titleId = alias.get(l.titleId);
+    }
+  }
+
   const curated = (links.links || []).filter(
     (l) => !freeOnly || FREE_ACCESS.has(l.access || providerById.get(l.provider)?.access),
   );
   const curatedProviders = new Set(curated.map((l) => `${l.titleId}|${l.provider}`));
-  const allLinks = [...curated, ...extraLinks.filter((l) => !curatedProviders.has(`${l.titleId}|${l.provider}`))];
+  const allLinks = [...curated, ...extraLinks.filter((l) => !curatedProviders.has(`${l.titleId}|${l.provider}`))].map((l) =>
+    alias.has(l.titleId) ? { ...l, titleId: alias.get(l.titleId) } : l,
+  );
   for (const link of allLinks) {
     // YouTube links count as in-app candidates: the app plays them itself (confirmed per device by testing).
     if (inAppOnly && link.kind !== 'direct' && link.kind !== 'youtube') continue;
@@ -249,6 +297,7 @@ function loadData(
     linksByStreamId,
     linksByTitle,
     allLinks,
+    alias,
     freeOnly,
     inAppOnly,
     discoveredGeneratedAt: discovered.generatedAt || null,

@@ -9,7 +9,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { normalize, slugify } = require('../src/text');
+const { normalize, slugify, groupKey } = require('../src/text');
 
 const ROOT = path.join(__dirname, '..');
 const OUT = path.join(ROOT, 'data', 'dailymotion.json');
@@ -97,18 +97,6 @@ function parseTitle(raw) {
     .replace(/(^|[\s(\-])([a-zà-ÿ])/g, (m, pre, c) => pre + c.toUpperCase())
     .replace(/\b(Of|The|And|In|On|A|An|To|For)\b/g, (w, _x, i) => (i === 0 ? w : w.toLowerCase()));
   return { name, part, year, cast: cast.length ? cast : castFromTail };
-}
-
-// Grouping key for one film or show: ignores apostrophes, a plural s, and leftover words like "Season",
-// "Complete Season" or "Season Finale" ("Jenifa's Diary Season" = "Jenifas Diary").
-function groupKey(name) {
-  return normalize(String(name).replace(/['’`]/g, ''))
-    .replace(/\b(?:complete|compete|complet|compele)?\s*seasons?\b(?:\s*finale)?/g, ' ')
-    .replace(/\bfinal(?:e)?\b/g, ' ')
-    .split(' ')
-    .filter(Boolean)
-    .map((w) => w.replace(/s$/, ''))
-    .join(' ');
 }
 
 function languagesFor(title, channel) {
