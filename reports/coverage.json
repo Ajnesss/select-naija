@@ -1,7 +1,9 @@
 {
- "bySource": {},
- "generatedAt": "2026-11-12T20:27:43.687Z",
- "statusGeneratedAt": "2026-11-12T20:27:43.646Z",
+ "bySource": {
+  "YouTube": 15139
+ },
+ "generatedAt": "2026-11-12T21:09:36.227Z",
+ "statusGeneratedAt": "2026-11-12T21:09:36.183Z",
  "groups": {
   "classics": {
    "total": 1,
@@ -16,28 +18,28 @@
  },
  "languages": {
   "en": {
-   "catalogued": 1891,
-   "covered": 0,
-   "withoutTmdb": 1695,
-   "coverage": 0
+   "catalogued": 16282,
+   "covered": 14392,
+   "withoutTmdb": 16086,
+   "coverage": 88.4
   },
   "yo": {
-   "catalogued": 119,
-   "covered": 0,
-   "withoutTmdb": 72,
-   "coverage": 0
+   "catalogued": 1406,
+   "covered": 1287,
+   "withoutTmdb": 1359,
+   "coverage": 91.5
   },
   "ig": {
-   "catalogued": 24,
-   "covered": 0,
-   "withoutTmdb": 11,
-   "coverage": 0
+   "catalogued": 636,
+   "covered": 612,
+   "withoutTmdb": 623,
+   "coverage": 96.2
   },
   "ha": {
-   "catalogued": 6,
-   "covered": 0,
-   "withoutTmdb": 0,
-   "coverage": 0
+   "catalogued": 8,
+   "covered": 2,
+   "withoutTmdb": 2,
+   "coverage": 25
   },
   "fr": {
    "catalogued": 1,
@@ -66,14 +68,14 @@
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 16
+   "checks30d": 17
   },
   "youtube": {
    "score": 100,
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 1
+   "checks30d": 2
   }
  },
  "gaps": [
