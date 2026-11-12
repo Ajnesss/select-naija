@@ -1,2 +1,0 @@
-URL: https://stremio-addons.com/?q=nigeria
-ERROR: fetch failed
