@@ -3,15 +3,72 @@
   "source": "tubi",
   "id": "559737",
   "pageStatus": 200,
-  "manifests": 0,
-  "drmHint": true
+  "manifests": 2,
+  "types": [
+   "hlsv6",
+   "hlsv6"
+  ],
+  "licenseServers": [
+   null,
+   null
+  ]
+ },
+ {
+  "name": "tubi 559737 played from London",
+  "master": "https://nc-aka2.tubi.video/a5aee459-6e92-427c-a216-b6ad24935392/g16taz65g6.m3u8?token=…",
+  "masterStatus": 200,
+  "isMaster": true,
+  "variantStatus": 200,
+  "encrypted": false,
+  "ads": false,
+  "segmentStatus": 502,
+  "segmentBytes": 19
+ },
+ {
+  "name": "tubi 559737 played from US",
+  "master": "https://nc-aka2.tubi.video/a5aee459-6e92-427c-a216-b6ad24935392/g16taz65g6.m3u8?token=…",
+  "masterStatus": 200,
+  "isMaster": true,
+  "variantStatus": 200,
+  "encrypted": false,
+  "ads": false,
+  "error": "The operation was aborted due to timeout"
  },
  {
   "source": "tubi",
   "id": "100048274",
   "pageStatus": 200,
-  "manifests": 0,
-  "drmHint": true
+  "manifests": 2,
+  "types": [
+   "hlsv6",
+   "hlsv6"
+  ],
+  "licenseServers": [
+   null,
+   null
+  ]
+ },
+ {
+  "name": "tubi 100048274 played from London",
+  "master": "https://nc-cf.tubi.video/0eb53ac8-47e8-4d1a-ad88-f5801c5e73ba/vil98gup8f.m3u8?token=…",
+  "masterStatus": 200,
+  "isMaster": true,
+  "variantStatus": 200,
+  "encrypted": false,
+  "ads": false,
+  "segmentStatus": 200,
+  "segmentBytes": 3145728
+ },
+ {
+  "name": "tubi 100048274 played from US",
+  "master": "https://nc-cf.tubi.video/0eb53ac8-47e8-4d1a-ad88-f5801c5e73ba/vil98gup8f.m3u8?token=…",
+  "masterStatus": 200,
+  "isMaster": true,
+  "variantStatus": 200,
+  "encrypted": false,
+  "ads": false,
+  "segmentStatus": 200,
+  "segmentBytes": 150375216
  },
  {
   "source": "dailymotion",
@@ -21,7 +78,7 @@
  },
  {
   "name": "dailymotion x6upsb9 played from US (issued US)",
-  "master": "https://cdndirector.dailymotion.com/cdn/manifest/video/x6upsb9.m3u8?sec=f4K7hcAPESTzg2-3wcLvLL58mCw7HAsjPsmJCH33JEa3tUwcARduADgLll7VnQpweQz8",
+  "master": "https://cdndirector.dailymotion.com/cdn/manifest/video/x6upsb9.m3u8?sec=e16wjXWAuynmpMjEzqAVQjsaDIeWG1yUaFuZU1V2mXXZcBCJ8gBt_rO_dLLPP-P6MWXx",
   "masterStatus": 200,
   "isMaster": true,
   "variantStatus": 200,
@@ -32,7 +89,7 @@
  },
  {
   "name": "dailymotion x6upsb9 played from London (issued US)",
-  "master": "https://cdndirector.dailymotion.com/cdn/manifest/video/x6upsb9.m3u8?sec=f4K7hcAPESTzg2-3wcLvLL58mCw7HAsjPsmJCH33JEa3tUwcARduADgLll7VnQpweQz8",
+  "master": "https://cdndirector.dailymotion.com/cdn/manifest/video/x6upsb9.m3u8?sec=e16wjXWAuynmpMjEzqAVQjsaDIeWG1yUaFuZU1V2mXXZcBCJ8gBt_rO_dLLPP-P6MWXx",
   "masterStatus": 403
  },
  {
@@ -43,7 +100,7 @@
  },
  {
   "name": "dailymotion x70qlsa played from US (issued US)",
-  "master": "https://cdndirector.dailymotion.com/cdn/manifest/video/x70qlsa.m3u8?sec=b7A43ReBOT-oVXoaWIccHpF0cBTRbFyR8u8gBl9eMwlBA5xT0FRF1pEkTqg9YR_doUIv",
+  "master": "https://cdndirector.dailymotion.com/cdn/manifest/video/x70qlsa.m3u8?sec=W16cyxRA4x49SNlqsFsHKcJnSpOHC_7rMBn8BF2_vC3DhwT3q1sVkBFT9kGETwXlMUxC",
   "masterStatus": 200,
   "isMaster": true,
   "variantStatus": 200,
@@ -54,7 +111,7 @@
  },
  {
   "name": "dailymotion x70qlsa played from London (issued US)",
-  "master": "https://cdndirector.dailymotion.com/cdn/manifest/video/x70qlsa.m3u8?sec=b7A43ReBOT-oVXoaWIccHpF0cBTRbFyR8u8gBl9eMwlBA5xT0FRF1pEkTqg9YR_doUIv",
+  "master": "https://cdndirector.dailymotion.com/cdn/manifest/video/x70qlsa.m3u8?sec=W16cyxRA4x49SNlqsFsHKcJnSpOHC_7rMBn8BF2_vC3DhwT3q1sVkBFT9kGETwXlMUxC",
   "masterStatus": 403
  }
 ]
