@@ -53,7 +53,7 @@ function formatLink(link, record, state, data, title, now) {
     // Handed to the app as a YouTube video ID: Nuvio/Stremio play it with their own YouTube support.
     return {
       name: `Select Naija\n${provider.name}`,
-      title: [[`▶ ${name}`, part].filter(Boolean).join(' · '), [access, 'YouTube', checked].filter(Boolean).join(' · ')].join('\n'),
+      title: [[`▶ ${name}`, part].filter(Boolean).join(' · '), [link.source || 'YouTube', access, checked].filter(Boolean).join(' · ')].join('\n'),
       ytId: link.ytId,
       behaviorHints: { bingeGroup: `selectnaija-${link.provider}` },
     };
@@ -83,7 +83,10 @@ function formatLink(link, record, state, data, title, now) {
  * Order: in-app streams, then verified links by provider score, then stale links, then TMDB/JustWatch offers
  * for providers not already listed. Unverified and failing links are never returned.
  */
-async function buildStreams(type, streamId, data, { tmdbApiKey, fetchImpl, now = Date.now(), env = process.env } = {}) {
+async function buildStreams(type, requestedId, data, { tmdbApiKey, fetchImpl, now = Date.now(), env = process.env } = {}) {
+  // A title merged into another keeps working under its old ID (saved in someone's library or history).
+  const [rid, ...rest] = String(requestedId).split(':');
+  const streamId = data.alias?.has(rid) ? [data.alias.get(rid), ...rest].join(':') : requestedId;
   const { titleId } = parseStreamId(streamId);
   const title = data.byId.get(titleId);
   const shown = [];

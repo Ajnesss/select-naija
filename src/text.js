@@ -22,4 +22,17 @@ function slugify(value) {
   return normalize(value).replace(/ /g, '-');
 }
 
-module.exports = { normalize, containsPhrase, slugify };
+// Grouping key for one film or show: ignores accents, apostrophes, a plural s, and leftover words like
+// "Season", "Complete Season" or "Season Finale" ("Jenifa's Diary Season" = "Jenifas Diary").
+function groupKey(name) {
+  return normalize(String(name).replace(/['’`]/g, ''))
+    .replace(/\b(?:complete|compete|complet|compele)?\s*seasons?\b(?:\s*finale)?/g, ' ')
+    .replace(/\bfinal(?:e)?\b/g, ' ')
+    .split(' ')
+    .filter(Boolean)
+    .map((w) => w.replace(/s$/, ''))
+    .join(' ');
+}
+
+module.exports = {
+  groupKey, normalize, containsPhrase, slugify };

@@ -183,7 +183,7 @@ function queryCatalog(type, id, extra, data, now = Date.now()) {
 }
 
 function metaFor(id, data) {
-  const t = data.byId.get(id);
+  const t = data.byId.get(data.alias?.get(id) || id);
   if (!t) return null;
   const meta = {
     ...toPreview(t),

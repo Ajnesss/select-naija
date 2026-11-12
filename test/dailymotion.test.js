@@ -6,7 +6,7 @@ const fs = require('fs');
 const path = require('path');
 const { parseTitle, buildTitles, ukAllowed } = require('../scripts/discover-dailymotion');
 const { loadData } = require('../src/data');
-const { queryCatalog } = require('../src/catalog');
+const { queryCatalog, metaFor } = require('../src/catalog');
 const { buildStreams } = require('../src/streams');
 const { NOW, hoursAgo, writeData, baseData } = require('./helpers');
 
@@ -172,4 +172,27 @@ test('episodes without a season, name variants and numbered parts all land in on
   assert.equal(byName.Obidike.episodes.length, 2);
   assert.equal(titles.filter((t) => /jenifa/i.test(t.name)).length, 1);
   assert.equal(titles.length, 3);
+});
+
+test('the same film from several channels becomes one title with every stream; old IDs still work', async () => {
+  const dir = writeData();
+  const d = baseData();
+  d.providers.providers.push({ id: 'youtube', name: 'YouTube', access: 'free' }, { id: 'dailymotion', name: 'Dailymotion', access: 'ads' });
+  fs.writeFileSync(path.join(dir, 'providers.json'), JSON.stringify(d.providers));
+  const film = (id, channelName, year, vid) => ({ id, type: 'movie', name: 'Ikemba', year, languages: ['en'], channel: channelName, channelName, parts: [{ part: 1, videoId: vid, minutes: 90 }] });
+  fs.writeFileSync(path.join(dir, 'youtube.json'), JSON.stringify({ generatedAt: hoursAgo(1), titles: [
+    film('snaija-yt-ikemba-2023', 'BTAtv', 2023, 'aaaaaaaaaaa'),
+    film('snaija-yt-ikemba-2024', 'RealnollyTV', 2024, 'bbbbbbbbbbb'),
+    film('snaija-yt-ikemba-2019', 'Old channel', 2019, 'ccccccccccc'),
+  ] }));
+  const data = loadData(dir, { now: NOW, inAppOnly: true });
+  const rows = queryCatalog('movie', 'snaija-english', {}, data, NOW).filter((m) => m.name === 'Ikemba');
+  assert.equal(rows.length, 2); // 2023+2024 merged, 2019 is a different film
+  const kept = rows.find((m) => m.id !== 'snaija-yt-ikemba-2019').id;
+  const streams = await buildStreams('movie', kept, data, { now: NOW });
+  assert.equal(streams.length, 2);
+  assert.ok(streams.some((s) => /BTAtv/.test(s.title)) && streams.some((s) => /RealnollyTV/.test(s.title)));
+  const other = kept === 'snaija-yt-ikemba-2023' ? 'snaija-yt-ikemba-2024' : 'snaija-yt-ikemba-2023';
+  assert.equal((await buildStreams('movie', other, data, { now: NOW })).length, 2);
+  assert.equal(metaFor(other, data).id, kept);
 });
