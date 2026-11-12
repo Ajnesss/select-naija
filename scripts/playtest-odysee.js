@@ -43,11 +43,14 @@ async function head(url, viaUk) {
 async function main() {
   const urls = new Set();
   for (const q of QUERIES) {
-    const res = await fetch(`https://lighthouse.odysee.tv/search?s=${encodeURIComponent(q)}&size=100&from=0&claimType=file&mediaType=video`, { signal: AbortSignal.timeout(30000) });
+    for (const from of [0, 49, 98, 147]) {
+    const res = await fetch(`https://lighthouse.odysee.tv/search?s=${encodeURIComponent(q)}&size=49&from=${from}&claimType=file&mediaType=video`, { signal: AbortSignal.timeout(30000) });
     const body = await res.json().catch(() => null);
     const hits = Array.isArray(body) ? body : body?.results || body?.data || [];
     if (!hits.length) console.warn(`lighthouse ${q}: ${res.status} ${JSON.stringify(body).slice(0, 200)}`);
     for (const hit of hits) if (hit.name && (hit.claimId || hit.claim_id)) urls.add(`lbry://${hit.name}#${hit.claimId || hit.claim_id}`);
+    if (hits.length < 49) break;
+    }
   }
   const list = [...urls];
   const resolved = {};
