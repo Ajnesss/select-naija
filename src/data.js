@@ -219,6 +219,28 @@ function loadData(
 
   const linksByStreamId = new Map();
   const linksByTitle = new Map();
+  // TMDB details for channel titles (scripts/match-tmdb.js): real release year, poster, genres, IMDb ID.
+  const matches = readJson(path.join(dataDir, 'tmdb-matches.json'), {});
+  for (const t of titles) {
+    if (!/^snaija-(yt|dm|tubi)-/.test(t.id)) continue;
+    const m = matches[`${t.type}|${groupKey(t.name)}|${t.year || ''}`]?.match;
+    if (!m) continue;
+    if (m.year) {
+      t.year = m.year;
+      t.yearIsUpload = false;
+    }
+    if (m.poster) {
+      t.poster = m.poster;
+      t.posterShape = 'poster';
+    }
+    if (m.background) t.background = m.background;
+    if (m.description) t.description = m.description;
+    if (m.genres?.length) t.genres = m.genres;
+    if (m.runtime && t.type === 'movie') t.runtime = m.runtime;
+    t.tmdbId = m.tmdbId;
+    t.imdbId = m.imdbId || undefined;
+  }
+
   // One title per film: the same film from several channels or services (same name, same type, release
   // years at most a year apart) becomes one title carrying every stream. The kept title is the best
   // described one: an IMDb title first, then TMDB, Tubi, hand-curated, then the source with most streams.

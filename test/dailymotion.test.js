@@ -196,3 +196,21 @@ test('the same film from several channels becomes one title with every stream; o
   assert.equal((await buildStreams('movie', other, data, { now: NOW })).length, 2);
   assert.equal(metaFor(other, data).id, kept);
 });
+
+test('TMDB matching accepts only the same Nigerian title in a fitting year', async () => {
+  const { findMatch } = require('../scripts/match-tmdb');
+  const lookup = async (p) => {
+    if (p.startsWith('/search/')) return { results: [
+      { id: 1, title: 'Ikemba', original_language: 'en' },
+      { id: 2, title: 'Ikemba', original_language: 'en' },
+      { id: 3, title: 'Ikemba Returns', original_language: 'en' },
+    ] };
+    if (p.startsWith('/movie/1')) return { id: 1, release_date: '2010-01-01', production_countries: [{ iso_3166_1: 'US' }] };
+    return { id: 2, release_date: '2022-05-01', production_countries: [{ iso_3166_1: 'NG' }], poster_path: '/p.jpg', genres: [{ name: 'Drama' }], external_ids: { imdb_id: 'tt123' } };
+  };
+  const m = await findMatch({ type: 'movie', name: 'Ikemba', year: 2023, yearIsUpload: true }, 'k', lookup);
+  assert.equal(m.tmdbId, 2);
+  assert.equal(m.year, 2022);
+  assert.equal(m.imdbId, 'tt123');
+  assert.equal(await findMatch({ type: 'movie', name: 'Ikemba', year: 2015, yearIsUpload: false }, 'k', lookup), null);
+});

@@ -3,7 +3,12 @@ name: Nightly verify
 on:
   schedule:
     - cron: '17 9 * * *' # 09:17 UTC daily, just after the YouTube API quota resets (midnight Pacific)
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      skip_youtube:
+        description: Keep the stored YouTube lists (saves the daily API quota)
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -15,7 +20,7 @@ concurrency:
 jobs:
   verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -33,9 +38,14 @@ jobs:
       - name: Read approved video channels
         run: node scripts/discover-dailymotion.js
       - name: Read approved YouTube channels
+        if: ${{ !inputs.skip_youtube }}
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: node scripts/discover-youtube.js
+      - name: Match channel films to TMDB (years, posters, genres)
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: node scripts/match-tmdb.js
       - name: Check every link
         env:
           VERIFY_LOCATION: github-actions
