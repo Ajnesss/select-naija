@@ -314,7 +314,7 @@
    ],
    "owner": "Rockcelly TV (Anaele Ugochukwu Dominic)",
    "approved": true,
-   "search": "ROCKCELLY TV-NOLLYWOOD"
+   "search": "ROCKCELLY NOLLYWOOD FILMS TV"
   },
   {
    "platform": "youtube",
@@ -469,6 +469,96 @@
    "owner": "Mount Zion Faith Ministries (film ministry)",
    "approved": true,
    "search": "Kingdom Mount Zion Movies"
+  },
+  {
+   "platform": "youtube",
+   "name": "Saira Movies",
+   "languages": [
+    "ha"
+   ],
+   "owner": "Saira Movies (Aminu Saira), producer of Labarina",
+   "approved": true,
+   "search": "Saira Movies"
+  },
+  {
+   "platform": "youtube",
+   "name": "Bakori TV",
+   "languages": [
+    "ha"
+   ],
+   "owner": "Bakori TV, publisher of Izzar So",
+   "approved": true,
+   "search": "Bakori TV"
+  },
+  {
+   "platform": "youtube",
+   "name": "UK Entertainments",
+   "languages": [
+    "ha"
+   ],
+   "owner": "UK Entertainments, producer of Garwashi",
+   "approved": true,
+   "search": "UK Entertainments"
+  },
+  {
+   "platform": "youtube",
+   "name": "Abnur Entertainment",
+   "languages": [
+    "ha"
+   ],
+   "owner": "Abnur Entertainment, producer of Manyan Mata",
+   "approved": true,
+   "search": "Abnur Entertainment"
+  },
+  {
+   "platform": "youtube",
+   "name": "2 Effect Media",
+   "languages": [
+    "ha"
+   ],
+   "owner": "2 Effect Media, producer of Allura Cikin Ruwa",
+   "approved": true,
+   "search": "2 Effect Media"
+  },
+  {
+   "platform": "youtube",
+   "name": "Maishadda Global Resources",
+   "languages": [
+    "ha"
+   ],
+   "owner": "Abubakar Bashir Maishadda, producer of Wata Rana A Kano",
+   "approved": true,
+   "search": "Maishadda Global Resources"
+  },
+  {
+   "platform": "youtube",
+   "name": "FKD Production",
+   "languages": [
+    "ha"
+   ],
+   "owner": "Ali Nuhu's FKD Production",
+   "approved": true,
+   "search": "FKD Production"
+  },
+  {
+   "platform": "youtube",
+   "name": "AREWA24",
+   "languages": [
+    "ha"
+   ],
+   "owner": "AREWA24, Hausa TV network (Dadin Kowa, Kwana Casa'in)",
+   "approved": true,
+   "search": "AREWA24"
+  },
+  {
+   "platform": "youtube",
+   "name": "Lilin Baba",
+   "languages": [
+    "ha"
+   ],
+   "owner": "Lilin Baba, actor-producer (Wuff series)",
+   "approved": true,
+   "search": "Lilin Baba"
   }
  ]
 }

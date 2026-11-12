@@ -129,3 +129,28 @@ test('YouTube channel films join the catalogue with one ytId stream per part', a
   assert.deepEqual(streams.map((s) => s.ytId), ['aaaaaaaaaaa', 'bbbbbbbbbbb']);
   assert.match(streams[0].title, /Part 1 of 2/);
 });
+
+test('series episodes group into a series with per-episode streams', async () => {
+  const v = (id, title, minutes) => ({ id, title, duration: minutes * 60, created_time: 1700000000, geoblocking: ['allow'], status: 'published' });
+  const titles = buildTitles({ user: 'c', name: 'C', languages: ['en', 'yo'], platform: 'youtube' }, [
+    v('e1', 'Aiyetoro Town Season 2 Episode 19 - Busted', 30),
+    v('e2', 'Aiyetoro Town Season 2 Episode 20 - Caught', 31),
+    v('f1', 'Ikemba (Season 1){trending', 60),
+    v('f2', 'Ikemba (Season 2){trending', 62),
+  ], { idPrefix: 'snaija-yt' });
+  const show = titles.find((t) => t.type === 'series');
+  assert.deepEqual(show.episodes.map((e) => [e.season, e.episode, e.videoId]), [[2, 19, 'e1'], [2, 20, 'e2']]);
+  const film = titles.find((t) => t.type === 'movie');
+  assert.equal(film.name, 'Ikemba');
+  assert.deepEqual(film.parts.map((p) => p.videoId), ['f1', 'f2']);
+
+  const dir = writeData();
+  const d = baseData();
+  d.providers.providers.push({ id: 'youtube', name: 'YouTube', access: 'free' }, { id: 'dailymotion', name: 'Dailymotion', access: 'ads' });
+  fs.writeFileSync(path.join(dir, 'providers.json'), JSON.stringify(d.providers));
+  fs.writeFileSync(path.join(dir, 'youtube.json'), JSON.stringify({ generatedAt: hoursAgo(1), titles }));
+  const data = loadData(dir, { now: NOW, inAppOnly: true });
+  const ep = await buildStreams('series', `${show.id}:2:20`, data, { now: NOW });
+  assert.deepEqual(ep.map((s) => s.ytId), ['e2']);
+  assert.ok(queryCatalog('series', 'snaija-series', {}, data, NOW).some((m) => m.id === show.id));
+});

@@ -11,11 +11,12 @@
 const fs = require('fs');
 const path = require('path');
 const { buildTitles } = require('./discover-dailymotion');
+const { normalize } = require('../src/text');
 
 const ROOT = path.join(__dirname, '..');
 const OUT = path.join(ROOT, 'data', 'youtube.json');
 const API = 'https://www.googleapis.com/youtube/v3';
-const MAX_VIDEOS_PER_CHANNEL = 5000;
+const MAX_VIDEOS_PER_CHANNEL = 20000;
 
 async function api(pathAndQuery, key) {
   const res = await fetch(`${API}/${pathAndQuery}&key=${encodeURIComponent(key)}`, { signal: AbortSignal.timeout(30000) });
@@ -43,15 +44,21 @@ function geoblocking(rr) {
 // data/youtube-channels.json; the closest-named channel with the most subscribers is taken and logged.
 const RESOLVED = path.join(ROOT, 'data', 'youtube-channels.json');
 
+const norm = (x) => normalize(String(x)).replace(/[^a-z0-9]/g, '');
+const same = (a, b) => norm(a) === norm(b) || (norm(a).length >= 6 && (norm(a).includes(norm(b)) || norm(b).includes(norm(a))));
+
 async function channelIdFor(channel, key, cache) {
   if (channel.channelId) return channel.channelId;
-  if (cache[channel.search]) return cache[channel.search].id;
+  if (cache[channel.search]) {
+    const c = cache[channel.search];
+    c.exactName = c.exactName || same(c.title, channel.search);
+    return c.id;
+  }
   const body = await api(`search?part=snippet&type=channel&maxResults=5&q=${encodeURIComponent(channel.search)}`, key);
-  const norm = (x) => String(x).toLowerCase().replace(/[^a-z0-9]/g, '');
   const hits = (body.items || []).map((i) => ({ id: i.snippet.channelId, title: i.snippet.channelTitle }));
-  const exact = hits.find((h) => norm(h.title) === norm(channel.search)) || hits[0];
+  const exact = hits.find((h) => same(h.title, channel.search)) || hits[0];
   if (!exact) throw new Error(`no channel found for "${channel.search}"`);
-  cache[channel.search] = { ...exact, exactName: norm(exact.title) === norm(channel.search), at: new Date().toISOString() };
+  cache[channel.search] = { ...exact, exactName: same(exact.title, channel.search), at: new Date().toISOString() };
   return exact.id;
 }
 
