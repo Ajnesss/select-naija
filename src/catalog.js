@@ -34,6 +34,7 @@ function accessOptions(title, data, now) {
 }
 
 function linksForTitle(titleId, data) {
+  if (data.linksByTitle) return data.linksByTitle.get(titleId) || [];
   const out = [];
   for (const [key, links] of data.linksByStreamId) {
     if (key === titleId || key.startsWith(`${titleId}:`)) out.push(...links);
@@ -41,28 +42,53 @@ function linksForTitle(titleId, data) {
   return out;
 }
 
+// Which titles are available, and their filter labels, worked out once a minute per loaded data set:
+// with tens of thousands of titles, doing it per request would take seconds.
+const CACHE_MS = 60 * 1000;
+const caches = new WeakMap();
+
+function snapshot(data, now) {
+  const c = caches.get(data);
+  if (c && Math.abs(now - c.at) < CACHE_MS) return c;
+  const available = new Set();
+  for (const t of data.titles) {
+    if (linksForTitle(t.id, data).some((l) => isShown(linkState(data.status.links[l.id], now)))) available.add(t.id);
+  }
+  const fresh = { at: now, available, labels: new Map(), rowOptions: new Map(), sorted: new Map() };
+  caches.set(data, fresh);
+  return fresh;
+}
+
 // A title appears in rows only when at least one of its links is currently shown.
 function isAvailable(title, data, now) {
-  return linksForTitle(title.id, data).some((l) => isShown(linkState(data.status.links[l.id], now)));
+  return snapshot(data, now).available.has(title.id);
 }
 
 // Filter labels a title answers to: its genres, languages, decade, category and access.
 function filterLabels(title, data, now) {
+  const cache = snapshot(data, now).labels;
+  if (cache.has(title.id)) return cache.get(title.id);
   const labels = [...(title.genres || [])];
   for (const l of title.languages || []) if (LANGUAGES[l]) labels.push(LANGUAGES[l]);
   const decade = decadeOf(title.year);
   if (decade) labels.push(decade);
   labels.push(...accessOptions(title, data, now));
+  cache.set(title.id, labels);
   return labels;
 }
 
 function rowOptions(row, data, now) {
+  const cache = snapshot(data, now).rowOptions;
+  if (cache.has(row.id)) return cache.get(row.id);
   const set = new Set();
   for (const t of data.titles) {
     if (t.type !== row.type || t.category === 'test' || !row.match(t)) continue;
+    if (!isAvailable(t, data, now)) continue;
     for (const label of filterLabels(t, data, now)) set.add(label);
   }
-  return [...set].sort();
+  const options = [...set].sort();
+  cache.set(row.id, options);
+  return options;
 }
 
 function manifestCatalogs(data, now = Date.now(), { diagnostics = false } = {}) {
@@ -144,11 +170,15 @@ function queryCatalog(type, id, extra, data, now = Date.now()) {
 
   const row = ROWS.find((r) => r.id === id && r.type === type);
   if (!row) return [];
-  let list = data.titles.filter(
-    (t) => t.type === type && t.category !== 'test' && row.match(t) && isAvailable(t, data, now),
-  );
-  if (extra.genre) list = list.filter((t) => filterLabels(t, data, now).includes(extra.genre));
-  list.sort((a, b) => (b.year || 0) - (a.year || 0) || a.name.localeCompare(b.name));
+  const snap = snapshot(data, now);
+  const key = `${row.id}|${extra.genre || ''}`;
+  let list = snap.sorted.get(key);
+  if (!list) {
+    list = data.titles.filter((t) => t.type === type && t.category !== 'test' && row.match(t) && isAvailable(t, data, now));
+    if (extra.genre) list = list.filter((t) => filterLabels(t, data, now).includes(extra.genre));
+    list.sort((a, b) => (b.year || 0) - (a.year || 0) || a.name.localeCompare(b.name));
+    snap.sorted.set(key, list);
+  }
   return list.slice(skip, skip + PAGE_SIZE).map(toPreview);
 }
 
