@@ -1,0 +1,22 @@
+{
+ "name": "afriplay",
+ "home": {
+  "url": "https://afriplay.tv/",
+  "finalUrl": "https://afriplay.tv/",
+  "status": 200,
+  "title": "AFRIPLAY",
+  "text": "Sign in Get endless entertainment, series, live events, TV Shows and the movies you love. Sign Up To Enjoy Must-See TV Sign Up All Your Devices Stream movies, series, live Channels entertainment, across all your devices from one subscription. From GHC5. Data Friendly Save your data. Enjoy for longer. Watch at your preferred streaming quality. Frequently asked questions WHAT IS AFRIPLAY? WHERE CAN I WATCH? WHAT CAN I WATCH? CAN I WATCH WITHOUT DATA OR WIFI? CAN I CATCH UP OR RECORD TV PROGRAMS? WHAT PLANS ARE AVAILABLE? Featured Movies Live TV Our Policy ©2026 All Rights Reserved",
+  "walls": [
+   "sign in",
+   "subscription"
+  ],
+  "media": [
+   "https://glonigeria.tvanywhereafrica.com:28182/auth-streaming/2,13cfa118a055857531b245f6ab3814e44bbecd1b,1671546492,afpgh1111111111,0-New_Money_Trailer_3_1080p-h"
+  ],
+  "drm": [],
+  "players": []
+ },
+ "titleLinksFound": 0,
+ "titleLinkSamples": [],
+ "titles": []
+}
