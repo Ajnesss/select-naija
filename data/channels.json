@@ -1,5 +1,5 @@
 {
- "_note": "Video channels Select Naija reads. approved=true only after checking the channel is the rights-holder or a licensed distributor (Dailymotion 'verified' at minimum). See research/SOURCES.md. ownerAuthorised=true plus the owner's Partner API key (env <credentialsEnv>_CLIENT_ID / _CLIENT_SECRET on the server) makes the channel's films play in Nuvio; see src/resolvers/dailymotion.js.",
+ "_note": "Video channels Select Naija reads. YouTube: approved=true when the channel belongs to a named producer or distributor (the rights-holder publishing its own films), from public reporting (YNaija's 50 Nollywood channels; Nairametrics' producer-owned channels, Aug 2025). Unconfirmed owners stay approved=false. Dailymotion: verified channels only; ownerAuthorised plus the owner's API key enables in-app playback there.",
  "channels": [
   {
    "platform": "dailymotion",
@@ -48,6 +48,427 @@
    "why": "Partner but not verified; mixed uploads (music, episodes).",
    "ownerAuthorised": false,
    "credentialsEnv": "DM_NOLLYEXTRA"
+  },
+  {
+   "platform": "youtube",
+   "name": "Omoni Oboli TV",
+   "languages": [
+    "en"
+   ],
+   "owner": "Omoni Oboli, producer",
+   "approved": true,
+   "channelId": "UCbvdwZvZgdl-pPyomEmaEfg"
+  },
+  {
+   "platform": "youtube",
+   "name": "APATATV+",
+   "languages": [
+    "yo"
+   ],
+   "owner": "ApataTV+, Yoruba film distributor",
+   "approved": true,
+   "channelId": "UC83tx3zGcvQ_rXzsZigTnEA"
+  },
+  {
+   "platform": "youtube",
+   "name": "Ruth Kadiri 247",
+   "languages": [
+    "en"
+   ],
+   "owner": "Ruth Kadiri, producer",
+   "approved": true,
+   "search": "Ruth Kadiri 247"
+  },
+  {
+   "platform": "youtube",
+   "name": "Uchenna Mbunabo TV",
+   "languages": [
+    "en",
+    "ig"
+   ],
+   "owner": "Uchenna Mbunabo, producer",
+   "approved": true,
+   "search": "Uchenna Mbunabo TV"
+  },
+  {
+   "platform": "youtube",
+   "name": "Maurice Sam TV",
+   "languages": [
+    "en"
+   ],
+   "owner": "Maurice Sam, producer",
+   "approved": true,
+   "search": "Maurice Sam TV"
+  },
+  {
+   "platform": "youtube",
+   "name": "FAAN TV",
+   "languages": [
+    "en",
+    "yo"
+   ],
+   "owner": "Funke Akindele (FAAN), producer",
+   "approved": true,
+   "search": "FAAN TV"
+  },
+  {
+   "platform": "youtube",
+   "name": "Bimbo Ademoye TV",
+   "languages": [
+    "en",
+    "yo"
+   ],
+   "owner": "Bimbo Ademoye, producer",
+   "approved": true,
+   "search": "Bimbo Ademoye TV"
+  },
+  {
+   "platform": "youtube",
+   "name": "Sandra Okunzuwa TV",
+   "languages": [
+    "en"
+   ],
+   "owner": "Sandra Okunzuwa, producer",
+   "approved": true,
+   "search": "Sandra Okunzuwa TV"
+  },
+  {
+   "platform": "youtube",
+   "name": "Sonia Uche TV",
+   "languages": [
+    "en"
+   ],
+   "owner": "Sonia Uche, producer",
+   "approved": true,
+   "search": "Sonia Uche TV"
+  },
+  {
+   "platform": "youtube",
+   "name": "Georgina Ibeh TV",
+   "languages": [
+    "en"
+   ],
+   "owner": "Georgina Ibeh, producer",
+   "approved": true,
+   "search": "Georgina Ibeh TV"
+  },
+  {
+   "platform": "youtube",
+   "name": "Uduak Isong TV",
+   "languages": [
+    "en"
+   ],
+   "owner": "Uduak Isong Oguamanam, producer",
+   "approved": true,
+   "search": "Uduak Isong TV"
+  },
+  {
+   "platform": "youtube",
+   "name": "Uche Montana TV",
+   "languages": [
+    "en"
+   ],
+   "owner": "Uche Montana, producer",
+   "approved": true,
+   "search": "Uche Montana TV"
+  },
+  {
+   "platform": "youtube",
+   "name": "ChinneyLove Eze TV",
+   "languages": [
+    "en"
+   ],
+   "owner": "Chinneylove Eze, producer",
+   "approved": true,
+   "search": "ChinneyLove Eze TV"
+  },
+  {
+   "platform": "youtube",
+   "name": "Frederick Leonard TV",
+   "languages": [
+    "en"
+   ],
+   "owner": "Frederick Leonard, producer",
+   "approved": true,
+   "search": "Frederick Leonard TV"
+  },
+  {
+   "platform": "youtube",
+   "name": "Nollywood RealnollyTV",
+   "languages": [
+    "en"
+   ],
+   "owner": "Realnollymovies International Agencies Ltd",
+   "approved": true,
+   "search": "Nollywood RealnollyTV"
+  },
+  {
+   "platform": "youtube",
+   "name": "ibakatv",
+   "languages": [
+    "en",
+    "yo"
+   ],
+   "owner": "iBAKA Entertainment",
+   "approved": true,
+   "search": "ibakatv"
+  },
+  {
+   "platform": "youtube",
+   "name": "LibraTv",
+   "languages": [
+    "yo"
+   ],
+   "owner": "Libra Multimedia Ltd (Lekan Wasiudeen)",
+   "approved": true,
+   "search": "LibraTv"
+  },
+  {
+   "platform": "youtube",
+   "name": "OrjiTv",
+   "languages": [
+    "en",
+    "ig"
+   ],
+   "owner": "Kingsley Okereke, filmmaker",
+   "approved": true,
+   "search": "OrjiTv"
+  },
+  {
+   "platform": "youtube",
+   "name": "Ken Erics TV",
+   "languages": [
+    "en",
+    "ig"
+   ],
+   "owner": "Ken Erics Ugo, producer",
+   "approved": true,
+   "search": "Ken Erics TV"
+  },
+  {
+   "platform": "youtube",
+   "name": "Regina Daniels TV",
+   "languages": [
+    "en"
+   ],
+   "owner": "Regina Daniels, producer",
+   "approved": true,
+   "search": "Regina Daniels TV"
+  },
+  {
+   "platform": "youtube",
+   "name": "AFOREVO STAGE",
+   "languages": [
+    "en"
+   ],
+   "owner": "Murphy Ben International (Aforevo)",
+   "approved": true,
+   "search": "AFOREVO STAGE"
+  },
+  {
+   "platform": "youtube",
+   "name": "Nollywoodpicturestv",
+   "languages": [
+    "en"
+   ],
+   "owner": "Nollymovies Entertainment Ltd",
+   "approved": true,
+   "search": "Nollywoodpicturestv"
+  },
+  {
+   "platform": "youtube",
+   "name": "Bconceptnetwork",
+   "languages": [
+    "en"
+   ],
+   "owner": "Blessing Effiom Egbe, producer",
+   "approved": true,
+   "search": "Bconceptnetwork"
+  },
+  {
+   "platform": "youtube",
+   "name": "Neptune3 Studios",
+   "languages": [
+    "en"
+   ],
+   "owner": "Neptune3 Studios",
+   "approved": true,
+   "search": "Neptune3 Studios"
+  },
+  {
+   "platform": "youtube",
+   "name": "Nigerian Movies Plus",
+   "languages": [
+    "en"
+   ],
+   "owner": "Aforevo (Murphy Ben International)",
+   "approved": true,
+   "search": "Nigerian Movies Plus"
+  },
+  {
+   "platform": "youtube",
+   "name": "ROCKCELLY TV-NOLLYWOOD",
+   "languages": [
+    "en",
+    "ig"
+   ],
+   "owner": "Rockcelly TV (Anaele Ugochukwu Dominic)",
+   "approved": true,
+   "search": "ROCKCELLY TV-NOLLYWOOD"
+  },
+  {
+   "platform": "youtube",
+   "name": "BTAtv",
+   "languages": [
+    "en"
+   ],
+   "owner": "BTA Investment Ltd",
+   "approved": true,
+   "search": "BTAtv"
+  },
+  {
+   "platform": "youtube",
+   "name": "Global Update Movies Nollywood",
+   "languages": [
+    "en",
+    "ig"
+   ],
+   "owner": "Kenneth Okonkwo, Global Update Movies",
+   "approved": true,
+   "search": "Global Update Movies Nollywood"
+  },
+  {
+   "platform": "youtube",
+   "name": "EbonyLife Films",
+   "languages": [
+    "en"
+   ],
+   "owner": "EbonyLife Media",
+   "approved": true,
+   "search": "EbonyLife Films"
+  },
+  {
+   "platform": "youtube",
+   "name": "Oluchi Afundu TV",
+   "languages": [
+    "en"
+   ],
+   "owner": "Oluchi Afundu, Elidvic Movies",
+   "approved": true,
+   "search": "Oluchi Afundu TV"
+  },
+  {
+   "platform": "youtube",
+   "name": "Eddie Watson TV",
+   "languages": [
+    "en"
+   ],
+   "owner": "Eddie Watson, producer",
+   "approved": true,
+   "search": "Eddie Watson TV"
+  },
+  {
+   "platform": "youtube",
+   "name": "Uche Nancy TV",
+   "languages": [
+    "en"
+   ],
+   "owner": "Uche Nancy Production",
+   "approved": true,
+   "search": "Uche Nancy TV"
+  },
+  {
+   "platform": "youtube",
+   "name": "TK OPOMULERO",
+   "languages": [
+    "yo"
+   ],
+   "owner": "Tunde Kelani, Mainframe Films",
+   "approved": true,
+   "search": "TK OPOMULERO"
+  },
+  {
+   "platform": "youtube",
+   "name": "CHINENYE NNEBE MOVIES",
+   "languages": [
+    "en",
+    "ig"
+   ],
+   "owner": "Chinenye Nnebe, actress-producer",
+   "approved": true,
+   "search": "CHINENYE NNEBE MOVIES"
+  },
+  {
+   "platform": "youtube",
+   "name": "Funke Akindele TV",
+   "languages": [
+    "en",
+    "yo"
+   ],
+   "owner": "Funke Akindele",
+   "approved": true,
+   "search": "Funke Akindele TV"
+  },
+  {
+   "platform": "youtube",
+   "name": "YORUBA MOVIES PLUS TV",
+   "languages": [
+    "yo"
+   ],
+   "owner": "owner unconfirmed",
+   "approved": false,
+   "search": "YORUBA MOVIES PLUS TV"
+  },
+  {
+   "platform": "youtube",
+   "name": "Nollywood Vintage TV",
+   "languages": [
+    "en"
+   ],
+   "owner": "owner unconfirmed",
+   "approved": false,
+   "search": "Nollywood Vintage TV"
+  },
+  {
+   "platform": "youtube",
+   "name": "YORUBAPREMIUM+",
+   "languages": [
+    "yo"
+   ],
+   "owner": "owner unconfirmed",
+   "approved": false,
+   "search": "YORUBAPREMIUM+"
+  },
+  {
+   "platform": "youtube",
+   "name": "Yoruba Pictures TV",
+   "languages": [
+    "yo"
+   ],
+   "owner": "owner unconfirmed",
+   "approved": false,
+   "search": "Yoruba Pictures TV"
+  },
+  {
+   "platform": "youtube",
+   "name": "NollyRok Studios",
+   "languages": [
+    "en"
+   ],
+   "owner": "US-based distributor, unnamed",
+   "approved": false,
+   "search": "NollyRok Studios"
+  },
+  {
+   "platform": "youtube",
+   "name": "Kingdom Mount Zion Movies",
+   "languages": [
+    "en",
+    "yo"
+   ],
+   "owner": "Mount Zion Faith Ministries (film ministry)",
+   "approved": true,
+   "search": "Kingdom Mount Zion Movies"
   }
  ]
 }

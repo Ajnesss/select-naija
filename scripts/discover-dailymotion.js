@@ -97,7 +97,7 @@ async function channelVideos(channel, fetchImpl) {
 }
 
 /** Groups a channel's videos into films. Pure, so it can be tested without the network. */
-function buildTitles(channel, videos) {
+function buildTitles(channel, videos, { idPrefix = 'snaija-dm' } = {}) {
   const groups = new Map();
   for (const v of videos) {
     if (v.private || (v.status && v.status !== 'published')) continue;
@@ -122,7 +122,7 @@ function buildTitles(channel, videos) {
     const first = byPart.get(parts[0].part);
     const year = vids.map((v) => v.year).find(Boolean) || new Date(first.created_time * 1000).getUTCFullYear();
     titles.push({
-      id: `snaija-dm-${slugify(parsed.name)}-${year}`,
+      id: `${idPrefix}-${slugify(parsed.name)}-${year}`,
       type: 'movie',
       name: parsed.name,
       aliases: [],
@@ -136,7 +136,7 @@ function buildTitles(channel, videos) {
       description: (first.description || '').replace(/\s+/g, ' ').trim().slice(0, 400) || undefined,
       poster: first.thumbnail_720_url || null,
       posterShape: 'landscape',
-      sources: { all: `Dailymotion channel ${channel.name} (${channel.user})` },
+      sources: { all: `${channel.platform === 'youtube' ? 'YouTube' : 'Dailymotion'} channel ${channel.name} (${channel.user})` },
       channel: channel.user,
       parts,
     });
