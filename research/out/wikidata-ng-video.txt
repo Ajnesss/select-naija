@@ -1,2 +1,266 @@
-URL: https://query.wikidata.org/sparql?query=SELECT%20%3Ff%20%3FfLabel%20%3Fvideo%20%3Fia%20%3Flicense%20WHERE%20%7B%20%3Ff%20wdt%3AP31/wdt%3AP279%2A%20wd%3AQ11424%3B%20wdt%3AP495%20wd%3AQ1033.%20OPTIONAL%7B%3Ff%20wdt%3AP10%20%3Fvideo%7D%20OPTIONAL%7B%3Ff%20wdt%3AP724%20%3Fia%7D%20OPTIONAL%7B%3Ff%20wdt%3AP275%20%3Flicense%7D%20FILTER%28BOUND%28%3Fvideo%29%7C%7CBOUND%28%3Fia%29%29%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%20%7D
-ERROR: The operation was aborted due to timeout
+URL: https://query.wikidata.org/sparql?query=SELECT%20%3Ff%20%3FfLabel%20%3Fvideo%20%3Fia%20WHERE%20%7B%20%3Ff%20wdt%3AP495%20wd%3AQ1033.%20%7B%20%3Ff%20wdt%3AP10%20%3Fvideo%20%7D%20UNION%20%7B%20%3Ff%20wdt%3AP724%20%3Fia%20%7D%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%20%7D
+FINAL: https://query.wikidata.org/sparql?query=SELECT%20%3Ff%20%3FfLabel%20%3Fvideo%20%3Fia%20WHERE%20%7B%20%3Ff%20wdt%3AP495%20wd%3AQ1033.%20%7B%20%3Ff%20wdt%3AP10%20%3Fvideo%20%7D%20UNION%20%7B%20%3Ff%20wdt%3AP724%20%3Fia%20%7D%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%20%7D
+STATUS: 200
+TYPE: application/sparql-results+json;charset=utf-8
+LENGTH: 6295
+
+{
+  "head" : {
+    "vars" : [ "f", "fLabel", "video", "ia" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "f" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7763553"
+      },
+      "ia" : {
+        "type" : "literal",
+        "value" : "shadowspeaker00okor_0"
+      },
+      "fLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "The Shadow Speaker"
+      }
+    }, {
+      "f" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q51403377"
+      },
+      "ia" : {
+        "type" : "literal",
+        "value" : "bulletinnigerian8197nige"
+      },
+      "fLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bulletin - Nigerian Ornithologists' Society"
+      }
+    }, {
+      "f" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q51403485"
+      },
+      "ia" : {
+        "type" : "literal",
+        "value" : "malimbus1219791980west"
+      },
+      "fLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Malimbus : journal of the West African Ornithological Society"
+      }
+    }, {
+      "f" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q55070631"
+      },
+      "ia" : {
+        "type" : "literal",
+        "value" : "underudalatrees0000okpa"
+      },
+      "fLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Under the Udala Trees"
+      }
+    }, {
+      "f" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q111352684"
+      },
+      "ia" : {
+        "type" : "literal",
+        "value" : "basicompanymode00saro"
+      },
+      "fLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Basi and Company"
+      }
+    }, {
+      "f" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q111366650"
+      },
+      "ia" : {
+        "type" : "literal",
+        "value" : "bottledleopard00chuk"
+      },
+      "fLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "The Bottled Leopard"
+      }
+    }, {
+      "f" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q121268449"
+      },
+      "ia" : {
+        "type" : "literal",
+        "value" : "tomorrowibecomew0000odaf"
+      },
+      "fLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tomorrow I Become a Woman"
+      }
+    }, {
+      "f" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q111497968"
+      },
+      "ia" : {
+        "type" : "literal",
+        "value" : "chiefhonourablem0000aluk"
+      },
+      "fLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chief the Honourable minister"
+      }
+    }, {
+      "f" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q111289941"
+      },
+      "ia" : {
+        "type" : "literal",
+        "value" : "housedivided00nwak"
+      },
+      "fLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "A House Divided"
+      }
+    }, {
+      "f" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q111305101"
+      },
+      "ia" : {
+        "type" : "literal",
+        "value" : "stillborn00zayn"
+      },
+      "fLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "The Stillborn"
+      }
+    }, {
+      "f" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q111318383"
+      },
+      "ia" : {
+        "type" : "literal",
+        "value" : "sunsetatdawnnove00ikev"
+      },
+      "fLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sunset at Dawn"
+      }
+    }, {
+      "f" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q111535433"
+      },
+      "ia" : {
+        "type" : "literal",
+        "value" : "prayerrain0000drdk"
+      },
+      "fLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Prayer Rain"
+      }
+    }, {
+      "f" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q111420132"
+      },
+      "ia" : {
+        "type" : "literal",
+        "value" : "holdingtalks00roti"
+      },
+      "fLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Holding Talks"
+      }
+    }, {
+      "f" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q117074058"
+      },
+      "fLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Adamma Dance"
+      },
+      "video" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/ADAMMA%20DANCE.webm"
+      }
+    }, {
+      "f" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q117074112"
+      },
+      "fLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ọkanga Masquerade Dance"
+      },
+      "video" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/%E1%BB%8CKANGA%20DANCE.webm"
+      }
+    }, {
+      "f" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q117074341"
+      },
+      "fLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ogbongelege Dance"
+      },
+      "video" : {
+        "type" : "uri",
+        "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/OGBONGELENGE%20DANCE.webm"
+      }
+    }, {
+      "f" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q109346837"
+      },
+      "ia" : {
+        "type" : "literal",
+        "value" : "danda0000nwan"
+      },
+      "fLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Danda"
+      }
+    }, {
+      "f" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q141592659"
+      },
+      "ia" : {
+        "type" : "literal",
+        "value" : "segifindsradio0000saro"
+      },
+      "fLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Segi Finds the Radio"
+      }
+    } ]
+  }
+}
