@@ -21,6 +21,8 @@ const ALLOWED_HOSTS = [
   'kallo.ng',
   'ipinfo.io',
 ];
+// Stream hosts, for playback tests: can a stream address be played from another place than where it was issued?
+const ALLOWED_SUFFIXES = ['.tubi.video', '.dailymotion.com', '.dmcdn.net', '.dailymotion.net'];
 const MAX_BYTES = 3 * 1024 * 1024;
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36 SelectNaijaUK/1.0';
 
@@ -37,7 +39,8 @@ module.exports = async function handler(req, res) {
     res.status(400).json({ error: 'bad url' });
     return;
   }
-  if (target.protocol !== 'https:' || !ALLOWED_HOSTS.includes(target.hostname)) {
+  const hostOk = ALLOWED_HOSTS.includes(target.hostname) || ALLOWED_SUFFIXES.some((x) => target.hostname.endsWith(x));
+  if (target.protocol !== 'https:' || !hostOk) {
     res.status(403).json({ error: `not allowed: ${target.protocol}//${target.hostname}` });
     return;
   }
