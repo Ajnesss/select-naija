@@ -56,3 +56,30 @@ The requirement is playback inside Nuvio's own player, so each source was tested
 Trade-off to decide: Tubi and Dailymotion fund free films with ads shown by their own players. Playing their
 plain streams in Nuvio involves no DRM, login or paywall, but skips those ads and is against both services'
 terms of use, which only allow viewing through their apps and players.
+
+## Authorisation check (12 Nov 2026)
+
+**Dailymotion.** Terms of use: no automated access without Dailymotion's written approval (2.6), no
+blocking ads (1.10a), no extraction without written authorisation from Dailymotion *or the uploader* (6.1 ix).
+Authorised route: Dailymotion's API lets a channel owner, with a Private API key that has the "Generate
+Stream URLs" permission, create stream addresses for their own videos, including addresses with
+`no_ip_lock=1` and `no_expire=1` for delivery to their own audience. So an owner such as Extra Nolly TV or
+iBAKATV could authorise and supply in-app streams. The IP lock seen in testing is the default for public
+playback; it isn't something to work around.
+
+**Tubi.** No public or third-party playback API. Its partner integrations are device platforms (Fire TV,
+Roku) that open the Tubi app, plus ad-tech. Its terms bar automated access. Only route: license the films
+from their owners (the distributors who supply Tubi), not from Tubi.
+
+**Live channels (per broadcaster).** Streams below are published by or for the broadcaster for free
+viewing. None states third-party apps may use them; reliability depends on the address staying put.
+
+| Channel | Content | Stream host | Assessment |
+| --- | --- | --- | --- |
+| Wazobia Max (Nigeria, Port Harcourt) | Pidgin, Hausa, Yoruba, Igbo entertainment | `wazobia.live` (broadcaster's own) | Strong candidate |
+| News Central | News | `newscentral.ng` (own) | Candidate |
+| Arise News | News | Arise's own CDN, on its live page | Candidate |
+| Rave TV, Itage TV, Silverbird News 24, Advocate | Entertainment / news | ViewMedia (BozzTV) distribution accounts | Candidate; distributor-hosted |
+| Superscreen TV | Entertainment | getstreamhosting (channel's hosting account) | Candidate |
+| Waffi TV | Delta entertainment, Pidgin | 5centscdn (channel's hosting account) | Candidate |
+| Channels TV, TVC News, Soundcity | News / music | YouTube only | Excluded (YouTube) |
