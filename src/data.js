@@ -31,8 +31,20 @@ function readJson(file, fallback) {
 // Free only: Fortune's mum has no paid services, so links that need a subscription or rental are left out
 // and titles available only that way disappear from the rows. Set SELECT_NAIJA_FREE_ONLY=0 to show them.
 const FREE_ACCESS = new Set(['free', 'ads']);
+const { credentialsFor } = require('./resolvers/dailymotion');
 
-function loadData(dataDir, { now = Date.now(), freeOnly = process.env.SELECT_NAIJA_FREE_ONLY !== '0' } = {}) {
+// In-app only: Select Naija shows a stream only if it plays inside Nuvio's own player. Links that open a
+// browser or another app are kept in the data (and still checked) but never shown, and titles with no
+// in-app stream leave the rows. SELECT_NAIJA_IN_APP_ONLY=0 shows external links again.
+function loadData(
+  dataDir,
+  {
+    now = Date.now(),
+    freeOnly = process.env.SELECT_NAIJA_FREE_ONLY !== '0',
+    inAppOnly = process.env.SELECT_NAIJA_IN_APP_ONLY !== '0',
+    env = process.env,
+  } = {},
+) {
   const catalogue = readJson(path.join(dataDir, 'catalogue.json'));
   const links = readJson(path.join(dataDir, 'links.json'));
   const providers = readJson(path.join(dataDir, 'providers.json'));
@@ -98,6 +110,10 @@ function loadData(dataDir, { now = Date.now(), freeOnly = process.env.SELECT_NAI
   // links grouped by the stream id Nuvio asks for: "<titleId>" or "<titleId>:<season>:<episode>"
   // Films from approved video channels (scripts/discover-dailymotion.js): one link per part.
   const dm = readJson(path.join(dataDir, 'dailymotion.json'), { titles: [] });
+  const channels = readJson(path.join(dataDir, 'channels.json'), { channels: [] }).channels || [];
+  const authorisedChannels = new Map(
+    channels.filter((c) => c.platform === 'dailymotion' && c.ownerAuthorised && credentialsFor(c, env)).map((c) => [c.user, c]),
+  );
   for (const t of dm.titles || []) {
     if (!t?.id || !t.name || byId.has(t.id)) continue;
     titles.push(t);
@@ -105,11 +121,14 @@ function loadData(dataDir, { now = Date.now(), freeOnly = process.env.SELECT_NAI
     const total = (t.parts || []).length;
     for (const part of t.parts || []) {
       const id = `dm:${part.videoId}`;
+      const owner = authorisedChannels.get(t.channel);
       extraLinks.push({
         id,
         titleId: t.id,
         provider: 'dailymotion',
-        kind: 'external',
+        // Owner-authorised channel: a stream address from the owner's own API key, played in Nuvio.
+        kind: owner ? 'direct' : 'external',
+        resolve: owner ? { via: 'dailymotion-owner', videoId: part.videoId, channel: owner } : undefined,
         url: `https://www.dailymotion.com/video/${part.videoId}`,
         label: total > 1 ? `Part ${part.part} of ${total}` : undefined,
         order: part.part,
@@ -177,6 +196,7 @@ function loadData(dataDir, { now = Date.now(), freeOnly = process.env.SELECT_NAI
   const curatedProviders = new Set(curated.map((l) => `${l.titleId}|${l.provider}`));
   const allLinks = [...curated, ...extraLinks.filter((l) => !curatedProviders.has(`${l.titleId}|${l.provider}`))];
   for (const link of allLinks) {
+    if (inAppOnly && link.kind !== 'direct') continue;
     if (!providerById.has(link.provider)) throw new Error(`Link ${link.id} uses unknown provider ${link.provider}`);
     const key = link.season != null ? `${link.titleId}:${link.season}:${link.episode}` : link.titleId;
     if (!linksByStreamId.has(key)) linksByStreamId.set(key, []);
@@ -200,6 +220,7 @@ function loadData(dataDir, { now = Date.now(), freeOnly = process.env.SELECT_NAI
     linksByStreamId,
     allLinks,
     freeOnly,
+    inAppOnly,
     discoveredGeneratedAt: discovered.generatedAt || null,
     status: {
       links: mergedLinks,

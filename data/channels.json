@@ -1,5 +1,5 @@
 {
- "_note": "Video channels Select Naija reads. approved=true only after checking the channel is the rights-holder or a licensed distributor (Dailymotion 'verified' at minimum). See research/SOURCES.md.",
+ "_note": "Video channels Select Naija reads. approved=true only after checking the channel is the rights-holder or a licensed distributor (Dailymotion 'verified' at minimum). See research/SOURCES.md. ownerAuthorised=true plus the owner's Partner API key (env <credentialsEnv>_CLIENT_ID / _CLIENT_SECRET on the server) makes the channel's films play in Nuvio; see src/resolvers/dailymotion.js.",
  "channels": [
   {
    "platform": "dailymotion",
@@ -9,7 +9,9 @@
     "en"
    ],
    "approved": true,
-   "why": "Dailymotion-verified partner channel; 5,800+ Nollywood films published free by the channel."
+   "why": "Dailymotion-verified partner channel; 5,800+ Nollywood films published free by the channel.",
+   "ownerAuthorised": false,
+   "credentialsEnv": "DM_REALNOLLYWOODMOVIES"
   },
   {
    "platform": "dailymotion",
@@ -19,7 +21,9 @@
     "yo"
    ],
    "approved": true,
-   "why": "Dailymotion-verified; official channel of distributor iBAKATV."
+   "why": "Dailymotion-verified; official channel of distributor iBAKATV.",
+   "ownerAuthorised": false,
+   "credentialsEnv": "DM_YORUBAPLAY"
   },
   {
    "platform": "dailymotion",
@@ -29,7 +33,9 @@
     "yo"
    ],
    "approved": false,
-   "why": "Partner but not verified; rights position unconfirmed."
+   "why": "Partner but not verified; rights position unconfirmed.",
+   "ownerAuthorised": false,
+   "credentialsEnv": "DM_YORUBAHOOD"
   },
   {
    "platform": "dailymotion",
@@ -39,7 +45,9 @@
     "en"
    ],
    "approved": false,
-   "why": "Partner but not verified; mixed uploads (music, episodes)."
+   "why": "Partner but not verified; mixed uploads (music, episodes).",
+   "ownerAuthorised": false,
+   "credentialsEnv": "DM_NOLLYEXTRA"
   }
  ]
 }
