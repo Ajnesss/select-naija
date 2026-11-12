@@ -123,6 +123,24 @@ function loadData(
     if (!t?.id || !t.name || byId.has(t.id)) continue;
     titles.push(t);
     byId.set(t.id, t);
+    // Series episodes become per-episode links (stream id "<title>:<season>:<episode>").
+    for (const e of t.episodes || []) {
+      const isYt = platform === 'youtube';
+      const id = `${isYt ? 'yt' : 'dm'}:${e.videoId}`;
+      extraLinks.push({
+        id,
+        titleId: t.id,
+        season: e.season,
+        episode: e.episode,
+        provider: platform,
+        kind: isYt ? 'youtube' : 'external',
+        ytId: isYt ? e.videoId : undefined,
+        url: isYt ? `https://www.youtube.com/watch?v=${e.videoId}` : `https://www.dailymotion.com/video/${e.videoId}`,
+        minutes: e.minutes,
+        synthetic: true,
+      });
+      discoveredStatus[id] = { lastOk: at, lastCheck: at, checks: [{ at, ok: true }], ukSignal: 'provider' };
+    }
     const total = (t.parts || []).length;
     for (const part of t.parts || []) {
       const isYt = platform === 'youtube';

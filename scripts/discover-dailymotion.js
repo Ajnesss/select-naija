@@ -33,14 +33,41 @@ function ukAllowed(geo) {
  * "ANGER OF IMMORTALS 4 - 2018 LATEST NIGERIAN NOLLYWOOD MOVIES || TRENDING" → Anger of Immortals, part 4, 2018.
  */
 function parseTitle(raw) {
-  let s = String(raw).replace(/\s+/g, ' ').trim();
+  let s = String(raw)
+    .replace(/\s+/g, ' ')
+    .replace(/\{[^}]*\}?/g, ' ')
+    .replace(/\[[^\]]*\]?/g, ' ')
+    // Marketing in brackets ends the name: what follows is usually the cast ("Better Days (New Movie) Angel Unigwe, ...").
+    .replace(/\((?:\s*(?:new|latest|trending|full|exclusive|hd|complete|nollywood|nigerian|african)\b)[^)]*\)?/gi, ' | ')
+    .replace(/\(\s*(?:season|sn|part|pt)\s*(\d{1,2})\s*\)/gi, ' $1 ')
+    .replace(/^\s*(?:new|latest|trending)\s*\*?\s*[-:]?\s*/i, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+  // Series episodes: "Aiyetoro Town Season 2 Episode 19", "Best Friends in the World - S02E10".
+  const ep = s.match(/^(.*?)[\s\-–:|]*\b(?:season|s)\s*(\d{1,2})\s*[-:,]?\s*(?:episode|ep\.?|e)\s*(\d{1,3})\b/i);
+  if (ep && ep[1].trim().length >= 2) {
+    const base = parseTitle(ep[1]);
+    const yearMatch = String(raw).match(/\b(19[89]\d|20[0-3]\d)\b/);
+    return { ...base, name: base.name, part: null, season: Number(ep[2]), episode: Number(ep[3]), year: yearMatch ? Number(yearMatch[1]) : base.year };
+  }
+  // In Nollywood uploads "Season 3" on its own is the third part of a film, not a TV season.
+  s = s.replace(/\b(?:season|sn)\s*(\d{1,2})\b/i, ' $1').replace(/\s+/g, ' ').trim();
   const yearMatch = s.match(/\b(19[89]\d|20[0-3]\d)\b/);
   const year = yearMatch ? Number(yearMatch[1]) : null;
   const starring = s.match(/\bstarring\s+([^|#]+?)\.?\s*$/i);
   const cast = starring
     ? starring[1].split(/\s*(?:,|&|\band\b)\s*/i).map((x) => x.trim()).filter((x) => x.length > 2 && x.length < 40)
     : [];
-  s = s.split(/\s*(?:\|\||\||#)\s*/)[0];
+  // Trailing cast after the name: "Take My Heart 2 | Luchy Donalds & Onny Micheal" or "Name - Actor, Actor".
+  const segments = s.split(/\s*(?:\|\||\||#)\s*/);
+  const tail = segments.slice(1).join(' ');
+  s = segments[0];
+  const dash = s.split(/\s+[-–—]\s+/);
+  if (dash.length > 1 && dash[0].trim().length >= 3) s = dash[0];
+  s = s.replace(/[\s\-–—:.,]+$/, '');
+  const castFromTail = /[,&]/.test(tail) && !starring
+    ? tail.replace(/\b(19|20)\d\d\b/g, '').split(/\s*(?:,|&|\band\b)\s*/i).map((x) => x.trim()).filter((x) => /^[A-Z][a-z]+(?: [A-Z][a-z]+){1,2}$/.test(x))
+    : [];
   // Drop marketing tails: " - Latest Yoruba Movie 2018 Starring ...", "(Yoruba Movie)", "Nigerian Nollywood Movie".
   s = s.replace(/\s*[-–—:]\s*(?:\d{4}\s+)?(?:latest|new|blockbuster|nigerian|nollywood|yoruba|igbo|hausa|african|full|classic|trending|exclusive)\b.*$/i, '');
   s = s.replace(/\(\s*(?:yoruba|igbo|hausa|nollywood|nigerian)[^)]*\)/gi, '');
@@ -57,7 +84,7 @@ function parseTitle(raw) {
     .toLowerCase()
     .replace(/(^|[\s(\-])([a-zà-ÿ])/g, (m, pre, c) => pre + c.toUpperCase())
     .replace(/\b(Of|The|And|In|On|A|An|To|For)\b/g, (w, _x, i) => (i === 0 ? w : w.toLowerCase()));
-  return { name, part, year, cast };
+  return { name, part, year, cast: cast.length ? cast : castFromTail };
 }
 
 function languagesFor(title, channel) {
@@ -106,12 +133,43 @@ function buildTitles(channel, videos, { idPrefix = 'snaija-dm' } = {}) {
     const parsed = parseTitle(v.title);
     if (!parsed.name || parsed.name.length < 2) continue;
     // "Anger of Immortal 3" and "Anger of Immortals 4" are the same film: ignore a plural s when grouping.
-    const key = normalize(parsed.name).split(' ').map((w) => w.replace(/s$/, '')).join(' ');
-    if (!groups.has(key)) groups.set(key, { parsed, videos: [] });
-    groups.get(key).videos.push({ ...v, part: parsed.part, year: parsed.year });
+    const series = parsed.episode != null;
+    const key = `${series ? 'S|' : ''}${normalize(parsed.name).split(' ').map((w) => w.replace(/s$/, '')).join(' ')}`;
+    if (!groups.has(key)) groups.set(key, { parsed, series, videos: [] });
+    groups.get(key).videos.push({ ...v, part: parsed.part, season: parsed.season, episode: parsed.episode, year: parsed.year });
   }
   const titles = [];
-  for (const { parsed, videos: vids } of groups.values()) {
+  for (const { parsed, series, videos: vids } of groups.values()) {
+    if (series) {
+      const byEp = new Map();
+      for (const v of vids) {
+        const k = `${v.season}:${v.episode}`;
+        if (!byEp.has(k) || v.duration > byEp.get(k).duration) byEp.set(k, v);
+      }
+      const episodes = [...byEp.values()]
+        .sort((a, b) => a.season - b.season || a.episode - b.episode)
+        .map((v) => ({ season: v.season, episode: v.episode, videoId: v.id, minutes: Math.round(v.duration / 60), released: new Date(v.created_time * 1000).toISOString() }));
+      const first = vids.find((v) => v.id === episodes[0].videoId);
+      const year = Math.min(...vids.map((v) => v.year || new Date(v.created_time * 1000).getUTCFullYear()));
+      titles.push({
+        id: `${idPrefix}-${slugify(parsed.name)}-${year}`,
+        type: 'series',
+        name: parsed.name,
+        aliases: [],
+        year,
+        languages: languagesFor(vids.map((v) => v.title).join(' '), channel),
+        category: 'series',
+        genres: [],
+        description: (first.description || '').replace(/\s+/g, ' ').trim().slice(0, 400) || undefined,
+        poster: first.thumbnail_720_url || null,
+        posterShape: 'landscape',
+        sources: { all: `${channel.platform === 'youtube' ? 'YouTube' : 'Dailymotion'} channel ${channel.name} (${channel.user})` },
+        channel: channel.user,
+        videos: episodes.map((e) => ({ season: e.season, episode: e.episode, released: e.released })),
+        episodes,
+      });
+      continue;
+    }
     // One upload per part; when a part was uploaded twice keep the longest.
     const byPart = new Map();
     for (const v of vids) {
