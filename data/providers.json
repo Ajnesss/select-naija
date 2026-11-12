@@ -146,6 +146,14 @@
       ],
       "ukCheckRequired": false,
       "_note": "Approved channels only (data/channels.json). UK availability from Dailymotion's own geoblocking field."
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "access": "free",
+      "unavailableMarkers": [],
+      "ukCheckRequired": false,
+      "_note": "Official distributor and producer channels only. Streams are handed to Nuvio as a YouTube video ID (ytId), which the app plays with its own YouTube support."
     }
   ]
 }

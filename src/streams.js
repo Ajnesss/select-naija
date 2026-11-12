@@ -49,6 +49,15 @@ function formatLink(link, record, state, data, title, now) {
   const part = link.label ? `${link.label}${link.minutes ? ` (${link.minutes} min)` : ''}` : '';
   const checked = record?.lastOk ? `checked ${ago(record.lastOk, now)}` : '';
   const name = title?.name || '';
+  if (link.kind === 'youtube') {
+    // Handed to the app as a YouTube video ID: Nuvio/Stremio play it with their own YouTube support.
+    return {
+      name: `Select Naija\n${provider.name}`,
+      title: [[`▶ ${name}`, part].filter(Boolean).join(' · '), [access, 'YouTube', checked].filter(Boolean).join(' · ')].join('\n'),
+      ytId: link.ytId,
+      behaviorHints: { bingeGroup: `selectnaija-${link.provider}` },
+    };
+  }
   if (link.kind === 'direct') {
     return {
       name: `Select Naija\n${provider.name}`,
@@ -89,7 +98,7 @@ async function buildStreams(type, streamId, data, { tmdbApiKey, fetchImpl, now =
   }
 
   shown.sort((a, b) => {
-    const kind = (x) => (x.link.kind === 'direct' ? 0 : 1);
+    const kind = (x) => (x.link.kind === 'direct' ? 0 : x.link.kind === 'youtube' ? 1 : 2);
     const st = (x) => (x.state === 'verified' ? 0 : 1);
     const uk = (x) => (x.record?.ukSignal === 'page-only' ? 1 : 0);
     return (

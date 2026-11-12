@@ -100,3 +100,17 @@ test('owner-authorised Dailymotion channel: parts play in Nuvio through the owne
   assert.match(streams[0].title, /Part 1 of 2/);
   assert.ok(queryCatalog('movie', 'snaija-yoruba', {}, data, NOW).some((m) => m.id === 'snaija-dm-ipe-2018'));
 });
+
+test('YouTube links are handed to the app as ytId streams and count as in-app', async () => {
+  const dir = writeData();
+  const d = baseData();
+  d.providers.providers.push({ id: 'youtube', name: 'YouTube', access: 'free' });
+  d.links.links.push({ id: 'youtube:abc', titleId: 'tt0000002', provider: 'youtube', kind: 'youtube', ytId: 'abcdefghijk', url: 'https://www.youtube.com/watch?v=abcdefghijk' });
+  d.status.links['youtube:abc'] = { lastOk: hoursAgo(1), lastCheck: hoursAgo(1), checks: [{ at: hoursAgo(1), ok: true }] };
+  for (const [f, v] of [['providers.json', d.providers], ['links.json', d.links], ['status.json', d.status]]) fs.writeFileSync(path.join(dir, f), JSON.stringify(v));
+  const data = loadData(dir, { now: NOW, inAppOnly: true });
+  const streams = await buildStreams('movie', 'tt0000002', data, { now: NOW });
+  assert.equal(streams.length, 1);
+  assert.equal(streams[0].ytId, 'abcdefghijk');
+  assert.ok(!streams[0].externalUrl && !streams[0].url);
+});
