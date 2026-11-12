@@ -14,7 +14,6 @@ watch, legitimate (rights-holder or licensed platform), no YouTube, no paid serv
 | Dailymotion: Extra Nolly TV (`realnollywoodmovies`) | Yes, ads | Dailymotion-verified partner channel | 5,720 videos → 1,641 films | English, some Igbo | Browser (Silk), tested: plays | **Live** (nightly) |
 | Dailymotion: YORUBAWOOD (`yorubaplay`, iBAKATV's channel) | Yes, ads | Verified; official channel of distributor iBAKATV | 64 films | Yoruba | Browser (Silk) | **Live** (nightly) |
 | Dailymotion: Yorubahood, NollyExtra | Yes | Partner but **not verified**; both UK accounts created the same minute in 2015, owner unconfirmed (iROKO's own brands are NollywoodLove and YorubaLove) | 482 / 178 | Yoruba / English | Browser | Hold until rights confirmed |
-| Nolly Africa HD (African Movie Channel), live channel | Yes | Licensed FAST channel | 24/7 channel | English | Plex / Rakuten TV / Samsung TV Plus / Freeview | To add as a live-channel row |
 | NolliStream | Yes (AVOD) | Licensed; filmmakers upload directly | Unknown | Unknown | Mobile apps only; no web catalogue | Investigate catalogue access |
 | KALLO (Hausa) | Yes, "free, always" | Spacekraft, launched as a Hausa platform | Unknown | Hausa | App (HLS) | Investigate: key for Hausa coverage |
 | Northflix (Kannywood) | No (subscription) | Licensed | — | Hausa | — | Excluded (paid) |
@@ -36,7 +35,6 @@ provider sites and needs a secret token. If it's down or not in the UK, checks f
   accumulated instead for now.
 - Hausa: KALLO (free) has no web catalogue; Arewa24 free content; more verified Dailymotion channels.
 - Yoruba: confirm owners of Yorubahood / NollyExtra; NolliStream catalogue; AfroLandTV catalogue.
-- Live channels: Nolly Africa HD (Plex live TV page confirmed in the UK).
 
 ## In-app playability (tested 12 Nov 2026, `scripts/playtest.js`)
 
@@ -46,7 +44,6 @@ The requirement is playback inside Nuvio's own player, so each source was tested
 | --- | --- | --- | --- | --- | --- |
 | Tubi UK | Plain HLS (`hlsv6`), address in the public title page, no licence server | No | No | Yes: issued in London, played from the US; valid ~7 days | Server resolves through the London check point at request time |
 | Dailymotion (approved channels) | Plain HLS from the public player metadata, `protected_delivery: false` | No | No | **No**: 403 from any other address | Resolve on the viewer's device (Nuvio plugin) or relay through the Select Naija server |
-| Nigerian broadcasters' live channels (Free-TV list: Rave TV, Itage TV, Superscreen, Wazobia Max, Channels, TVC and more) | Public HLS published by the broadcaster | No | No | Yes | Direct |
 | Internet Archive (CC/public domain) | MP4 | No | No | Yes | Direct, but almost no Nollywood films with a reliable licence (447 hits, nearly all news, lectures, self-labelled uploads) |
 | PeerTube (Sepia search) | MP4/HLS | No | No | Yes | Nothing Nigerian found |
 | KALLO, AfroLandTV, NolliStream | App-only; no public web catalogue or API found | ? | Kallo: Wikipedia says subscription; site says free | — | Not reachable |
@@ -71,15 +68,6 @@ playback; it isn't something to work around.
 Roku) that open the Tubi app, plus ad-tech. Its terms bar automated access. Only route: license the films
 from their owners (the distributors who supply Tubi), not from Tubi.
 
-**Live channels (per broadcaster).** Streams below are published by or for the broadcaster for free
-viewing. None states third-party apps may use them; reliability depends on the address staying put.
 
-| Channel | Content | Stream host | Assessment |
-| --- | --- | --- | --- |
-| Wazobia Max (Nigeria, Port Harcourt) | Pidgin, Hausa, Yoruba, Igbo entertainment | `wazobia.live` (broadcaster's own) | Strong candidate |
-| News Central | News | `newscentral.ng` (own) | Candidate |
-| Arise News | News | Arise's own CDN, on its live page | Candidate |
-| Rave TV, Itage TV, Silverbird News 24, Advocate | Entertainment / news | ViewMedia (BozzTV) distribution accounts | Candidate; distributor-hosted |
-| Superscreen TV | Entertainment | getstreamhosting (channel's hosting account) | Candidate |
-| Waffi TV | Delta entertainment, Pidgin | 5centscdn (channel's hosting account) | Candidate |
-| Channels TV, TVC News, Soundcity | News / music | YouTube only | Excluded (YouTube) |
+
+Scope: films and series only. Live TV is out of scope. Select Naija does not seek licences from rights-holders.
