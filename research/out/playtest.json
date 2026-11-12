@@ -1,0 +1,60 @@
+[
+ {
+  "source": "tubi",
+  "id": "559737",
+  "pageStatus": 200,
+  "manifests": 0,
+  "drmHint": true
+ },
+ {
+  "source": "tubi",
+  "id": "100048274",
+  "pageStatus": 200,
+  "manifests": 0,
+  "drmHint": true
+ },
+ {
+  "source": "dailymotion",
+  "id": "x6upsb9",
+  "protected": false,
+  "hasUrl": true
+ },
+ {
+  "name": "dailymotion x6upsb9 played from US (issued US)",
+  "master": "https://cdndirector.dailymotion.com/cdn/manifest/video/x6upsb9.m3u8?sec=f4K7hcAPESTzg2-3wcLvLL58mCw7HAsjPsmJCH33JEa3tUwcARduADgLll7VnQpweQz8",
+  "masterStatus": 200,
+  "isMaster": true,
+  "variantStatus": 200,
+  "encrypted": false,
+  "ads": false,
+  "segmentStatus": 200,
+  "segmentBytes": 160364
+ },
+ {
+  "name": "dailymotion x6upsb9 played from London (issued US)",
+  "master": "https://cdndirector.dailymotion.com/cdn/manifest/video/x6upsb9.m3u8?sec=f4K7hcAPESTzg2-3wcLvLL58mCw7HAsjPsmJCH33JEa3tUwcARduADgLll7VnQpweQz8",
+  "masterStatus": 403
+ },
+ {
+  "source": "dailymotion",
+  "id": "x70qlsa",
+  "protected": false,
+  "hasUrl": true
+ },
+ {
+  "name": "dailymotion x70qlsa played from US (issued US)",
+  "master": "https://cdndirector.dailymotion.com/cdn/manifest/video/x70qlsa.m3u8?sec=b7A43ReBOT-oVXoaWIccHpF0cBTRbFyR8u8gBl9eMwlBA5xT0FRF1pEkTqg9YR_doUIv",
+  "masterStatus": 200,
+  "isMaster": true,
+  "variantStatus": 200,
+  "encrypted": false,
+  "ads": false,
+  "segmentStatus": 200,
+  "segmentBytes": 153972
+ },
+ {
+  "name": "dailymotion x70qlsa played from London (issued US)",
+  "master": "https://cdndirector.dailymotion.com/cdn/manifest/video/x70qlsa.m3u8?sec=b7A43ReBOT-oVXoaWIccHpF0cBTRbFyR8u8gBl9eMwlBA5xT0FRF1pEkTqg9YR_doUIv",
+  "masterStatus": 403
+ }
+]
