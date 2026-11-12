@@ -2,7 +2,7 @@ name: Nightly verify
 
 on:
   schedule:
-    - cron: '17 9 * * *' # 03:17 UTC every night
+    - cron: '17 9 * * *' # 09:17 UTC daily, just after the YouTube API quota resets (midnight Pacific)
   workflow_dispatch: {}
 
 permissions:
