@@ -2,7 +2,7 @@ name: Nightly verify
 
 on:
   schedule:
-    - cron: '17 3 * * *' # 03:17 UTC every night
+    - cron: '17 9 * * *' # 03:17 UTC every night
   workflow_dispatch: {}
 
 permissions:

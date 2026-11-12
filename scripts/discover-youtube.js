@@ -76,14 +76,13 @@ async function resolveChannel(channel, key, cache = {}) {
   };
 }
 
-async function channelVideos(uploads, key) {
-  const ids = [];
-  let pageToken = '';
-  do {
-    const body = await api(`playlistItems?part=contentDetails&maxResults=50&playlistId=${uploads}${pageToken ? `&pageToken=${pageToken}` : ''}`, key);
-    for (const it of body.items || []) ids.push(it.contentDetails.videoId);
-    pageToken = body.nextPageToken || '';
-  } while (pageToken && ids.length < MAX_VIDEOS_PER_CHANNEL);
+// Every channel's upload list is kept in data/youtube-videos.json. Nightly runs only fetch uploads newer than
+// the newest one already known (a few quota units); a full re-read once a week picks up removals, region
+// changes and edits. Parsing improvements can be re-applied to the stored list without using any quota.
+const VIDEO_CACHE = path.join(ROOT, 'data', 'youtube-videos.json');
+const FULL_EVERY_MS = 7 * 24 * 3600 * 1000;
+
+async function videoDetails(ids, key) {
   const videos = [];
   for (let i = 0; i < ids.length; i += 50) {
     const body = await api(`videos?part=snippet,contentDetails,status&id=${ids.slice(i, i + 50).join(',')}`, key);
@@ -91,7 +90,7 @@ async function channelVideos(uploads, key) {
       videos.push({
         id: v.id,
         title: v.snippet.title,
-        description: v.snippet.description,
+        description: String(v.snippet.description || '').slice(0, 300),
         duration: seconds(v.contentDetails.duration),
         created_time: Math.floor(Date.parse(v.snippet.publishedAt) / 1000),
         thumbnail_720_url: v.snippet.thumbnails?.maxres?.url || v.snippet.thumbnails?.high?.url || null,
@@ -104,11 +103,40 @@ async function channelVideos(uploads, key) {
   return videos;
 }
 
+async function channelVideos(uploads, key, cached) {
+  const full = !cached || Date.now() - Date.parse(cached.fullAt || 0) > FULL_EVERY_MS;
+  const known = new Set(full ? [] : cached.videos.map((v) => v.id));
+  const ids = [];
+  let pageToken = '';
+  let reachedKnown = false;
+  do {
+    const body = await api(`playlistItems?part=contentDetails&maxResults=50&playlistId=${uploads}${pageToken ? `&pageToken=${pageToken}` : ''}`, key);
+    for (const it of body.items || []) {
+      if (known.has(it.contentDetails.videoId)) {
+        reachedKnown = true;
+        break;
+      }
+      ids.push(it.contentDetails.videoId);
+    }
+    pageToken = body.nextPageToken || '';
+  } while (!reachedKnown && pageToken && ids.length < MAX_VIDEOS_PER_CHANNEL);
+  const fresh = await videoDetails(ids, key);
+  if (full) return { fullAt: new Date().toISOString(), videos: fresh };
+  return { fullAt: cached.fullAt, videos: [...fresh, ...cached.videos] };
+}
+
 async function main() {
   const key = process.env.YOUTUBE_API_KEY;
-  if (!key) {
+  const reparse = process.argv.includes('--reparse'); // rebuild films from the stored lists, no API calls
+  if (!key && !reparse) {
     console.error('No YOUTUBE_API_KEY: YouTube channels not read, previous list kept.');
     return;
+  }
+  let videoCache = {};
+  try {
+    videoCache = JSON.parse(fs.readFileSync(VIDEO_CACHE, 'utf8'));
+  } catch {
+    /* first run */
   }
   const channels = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'channels.json'), 'utf8')).channels.filter(
     (c) => c.platform === 'youtube' && c.approved,
@@ -128,13 +156,22 @@ async function main() {
   const result = { generatedAt: new Date().toISOString(), channels: {}, titles: [] };
   for (const channel of channels) {
     try {
-      const info = await resolveChannel(channel, key, cache);
+      let info;
+      if (reparse) {
+        const id = channel.channelId || cache[channel.search]?.id;
+        if (!id || !videoCache[id]) continue;
+        info = { id, title: videoCache[id].title || channel.name, subscribers: videoCache[id].subscribers };
+      } else info = await resolveChannel(channel, key, cache);
       if (channel.search && cache[channel.search] && !cache[channel.search].exactName) {
         console.warn(`${channel.name}: closest match "${info.title}" (not an exact name match), skipped until confirmed`);
         result.channels[info.id] = { name: info.title, wanted: channel.name, skipped: 'name mismatch' };
         continue;
       }
-      const videos = await channelVideos(info.uploads, key);
+      if (!reparse) {
+        const got = await channelVideos(info.uploads, key, videoCache[info.id]);
+        videoCache[info.id] = { ...got, title: info.title, subscribers: info.subscribers };
+      }
+      const videos = videoCache[info.id].videos;
       const titles = buildTitles({ ...channel, user: info.id }, videos, { idPrefix: 'snaija-yt' }).map((t) => ({ ...t, channelName: info.title }));
       result.channels[info.id] = { name: info.title, handle: channel.handle, subscribers: info.subscribers, videos: videos.length, films: titles.length };
       result.titles.push(...titles);
@@ -156,6 +193,7 @@ async function main() {
   }
   fs.writeFileSync(OUT, `${JSON.stringify(result, null, 1)}\n`);
   fs.writeFileSync(RESOLVED, `${JSON.stringify(cache, null, 1)}\n`);
+  fs.writeFileSync(VIDEO_CACHE, JSON.stringify(videoCache));
 }
 
 if (require.main === module) main();
