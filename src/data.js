@@ -197,6 +197,7 @@ function loadData(
   }
 
   const linksByStreamId = new Map();
+  const linksByTitle = new Map();
   const curated = (links.links || []).filter(
     (l) => !freeOnly || FREE_ACCESS.has(l.access || providerById.get(l.provider)?.access),
   );
@@ -209,6 +210,8 @@ function loadData(
     const key = link.season != null ? `${link.titleId}:${link.season}:${link.episode}` : link.titleId;
     if (!linksByStreamId.has(key)) linksByStreamId.set(key, []);
     linksByStreamId.get(key).push(link);
+    if (!linksByTitle.has(link.titleId)) linksByTitle.set(link.titleId, []);
+    linksByTitle.get(link.titleId).push(link);
   }
 
   // Per link: a UK check from the last 7 days wins (it saw exactly what UK viewers see).
@@ -226,6 +229,7 @@ function loadData(
     byId,
     providerById,
     linksByStreamId,
+    linksByTitle,
     allLinks,
     freeOnly,
     inAppOnly,
