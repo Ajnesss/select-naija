@@ -1,7 +1,0 @@
-URL: https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=nollywood%20OR%20%22nigerian%20film%22%20filetype:video&srnamespace=6&srlimit=100&format=json
-FINAL: https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=nollywood%20OR%20%22nigerian%20film%22%20filetype:video&srnamespace=6&srlimit=100&format=json
-STATUS: 200
-TYPE: application/json; charset=utf-8
-LENGTH: 483
-
-{"batchcomplete":"","query":{"searchinfo":{"totalhits":1},"search":[{"ns":6,"title":"File:Wikipedia - Things come together.webm","pageid":62604813,"size":922,"wordcount":133,"snippet":"smallest village? Wikipedia. In this short video, <span class=\"searchmatch\">Nigerian</span> <span class=\"searchmatch\">film</span> legend Peter Edochie reprises one <span class=\"searchmatch\">of</span> his most famous roles to show how Wikipedia can help","timestamp":"2026-03-27T15:11:31Z"}]}}

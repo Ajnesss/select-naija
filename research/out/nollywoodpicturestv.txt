@@ -1,7 +1,0 @@
-URL: https://www.nollywoodpicturestv.com/
-FINAL: https://www.nollywoodpicturestv.com/
-STATUS: 200
-TYPE: text/html
-LENGTH: 114
-
-<!DOCTYPE html><html><head><script>window.onload=function(){window.location.href="/lander"}</script></head></html>

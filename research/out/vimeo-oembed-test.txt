@@ -1,7 +1,0 @@
-URL: https://vimeo.com/api/oembed.json?url=https://vimeo.com/channels/staffpicks
-FINAL: https://vimeo.com/api/oembed.json?url=https://vimeo.com/channels/staffpicks
-STATUS: 404
-TYPE: text/html; charset=UTF-8
-LENGTH: 13
-
-404 Not Found
