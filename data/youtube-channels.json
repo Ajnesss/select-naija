@@ -182,13 +182,13 @@
  "TK OPOMULERO": {
   "id": "UCB4TZvSKXjSx2pyJG-zIxsQ",
   "title": "TK ÒPÓMÚLÉRÓ",
-  "exactName": false,
+  "exactName": true,
   "at": "2026-11-12T21:06:28.704Z"
  },
  "CHINENYE NNEBE MOVIES": {
   "id": "UCK3bMasl8sG4wiahoUpBLnQ",
   "title": "Chinenye Nnebe",
-  "exactName": false,
+  "exactName": true,
   "at": "2026-11-12T21:06:29.119Z"
  },
  "Funke Akindele TV": {
@@ -202,5 +202,65 @@
   "title": "Damilola Mike-Bamiloye",
   "exactName": false,
   "at": "2026-11-12T21:06:29.960Z"
+ },
+ "ROCKCELLY NOLLYWOOD FILMS TV": {
+  "id": "UCJ1I13e9PN7u4iszJ6M0AXQ",
+  "title": "ROCKCELLY NOLLYWOOD FILMS TV",
+  "exactName": true,
+  "at": "2026-11-12T21:25:08.357Z"
+ },
+ "Saira Movies": {
+  "id": "UCK-FDSIDGzjK6PYWcFaOzkA",
+  "title": "Saira Movies",
+  "exactName": true,
+  "at": "2026-11-12T21:26:03.735Z"
+ },
+ "Bakori TV": {
+  "id": "UCN3dhIcfderAlznX52VEyTQ",
+  "title": "BAKORI TV",
+  "exactName": true,
+  "at": "2026-11-12T21:26:07.578Z"
+ },
+ "UK Entertainments": {
+  "id": "UCfY4SmVarak6C7C5M2ebNtA",
+  "title": "UK ENTERTAINMENT",
+  "exactName": true,
+  "at": "2026-11-12T21:26:11.313Z"
+ },
+ "Abnur Entertainment": {
+  "id": "UC6CxpgmZUkTH0NnksC0o_fg",
+  "title": "ABNUR ENTERTAINMENT",
+  "exactName": true,
+  "at": "2026-11-12T21:26:14.943Z"
+ },
+ "2 Effect Media": {
+  "id": "UC3PkFyrpeoRxfwWpTUp2uUg",
+  "title": "YAKUBU MOHAMMED 2EFFECT TV",
+  "exactName": false,
+  "at": "2026-11-12T21:26:18.298Z"
+ },
+ "Maishadda Global Resources": {
+  "id": "UCdiI6VrQ4aYI29FW1ChiHsA",
+  "title": "Maishadda Global Resources",
+  "exactName": true,
+  "at": "2026-11-12T21:26:18.588Z"
+ },
+ "FKD Production": {
+  "id": "UCqC1jwouJRDe89IdVW9XL4Q",
+  "title": "F.K.D production company",
+  "exactName": true,
+  "at": "2026-11-12T21:26:23.704Z"
+ },
+ "AREWA24": {
+  "id": "UCJyFkDxxIgPVz-x_0UZPqfg",
+  "title": "AREWA24",
+  "exactName": true,
+  "at": "2026-11-12T21:26:24.332Z"
+ },
+ "Lilin Baba": {
+  "id": "UClU5QkUqFL4a7AdxScHa2Vg",
+  "title": "Lilin Baba",
+  "exactName": true,
+  "at": "2026-11-12T21:27:07.057Z"
  }
 }
