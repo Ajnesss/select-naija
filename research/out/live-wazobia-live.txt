@@ -1,0 +1,2 @@
+URL: https://wazobia.live/
+ERROR: fetch failed

@@ -1,0 +1,1090 @@
+URL: https://waffitv.com/
+FINAL: https://waffitv.com/
+STATUS: 200
+TYPE: text/html; charset=UTF-8
+LENGTH: 64878
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="./images/main-logo.jpeg" type="image/x-icon">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="manifest" href="./manifest.json">
+    <title>WAFFI TV | Home</title>
+</head>
+<body class="homeBody">
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
+    <link rel="stylesheet" href="./css/newsletter.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body class="newsletterBody">
+    <div class="newsletterContainer">
+        <form action="">
+            <i class="fa fa-times"></i>
+            <h2>Subscribe to our newsletter</h2>
+            <div class="imageBox"></div>
+            <div class="formBox">
+                <input type="email" placeholder="Enter email address" name="subscribersEmail" id="subscribersEmail" required>
+                <button type="submit" class="subscribe">S u b s c r i b e</button>
+                <div class="message"></div>
+            </div>
+        </form>
+    </div>
+    
+
+    <script>
+        const newsletterContainer = document.querySelector(".newsletterContainer");
+        const subscribe = document.querySelector(".subscribe");
+        const subscribersEmail = document.getElementById("subscribersEmail");
+        const keyName = "newsletter";
+        (async()=>{
+                if (!sessionStorage.getItem(keyName) && !localStorage.getItem(keyName)) {
+                    sessionStorage.setItem(keyName, "true");
+                    setTimeout(()=>{ newsletterContainer.style.display = "grid"; }, 7000);
+                }
+        })();
+
+        subscribe.addEventListener("click", (event)=>{
+            event.preventDefault();
+            if (subscribersEmail.value !== "") {
+                subscribe.style.backgroundColor = "indigo"; 
+                setTimeout(()=>{submitEmail();  }, 1000);
+            }
+        })
+
+        function submitEmail(){
+            const formData = {
+                subscribersEmail: $("#subscribersEmail").val(),
+                date: new Date().toLocaleString()
+            };
+            $.ajax({
+                url: "ajax-newsletter.php",
+                type: "POST",
+                data: formData
+            });
+            subscribe.style.backgroundColor = "#fff"; 
+            document.querySelector(".fa-paper-plane").className += " kite";
+            document.querySelector(".message").innerText = "Welcome to the family!";
+            localStorage.setItem(keyName, "true"); setTimeout(()=>{ newsletterContainer.style.display = "none"; }, 2000);
+        }
+
+        const closeNewsLetter = document.querySelector(".fa-times");
+        closeNewsLetter.addEventListener("click", ()=>{
+            newsletterContainer.style.display = "none";
+        })
+    </script>
+</body>
+</html>    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="./css/navbar.css?1794509740">
+    <script src="./js/register-service-worker.js"></script>
+    <link rel="manifest" href="./manifest.json">
+</head>
+<body class="navBarBody">
+    <!-- <div class="adsBox"> -->
+        <!-- include "./active-ads.php"; in php -->
+    <!-- </div> -->
+    <nav class="navBar">
+        <div class="top">
+            <div class="weather">
+                <img src="" alt="" id="weather-icon">
+                <span id="temperature"></span>
+                <span id="city-name"></span>
+                <span id="dateElement"></span>
+            </div>
+            <form id="subscribersForm">
+                <label for="subscribers">Active subscribers</label>
+                <input type="text" id="subscribers" name="subscribers" value="583771" readonly>
+                <input type="text" id="storedDate" name="storedDate" value="Thu Nov 12 2026 17:05:08 GMT+0100 (West Africa Standard Time)" style="display: none;" readonly>
+                <button type="submit" id="submitSubcribers" style="visibility: hidden;"></button>
+            </form>
+            <a href="./home">
+                <i class="fa fa-home"></i>
+            </a>
+        </div>
+        <div class="bottom">
+            <div class="one">
+                <a href="index">
+                    <img src="./images/logo3.jpeg" alt="WAFFI TV logo" class="logo">
+                </a>
+            </div>
+            <div class="two">
+                <!-- <a href="live" class="live">LIVE TV</a> -->
+                <a href="tv" class="live">LIVE TV</a>
+                <a href="latest-news" class="latestNews">Latest news</a>
+                <a href="trending" class="trending">Trending</a>
+                <a href="politics" class="politics">Politics</a>
+                <a href="business" class="business">Business</a>
+                <a href="metro" class="metro">Metro</a>
+                <a href="feature" class="feature">Feature</a>
+                <a href="video-hub" class="videos">Videos</a>
+                <a href="sports" class="sports">sports</a>
+                <a href="entertainment" class="entertainment">Entertainment</a>
+                <a href="lifestyle" class="lifestyle">Lifestyle</a>
+                <a href="eye-witness" class="eyeWitness">Eye witness</a>
+                <button class="sideBarToggle">
+                    <i class="fa fa-bars" id="bars"></i>
+                    <i class="fa fa-times" id="times"></i>
+                </button>
+            </div>
+        </div>
+        <div class="lifestyles">
+            <a href="health">health & fitness</a>
+            <a href="travel">travel</a>
+            <a href="fashion">fashion</a>
+            <a href="food">food</a>
+            <a href="events?title=">events</a>
+        </div>
+    </nav>
+
+    <div class="sideBar">
+        <div>
+            <a href="tv">LIVE TV</a>
+            <!-- <a href="tv">TV</a> -->
+            <a href="latest-news">Latest news</a>
+            <a href="trending">Trending</a>
+            <a href="politics">Politics</a>
+            <a href="metro">Metro</a>
+            <a href="feature">Feature</a>
+            <a href="business">Business</a>
+            <a href="video-hub">Videos</a>
+            <a href="sports">sports</a>
+            <a href="entertainment">Entertainment</a>
+            <a href="lifestyle">Lifestyle</a>
+            <a href="eye-witness">Eye witness</a>
+        </div>
+    </div>
+    
+    <script src="./js/navbar.js"></script>
+    <script>
+        $(document).ready(function(){
+            const subscribersForm = document.getElementById('subscribersForm');
+            const subscribers = document.getElementById('subscribers');
+            const storedDate = document.getElementById('storedDate');
+            const submitSubscribers = document.getElementById('submitSubscribers');
+            let oldDate = new Date(storedDate.value); 
+
+            async function subscribersFunc(oldDate) {
+                let newDate, hours, count = 0;
+                interval = setInterval(() => {
+                    newDate = new Date(); hours = Math.round((newDate - oldDate) / (1000 * 60 * 60)); count++;
+                    if (hours >= 4) {
+                        clearInterval(interval); increaseSubscribers(newDate, hours);
+                    }
+                    else if (count == 180) {
+                        clearInterval(interval); subscribersFunc(oldDate);
+                    }
+                }, 10000);
+            } subscribersFunc(oldDate);
+
+            async function increaseSubscribers(newDate, hours){
+                let random = Math.floor(Math.random() * (4 - 2 + 1)) + 2;
+                subscribers.value = Math.round(parseInt(subscribers.value) + ((hours / 4) * random)); storedDate.value = newDate;
+                submitSubcribers.click();
+            }
+
+            $("#subscribersForm").on("submit", function(event) {
+                event.preventDefault();
+                const formData = {
+                    subscribers: $("#subscribers").val(),
+                    storedDate: $("#storedDate").val()
+                };
+                $.ajax({
+                    url: "ajax-subscribers.php",
+                    type: "POST",
+                    data: formData
+                });
+                oldDate = new Date(); subscribersFunc(oldDate);
+            });
+
+        })
+
+    </script>
+</body>
+</html>
+	 <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/tv-popup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+    <section class="LiveTvWrapper">
+        <div class="liveTvPopup">
+            <div class="videoWrapper">
+                <div class="tvTitle">waffi live</div>
+                <video id="liveVideo" class="iframe" controls autoplay muted playsinline></video>
+            </div>
+            <div class="controls">
+                <a href="tv.php" class="goToLink"><i class="fa fa-bars-staggered"></i></a>
+                <button class="tvToggle">
+                    <i class="fa fa-times"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Load HLS.js FIRST -->
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@1.6.13"></script>
+    <script src="js/live-tv.js"></script>
+    <script src="js/draggable-tv.js"></script>
+</body>
+</html>
+    <section class="content">
+        <div class="slideFrame">
+            <div class="firstSlide">
+                <div class="frame1">
+                    <a href="news?title=Owono-Yet-To-Decide-On-Football-Return-After-De-Miguel’s-Death" class="slideFrameLink">
+                        <div class="imageContainer">
+                            <img src="./uploads/2026/11/123617.webp" alt="" srcset="" class="postImage">
+                        </div>
+                        <div class="textContainer">
+                            <div>
+                                <div class="title">Owono Yet To Decide On Football Return After De Miguel’s Death</div>
+                                <div class="story">FC Andorra manager Carles Manso says goalkeeper Jesus Owono has not yet decided whether he will resume his football career following the death of Tenerife striker Jesus de Miguel.
+
+Owono, 25, was sent off after colliding with De Miguel during a Spanish second-division fixture on 2 November. The Tenerife forward died in hospital the following day.
+
+Manso revealed that the Equatorial Guinea international is currently with his family and has been given time to decide whether he wants to return to the game.
+
+The Andorra manager stressed that the club would continue to support the goalkeeper, regardless of the decision he eventually makes.
+
+He said Owono would be allowed to take as much time as necessary before deciding whether or when to resume his career.
+
+Earlier, on 4 November, FC Andorra issued a statement on behalf of the goalkeeper, in which he described the incident as the most difficult period of his life.
+
+Owono also expressed deep sadness over De Miguel's death and extended his thoughts to the late striker's family and loved ones.
+
+Meanwhile, De Miguel's family have thanked supporters who contributed to a fundraising campaign that has raised more than £170,000.
+
+The initiative was launched by Fran Sol, a forward with Spanish third-tier club Hercules, with all donations intended to support De Miguel's relatives.
+
+In a statement released through the Spanish Footballers' Association, the family expressed gratitude for the widespread support and kindness they had received.
+
+FC Andorra are scheduled to play their first match since the tragedy on Saturday when they face Almeria in the Spanish second division.</div>
+                                <div class="date">12/11/2026, 17:54:23</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="secondSlide">
+                                        <div class="frame2">
+                            <a href="news?title=Crystal-Palace-Dismiss-Pierre-Sage-After-Just-16-Matches" class="slideFrameLink">
+                                <div class="imageContainer">
+                                    <img src="./uploads/2026/11/123602.webp" alt="" srcset="" class="postImage">
+                                </div>
+                                <div class="textContainer">
+                                    <div class="title">Crystal Palace Dismiss Pierre Sage After Just 16 Matches</div>
+                                    <div class="story">Crystal Palace have dismissed manager Pierre Sage after just five months in charge, following a disappointing run of results that has left the club bottom of the Premier League table.
+
+The Frenchman’s departure comes after Sunday’s 3-1 defeat to Liverpool, which extended Palace’s losing streak in the league to four matches.
+
+Former Brentford and Tottenham manager Thomas Frank is reportedly in advanced discussions with the club over becoming their next head coach.
+
+Palace have managed just two victories in their opening 10 Premier League matches and currently have the division’s worst defensive record, having conceded 24 goals.
+
+Their struggles have also extended to the Europa League, where they sit 21st in the 36-team standings after recording just one win in four matches.
+
+In an official statement, Palace confirmed that three members of Sage’s backroom staff — Jamal Alioui, Damien Della Santa and Sandy Guichard — had also departed.
+
+The club expressed appreciation for their contributions and said further information about the appointment of a new manager would be announced in due course.
+
+Sage becomes the second Premier League manager to lose his job this season, following Manchester United’s decision to sack Michael Carrick on Thursday.
+
+The 47-year-old was appointed on a three-year contract in June after Oliver Glasner left at the end of last season.
+
+Before joining Palace, Sage guided Lens to a second-place finish in Ligue 1 and their first-ever French Cup triumph in the club’s 120-year history.
+
+However, he struggled to maintain the standards established by Glasner, who led Palace to their maiden FA Cup title and Europa Conference League success before moving to Nottingham Forest.
+
+Palace have not won a league match since 11 October, with their poor run beginning with a humiliating 5-0 defeat against rivals Brighton.
+
+Following that loss, Sage admitted feeling ashamed and acknowledged uncertainty over whether he would be given enough time to reverse the club’s fortunes.
+
+Although injuries and the unavailability of key attackers Jean-Philippe Mateta and Ismaila Sarr affected his plans, Palace subsequently suffered three more consecutive defeats.
+
+Their latest setback came against Liverpool, despite hitting the crossbar and having a goal disallowed at Selhurst Park.
+
+Sage leaves after winning just five of his 16 matches in all competitions.
+
+Crystal Palace will return to Premier League action against Coventry on 21 November following the international break.
+
+Meanwhile, potential replacement Thomas Frank has been without a managerial position since his dismissal by Tottenham in February.
+
+The Danish coach spent just under eight months at Spurs before leaving the club in 16th position, five points above the relegation zone, following an eight-game winless run in the Premier League.</div>
+                                    <div class="date">12/11/2026, 17:37:18</div>
+                                </div>
+                            </a>
+                        </div>
+                                               <div class="frame3">
+                            <a href="news?title=Politicians-Deceive-Voters-To-Win-Elections-–-Kukah" class="slideFrameLink">
+                                <div class="imageContainer">
+                                    <img src="./uploads/2026/11/1001244121.jpg" alt="" srcset="" class="postImage">
+                                </div>
+                                <div class="textContainer">
+                                    <div class="title">Politicians Deceive Voters To Win Elections – Kukah</div>
+                                    <div class="story">The Catholic Bishop of Sokoto Diocese, Matthew Kukah, has criticised Nigerian politicians for making unrealistic promises during election campaigns to win votes instead of preparing citizens for the realities and challenges of governance.
+
+Kukah said politicians often rely on attractive images, grand promises and persuasive narratives to convince voters that they can deliver a better society, only to abandon their commitments after assuming office and resort to excuses for their failure to fulfil them.
+
+He made the remarks on Thursday in Abuja at a public symposium organised by the National Institute for Legislative and Democratic Studies (NILDS) in collaboration with The Kukah Centre.
+
+Illustrating the gap between campaign promises and actual governance, the bishop narrated the story of a politician who displayed impressive images of tarred roads, bridges, beautiful houses and schoolchildren in neat uniforms to convince voters during an election campaign.
+
+According to him, the politician secured victory but failed to execute any of the projects three years after assuming office, prompting residents to demand explanations.
+
+When confronted over his failure, the politician reportedly responded: “You are confusing campaign with governance. What I did was purely a simple campaign. Governance is a difficult part.”
+
+Kukah said the incident reflected a recurring trend in Nigeria's political system, where politicians make ambitious promises to secure electoral victories but begin offering excuses after taking office.
+
+He noted that elected officials often blame inherited financial challenges for their inability to fulfil campaign commitments.
+
+He said, “And this is why we have Nigerian politicians turn around, once they have been sworn in and after telling us all the things they want to do, and say, ‘We didn’t know that the treasury was so empty.’ Then, they start giving one excuse after the other.”
+
+The cleric argued that politicians were more concerned with crafting appealing campaign messages than honestly communicating the complexities and limitations of governance.
+
+He, however, maintained that voters also had a responsibility to critically examine political promises and determine whether they were realistic and achievable before supporting candidates.
+
+Kukah stated, “The point I am making is that it is the business of politicians to seduce, deceive or tell us things we can’t do just to win our votes. But we are sufficiently knowledgeable, and our experience should help us to test the limits of the claims that politicians make.”
+
+He urged Nigerians to develop a stronger culture of questioning political leaders, scrutinising campaign proposals and demanding accountability, rather than waiting until elections are concluded before engaging those seeking public office.
+
+Kukah further called on citizens to make political choices beyond ethnic, religious and class considerations, stressing the importance of prioritising issues that promote good governance and national development.</div>
+                                    <div class="date">11/12/2026, 4:57:33 PM</div>
+                                </div>
+                            </a>
+                        </div>
+                                               <div class="frame4">
+                            <a href="news?title=2027:-Tinubu-Has-No-Rival-In-South~South-—-Akpabio" class="slideFrameLink">
+                                <div class="imageContainer">
+                                    <img src="./uploads/2026/11/1001244109.jpg" alt="" srcset="" class="postImage">
+                                </div>
+                                <div class="textContainer">
+                                    <div class="title">2027: Tinubu Has No Rival In South~South — Akpabio</div>
+                                    <div class="story">Senate President Godswill Akpabio has declared that President Bola Tinubu has no formidable challenger in the South-South ahead of the 2027 presidential election, attributing the President’s growing support in the region to the All Progressives Congress (APC) and ongoing infrastructure and security projects.
+
+Akpabio made the declaration on Thursday during the APC presidential campaign rally at Samuel Ogbemudia Stadium in Benin City, Edo State, where he canvassed support for Tinubu’s re-election.
+
+He highlighted the Lagos-Calabar Coastal Highway, security interventions and infrastructure development in Edo State as some of the achievements he said had strengthened the President’s acceptance across the South-South.
+
+According to him, the coastal highway, which had remained a long-standing aspiration, only became a reality under Tinubu’s administration, adding that an additional 100 kilometres had been incorporated to cover parts of Edo State.
+
+“I want you to know that President Bola Tinubu has no competition, no competitor equally in the whole of the South-South. We are grateful for the Lagos-Calabar coastal highway. We had that as a dream, but it never came to fruition until he came to office. He has even added another 100 kilometres to cover the entirety of Edo, and Edo people are very grateful,” Akpabio said.
+
+The Senate President urged voters across the region to massively support Tinubu on January 16, 2027, declaring that the South-South was determined to record more votes for the President than other geopolitical zones.
+
+He expressed confidence that the region would outperform even the North-East, where Vice-President Kashim Shettima hails from, insisting that voters would remain committed to Tinubu regardless of prevailing circumstances.
+
+Akpabio further described Edo as a stronghold of the APC in the South-South, claiming that the state and other states in the region were now under the party's control.
+
+He also recalled that Vice-President Shettima had expressed confidence in Tinubu's electoral prospects in Edo, saying the election in the state was already settled.
+
+On security, Akpabio commended the Federal Government and Edo State Government for measures aimed at strengthening security, including the establishment of a new Mobile Police base, the recruitment of more than 500 forest guards and the proposed introduction of state police.
+
+He noted that about 32 states had fulfilled the necessary requirements for the constitutional amendment process to accommodate state policing, describing the initiative as an important step towards improving security across the country.
+
+The Senate President also disclosed that a new Army division had been established in Edo, alongside other security interventions, which he said would enhance the protection of residents.
+
+He expressed appreciation to Tinubu on behalf of the South-South, noting that the administration's interventions in security, infrastructure and education were making an impact in the region.
+
+Akpabio also praised governors in the South-South for their support for Tinubu, pointing to ongoing construction activities across the region.
+
+He particularly highlighted the emergence of new flyovers in Edo State, describing the development as evidence of the administration's commitment to infrastructure expansion.
+</div>
+                                    <div class="date">11/12/2026, 4:49:30 PM</div>
+                                </div>
+                            </a>
+                        </div>
+                                               <div class="frame5">
+                            <a href="news?title=FG-Reviews-932-Laws,-Drops-269-Obsolete-Enactments" class="slideFrameLink">
+                                <div class="imageContainer">
+                                    <img src="./uploads/2026/11/1001243886.webp" alt="" srcset="" class="postImage">
+                                </div>
+                                <div class="textContainer">
+                                    <div class="title">FG Reviews 932 Laws, Drops 269 Obsolete Enactments</div>
+                                    <div class="story">The Federal Government has reviewed 932 federal enactments and 731 subsidiary legislations, identifying 269 laws as obsolete, spent or repealed and recommending their exclusion from the proposed 2025 Laws of the Federation of Nigeria.
+
+The Attorney General of the Federation and Minister of Justice, Prince Lateef Fagbemi (SAN), disclosed this on Thursday in Abuja during the presentation of the final report of the Committee on the Review, Update and Consolidation of the Laws of the Federation.
+
+Fagbemi explained that 663 of the 932 enactments reviewed, alongside their relevant subsidiary legislation, had been recommended for inclusion in the revised 2025 edition, while the remaining 269 were found to be obsolete, spent or repealed.
+
+He described the outcome as significant progress towards establishing an updated and consolidated body of federal laws in the country.
+
+The minister noted that Nigeria's last official consolidation of the Laws of the Federation was conducted in 2004, adding that more than two decades of legislative, constitutional, institutional and technological developments had made another comprehensive review necessary.
+
+According to him, several new laws and amendments have been introduced over the years, making it imperative to ensure that the country's legal framework remains current, consistent, accessible and responsive to national needs.
+
+Fagbemi disclosed that he inaugurated the committee on October 24, 2024, with the responsibility of reviewing federal enactments and subsidiary legislation, identifying obsolete laws, resolving inconsistencies and overlaps, and producing an authoritative and accessible compilation of the country's laws.
+
+He commended the committee, chaired by Olawale Fapohunda (SAN), for its efforts, noting that the assignment involved extensive legal research, legislative analysis, technical coordination and editorial work.
+
+He said the committee adopted a systematic approach through 14 thematic working groups, supported by retreats and technical engagements, to harmonise its findings and ensure quality assurance.
+
+The AGF also recognised the contributions of development partners and collaborating institutions, including the ROLAC Programme, the Law Commission of England and Wales, LexisNexis South Africa, the Lagos State Law Reform Commission and Law Pavilion.
+
+Fagbemi said the final report would be submitted to President Bola Tinubu for onward transmission to the National Assembly for legislative consideration and necessary action.
+
+He emphasised that successful completion of the exercise would require sustained cooperation between the Executive and Legislature.
+
+The minister further cautioned against allowing another prolonged interval before the next consolidation, stressing the need to establish a sustainable system for monitoring new enactments, amendments and subsidiary legislation to keep Nigeria's laws updated and responsive to emerging developments.
+</div>
+                                    <div class="date">11/12/2026, 3:25:24 PM</div>
+                                </div>
+                            </a>
+                        </div>
+                                               <div class="frame6">
+                            <a href="news?title=21-Years-On-Throne:-Frank-Pukon-Congratulates-Ebenanaowei-of-Ogulagha-Kingdom" class="slideFrameLink">
+                                <div class="imageContainer">
+                                    <img src="./uploads/2026/11/1001243729.jpg" alt="" srcset="" class="postImage">
+                                </div>
+                                <div class="textContainer">
+                                    <div class="title">21 Years On Throne: Frank Pukon Congratulates Ebenanaowei of Ogulagha Kingdom</div>
+                                    <div class="story">Hon. Frank Pukon, PhD, has congratulated the Ebenanaowei of Ogulagha Kingdom, His Royal Majesty, Elder (Capt.) King Joseph Timiyan, PhD, JP, on the occasion of his 21st Coronation Anniversary.
+
+In a congratulatory message, Pukon described the anniversary as a significant milestone that reflects the enduring strength of the traditional institution and its responsibility in preserving the history, cultural identity and collective aspirations of the people.
+
+He noted that the greatest treasures of a kingdom go beyond its natural resources, stressing that its cultural heritage, unity and the wisdom of its traditional institution remain essential pillars of its identity.
+
+According to him, the continued occupation of the ancestral throne by King Timiyan represents an important pillar of Ogulagha Kingdom's heritage.
+
+Read the full message below: 
+
+A GLORIOUS 21 YEARS OF ROYAL SERVICE: CONGRATULATIONS, YOUR MAJESTY!
+
+It is with profound joy and deep respect that I congratulate His Royal Majesty, Elder (Capt.) King Joseph Timiyan, PhD JP  the Ebenanaowei of Ogulagha Kingdom, on the auspicious occasion of his 21st Coronation Anniversary.
+
+Your Majesty, the celebration of 21 years on the throne is an important moment that speaks volumes about the enduring strength of the traditional institution and the responsibility of preserving a people's history, identity and collective aspirations.
+
+A kingdom's greatest treasures are not only found in its natural resources but also in its rich cultural heritage, the unity of its people and the wisdom of its traditional institution. Your Majesty, your continued occupation of the ancestral throne represents an important pillar of that heritage.
+
+As you mark this remarkable anniversary, I celebrate your royal journey and wish you even greater accomplishments in the years ahead. May your reign continue to inspire confidence, promote harmony and create an atmosphere where peace, progress and development can thrive.
+
+Congratulations, Your Royal Majesty, on 21 years of distinguished reign. May the years ahead bring even greater reasons to celebrate!
+
+Hon. Frank Pukon, PhD</div>
+                                    <div class="date">11/12/2026, 2:07:15 PM</div>
+                                </div>
+                            </a>
+                        </div>
+                                               <div class="frame7">
+                            <a href="news?title=RMAFC-Moves-To-Ensure-Fair-Sharing-Of-13-Percent-Derivation-Fund" class="slideFrameLink">
+                                <div class="imageContainer">
+                                    <img src="./uploads/2026/11/1001243343.jpg" alt="" srcset="" class="postImage">
+                                </div>
+                                <div class="textContainer">
+                                    <div class="title">RMAFC Moves To Ensure Fair Sharing Of 13 Percent Derivation Fund</div>
+                                    <div class="story">The Revenue Mobilisation Allocation and Fiscal Commission (RMAFC) has called for the fair and equitable distribution of the 13 per cent derivation fund among oil and gas-producing states.
+
+The Chairman of the commission, Mohammed Shehu, made the call on Thursday in Owerri, Imo State, during the flag-off of an oil and gas wells verification exercise.
+
+Shehu explained that the 1999 Constitution, as amended, empowered the commission to monitor revenue inflows into and disbursements from the Federation Account, including the 13 per cent derivation fund.
+
+He stated that the commission was constitutionally mandated under Paragraph 32(a) of Part I of the Third Schedule of the Constitution to oversee revenue accruals and ensure that the derivation fund was fairly shared among eligible states.
+
+According to him, the exercise would focus on examining and verifying the coordinates of disputed oil and gas wells, alongside newly drilled wells between 2017 and the present.
+
+He explained that the Inter-Agency Technical Committee established for the assignment would undertake physical inspections of the affected wells, confirm the accuracy of their geographical coordinates and rely exclusively on officially approved maps.
+
+The committee, he added, would also take relevant court judgments into consideration when addressing disputes over oil and gas wells, while forwarding its findings solely to the commission for ratification and adoption.
+
+The RMAFC chairman described the verification exercise as critical to ensuring transparency and accuracy in revenue distribution from the Federation Account, stressing that the precise locations and coordinates of oil and gas wells determine the financial entitlements of the respective states.
+
+“This exercise represents a crucial phase in establishing statutory accuracy, technical fidelity, and fiscal equity within the Federation Account allocation framework.
+
+“The determination of exact coordinates and spatial alignments for the subject wellheads directly governs the legal and financial entitlements of the respective sub-national entities,” he said.
+
+Shehu urged the technical officers participating in the exercise to adhere strictly to established surveying standards, approved maps and relevant legal provisions in carrying out their responsibilities.
+
+He further disclosed that the committee's technical report would be forwarded exclusively to the commission for administrative review and formal adoption.
+
+The Executive and Technical Committees comprise representatives of the Office of the Surveyor-General of the Federation, the National Boundary Commission, the Nigerian Upstream Petroleum Regulatory Commission and the Imo State Government.
+
+</div>
+                                    <div class="date">11/12/2026, 12:32:11 PM</div>
+                                </div>
+                            </a>
+                        </div>
+                                               <div class="frame8">
+                            <a href="news?title=Nigeria’s-Crude-Oil-Production-Drops-In-October-—-NUPRC" class="slideFrameLink">
+                                <div class="imageContainer">
+                                    <img src="./uploads/2026/11/1001243331.jpg" alt="" srcset="" class="postImage">
+                                </div>
+                                <div class="textContainer">
+                                    <div class="title">Nigeria’s Crude Oil Production Drops In October — NUPRC</div>
+                                    <div class="story">Nigeria’s crude oil and condensate production averaged 1.68 million barrels per day (mbpd) in October 2026, despite the country’s continued struggle to meet the crude oil supply requirements of the Dangote Refinery.
+
+The Nigerian Upstream Petroleum Regulatory Commission (NUPRC) disclosed this in a statement issued by its spokesperson, Eniola Akinkuotu, noting that the country had met its Organisation of Petroleum Exporting Countries (OPEC) production quota for the sixth consecutive month.
+
+According to the commission, Nigeria’s daily output peaked at 1.79 million barrels per day during the month, while the lowest production level was recorded at 1.60 million barrels per day.
+
+However, crude oil and condensate production declined by 0.03 million barrels per day month-on-month, representing a drop of 30,000 barrels per day or approximately 1.75 per cent.
+
+Production figures released by the NUPRC showed that Nigeria recorded 1.70 mbpd in May, 1.73 mbpd in June, 1.677 mbpd in July, 1.677 mbpd in August, 1.71 mbpd in September and 1.68 mbpd in October.
+
+When condensate production is excluded, Nigeria’s average crude oil output stood at 1.51 million barrels per day in October, representing 101 per cent of the 1.5 million barrels per day quota allocated to the country by OPEC.
+
+Despite meeting its OPEC target, Nigeria has continued to struggle to supply sufficient crude oil to the Dangote Refinery, which has an installed processing capacity of 700,000 barrels per day.
+
+About a month ago, the Minister of Finance acknowledged that the country lacked adequate crude oil production to meet the refinery’s daily feedstock requirements.
+
+Available figures indicate that the refinery imports between 20 and 22 per cent of its crude oil requirements, while locally sourced supplies account for approximately 78 to 80 per cent.
+
+The refinery obtains its domestic crude oil supplies through the Federal Government, mainly via the Nigerian National Petroleum Company Limited (NNPCL).
+</div>
+                                    <div class="date">11/12/2026, 12:23:46 PM</div>
+                                </div>
+                            </a>
+                        </div>
+                                               <div class="frame9">
+                            <a href="news?title=2027:-Otuaro-Says-Warri-South~West-Has-Backed-Tinubu,-Oborevwori" class="slideFrameLink">
+                                <div class="imageContainer">
+                                    <img src="./uploads/2026/11/1001242680.jpg" alt="" srcset="" class="postImage">
+                                </div>
+                                <div class="textContainer">
+                                    <div class="title">2027: Otuaro Says Warri South~West Has Backed Tinubu, Oborevwori</div>
+                                    <div class="story">The Administrator of the Presidential Amnesty Programme (PAP), Dr Dennis Brutu Otuaro, has described the massive turnout of residents at the All Progressives Congress (APC) campaign rally in Warri South-West Local Government Area of Delta State as a strong demonstration of support for President Bola Tinubu and Governor Sheriff Oborevwori ahead of the 2027 general elections.
+
+Otuaro, who reacted to the governor's campaign visit to Ogbe-Ijoh on Tuesday, said the enthusiastic reception accorded the APC delegation reflected the confidence of the people in the leadership and developmental policies of the two political leaders.
+
+The rally, held at the premises of Ogbe-Ijoh Grammar School, attracted a large gathering of party faithful, supporters and residents from different communities across the local government area.
+
+The PAP administrator, an indigene of Warri South-West, maintained that the growing acceptance of the APC in the area was a reflection of the positive impact of the Tinubu and Oborevwori administrations, particularly in infrastructure, education, healthcare, agriculture, employment, grassroots development, workers' welfare, social protection, peace and security.
+
+He noted that the people had recognised the importance of sustaining the development initiatives of both governments and were prepared to demonstrate their support through their votes in 2027.
+
+According to Otuaro, the combination of President Tinubu's Renewed Hope Agenda and Governor Oborevwori's MORE Agenda provides a viable foundation for accelerated development and improved living conditions across Delta State.
+
+He said, "The people of Warri South-West have spoken through their massive turnout and have demonstrated where their political preference lies ahead of the 2027 elections.
+
+"They have shown that they believe in President Bola Tinubu and Governor Sheriff Oborevwori and are ready to support their return to office for another term.
+
+"Our people understand that President Tinubu is providing the necessary support for development in Delta State, while Governor Oborevwori has continued to demonstrate commitment to the growth of the state, particularly our local government area.
+
+"They believe that sustaining the Renewed Hope Agenda and the MORE Agenda will create opportunities for greater development in our communities. Their position is clear: they want continuity because they are confident that more dividends of democracy will follow."
+
+Otuaro expressed confidence that the APC would secure victory in Warri South-West and across Delta State, adding that the support demonstrated at the rally was an indication of the party's growing grassroots strength.
+
+He also applauded the leadership of the Warri South-West APC Campaign Council, party stakeholders and community leaders for their mobilisation efforts and commitment to ensuring a successful campaign outing ahead of the elections.
+
+Speaking at the rally, Governor Oborevwori expressed confidence in the APC's grassroots popularity, saying the party's unity and growing support base would translate into electoral success for President Tinubu and other candidates in the state.
+
+The governor reaffirmed his administration's determination to sustain development across the state and urged party leaders, youths, women and other stakeholders to remain united and intensify mobilisation efforts ahead of the polls.
+
+Similarly, the Director-General of the Delta APC Campaign Council, Senator James Manager, urged the people of Warri South-West to take the lead in mobilising support for Tinubu, Oborevwori and other APC candidates.
+
+Manager argued that both leaders deserved another term to consolidate the achievements recorded under their respective administrations.
+
+The Delta South and Central APC chairmen, Emmanuel Amgbaduba and Paulinus Akpeki, also expressed optimism about the party's chances in the forthcoming elections, calling on residents to support its candidates.
+
+The state APC chairman, Solomon Arenyeka, subsequently presented party flags to the party's candidates, including Thomas Ereyitomi, who is contesting for the House of Representatives, as well as Guwor Emomotimi and Andrew Igban, candidates for the Warri South-West I and II State Constituencies, respectively.</div>
+                                    <div class="date">11/12/2026, 12:07:19 PM</div>
+                                </div>
+                            </a>
+                        </div>
+                                               <div class="frame10">
+                            <a href="news?title=Peruzzi-Alleges-Charm-Was-Hidden-In-His-Jacket-At-Davido’s-House" class="slideFrameLink">
+                                <div class="imageContainer">
+                                    <img src="./uploads/2026/11/123055.jpg" alt="" srcset="" class="postImage">
+                                </div>
+                                <div class="textContainer">
+                                    <div class="title">Peruzzi Alleges Charm Was Hidden In His Jacket At Davido’s House</div>
+                                    <div class="story">Singer Peruzzi has recounted an unusual experience at Davido’s residence, alleging that he discovered a charm hidden inside one of his jackets while living at the singer’s house.
+
+Peruzzi was signed to Davido’s record label, Davido Music Worldwide (DMW), in 2017. The label was eventually dissolved in April 2024.
+
+Recounting the incident during an online video interview, Peruzzi said he had just finished taking a shower one evening and was preparing to return downstairs when he felt an unexplained urge to wear a particular jacket.
+
+He said he went to his wardrobe to pick out his clothes but felt unusually drawn to the jacket, despite having no particular reason to choose it.
+
+According to him, something fell out of the jacket when he picked it up, prompting him to discover what he described as a charm hidden inside.
+
+Peruzzi expressed surprise at the discovery, noting that the jacket had only recently returned from the laundry.</div>
+                                    <div class="date">12/11/2026, 10:26:55</div>
+                                </div>
+                            </a>
+                        </div>
+                                   </div>
+        </div>
+
+        <button class="next">
+            <img src="./images/left.png" alt="" srcset="">
+        </button>
+        <button class="previous">
+            <img src="./images/right.png" alt="" srcset="">
+        </button>
+
+        <div class="topStoriesContainer">
+            <!-- top 3 stories with highest views   -->
+            <div class="header">top stories</div>
+            <div class="topStories">
+                                            <div>
+                                <a href="news?title=I-Grew-Up-Without-My-Mum,-But-I-Didn’t-Let-That-Break-Me---Bimbo-Ademoye">
+                                    <div class="imageContainer">
+                                        <img src="./uploads/2025/7/393700687_255875853684751_5254817370637037000_n.jpg.webp" alt="">
+                                    </div>
+                                    <div class="title">I Grew Up Without My Mum, But I Didn’t Let That Break Me   Bimbo Ademoye</div>
+                                    <div class="viewsAndLikes">
+                                        <span class="views">views 102601</span>
+                                        <span class="likes"><i class="fa fa-thumbs-up"></i> 7626</span>
+                                    </div>
+                                </a>
+                            </div>
+                                                    <div>
+                                <a href="news?title=Real-Warri-Pikin-Sends-Strong-Message-to-Women">
+                                    <div class="imageContainer">
+                                        <img src="./uploads/2025/6/Anita-Alaire-Afoke-Asuoha-.Stylist-@medlinbossOutfit-@escak_couture-Gele-@adufegelePhotography-@photokulturerealwarripikin-ijawladies.jpg.webp" alt="">
+                                    </div>
+                                    <div class="title">Real Warri Pikin Sends Strong Message to Women</div>
+                                    <div class="viewsAndLikes">
+                                        <span class="views">views 90535</span>
+                                        <span class="likes"><i class="fa fa-thumbs-up"></i> 898</span>
+                                    </div>
+                                </a>
+                            </div>
+                                                    <div>
+                                <a href="news?title=Ijaw,-Urhobo-Leaders-Accuse-Itsekiris-Of-Sabotage,-Demand-INEC-Obey-Supreme-Court">
+                                    <div class="imageContainer">
+                                        <img src="./uploads/2025/5/1744193515.webp" alt="">
+                                    </div>
+                                    <div class="title">Ijaw, Urhobo Leaders Accuse Itsekiris Of Sabotage, Demand INEC Obey Supreme Court</div>
+                                    <div class="viewsAndLikes">
+                                        <span class="views">views 89770</span>
+                                        <span class="likes"><i class="fa fa-thumbs-up"></i> 26407</span>
+                                    </div>
+                                </a>
+                            </div>
+                                    </div>
+        </div>
+
+        <div class="politicsAndSports">
+            <div class="politicsContainer">
+                <!-- first politics stories   -->
+                <div class="header">politics</div>
+                                            <div class="posts">
+                                <div>
+                                    <a href="news?title=2027:-Tinubu-Has-No-Rival-In-South~South-—-Akpabio">
+                                        <div class="imageContainer">
+                                            <img src="./uploads/2026/11/1001244109.jpg" alt="">
+                                        </div>
+                                        <div class="title">2027: Tinubu Has No Rival In South~South — Akpabio</div>
+                                    </a>
+                                </div>
+                            </div>
+                                    </div>
+            <div class="sportsContainer">
+                <!-- first 2 sports stories   -->
+                <div class="header">world of sports</div>
+                <div class="sports">
+                                                    <div>
+                                    <a href="news?title=Owono-Yet-To-Decide-On-Football-Return-After-De-Miguel’s-Death">
+                                        <div class="imageContainer">
+                                            <img src="./uploads/2026/11/123617.webp" alt="">
+                                        </div>
+                                        <div class="title">Owono Yet To Decide On Football Return After De Miguel’s Death</div>
+                                    </a>
+                                </div>
+                                                            <div>
+                                    <a href="news?title=Crystal-Palace-Dismiss-Pierre-Sage-After-Just-16-Matches">
+                                        <div class="imageContainer">
+                                            <img src="./uploads/2026/11/123602.webp" alt="">
+                                        </div>
+                                        <div class="title">Crystal Palace Dismiss Pierre Sage After Just 16 Matches</div>
+                                    </a>
+                                </div>
+                                            </div>
+            </div>
+           
+        </div>
+
+        <div class="newsUpdate">
+            <div class="header">
+                <div class="coverOpen" id="newsUpdateCover"></div><span>news update</span>
+            </div>
+            <div class="newsContainer">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Dz7nLVPi8lE?si=FddyC7DmHe-ckO8x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
+            <div class="moreNews">
+                <a href="news-update.php">
+                    <span>Updates of the weeks</span>
+                    <video autoplay muted loop id="logoVideo">
+                        <source source src="./videos/logo.mp4" type="video/mp4">
+                    </video>
+                </a>
+            </div>
+        </div>
+
+        <div class="bottomNews">
+            <div class="newsContainer">
+                <div class="line"></div>
+                <div class="header">special guest</div>
+                <div class="news">
+                                    </div>
+            </div>
+            <div class="newsContainer">
+                <div class="line"></div>
+                <div class="header">technology</div>
+                <div class="news">
+                                                        <a href="news?title=Trump-Confirms-FBI-Probe-Into-Nvidia-CEO’s-Alleged-Links-To-Chinese-Spy">Trump Confirms FBI Probe Into Nvidia CEO’s Alleged Links To Chinese Spy</a>
+                                                                    <a href="news?title=NDPC-Urges-Businesses-To-Make-Data-Protection-A-Core-Priority">NDPC Urges Businesses To Make Data Protection A Core Priority</a>
+                                                                    <a href="news?title=Obasanjo-To-Lead-African-Trade,-Logistics-Conference-In-Lagos">Obasanjo To Lead African Trade, Logistics Conference In Lagos</a>
+                                                                    <a href="news?title=How-Nigeria-Can-Adapt-the-UAE’s-AI-Strategy-To-Drive-Digital-Transformation">How Nigeria Can Adapt the UAE’s AI Strategy To Drive Digital Transformation</a>
+                                                </div>
+            </div>
+            <div class="newsContainer">
+                <div class="line"></div>
+                <div class="header">archive</div>
+                <div class="news archive">
+                    <a href="" class="archiveLink"></a>
+                    <a href="" class="archiveLink"></a>
+                    <a href="" class="archiveLink"></a>
+                    <a href="" class="archiveLink"></a>
+                    <a href="" class="archiveLink"></a>
+                    <a href="" class="archiveLink"></a>
+                    <a href="" class="archiveLink"></a>
+                    <a href="" class="archiveLink"></a>
+                    <a href="" class="archiveLink"></a>
+                    <a href="" class="archiveLink"></a>
+                    <a href="" class="archiveLink"></a>
+                    <a href="" class="archiveLink"></a>
+                </div>
+            </div>
+        </div>
+        <div class="waffiExclusive">
+            <div class="header">Exclusive on WAFFI TV</div>
+                                </div>
+    </section>
+
+    <div class="eventsContainer">
+        <div class="header">Upcoming Events</div>
+                                <div class="events">
+                            <a href="events?title=IN-HOUSE-WORSHIP-EXPERIENCE-5TH-EDITION-/-LIVE-RECORDING-CONCERT">
+                                <span class="title">IN HOUSE WORSHIP EXPERIENCE 5TH EDITION / LIVE RECORDING CONCERT</span>
+                                <div>
+                                    <span class="location">Location: Living Faith Church Jakpa.</span>
+                                    <span class="host">Host: DA ANNOITTED CREW in conjuction with MEGAPRAISECHOIR</span>
+                                    <span class="date">Date: 27th April 2025</span>
+                                </div>
+                            </a>
+                        </div>
+                                            <div class="events">
+                            <a href="events?title=Celebration-of-life-of-late-Mrs-Mama-Pinapina-Burutu-Otuaro-(Nee-Omula)-a.k.a-Nene">
+                                <span class="title">Celebration of life of late Mrs Mama Pinapina Burutu Otuaro (Nee Omula) a.k.a Nene</span>
+                                <div>
+                                    <span class="location">Location: Musheshe Estate, airport road.</span>
+                                    <span class="host">Host: Former Deputy Governor of Delta state - Deacon Kingsley Burutu Otuaro</span>
+                                    <span class="date">Date: 5th March 2025</span>
+                                </div>
+                            </a>
+                        </div>
+                        </div>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body class="footerBody">
+
+    <footer>
+        <div class="one">
+            <form id="newsLetter">
+                <span>stay connected!</span>
+                <div class="wrapper">
+                    <input type="email" id="subscribersEmail1" name="subscribersEmail" placeholder="Enter your email" required>
+                    <button type="submit" class="subscribe" id="subscribeToNewsLetter"><i class="fa fa-arrow-right"></i></button>
+                </div>
+                <div class="subscribeMessage"></div>
+            </form>
+            <div class="more">
+                <div class="follow">
+                    <span>follow us</span>
+                    <div>
+                        <a href="https://www.facebook.com/waffitv" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/officialwaffitv" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@officialwaffitv" target="_blank">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contactUs">
+                    <span>contact us</span>
+                    <div class="contacts">
+                        <a href="tel:/+2347068286500">
+                            <i class="fa fa-phone"></i>
+                        </a>
+                        <a href="mailto://info@waffitv.com" target="_blank">
+                            <i class="fa fa-envelope"></i>
+                        </a>
+                        <a href="https://www.wa.me/+2347068286500" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="two">
+            <div>
+                <span>news</span>
+                <a href="live">Live TV</a>
+                <a href="latest-news">Latest news</a>
+                <a href="trending">Trending</a>
+                <a href="video-hub">Videos</a>
+                <a href="sports">Sports</a>
+                <a href="politics">Politics</a>
+                <a href="metro">Metro</a>
+                <a href="business">Business</a>
+                <a href="entertainment">Entertainment</a>
+                <a href="lifestyle">Lifestyle</a>
+                <a href="eye-witness">Eye witness</a>
+            </div>
+        </div>
+        <div class="three">
+            <div class="company">
+                <span>company</span>
+                <div>
+                    <a href="articles">articles</a>
+                    <a href="advertise">advertise</a>
+                    <a href="privacy-policy">privacy policy</a>
+                </div>
+            </div>
+            <div class="affiliates">
+                <span>affiliates</span>
+                <div>
+                    <a href="https://www.waffinetworks.com" target="_blank">
+                        <img src="./images/waffinetworks.png" alt="" class="waffinetworks"> <span>waffi networks</span>
+                    </a>
+                </div>
+            </div>
+            <div class="copyright">
+                <i>&copy;</i><span> WAFFITV News Network 2025</span>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/footer.js"></script>
+</body>
+</html>    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="manifest" href="./manifest.json">
+    <style>
+        .installBody{
+            position: relative;
+            z-index: 8;
+        }
+        .installPopup{
+            position: fixed;
+            width: fit-content;
+            padding: 10px;
+            border: 1px solid#000;
+            background-color:  #f6f1f8;
+            border-radius: 6px;
+            contain: content;
+            display: grid;
+            place-items: center;
+            right: 0;
+            top: -170px;
+            margin-right: 10px;
+        }
+        .installPopup .closePopup{
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: 10px 10px 0px 0px;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+        .installPopup .closePopup:focus{
+            outline: none;
+        }
+        .installPopup .closePopup:hover{
+            outline: none;
+        }
+        .installPopup .closePopup i{
+            font-size: 25px;
+            color: #000;
+        }
+        .installPopup span{
+            font-size: 20px;
+            font-weight: 500;
+            padding: 25px 0px;
+            color: #000;
+        }
+        .installPopup .install{
+            cursor: pointer;
+            background-color: #fff;
+            border: 1px solid #aa42aa;
+            border-radius: 4px;
+            padding: 6px 15px;
+            color: #000;
+            font-size: 18px;
+            text-transform: capitalize;
+            font-weight: 500;
+        }
+        @media (max-width: 700px) {
+            .installPopup{
+                padding: 5px;
+                margin-right: 5px;
+            }
+            .installPopup span{
+                padding: 35px 0px;
+            }
+        }
+
+    </style>
+</head>
+<body class="installBody">
+    <div class="installPopup">
+        <button class="closePopup"><i class="fa fa-times"></i></button>
+        <span>News on the go. Anytime, anywhere!</span>
+        <button class="install">install app</button>
+    </div>
+    
+
+    <script>
+		// install pwa app
+		const installPopup = document.querySelector('.installPopup');
+		const closePopup = document.querySelector('.closePopup');
+		const install = document.querySelector('.install');
+		
+		const POPUP_STORAGE_KEY = 'waffitv-install-popup-last-shown';
+		const INSTALLED_STORAGE_KEY = 'waffitv-app-installed';
+		const FIVE_DAYS = 5 * 24 * 60 * 60 * 1000;
+		
+		let deferredPrompt, installTimeout, declined;
+		
+		// Check whether the popup should be displayed
+		function shouldShowPopup() {
+		    if (localStorage.getItem(INSTALLED_STORAGE_KEY) === 'true') {
+		        return false;
+		    }
+		    const lastShown = localStorage.getItem(POPUP_STORAGE_KEY);
+		
+		    if (!lastShown) {
+		        return true;
+		    }
+		    return Date.now() - Number(lastShown) >= FIVE_DAYS;
+		}
+		
+		// Check if the app is already installed
+		if (window.matchMedia('(display-mode: standalone)').matches || navigator.standalone === true) {
+		    localStorage.setItem(INSTALLED_STORAGE_KEY, 'true');
+		}
+		
+		window.addEventListener('beforeinstallprompt', (e) => {
+		    e.preventDefault();
+		    deferredPrompt = e;
+		    if (shouldShowPopup() && declined !== true) {
+		        installTimeout = setTimeout(() => {
+		            if (shouldShowPopup()) {
+		                localStorage.setItem(POPUP_STORAGE_KEY, Date.now().toString());
+		                popUp();
+		            }
+		        }, 6000);
+		    }
+		
+		    install.addEventListener('click', () => {
+		        hidePopUp();
+		        deferredPrompt.prompt();
+		
+		        deferredPrompt.userChoice.then((choiceResult) => {
+		            if (choiceResult.outcome === 'accepted') {
+		                declined = false;
+		            } else {
+		                declined = true;
+		            }
+		
+		            deferredPrompt = null;
+		        });
+		    });
+		});
+		
+		window.addEventListener('appinstalled', () => {
+		    localStorage.setItem(INSTALLED_STORAGE_KEY, 'true');
+		
+		    fetch('https://api64.ipify.org?format=json')
+		        .then(response => response.json())
+		        .then((data) => {
+		            const formData = {
+		                ip: data.ip,
+		                date: new Date().toLocaleString()
+		            };
+		
+		            $.ajax({
+		                url: "ajax-app-users.php",
+		                type: "POST",
+		                data: formData
+		            });
+		        });
+		});
+		
+		async function popUp() {
+		    declined = false;
+		    let interval, marginTop = -170;
+		
+		    interval = setInterval(() => {
+		        marginTop++;
+		        installPopup.style.marginTop = marginTop + 'px';
+		
+		        if (marginTop === 300) {
+		            clearInterval(interval);
+		            clearTimeout(installTimeout);
+		        }
+		    }, 2);
+		}
+		
+		async function hidePopUp() {
+		    let interval, marginTop = 300;
+		
+		    interval = setInterval(() => {
+		        marginTop--;
+		        installPopup.style.marginTop = marginTop + 'px';
+		
+		        if (marginTop === -170) {
+		            clearInterval(interval);
+		        }
+		    }, 2);
+		}
+		
+		closePopup.addEventListener('click', () => {
+		    hidePopUp();
+		});
+    </script>
+</body>
+</html>
+    <script src="./js/home.js"></script>
+</body>
+</html>
