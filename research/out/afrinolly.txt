@@ -1,0 +1,2159 @@
+URL: https://afrinolly.com/
+FINAL: https://afrinolly.com/
+STATUS: 200
+TYPE: text/html; charset=utf-8
+LENGTH: 179709
+
+<!-- TEMPLATE : >>>> wrx Advanced [V3 LIVE] <<<< -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-bs-theme="light">
+
+    <head>
+        
+        <title>Home | Afrinolly | CRDzone</title>
+
+        <!-- PAGE ENCODING -->
+        
+        <!-- Required for platform security -->
+        <meta charset="UTF-8" content="CfDJ8IcbjjS7ShtLmqt-N6y7I_6bAKqT8FgoY9lsS6agVtLnR4InwAxSjugJjr02p4AkNQzYZxiNGkTdlidvWWW6bzo1BQvLrF0GHd55rgnstfeFXfJEToQ6TtnBLNvzYly3qnsx8GFBfQAxuAPByLgoSSs" csrf-param="_csrf_token" method-param="_method" name="csrf-token">
+        
+        <meta charset="UTF-8" />
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+
+        <!-- SEO INFO -->
+
+        <!-- PAGE CONTENT DESCRIPTION -->
+
+        <meta name="description" content="Home | Afrinolly | CRDzone" />
+        
+        <meta name="abstract" content="Home | Afrinolly | CRDzone" >
+
+        <meta name="author" content="Afrinolly" />
+        
+        <meta name="web_author" content="Afrinolly | CRDzone Network" />
+        
+        <meta name="copyright" content="&#xA9; Copyright 2026 Afrinolly Community | CRDzone Network" />
+        
+        <meta name="generator" content="CRDzone Audience Network built on OpenWRX powered by SilverstoneCIS" />
+
+        <!-- PAGE INDEX INSTRUCTIONS -->
+
+        <meta name="robots" content="index, follow, max-snippet:160, max-image-preview:large, max-video-preview:-1" />
+        
+        <meta name="googlebot" content="index, follow" />
+
+        <meta name="revisit-after" content="7 days" />
+
+        <meta name="rating" content="general" />
+
+        <!-- LANGUAGE AND CANONICAL -->
+
+        <meta http-equiv="content-language" content="en" />
+        
+        <link rel="canonical" href="https://afrinolly.com/home" />
+
+        <!-- FACEBOOK OG DETAIL -->
+
+        <meta property="og:type" content="website" />
+        
+        <meta property="og:url" content="https://afrinolly.com/home" />
+
+        <meta property="og:title" content="Home | Afrinolly | CRDzone" />
+
+        <meta property="og:description" content="Home | Afrinolly | CRDzone" />
+
+        <meta property="og:image" content="https://cdn1.cloudwrx.com/static/3691/images/favicons/android-chrome-384x384.png?q=90" />
+
+        <meta property="og:image:width" content="1200" />
+
+        <meta property="og:image:height" content="630" />
+
+        <meta property="fb:app_id" content=""/>
+
+        <!-- TWITTER CARD INFO -->
+        
+        <meta name="twitter:card" content="summary_large_image" />
+        
+        <meta name="twitter:title" content="Home | Afrinolly | CRDzone" />
+
+        <meta name="twitter:description" content="Home | Afrinolly | CRDzone" />
+        
+        <meta name="twitter:image" content="https://cdn1.cloudwrx.com/static/3691/images/favicons/android-chrome-384x384.png?q=90" />
+        
+        <meta name="twitter:site" content="" />
+        
+        <!-- MOBILE & PWA -->
+
+        <meta name="theme-color" content="#000000">
+
+        <meta name="mobile-web-app-capable" content="yes"/>
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+
+        <meta name="apple-mobile-web-app-title" content="Afrinolly" />
+
+        <meta name="apple-mobile-web-app-status-bar-style" content="#000000" />
+
+        <meta name="HandheldFriendly" content="true" />
+
+        <!-- FAVICON -->
+
+        <link rel="apple-touch-icon" sizes="180x180" href="https://cdn1.cloudwrx.com/static/3691/images/favicons/apple-touch-icon.png?process=no" />
+        
+        <link rel="icon" type="images/png" href="https://cdn1.cloudwrx.com/static/3691/images/favicons/favicon-32x32.png?process=no" sizes="32x32" />
+        
+        <link rel="icon" type="images/png" href="https://cdn1.cloudwrx.com/static/3691/images/favicons/favicon-16x16.png?process=no" sizes="16x16" />
+        
+        
+        <link rel="mask-icon" href="https://cdn1.cloudwrx.com/static/3691/images/favicons/safari-pinned-tab.svg?process=no" color="#000000" />
+        
+        <link rel="shortcut icon" href="https://cdn1.cloudwrx.com/static/3691/images/favicons/favicon.ico?process=no" />
+        
+        <!-- ARTICLE SCHEMA -->
+        
+        <meta property="article:published_time" content="2025-08-06T17:24:45.3633333Z" />
+
+        <meta property="article:modified_time" content="2025-08-13T10:56:17.7204607Z" />
+
+        <!-- STRUCTURED DATA -->
+
+        <script type="application/ld&#x2B;json">
+
+            {
+
+                "@context": "https://schema.org",
+
+                "@type": "WebPage",
+
+                "name": "Home | Afrinolly | CRDzone",
+
+                "description": "Home | Afrinolly | CRDzone",
+
+                "url": "https://afrinolly.com/home",
+
+                "inLanguage": "en",
+
+                "image": "https://cdn1.cloudwrx.com/static/3691/images/favicons/android-chrome-384x384.png?q=90",
+
+                "author": {
+
+                    "@type": "Person",
+
+                    "name": "Afrinolly"
+
+                },
+
+                "publisher": {
+
+                    "@type": "Organization",
+
+                    "name": "Afrinolly | CRDzone Network"
+
+                },
+
+                "datePublished": "2025-08-06T17:24:45.3633333Z",
+
+                "dateModified": "2025-08-13T10:56:17.7204607Z",
+
+                "mainEntityOfPage": {
+
+                    "@type": "WebPage",
+
+                    "@id": "https://afrinolly.com/home"
+
+                }
+
+            }
+
+        </script>
+
+        <!-- CUSTOM META -->
+
+        
+
+        <!-- PAGE PRELOADER -->
+
+
+            <style>
+                .page-loading {
+                position: fixed;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                -webkit-transition: all .4s .2s ease-in-out;
+                transition: all .4s .2s ease-in-out;
+                background-color: #fff;
+                opacity: 0;
+                visibility: hidden;
+                z-index: 9999;
+                }
+                [data-bs-theme='dark'] .page-loading {
+                background-color: #0b0f19;
+                }
+                .page-loading.active {
+                opacity: 1;
+                visibility: visible;
+                }
+                .page-loading-inner {
+                position: absolute;
+                top: 50%;
+                left: 0;
+                width: 100%;
+                text-align: center;
+                -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+                -webkit-transition: opacity .2s ease-in-out;
+                transition: opacity .2s ease-in-out;
+                opacity: 0;
+                }
+                .page-loading.active > .page-loading-inner {
+                opacity: 1;
+                }
+                .page-loading-inner > span {
+                display: block;
+                font-size: 1rem;
+                font-weight: normal;
+                color: #9397ad;
+                }
+                [data-bs-theme='dark'] .page-loading-inner > span {
+                color: #fff;
+                opacity: .6;
+                }
+                .page-spinner {
+                display: inline-block;
+                width: 2.75rem;
+                height: 2.75rem;
+                margin-bottom: .75rem;
+                vertical-align: text-bottom;
+                border: .15em solid #b4b7c9;
+                border-right-color: transparent;
+                border-radius: 50%;
+                -webkit-animation: spinner .75s linear infinite;
+                animation: spinner .75s linear infinite;
+                }
+                [data-bs-theme='dark'] .page-spinner {
+                border-color: rgba(255,255,255,.4);
+                border-right-color: transparent;
+                }
+                @@-webkit-keyframes spinner {
+                100% {
+                    -webkit-transform: rotate(360deg);
+                    transform: rotate(360deg);
+                }
+                }
+                @@keyframes spinner {
+                100% {
+                    -webkit-transform: rotate(360deg);
+                    transform: rotate(360deg);
+                }
+                }
+            </style>
+            <script>
+                (function () {
+                window.onload = function () {
+                    const preloader = document.querySelector('.page-loading');
+                    preloader?.classList.remove('active');
+                    setTimeout(() => preloader?.remove(), 1000);
+                };
+                })();
+            </script>
+        
+        <!-- GOOGLE TAG MANAGER - GTM -->
+
+        
+        <!-- GOOGLE TAG - GTAG -->
+        
+        
+        <!-- GOOGLE MAPS API -->
+
+
+            <script async defer src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBdNodSXtzNpG2w4BX6Yi_RyE8q8sW4BBE&libraries=places&loading=async'></script>
+        
+        <!-- META PIXEL CODE -->
+        
+        
+        <!-- META PIXEL CODE -->
+        
+        
+        <!-- FB UI CODE -->
+        
+
+
+        <!-- STYLES (TODO: We need to enhance style links to render async or not for render blocking optimizing ) -->
+
+        <!-- DYNAMIC CSS THEME AND PALETTE -->
+
+        <!-- LIB COMPONENT : 1002214 : wrx_ui_el_cssDynamicVariableRoot CSS -->
+
+<style type="text/css">
+
+ /* WRX CORE DYNAMIC ROOTS */
+
+  :root {
+
+    --cdn: https://cdn1.cloudwrx.com/static/3691/;
+  
+    --cdn-custom: https://cdn1.cloudwrx.com/;
+  
+    --cdn-library: https://cdn1.cloudwrx.com/static/1/;
+  
+    --cdn-app: https://cdn1.cloudwrx.com/static/3691/;
+  
+    --cdn-channel: https://cdn1.cloudwrx.com/static/3691/C490/;
+  
+    --cdn-network: https://cdn1.cloudwrx.com/static/865/;
+  
+    --cdn-nettenant: https://cdn1.cloudwrx.com/static/865/tenant/782/;
+  
+  /*CenturyGothic CenturyGothic-Bold CenturyGothic-Bold */
+    --font-family-sans-serif: Manrope, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  
+    --font-family-header: Manrope, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  
+    --font-family-button: Manrope, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  
+    --font-family-monospace: Segoe UI, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  
+    --roundXL: 1rem;
+  
+    --roundL: .7rem;
+  
+    --roundM: .4rem;
+  
+    --roundS: .2rem;
+  
+    --shadowL: 0 .3rem .8rem rgba(0, 0, 0, 0.3);
+  
+    --shadowM: 0 .2rem .4rem rgba(0, 0, 0, 0.3);
+  
+    --shadowS: 0 .1rem .2rem rgba(0, 0, 0, 0.3);
+  
+    --shadowInsetL: 0 .3rem .8rem rgba(0, 0, 0, 0.3), 0 0 2.6rem rgba(0, 0, 0, 0.1) inset;
+  
+    --shadowInsetM: 0 .2rem .4rem rgba(0, 0, 0, 0.3), 0 0 2.6rem rgba(0, 0, 0, 0.1) inset;
+  
+    --shadowInsetS: 0 .1rem .2rem rgba(0, 0, 0, 0.3), 0 0 2.6rem rgba(0, 0, 0, 0.1) inset;
+  
+  }
+  
+   /* WRX DYNAMIC PALETTE ROOTS */
+  
+   :root {
+  
+    --primary-l3: #ffffff;
+  
+    --primary-l2: #fbf5ce;
+  
+    --primary-l1: #f4e26f;
+  
+    --primary: #f8c000;
+  
+    --primary-d1: #ab8500;
+  
+    --primary-d2: #453600;
+  
+    --primary-d3: #120e00;
+  
+    --rgb-primary-l3: 251, 246, 232;
+  
+    --rgb-primary-l2: 255, 236, 171;
+  
+    --rgb-primary-l1: 255, 213, 69;
+  
+    --rgb-primary: 239, 211, 40;
+  
+    --rgb-primary-d1: 188, 164, 14;
+  
+    --rgb-primary-d2: 94, 81, 7;
+  
+    --rgb-primary-d3: 0, 0, 0;
+  
+    --primary-gradient-0: #ab8500;
+  
+    --primary-gradient-100: #f8c000;
+  
+    --rgb-primary-gradient-0: 188, 164, 14;
+  
+    --rgb-primary-gradient-100: 239, 211, 40;
+  
+    --primary-font-l: #000000;
+  
+    --primary-font: #120e00;
+  
+    --primary-font-d: #fbf6e8;
+  
+    --rgb-primary-font-l: 18, 14, 0;
+  
+    --rgb-primary-font: 0, 0, 0;
+  
+    --rgb-primary-font-d: 255, 255, 255;
+  
+    --secondary-l3: #fdefed;
+  
+    --secondary-l2: #f7b3a7;
+  
+    --secondary-l1: #ee6349;
+  
+    --secondary: #282828;
+  
+    --secondary-d1: #272727;
+  
+    --secondary-d2: #000000;
+  
+    --secondary-d3: #000000;
+  
+    --rgb-secondary-l3: 242, 242, 242;
+  
+    --rgb-secondary-l2: 223, 223, 223;
+  
+    --rgb-secondary-l1: 156, 156, 156;
+  
+    --rgb-secondary: 215, 50, 20;
+  
+    --rgb-secondary-d1: 145, 34, 13;
+  
+    --rgb-secondary-d2: 52, 12, 5;
+  
+    --rgb-secondary-d3: 5, 1, 0;
+  
+    --secondary-gradient-0: #272727;
+  
+    --secondary-gradient-100: #282828;
+  
+    --rgb-secondary-gradient-0: 145, 34, 13;
+  
+    --rgb-secondary-gradient-100: 215, 50, 20;
+  
+    --secondary-font-l: #050100;
+  
+    --secondary-font: #f2f2f2;
+  
+    --secondary-font-d: #f2f2f2;
+  
+    --rgb-secondary-font-l: 0, 0, 0;
+  
+    --rgb-secondary-font: 253, 239, 237;
+  
+    --rgb-secondary-font-d: 253, 239, 237;
+  
+    --tertiary-l3: #ffffff;
+  
+    --tertiary-l2: #ffffff;
+  
+    --tertiary-l1: #ffffff;
+  
+    --tertiary: #9cabb1;
+  
+    --tertiary-d1: #71878f;
+  
+    --tertiary-d2: #445156;
+  
+    --tertiary-d3: #2e363a;
+  
+    --rgb-tertiary-l3: 249, 249, 249;
+  
+    --rgb-tertiary-l2: 228, 233, 236;
+  
+    --rgb-tertiary-l1: 199, 207, 211;
+  
+    --rgb-tertiary: 217, 226, 226;
+  
+    --rgb-tertiary-d1: 174, 193, 193;
+  
+    --rgb-tertiary-d2: 116, 149, 149;
+  
+    --rgb-tertiary-d3: 92, 121, 121;
+  
+    --tertiary-gradient-0: #71878f;
+  
+    --tertiary-gradient-100: #9cabb1;
+  
+    --rgb-tertiary-gradient-0: 174, 193, 193;
+  
+    --rgb-tertiary-gradient-100: 217, 226, 226;
+  
+    --tertiary-font-l: #5c7979;
+  
+    --tertiary-font: #f9f9f9;
+  
+    --tertiary-font-d: #f9f9f9;
+  
+    --rgb-tertiary-font-l: 46, 54, 58;
+  
+    --rgb-tertiary-font: 92, 121, 121;
+  
+    --rgb-tertiary-font-d: 255, 255, 255;
+  
+    --theme-gradient-0: #f8c000;
+  
+    --theme-gradient-100: #ffd545;
+  
+    --rgb-theme-gradient-0: 215, 50, 20;
+  
+    --rgb-theme-gradient-100: 239, 211, 40;
+  
+    --theme-2-gradient-0: #9cabb1;
+  
+    --theme-2-gradient-100: #f8c000;
+  
+    --rgb-theme-2-gradient-0: 217, 226, 226;
+  
+    --rgb-theme-2-gradient-100: 215, 50, 20;
+  
+    --theme-3-gradient-0: #171717;
+  
+    --theme-3-gradient-100: #9cabb1;
+  
+    --rgb-theme-3-gradient-0: 239, 211, 40;
+  
+    --rgb-theme-3-gradient-100: 217, 226, 226;
+  
+    --dark-l3: #9c9c9c;
+  
+    --dark-l2: #767676;
+  
+    --dark-l1: #003463;
+  
+    --dark: #1d1d1d;
+  
+    --dark-d1: #292626;
+  
+    --dark-d2: #1a1818;
+  
+    --dark-d3: #000000;
+  
+    --rgb-dark-l3: 23, 144, 255;
+  
+    --rgb-dark-l2: 0, 105, 201;
+  
+    --rgb-dark-l1: 67, 67, 67;
+  
+    --rgb-dark: 29, 29, 29;
+  
+    --rgb-dark-d1: 41, 38, 38;
+  
+    --rgb-dark-d2: 26, 24, 24;
+  
+    --rgb-dark-d3: 0, 0, 0;
+  
+    --dark-gradient-0: #000c17;
+  
+    --dark-gradient-100: #003463;
+  
+    --rgb-dark-gradient-0: 29, 29, 29;
+  
+    --rgb-dark-gradient-100: 67, 67, 67;
+  
+    --dark-font-l: #ffffff;
+  
+    --dark-font: #000000;
+  
+    --dark-font-d: #000000;
+  
+    --rgb-dark-font-l: 0, 0, 0;
+  
+    --rgb-dark-font: 255, 255, 255;
+  
+    --rgb-dark-font-d: 255, 255, 255;
+  
+    --light-l3: #ffffff;
+  
+    --light-l2: #ffffff;
+  
+    --light-l1: #ffffff;
+  
+    --light: #f4f6fa;
+    
+    --light-d1: #bfcbe2;
+  
+    --light-d2: #7992c2;
+  
+    --light-d3: #5675b2;
+  
+    --rgb-light-l3: 254, 254, 254;
+  
+    --rgb-light-l2: 249, 249, 249;
+  
+    --rgb-light-l1: 235, 235, 235;
+  
+    --rgb-light: 244, 246, 250;
+  
+    --rgb-light-d1: 217, 217, 217;
+  
+    --rgb-light-d2: 166, 166, 166;
+  
+    --rgb-light-d3: 140, 140, 140;
+  
+    --light-gradient-0: #ebebeb;
+  
+    --light-gradient-100: #ffffff;
+  
+    --rgb-light-gradient-0: 255, 255, 255;
+  
+    --rgb-light-gradient-100: 244, 246, 250;
+  
+    --light-font-l: #000000;
+  
+    --light-font: #000000;
+  
+    --light-font-d: #ffffff;
+  
+    --rgb-light-font-l: 42, 42, 78;
+  
+    --rgb-light-font: 0, 0, 0;
+  
+    --rgb-light-font-d: 0, 0, 0;
+    
+    --success-l3: #d8f6df;
+  
+    --success-l2: #9be7ac;
+  
+    --success-l1: #48d368;
+  
+    --success: #28a745;
+    
+    --success-d1: #19692b;
+  
+    --success-d2: #051709;
+  
+    --success-d3: #000000;
+  
+    --rgb-success-l3: 216, 246, 223;
+  
+    --rgb-success-l2: 155, 231, 172;
+  
+    --rgb-success-l1: 72, 211, 104;
+  
+    --rgb-success: 40, 167, 69;
+  
+    --rgb-success-d1: 25, 105, 43;
+  
+    --rgb-success-d2: 5, 23, 9;
+  
+    --rgb-success-d3: 0, 0, 0;
+  
+    --success-gradient-0: #19692b;
+  
+    --success-gradient-100: #28a745;
+  
+    --rgb-success-gradient-0: 25, 105, 43;
+  
+    --rgb-success-gradient-100: 40, 167, 69;
+  
+    --success-font-l: #000000;
+  
+    --success-font: #d8f6df;
+  
+    --success-font-d: #d8f6df;
+  
+    --rgb-success-font-l: 42, 42, 78;
+  
+    --rgb-success-font: 216, 246, 223;
+  
+    --rgb-success-font-d: 216, 246, 223;  
+      
+    --info-l3: #fbfeff;
+  
+    --info-l2: #90e4f1;
+  
+    --info-l1: #36cee6;
+  
+    --info: #17a2b8;
+    
+    --info-d1: #0f6674;
+  
+    --info-d2: #031619;
+  
+    --info-d3: #000000;
+  
+    --rgb-info-l3: 212, 245, 250;
+  
+    --rgb-info-l2: 144, 228, 241;
+  
+    --rgb-info-l1: 54, 206, 230;
+  
+    --rgb-info: 23, 162, 184;
+  
+    --rgb-info-d1: 15, 102, 116;
+  
+    --rgb-info-d2: 3, 22, 25;
+  
+    --rgb-info-d3: 0, 0, 0;
+  
+    --info-gradient-0: #0f6674;
+  
+    --info-gradient-100: #17a2b8;
+  
+    --rgb-info-gradient-0: 15, 102, 116;
+  
+    --rgb-info-gradient-100: 23, 162, 184;
+  
+    --info-font-l: #000000;
+  
+    --info-font: #d4f5fa;
+  
+    --info-font-d: #d4f5fa;
+  
+    --rgb-info-font-l: 42, 42, 78;
+  
+    --rgb-info-font: 251, 254, 255;
+  
+    --rgb-info-font-d: 251, 254, 255;  
+  
+    --warning-l3: #ffffff;
+  
+    --warning-l2: #ffeeb9;
+  
+    --warning-l1: #ffd453;
+  
+    --warning: #ffc107;
+    
+    --warning-d1: #b98b00;
+  
+    --warning-d2: #533f00;
+  
+    --warning-d3: #201800;
+  
+    --rgb-warning-l3: 255, 251, 240;
+  
+    --rgb-warning-l2: 255, 238, 185;
+  
+    --rgb-warning-l1: 255, 212, 83;
+  
+    --rgb-warning: 255, 193, 7;
+  
+    --rgb-warning-d1: 185, 139, 0;
+  
+    --rgb-warning-d2: 83, 63, 0;
+  
+    --rgb-warning-d3: 32, 24, 0;
+  
+    --warning-gradient-0: #b98b00;
+  
+    --warning-gradient-100: #ffc107;
+  
+    --rgb-warning-gradient-0: 185, 139, 0;
+  
+    --rgb-warning-gradient-100: 255, 193, 7;
+  
+    --warning-font-l: #201800;
+  
+    --warning-font: #201800;
+  
+    --warning-font-d: #fffbf0;
+  
+    --rgb-warning-font-l: 32, 24, 0;
+  
+    --rgb-warning-font: 32, 24, 0;
+  
+    --rgb-warning-font-d: 255, 255, 255;  
+  
+    --danger-l3: #ffffff;
+  
+    --danger-l2: #ffb3c6;
+  
+    --danger-l1: #ff4d79;
+  
+    --danger: #ff0040;
+    
+    --danger-d1: #b3002d;
+  
+    --danger-d2: #4d0013;
+  
+    --danger-d3: #190006;
+  
+    --rgb-danger-l3: 255, 247, 249;
+  
+    --rgb-danger-l2: 255, 179, 198;
+  
+    --rgb-danger-l1: 255, 77, 121;
+  
+    --rgb-danger: 255, 0, 64;
+  
+    --rgb-danger-d1: 179, 0, 45;
+  
+    --rgb-danger-d2: 77, 0, 19;
+  
+    --rgb-danger-d3: 25, 0, 6;
+  
+    --danger-gradient-0: #b3002d;
+  
+    --danger-gradient-100: #ff0040;
+  
+    --rgb-danger-gradient-0: 179, 0, 45;
+  
+    --rgb-danger-gradient-100: 255, 0, 64;
+  
+    --danger-font-l: #190006;
+  
+    --danger-font: #fff7f9;
+  
+    --danger-font-d: #fff7f9;
+  
+    --rgb-danger-font-l: 25, 0, 6;
+  
+    --rgb-danger-font: 255, 255, 255;
+  
+    --rgb-danger-font-d: 255, 255, 255; 
+  
+    --accent-1-l3: #fff9fc;
+  
+    --accent-1-l2: #ffc6e5;
+  
+    --accent-1-l1: #ff60b6;
+  
+    --accent-1: #ff1493;
+  
+    --accent-1-d1: #c6006b;
+  
+    --accent-1-d2: #600034;
+  
+    --accent-1-d3: #2d0019;
+  
+    --rgb-accent-1-l3: 255, 255, 255;
+  
+    --rgb-accent-1-l2: 255, 198, 229;
+  
+    --rgb-accent-1-l1: 255, 96, 182;
+  
+    --rgb-accent-1: 255, 20, 147;
+  
+    --rgb-accent-1-d1: 198, 0, 107;
+  
+    --rgb-accent-1-d2: 96, 0, 52;
+  
+    --rgb-accent-1-d3: 45, 0, 25;
+  
+    --accent-1-gradient-0: #c6006b;
+  
+    --accent-1-gradient-100: #ff1493;
+  
+    --rgb-accent-1-gradient-0: 198, 0, 107;
+  
+    --rgb-accent-1-gradient-100: 255, 20, 147;
+
+    --accent-1-font-l: var(--accent-1-d2);
+  
+    --accent-1-font: var(--accent-1-l3);
+  
+    --accent-1-font-d: var(--accent-1-l3);
+  
+    --rgb-accent-1-font-l: var(--rgb-accent-1-d2);
+  
+    --rgb-accent-1-font: var(--rgb-accent-1-l3);
+  
+    --rgb-accent-1-font-d: var(--rgb-accent-1-l3);
+
+    --accent-2-l3: #ffffff;
+  
+    --accent-2-l2: #ffb3ff;
+  
+    --accent-2-l1: #ff4dff;
+  
+    --accent-2: #ff00ff;
+  
+    --accent-2-d1: #b300b2;
+  
+    --accent-2-d2: #4d004c;
+  
+    --accent-2-d3: #190019;
+  
+    --rgb-accent-2-l3: 255, 238, 255;
+  
+    --rgb-accent-2-l2: 255, 179, 255;
+  
+    --rgb-accent-2-l1: 255, 77, 255;
+  
+    --rgb-accent-2: 255, 0, 255;
+  
+    --rgb-accent-2-d1: 179, 0, 178;
+  
+    --rgb-accent-2-d2: 77, 0, 76;
+  
+    --rgb-accent-2-d3: 25, 0, 25;
+  
+    --accent-2-gradient-0: #b300b2;
+  
+    --accent-2-gradient-100: #ff00ff;
+  
+    --rgb-accent-2-gradient-0: 179, 0, 178;
+  
+    --rgb-accent-2-gradient-100: 255, 0, 255;
+
+    --accent-2-font-l: var(--accent-2-d2);
+  
+    --accent-2-font: var(--accent-2-l3);
+  
+    --accent-2-font-d: var(--accent-2-l3);
+  
+    --rgb-accent-2-font-l: var(--rgb-accent-2-d2);
+  
+    --rgb-accent-2-font: var(--rgb-accent-2-l3);
+  
+    --rgb-accent-2-font-d: var(--rgb-accent-2-l3);
+  
+    --accent-3-l3: #ffffff;
+  
+    --accent-3-l2: #d0e8ff;
+  
+    --accent-3-l1: #6ab6ff;
+  
+    --accent-3: #1e90ff;
+  
+    --accent-3-d1: #006ad0;
+  
+    --accent-3-d2: #00366a;
+  
+    --accent-3-d3: #001c37;
+  
+    --rgb-accent-3-l3: 245, 250, 255;
+  
+    --rgb-accent-3-l2: 208, 232, 255;
+  
+    --rgb-accent-3-l1: 106, 182, 255;
+  
+    --rgb-accent-3: 30, 144, 255;
+  
+    --rgb-accent-3-d1: 0, 106, 208;
+  
+    --rgb-accent-3-d2: 0, 54, 106;
+  
+    --rgb-accent-3-d3: 0, 28, 55;
+  
+    --accent-3-gradient-0: #006ad0;
+  
+    --accent-3-gradient-100: #1e90ff;
+  
+    --rgb-accent-3-gradient-0: 0, 106, 208;
+  
+    --rgb-accent-3-gradient-100: 30, 144, 255;
+
+    --accent-3-font-l: var(--accent-3-d2);
+  
+    --accent-3-font: var(--accent-3-l3);
+  
+    --accent-3-font-d: var(--accent-3-l3);
+  
+    --rgb-accent-3-font-l: var(--rgb-accent-3-d2);
+  
+    --rgb-accent-3-font: var(--rgb-accent-3-l3);
+  
+    --rgb-accent-3-font-d: var(--rgb-accent-3-l3);
+  
+    --accent-4-l3: #ffffff;
+  
+    --accent-4-l2: #b3f5ff;
+  
+    --accent-4-l1: #4de9ff;
+  
+    --accent-4: #00dfff;
+  
+    --accent-4-d1: #009cb3;
+  
+    --accent-4-d2: #00434d;
+  
+    --accent-4-d3: #001619;
+  
+    --rgb-accent-4-l3: 240, 253, 255;
+  
+    --rgb-accent-4-l2: 179, 245, 255;
+  
+    --rgb-accent-4-l1: 77, 233, 255;
+  
+    --rgb-accent-4: 0, 223, 255;
+  
+    --rgb-accent-4-d1: 0, 156, 179;
+  
+    --rgb-accent-4-d2: 0, 67, 77;
+  
+    --rgb-accent-4-d3: 0, 22, 25;
+  
+    --accent-4-gradient-0: #009cb3;
+  
+    --accent-4-gradient-100: #00dfff;
+  
+    --rgb-accent-4-gradient-0: 0, 156, 179;
+  
+    --rgb-accent-4-gradient-100: 0, 223, 255;
+
+    --accent-4-font-l: var(--accent-4-d2);
+  
+    --accent-4-font: var(--accent-4-l3);
+  
+    --accent-4-font-d: var(--accent-4-l3);
+  
+    --rgb-accent-4-font-l: var(--rgb-accent-4-d2);
+  
+    --rgb-accent-4-font: var(--rgb-accent-4-l3);
+  
+    --rgb-accent-4-font-d: var(--rgb-accent-4-l3);
+  
+    --accent-5-l3: #ffffff;
+  
+    --accent-5-l2: #ffb3c2;
+  
+    --accent-5-l1: #ff4d71;
+  
+    --accent-5: #ff0034;
+  
+    --accent-5-d1: #b30024;
+  
+    --accent-5-d2: #4d0010;
+  
+    --accent-5-d3: #190005;
+  
+    --rgb-accent-5-l3: 255, 247, 249;
+  
+    --rgb-accent-5-l2: 255, 179, 194;
+  
+    --rgb-accent-5-l1: 255, 77, 113;
+  
+    --rgb-accent-5: 255, 0, 52;
+  
+    --rgb-accent-5-d1: 179, 0, 36;
+  
+    --rgb-accent-5-d2: 77, 0, 16;
+  
+    --rgb-accent-5-d3: 25, 0, 5;
+  
+    --accent-5-gradient-0: #b30024;
+  
+    --accent-5-gradient-100: #ff0034;
+  
+    --rgb-accent-5-gradient-0: 179, 0, 36;
+  
+    --rgb-accent-5-gradient-100: 255, 0, 52;
+
+    --accent-5-font-l: var(--accent-5-d2);
+  
+    --accent-5-font: var(--accent-5-l3);
+  
+    --accent-5-font-d: var(--accent-5-l3);
+  
+    --rgb-accent-5-font-l: var(--rgb-accent-5-d2);
+  
+    --rgb-accent-5-font: var(--rgb-accent-5-l3);
+  
+    --rgb-accent-5-font-d: var(--rgb-accent-5-l3);
+  
+    --accent-6-l3: #ffffff;
+  
+    --accent-6-l2: #d1b3ff;
+  
+    --accent-6-l1: #934dff;
+  
+    --accent-6: #6400ff;
+  
+    --accent-6-d1: #4600b3;
+  
+    --accent-6-d2: #1e004d;
+  
+    --accent-6-d3: #0a0019;
+  
+    --rgb-accent-6-l3: 250, 247, 255;
+  
+    --rgb-accent-6-l2: 209, 179, 255;
+  
+    --rgb-accent-6-l1: 147, 77, 255;
+  
+    --rgb-accent-6: 100, 0, 255;
+  
+    --rgb-accent-6-d1: 70, 0, 179;
+  
+    --rgb-accent-6-d2: 30, 0, 77;
+  
+    --rgb-accent-6-d3: 10, 0, 25;
+  
+    --accent-6-gradient-0: #4600b3;
+  
+    --accent-6-gradient-100: #6400ff;
+  
+    --rgb-accent-6-gradient-0: 70, 0, 179;
+  
+    --rgb-accent-6-gradient-100: 100, 0, 255;
+
+    --accent-6-font-l: var(--accent-6-d2);
+  
+    --accent-6-font: var(--accent-6-l3);
+  
+    --accent-6-font-d: var(--accent-6-l3);
+  
+    --rgb-accent-6-font-l: var(--rgb-accent-6-d2);
+  
+    --rgb-accent-6-font: var(--rgb-accent-6-l3);
+  
+    --rgb-accent-6-font-d: var(--rgb-accent-6-l3);
+
+  }
+
+</style>
+
+<!-- FONTS AND ICONS -->
+
+<style type="text/css">
+
+  @font-face {
+
+   font-family: "CenturyGothic";
+
+   src: url(https://cdn1.cloudwrx.com/static/1/assets/fonts/CenturyGothic.eot);
+
+   src: url(https://cdn1.cloudwrx.com/static/1/assets/fonts/CenturyGothic.eot?#iefix) format("embedded-opentype"),
+   
+        url(https://cdn1.cloudwrx.com/static/1/assets/fonts/CenturyGothic.woff) format("woff"),
+        
+        url(https://cdn1.cloudwrx.com/static/1/assets/fonts/CenturyGothic.ttf) format("truetype"),
+        
+        url(https://cdn1.cloudwrx.com/static/1/assets/fonts/CenturyGothic.otf) format("opentype"),
+        
+        url(https://cdn1.cloudwrx.com/static/1/assets/fonts/CenturyGothic.svg#CenturyGothic) format("svg");
+    
+  }
+
+  @font-face {
+  
+   font-family: "CenturyGothic-Bold";
+   
+   src: url(https://cdn1.cloudwrx.com/static/1/assets/fonts/CenturyGothic-Bold.eot);
+   
+   src: url(https://cdn1.cloudwrx.com/static/1/assets/fonts/CenturyGothic-Bold.eot?#iefix) format("embedded-opentype"),
+     
+        url(https://cdn1.cloudwrx.com/static/1/assets/fonts/CenturyGothic-Bold.woff2) format("woff2"),
+        
+        url(https://cdn1.cloudwrx.com/static/1/assets/fonts/CenturyGothic-Bold.woff) format("woff"),
+        
+        url(https://cdn1.cloudwrx.com/static/1/assets/fonts/CenturyGothic-Bold.ttf) format("truetype"),
+        
+        url(https://cdn1.cloudwrx.com/static/1/assets/fonts/CenturyGothic-Bold.otf) format("opentype"),
+        
+        url(https://cdn1.cloudwrx.com/static/1/assets/fonts/CenturyGothic-Bold.svg#CenturyGothic-Bold) format("svg");
+    
+  }
+
+  @font-face {
+  
+   font-family: "CenturyGothic-BoldItalic";
+   
+   src: url(https://cdn1.cloudwrx.com/static/1/assets/fonts/CenturyGothic-BoldItalic.eot);
+   
+   src: url(https://cdn1.cloudwrx.com/static/1/assets/fonts/CenturyGothic-BoldItalic.eot?#iefix) format("embedded-opentype"),
+   
+        url(https://cdn1.cloudwrx.com/static/1/assets/fonts/CenturyGothic-BoldItalic.woff2) format("woff2"),
+        
+        url(https://cdn1.cloudwrx.com/static/1/assets/fonts/CenturyGothic-BoldItalic.woff) format("woff"),
+        
+        url(https://cdn1.cloudwrx.com/static/1/assets/fonts/CenturyGothic-BoldItalic.ttf) format("truetype"),
+        
+        url(https://cdn1.cloudwrx.com/static/1/assets/fonts/CenturyGothic-BoldItalic.otf) format("opentype"),
+        
+        url(https://cdn1.cloudwrx.com/static/1/assets/fonts/CenturyGothic-BoldItalic.svg#CenturyGothic-BoldItalic) format("svg");
+    
+  }
+
+  @font-face {
+  
+   font-family: "CenturyGothic-Italic";
+   
+   src: url(https://cdn1.cloudwrx.com/static/1/assets/fonts/CenturyGothic-Italic.eot);
+   
+   src: url(https://cdn1.cloudwrx.com/static/1/assets/fonts/CenturyGothic-Italic.eot?#iefix) format("embedded-opentype"),
+   
+        url(https://cdn1.cloudwrx.com/static/1/assets/fonts/CenturyGothic-Italic.woff2) format("woff2"),
+        
+        url(https://cdn1.cloudwrx.com/static/1/assets/fonts/CenturyGothic-Italic.woff) format("woff"),
+        
+        url(https://cdn1.cloudwrx.com/static/1/assets/fonts/CenturyGothic-Italic.ttf) format("truetype"),
+        
+        url(https://cdn1.cloudwrx.com/static/1/assets/fonts/CenturyGothic-Italic.otf) format("opentype"),
+        
+        url(https://cdn1.cloudwrx.com/static/1/assets/fonts/CenturyGothic-Italic.svg#CenturyGothic-Italic) format("svg");
+    
+  }
+
+  @font-face {
+  
+   font-family: "Futura";
+   
+   src: url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Futura-Bold.woff2") format("woff2"),
+   
+        url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Futura-Bold.woff") format("woff"),
+        
+        url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Futura-Bold.ttf") format("truetype"),
+        
+        url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Futura-Bold.eot"); /* IE9 Compat Modes */
+    
+   font-weight: bold;
+   
+   font-style: normal;
+   
+  }
+
+  @font-face {
+  
+   font-family: "Futura";
+   
+   src: url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Futura-Light.woff2") format("woff2"),
+   
+        url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Futura-Light.woff") format("woff"),
+        
+        url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Futura-Light.ttf") format("truetype"),
+        
+        url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Futura-Light.eot"); /* IE9 Compat Modes */
+    
+   font-weight: 300;
+   
+   font-style: normal;
+   
+  }
+
+  @font-face {
+  
+   font-family: "Futura";
+   
+   src: url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Futura-Medium.woff2") format("woff2"),
+   
+        url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Futura-Medium.woff") format("woff"),
+        
+        url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Futura-Medium.ttf") format("truetype"),
+        
+        url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Futura-Medium.eot"); /* IE9 Compat Modes */
+    
+   font-weight: 500;
+   
+   font-style: normal;
+   
+  }
+  
+
+  @font-face {
+  
+   font-family: "Futura";
+   
+   src: url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Futura-BoldItalic.woff2") format("woff2"),
+   
+        url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Futura-BoldItalic.woff") format("woff"),
+        
+        url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Futura-BoldItalic.ttf") format("truetype"),
+        
+        url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Futura-BoldItalic.eot"); /* IE9 Compat Modes */
+    
+   font-weight: bold;
+   
+   font-style: italic;
+   
+  }
+
+  @font-face {
+  
+   font-family: "Futura";
+   
+   src: url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Futura-LightItalic.woff2") format("woff2"),
+   
+        url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Futura-LightItalic.woff") format("woff"),
+        
+        url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Futura-LightItalic.ttf") format("truetype"),
+        
+        url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Futura-LightItalic.eot"); /* IE9 Compat Modes */
+    
+   font-weight: 300;
+   
+   font-style: italic;
+   
+  }
+
+  @font-face {
+  
+   font-family: "Poppins";
+   
+   src: url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Poppins-Regular.woff2") format("woff2"),
+   
+        url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Poppins-Regular.woff") format("woff"),
+        
+        url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Poppins-Regular.ttf") format("truetype"),
+        
+        url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Poppins-Regular.eot"); /* IE9 Compat Modes */
+    
+   font-weight: 400;
+   
+   font-style: normal;
+   
+  }
+
+  @font-face {
+  
+   font-family: "Poppins";
+   
+   src: url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Poppins-Bold.woff2") format("woff2"),
+   
+        url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Poppins-Bold.woff") format("woff"),
+        
+        url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Poppins-Bold.ttf") format("truetype"),
+        
+        url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Poppins-Bold.eot"); /* IE9 Compat Modes */
+    
+   font-weight: 700;
+   
+   font-style: normal;
+   
+  }
+
+  @font-face {
+  
+   font-family: "Poppins";
+   
+   src: url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Poppins-Light.woff2") format("woff2"),
+        
+        url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Poppins-Light.woff") format("woff"),
+        
+        url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Poppins-Light.ttf") format("truetype"),
+        
+        url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Poppins-Light.eot"); /* IE9 Compat Modes */
+    
+   font-weight: 300;
+   
+   font-style: normal;
+   
+  }
+
+  @font-face {
+  
+   font-family: "Poppins";
+   
+   src: url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Poppins-Medium.woff2") format("woff2"),
+   
+        url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Poppins-Medium.woff") format("woff"),
+        
+        url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Poppins-Medium.ttf") format("truetype"),
+        
+        url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Poppins-Medium.eot"); /* IE9 Compat Modes */
+    
+   font-weight: 500;
+   
+   font-style: normal;
+   
+  }
+
+  @font-face {
+  
+   font-family: "Poppins";
+   
+   src: url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Poppins-Thin.woff2") format("woff2"),
+   
+        url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Poppins-Thin.woff") format("woff"),
+        
+        url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Poppins-Thin.ttf") format("truetype"),
+        
+        url("https://cdn1.cloudwrx.com/static/1/assets/fonts/Poppins-Thin.eot"); /* IE9 Compat Modes */
+    
+   font-weight: 100;
+   
+   font-style: normal;
+   
+  }
+
+  /* WRX UI Icons */
+
+  @font-face {
+  
+   font-family: wrx-icon;
+   
+   src: url(https://cdn1.cloudwrx.com/static/1/assets/fonts/wrx-icon.eot);
+   
+   src: url(https://cdn1.cloudwrx.com/static/1/assets/fonts/wrx-icon.eot?#iefix) format("embedded-opentype"),
+   
+        url(https://cdn1.cloudwrx.com/static/1/assets/fonts/wrx-icon.woff) format("woff"),
+        
+        url(https://cdn1.cloudwrx.com/static/1/assets/fonts/wrx-icon.ttf) format("truetype"),
+        
+        url(https://cdn1.cloudwrx.com/static/1/assets/fonts/wrx-icon.svg#wrx-icon) format("svg");
+    
+   font-weight: 400;
+   
+   font-style: normal;
+   
+  }
+  
+</style>
+
+<!-- WRX UI Flags -->
+
+<style type="text/css">
+
+    .flag-icon-ad { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ad.svg"); }
+    
+    .flag-icon-ad.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ad.svg"); }
+    
+    .flag-icon-ae, .flag-icon-AE { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ae.svg"); }
+    
+    .flag-icon-ae.flag-icon-squared, .flag-icon-AE.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ae.svg"); }
+    
+    .flag-icon-af, .flag-icon-AF { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/af.svg"); }
+    
+    .flag-icon-af.flag-icon-squared, .flag-icon-AF.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/af.svg"); }
+    
+    .flag-icon-ag, .flag-icon-AG { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ag.svg"); }
+    
+    .flag-icon-ag.flag-icon-squared, .flag-icon-AG.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ag.svg"); }
+    
+    .flag-icon-ai, .flag-icon-AI { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ai.svg"); }
+    
+    .flag-icon-ai.flag-icon-squared, .flag-icon-AI.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ai.svg"); }
+    
+    .flag-icon-al, .flag-icon-AL { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/al.svg"); }
+    
+    .flag-icon-al.flag-icon-squared, .flag-icon-AL.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/al.svg"); }
+    
+    .flag-icon-am, .flag-icon-AM { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/am.svg"); }
+    
+    .flag-icon-am.flag-icon-squared, .flag-icon-AM.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/am.svg"); }
+    
+    .flag-icon-ao, .flag-icon-AO { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ao.svg"); }
+    
+    .flag-icon-ao.flag-icon-squared, .flag-icon-AO.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ao.svg"); }
+    
+    .flag-icon-aq, .flag-icon-AQ { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/aq.svg"); }
+    
+    .flag-icon-aq.flag-icon-squared, .flag-icon-AQ.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/aq.svg"); }
+    
+    .flag-icon-ar, .flag-icon-AR { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ar.svg"); }
+    
+    .flag-icon-ar.flag-icon-squared, .flag-icon-AR.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ar.svg"); }
+    
+    .flag-icon-as, .flag-icon-AS { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/as.svg"); }
+    
+    .flag-icon-as.flag-icon-squared, .flag-icon-AS.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/as.svg"); }
+    
+    .flag-icon-at, .flag-icon-AT { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/at.svg"); }
+    
+    .flag-icon-at.flag-icon-squared, .flag-icon-AT.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/at.svg"); }
+    
+    .flag-icon-au, .flag-icon-AU { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/au.svg"); }
+    
+    .flag-icon-au.flag-icon-squared, .flag-icon-AU.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/au.svg"); }
+    
+    .flag-icon-aw, .flag-icon-AW { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/aw.svg"); }
+    
+    .flag-icon-aw.flag-icon-squared, .flag-icon-AW.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/aw.svg"); }
+    
+    .flag-icon-ax, .flag-icon-AX { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ax.svg"); }
+    
+    .flag-icon-ax.flag-icon-squared, .flag-icon-AX.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ax.svg"); }
+    
+    .flag-icon-az, .flag-icon-AZ { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/az.svg"); }
+    
+    .flag-icon-az.flag-icon-squared, .flag-icon-AZ.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/az.svg"); }
+    
+    .flag-icon-ba, .flag-icon-BA { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ba.svg"); }
+    
+    .flag-icon-ba.flag-icon-squared, .flag-icon-BA.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ba.svg"); }
+    
+    .flag-icon-bb, .flag-icon-BB { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/bb.svg"); }
+    
+    .flag-icon-bb.flag-icon-squared, .flag-icon-BB.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/bb.svg"); }
+    
+    .flag-icon-bd, .flag-icon-BD { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/bd.svg"); }
+    
+    .flag-icon-bd.flag-icon-squared, .flag-icon-BD.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/bd.svg"); }
+    
+    .flag-icon-be, .flag-icon-BE { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/be.svg"); }
+    
+    .flag-icon-be.flag-icon-squared, .flag-icon-BE.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/be.svg"); }
+    
+    .flag-icon-bf, .flag-icon-BF { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/bf.svg"); }
+    
+    .flag-icon-bf.flag-icon-squared, .flag-icon-BF.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/bf.svg"); }
+    
+    .flag-icon-bg, .flag-icon-BG { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/bg.svg"); }
+    
+    .flag-icon-bg.flag-icon-squared, .flag-icon-BG.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/bg.svg"); }
+    
+    .flag-icon-bh, .flag-icon-BH { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/bh.svg"); }
+    
+    .flag-icon-bh.flag-icon-squared, .flag-icon-BH.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/bh.svg"); }
+    
+    .flag-icon-bi, .flag-icon-BI { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/bi.svg"); }
+    
+    .flag-icon-bi.flag-icon-squared, .flag-icon-BI.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/bi.svg"); }
+    
+    .flag-icon-bj, .flag-icon-BJ { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/bj.svg"); }
+    
+    .flag-icon-bj.flag-icon-squared, .flag-icon-BJ.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/bj.svg"); }
+    
+    .flag-icon-bl, .flag-icon-BL { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/bl.svg"); }
+    
+    .flag-icon-bl.flag-icon-squared, .flag-icon-BL.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/bl.svg"); }
+    
+    .flag-icon-bm, .flag-icon-BM { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/bm.svg"); }
+    
+    .flag-icon-bm.flag-icon-squared, .flag-icon-BM.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/bm.svg"); }
+    
+    .flag-icon-bn, .flag-icon-BN { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/bn.svg"); }
+    
+    .flag-icon-bn.flag-icon-squared, .flag-icon-BN.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/bn.svg"); }
+    
+    .flag-icon-bo, .flag-icon-BO { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/bo.svg"); }
+    
+    .flag-icon-bo.flag-icon-squared, .flag-icon-BO.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/bo.svg"); }
+    
+    .flag-icon-bq, .flag-icon-BQ { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/bq.svg"); }
+    
+    .flag-icon-bq.flag-icon-squared, .flag-icon-BQ.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/bq.svg"); }
+    
+    .flag-icon-br, .flag-icon-BR { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/br.svg"); }
+    
+    .flag-icon-br.flag-icon-squared, .flag-icon-BR.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/br.svg"); }
+    
+    .flag-icon-bs, .flag-icon-BS { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/bs.svg"); }
+    
+    .flag-icon-bs.flag-icon-squared, .flag-icon-BS.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/bs.svg"); }
+    
+    .flag-icon-bt, .flag-icon-BT { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/bt.svg"); }
+    
+    .flag-icon-bt.flag-icon-squared, .flag-icon-BT.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/bt.svg"); }
+    
+    .flag-icon-bv, .flag-icon-BV { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/bv.svg"); }
+    
+    .flag-icon-bv.flag-icon-squared, .flag-icon-BV.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/bv.svg"); }
+    
+    .flag-icon-bw, .flag-icon-BW { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/bw.svg"); }
+    
+    .flag-icon-bw.flag-icon-squared, .flag-icon-BW.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/bw.svg"); }
+    
+    .flag-icon-by, .flag-icon-BY { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/by.svg"); }
+    
+    .flag-icon-by.flag-icon-squared, .flag-icon-BY.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/by.svg"); }
+    
+    .flag-icon-bz, .flag-icon-BZ { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/bz.svg"); }
+    
+    .flag-icon-bz.flag-icon-squared, .flag-icon-BZ.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/bz.svg"); }
+    
+    .flag-icon-ca, .flag-icon-CA { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ca.svg"); }
+    
+    .flag-icon-ca.flag-icon-squared, .flag-icon-CA.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ca.svg"); }
+    
+    .flag-icon-cc, .flag-icon-CC { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/cc.svg"); }
+    
+    .flag-icon-cc.flag-icon-squared, .flag-icon-CC.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/cc.svg"); }
+    
+    .flag-icon-cd, .flag-icon-CD { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/cd.svg"); }
+    
+    .flag-icon-cd.flag-icon-squared, .flag-icon-CD.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/cd.svg"); }
+    
+    .flag-icon-cf, .flag-icon-CF { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/cf.svg"); }
+    
+    .flag-icon-cf.flag-icon-squared, .flag-icon-CF.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/cf.svg"); }
+    
+    .flag-icon-cg, .flag-icon-CG { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/cg.svg"); }
+    
+    .flag-icon-cg.flag-icon-squared, .flag-icon-CG.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/cg.svg"); }
+    
+    .flag-icon-ch, .flag-icon-CH { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ch.svg"); }
+    
+    .flag-icon-ch.flag-icon-squared, .flag-icon-CH.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ch.svg"); }
+    
+    .flag-icon-ci, .flag-icon-CI { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ci.svg"); }
+    
+    .flag-icon-ci.flag-icon-squared, .flag-icon-CI.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ci.svg"); }
+    
+    .flag-icon-ck, .flag-icon-CK { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ck.svg"); }
+    
+    .flag-icon-ck.flag-icon-squared, .flag-icon-CK.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ck.svg"); }
+    
+    .flag-icon-cl, .flag-icon-CL { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/cl.svg"); }
+    
+    .flag-icon-cl.flag-icon-squared, .flag-icon-CL.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/cl.svg"); }
+    
+    .flag-icon-cm, .flag-icon-CM { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/cm.svg"); }
+    
+    .flag-icon-cm.flag-icon-squared, .flag-icon-CM.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/cm.svg"); }
+    
+    .flag-icon-cn, .flag-icon-CN { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/cn.svg"); }
+    
+    .flag-icon-cn.flag-icon-squared, .flag-icon-CN.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/cn.svg"); }
+    
+    .flag-icon-co, .flag-icon-CO { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/co.svg"); }
+    
+    .flag-icon-co.flag-icon-squared, .flag-icon-CO.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/co.svg"); }
+    
+    .flag-icon-cr, .flag-icon-CR { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/cr.svg"); }
+    
+    .flag-icon-cr.flag-icon-squared, .flag-icon-CR.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/cr.svg"); }
+    
+    .flag-icon-cu, .flag-icon-CU { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/cu.svg"); }
+    
+    .flag-icon-cu.flag-icon-squared, .flag-icon-CU.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/cu.svg"); }
+    
+    .flag-icon-cv, .flag-icon-CV { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/cv.svg"); }
+    
+    .flag-icon-cv.flag-icon-squared, .flag-icon-CV.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/cv.svg"); }
+    
+    .flag-icon-cw, .flag-icon-CW { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/cw.svg"); }
+    
+    .flag-icon-cw.flag-icon-squared, .flag-icon-CW.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/cw.svg"); }
+    
+    .flag-icon-cx, .flag-icon-CX { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/cx.svg"); }
+    
+    .flag-icon-cx.flag-icon-squared, .flag-icon-CX.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/cx.svg"); }
+    
+    .flag-icon-cy, .flag-icon-CY { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/cy.svg"); }
+    
+    .flag-icon-cy.flag-icon-squared, .flag-icon-CY.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/cy.svg"); }
+    
+    .flag-icon-cz, .flag-icon-CZ { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/cz.svg"); }
+    
+    .flag-icon-cz.flag-icon-squared, .flag-icon-CZ.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/cz.svg"); }
+    
+    .flag-icon-de, .flag-icon-DE { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/de.svg"); }
+    
+    .flag-icon-de.flag-icon-squared, .flag-icon-DE.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/de.svg"); }
+    
+    .flag-icon-dj, .flag-icon-DJ { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/dj.svg"); }
+    
+    .flag-icon-dj.flag-icon-squared, .flag-icon-DJ.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/dj.svg"); }
+    
+    .flag-icon-dk, .flag-icon-DK { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/dk.svg"); }
+    
+    .flag-icon-dk.flag-icon-squared, .flag-icon-DK.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/dk.svg"); }
+    
+    .flag-icon-dm, .flag-icon-DM { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/dm.svg"); }
+    
+    .flag-icon-dm.flag-icon-squared, .flag-icon-DM.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/dm.svg"); }
+    
+    .flag-icon-do, .flag-icon-DO { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/do.svg"); }
+    
+    .flag-icon-do.flag-icon-squared, .flag-icon-DO.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/do.svg"); }
+    
+    .flag-icon-dz, .flag-icon-DZ { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/dz.svg"); }
+    
+    .flag-icon-dz.flag-icon-squared, .flag-icon-DZ.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/dz.svg"); }
+    
+    .flag-icon-ec, .flag-icon-EC { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ec.svg"); }
+    
+    .flag-icon-ec.flag-icon-squared, .flag-icon-EC.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ec.svg"); }
+    
+    .flag-icon-ee, .flag-icon-EE { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ee.svg"); }
+    
+    .flag-icon-ee.flag-icon-squared, .flag-icon-EE.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ee.svg"); }
+    
+    .flag-icon-eg, .flag-icon-EG { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/eg.svg"); }
+    
+    .flag-icon-eg.flag-icon-squared, .flag-icon-EG.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/eg.svg"); }
+    
+    .flag-icon-eh, .flag-icon-EH { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/eh.svg"); }
+    
+    .flag-icon-eh.flag-icon-squared, .flag-icon-EH.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/eh.svg"); }
+    
+    .flag-icon-er, .flag-icon-ER { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/er.svg"); }
+    
+    .flag-icon-er.flag-icon-squared, .flag-icon-ER.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/er.svg"); }
+    
+    .flag-icon-es, .flag-icon-ES { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/es.svg"); }
+    
+    .flag-icon-es.flag-icon-squared, .flag-icon-ES.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/es.svg"); }
+    
+    .flag-icon-et, .flag-icon-ET { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/et.svg"); }
+    
+    .flag-icon-et.flag-icon-squared, .flag-icon-ET.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/et.svg"); }
+    
+    .flag-icon-fi, .flag-icon-FI { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/fi.svg"); }
+    
+    .flag-icon-fi.flag-icon-squared, .flag-icon-FI.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/fi.svg"); }
+    
+    .flag-icon-fj, .flag-icon-FJ { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/fj.svg"); }
+    
+    .flag-icon-fj.flag-icon-squared, .flag-icon-FJ.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/fj.svg"); }
+    
+    .flag-icon-fk, .flag-icon-FK {  background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/fk.svg"); }
+    
+    .flag-icon-fk.flag-icon-squared, .flag-icon-FK.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/fk.svg"); }
+    
+    .flag-icon-fm, .flag-icon-FM { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/fm.svg"); }
+    
+    .flag-icon-fm.flag-icon-squared, .flag-icon-FM.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/fm.svg"); }
+    
+    .flag-icon-fo, .flag-icon-FO { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/fo.svg"); }
+    
+    .flag-icon-fo.flag-icon-squared, .flag-icon-FO.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/fo.svg"); }
+    
+    .flag-icon-fr, .flag-icon-FR { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/fr.svg"); }
+    
+    .flag-icon-fr.flag-icon-squared, .flag-icon-FR.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/fr.svg"); }
+    
+    .flag-icon-ga, .flag-icon-GA { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ga.svg"); }
+    
+    .flag-icon-ga.flag-icon-squared, .flag-icon-GA.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ga.svg"); }
+    
+    .flag-icon-gb, .flag-icon-GB { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/gb.svg"); }
+    
+    .flag-icon-gb.flag-icon-squared, .flag-icon-GB.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/gb.svg"); }
+    
+    .flag-icon-gd, .flag-icon-GD { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/gd.svg"); }
+    
+    .flag-icon-gd.flag-icon-squared, .flag-icon-GD.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/gd.svg"); }
+    
+    .flag-icon-ge, .flag-icon-GE { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ge.svg"); }
+    
+    .flag-icon-ge.flag-icon-squared, .flag-icon-GE.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ge.svg"); }
+    
+    .flag-icon-gf, .flag-icon-GF { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/gf.svg"); }
+    
+    .flag-icon-gf.flag-icon-squared, .flag-icon-GF.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/gf.svg"); }
+    
+    .flag-icon-gg, .flag-icon-GG { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/gg.svg"); }
+    
+    .flag-icon-gg.flag-icon-squared, .flag-icon-GG.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/gg.svg"); }
+    
+    .flag-icon-gh, .flag-icon-GH { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/gh.svg"); }
+    
+    .flag-icon-gh.flag-icon-squared, .flag-icon-GH.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/gh.svg"); }
+    
+    .flag-icon-gi, .flag-icon-GI { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/gi.svg"); }
+    
+    .flag-icon-gi.flag-icon-squared, .flag-icon-GI.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/gi.svg"); }
+    
+    .flag-icon-gl, .flag-icon-GL { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/gl.svg"); }
+    
+    .flag-icon-gl.flag-icon-squared, .flag-icon-GL.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/gl.svg"); }
+    
+    .flag-icon-gm, .flag-icon-GM { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/gm.svg"); }
+    
+    .flag-icon-gm.flag-icon-squared, .flag-icon-GM.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/gm.svg"); }
+    
+    .flag-icon-gn, .flag-icon-GN { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/gn.svg"); }
+    
+    .flag-icon-gn.flag-icon-squared, .flag-icon-GN.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/gn.svg"); }
+    
+    .flag-icon-gp, .flag-icon-GP { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/gp.svg"); }
+    
+    .flag-icon-gp.flag-icon-squared, .flag-icon-GP.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/gp.svg"); }
+    
+    .flag-icon-gq, .flag-icon-GQ { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/gq.svg"); }
+    
+    .flag-icon-gq.flag-icon-squared, .flag-icon-GQ.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/gq.svg"); }
+    
+    .flag-icon-gr, .flag-icon-GR { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/gr.svg"); }
+    
+    .flag-icon-gr.flag-icon-squared, .flag-icon-GR.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/gr.svg"); }
+    
+    .flag-icon-gs, .flag-icon-GS { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/gs.svg"); }
+    
+    .flag-icon-gs.flag-icon-squared, .flag-icon-GS.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/gs.svg"); }
+    
+    .flag-icon-gt, .flag-icon-GT { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/gt.svg"); }
+    
+    .flag-icon-gt.flag-icon-squared, .flag-icon-GT.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/gt.svg"); }
+    
+    .flag-icon-gu, .flag-icon-GU { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/gu.svg"); }
+    
+    .flag-icon-gu.flag-icon-squared, .flag-icon-GU.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/gu.svg"); }
+    
+    .flag-icon-gw, .flag-icon-GW { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/gw.svg"); }
+    
+    .flag-icon-gw.flag-icon-squared, .flag-icon-GW.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/gw.svg"); }
+    
+    .flag-icon-gy, .flag-icon-GY { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/gy.svg"); }
+    
+    .flag-icon-gy.flag-icon-squared, .flag-icon-GY.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/gy.svg"); }
+    
+    .flag-icon-hk, .flag-icon-HK { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/hk.svg"); }
+    
+    .flag-icon-hk.flag-icon-squared, .flag-icon-HK.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/hk.svg"); }
+    
+    .flag-icon-hm, .flag-icon-HM { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/hm.svg"); }
+    
+    .flag-icon-hm.flag-icon-squared, .flag-icon-HM.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/hm.svg"); }
+    
+    .flag-icon-hn, .flag-icon-HN { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/hn.svg"); }
+    
+    .flag-icon-hn.flag-icon-squared, .flag-icon-HN.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/hn.svg"); }
+    
+    .flag-icon-hr, .flag-icon-HR { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/hr.svg"); }
+    
+    .flag-icon-hr.flag-icon-squared, .flag-icon-HR.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/hr.svg"); }
+    
+    .flag-icon-ht, .flag-icon-HT { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ht.svg"); }
+    
+    .flag-icon-ht.flag-icon-squared, .flag-icon-HT.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ht.svg"); }
+    
+    .flag-icon-hu, .flag-icon-HU { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/hu.svg"); }
+    
+    .flag-icon-hu.flag-icon-squared, .flag-icon-HU.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/hu.svg"); }
+    
+    .flag-icon-id, .flag-icon-ID { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/id.svg"); }
+    
+    .flag-icon-id.flag-icon-squared, .flag-icon-ID.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/id.svg"); }
+    
+    .flag-icon-ie, .flag-icon-IE { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ie.svg"); }
+    
+    .flag-icon-ie.flag-icon-squared, .flag-icon-IE.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ie.svg"); }
+    
+    .flag-icon-il, .flag-icon-IL { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/il.svg"); }
+    
+    .flag-icon-il.flag-icon-squared, .flag-icon-IL.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/il.svg"); }
+    
+    .flag-icon-im, .flag-icon-IM { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/im.svg"); }
+    
+    .flag-icon-im.flag-icon-squared, .flag-icon-IM.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/im.svg"); }
+    
+    .flag-icon-in, .flag-icon-IN { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/in.svg"); }
+    
+    .flag-icon-in.flag-icon-squared, .flag-icon-IN.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/in.svg"); }
+    
+    .flag-icon-io, .flag-icon-IO { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/io.svg"); }
+    
+    .flag-icon-io.flag-icon-squared, .flag-icon-IO.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/io.svg"); }
+    
+    .flag-icon-iq, .flag-icon-IQ { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/iq.svg"); }
+    
+    .flag-icon-iq.flag-icon-squared, .flag-icon-IQ.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/iq.svg"); }
+    
+    .flag-icon-ir, .flag-icon-IR { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ir.svg"); }
+    
+    .flag-icon-ir.flag-icon-squared, .flag-icon-IR.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ir.svg"); }
+    
+    .flag-icon-is, .flag-icon-IS { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/is.svg"); }
+    
+    .flag-icon-is.flag-icon-squared, .flag-icon-IS.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/is.svg"); }
+    
+    .flag-icon-it, .flag-icon-IT { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/it.svg"); }
+    
+    .flag-icon-it.flag-icon-squared, .flag-icon-IT.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/it.svg"); }
+    
+    .flag-icon-je, .flag-icon-JE { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/je.svg"); }
+    
+    .flag-icon-je.flag-icon-squared, .flag-icon-JE.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/je.svg"); }
+    
+    .flag-icon-jm, .flag-icon-JM { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/jm.svg"); }
+    
+    .flag-icon-jm.flag-icon-squared, .flag-icon-JM.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/jm.svg"); }
+    
+    .flag-icon-jo, .flag-icon-JO { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/jo.svg"); }
+    
+    .flag-icon-jo.flag-icon-squared, .flag-icon-JO.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/jo.svg"); }
+    
+    .flag-icon-jp, .flag-icon-JP { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/jp.svg"); }
+    
+    .flag-icon-jp.flag-icon-squared, .flag-icon-JP.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/jp.svg"); }
+    
+    .flag-icon-ke, .flag-icon-KE { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ke.svg"); }
+    
+    .flag-icon-ke.flag-icon-squared, .flag-icon-KE.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ke.svg"); }
+    
+    .flag-icon-kg, .flag-icon-KG { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/kg.svg"); }
+    
+    .flag-icon-kg.flag-icon-squared, .flag-icon-KG.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/kg.svg"); }
+    
+    .flag-icon-kh, .flag-icon-KH { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/kh.svg"); }
+    
+    .flag-icon-kh.flag-icon-squared, .flag-icon-KH.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/kh.svg"); }
+    
+    .flag-icon-ki, .flag-icon-KI { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ki.svg"); }
+    
+    .flag-icon-ki.flag-icon-squared, .flag-icon-KI.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ki.svg"); }
+    
+    .flag-icon-km, .flag-icon-KM { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/km.svg"); }
+    
+    .flag-icon-km.flag-icon-squared, .flag-icon-KM.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/km.svg"); }
+    
+    .flag-icon-kn, .flag-icon-KN { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/kn.svg"); }
+    
+    .flag-icon-kn.flag-icon-squared, .flag-icon-KN.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/kn.svg"); }
+    
+    .flag-icon-kp, .flag-icon-KP { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/kp.svg"); }
+    
+    .flag-icon-kp.flag-icon-squared, .flag-icon-KP.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/kp.svg"); }
+    
+    .flag-icon-kr, .flag-icon-KR { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/kr.svg"); }
+    
+    .flag-icon-kr.flag-icon-squared, .flag-icon-KR.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/kr.svg"); }
+    
+    .flag-icon-kw, .flag-icon-KW { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/kw.svg"); }
+    
+    .flag-icon-kw.flag-icon-squared, .flag-icon-KW.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/kw.svg"); }
+    
+    .flag-icon-ky, .flag-icon-KY { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ky.svg"); }
+    
+    .flag-icon-ky.flag-icon-squared, .flag-icon-KY.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ky.svg"); }
+    
+    .flag-icon-kz, .flag-icon-KZ { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/kz.svg"); } 
+    
+    .flag-icon-kz.flag-icon-squared, .flag-icon-KZ.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/kz.svg"); }
+    
+    .flag-icon-la, .flag-icon-LA { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/la.svg"); }
+    
+    .flag-icon-la.flag-icon-squared, .flag-icon-LA.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/la.svg"); }
+    
+    .flag-icon-lb, .flag-icon-LB { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/lb.svg"); }
+    
+    .flag-icon-lb.flag-icon-squared, .flag-icon-LB.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/lb.svg"); }
+    
+    .flag-icon-lc, .flag-icon-LC { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/lc.svg"); }
+    
+    .flag-icon-lc.flag-icon-squared, .flag-icon-LC.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/lc.svg"); }
+    
+    .flag-icon-li, .flag-icon-LI { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/li.svg"); }
+    
+    .flag-icon-li.flag-icon-squared, .flag-icon-LI.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/li.svg"); }
+    
+    .flag-icon-lk, .flag-icon-LK { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/lk.svg"); }
+    
+    .flag-icon-lk.flag-icon-squared, .flag-icon-LK.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/lk.svg"); }
+    
+    .flag-icon-lr, .flag-icon-LR { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/lr.svg"); }
+    
+    .flag-icon-lr.flag-icon-squared, .flag-icon-LR.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/lr.svg"); }
+    
+    .flag-icon-ls, .flag-icon-LS { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ls.svg"); }
+    
+    .flag-icon-ls.flag-icon-squared, .flag-icon-LS.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ls.svg"); }
+    
+    .flag-icon-lt, .flag-icon-LT { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/lt.svg"); }
+    
+    .flag-icon-lt.flag-icon-squared, .flag-icon-LT.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/lt.svg"); }
+    
+    .flag-icon-lu, .flag-icon-LU { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/lu.svg"); }
+    
+    .flag-icon-lu.flag-icon-squared, .flag-icon-LU.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/lu.svg"); }
+    
+    .flag-icon-lv, .flag-icon-LV { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/lv.svg"); }
+    
+    .flag-icon-lv.flag-icon-squared, .flag-icon-LV.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/lv.svg"); }
+    
+    .flag-icon-ly, .flag-icon-LY { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ly.svg"); }
+    
+    .flag-icon-ly.flag-icon-squared, .flag-icon-LY.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ly.svg"); }
+    
+    .flag-icon-ma, .flag-icon-MA { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ma.svg"); }
+    
+    .flag-icon-ma.flag-icon-squared, .flag-icon-MA.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ma.svg"); }
+    
+    .flag-icon-mc, .flag-icon-MC { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/mc.svg"); }
+    
+    .flag-icon-mc.flag-icon-squared, .flag-icon-MC.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/mc.svg"); }
+    
+    .flag-icon-md, .flag-icon-MD { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/md.svg"); }
+    
+    .flag-icon-md.flag-icon-squared, .flag-icon-MD.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/md.svg"); }
+    
+    .flag-icon-me, .flag-icon-ME { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/me.svg"); }
+    
+    .flag-icon-me.flag-icon-squared, .flag-icon-ME.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/me.svg"); }
+    
+    .flag-icon-mf, .flag-icon-MF { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/mf.svg"); }
+    
+    .flag-icon-mf.flag-icon-squared, .flag-icon-MF.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/mf.svg"); }
+    
+    .flag-icon-mg, .flag-icon-MG { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/mg.svg"); }
+    
+    .flag-icon-mg.flag-icon-squared, .flag-icon-MG.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/mg.svg"); }
+    
+    .flag-icon-mh, .flag-icon-MH { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/mh.svg"); }
+    
+    .flag-icon-mh.flag-icon-squared, .flag-icon-MH.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/mh.svg"); }
+    
+    .flag-icon-mk, .flag-icon-MK { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/mk.svg"); }
+    
+    .flag-icon-mk.flag-icon-squared, .flag-icon-MK.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/mk.svg"); }
+    
+    .flag-icon-ml, .flag-icon-ML { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ml.svg"); }
+    
+    .flag-icon-ml.flag-icon-squared, .flag-icon-ML.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ml.svg"); }
+    
+    .flag-icon-mm, .flag-icon-MM { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/mm.svg"); }
+    
+    .flag-icon-mm.flag-icon-squared, .flag-icon-MM.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/mm.svg"); }
+    
+    .flag-icon-mn, .flag-icon-MN { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/mn.svg"); }
+    
+    .flag-icon-mn.flag-icon-squared, .flag-icon-MN.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/mn.svg"); }
+    
+    .flag-icon-mo, .flag-icon-MO { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/mo.svg"); }
+    
+    .flag-icon-mo.flag-icon-squared, .flag-icon-MO.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/mo.svg"); }
+    
+    .flag-icon-mp, .flag-icon-MP { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/mp.svg"); }
+    
+    .flag-icon-mp.flag-icon-squared, .flag-icon-MP.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/mp.svg"); }
+    
+    .flag-icon-mq, .flag-icon-MQ { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/mq.svg"); }
+    
+    .flag-icon-mq.flag-icon-squared, .flag-icon-MQ.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/mq.svg"); }
+    
+    .flag-icon-mr, .flag-icon-MR { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/mr.svg"); }
+    
+    .flag-icon-mr.flag-icon-squared, .flag-icon-MR.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/mr.svg"); }
+    
+    .flag-icon-ms, .flag-icon-MS { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ms.svg"); }
+    
+    .flag-icon-ms.flag-icon-squared, .flag-icon-MS.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ms.svg"); }
+    
+    .flag-icon-mt, .flag-icon-MT { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/mt.svg"); }
+    
+    .flag-icon-mt.flag-icon-squared, .flag-icon-MT.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/mt.svg"); }
+    
+    .flag-icon-mu, .flag-icon-MU { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/mu.svg"); }
+    
+    .flag-icon-mu.flag-icon-squared, .flag-icon-MU.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/mu.svg"); }
+    
+    .flag-icon-mv, .flag-icon-MV { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/mv.svg"); }
+    
+    .flag-icon-mv.flag-icon-squared, .flag-icon-MV.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/mv.svg"); }
+    
+    .flag-icon-mw, .flag-icon-MW { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/mw.svg"); }
+    
+    .flag-icon-mw.flag-icon-squared, .flag-icon-MW.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/mw.svg"); }
+    
+    .flag-icon-mx, .flag-icon-MX { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/mx.svg"); }
+    
+    .flag-icon-mx.flag-icon-squared, .flag-icon-MX.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/mx.svg"); }
+    
+    .flag-icon-my, .flag-icon-MY { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/my.svg"); }
+    
+    .flag-icon-my.flag-icon-squared, .flag-icon-MY.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/my.svg"); }
+    
+    .flag-icon-mz, .flag-icon-MZ { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/mz.svg"); }
+    
+    .flag-icon-mz.flag-icon-squared, .flag-icon-MZ.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/mz.svg"); }
+    
+    .flag-icon-na, .flag-icon-NA { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/na.svg"); }
+    
+    .flag-icon-na.flag-icon-squared, .flag-icon-NA.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/na.svg"); }
+    
+    .flag-icon-nc, .flag-icon-NC { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/nc.svg"); }
+    
+    .flag-icon-nc.flag-icon-squared, .flag-icon-NC.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/nc.svg"); }
+    
+    .flag-icon-ne, .flag-icon-NE { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ne.svg"); }
+    
+    .flag-icon-ne.flag-icon-squared, .flag-icon-NE.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ne.svg"); }
+    
+    .flag-icon-nf, .flag-icon-NF { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/nf.svg"); }
+    
+    .flag-icon-nf.flag-icon-squared, .flag-icon-NF.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/nf.svg"); }
+    
+    .flag-icon-ng, .flag-icon-NG { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ng.svg"); }
+    
+    .flag-icon-ng.flag-icon-squared, .flag-icon-NG.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ng.svg"); }
+    
+    .flag-icon-ni, .flag-icon-NI { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ni.svg"); }
+    
+    .flag-icon-ni.flag-icon-squared, .flag-icon-NI.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ni.svg"); }
+    
+    .flag-icon-nl, .flag-icon-NL { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/nl.svg"); }
+    
+    .flag-icon-nl.flag-icon-squared, .flag-icon-NL.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/nl.svg"); }
+    
+    .flag-icon-no, .flag-icon-NO { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/no.svg"); }
+    
+    .flag-icon-no.flag-icon-squared, .flag-icon-NO.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/no.svg"); }
+    
+    .flag-icon-np, .flag-icon-NP { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/np.svg"); }
+    
+    .flag-icon-np.flag-icon-squared, .flag-icon-NP.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/np.svg"); }
+    
+    .flag-icon-nr, .flag-icon-NR { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/nr.svg"); }
+    
+    .flag-icon-nr.flag-icon-squared, .flag-icon-NR.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/nr.svg"); }
+    
+    .flag-icon-nu, .flag-icon-NU { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/nu.svg"); }
+    
+    .flag-icon-nu.flag-icon-squared, .flag-icon-NU.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/nu.svg"); }
+    
+    .flag-icon-nz, .flag-icon-NZ { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/nz.svg"); }
+    
+    .flag-icon-nz.flag-icon-squared, .flag-icon-NZ.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/nz.svg"); }
+    
+    .flag-icon-om, .flag-icon-OM { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/om.svg"); }
+    
+    .flag-icon-om.flag-icon-squared, .flag-icon-OM.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/om.svg"); }
+    
+    .flag-icon-pa, .flag-icon-PA { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/pa.svg"); }
+    
+    .flag-icon-pa.flag-icon-squared, .flag-icon-PA.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/pa.svg"); }
+    
+    .flag-icon-pe, .flag-icon-PE { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/pe.svg"); }
+    
+    .flag-icon-pe.flag-icon-squared, .flag-icon-PE.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/pe.svg"); }
+    
+    .flag-icon-pf, .flag-icon-PF { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/pf.svg"); }
+    
+    .flag-icon-pf.flag-icon-squared, .flag-icon-PF.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/pf.svg"); }
+    
+    .flag-icon-pg, .flag-icon-PG { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/pg.svg"); }
+    
+    .flag-icon-pg.flag-icon-squared,
+    .flag-icon-PG.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/pg.svg"); }
+    
+    .flag-icon-ph, .flag-icon-PH { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ph.svg"); }
+    
+    .flag-icon-ph.flag-icon-squared, .flag-icon-PH.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ph.svg"); }
+    
+    .flag-icon-pk, .flag-icon-PK { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/pk.svg"); }
+    
+    .flag-icon-pk.flag-icon-squared, .flag-icon-PK.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/pk.svg"); }
+    
+    .flag-icon-pl, .flag-icon-PL { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/pl.svg"); }
+    
+    .flag-icon-pl.flag-icon-squared, .flag-icon-PL.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/pl.svg"); }
+    
+    .flag-icon-pm, .flag-icon-PM { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/pm.svg"); }
+    
+    .flag-icon-pm.flag-icon-squared, .flag-icon-PM.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/pm.svg"); }
+    
+    .flag-icon-pn, .flag-icon-PN { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/pn.svg"); }
+    
+    .flag-icon-pn.flag-icon-squared, .flag-icon-PN.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/pn.svg"); }
+    
+    .flag-icon-pr, .flag-icon-PR { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/pr.svg"); }
+    
+    .flag-icon-pr.flag-icon-squared, .flag-icon-PR.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/pr.svg"); }
+    
+    .flag-icon-ps, .flag-icon-PS { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ps.svg"); }
+    
+    .flag-icon-ps.flag-icon-squared, .flag-icon-PS.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/ps.svg"); }
+    
+    .flag-icon-pt, .flag-icon-PT { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/pt.svg"); }
+    
+    .flag-icon-pt.flag-icon-squared, .flag-icon-PT.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/pt.svg"); }
+    
+    .flag-icon-pw, .flag-icon-PW { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/pw.svg"); }
+    
+    .flag-icon-pw.flag-icon-squared, .flag-icon-PW.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/pw.svg"); }
+    
+    .flag-icon-py, .flag-icon-PY { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/py.svg"); }
+    
+    .flag-icon-py.flag-icon-squared, .flag-icon-PY.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/py.svg"); }
+    
+    .flag-icon-qa, .flag-icon-QA { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/qa.svg"); }
+    
+    .flag-icon-qa.flag-icon-squared, .flag-icon-QA.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/qa.svg"); }
+    
+    .flag-icon-re, .flag-icon-RE { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/re.svg"); }
+    
+    .flag-icon-re.flag-icon-squared, .flag-icon-RE.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/re.svg"); }
+    
+    .flag-icon-ro, .flag-icon-RO { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/4x3/ro.svg"); }
+    
+    .flag-icon-ro.flag-icon-squared, .flag-icon-RO.flag-icon-squared { background-image: url("https://cdn1.cloudwrx.com/static/1/assets/vendor/wrx/util/flags/1.0.0/1x1/
