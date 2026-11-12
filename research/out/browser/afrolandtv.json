@@ -1,0 +1,31 @@
+{
+ "name": "afrolandtv",
+ "home": {
+  "url": "https://www.afrolandtv.com/",
+  "finalUrl": "https://www.afrolandtv.com/",
+  "status": 200,
+  "title": "Free Black Movies & TV - AfroLandTV",
+  "text": "Main navigation Home Movies Shows Devices Login/Register Go Media stream error One or more media streams have failed. Copy for customer care: session ID undefined Live TV Channels Top-Rated Culture Hub Podcasts Saffron Kingdom: Rent Now You must be logged in to watch this. Silk White Stories in Motion New Releases Featured Drama Comedy Thrillers Documentary Faith Family Crime Romance Vibes... You must be logged in to watch this. Nollywood Watch By Country! Watch Free anywhere 24/7 Footer Content Submission Privacy Policy Terms of Service FAQ About Contact Us © 2026 AfroLandTV All rights reserved. This site uses cookies to allow access to content. Please review our privacy policy before viewing content on this site. You may also decline cookies, with reduced functionality. I agree to allow cookies ✖️ You have declined cookies, which means you cannot log in, or use other personalized features of this site. Review our privacy policy. Allow cookies",
+  "walls": [
+   "log in",
+   "login",
+   "rent"
+  ],
+  "media": [
+   "https://api-ott.afrolandtv.com/getobjects?&connection=wifi&content_store_type=playlist&device_type=desktop&for_user=1&image_format=widescreen&image_width=366&la",
+   "https://stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=844&coppa=0&is_lat=0&dnt=0&td=6&us_privacy=1NNN&delivery_type=fast&did=&ifa_type=sess"
+  ],
+  "drm": [],
+  "players": [
+   "kaltura"
+  ]
+ },
+ "titleLinksFound": 0,
+ "titleLinkSamples": [],
+ "titles": [],
+ "terms": {
+  "url": "https://www.afrolandtv.com/terms",
+  "mentions": [],
+  "text": "Go © 2026 AfroLandTV All rights reserved. This site uses cookies to allow access to content. Please review our privacy policy before viewing content on this site. You may also decline cookies, with reduced functionality. I agree to allow cookies ✖️ You have declined cookies, which means you cannot log in, or use other personalized features of this site. Review our privacy policy. Allow cookies"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "name": "filmzie-ng",
+ "home": {
+  "url": "https://filmzie.com/search?q=nigeria",
+  "finalUrl": "https://filmzie.com/home",
+  "status": 200,
+  "title": "Filmzie – quality movie & TV shows free streaming.",
+  "text": "MOBILE APP Discover more Stream Shows Watch Horror Films Watch Trailers HALLOWEEN FREAKY FLICKS Someone's Knocking at the Door The Witch's Sabbath The Summoning Project Paranoia Maximum Shame Young Blondes, Stalked and Murdered Excess Flesh The Infected Before Dawn Half Moon Show all from this category NEW ARRIVALS Ambrosia Francine Shock-O-Rama Bio Slime Dark Chronicles Exit Elena Teenage Dirtbag Threshold Mutant Genesis Exiles of Earth Show all from this category Feedback How would you rate your experience? Select an option from 😡 to 😍, with 😡 being Hate and 😍 being Love Hate Love Next",
+  "walls": [],
+  "media": [],
+  "drm": [
+   "https://ad.doubleclick.net/ddm/adi/N2335489.3768899AIDIGITAL/B34891220.457282220;dc_ver=107.319;sz=970x90;u_sd=1;gdpr=0;nel=1;dc_adk=3069325423;ord=vudu3v;click"
+  ],
+  "players": [
+   "cloudfront"
+  ]
+ },
+ "titleLinksFound": 20,
+ "titleLinkSamples": [
+  "https://filmzie.com/content/someones-knocking-at-the-door-2009?sourceId=6172519fcb4dd3001d08c122",
+  "https://filmzie.com/content/the-witchs-sabbath-2005?sourceId=6172519fcb4dd3001d08c122",
+  "https://filmzie.com/content/the-summoning-2014?sourceId=6172519fcb4dd3001d08c122",
+  "https://filmzie.com/content/project-paranoia-2023?sourceId=6172519fcb4dd3001d08c122",
+  "https://filmzie.com/content/maximum-shame-2010?sourceId=6172519fcb4dd3001d08c122",
+  "https://filmzie.com/content/young-blondes-stalked-and-murdered-2024?sourceId=6172519fcb4dd3001d08c122",
+  "https://filmzie.com/content/excess-flesh-2015-0?sourceId=6172519fcb4dd3001d08c122",
+  "https://filmzie.com/content/the-infected-2011?sourceId=6172519fcb4dd3001d08c122",
+  "https://filmzie.com/content/before-dawn-2013?sourceId=6172519fcb4dd3001d08c122",
+  "https://filmzie.com/content/half-moon-2010?sourceId=6172519fcb4dd3001d08c122"
+ ],
+ "titles": [
+  {
+   "url": "https://filmzie.com/content/someones-knocking-at-the-door-2009?sourceId=6172519fcb4dd3001d08c122",
+   "finalUrl": "https://filmzie.com/content/someones-knocking-at-the-door-2009?sourceId=6172519fcb4dd3001d08c122",
+   "status": 200,
+   "title": "Filmzie - Someone's Knocking at the Door (2009)",
+   "text": "MOBILE APP Someone's Knocking at the Door 2009|80 min|Fantasy, Horror WATCH LATER SHARE PLAY NOW FreeWATCH TRAILER THE STORY Returning to the medical school where they were test subjects decades ago, a pair of outrageously twisted serial killers use shockingly brutal sex acts to start killing off a group of drugged-out med students. CAST & CREW Cast Noah Segan Andrea Bunker Ezra Buzzington Elina Madison Silvia Spross Jon Budinoff Lew Temple Director Chad Ferrin INFORMATION Production company Crappy World Films Genre Fantasy, Horror Released 2009 Age rating NC-17 LANGUAGES Audio English Subtitles English, Spanish, Castilian(Generated), Portuguese(Generated), German(Generated), French(Generated), Italian(Generated), Czech(Generated) Close",
+   "walls": [],
+   "media": [],
+   "drm": [
+    "https://servedby.flashtalking.com/imp/8/297246;10310433;201;jsappend;18330;10310433/?bundle_id=&ft_partnerimpid=&pub_id=1&ft_referrer=https%3A%2F%2Ffilmzie.com%"
+   ],
+   "players": [
+    "cloudfront"
+   ]
+  },
+  {
+   "url": "https://filmzie.com/content/the-witchs-sabbath-2005?sourceId=6172519fcb4dd3001d08c122",
+   "finalUrl": "https://filmzie.com/content/the-witchs-sabbath-2005?sourceId=6172519fcb4dd3001d08c122",
+   "status": 200,
+   "title": "Filmzie - The Witch's Sabbath (2005)",
+   "text": "MOBILE APP The Witch's Sabbath 2005|84 min|Horror WATCH LATER SHARE PLAY NOW FreeWATCH TRAILER THE STORY A coven of witches mask their true identity by operating the \"Sin and Skin\" strip club in, \"The Witch's Sabbath\". To keep the coven as one, they must behead 666 victims before the arrival of their Dark Lord on Halloween. CAST & CREW Cast Christine Cowden Eli James Eric Coffin Rikki Dale Syn DeVil Gina Valona Director Jeff Leroy INFORMATION Production company Brain Damage Films Genre Horror Released 2005 Age rating R LANGUAGES Audio English Subtitles English, Portuguese(Generated), Spanish, Castilian(Generated), German(Generated), French(Generated), Italian(Generated), Czech(Generated) Close",
+   "walls": [],
+   "media": [],
+   "drm": [],
+   "players": [
+    "cloudfront"
+   ]
+  }
+ ]
+}

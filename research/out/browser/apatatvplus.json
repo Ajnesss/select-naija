@@ -1,0 +1,17 @@
+{
+ "name": "apatatvplus",
+ "home": {
+  "url": "https://apatatvplus.com/",
+  "finalUrl": "chrome-error://chromewebdata/",
+  "status": "error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://apatatvplus.com/",
+  "title": "",
+  "text": "",
+  "walls": [],
+  "media": [],
+  "drm": [],
+  "players": []
+ },
+ "titleLinksFound": 0,
+ "titleLinkSamples": [],
+ "titles": []
+}
