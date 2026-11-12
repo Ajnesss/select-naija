@@ -19,6 +19,9 @@ const ALLOWED_HOSTS = [
   'nollistream.com',
   'www.afrolandtv.com',
   'kallo.ng',
+  'ibaka.tv',
+  'www.ibakatv.com',
+  'northflix.ng',
   'ipinfo.io',
 ];
 // Stream hosts, for playback tests: can a stream address be played from another place than where it was issued?

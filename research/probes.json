@@ -1,90 +1,199 @@
 {
- "_note": "Batch 8: broadcasters' own live pages.",
+ "_note": "Batch 9: exhaustive sweep of remaining leads.",
  "probes": [
   {
-   "name": "live-channels",
-   "url": "https://www.channelstv.com/live/",
-   "max": 400000
+   "name": "odysee-nollywood",
+   "url": "https://lighthouse.odysee.tv/search?s=nollywood&size=50&from=0&claimType=file&mediaType=video&resolve=true",
+   "max": 300000
   },
   {
-   "name": "live-tvc",
-   "url": "https://www.tvcnews.tv/live/",
-   "max": 400000
+   "name": "odysee-yoruba-movie",
+   "url": "https://lighthouse.odysee.tv/search?s=yoruba%20movie&size=50&from=0&claimType=file&mediaType=video&resolve=true",
+   "max": 300000
   },
   {
-   "name": "live-wazobiamax",
-   "url": "https://wazobiamax.tv/",
-   "max": 400000
+   "name": "odysee-igbo-movie",
+   "url": "https://lighthouse.odysee.tv/search?s=igbo%20movie&size=50&from=0&claimType=file&mediaType=video&resolve=true",
+   "max": 300000
   },
   {
-   "name": "live-wazobia-live",
-   "url": "https://wazobia.live/",
-   "max": 400000
+   "name": "odysee-hausa-film",
+   "url": "https://lighthouse.odysee.tv/search?s=hausa%20film&size=50&from=0&claimType=file&mediaType=video&resolve=true",
+   "max": 300000
   },
   {
-   "name": "live-ravetv",
-   "url": "https://ravetv.ng/",
-   "max": 400000
+   "name": "odysee-nigerian-movie",
+   "url": "https://lighthouse.odysee.tv/search?s=nigerian%20movie&size=50&from=0&claimType=file&mediaType=video&resolve=true",
+   "max": 300000
   },
   {
-   "name": "live-itage",
-   "url": "https://itage.tv/",
-   "max": 400000
+   "name": "odysee-kannywood",
+   "url": "https://lighthouse.odysee.tv/search?s=kannywood&size=50&from=0&claimType=file&mediaType=video&resolve=true",
+   "max": 300000
   },
   {
-   "name": "live-superscreen",
-   "url": "https://superscreentv.com/",
-   "max": 400000
+   "name": "odysee-nollywood-full-movie",
+   "url": "https://lighthouse.odysee.tv/search?s=nollywood%20full%20movie&size=50&from=0&claimType=file&mediaType=video&resolve=true",
+   "max": 300000
   },
   {
-   "name": "live-soundcity",
-   "url": "https://soundcity.tv/live/",
-   "max": 400000
+   "name": "wikidata-ng-films-video",
+   "url": "https://query.wikidata.org/sparql?format=json&query=SELECT%20%3Ff%20%3FfLabel%20%3Fvideo%20%3Fia%20%3Flicense%20WHERE%20%7B%20%3Ff%20wdt%3AP31/wdt%3AP279%2A%20wd%3AQ11424%3B%20wdt%3AP495%20wd%3AQ1033.%20OPTIONAL%7B%3Ff%20wdt%3AP10%20%3Fvideo%7D%20OPTIONAL%7B%3Ff%20wdt%3AP724%20%3Fia%7D%20OPTIONAL%7B%3Ff%20wdt%3AP275%20%3Flicense%7D%20FILTER%28BOUND%28%3Fvideo%29%7C%7CBOUND%28%3Fia%29%29%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%20%7D",
+   "max": 300000,
+   "headers": {
+    "accept": "application/sparql-results+json"
+   }
   },
   {
-   "name": "live-nta",
-   "url": "https://www.nta.ng/live/",
-   "max": 400000
+   "name": "wikidata-ng-films-count",
+   "url": "https://query.wikidata.org/sparql?format=json&query=SELECT%20%28COUNT%28%3Ff%29%20AS%20%3Fn%29%20WHERE%20%7B%20%3Ff%20wdt%3AP31/wdt%3AP279%2A%20wd%3AQ11424%3B%20wdt%3AP495%20wd%3AQ1033.%20%7D",
+   "headers": {
+    "accept": "application/sparql-results+json"
+   }
   },
   {
-   "name": "live-arise",
-   "url": "https://www.arise.tv/live/",
-   "max": 400000
+   "name": "commons-search",
+   "url": "https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=nollywood%20OR%20%22nigerian%20film%22%20filetype:video&srnamespace=6&srlimit=100&format=json",
+   "max": 200000
   },
   {
-   "name": "live-plustv",
-   "url": "https://plustvafrica.com/live/",
-   "max": 400000
+   "name": "commons-cat",
+   "url": "https://commons.wikimedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:Films_of_Nigeria&cmlimit=200&format=json",
+   "max": 200000
   },
   {
-   "name": "live-waffi",
-   "url": "https://waffitv.com/",
-   "max": 400000
+   "name": "stremio-addons-nolly",
+   "url": "https://stremio-addons.net/search?q=nollywood",
+   "max": 200000
   },
   {
-   "name": "live-bozztv",
-   "url": "https://www.bozztv.com/",
-   "max": 400000
+   "name": "stremio-addons-african",
+   "url": "https://stremio-addons.net/search?q=african",
+   "max": 200000
   },
   {
-   "name": "live-newscentral",
-   "url": "https://newscentral.ng/live/",
-   "max": 400000
+   "name": "stremio-community-catalog",
+   "url": "https://stremio-addons.com/?q=nigeria",
+   "max": 200000
   },
   {
-   "name": "live-silverbird",
-   "url": "https://silverbirdtv.com/live/",
-   "max": 400000
+   "name": "github-search-nollywood-stremio",
+   "url": "https://api.github.com/search/repositories?q=nollywood+stremio&per_page=50",
+   "max": 100000
   },
   {
-   "name": "live-africa-magic-free",
-   "url": "https://www.dstv.com/africamagic/en-ng/",
-   "max": 400000
+   "name": "github-search-nollywood-nuvio",
+   "url": "https://api.github.com/search/repositories?q=nollywood+nuvio&per_page=50",
+   "max": 100000
   },
   {
-   "name": "freetv-ng",
-   "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/lists/nigeria.md",
-   "max": 60000
+   "name": "github-search-yoruba-stremio",
+   "url": "https://api.github.com/search/repositories?q=yoruba+movies+addon&per_page=50",
+   "max": 100000
+  },
+  {
+   "name": "github-code-nollywood-addon",
+   "url": "https://api.github.com/search/repositories?q=nollywood&per_page=100&sort=updated",
+   "max": 300000
+  },
+  {
+   "name": "ibakatv-www",
+   "url": "https://www.ibakatv.com/",
+   "max": 200000
+  },
+  {
+   "name": "ibaka-tv",
+   "url": "https://ibaka.tv/",
+   "viaUk": true,
+   "max": 200000
+  },
+  {
+   "name": "tvnolly-www",
+   "url": "https://tvnolly.tv/",
+   "max": 100000
+  },
+  {
+   "name": "afroland-terms",
+   "url": "https://www.afrolandtv.com/terms",
+   "viaUk": true,
+   "max": 200000
+  },
+  {
+   "name": "afrinolly",
+   "url": "https://afrinolly.com/",
+   "max": 100000
+  },
+  {
+   "name": "nollywoodpicturestv",
+   "url": "https://www.nollywoodpicturestv.com/",
+   "max": 100000
+  },
+  {
+   "name": "apata-tv-plus",
+   "url": "https://www.apatatvplus.com/",
+   "max": 100000
+  },
+  {
+   "name": "demandafrica",
+   "url": "https://www.demandafrica.com/",
+   "max": 200000
+  },
+  {
+   "name": "africa-xp",
+   "url": "https://africaxp.com/",
+   "max": 100000
+  },
+  {
+   "name": "kweli",
+   "url": "https://www.kweli.tv/",
+   "max": 50000
+  },
+  {
+   "name": "afridocs",
+   "url": "https://afridocs.net/",
+   "max": 100000
+  },
+  {
+   "name": "kanopy-ng",
+   "url": "https://www.kanopy.com/en/search?query=nollywood",
+   "max": 100000
+  },
+  {
+   "name": "vimeo-oembed-test",
+   "url": "https://vimeo.com/api/oembed.json?url=https://vimeo.com/channels/staffpicks",
+   "max": 20000
+  },
+  {
+   "name": "archive-feature-nigeria",
+   "url": "https://archive.org/advancedsearch.php?q=(subject%3Anollywood%20OR%20subject%3A%22nigerian%20film%22%20OR%20subject%3A%22yoruba%20film%22)%20AND%20mediatype%3Amovies&fl[]=identifier&fl[]=title&fl[]=licenseurl&fl[]=uploader&fl[]=collection&rows=300&output=json",
+   "max": 300000
+  },
+  {
+   "name": "bfi-player-nigeria",
+   "url": "https://player.bfi.org.uk/search?q=nigerian",
+   "max": 200000
+  },
+  {
+   "name": "nfvcb",
+   "url": "https://www.nfvcb.gov.ng/",
+   "max": 50000
+  },
+  {
+   "name": "nfc",
+   "url": "https://www.nfc.gov.ng/",
+   "max": 50000
+  },
+  {
+   "name": "northflix-plans",
+   "url": "https://northflix.ng/",
+   "viaUk": true,
+   "max": 100000
+  },
+  {
+   "name": "kallo-terms",
+   "url": "https://kallo.ng/terms",
+   "viaUk": true,
+   "max": 100000
   }
  ]
 }
