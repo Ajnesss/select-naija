@@ -50,21 +50,31 @@ function main() {
     }
   }
 
-  // Titles watchable through each service (a title on two services counts for both).
+  // Source breakdown: playable titles per provider and per channel (a title with streams from two sources
+  // counts for both), and how much of the catalogue depends on YouTube alone.
   const bySource = {};
+  const byChannel = {};
   const { linkState, isShown } = require('../src/states');
+  let playable = 0;
+  let youtubeOnly = 0;
   for (const t of data.titles) {
     if (t.category === 'test') continue;
-    const seen = new Set();
-    for (const [k, links] of data.linksByStreamId) {
-      if (k !== t.id && !k.startsWith(`${t.id}:`)) continue;
-      for (const l of links) if (isShown(linkState(data.status.links[l.id], now))) seen.add(l.providerName || data.providerById.get(l.provider)?.name || l.provider);
-    }
-    for (const src of seen) bySource[src] = (bySource[src] || 0) + 1;
+    const shown = (data.linksByTitle.get(t.id) || []).filter((l) => isShown(linkState(data.status.links[l.id], now)));
+    if (!shown.length) continue;
+    playable += 1;
+    const providers = new Set(shown.map((l) => data.providerById.get(l.provider)?.name || l.provider));
+    if (providers.size === 1 && providers.has('YouTube')) youtubeOnly += 1;
+    for (const p of providers) bySource[p] = (bySource[p] || 0) + 1;
+    for (const c of new Set(shown.map((l) => `${data.providerById.get(l.provider)?.name || l.provider}: ${l.source || l.providerName || '-'}`)))
+      byChannel[c] = (byChannel[c] || 0) + 1;
   }
 
   const report = {
+    playable,
+    youtubeOnly,
+    youtubeShare: pct(youtubeOnly, playable),
     bySource,
+    byChannel,
     generatedAt: new Date(now).toISOString(),
     statusGeneratedAt: data.statusGeneratedAt,
     groups: Object.fromEntries(Object.entries(groups).map(([g, v]) => [g, { ...v, coverage: pct(v.covered, v.total) }])),
@@ -95,11 +105,17 @@ function main() {
       ([l, v]) => `| ${LANGUAGES[l] || l} | ${v.catalogued} | ${v.covered} | ${v.coverage ?? '–'}% | ${v.withoutTmdb} |`,
     ),
     ``,
-    `## Watchable titles by service`,
+    `## Source breakdown (plays inside Nuvio)`,
     ``,
-    `| Service | Titles |`,
+    `${report.playable} playable titles; ${report.youtubeOnly} (${report.youtubeShare ?? 0}%) rely on YouTube alone.`,
+    ``,
+    `| Provider | Playable titles |`,
     `| --- | --- |`,
     ...Object.entries(report.bySource).sort((a, b) => b[1] - a[1]).map(([k, v]) => `| ${k} | ${v} |`),
+    ``,
+    `| Provider: channel | Playable titles |`,
+    `| --- | --- |`,
+    ...Object.entries(report.byChannel).sort((a, b) => b[1] - a[1]).map(([k, v]) => `| ${k} | ${v} |`),
     ``,
     `## Providers`,
     ``,
