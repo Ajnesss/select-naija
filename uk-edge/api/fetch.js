@@ -23,9 +23,13 @@ const ALLOWED_HOSTS = [
   'www.ibakatv.com',
   'northflix.ng',
   'ipinfo.io',
+  'www.zeratv.com',
+  'vimeo.com',
+  'player.vimeo.com',
+  'api.vimeo.com',
 ];
 // Stream hosts, for playback tests: can a stream address be played from another place than where it was issued?
-const ALLOWED_SUFFIXES = ['.tubi.video', '.dailymotion.com', '.dmcdn.net', '.dailymotion.net', '.odycdn.com', '.odysee.com', '.odysee.tv'];
+const ALLOWED_SUFFIXES = ['.tubi.video', '.dailymotion.com', '.dmcdn.net', '.dailymotion.net', '.odycdn.com', '.odysee.com', '.odysee.tv', '.vimeocdn.com', '.akamaized.net'];
 const MAX_BYTES = 3 * 1024 * 1024;
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36 SelectNaijaUK/1.0';
 
