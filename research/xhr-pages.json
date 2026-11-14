@@ -1,0 +1,8 @@
+{
+ "muvidb": ["https://muvidb.com/browse", "https://muvidb.com/watch/youtube", "https://muvidb.com/watch/kava", "https://muvidb.com/films/dear-ajayi-2026", "https://muvidb.com/companies", "https://muvidb.com/channels"],
+ "muvidb2": ["https://muvidb.com/watch/docuth", "https://muvidb.com/watch/homitv", "https://muvidb.com/watch/circuits", "https://muvidb.com/watch/nollistream", "https://muvidb.com/watch/filmporte"],
+ "glotv": ["http://myglotv.com", "https://www.gloworld.com/ng/entertainment/glo-tv"],
+ "docuth": ["https://docuth.com", "https://www.docuth.com"],
+ "homitv": ["https://homitv.com", "https://www.homi.tv"],
+ "amc": ["https://www.africanmoviechannel.tv/", "https://www.africanmoviechannel.tv/amcop"]
+}
