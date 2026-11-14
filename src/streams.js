@@ -1,6 +1,6 @@
 'use strict';
 
-const { linkState, isShown } = require('./states');
+const { linkState, isShown, DAY } = require('./states');
 const { ukOffers } = require('./resolvers/tmdb');
 const { ownerStreamUrl } = require('./resolvers/dailymotion');
 
@@ -41,6 +41,11 @@ function candidateLinks(streamId, data) {
   return [...exact, ...seriesLevel];
 }
 
+function cmp(a, b) {
+  for (let i = 0; i < a.length; i += 1) if (a[i] !== b[i]) return a[i] - b[i];
+  return 0;
+}
+
 /** 124 → "2 h 4 min". */
 function duration(min) {
   if (!min) return '';
@@ -64,7 +69,7 @@ function formatLink(link, record, state, data, title, now) {
       title: [
         [`▶ ${name}`, link.label].filter(Boolean).join(' · '),
         [quality && (quality === 'HD' ? 'HD (720p+)' : 'SD'), duration(link.minutes), link.source || 'YouTube', access].filter(Boolean).join(' · '),
-        checked,
+        record?.lastPlayedAt ? `✓ played in YouTube's player ${ago(record.lastPlayedAt, now)}` : record?.api === 'ok' ? `available on YouTube (checked ${ago(record.lastCheck, now)}), not yet play-tested` : checked,
       ].filter(Boolean).join('\n'),
       ytId: link.ytId,
       behaviorHints: { bingeGroup: `selectnaija-${link.provider}` },
@@ -112,15 +117,29 @@ async function buildStreams(type, requestedId, data, { tmdbApiKey, fetchImpl, no
     shown.push({ link, record, state, score });
   }
 
-  shown.sort((a, b) => {
-    const kind = (x) => (x.link.kind === 'direct' ? 0 : x.link.kind === 'youtube' ? 1 : 2);
-    const st = (x) => (x.state === 'verified' ? 0 : 1);
-    const uk = (x) => (x.record?.ukSignal === 'page-only' ? 1 : 0);
-    return (
-      kind(a) - kind(b) || st(a) - st(b) || uk(a) - uk(b) || b.score - a.score ||
-      (a.link.provider === b.link.provider ? (a.link.order || 0) - (b.link.order || 0) : 0)
-    );
-  });
+  // Best source first. A film's parts from one channel are one option: they stay together, in order, and the
+  // option is ranked by its weakest part. Rank: plays in Nuvio → confirmed playing in the official player →
+  // available per the API → HD before SD → verified → provider score.
+  const health = (x) => (x.record?.lastPlayedAt && now - Date.parse(x.record.lastPlayedAt) <= 14 * DAY ? 0 : x.record?.api === 'ok' ? 1 : 2);
+  const rank = (x) => [
+    x.link.kind === 'direct' ? 0 : x.link.kind === 'youtube' ? 1 : 2,
+    health(x),
+    x.link.quality === 'hd' ? 0 : x.link.quality === 'sd' ? 2 : 1,
+    x.state === 'verified' ? 0 : 1,
+    x.record?.ukSignal === 'page-only' ? 1 : 0,
+    -x.score,
+  ];
+  const groupOf = (x) => `${x.link.provider}|${x.link.source || ''}`;
+  const groups = new Map();
+  for (const x of shown) {
+    if (!groups.has(groupOf(x))) groups.set(groupOf(x), []);
+    groups.get(groupOf(x)).push(x);
+  }
+  const worst = (list) => list.map(rank).reduce((w, r) => (cmp(r, w) > 0 ? r : w));
+  const ordered = [...groups.values()]
+    .map((list) => ({ list: list.sort((a, b) => (a.link.order || 0) - (b.link.order || 0)), key: worst(list) }))
+    .sort((a, b) => cmp(a.key, b.key));
+  shown.splice(0, shown.length, ...ordered.flatMap((g) => g.list));
 
   // Links that need a stream address fetched at play time (owner-authorised sources). Dropped if it fails.
   await Promise.all(

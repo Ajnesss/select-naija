@@ -1,6 +1,28 @@
 #!/usr/bin/env node
 'use strict';
 
+/** Report lines for data/youtube-health.json: API status and actual playback, kept apart. */
+function healthLines(dir) {
+  const fsx = require('fs');
+  const file = require('path').join(dir, 'youtube-health.json');
+  if (!fsx.existsSync(file)) return ['No health check has run yet.'];
+  const h = JSON.parse(fsx.readFileSync(file, 'utf8'));
+  const v = Object.values(h.videos || {});
+  const n = (f) => v.filter(f).length;
+  const api = {};
+  for (const x of v) api[x.api] = (api[x.api] || 0) + 1;
+  const run = h.playbackRun;
+  return [
+    `Videos checked through the official API: ${v.length} (${h.generatedAt || 'n/a'}).`,
+    `| API status | Videos |`, `| --- | --- |`,
+    ...Object.entries(api).sort((a, b) => b[1] - a[1]).map(([k, c]) => `| ${k} | ${c} |`),
+    ``,
+    `HD (720p or better, as YouTube reports it): ${n((x) => x.definition === 'hd')}; SD: ${n((x) => x.definition === 'sd')}.`,
+    `Playback in YouTube's official embedded player: played ${n((x) => x.playback?.result === 'played')}, failed ${n((x) => x.playback?.result === 'failed')}, inconclusive ${n((x) => x.playback?.result === 'inconclusive')}, not yet tested ${n((x) => x.api === 'ok' && !x.playback)}.`,
+    run ? `Last playback run: ${run.tested} tested in ${run.minutes} min (${JSON.stringify(run.tally)})${run.applied ? '' : ' — not applied, YouTube appeared to refuse the test server'}.` : 'No playback run yet.',
+  ];
+}
+
 // Coverage and reliability report. Writes reports/coverage.md and reports/coverage.json.
 // A title is covered only when at least one verified (or stale) Select Naija link is shown for it.
 // TMDB/JustWatch "where to watch" offers are NOT counted: they are unverified by us.
@@ -112,6 +134,10 @@ function main() {
     ...Object.entries(report.languages).map(
       ([l, v]) => `| ${LANGUAGES[l] || l} | ${v.catalogued} | ${v.covered} | ${v.coverage ?? '–'}% | ${v.withoutTmdb} |`,
     ),
+    ``,
+    `## Stream health (YouTube)`,
+    ``,
+    ...healthLines(DATA),
     ``,
     `## Source breakdown (plays inside Nuvio)`,
     ``,

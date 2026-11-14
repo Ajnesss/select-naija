@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.5.0 (15 Nov 2026)
+
+- Real YouTube stream health instead of "it was in last night's listing": every video is checked nightly through the official Data API (deleted, private, still processing, blocked in the UK, embedding not allowed, age-restricted), with verified HD/SD and duration.
+- Separate playback test: a rolling batch of videos is played muted in YouTube's official embedded player each night; "played", "failed" (video fault) and "inconclusive" (test-server problem) are kept apart from API status.
+- Failing videos are hidden, never deleted: re-checked every night and restored when they pass. A title with no working stream left is hidden until one returns.
+- Stream order: confirmed playing → available per API → HD before SD; a film's parts from one channel stay together and the option is ranked by its weakest part.
+- Stream text says which: "✓ played in YouTube's player 2 days ago" or "available on YouTube, not yet play-tested".
+- Nightly report: stream health section.
+
 ## 0.4.0 (14 Nov 2026)
 
 - Catalogue clean-up: removed three wrongly matched YouTube channels (a meditation channel, a Congolese channel and an actress's vlog); livestreams, talk shows, masterclasses, recaps and clips under 30 minutes no longer appear as films.

@@ -306,6 +306,27 @@ function loadData(
     linksByTitle.get(link.titleId).push(link);
   }
 
+  // YouTube links: the nightly health file (scripts/check-youtube.js + check-youtube-playback.js) replaces the
+  // "it was in last night's channel listing" record. API availability and actual playback are kept apart.
+  const health = readJson(path.join(dataDir, 'youtube-health.json'), { videos: {} }).videos || {};
+  for (const link of allLinks) {
+    const h = link.ytId && health[link.ytId];
+    if (!h) continue;
+    if (h.definition) link.quality = h.definition;
+    if (h.seconds) link.minutes = Math.round(h.seconds / 60);
+    const playFailed = h.playback?.result === 'failed';
+    discoveredStatus[link.id] = {
+      lastOk: h.lastOkAt,
+      lastCheck: h.checkedAt,
+      history: h.checks || [],
+      ukSignal: 'youtube-api',
+      unavailable: h.api !== 'ok' ? h.reason || h.api : playFailed ? `would not play: ${h.playback.reason}` : null,
+      api: h.api,
+      playback: h.playback || null,
+      lastPlayedAt: h.lastPlayedAt || null,
+    };
+  }
+
   // Per link: a UK check from the last 7 days wins (it saw exactly what UK viewers see).
   // Otherwise the nightly hands-off result counts, so nothing depends on the laptop being on.
   const fresh = (iso) => iso && now - Date.parse(iso) <= FRESH_DAYS * DAY;

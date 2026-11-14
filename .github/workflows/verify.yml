@@ -20,7 +20,7 @@ concurrency:
 jobs:
   verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 150
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -42,6 +42,18 @@ jobs:
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: node scripts/discover-youtube.js
+      - name: YouTube stream health (official API status of every video)
+        if: ${{ !inputs.skip_youtube }}
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node scripts/check-youtube.js
+      - name: YouTube playback test (official embedded player, rolling batch)
+        run: |
+          npm install --no-save --no-audit --no-fund playwright@1.49.1
+          npx playwright install --with-deps chromium
+          node scripts/check-youtube-playback.js
+        env:
+          PLAYBACK_MINUTES: 35
       - name: Match channel films to TMDB (years, posters, genres)
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}

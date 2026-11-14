@@ -9,9 +9,12 @@ const FRESH_DAYS = 7;
  *   stale      – has passed before, last pass older than 7 days, not failing
  *   failing    – the last two checks failed
  *   unverified – never passed
+ *   unavailable – the latest check found it unusable (deleted, private, blocked in the UK, not embeddable,
+ *                 age-restricted, or the official player refused it); kept and re-checked, restored when it passes
  * Only verified and stale links are ever shown to users.
  */
 function linkState(record, now = Date.now()) {
+  if (record?.unavailable) return 'unavailable';
   if (!record || !record.lastOk) return 'unverified';
   const history = record.history || (record.checks || []).map((c) => c.ok);
   const lastTwo = history.slice(-2);
