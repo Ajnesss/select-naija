@@ -1,1 +1,4 @@
-{ "bluepictures": ["https://bluepicturesng.com/"] }
+{
+ "edimulo": ["https://edimulo.com", "https://www.edimulo.com", "https://edimulo.tv", "https://beauld.com/edimulo.html", "https://beauld.com/about.html"],
+ "nollistreamcom": ["https://nollistream.com/", "https://nollistream.com/faq", "https://nollistream.com/terms", "https://app.nollistream.com", "https://watch.nollistream.com"]
+}
