@@ -1,0 +1,186 @@
+[
+ {
+  "url": "https://elsmovies.com/",
+  "xhr": [
+   {
+    "u": "https://elsmovies.com/cdn-cgi/speculation",
+    "s": 200,
+    "ct": "application/speculationrules+json",
+    "b": "{\"tag\":\"cf-speed-brain\",\"prefetch\":[{\"eagerness\":\"conservative\",\"source\":\"document\",\"where\":{\"and\":[{\"href_matches\":\"/*\",\"relative_to\":\"document\"}]}}]}"
+   },
+   {
+    "u": "https://player.vimeo.com/cdn-cgi/challenge-platform/h/b/precursor/f8df4d4a0cd6/0.9536228073331741:1794647450:Got1dwo8PeaJAMUphj_HGAY8lEDb1Hxzj7EbpvHUgdo/a5a547017d11d98e",
+    "s": 200,
+    "ct": "application/json; charset=UTF-8",
+    "b": "{\"i\":60,\"n\":false}"
+   },
+   {
+    "u": "https://player.vimeo.com/cdn-cgi/challenge-platform/h/b/precursor/f8df4d4a0cd6/0.9536228073331741:1794647450:Got1dwo8PeaJAMUphj_HGAY8lEDb1Hxzj7EbpvHUgdo/a5a547017d13d98e",
+    "s": 200,
+    "ct": "application/json; charset=UTF-8",
+    "b": "{\"i\":60,\"n\":false}"
+   },
+   {
+    "u": "https://elsmovies.com/cdn-cgi/rum?",
+    "s": 204,
+    "ct": "text/plain",
+    "b": ""
+   }
+  ],
+  "media": [],
+  "status": 200,
+  "finalUrl": "https://elsmovies.com/",
+  "title": "",
+  "text": "",
+  "links": [],
+  "iframes": []
+ },
+ {
+  "url": "https://elsmovies.com/stream/",
+  "xhr": [
+   {
+    "u": "https://elsmovies.com/cdn-cgi/speculation",
+    "s": 200,
+    "ct": "application/speculationrules+json",
+    "b": "{\"tag\":\"cf-speed-brain\",\"prefetch\":[{\"eagerness\":\"conservative\",\"source\":\"document\",\"where\":{\"and\":[{\"href_matches\":\"/*\",\"relative_to\":\"document\"}]}}]}"
+   },
+   {
+    "u": "https://elsmovies.com/cdn-cgi/rum?",
+    "s": 204,
+    "ct": "text/plain",
+    "b": ""
+   }
+  ],
+  "media": [],
+  "status": 200,
+  "finalUrl": "https://elsmovies.com/stream/",
+  "title": "El's Streaming – Stream El's Movies & Podcast Online",
+  "text": "Movie TV Show ACCOUNT HOME MOVIES BLOG HOME MOVIES BLOG ACCOUNT NEW RELEASES Divided Heart 4.8 Score 2025 1080 HD 1 hr 06 min CC When love collides with family interference, an only son must choose between the woman he loves and the sister determined to tear them apart. WATCH NOW NEW RELEASES Awuf Wife 7.2 Score 2024 1080 HD 1 hr 45 min CC “Awuf Wife” – A Nollywood Original by El’s Movies, is a hilarious yet thought-provoking drama that follows the chaos, secrets, and surprises that unfold when love, marriage, and the lure of ‘something for nothing’ collide. WATCH NOW NEW RELEASES What Men Want 6.5 Score 2024 1080 HD 45 min CC “What Men Want” – A Nollywood Original by El’s Movies, is a gripping marital drama that unravels the hidden desires, struggles, and choices shaping the lives of young Nigerian couples. WATCH NOW NEW RELEASES Divided Heart 4.8 Score 2025 1080 HD 1 hr 06 min CC When love collides with family interference, an only son must choose between the woman he loves and the sister determined to tear them apart. WATCH NOW NEW RELEASES Awuf Wife 7.2 Score 2024 1080 HD 1 hr 45 min CC “Awuf Wife” – A Nollywood Original by El’s Movies, is a hilarious yet thought-provoking drama that follows the chaos, secrets, and surprises that unfold when love, marriage, and the lure of ‘something for nothing’ collide. WATCH NOW ONLINE STREAMING Watch Shows Online Unlimited El's Movies, TV Shows & Podcasts. Latest Nollywood Originals Stream exclusive El’s Movies blockbusters and fresh Nollywood releases anytime, anywhere with zero ads and uninterrupted entertainment. Diverse Entertainment Mix Enjoy unlimited access to TV shows, engaging podcasts, and inspiring audiobooks. Exclusive Fan Access Get behind-the-scenes content, early releases, and join conversations that bring you closer to your favorite stars. ONLINE STREAMING Watch Shows Online 7.2 1080 HD TV-G 2024 Thriller Awuf Wife 6.5 1080 HD TV-G 2024 Romance What Men Want 4.8 1080 HD TV-G 2025 Romance Divided Heart 5.7 1080 HD TV-G 2024 Thriller Wicked Princes 4.9 1080 HD TV-G 2025 Thriller Madam Hoha 6.1 1080 HD TV-G 2025 Nollywood Driver Lover 6.6 4K Ultra HD TV-G 2020 Romance Face Mask BROWSE ALL MOVIS Starring Your Favourite Nollywood Icons “El’s Movies is doing something truly remarkable for Nollywood. Their productions combine creativity, culture, and professionalism in a way that elevates the entire industry. Working with them has been both inspiring and fulfilling, and I believe their commitment to tellin",
+  "links": [
+   "https://elsmovies.com/stream/my-account/",
+   "https://elsmovies.com/stream/",
+   "https://elsmovies.com/stream/movies/",
+   "https://elsmovies.com/blog",
+   "https://elsmovies.com/stream/bookmark/",
+   "https://elsmovies.com/stream/movie/divided-heart/",
+   "https://elsmovies.com/stream/movie/awuf-wife/",
+   "https://elsmovies.com/stream/movie/what-men-want/",
+   "https://elsmovies.com/stream/movie/wicked-princes/",
+   "https://elsmovies.com/stream/movie/madam-hoha/",
+   "https://elsmovies.com/stream/movie/driver-lover/",
+   "https://elsmovies.com/stream/movie/face-mask/",
+   "tel:+234-803-663-1836",
+   "tel:+234-806-206-6844",
+   "https://elsmovies.com/",
+   "https://elsmovies.com/about/",
+   "https://elsmovies.com/blog/",
+   "https://elsmovies.com/faqs/",
+   "https://elsmovies.com/contact/",
+   "https://elsmovies.com/stream/terms-of-use/",
+   "https://elsmovies.com/stream/legal-noticies/"
+  ],
+  "iframes": []
+ },
+ {
+  "url": "https://elsmovies.com/stream/register/",
+  "xhr": [
+   {
+    "u": "https://elsmovies.com/cdn-cgi/speculation",
+    "s": 200,
+    "ct": "application/speculationrules+json",
+    "b": "{\"tag\":\"cf-speed-brain\",\"prefetch\":[{\"eagerness\":\"conservative\",\"source\":\"document\",\"where\":{\"and\":[{\"href_matches\":\"/*\",\"relative_to\":\"document\"}]}}]}"
+   },
+   {
+    "u": "https://elsmovies.com/cdn-cgi/rum?",
+    "s": 204,
+    "ct": "text/plain",
+    "b": ""
+   },
+   {
+    "u": "https://elsmovies.com/stream/wp-admin/admin-ajax.php",
+    "s": 200,
+    "ct": "application/json; charset=UTF-8",
+    "b": "{\"success\":true,\"data\":{\"481\":\"e34e61556c\"}}"
+   },
+   {
+    "u": "https://m.stripe.com/6",
+    "s": 200,
+    "ct": "application/json;charset=utf-8",
+    "b": "{\"muid\":\"a3f6f78f-ef11-4f81-95e2-8f9f3db1546a6fb4db\",\"guid\":\"0b3eca12-5708-44a9-9311-60a285f6964085d7d7\",\"sid\":\"4701d092-edbc-42aa-bd38-2175dda42c7c974e6a\"}"
+   }
+  ],
+  "media": [],
+  "status": 200,
+  "finalUrl": "https://elsmovies.com/stream/register/",
+  "title": "Register – El's Streaming",
+  "text": "Movie TV Show ACCOUNT HOME MOVIES BLOG HOME MOVIES BLOG ACCOUNT Register Username * User Email * User Password * Confirm Password * × Membership Field * Free Member Free Submit Questions? Call +234-803-663-1836 +234-806-206-6844 El’s Movies Stream gives you unlimited access to the latest Nollywood blockbusters, original films, TV shows, podcasts, and audiobooks — all in one place. Experience African storytelling anytime, anywhere, without limits. English Spanish EL’S MOVIES El’s Movies Home Streaming Home About Us Blog SUPPORT FAQ Contact Us POLICIES Terms of Use Legal Noticies © 2026 El's Movies | Online Movie Streaming Site created by PiusJoe & Co",
+  "links": [
+   "https://elsmovies.com/stream/my-account/",
+   "https://elsmovies.com/stream/",
+   "https://elsmovies.com/stream/movies/",
+   "https://elsmovies.com/blog",
+   "https://elsmovies.com/stream/bookmark/",
+   "javascript:void(0)",
+   "tel:+234-803-663-1836",
+   "tel:+234-806-206-6844",
+   "https://elsmovies.com/",
+   "https://elsmovies.com/about/",
+   "https://elsmovies.com/blog/",
+   "https://elsmovies.com/faqs/",
+   "https://elsmovies.com/contact/",
+   "https://elsmovies.com/stream/terms-of-use/",
+   "https://elsmovies.com/stream/legal-noticies/"
+  ],
+  "iframes": [
+   "https://js.stripe.com/v3/m-outer-0edadf75b42c6ef7240c043f3272f3f9.html#url=https%3A%2F%2Felsmovies.com%2Fstream%2Fregister%2F&title=Register%20%E2%80%93%20El's%20Streaming&referrer=&muid=NA&sid=NA&version=6&preview=false&__shared_params__[version]=v3"
+  ]
+ },
+ {
+  "url": "https://elsmovies.com/faqs/",
+  "xhr": [
+   {
+    "u": "https://elsmovies.com/cdn-cgi/speculation",
+    "s": 200,
+    "ct": "application/speculationrules+json",
+    "b": "{\"tag\":\"cf-speed-brain\",\"prefetch\":[{\"eagerness\":\"conservative\",\"source\":\"document\",\"where\":{\"and\":[{\"href_matches\":\"/*\",\"relative_to\":\"document\"}]}}]}"
+   },
+   {
+    "u": "https://elsmovies.com/cdn-cgi/rum?",
+    "s": 204,
+    "ct": "text/plain",
+    "b": ""
+   }
+  ],
+  "media": [],
+  "status": 200,
+  "finalUrl": "https://elsmovies.com/faqs/",
+  "title": "",
+  "text": "",
+  "links": [],
+  "iframes": []
+ },
+ {
+  "url": "https://elsmovies.com/movies/",
+  "xhr": [
+   {
+    "u": "https://elsmovies.com/cdn-cgi/speculation",
+    "s": 200,
+    "ct": "application/speculationrules+json",
+    "b": "{\"tag\":\"cf-speed-brain\",\"prefetch\":[{\"eagerness\":\"conservative\",\"source\":\"document\",\"where\":{\"and\":[{\"href_matches\":\"/*\",\"relative_to\":\"document\"}]}}]}"
+   },
+   {
+    "u": "https://elsmovies.com/cdn-cgi/rum?",
+    "s": 204,
+    "ct": "text/plain",
+    "b": ""
+   }
+  ],
+  "media": [],
+  "status": 404,
+  "finalUrl": "https://elsmovies.com/movies/",
+  "title": "",
+  "text": "",
+  "links": [],
+  "iframes": []
+ }
+]
