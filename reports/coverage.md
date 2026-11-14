@@ -1,6 +1,6 @@
 # Select Naija coverage report
 
-Generated 2026-11-14T00:29:24.685Z. Links last verified 2026-11-14T00:29:24.637Z.
+Generated 2026-11-14T10:37:12.620Z. Links last verified 2026-11-14T10:37:12.565Z.
 A title counts as covered only if a verified Select Naija link is shown for it.
 
 ## Test catalogue by group
@@ -14,7 +14,7 @@ A title counts as covered only if a verified Select Naija link is shown for it.
 
 | Language | Catalogued | Covered | Coverage | Without TMDB/IMDb ID |
 | --- | --- | --- | --- | --- |
-| English | 14575 | 12949 | 88.8% | 14379 |
+| English | 14610 | 12981 | 88.9% | 14414 |
 | Yoruba | 979 | 861 | 87.9% | 932 |
 | Igbo | 1450 | 1426 | 98.3% | 1434 |
 | Hausa | 411 | 405 | 98.5% | 405 |
@@ -22,11 +22,13 @@ A title counts as covered only if a verified Select Naija link is shown for it.
 
 ## Source breakdown (plays inside Nuvio)
 
-14150 playable titles; 14150 (100%) rely on YouTube alone.
+14182 playable titles; 14182 (100%) rely on YouTube alone.
+
+**Unique non-YouTube playable titles: 0** (titles with at least one in-app stream from an independent provider; external links, live channels, trailers and YouTube duplicates are not counted).
 
 | Provider | Playable titles |
 | --- | --- |
-| YouTube | 14150 |
+| YouTube | 14182 |
 
 | Provider: channel | Playable titles |
 | --- | --- |
@@ -64,6 +66,7 @@ A title counts as covered only if a verified Select Naija link is shown for it.
 | YouTube: Frederick Leonard TV. | 40 |
 | YouTube: BIODUNSTEPHEN TV | 36 |
 | YouTube: GEORGINA IBEH TV | 33 |
+| YouTube: EL'S NOLLY TV  | 33 |
 | YouTube: EDDIE WATSON TV | 30 |
 | YouTube: Uche Montana TV | 25 |
 | YouTube: Maishadda Global Resources | 19 |
@@ -89,8 +92,8 @@ A title counts as covered only if a verified Select Naija link is shown for it.
 | --- | --- | --- | --- | --- | --- |
 | Tubi | 40 | 0% | 100% | 100% | 1 |
 | Plex | 100 | 100% | 100% | 100% | 1 |
-| Select Naija test file | 100 | 100% | 100% | 100% | 21 |
-| YouTube | 100 | 100% | 100% | 100% | 6 |
+| Select Naija test file | 100 | 100% | 100% | 100% | 22 |
+| YouTube | 100 | 100% | 100% | 100% | 7 |
 
 ## Gaps: test titles with no verified source
 

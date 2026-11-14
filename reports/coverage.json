@@ -1,9 +1,11 @@
 {
- "playable": 14150,
- "youtubeOnly": 14150,
+ "playable": 14182,
+ "youtubeOnly": 14182,
  "youtubeShare": 100,
+ "nonYoutube": 0,
+ "nonYoutubeBySource": {},
  "bySource": {
-  "YouTube": 14150
+  "YouTube": 14182
  },
  "byChannel": {
   "YouTube: BTAtv": 1452,
@@ -16,6 +18,7 @@
   "YouTube: Nollywood RealnollyTV": 902,
   "YouTube: Nollywoodpicturestv": 1784,
   "YouTube: APATATV+": 345,
+  "YouTube: OLUCHI AFUNDU TV": 67,
   "YouTube: Omoni Oboli TV": 104,
   "YouTube: Maurice Sam TV": 101,
   "YouTube: LibraTv": 173,
@@ -32,7 +35,6 @@
   "YouTube: ChinneyLoveEze Tv": 66,
   "YouTube: Frederick Leonard TV.": 40,
   "YouTube: IBAKATV": 10,
-  "YouTube: OLUCHI AFUNDU TV": 67,
   "YouTube: AFOREVO STAGE": 2152,
   "YouTube: AMCChannels": 75,
   "YouTube: Bconceptnetwork": 14,
@@ -57,10 +59,11 @@
   "YouTube: SceneOne TV": 1,
   "YouTube: NollyReel": 368,
   "YouTube: Waka Waka Tv": 19,
-  "YouTube: SY WORLD": 1223
+  "YouTube: SY WORLD": 1223,
+  "YouTube: EL'S NOLLY TV ": 33
  },
- "generatedAt": "2026-11-14T00:29:24.685Z",
- "statusGeneratedAt": "2026-11-14T00:29:24.637Z",
+ "generatedAt": "2026-11-14T10:37:12.620Z",
+ "statusGeneratedAt": "2026-11-14T10:37:12.565Z",
  "groups": {
   "classics": {
    "total": 1,
@@ -75,10 +78,10 @@
  },
  "languages": {
   "en": {
-   "catalogued": 14575,
-   "covered": 12949,
-   "withoutTmdb": 14379,
-   "coverage": 88.8
+   "catalogued": 14610,
+   "covered": 12981,
+   "withoutTmdb": 14414,
+   "coverage": 88.9
   },
   "yo": {
    "catalogued": 979,
@@ -125,14 +128,14 @@
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 21
+   "checks30d": 22
   },
   "youtube": {
    "score": 100,
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 6
+   "checks30d": 7
   }
  },
  "gaps": [
