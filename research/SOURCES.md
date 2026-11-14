@@ -102,3 +102,20 @@ are third-party uploads; any from an approved official channel are already in th
 Rights-holder YouTube channels added this round: KAP Stream (Kunle Afolayan), NollywoodLove and YorubaLove
 (iROKO), Biodun Stephen TV, Chioma Chukwuka TV, AMCChannels (African Movie Channel UK), Okiki Premium TV,
 YorubaPlay (iBAKA), Scene One TV, and Aflik's six channels.
+
+## Round 4 (14 Nov 2026): MuviDB, African Movie Channel, Glo TV and title-level tracing
+
+| Source | What was tested | Result |
+| --- | --- | --- |
+| MuviDB (muvidb.com) | Site and "where to watch" index rendered in a browser; developer API page | Film database (about 20,400 titles). Platforms it tracks: Netflix, Prime Video, YouTube, Kava, Docuth, EbonyLife ON Plus, Circuits, NolliStream, HomiTV, Filmporte. Every non-YouTube one is paid, app-only or rental (below). Bulk data needs its free Community API key; reading its internal database key was not used |
+| HomiTV (homitv.com) | Film pages, subscription page, terms | Plain HLS files, but subscription only ($1/day, $3.99/month, $42/year, 7-day trial). Terms: personal use on Homi platforms only. **Excluded (paid)** |
+| Docuth | Site | Pay-per-rental app. **Excluded (paid)** |
+| Kava | Launch coverage, MuviDB links | Subscription (N1,500 / $2.99 per month, no free tier). **Excluded (paid)** |
+| Filmporte | Film page | VHX storefront with account; earlier test failed. **Excluded** |
+| African Movie Channel / AMCOP | Site, products page, platform list | Pay-TV channels plus the free Nolly Africa HD channel, which is live only (Freeview 287, Samsung TV Plus, Rakuten, LG, Plex, Distro). AMCOP originals are shown on those channels; no on-demand catalogue outside apps. Free AMC films are on its official YouTube channel (AMCChannels, 75 films, already included). **No new in-app source** |
+| Glo TV (myglotv.com) | Web app rendered; app listing | Built on TV Anywhere Africa; app listing says the service is only for Globacom prepaid/postpaid subscribers in Nigeria. **Excluded (Nigeria SIM only)** |
+| Odysee (re-checked) | Channel survey | Nigerian films there are re-uploads by third parties; stream URLs return 401 to outside players. **Excluded** |
+
+Title-level tracing: every platform MuviDB records for a film was checked. None offers a free, permitted in-app stream in
+the UK, so tracing individual YouTube films to those platforms adds 0 non-YouTube playable titles. The nightly report now
+counts unique non-YouTube playable titles separately, so any future source shows up on its own line.
