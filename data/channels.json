@@ -712,6 +712,16 @@
    "owner": "Aflik TV, distributor",
    "approved": true,
    "search": "Nollyvids"
+  },
+  {
+   "platform": "youtube",
+   "name": "El's Nolly TV",
+   "languages": [
+    "en"
+   ],
+   "owner": "El's Movies (Kano production company; same films as El's Streaming, elsmovies.com/stream)",
+   "approved": true,
+   "handle": "@elsnollytv77"
   }
  ]
 }

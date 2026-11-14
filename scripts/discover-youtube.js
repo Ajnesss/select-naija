@@ -63,7 +63,10 @@ async function channelIdFor(channel, key, cache) {
 }
 
 async function resolveChannel(channel, key, cache = {}) {
-  const q = `id=${await channelIdFor(channel, key, cache)}`;
+  // A channel listed by its @handle is looked up directly (exact, 1 quota unit) instead of by name search.
+  const q = channel.handle && !channel.channelId
+    ? `forHandle=${encodeURIComponent(channel.handle)}`
+    : `id=${await channelIdFor(channel, key, cache)}`;
   const body = await api(`channels?part=snippet,contentDetails,statistics&${q}`, key);
   const c = body.items?.[0];
   if (!c) throw new Error(`channel not found (${channel.channelId || channel.handle})`);
@@ -158,18 +161,19 @@ async function main() {
     try {
       let info;
       if (reparse) {
-        const id = channel.channelId || cache[channel.search]?.id;
+        const id = channel.channelId || cache[channel.search]?.id
+          || Object.keys(videoCache).find((k) => channel.handle && videoCache[k].handle === channel.handle);
         if (!id || !videoCache[id]) continue;
         info = { id, title: videoCache[id].title || channel.name, subscribers: videoCache[id].subscribers };
       } else info = await resolveChannel(channel, key, cache);
-      if (channel.search && cache[channel.search] && !cache[channel.search].exactName) {
+      if (!channel.handle && channel.search && cache[channel.search] && !cache[channel.search].exactName) {
         console.warn(`${channel.name}: closest match "${info.title}" (not an exact name match), skipped until confirmed`);
         result.channels[info.id] = { name: info.title, wanted: channel.name, skipped: 'name mismatch' };
         continue;
       }
       if (!reparse) {
         const got = await channelVideos(info.uploads, key, videoCache[info.id]);
-        videoCache[info.id] = { ...got, title: info.title, subscribers: info.subscribers };
+        videoCache[info.id] = { ...got, title: info.title, subscribers: info.subscribers, handle: channel.handle };
       }
       const videos = videoCache[info.id].videos;
       const titles = buildTitles({ ...channel, user: info.id }, videos, { idPrefix: 'snaija-yt' }).map((t) => ({ ...t, channelName: info.title }));
