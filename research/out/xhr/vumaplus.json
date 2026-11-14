@@ -1,0 +1,376 @@
+[
+ {
+  "url": "https://vumaplus.com/",
+  "xhr": [
+   {
+    "u": "https://vumaplus.com/cdn-cgi/speculation",
+    "s": 200,
+    "ct": "application/speculationrules+json",
+    "b": "{\"tag\":\"cf-speed-brain\",\"prefetch\":[{\"eagerness\":\"conservative\",\"source\":\"document\",\"where\":{\"and\":[{\"href_matches\":\"/*\",\"relative_to\":\"document\"}]}}]}"
+   },
+   {
+    "u": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-1T9KEF092C&cid=303290669.1794651744&gtm=45je6bb1v9256298791za208zd9256298791xf1&rcb=18&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938466~115938469~118897920~118897930~119860442~120213116~120385422~120412528~120420416~120469145~120469153~12",
+    "s": 204,
+    "ct": "text/plain",
+    "b": ""
+   },
+   {
+    "u": "https://vumaplus.com/cdn-cgi/rum?",
+    "s": 204,
+    "ct": "text/plain",
+    "b": ""
+   },
+   {
+    "u": "https://accounts.google.com/gsi/status?client_id=743329435123-g2jlanmh78lg0lskbnr3l4oup34c98tm.apps.googleusercontent.com&cas=wIvQYx0HgE7BBhS%2B5z0rs730BZp%2BlB9XDlAJBgz2rlY&bs=JHBvtVtX3dPcV6N79UxeM8qyBRBAjJE4wdl85YoB1pU&has_opted_out_fedcm=false",
+    "s": 200,
+    "ct": "application/json; charset=utf-8",
+    "b": ")]}'\n[[\"ma2xLg9281Xc782WV0xS81rFNMadObxnqVZ1ns97-ck\"],null,0,0,1,90,120,null,0]"
+   },
+   {
+    "u": "https://pyhyncdrkfrnthvuyjhl.supabase.co/rest/v1/yt_catalog?select=thumbnail%2Cvideo_id&hidden=eq.false&order=view_count.desc&limit=1",
+    "s": 200,
+    "ct": "application/vnd.pgrst.object+json; charset=utf-8",
+    "b": "{\"thumbnail\":\"https://i.ytimg.com/vi/bslcx4LRFL0/maxresdefault.jpg\",\"video_id\":\"bslcx4LRFL0\"}"
+   },
+   {
+    "u": "https://pyhyncdrkfrnthvuyjhl.supabase.co/rest/v1/yt_catalog?select=*&hidden=eq.false&country=eq.NG&order=view_count.desc&limit=18",
+    "s": 200,
+    "ct": "application/json; charset=utf-8",
+    "b": "[{\"id\":11341,\"video_id\":\"bslcx4LRFL0\",\"title\":\"LOVE IN EVERY WORD - Nigerian Movies 2025 Latest Full Movies\",\"description\":\"LOVE IN EVERY WORD written by Mfon- Abasi Micheal Inyang is a beautiful piece. In a fast-paced world where love often takes a backseat to ambition, two souls from different worlds cross paths in an unexpected encounter. As emotions spark and cultural differences collide, they must navigate personal fears, societal expectations, and the delicate balance between love and self-discovery. When destiny presents an opportunity for something real, will they take the leap, or will their differences keep them apart?\\n\\nIf you are looking for Nigerian Movies 2025 Latest Full Movies and Nollywood movies 2025 latest full movies, then you need to check out LOVE IN EVERY WORD ! This romantic movie moves you into the world of the best Nigerian movies. You'll definitely love this full movie and latest entry in the Omoni Oboli movies on Omoni Oboli TV starring Uzor Arukwe, Bambam, Osereme Inegbenebor, Daniel Rocky, Thelma Nwosu, Amanda Iriekpen, Susan Jimah\\n\\nDrone Shots By:\\nObiora Chinonso\\nChinedu of Ou \",\"thumbnail\":\"https://i.ytimg.com/vi/bslcx4LRFL0/maxresdefault.jpg\",\"channel_id\":\"UCbvdwZvZgdl-pPyomEmaEfg\",\"channel_name\":\"omoniobolitv\",\"country\":\"NG\",\"genre\":null,\"duration_sec\":6959,\"view_count\":33639660,\"like_count\":503993,\"published_at\":\"2025-03-07T20:06:11+00:00\",\"hidden\":false,\"created_at\":\"2026-06-09T23:33:11.242121+00:00\",\"updated_at\":\"2026-06-09T23:33:11.242121+00:00\"}, \n {\"id\":8993,\"video_id\":\"Q3OQK9QmZEc\",\"title\":\"TREASURE IN THE SKY - CLINTON JOSHUA, CHINENYE NNEBE, MIWA OLORUNFEMI latest 2024 nigerian movie\",\"description\":\"This is the best movie you will see on the internet today... very educative and intriguing.\\nStarring: CLINTON JOSHUA, CHINENYE NNEBE, MIWA OLORUNFEMI, PRECIOUS AKAEZE, OBIAJULU KEN, EMEKA EZE\\n\\n\\n\\n\\n\\n\\n\\n\\n#clintonjoshua #chinenyennebe #miwaolorunfemi #nigerianmovies #nollywoodmovies #africanmovie #uchennambunabotv\",\"thumbnail\":\"https://i.ytimg.com/vi/Q3OQK9QmZEc/maxresdefault.jpg\",\"channel_id\":\"UCypAoMCRQuNL2RBwy-x4oQg\",\"channel_name\":\"uchennambunabotv02\",\"country\":\"NG\",\"genre\":null,\"duration_sec\":11480,\"view_count\":30233601,\"like_count\":393073,\"published_at\":\"2024-01-31T17:16:11+00:00\",\"hidden\":false,\"created_at\":\"2026-06-09T23:17:14.819773+00:00\",\"updated_at\":\"2026-06-09T23:17:14.819773+00:00\"}, \n {\"id\":7173,\"video_id\":\"_Dz_6uUP39k\",\"title\":\"BETTER HALF - UCHE MONTANA CHIDI DIKE DETOLA JONES CHRIS AKWARANDU\",\"description\":\"When a university student sets his sights on his class teacher his life never remains the same as he vows to make her his wife. \\n#chididike  #uchemontana #uchenwaefuna #ruthkadiri #ruthkadiri#latestnollywoodmovies\\n\\n-~-~~-~~~-~~-~-\\nPlease watch: \\\"LOVE ON ICE - HOW FAR WILL YOU GO TO PROTECT YOUR FAMILY #movie\\\" \\nhttps://www.youtube.com/watch?v=RBz2F0xEXMY\\n-~-~~-~~~-~~-~-\",\"thumbnail\":\"https://i.ytimg.com/vi/_Dz_6uUP39k/maxresdefault.jpg\",\"channel_id\":\"UCjcFNZE51DmSrGYBqixs"
+   },
+   {
+    "u": "https://pyhyncdrkfrnthvuyjhl.supabase.co/rest/v1/ad_config?select=*&id=eq.1",
+    "s": 200,
+    "ct": "application/vnd.pgrst.object+json; charset=utf-8",
+    "b": "{\"id\":1,\"preroll_enabled\":false,\"preroll_mode\":\"adsense\",\"preroll_publisher_id\":\"\",\"preroll_custom_script\":\"\",\"preroll_duration\":10,\"updated_at\":\"2026-06-05T01:50:14.705233+00:00\"}"
+   },
+   {
+    "u": "https://pyhyncdrkfrnthvuyjhl.supabase.co/rest/v1/sponsor_config?select=*&id=eq.1&limit=1",
+    "s": 200,
+    "ct": "application/json; charset=utf-8",
+    "b": "[{\"id\":1,\"enabled\":false,\"show_band\":true,\"show_footer\":true,\"name\":\"\",\"title\":\"\",\"subtitle\":\"\",\"cta_label\":\"Learn more\",\"url\":\"\",\"logo_url\":\"\",\"starts_on\":null,\"ends_on\":null,\"updated_at\":\"2026-11-02T11:55:00.663404+00:00\"}]"
+   },
+   {
+    "u": "https://pyhyncdrkfrnthvuyjhl.supabase.co/rest/v1/yt_catalog?select=*&hidden=eq.false&order=view_count.desc&limit=40",
+    "s": 200,
+    "ct": "application/json; charset=utf-8",
+    "b": "[{\"id\":11341,\"video_id\":\"bslcx4LRFL0\",\"title\":\"LOVE IN EVERY WORD - Nigerian Movies 2025 Latest Full Movies\",\"description\":\"LOVE IN EVERY WORD written by Mfon- Abasi Micheal Inyang is a beautiful piece. In a fast-paced world where love often takes a backseat to ambition, two souls from different worlds cross paths in an unexpected encounter. As emotions spark and cultural differences collide, they must navigate personal fears, societal expectations, and the delicate balance between love and self-discovery. When destiny presents an opportunity for something real, will they take the leap, or will their differences keep them apart?\\n\\nIf you are looking for Nigerian Movies 2025 Latest Full Movies and Nollywood movies 2025 latest full movies, then you need to check out LOVE IN EVERY WORD ! This romantic movie moves you into the world of the best Nigerian movies. You'll definitely love this full movie and latest entry in the Omoni Oboli movies on Omoni Oboli TV starring Uzor Arukwe, Bambam, Osereme Inegbenebor, Daniel Rocky, Thelma Nwosu, Amanda Iriekpen, Susan Jimah\\n\\nDrone Shots By:\\nObiora Chinonso\\nChinedu of Ou \",\"thumbnail\":\"https://i.ytimg.com/vi/bslcx4LRFL0/maxresdefault.jpg\",\"channel_id\":\"UCbvdwZvZgdl-pPyomEmaEfg\",\"channel_name\":\"omoniobolitv\",\"country\":\"NG\",\"genre\":null,\"duration_sec\":6959,\"view_count\":33639660,\"like_count\":503993,\"published_at\":\"2025-03-07T20:06:11+00:00\",\"hidden\":false,\"created_at\":\"2026-06-09T23:33:11.242121+00:00\",\"updated_at\":\"2026-06-09T23:33:11.242121+00:00\"}, \n {\"id\":8993,\"video_id\":\"Q3OQK9QmZEc\",\"title\":\"TREASURE IN THE SKY - CLINTON JOSHUA, CHINENYE NNEBE, MIWA OLORUNFEMI latest 2024 nigerian movie\",\"description\":\"This is the best movie you will see on the internet today... very educative and intriguing.\\nStarring: CLINTON JOSHUA, CHINENYE NNEBE, MIWA OLORUNFEMI, PRECIOUS AKAEZE, OBIAJULU KEN, EMEKA EZE\\n\\n\\n\\n\\n\\n\\n\\n\\n#clintonjoshua #chinenyennebe #miwaolorunfemi #nigerianmovies #nollywoodmovies #africanmovie #uchennambunabotv\",\"thumbnail\":\"https://i.ytimg.com/vi/Q3OQK9QmZEc/maxresdefault.jpg\",\"channel_id\":\"UCypAoMCRQuNL2RBwy-x4oQg\",\"channel_name\":\"uchennambunabotv02\",\"country\":\"NG\",\"genre\":null,\"duration_sec\":11480,\"view_count\":30233601,\"like_count\":393073,\"published_at\":\"2024-01-31T17:16:11+00:00\",\"hidden\":false,\"created_at\":\"2026-06-09T23:17:14.819773+00:00\",\"updated_at\":\"2026-06-09T23:17:14.819773+00:00\"}, \n {\"id\":5515,\"video_id\":\"-yVrN03f610\",\"title\":\"MONICA - UCHE MONTANA, JOHN EKANEM, Latest 2026 Nigerian Movie\",\"description\":\"This lovely masterpiece is the best movie you will see on the internet today... very educative and captivating.\\nStarring: UCHE MONTANA, JOHN EKANEM and Many Others\\n\\n\\n\\n#uchemontana #johnekanem #monica #uchemontanamovies #mauricesammovies2026 #nigerianmovies #nollywoodmovies #africanmovie #lovestory #romanticmovie #2026movies #lovemovies\",\"thumbnail\":\"https://i.ytimg.com/vi/-yVrN03f610/maxresdefault.jpg\",\"channel_id\":\"UCGRC6hm8mD8WqeY0auwrCrQ\",\"channel_name\":\"UchemontanaTV\",\"coun"
+   },
+   {
+    "u": "https://pyhyncdrkfrnthvuyjhl.supabase.co/rest/v1/yt_catalog?select=*&hidden=eq.false&published_at=gte.2026-11-14T00%3A00%3A00.000Z&order=view_count.desc&limit=6",
+    "s": 200,
+    "ct": "application/json; charset=utf-8",
+    "b": "[]"
+   },
+   {
+    "u": "https://pyhyncdrkfrnthvuyjhl.supabase.co/rest/v1/yt_catalog?select=*&hidden=eq.false&order=published_at.desc&limit=20",
+    "s": 200,
+    "ct": "application/json; charset=utf-8",
+    "b": "[{\"id\":1924116,\"video_id\":\"3ro7xXXaEIY\",\"title\":\"THE JUDGE'S HUSBAND | FAITH DUKE, DEYEMI OKANLAWON - Latest Nigerian Full Movies 2026\",\"description\":\"This Nigerian Movie,\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\nStep into the world of captivating Nigerian Movies, our movies capture the emotions that define us.\\nAt MAGIC THEATRE TV, we bring you the very best of Nigerian Movies, African Love Stories, and Family Dramas that reflect the soul of Africa, you’ll always find something powerful here.\\nSubscribe now and turn on the notification bell 🔔 so you never miss an emotional, action-packed, or heartwarming moment!\\n\\n\\n#trendingmovies  #latestmovies  #africancinema  #numberoneexplores #romanticmovies  #familydrama  #latestnollywoodmovies  #magictheatretv #numberoneafricanmovies #africanmovies2026 #unitedstates #unitedkingdom #newlyreleasednigerianmovies\",\"thumbnail\":\"https://i.ytimg.com/vi/3ro7xXXaEIY/maxresdefault.jpg\",\"channel_id\":\"UCzmBfQOYd-clan2qtr_VHiw\",\"channel_name\":\"magic_theatre_tv\",\"country\":\"NG\",\"genre\":null,\"duration_sec\":5178,\"view_count\":1,\"like_count\":0,\"published_at\":\"2026-11-13T01:45:04+00:00\",\"hidden\":false,\"created_at\":\"2026-11-13T02:06:53.972802+00:00\",\"updated_at\":\"2026-11-13T02:06:53.972802+00:00\"}, \n {\"id\":1908858,\"video_id\":\"DxUf9jEODQU\",\"title\":\"I Beg U 2 Leave Other Movies On Youtube & Watch Dis Interestin Emotional Little Orphan  Family Movie\",\"description\":\"#NumberOneAfricanMovies #Nollywoodhits #africanmovies #numberone #chachaeke #sistersbetrayalmovies #nollywoodmovies #familymovies #sadmovies #marriagemovie #unitedstates #kenerics #painful #cry #tears #heartofasister #kenericsmovies #mercyjohnson #returnofjustice #chiwetaluagu #oldnigerianmovies #ramseynuoahmovies#chachaekemovies \\nMercy’s life takes a dramatic turn as betrayal, redemption, and long-buried secrets threaten to destroy the bond she shares with her daughter, Michelle. When Clinton and Alex become entangled in their lives, hidden truths begin to surface, exposing painful mistakes and complicated relationships. As the past catches up with them, will they find the courage to forgive and make things right, or will their secrets tear them apart forever?\",\"thumbnail\":\"https://i.ytimg.com/vi/DxUf9jEODQU/maxresdefault.jpg\",\"channel_id\":\"UCI3ICwjVjEfBwApSyArpG0Q\",\"channel_name\":\"@nollywoodhits\",\"country\":\"NG\",\"genre\":null,\"duration_sec\":5128,\"view_count\":20,\"like_count\":1,\"published_at\":\"2026-11-13T01:00:13+00:00\",\"hidden\":false,\"created_at\":\"2026-11-13T01:52:11.993777+00:00\",\"updated_at\":\"2026-11-13T01:52:11.993777+00:00\"}, \n {\"id\":1919792,\"video_id\":\"Ryiq80znZvg\",\"title\":\"JUST RELEASED TODAY [THE BLACK KNIGHT] -ZUBBY MICHEAL LATEST NIGERIAN AFRICAN MOVIES 2026 -NEW MOVIE\",\"description\":\"#zubbymichael  #latestnigeriannollywoodmovie #africanmovies #nigerianmovie #movie #nollywood \\n\\n\\nIn This Nigerian Movie Starring ZUBBY MICHEAL\\n\\n\\n\\nSubscribe to  @rhandymovies  to get the best YouTube movies from your favourite actors. Also turn on notificatio"
+   },
+   {
+    "u": "https://pyhyncdrkfrnthvuyjhl.supabase.co/rest/v1/yt_catalog?select=*&hidden=eq.false&published_at=gte.2026-11-07T10%3A22%3A24.452Z&order=view_count.desc&limit=6",
+    "s": 200,
+    "ct": "application/json; charset=utf-8",
+    "b": "[{\"id\":1799798,\"video_id\":\"YsW3tcUcvuY\",\"title\":\"BEYOND BLOOD - UCHE MONTANA, EMEKA IKE, Latest 2026 Nigerian Movie\",\"description\":\"Sometimes, the people we trust the most can become the reason behind our deepest pain.\\nWhen betrayal turns into a desire for revenge, how far can someone go to make things right?\\n\\nBEYOND BLOOD is a captivating Nollywood drama filled with family conflicts, betrayal, painful\\nsecrets, emotional struggles, vengeance, and unexpected twists.\\n\\nStarring: UCHE MONTANA, EMEKA IKE – AND MANY MORE.\\nNOW SHOWING ON UCHE MONTANA TV\\n\\n#uchemontanatv #uchemontana #emekaike #nollywoodmovies #beyondblood\",\"thumbnail\":\"https://i.ytimg.com/vi/YsW3tcUcvuY/maxresdefault.jpg\",\"channel_id\":\"UCGRC6hm8mD8WqeY0auwrCrQ\",\"channel_name\":\"UchemontanaTV\",\"country\":\"GH\",\"genre\":null,\"duration_sec\":10361,\"view_count\":14212868,\"like_count\":212788,\"published_at\":\"2026-11-07T17:00:31+00:00\",\"hidden\":false,\"created_at\":\"2026-11-08T03:26:21.656658+00:00\",\"updated_at\":\"2026-11-08T03:26:21.656658+00:00\"}, \n {\"id\":1870026,\"video_id\":\"cz_fclTEVG4\",\"title\":\"CHASING SHADOWS - MAURICE SAM, MICHELLE MANSER, OGAN JOSHUA, 2026 Nigerian Full Movie\",\"description\":\"Sometimes, the people we meet during our school days leave a lasting impact on our lives. But when love, friendship, and hidden secrets come together, things may not always turn out as expected.\\n\\nCHASING SHADOWS is a captivating Nollywood drama filled with young love, friendship, school life, emotional struggles, secrets, and unexpected challenges.\\n\\nStarring: MAURICE SAM, MICHELLE MANSER, OGAN JOSHUA – AND MANY MORE.\\n\\nNOW SHOWING ON MAURICE SAM TV\\n\\n#mauricesamtv #mauricesam #michellemanser #oganjoshua #chasingshadows\",\"thumbnail\":\"https://i.ytimg.com/vi/cz_fclTEVG4/maxresdefault.jpg\",\"channel_id\":\"UCThviXLHvH8VwqxQEa4vZaw\",\"channel_name\":\"mauricesamtv\",\"country\":\"GH\",\"genre\":null,\"duration_sec\":8065,\"view_count\":2097081,\"like_count\":28034,\"published_at\":\"2026-11-10T17:00:31+00:00\",\"hidden\":false,\"created_at\":\"2026-11-11T02:15:44.940867+00:00\",\"updated_at\":\"2026-11-11T02:15:44.940867+00:00\"}, \n {\"id\":1827618,\"video_id\":\"u61i1Ly6kyk\",\"title\":\"ALL ABOUT HER (Full Movie) | Nollywood Movies 2026 Latest Full Movies\",\"description\":\"ALL ABOUT HER (Full Movie) | Nollywood Movies 2026 Latest Full Movies\\n\\nSUBSCRIBE NOW https://www.youtube.com/channel/UCzKrLr1ZD1uds-7c7vaSjVA?sub_confirmation=1\\n\\nGet ready to be entertained...\\nSUBSCRIBE NOW https://www.youtube.com/channel/UCzKrLr1ZD1uds-7c7vaSjVA?sub_confirmation=1\\n\\nWelcome to Uche Nancy YouTube Channel. \\nStream and Enjoy Best of Nollywood Movies with your favourite artists here on Uche Nancy TV YouTube channel. \\nSUBSCRIBE NOW to stay updated on all latest Nollywood movies : https://www.youtube.com/channel/UCzKrLr1ZD1uds-7c7vaSjVA\\n\\nKindly LIKE & FOLLOW OUR NEW FACEBOOK PAGE https://web.facebook.com/100085620411212\\nFOLLOW ON TikTok https://www.tiktok.com/@uchenancytv\\n\\nClick here 👇🏿 to SUBSCRIBE NOW \\nhttps://www.youtube.com/channel/UCzKrLr1"
+   },
+   {
+    "u": "https://pyhyncdrkfrnthvuyjhl.supabase.co/rest/v1/yt_catalog?select=*&hidden=eq.false&duration_sec=lte.4500&duration_sec=gte.1200&order=view_count.desc&limit=18",
+    "s": 200,
+    "ct": "application/json; charset=utf-8",
+    "b": "[{\"id\":87915,\"video_id\":\"MYeNN_g0DjE\",\"title\":\"LOVE IN THE  TIME OF LUXURY- \",\"description\":\"#kelvinezike  #annabelapara #harmonymark #hitamongteens #genz\",\"thumbnail\":\"https://i.ytimg.com/vi/MYeNN_g0DjE/maxresdefault.jpg\",\"channel_id\":\"UCDyfefEUY1k1kRJ1HdTCjJw\",\"channel_name\":\"purpleflowertv\",\"country\":\"NG\",\"genre\":null,\"duration_sec\":4217,\"view_count\":11183463,\"like_count\":74958,\"published_at\":\"2025-09-01T17:11:44+00:00\",\"hidden\":false,\"created_at\":\"2026-06-26T06:12:18.019165+00:00\",\"updated_at\":\"2026-06-26T06:12:18.019165+00:00\"}, \n {\"id\":87914,\"video_id\":\"HOET05Wedvs\",\"title\":\"LOVE IN THE TIME OF LUXURY 2 -  KELVIN EZIKE ANNABEL APARA  HARMONY MARK\",\"description\":\"\",\"thumbnail\":\"https://i.ytimg.com/vi/HOET05Wedvs/maxresdefault.jpg\",\"channel_id\":\"UCDyfefEUY1k1kRJ1HdTCjJw\",\"channel_name\":\"purpleflowertv\",\"country\":\"NG\",\"genre\":null,\"duration_sec\":4248,\"view_count\":7706065,\"like_count\":68365,\"published_at\":\"2025-09-09T17:11:43+00:00\",\"hidden\":false,\"created_at\":\"2026-06-26T06:12:18.019165+00:00\",\"updated_at\":\"2026-06-26T06:12:18.019165+00:00\"}, \n {\"id\":10703,\"video_id\":\"Vvt8E8iVMm8\",\"title\":\"DESTINY CHILD - DESTINY ETIKO, IBRAHIM BAKARE, OENE NELLY, Latest 2025 FULL Nigerian Movie\",\"description\":\"DESTINY CHILD is a gripping story about courage, motherhood, and the power of destiny.\\nThis captivating movie is a must-watch and promises to make your day.\\n\\nSTARRING: DESTINY ETIKO, IBRAHIM BAKARE, OENE NELLY) AND MANY MORE\\nNOW SHOWING ON: CHINEMELUM TV (YOUTUBE)\\n\\n#destinychild #destinyetiko #ibrahimbakare #nollywoodmovies #nigerianmovies #africanmovies #trendingnollywood\",\"thumbnail\":\"https://i.ytimg.com/vi/Vvt8E8iVMm8/maxresdefault.jpg\",\"channel_id\":\"UCUUxBXYCt84q3QDx9_fB7IQ\",\"channel_name\":\"chinemelutv\",\"country\":\"NG\",\"genre\":null,\"duration_sec\":4250,\"view_count\":5557964,\"like_count\":70603,\"published_at\":\"2025-12-08T16:00:28+00:00\",\"hidden\":false,\"created_at\":\"2026-06-09T23:25:15.890981+00:00\",\"updated_at\":\"2026-06-09T23:25:15.890981+00:00\"}, \n {\"id\":790761,\"video_id\":\"hn0dA7Um-fk\",\"title\":\"CHILD OF THUNDER 2 - DESTINY ETIKO, YUL EDOCHIE, LIZZY GOLD, Latest 2026 Nigerian Movie\",\"description\":\"A child can bring joy, but sometimes a child becomes the center of a battle nobody saw coming.\\n\\nCHILD OF THUNDER is a gripping Nollywood drama filled with mystery, family conflict, betrayal, fear, and the fight to protect a child when everything seems to be working against you.\\n\\nSTARRING: DESTINY ETIKO, YUL EDOCHIE, LIZZY GOLD AND MANY OTHERS.\\n\\nNOW SHOWING ON CHINEMELU TV\\n\\n#childofthunder #destinyetiko #yuledochie #lizzygold #nollywoodmovies #africanmovies #chinemelutv #nollywood #nigerianmovies\",\"thumbnail\":\"https://i.ytimg.com/vi/hn0dA7Um-fk/maxresdefault.jpg\",\"channel_id\":\"UCUUxBXYCt84q3QDx9_fB7IQ\",\"channel_name\":\"chinemelutv\",\"country\":\"NG\",\"genre\":null,\"duration_sec\":4312,\"view_count\":5501072,\"like_count\":55134,\"published_at\":\"2026-09-15T16:00:38+00:00\",\"hidden\":false,\"created_at\":\"2026-09-15T19:38:22.907203+00:00\",\"updated_at\":\"2026-09-15T19"
+   },
+   {
+    "u": "https://pyhyncdrkfrnthvuyjhl.supabase.co/rest/v1/yt_catalog?select=*&hidden=eq.false&published_at=gte.2026-10-15T10%3A22%3A26.803Z&order=view_count.desc&limit=18",
+    "s": 200,
+    "ct": "application/json; charset=utf-8",
+    "b": "[{\"id\":1799798,\"video_id\":\"YsW3tcUcvuY\",\"title\":\"BEYOND BLOOD - UCHE MONTANA, EMEKA IKE, Latest 2026 Nigerian Movie\",\"description\":\"Sometimes, the people we trust the most can become the reason behind our deepest pain.\\nWhen betrayal turns into a desire for revenge, how far can someone go to make things right?\\n\\nBEYOND BLOOD is a captivating Nollywood drama filled with family conflicts, betrayal, painful\\nsecrets, emotional struggles, vengeance, and unexpected twists.\\n\\nStarring: UCHE MONTANA, EMEKA IKE – AND MANY MORE.\\nNOW SHOWING ON UCHE MONTANA TV\\n\\n#uchemontanatv #uchemontana #emekaike #nollywoodmovies #beyondblood\",\"thumbnail\":\"https://i.ytimg.com/vi/YsW3tcUcvuY/maxresdefault.jpg\",\"channel_id\":\"UCGRC6hm8mD8WqeY0auwrCrQ\",\"channel_name\":\"UchemontanaTV\",\"country\":\"GH\",\"genre\":null,\"duration_sec\":10361,\"view_count\":14212868,\"like_count\":212788,\"published_at\":\"2026-11-07T17:00:31+00:00\",\"hidden\":false,\"created_at\":\"2026-11-08T03:26:21.656658+00:00\",\"updated_at\":\"2026-11-08T03:26:21.656658+00:00\"}, \n {\"id\":1280892,\"video_id\":\"Etj3X7j--50\",\"title\":\"OUT OF TIME -FREDERICK LEONARD, SARIAN MARTIN. Latest Nigerian Movie 2026 #trending #movie #Drama\",\"description\":\"OUT OF TIME | FREDERICK LEONARD & SARIAN MARTIN | A FREDERICK LEONARD FILM\\n\\nHOW FAR WOULD YOU GO TO SAVE THE LIFE OF SOMEONE YOU LOVE?\\n\\nWhen a mother's desperate fight to save her dying child pushes her beyond the boundaries of the law, one compassionate doctor finds himself caught between his professional duty, his conscience, and a justice system that may not understand the true meaning of sacrifice.\\n\\nWith a child's life hanging in the balance, every second counts. But when desperation leads to an irreversible decision, the consequences threaten to destroy everything.\\n\\nOUT OF TIME is a gripping, emotionally charged story of motherhood, sacrifice, survival, justice, and the extraordinary lengths ordinary people will go when love is all they have left.\\n\\nStarring FREDERICK LEONARD and SARIAN MARTIN, this powerful film will challenge your conscience, break your heart, and leave you questioning:\\n\\nWHEN THE LAW AND HUMANITY COLLIDE, WHICH ONE SHOULD PREVAIL?\\n\\nA Frederick Leonard Film.\\n\\n#Out\",\"thumbnail\":\"https://i.ytimg.com/vi/Etj3X7j--50/maxresdefault.jpg\",\"channel_id\":\"UCzeFm4h5hkGm4y6SV9zvGjA\",\"channel_name\":\"frederickleonardtv.\",\"country\":\"NG\",\"genre\":null,\"duration_sec\":7529,\"view_count\":8887989,\"like_count\":118680,\"published_at\":\"2026-10-15T18:00:13+00:00\",\"hidden\":false,\"created_at\":\"2026-10-16T05:07:20.229295+00:00\",\"updated_at\":\"2026-10-16T05:07:20.229295+00:00\"}, \n {\"id\":1734086,\"video_id\":\"ZoEFpTlW3Zc\",\"title\":\"MOTHER'S BARGAIN 2 - CHINENYE NNEBE, EMEKA IKE, KELVIN UTULU latest 2026 nigerian movie\",\"description\":\"This romantic masterpiece will keep you glued to your screen and leave you wanting more, a must watch for everyone. Very educative and emotional.\\nStarring: CHINENYE NNEBE, EMEKA IKE, CHARITY ONAH and many more\\n\\n\\n\\n\\n#chinenyennebe #emekaike #charityonah "
+   },
+   {
+    "u": "https://pyhyncdrkfrnthvuyjhl.supabase.co/rest/v1/yt_catalog?select=*&hidden=eq.false&duration_sec=gte.7200&order=view_count.desc&limit=18",
+    "s": 200,
+    "ct": "application/json; charset=utf-8",
+    "b": "[{\"id\":8993,\"video_id\":\"Q3OQK9QmZEc\",\"title\":\"TREASURE IN THE SKY - CLINTON JOSHUA, CHINENYE NNEBE, MIWA OLORUNFEMI latest 2024 nigerian movie\",\"description\":\"This is the best movie you will see on the internet today... very educative and intriguing.\\nStarring: CLINTON JOSHUA, CHINENYE NNEBE, MIWA OLORUNFEMI, PRECIOUS AKAEZE, OBIAJULU KEN, EMEKA EZE\\n\\n\\n\\n\\n\\n\\n\\n\\n#clintonjoshua #chinenyennebe #miwaolorunfemi #nigerianmovies #nollywoodmovies #africanmovie #uchennambunabotv\",\"thumbnail\":\"https://i.ytimg.com/vi/Q3OQK9QmZEc/maxresdefault.jpg\",\"channel_id\":\"UCypAoMCRQuNL2RBwy-x4oQg\",\"channel_name\":\"uchennambunabotv02\",\"country\":\"NG\",\"genre\":null,\"duration_sec\":11480,\"view_count\":30233601,\"like_count\":393073,\"published_at\":\"2024-01-31T17:16:11+00:00\",\"hidden\":false,\"created_at\":\"2026-06-09T23:17:14.819773+00:00\",\"updated_at\":\"2026-06-09T23:17:14.819773+00:00\"}, \n {\"id\":5515,\"video_id\":\"-yVrN03f610\",\"title\":\"MONICA - UCHE MONTANA, JOHN EKANEM, Latest 2026 Nigerian Movie\",\"description\":\"This lovely masterpiece is the best movie you will see on the internet today... very educative and captivating.\\nStarring: UCHE MONTANA, JOHN EKANEM and Many Others\\n\\n\\n\\n#uchemontana #johnekanem #monica #uchemontanamovies #mauricesammovies2026 #nigerianmovies #nollywoodmovies #africanmovie #lovestory #romanticmovie #2026movies #lovemovies\",\"thumbnail\":\"https://i.ytimg.com/vi/-yVrN03f610/maxresdefault.jpg\",\"channel_id\":\"UCGRC6hm8mD8WqeY0auwrCrQ\",\"channel_name\":\"UchemontanaTV\",\"country\":\"GH\",\"genre\":null,\"duration_sec\":7426,\"view_count\":29100194,\"like_count\":346094,\"published_at\":\"2026-03-07T17:00:00+00:00\",\"hidden\":false,\"created_at\":\"2026-06-08T00:29:15.493972+00:00\",\"updated_at\":\"2026-06-08T00:29:15.493972+00:00\"}, \n {\"id\":5513,\"video_id\":\"7jteLIoNDaQ\",\"title\":\"MONICA 2 - UCHE MONTANA, BLESSING ONWUKWE, JOSEPH MOMODU, Latest 2026 Nigerian Movie\",\"description\":\"This lovely masterpiece is the best movie you will see on the internet today... very educative and captivating.\\nStarring: UCHE MONTANA, BLESSING ONWUKWE, JOSEPH MOMODU and Many Others\\n\\n\\n\\n#uchemontana #josephmomodu #monica #uchemontanamovies #mauricesammovies2026 #nigerianmovies #nollywoodmovies #africanmovie #lovestory #romanticmovie #2026movies #lovemovies\",\"thumbnail\":\"https://i.ytimg.com/vi/7jteLIoNDaQ/maxresdefault.jpg\",\"channel_id\":\"UCGRC6hm8mD8WqeY0auwrCrQ\",\"channel_name\":\"UchemontanaTV\",\"country\":\"GH\",\"genre\":null,\"duration_sec\":7774,\"view_count\":28420610,\"like_count\":507723,\"published_at\":\"2026-05-02T17:00:00+00:00\",\"hidden\":false,\"created_at\":\"2026-06-08T00:29:15.493972+00:00\",\"updated_at\":\"2026-06-08T00:29:15.493972+00:00\"}, \n {\"id\":11321,\"video_id\":\"OQQaDqLCgKg\",\"title\":\"LOVE IN EVERY WORD 2 - THE WEDDING | Nigerian Movies 2025 Latest Full Movies\",\"description\":\"As love blossoms into a forever they once only dreamed of, Chioma and Obiora stand on the edge of a beautiful new beginning. But when secrets from the past and faces they thought were long gone return, their love is tested in ways their"
+   }
+  ],
+  "media": [],
+  "status": 200,
+  "finalUrl": "https://vumaplus.com/",
+  "title": "Watch African Movies Online Free — Vuma+ | Nollywood & More",
+  "text": "Get the Vuma+ app Browse and watch on the go, with a Data Saver mode built in. Get the app Don't show again Skip to content VUMA Home Browse Nollywood History Sign in 🇬🇭 mauricesamtv CHASING SHADOWS - MAURICE SAM, MICHELLE MANSER, OGAN JOSHUA, 2026 Nigerian Full Movie 2h 14m 2.1M views 2026 Watch now Add to watchlist 02 / 06 The week's ten Ranked by what Vuma+ viewers are actually watching See all 1 New BEYOND BLOOD - UCHE MONTANA, EMEKA IKE, Latest 2026 Nigerian Movie UchemontanaTV2h 52m · Ghana 2 THE MERGER - UCHE MONTANA, TIMINI EGBUSON, Latest 2026 Nigerian Movie UchemontanaTV1h 34m · Ghana 3 SECOND CHANCES - UCHE MONTANA, BIMBO ADEMOYE, BAMBAM OLAWUNMI, Latest 2026 Nigerian Movie UchemontanaTV2h 44m · Ghana 4 CLASS CHARACTER ; CHINENYE NNEBE, CHIOMA NWOSU, VICTORY MICHAEL, ANITA.N 2026 Latest Nollywood Movie uchenancyupdatetv2h 44m · Nigeria 5 MONICA 2 - UCHE MONTANA, BLESSING ONWUKWE, JOSEPH MOMODU, Latest 2026 Nigerian Movie UchemontanaTV2h 9m · Ghana 6 MOTHER'S BARGAIN - CHINENYE NNEBE, EMEKA IKE, CHARITY ONAH latest 2026 nigerian movie uchennambunabotv022h 55m · Nigeria 7 MONICA - UCHE MONTANA, JOHN EKANEM, Latest 2026 Nigerian Movie UchemontanaTV2h 3m · Ghana 8 DRIVEN BY LOVE - 2026 latest Nigerian movies - Omeche Oko - Victory Michael - Sonita fred globalcrowntv52942h 32m · Nigeria 9 WHEN LOVE PRAYS - UCHE MONTANA, UZEE USMAN, PATIENCE OZOKWOR, OCHANYA latest 2026 nigerian movie uchennambunabotv023h 25m · Nigeria 10 LOVE ME TWICE - UCHE MONTANA, REGINA DANIELS, CHIKE DANIELS latest 2026 nigerian movies uchennambunabotv022h · Nigeria Just landed Newest uploads across every channel we follow See all New THE JUDGE'S HUSBAND | FAITH DUKE, DEYEMI OKANLAWON - Latest Nigerian Full Movies 2026 magic_theatre_tv1h 26m · Nigeria New I Beg U 2 Leave Other Movies On Youtube & Watch Dis Interestin Emotional Little Orphan Family Movie @nollywoodhits1h 25m · Nigeria New JUST RELEASED TODAY [THE BLACK KNIGHT] -ZUBBY MICHEAL LATEST NIGERIAN AFRICAN MOVIES 2026 -NEW MOVIE rhandymovies2h · Nigeria New BEYOND LOVE AND BLOOD (MAURICE SAM, UCHE MONTANA, EMEKA IKE)Latest Nigerian Movie 2026 blackmoviestvplus2h 8m · Nigeria New The Goddess Of OJIMIRI River Gave Me DARK Powers To STOP My Evil Hearted StepSister!- African Movies nigerianmoviesplus1h 12m · Nigeria New KING OF MY HEART | JOHN EKANEM, EGO NWOSU - Latest Nigerian Full Movies 2026 magic_theatre_tv1h 38m · Nigeria New A Must Watch Sad Painful True Life Story That Will Break Your Heart& Make U Cry Tears-Africa",
+  "links": [
+   "https://vumaplus.com/get-app",
+   "https://vumaplus.com/#main",
+   "https://vumaplus.com/",
+   "https://vumaplus.com/browse",
+   "https://vumaplus.com/nollywood",
+   "https://vumaplus.com/history",
+   "https://vumaplus.com/auth",
+   "https://vumaplus.com/search",
+   "https://vumaplus.com/watch/cz_fclTEVG4",
+   "https://vumaplus.com/watch/YsW3tcUcvuY",
+   "https://vumaplus.com/browse?channel=UchemontanaTV",
+   "https://vumaplus.com/watch/Vzg7hNXk7lo",
+   "https://vumaplus.com/watch/4L1xY-tSOCw",
+   "https://vumaplus.com/watch/lsQj9zbqIFw",
+   "https://vumaplus.com/browse?channel=uchenancyupdatetv",
+   "https://vumaplus.com/watch/7jteLIoNDaQ",
+   "https://vumaplus.com/watch/doOAXm-K8dU",
+   "https://vumaplus.com/browse?channel=uchennambunabotv02",
+   "https://vumaplus.com/watch/-yVrN03f610",
+   "https://vumaplus.com/watch/a8HtqoPou7E",
+   "https://vumaplus.com/browse?channel=globalcrowntv5294",
+   "https://vumaplus.com/watch/kSpZQSt3HKg",
+   "https://vumaplus.com/watch/YkZtBBbQW8U",
+   "https://vumaplus.com/watch/3ro7xXXaEIY",
+   "https://vumaplus.com/browse?channel=magic_theatre_tv",
+   "https://vumaplus.com/watch/DxUf9jEODQU",
+   "https://vumaplus.com/browse?channel=%40nollywoodhits",
+   "https://vumaplus.com/watch/Ryiq80znZvg",
+   "https://vumaplus.com/browse?channel=rhandymovies",
+   "https://vumaplus.com/watch/57Xqv39UZDY",
+   "https://vumaplus.com/browse?channel=blackmoviestvplus",
+   "https://vumaplus.com/watch/GpuVTl-kPtc",
+   "https://vumaplus.com/browse?channel=nigerianmoviesplus",
+   "https://vumaplus.com/watch/Y7MtlB4Q4Vc",
+   "https://vumaplus.com/watch/iCPElzAPpMg",
+   "https://vumaplus.com/browse?channel=AfricanVillageeTV",
+   "https://vumaplus.com/watch/wSNThVtPBJ4",
+   "https://vumaplus.com/browse?channel=ivorynolly_tv",
+   "https://vumaplus.com/watch/Lb2pptWEFac",
+   "https://vumaplus.com/browse?channel=21stcenturynollywood",
+   "https://vumaplus.com/watch/LtoxI1TVVYY",
+   "https://vumaplus.com/watch/hIGHTxN_z58",
+   "https://vumaplus.com/browse?channel=africanheritagetv1",
+   "https://vumaplus.com/watch/pfelWYCGAts",
+   "https://vumaplus.com/browse?channel=yummynolly",
+   "https://vumaplus.com/watch/lRFZQxyBvl0",
+   "https://vumaplus.com/watch/sKdVmuOGIsU",
+   "https://vumaplus.com/browse?channel=ivorysparktv",
+   "https://vumaplus.com/watch/xRaTOYbJOiE",
+   "https://vumaplus.com/watch/sObmuNbtetc",
+   "https://vumaplus.com/watch/Az6pFuCCe4s",
+   "https://vumaplus.com/watch/ecUPLHltOx0",
+   "https://vumaplus.com/browse?channel=blackbronzetv422",
+   "https://vumaplus.com/watch/NIu3OfV0WvQ",
+   "https://vumaplus.com/watch/2KWJMF6-30Y",
+   "https://vumaplus.com/browse?channel=nollyrokstudios",
+   "https://vumaplus.com/browse?country=NG",
+   "https://vumaplus.com/watch/bslcx4LRFL0",
+   "https://vumaplus.com/browse?channel=omoniobolitv",
+   "https://vumaplus.com/watch/Q3OQK9QmZEc",
+   "https://vumaplus.com/watch/_Dz_6uUP39k",
+   "https://vumaplus.com/browse?channel=RuthKadiri247",
+   "https://vumaplus.com/watch/OQQaDqLCgKg",
+   "https://vumaplus.com/watch/dDropzjXXMY",
+   "https://vumaplus.com/browse?channel=chinemelutv",
+   "https://vumaplus.com/watch/N2ZxRFL4T9E",
+   "https://vumaplus.com/watch/PS91l1YMOn0",
+   "https://vumaplus.com/watch/4qG48TYeLaE",
+   "https://vumaplus.com/browse?channel=frederickleonardtv.",
+   "https://vumaplus.com/watch/OLdAEbQXLOo",
+   "https://vumaplus.com/watch/KRMZAGnDTR8",
+   "https://vumaplus.com/watch/N_E3g8vzDZw",
+   "https://vumaplus.com/watch/9PyvTGW15xA",
+   "https://vumaplus.com/watch/sm7-S9eoq70",
+   "https://vumaplus.com/watch/CmK_5I4YDRM",
+   "https://vumaplus.com/browse?channel=mauricesamtv",
+   "https://vumaplus.com/watch/40YlKLAFMaY",
+   "https://vumaplus.com/watch/WZDYqUNUczo",
+   "https://vumaplus.com/browse?channel=NOLLYWOODYOUTUBETV",
+   "https://vumaplus.com/watch/H-lPtmCQz7o",
+   "https://vumaplus.com/watch/p3iMZRhJN6w",
+   "https://vumaplus.com/watch/MYeNN_g0DjE",
+   "https://vumaplus.com/browse?channel=purpleflowertv",
+   "https://vumaplus.com/watch/HOET05Wedvs",
+   "https://vumaplus.com/watch/Vvt8E8iVMm8",
+   "https://vumaplus.com/watch/hn0dA7Um-fk",
+   "https://vumaplus.com/watch/zc3SuCT6kzc",
+   "https://vumaplus.com/browse?channel=wumitoriolatv",
+   "https://vumaplus.com/watch/t_Ep1LaZlW4",
+   "https://vumaplus.com/browse?channel=brainjottercomedian",
+   "https://vumaplus.com/watch/koimOlnqq-g",
+   "https://vumaplus.com/browse?channel=AKANCLANMOVIESaap",
+   "https://vumaplus.com/watch/rY9KWc33Kuk",
+   "https://vumaplus.com/browse?channel=toyinabrahamtv1",
+   "https://vumaplus.com/watch/J1oe4HLENaI",
+   "https://vumaplus.com/watch/h8nxkZJUic8",
+   "https://vumaplus.com/browse?channel=matambocinematic",
+   "https://vumaplus.com/watch/BPolND9t7mQ",
+   "https://vumaplus.com/watch/tFZn3pufIvE",
+   "https://vumaplus.com/browse?channel=riverwoodbongomovies",
+   "https://vumaplus.com/watch/ZwUXULYMJHM",
+   "https://vumaplus.com/watch/vaw0Msj-bMk",
+   "https://vumaplus.com/browse?channel=vevoswahili8226",
+   "https://vumaplus.com/watch/mFe1JNCY_jY",
+   "https://vumaplus.com/browse?channel=mercyjohnsonokojietv",
+   "https://vumaplus.com/watch/YHodYHeqM7I",
+   "https://vumaplus.com/watch/Bb8iUze8iGI",
+   "https://vumaplus.com/watch/NX-486CG1Zk",
+   "https://vumaplus.com/watch/Etj3X7j--50",
+   "https://vumaplus.com/watch/ZoEFpTlW3Zc",
+   "https://vumaplus.com/watch/B7uA9LnSrAI",
+   "https://vumaplus.com/watch/rxiC6loOJcw",
+   "https://vumaplus.com/browse?channel=onyiialextv",
+   "https://vumaplus.com/watch/xQSC6fwna4E",
+   "https://vumaplus.com/watch/1GuM7ILjPRQ",
+   "https://vumaplus.com/browse?channel=chinedubenjamintv",
+   "https://vumaplus.com/watch/O-qqb_UMIc0",
+   "https://vumaplus.com/browse?channel=ibakatv1",
+   "https://vumaplus.com/watch/KHtBFzfvEl4",
+   "https://vumaplus.com/browse?channel=soniauchetv",
+   "https://vumaplus.com/watch/NUtY3fiIeQ0",
+   "https://vumaplus.com/browse?channel=chizzyflix",
+   "https://vumaplus.com/watch/2RhBuIxGnZI",
+   "https://vumaplus.com/watch/lg1qlCAthhg",
+   "https://vumaplus.com/watch/FUzxc0_3pg8",
+   "https://vumaplus.com/watch/fD6sEeK1lPY",
+   "https://vumaplus.com/browse?channel=templemoviestv",
+   "https://vumaplus.com/watch/9vSYH5Uuj9o",
+   "https://vumaplus.com/browse?channel=sarianmartintv.",
+   "https://vumaplus.com/watch/7AOEUP9mBJo",
+   "https://vumaplus.com/browse?channel=iniedotv",
+   "https://vumaplus.com/watch/YRVz3Nikwac",
+   "https://vumaplus.com/watch/7ocs_M0zCGo",
+   "https://vumaplus.com/watch/_oyuYXv7CjE",
+   "https://vumaplus.com/watch/VD3Lwxi7gcw",
+   "https://vumaplus.com/watch/Ia47wPj0Z7o",
+   "https://vumaplus.com/watchlist",
+   "https://vumaplus.com/browse?country=KE",
+   "https://vumaplus.com/browse?country=GH",
+   "https://vumaplus.com/browse?country=ZA",
+   "https://vumaplus.com/browse?country=TZ",
+   "https://vumaplus.com/browse?country=UG",
+   "https://vumaplus.com/privacy",
+   "https://vumaplus.com/terms",
+   "https://vumaplus.com/cookies"
+  ],
+  "iframes": []
+ },
+ {
+  "url": "https://vumaplus.com/movies",
+  "xhr": [
+   {
+    "u": "https://vumaplus.com/cdn-cgi/speculation",
+    "s": 200,
+    "ct": "application/speculationrules+json",
+    "b": "{\"tag\":\"cf-speed-brain\",\"prefetch\":[{\"eagerness\":\"conservative\",\"source\":\"document\",\"where\":{\"and\":[{\"href_matches\":\"/*\",\"relative_to\":\"document\"}]}}]}"
+   },
+   {
+    "u": "https://vumaplus.com/cdn-cgi/rum?",
+    "s": 204,
+    "ct": "text/plain",
+    "b": ""
+   },
+   {
+    "u": "https://accounts.google.com/gsi/status?client_id=743329435123-g2jlanmh78lg0lskbnr3l4oup34c98tm.apps.googleusercontent.com&cas=Vx1AUwIhGLraOTAJm%2B8vEPx1rMLvYnRnNWIfz5t4b2g&bs=JHBvtVtX3dPcV6N79UxeM8qyBRBAjJE4wdl85YoB1pU&has_opted_out_fedcm=false",
+    "s": 200,
+    "ct": "application/json; charset=utf-8",
+    "b": ")]}'\n[[\"ORuIlk2JAcKR70yENDArN1Qc47SejvNEMkP9aev-s3w\"],null,0,0,1,90,120,null,0]"
+   },
+   {
+    "u": "https://pyhyncdrkfrnthvuyjhl.supabase.co/rest/v1/sponsor_config?select=*&id=eq.1&limit=1",
+    "s": 200,
+    "ct": "application/json; charset=utf-8",
+    "b": "[{\"id\":1,\"enabled\":false,\"show_band\":true,\"show_footer\":true,\"name\":\"\",\"title\":\"\",\"subtitle\":\"\",\"cta_label\":\"Learn more\",\"url\":\"\",\"logo_url\":\"\",\"starts_on\":null,\"ends_on\":null,\"updated_at\":\"2026-11-02T11:55:00.663404+00:00\"}]"
+   },
+   {
+    "u": "https://pyhyncdrkfrnthvuyjhl.supabase.co/rest/v1/ad_config?select=*&id=eq.1",
+    "s": 200,
+    "ct": "application/vnd.pgrst.object+json; charset=utf-8",
+    "b": "{\"id\":1,\"preroll_enabled\":false,\"preroll_mode\":\"adsense\",\"preroll_publisher_id\":\"\",\"preroll_custom_script\":\"\",\"preroll_duration\":10,\"updated_at\":\"2026-06-05T01:50:14.705233+00:00\"}"
+   },
+   {
+    "u": "https://pyhyncdrkfrnthvuyjhl.supabase.co/rest/v1/yt_catalog?select=thumbnail%2Cvideo_id&hidden=eq.false&order=view_count.desc&limit=1",
+    "s": 200,
+    "ct": "application/vnd.pgrst.object+json; charset=utf-8",
+    "b": "{\"thumbnail\":\"https://i.ytimg.com/vi/bslcx4LRFL0/maxresdefault.jpg\",\"video_id\":\"bslcx4LRFL0\"}"
+   }
+  ],
+  "media": [],
+  "status": 200,
+  "finalUrl": "https://vumaplus.com/movies",
+  "title": "Watch African Movies Online Free — Vuma+ | Nollywood & More",
+  "text": "Get the Vuma+ app Browse and watch on the go, with a Data Saver mode built in. Get the app Don't show again Skip to content VUMA Bookmarks Sign in",
+  "links": [
+   "https://vumaplus.com/get-app",
+   "https://vumaplus.com/movies#main",
+   "https://vumaplus.com/",
+   "https://vumaplus.com/watchlist",
+   "https://vumaplus.com/auth",
+   "https://vumaplus.com/browse",
+   "https://vumaplus.com/search",
+   "https://vumaplus.com/history",
+   "https://vumaplus.com/nollywood"
+  ],
+  "iframes": []
+ },
+ {
+  "url": "https://vumaplus.com/terms",
+  "xhr": [
+   {
+    "u": "https://vumaplus.com/cdn-cgi/speculation",
+    "s": 200,
+    "ct": "application/speculationrules+json",
+    "b": "{\"tag\":\"cf-speed-brain\",\"prefetch\":[{\"eagerness\":\"conservative\",\"source\":\"document\",\"where\":{\"and\":[{\"href_matches\":\"/*\",\"relative_to\":\"document\"}]}}]}"
+   },
+   {
+    "u": "https://vumaplus.com/cdn-cgi/rum?",
+    "s": 204,
+    "ct": "text/plain",
+    "b": ""
+   },
+   {
+    "u": "https://accounts.google.com/gsi/status?client_id=743329435123-g2jlanmh78lg0lskbnr3l4oup34c98tm.apps.googleusercontent.com&cas=F2dgJxFnz3LsCGt6A2noG0%2FJa9n5ik%2F9wFCAN%2B7fSYw&bs=JHBvtVtX3dPcV6N79UxeM8qyBRBAjJE4wdl85YoB1pU&has_opted_out_fedcm=false",
+    "s": 200,
+    "ct": "application/json; charset=utf-8",
+    "b": ")]}'\n[[\"k2tU6pnSQcd_tlB7m3HCVvKAMlWhfKQr6FJxwPd0w-Y\"],null,0,0,1,90,120,null,0]"
+   },
+   {
+    "u": "https://pyhyncdrkfrnthvuyjhl.supabase.co/rest/v1/ad_config?select=*&id=eq.1",
+    "s": 200,
+    "ct": "application/vnd.pgrst.object+json; charset=utf-8",
+    "b": "{\"id\":1,\"preroll_enabled\":false,\"preroll_mode\":\"adsense\",\"preroll_publisher_id\":\"\",\"preroll_custom_script\":\"\",\"preroll_duration\":10,\"updated_at\":\"2026-06-05T01:50:14.705233+00:00\"}"
+   },
+   {
+    "u": "https://pyhyncdrkfrnthvuyjhl.supabase.co/rest/v1/sponsor_config?select=*&id=eq.1&limit=1",
+    "s": 200,
+    "ct": "application/json; charset=utf-8",
+    "b": "[{\"id\":1,\"enabled\":false,\"show_band\":true,\"show_footer\":true,\"name\":\"\",\"title\":\"\",\"subtitle\":\"\",\"cta_label\":\"Learn more\",\"url\":\"\",\"logo_url\":\"\",\"starts_on\":null,\"ends_on\":null,\"updated_at\":\"2026-11-02T11:55:00.663404+00:00\"}]"
+   },
+   {
+    "u": "https://pyhyncdrkfrnthvuyjhl.supabase.co/rest/v1/yt_catalog?select=thumbnail%2Cvideo_id&hidden=eq.false&order=view_count.desc&limit=1",
+    "s": 200,
+    "ct": "application/vnd.pgrst.object+json; charset=utf-8",
+    "b": "{\"thumbnail\":\"https://i.ytimg.com/vi/bslcx4LRFL0/maxresdefault.jpg\",\"video_id\":\"bslcx4LRFL0\"}"
+   }
+  ],
+  "media": [],
+  "status": 200,
+  "finalUrl": "https://vumaplus.com/terms",
+  "title": "Terms of Use — Vuma+",
+  "text": "Get the Vuma+ app Browse and watch on the go, with a Data Saver mode built in. Get the app Don't show again Skip to content VUMA Bookmarks Sign in Terms of Use Last updated: June 24, 2025 Welcome to Vuma+. By accessing or using vumaplus.com (the \"Service\"), you agree to be bound by these Terms of Use (\"Terms\"). Please read them carefully. If you do not agree to these Terms, do not use the Service. 1. About the Service Vuma+ is a free online streaming platform that provides access to African cinema content including films from Nigeria, Kenya, Ghana, South Africa, and other African nations. Content is streamed via YouTube's embedded player. Vuma+ acts as a content discovery and aggregation platform. 2. Eligibility You must be at least 13 years old to use this Service. By using Vuma+, you represent that you meet this age requirement. If you are under 18, you should use the Service only with parental or guardian consent. 3. User Accounts You may create an account to access additional features such as watchlists and watch history. You are responsible for: Maintaining the confidentiality of your account credentials All activity that occurs under your account Notifying us immediately of any unauthorised use of your account Providing accurate and current information when registering We reserve the right to suspend or terminate accounts that violate these Terms. 4. Acceptable Use You agree not to: Use the Service for any unlawful purpose or in violation of any regulations Attempt to circumvent, disable, or interfere with the Service's security features Use automated tools, bots, scrapers, or crawlers to access the Service Attempt to gain unauthorised access to any part of the Service or its systems Transmit any malicious code, viruses, or harmful data Reproduce, distribute, or commercially exploit any content from the Service without prior written permission Misrepresent your identity or impersonate any person or entity Engage in any conduct that could damage, overburden, or impair the Service 5. Content and Intellectual Property Third-party content Video content available on Vuma+ is hosted on YouTube and owned by the respective content creators and rights holders. Vuma+ does not claim ownership of this content. All rights to individual films, titles, and media remain with their respective owners. Our content The Vuma+ brand, logo, design, interface, and original content are owned by us and protected by applicable intellectual property laws. You may not reproduce,",
+  "links": [
+   "https://vumaplus.com/get-app",
+   "https://vumaplus.com/terms#main",
+   "https://vumaplus.com/",
+   "https://vumaplus.com/watchlist",
+   "https://vumaplus.com/auth",
+   "https://vumaplus.com/browse",
+   "https://vumaplus.com/search",
+   "https://vumaplus.com/history",
+   "https://vumaplus.com/nollywood",
+   "mailto:legal@vumaplus.com",
+   "https://vumaplus.com/browse?country=NG",
+   "https://vumaplus.com/browse?country=KE",
+   "https://vumaplus.com/browse?country=GH",
+   "https://vumaplus.com/browse?country=ZA",
+   "https://vumaplus.com/browse?country=TZ",
+   "https://vumaplus.com/browse?country=UG",
+   "https://vumaplus.com/privacy",
+   "https://vumaplus.com/terms",
+   "https://vumaplus.com/cookies"
+  ],
+  "iframes": []
+ }
+]
