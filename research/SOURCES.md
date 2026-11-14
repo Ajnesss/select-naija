@@ -128,3 +128,21 @@ counts unique non-YouTube playable titles separately, so any future source shows
 | NolliStream (nollistream.net, app v10) | Web home and two film pages rendered | Free AVOD, but every page redirects to a sign-up wall; app v10 notes "tightened security". Playback only after an account login inside its apps/web, ad-funded; no public API or partner feed. **Excluded** (account-gated, ad-supported player; streaming into Nuvio would strip its ads) |
 | Vuma+ (vumaplus.com) | Home, browse, terms; data calls | Its own terms: "Content is streamed via YouTube's embedded player"; catalogue table is `yt_catalog` of YouTube video IDs from many channels (official and fan re-upload). **No independent source** |
 | FilmFlux (filmflux.app) | Site (Cloudflare bot wall), App Store listing | Listing: films "picked from the best YouTube creators". **No independent source** |
+
+## Round 6 (14 Nov 2026): video infrastructure behind Nigerian producer and distributor websites
+
+Method: `scripts/infra-probe.js` (workflow "Research infrastructure probe") opens each site's home page and up to five
+film/video pages in headless Chromium and fingerprints what the page loads: Bunny Stream, Cloudflare Stream, Mux,
+JW Player, Vimeo/VHX, Wistia, Brightcove, api.video, Dacast, VdoCipher, Kaltura, cloud storage (S3/Spaces/Linode),
+plain MP4/HLS/DASH and DRM licence calls. 40 sites tested in two batches.
+
+| Finding | Sites |
+| --- | --- |
+| Own hosting found | **Olaniitv**: Bunny Stream MP4 (`vz-….b-cdn.net/<id>/play_1080p.mp4`), but its own page says it is a subscription service. **kweliTV**: own MP4/HLS, subscription. **HomiTV** (round 4): Linode HLS, subscription |
+| YouTube embeds only | Anthill Studios, FilmOne, Nemsia Studios, iRep, NollywoodWeek, AfriDocs (plus one Vimeo), El's Movies (round 5) |
+| No player / rental or ticket sites | Blue Pictures (cinema listings, Instagram clips), Gidi Box Office (rent), Trino Studios (rent), Kunle Afolayan (rent/buy), AFRIFF (tickets), AbidonTV (subscribe/rent), Ndani.tv (sign-in/rent), Afrinolly, Greoh, Scene One, OTTera (B2B site) |
+| Bot wall or offline | TvNolly, Lights Camera Africa, Documentary Africa, NaijaPals, EbonyLife ON Plus, cAfrica (Cloudflare/403); NollyLand 401; Mount Zion 522; RED TV, Accelerate TV, Mainframe, MZFMI, nvivo, AFree TV, MTN One TV, eVOD, FreeVision Play (domains not resolving) |
+
+AVAZ: OTTera and Blue Pictures' Nollywood channel is a 24-hour FAST channel (live) on FAST platforms. `avaz.tv` is an
+unrelated Bosnian news site, and Blue Pictures' own "Avaz" page is its restaurant (Avaz Kitchen). No on-demand library
+or feed found. Result: no free, permitted, directly playable source in this round.
