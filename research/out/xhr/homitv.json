@@ -1,0 +1,278 @@
+[
+ {
+  "url": "https://homitv.com",
+  "xhr": [
+   {
+    "u": "https://stats.g.doubleclick.net/g/collect?v=2&ngs=1&ibt=1&tid=G-VZDQ3L0X8B&cid=1724118246.1794650715&gtm=45be6bb1v9217361338za208zd9217361338xf1&rcb=0&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115616985~115938466~115938468~118897920~118897930~120213116~120385423~120412528~120420414~120469145~",
+    "s": 204,
+    "ct": "text/plain",
+    "b": ""
+   },
+   {
+    "u": "https://analytics.tiktok.com/api/v2/monitor",
+    "s": 200,
+    "ct": "",
+    "b": ""
+   },
+   {
+    "u": "https://analytics.tiktok.com/api/v2/monitor",
+    "s": 200,
+    "ct": "",
+    "b": ""
+   },
+   {
+    "u": "https://analytics.tiktok.com/api/v2/monitor",
+    "s": 200,
+    "ct": "",
+    "b": ""
+   },
+   {
+    "u": "https://analytics.tiktok.com/api/v2/monitor",
+    "s": 200,
+    "ct": "",
+    "b": ""
+   },
+   {
+    "u": "https://analytics.tiktok.com/api/v2/pixel",
+    "s": 200,
+    "ct": "",
+    "b": ""
+   },
+   {
+    "u": "https://analytics.tiktok.com/api/v2/pixel",
+    "s": 200,
+    "ct": "",
+    "b": ""
+   },
+   {
+    "u": "https://www.facebook.com/tr/?id=943549171584005&ev=PageView&dl=https%3A%2F%2Fhomitv.com%2F&rl=&if=false&ts=1794650716018&iw=false&sw=1280&sh=720&v=2.9.439&r=stable&ec=0&o=77854&aems=0%3B0&fbp=fb.1.1794650716006.326663459348393724&eid=ob3_plugin-set_715c7bd89c221a795d5cdcb126f740cfef38c9fa300346039ac",
+    "s": 200,
+    "ct": "text/plain",
+    "b": ""
+   },
+   {
+    "u": "https://stats.g.doubleclick.net/g/collect?v=2&ngs=1&ibt=1&tid=G-1X59D3QX8D&cid=1724118246.1794650715&gtm=45je6bc0h2v895836064za20ozb894428402zd894428402xf1&rcb=11&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=100940091~115938466~115938468~118897920~118897930~120213116~120385423~120412526~12042041",
+    "s": 204,
+    "ct": "text/plain",
+    "b": ""
+   },
+   {
+    "u": "https://connect.facebook.net/app_config/json/647059733768993/",
+    "s": 200,
+    "ct": "application/json; charset=utf-8",
+    "b": "{\"fedcm\":{\"default\":false}}"
+   },
+   {
+    "u": "https://analytics.tiktok.com/api/v2/monitor",
+    "s": 200,
+    "ct": "",
+    "b": ""
+   },
+   {
+    "u": "https://analytics.tiktok.com/api/v2/monitor",
+    "s": 200,
+    "ct": "",
+    "b": ""
+   },
+   {
+    "u": "https://analytics.tiktok.com/api/v2/monitor",
+    "s": 200,
+    "ct": "",
+    "b": ""
+   },
+   {
+    "u": "https://analytics.tiktok.com/api/v2/monitor",
+    "s": 200,
+    "ct": "",
+    "b": ""
+   },
+   {
+    "u": "https://analytics.tiktok.com/api/v2/pixel/act",
+    "s": 200,
+    "ct": "",
+    "b": ""
+   },
+   {
+    "u": "https://analytics.tiktok.com/api/v2/monitor",
+    "s": 200,
+    "ct": "",
+    "b": ""
+   },
+   {
+    "u": "https://homitv.com/assets/i18n/en.json",
+    "s": 200,
+    "ct": "application/json; charset=UTF-8",
+    "b": "{\n  \"HEADER\": {\n    \"DEMO_TEXT\": \"We don't intend to have any copyright content. All the content displayed in this domain is purely for demo purpose only.\",\n    \"MORE\": \"More\",\n    \"LIVE\": \"Live\",\n    \"GO_PREMIUM\": \"Free Trial\",\n    \"SEARCH_PLACEHOLDER\": \"Titles, Categories, Genre, People\",\n    \"MY_ACCOUNT\": \"My Account\",\n    \"MANAGE_SCREEN\": \"Manage Profiles\",\n    \"MY_PROFILE\": \"My Profile\",\n    \"MY_PLAYLIST\": \"My Playlist\",\n    \"MY_FAVOURITE\": \"My Favourites\",\n    \"WATCH_HISTORY\": \"Watch History\",\n    \"MY_TRANSACTION\": \"My Transactions\",\n    \"CHANGE_PASSWORD\": \"Change Password\",\n    \"SAVED_CARD\": \"Saved cards\",\n    \"SETTING\": \"Settings\",\n    \"LOGOUT\": \"Logout\",\n    \"SIGN_IN\": \"Sign In\",\n    \"SIGN_UP\": \"Sign Up\",\n    \"SHARE\": \"share\",\n    \"SHARE_USING\": \"Share using\",\n    \"CREATE_PLAYLIST\": \"Create New Playlist\",\n    \"CHOOSE_PLAYLIST\": \"or Choose an existing Playlist\",\n    \"PLAYLIST_PLACEHOLDER\": \"Enter Playlist Name\",\n    \"PLAYLIST_REQUIRED_ERROR\": \"Playlist name is required\",\n    \"PLAYLIST_VALID_ERROR\": \"Playlist name is not valid\",\n    \"CANCEL\": \"Cancel\",\n    \"ADD_PLAYLIST\": \"Create\",\n    \"PLEASE_WAIT\": \"Please wait...\",\n    \"SHARE_CLIP_MESSAGE\": \"Link copied to clipboard\",\n    \"BFTHEME\": \"Switch to\",\n    \"AFTHEME\": \"Theme\",\n    \"DARK\": \"Dark\",\n    \"LIGHT\": \"Light\",\n    \"COPY\": \"Copy\"\n  },\n  \"FOOTER\": {\n    \"CONNECT_WITH_US\": \"Connect with us\",\n    \"GENERAL\": \"General\",\n    \"PRICING\": \"Pricing\",\n    \"ABOUT_US\": \"About Us\",\n    \"TERMS_AND_CONDITION\": \"Terms & Conditions\",\n    \"PRIVACY_POLICY\": \"Privacy Policy\",\n    \"CATEGORIES\": \"Categories\",\n    \"MORE\": \"More\",\n    \"CONTACT\": \"Contact\",\n    \"CONTACT_US\": \"Contact Us\",\n    \"CONTACT_INFO\": \"Contact Information\",\n    \"APP_STORE\": \"App Stores\",\n    \"COPYRIGHT\": \"© {{ year }}- HomiTV. All rights reserved\",\n    \"ACCEPT\": \"Accept\",\n    \"DECLINE\": \"Decline\",\n    \"COOKIE_CONTENT\": \"This website uses cookies or similar technologies, to enhance your browsing experience and provide personalized recommendations. By continuing to use our website, you agree to our\",\n    \"COOKIE_POLICY\": \"Cookie Policy\"\n  },\n  \"HOME\": {\n    \"WATCH_TV_ANYWHERE_ANT_DEVICE_ANYTIME\": \"Watch Unlimited Movies and TV shows Anywhere, Anytime and On Any Device\",\n    \"WATCH_YOUR_DAILY_DOES_OF_ENTERTAIMENT_ANYTIME_YOU_WANT_IT_ON_OUR_ANDROID_AND_IOS_APPS\": \"Watch your daily dose of entertainment anytime you want on our Android and iOS apps.\",\n    \"CONTINUE_WATCHING\": \"Continue Watching\"\n  },\n  \"BANNER\": {\n    \"LIVE_NOW\": \"live now\",\n    \"PREMIUM\": \"Premium\"\n  },\n  \"SIGN_IN\": {\n    \"TITLE\": \"Sign In\",\n    \"OR\": \"OR\",\n    \"EMAIL_PLACEHOLDER\": \"Email\",\n    \"EMAIL_OR_PHONE_PLACEHOLDER\": \"Email/Phone\",\n    \"EMAIL_VALID_ERROR\": \"Please enter a valid email address.\",\n    \"EMAIL_PHONE_PLACEHOLDER\": \"Email/Phone\",\n    \"PASSWORD_PLACEHOLDER\": \"Password\",\n    \"PASSWORD_LENGTH_ERROR\": \"Password must be 7 or more characters!\",\n    \"SIGN_IN\": \"SIGN IN\",\n    \"SIGNINNG\": \"Signing In...\",\n    \"DONT_HAVE_AN_ACCOUNT\": \"Don't have an account?\",\n    \"SIGN_U"
+   },
+   {
+    "u": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=1113432676&t=pageview&_s=1&dl=https%3A%2F%2Fhomitv.com%2F&dp=%2F&ul=en-gb&dt=Homi%20-%20African%20Movies%20%26%20TV%20Shows&sr=1280x720&vp=1280x720&_u=aEBAAEABAAAAACAAI~&jid=899717957&gjid=1105511494&cid=1724118246.1794650715&tid=G-7F0MBZF1C5&",
+    "s": 200,
+    "ct": "text/plain",
+    "b": "2,x"
+   },
+   {
+    "u": "https://cdn.cookielaw.org/consent/e0525c52-4c0c-4e4f-bdc0-53f0c0af2634-test/e0525c52-4c0c-4e4f-bdc0-53f0c0af2634-test.json",
+    "s": 200,
+    "ct": "application/json",
+    "b": "{\"CookieSPAEnabled\":false,\"MultiVariantTestingEnabled\":false,\"UseV2\":true,\"MobileSDK\":false,\"SkipGeolocation\":false,\"ScriptType\":\"TEST\",\"Version\":\"6.38.0\",\"OptanonDataJSON\":\"e0525c52-4c0c-4e4f-bdc0-53f0c0af2634\",\"GeolocationUrl\":\"https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location\",\"BulkDomainCheckUrl\":\"https://cookies-data.onetrust.io/bannersdk/v1/domaingroupcheck\",\"RuleSet\":[{\"Id\":\"a8df5119-838d-49f0-9e2c-00435ebc4661\",\"Name\":\"CCPA Audience\",\"Countries\":[],\"States\":{\"us\":[\"ca\"]},\"LanguageSwitcherPlaceholder\":{\"default\":\"en\",\"ha\":\"ha\",\"fr\":\"fr\"},\"BannerPushesDown\":false,\"Default\":false,\"Global\":false,\"Type\":\"CCPA\",\"UseGoogleVendors\":false,\"VariantEnabled\":false,\"TestEndTime\":null,\"Variants\":[],\"TemplateName\":\"CCPA Custom Template\",\"Conditions\":[],\"GCEnable\":false},{\"Id\":\"e5609e69-a177-465e-97da-1134832b2019\",\"Name\":\"GDPR Audience\",\"Countries\":[\"no\",\"de\",\"be\",\"fi\",\"pt\",\"bg\",\"dk\",\"lt\",\"lu\",\"hr\",\"lv\",\"fr\",\"hu\",\"se\",\"mc\",\"si\",\"sk\",\"mf\",\"sm\",\"yt\",\"ie\",\"gf\",\"ee\",\"mq\",\"mt\",\"gp\",\"is\",\"it\",\"gr\",\"es\",\"at\",\"re\",\"cy\",\"ax\",\"cz\",\"pl\",\"ro\",\"li\",\"nl\"],\"States\":{},\"LanguageSwitcherPlaceholder\":{\"default\":\"en\",\"ha\":\"ha\",\"fr\":\"fr\"},\"BannerPushesDown\":false,\"Default\":false,\"Global\":false,\"Type\":\"GDPR\",\"UseGoogleVendors\":false,\"VariantEnabled\":false,\"TestEndTime\":null,\"Variants\":[],\"TemplateName\":\"GDPR Custom Template\",\"Conditions\":[],\"GCEnable\":false},{\"Id\":\"4ec07414-4c17-4bbc-a999-b7d528a25660\",\"Name\":\"Global Audience\",\"Countries\":[\"pr\",\"ps\",\"pw\",\"py\",\"qa\",\"ad\",\"ae\",\"af\",\"ag\",\"ai\",\"al\",\"am\",\"ao\",\"aq\",\"ar\",\"as\",\"au\",\"aw\",\"az\",\"ba\",\"bb\",\"rs\",\"bd\",\"ru\",\"bf\",\"rw\",\"bh\",\"bi\",\"bj\",\"bl\",\"bm\",\"bn\",\"bo\",\"sa\",\"sb\",\"bq\",\"br\",\"sc\",\"bs\",\"sd\",\"bt\",\"sg\",\"bv\",\"sh\",\"bw\",\"by\",\"sj\",\"bz\",\"sl\",\"sn\",\"so\",\"ca\",\"sr\",\"cc\",\"ss\",\"st\",\"cd\",\"sv\",\"cf\",\"cg\",\"sx\",\"ch\",\"ci\",\"sy\",\"sz\",\"ck\",\"cl\",\"cm\",\"cn\",\"co\",\"tc\",\"cr\",\"td\",\"cu\",\"tf\",\"tg\",\"cv\",\"th\",\"cw\",\"cx\",\"tj\",\"tk\",\"tl\",\"tm\",\"tn\",\"to\",\"tr\",\"tt\",\"tv\",\"tw\",\"tz\",\"dj\",\"dm\",\"do\",\"ua\",\"ug\",\"dz\",\"um\",\"ec\",\"us\",\"eg\",\"eh\",\"uy\",\"uz\",\"va\",\"vc\",\"er\",\"ve\",\"et\",\"vg\",\"vi\",\"vn\",\"vu\",\"fj\",\"fk\",\"fm\",\"fo\",\"wf\",\"ga\",\"gb\",\"ws\",\"gd\",\"ge\",\"gg\",\"gh\",\"gi\",\"gl\",\"gm\",\"gn\",\"gq\",\"gs\",\"gt\",\"gu\",\"gw\",\"gy\",\"hk\",\"hm\",\"hn\",\"ye\",\"ht\",\"id\",\"il\",\"im\",\"in\",\"io\",\"za\",\"iq\",\"ir\",\"zm\",\"je\",\"zw\",\"jm\",\"jo\",\"jp\",\"ke\",\"kg\",\"kh\",\"ki\",\"km\",\"kn\",\"kp\",\"kr\",\"kw\",\"ky\",\"kz\",\"la\",\"lb\",\"lc\",\"lk\",\"lr\",\"ls\",\"ly\",\"ma\",\"md\",\"me\",\"mg\",\"mh\",\"mk\",\"ml\",\"mm\",\"mn\",\"mo\",\"mp\",\"mr\",\"ms\",\"mu\",\"mv\",\"mw\",\"mx\",\"my\",\"mz\",\"na\",\"nc\",\"ne\",\"nf\",\"ng\",\"ni\",\"np\",\"nr\",\"nu\",\"nz\",\"om\",\"pa\",\"pe\",\"pf\",\"pg\",\"ph\",\"pk\",\"pm\",\"pn\"],\"States\":{},\"LanguageSwitcherPlaceholder\":{\"default\":\"en\",\"ha\":\"ha\",\"fr\":\"fr\"},\"BannerPushesDown\":false,\"Default\":true,\"Global\":true,\"Type\":\"GENERIC\",\"UseGoogleVendors\":false,\"VariantEnabled\":false,\"TestEndTime\":null,\"Variants\":[],\"TemplateName\":\"Generic Template\",\"Conditions\":[],\"GCEnable\":false}],\"IabData\":{\"cookieVersion\":\"1\",\"createdTime\":\"2022-07-28T09:12:04.561534\",\"updatedTime\":\"2022-07-28T09:12:04.561545\",\"cmpId\":\"28\",\"cmpVersion\":\"1\",\"consentScreen\":\"1\",\"consentLanguage\":null,\"vendor"
+   },
+   {
+    "u": "https://www.googleadservices.com/pagead/conversion/834648845/?random=1794650716104&cv=11&fst=1794650716104&fmt=7&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6bc0h2v899266068z8894428402za20gzb894428402zd894428402xeaxf1&gcd=13l3l3l3l1l1&dma=0&tcfd=10000&tag_exp=115616985~115938466~115938469~118897",
+    "s": 200,
+    "ct": "application/json; charset=UTF-8",
+    "b": "event: message\ndata: {\"fetch\":[\"https://googleads.g.doubleclick.net/pagead/viewthroughconversion/834648845/?random=541339655&cv=11&fst=1794650716104&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6bc0h2v899266068z8894428402za20gzb894428402zd894428402xeaxf1&gcd=13l3l3l3l1l1&dma=0&tcfd=10000&tag_exp=115616985~115938466~115938469~118897920~118897930~120032691~120213116~120385423~120412526~120420416~120469145~120469153~121191153~121246026~121246034~123988486&u_w=1280&u_h=720&url=https%3A%2F%2Fhomitv.com%2F&rcb=5&label=AW-834648845&capi=1&frm=0&tiba=Homi%20-%20African%20Movies%20%26%20TV%20Shows&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=337113467.1794650715&uaa=x64&uab=64&uafvl=HeadlessChrome%3B131.0.6778.33%7CChromium%3B131.0.6778.33%7CNot_A%2520Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&gpp_sid=-1&ec_mode=a&oidsrc=3&ecsid2=629485310.1794650717&_tu=CBA&gcl_ctr=1~0~0~0&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&eoid=CkcKEAiAquDXBhCEw6acvILE7xQSMwC09XIiie4aBOi22STVzSilQtNhnW5oU3A1iqqq1glSP7zsuIuj3H_uJ758L5pSMtYxovD_BwE&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCOHTsQIIh9uxAgjTxbECCOvMsQII7c6xAgjVz7ECCIrysQIIi_KxAgj02rECCOLqsQII6O6xAgi48rECCJLrsQII-eqxAgic9LECCJfUsQIIyduxAgim3bECCLDesQIIgNuxAgjN4bECSjB0cmlnZ2VyLCBub3QtbmF2aWdhdGlvbi1zb3VyY2UsIG5vdC1ldmVudC1zb3VyY2VaAwoBAWIDCgED&cerd=ChSmnb4tyOy-Lbn-vi2hnb8tya2_LQ&eitems=ChAIgKrg1wYQhoydh5POretMEh0AHoZSw6wy6jXD3ITbdHFZSfraw1I6RTl8ySVOvw&fsk=Cg8IgKrg1wYQh82spITM-GkSLAAGHBPvDOoAsim34dUqyVp4EuX0TkE9uxfwURFC7-LfKaRWIUcHd-Hq4q90GgI7Vg&pscrd=IhMIor7c85qHmAMVw2dHAR2CQzEAOhNodHRwczovL2hvbWl0di5jb20vQlZDaEFJZ0tyZzF3WVF3WTNNdHNleW5OOEpFaXdBMWNTd1RGNUU1NjRlem55c2ZZbXl6MkVialhxMzlSa2ZwRWdjMVh3S0NvWm5Zc3RZVldLa2p4Rk5Qd3oMCAliCAgAEAAYACAA\"],\"options\":{\"fallback_url\":\"https://www.google.com/pagead/1p-conversion/834648845/?random=541339655&cv=11&fst=1794650716104&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6bc0h2v899266068z8894428402za20gzb894428402zd894428402xeaxf1&gcd=13l3l3l3l1l1&dma=0&tcfd=10000&tag_exp=115616985~115938466~115938469~118897920~118897930~120032691~120213116~120385423~120412526~120420416~120469145~120469153~121191153~121246026~121246034~123988486&u_w=1280&u_h=720&url=https%3A%2F%2Fhomitv.com%2F&rcb=5&label=AW-834648845&capi=1&frm=0&tiba=Homi%20-%20African%20Movies%20%26%20TV%20Shows&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=337113467.1794650715&uaa=x64&uab=64&uafvl=HeadlessChrome%3B131.0.6778.33%7CChromium%3B131.0.6778.33%7CNot_A%2520Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&gpp_sid=-1&ec_mode=a&oidsrc=3&ecsid2=629485310.1794650717&_tu=CBA&gcl_ctr=1~0~0~0&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&eoid=CkcKEAiAquDXBhCEw6acvILE7xQSMwC09XIiie4aBOi22STVzSilQtNhnW5oU3A1iqqq1glSP7zsuIuj3H_uJ758L5pSMtYxovD_BwE&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCOHTsQIIh9uxAgjTxbECCOvMsQII7c6xAgjVz7ECCIr"
+   },
+   {
+    "u": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "s": 200,
+    "ct": "application/json",
+    "b": "{\"country\":\"US\",\"state\":\"VA\",\"stateName\":\"Virginia\",\"continent\":\"NA\"}"
+   },
+   {
+    "u": "https://cdn.cookielaw.org/consent/e0525c52-4c0c-4e4f-bdc0-53f0c0af2634-test/4ec07414-4c17-4bbc-a999-b7d528a25660/en.json",
+    "s": 200,
+    "ct": "application/json",
+    "b": "{\"DomainData\":{\"pclifeSpanYr\":\"Year\",\"pclifeSpanYrs\":\"Years\",\"pclifeSpanSecs\":\"A few seconds\",\"pclifeSpanWk\":\"Week\",\"pclifeSpanWks\":\"Weeks\",\"pccloseButtonType\":\"Icon\",\"pccontinueWithoutAcceptText\":\"Continue without Accepting\",\"cctId\":\"e0525c52-4c0c-4e4f-bdc0-53f0c0af2634\",\"MainText\":\"Privacy Preference Center\",\"MainInfoText\":\"When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings to find out more and change our default settings. However, blocking some types of cookies may impact your experience of the site and the services we are able to offer.\",\"AboutText\":\"More information\",\"AboutCookiesText\":\"Your Privacy\",\"ConfirmText\":\"Allow All\",\"AllowAllText\":\"Save Settings\",\"CookiesUsedText\":\"Cookies used\",\"AboutLink\":\"https://cookiepedia.co.uk/giving-consent-to-cookies\",\"HideToolbarCookieList\":true,\"ActiveText\":\"Active\",\"AlwaysActiveText\":\"Always Active\",\"PCShowAlwaysActiveToggle\":true,\"AlertNoticeText\":\"By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. \",\"AlertCloseText\":\"Close\",\"AlertMoreInfoText\":\"Cookies Settings\",\"CookieSettingButtonText\":\"Cookies Settings\",\"AlertAllowCookiesText\":\"Accept All Cookies\",\"CloseShouldAcceptAllCookies\":false,\"LastReconsentDate\":null,\"BannerTitle\":\"\",\"ForceConsent\":false,\"BannerPushesDownPage\":false,\"InactiveText\":\"Inactive\",\"CookiesText\":\"Cookies\",\"CategoriesText\":\"Cookie Subgroup\",\"IsLifespanEnabled\":false,\"LifespanText\":\"Lifespan\",\"VendorLevelOptOut\":false,\"HasScriptArchive\":false,\"BannerPosition\":\"bottom\",\"PreferenceCenterPosition\":\"default\",\"PreferenceCenterConfirmText\":\"Confirm My Choices\",\"VendorListText\":\"List of IAB Vendors\",\"ThirdPartyCookieListText\":\"Cookies Details\",\"PreferenceCenterManagePreferencesText\":\" Manage Consent Preferences\",\"PreferenceCenterMoreInfoScreenReader\":\"Opens in a new Tab\",\"CookieListTitle\":\"Cookie List\",\"CookieListDescription\":\"A cookie is a small piece of data (text file) that a website – when visited by a user – asks your browser to store on your device in order to remember information about you, such as your language preference or login information. Those cookies are set by us and called first-party cookies. We also use third-party cookies – which are cookies from a domain different than the domain of the website you are visiting – for our advertising and marketing efforts. More specifically, we use cookies and other tracking technologies for the following purposes:\",\"Groups\":[{\"ShowInPopup\":true,\"ShowInPopupNonIAB\":true,\"ShowSDKListLink\":tr"
+   },
+   {
+    "u": "https://api.homitv.com/common/api/v2/footer",
+    "s": 200,
+    "ct": "application/json",
+    "b": "{\"error\":false,\"statusCode\":200,\"status\":\"success\",\"message\":null,\"response\":{\"static_contents\":[{\"title\":\"About Us\",\"slug\":\"about-us\"},{\"title\":\"Terms and Conditions\",\"slug\":\"terms-and-conditions\"},{\"title\":\"Privacy Policy\",\"slug\":\"privacy-policy\"}],\"site_link\":{\"fb_link\":\"https:\\/\\/www.facebook.com\\/vplayed\\/\",\"twitter_link\":\"https:\\/\\/twitter.com\\/vplayed\",\"google_link\":\"\",\"instagram_link\":\"https:\\/\\/www.instagram.com\\/vplayed\\/\",\"android_app_link\":\"\",\"ios_app_link\":\"\",\"aod_android_app_link\":\"\",\"aod_ios_app_link\":\"\"},\"address\":{\"email\":\"support@homitv.com\",\"phone\":\"9840705435\",\"address\":\"Homi HQ\"}}}"
+   },
+   {
+    "u": "https://cdn.cookielaw.org/scripttemplates/6.38.0/assets/otCookieSettingsButton.json",
+    "s": 200,
+    "ct": "application/json",
+    "b": "\n            {\n                \"name\": \"otCookieSettingsButton\",\n                \"html\": \"PGRpdiBpZD0ib3Qtc2RrLWJ0bi1mbG9hdGluZyIgdGl0bGU9Ik1hbmFnZSBQcml2YWN5IFByZWZlcmVuY2VzIiBjbGFzcz0ib3QtZmxvYXRpbmctYnV0dG9uIG90LWhpZGUiPjxkaXYgY2xhc3M9Im90LWZsb2F0aW5nLWJ1dHRvbl9fZnJvbnQiPjxidXR0b24gdHlwZT0iYnV0dG9uIiBjbGFzcz0ib3QtZmxvYXRpbmctYnV0dG9uX19vcGVuIj48L2J1dHRvbj48L2Rpdj48ZGl2IGNsYXNzPSJvdC1mbG9hdGluZy1idXR0b25fX2JhY2siPjxidXR0b24gdHlwZT0iYnV0dG9uIiBjbGFzcz0ib3QtZmxvYXRpbmctYnV0dG9uX19jbG9zZSI+PCEtLT94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPy0tPiA8c3ZnIHJvbGU9InByZXNlbnRhdGlvbiIgdmlld0JveD0iMCAwIDI0IDI0IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PGcgaWQ9IkJhbm5lcl8wMiIgY2xhc3M9Im90LWZsb2F0aW5nLWJ1dHRvbl9fc3ZnLWZpbGwiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zMTguMDAwMDAwLCAtNzI1LjAwMDAwMCkiIGZpbGw9IiNmZmZmZmYiIGZpbGwtcnVsZT0ibm9uemVybyI+PGcgaWQ9Ikdyb3VwLTIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMwNS4wMDAwMDAsIDcxMi4wMDAwMDApIj48ZyBpZD0iaWNvbi8xNnB4L3doaXRlL2Nsb3NlIj48cG9seWdvbiBpZD0iTGluZTEiIHBvaW50cz0iMTMuMzMzMzMzMyAxNC45MTc2MjU2IDM1LjA4MjM3NDQgMzYuNjY2NjY2NyAzNi42NjY2NjY3IDM1LjA4MjM3NDQgMTQuOTE3NjI1NiAxMy4zMzMzMzMzIj48L3BvbHlnb24+PHBvbHlnb24gaWQ9IkxpbmUyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNS4wMDAwMDAsIDI1LjAwMDAwMCkgc2NhbGUoLTEsIDEpIHRyYW5zbGF0ZSgtMjUuMDAwMDAwLCAtMjUuMDAwMDAwKSAiIHBvaW50cz0iMTMuMzMzMzMzMyAxNC45MTc2MjU2IDM1LjA4MjM3NDQgMzYuNjY2NjY2NyAzNi42NjY2NjY3IDM1LjA4MjM3NDQgMTQuOTE3NjI1NiAxMy4zMzMzMzMzIj48L3BvbHlnb24+PC9nPjwvZz48L2c+PC9nPjwvc3ZnPjwvYnV0dG9uPjwvZGl2PjwvZGl2Pg==\",\n                \"css\": \"#ot-sdk-btn-floating.ot-floating-button{position:fixed;bottom:10px;opacity:0;width:50px;height:50px;line-height:15px;cursor:pointer;background-color:transparent;transition:all 300ms ease;z-index:2147483646;animation:otFloatingBtnIntro 800ms ease 0ms 1 forwards}#ot-sdk-btn-floating.ot-floating-button.ot-hide{display:none}#ot-sdk-btn-floating.ot-floating-button::before,#ot-sdk-btn-floating.ot-floating-button::after{text-transform:none;line-height:1;user-select:none;pointer-events:none;position:absolute;transform:scale(0);opacity:0;transition:all 300ms ease;display:block;height:auto}#ot-sdk-btn-floating.ot-floating-button::before{content:\\\"\\\";border:5px solid transparent;z-index:1001;top:50%;border-left-width:0;border-right-color:#333;right:calc(0em - 5px);transform:translate(10px, -50%)}#ot-sdk-btn-floating.ot-floating-button::after{content:attr(title);position:absolute;text-align:center;top:50%;left:calc(100% + 5px);transform:translate(10px, -50%);font-size:.75rem;min-width:3em;max-width:21em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:5px;border-radius:.3ch;box-shadow:0 1em 2em -0.5em rgba(0,0,0,.35);background:#333;color:#fff;z-index:2147483645}#ot-sdk-btn-floating.ot-floating-button:hover::before,#ot-sdk-btn-floating.ot-floating-button:hover::after{opacity:1}#ot-sdk-btn-floating.ot-floating-button:hover::before{transf"
+   },
+   {
+    "u": "https://api.homitv.com/common/api/v2/menu-categories",
+    "s": 200,
+    "ct": "application/json",
+    "b": "{\"error\":false,\"statusCode\":200,\"status\":\"success\",\"message\":null,\"response\":{\"current_page\":1,\"data\":[{\"title\":\"Movie Genre\",\"slug\":\"movies-genre\",\"category_order\":5,\"image_url\":\"\",\"is_web_series\":0,\"is_archived\":0,\"archived_on\":null,\"is_approved\":1,\"webseries_detail_id\":0,\"video_webseries_detail_id\":0},{\"title\":\"TV Series\",\"slug\":\"tv-series\",\"category_order\":4,\"image_url\":\"\",\"is_web_series\":1,\"is_archived\":0,\"archived_on\":null,\"is_approved\":1,\"webseries_detail_id\":0,\"video_webseries_detail_id\":0},{\"title\":\"Movie Rental\",\"slug\":\"pay-per-view\",\"category_order\":3,\"image_url\":\"\",\"is_web_series\":0,\"is_archived\":0,\"archived_on\":null,\"is_approved\":1,\"webseries_detail_id\":0,\"video_webseries_detail_id\":0},{\"title\":\"Country\",\"slug\":\"country\",\"category_order\":2,\"image_url\":\"\",\"is_web_series\":0,\"is_archived\":0,\"archived_on\":null,\"is_approved\":1,\"webseries_detail_id\":0,\"video_webseries_detail_id\":0},{\"title\":\"Romance\",\"slug\":\"romance\",\"category_order\":0,\"image_url\":\"\",\"is_web_series\":0,\"is_archived\":0,\"archived_on\":null,\"is_approved\":1,\"webseries_detail_id\":0,\"video_webseries_detail_id\":0},{\"title\":\"Short Films\",\"slug\":\"short-films\",\"category_order\":0,\"image_url\":\"\",\"is_web_series\":0,\"is_archived\":0,\"archived_on\":null,\"is_approved\":1,\"webseries_detail_id\":0,\"video_webseries_detail_id\":0},{\"title\":\"Lifestyle\",\"slug\":\"life-style\",\"category_order\":0,\"image_url\":\"\",\"is_web_series\":0,\"is_archived\":0,\"archived_on\":null,\"is_approved\":1,\"webseries_detail_id\":0,\"video_webseries_detail_id\":0},{\"title\":\"Documentary\",\"slug\":\"documentary\",\"category_order\":0,\"image_url\":\"\",\"is_web_series\":0,\"is_archived\":0,\"archived_on\":null,\"is_approved\":1,\"webseries_detail_id\":0,\"video_webseries_detail_id\":0},{\"title\":\"Drama\",\"slug\":\"drama\",\"category_order\":0,\"image_url\":\"\",\"is_web_series\":0,\"is_archived\":0,\"archived_on\":null,\"is_approved\":1,\"webseries_detail_id\":0,\"video_webseries_detail_id\":0},{\"title\":\"Kids\",\"slug\":\"kids\",\"category_order\":0,\"image_url\":\"\",\"is_web_series\":0,\"is_archived\":0,\"archived_on\":null,\"is_approved\":1,\"webseries_detail_id\":0,\"video_webseries_detail_id\":0},{\"title\":\"Originals\",\"slug\":\"homi-originals\",\"category_order\":0,\"image_url\":\"\",\"is_web_series\":0,\"is_archived\":0,\"archived_on\":null,\"is_approved\":1,\"webseries_detail_id\":0,\"video_webseries_detail_id\":0},{\"title\":\"Comedy\",\"slug\":\"comedy\",\"category_order\":0,\"image_url\":\"\",\"is_web_series\":0,\"is_archived\":0,\"archived_on\":null,\"is_approved\":1,\"webseries_detail_id\":0,\"video_webseries_detail_id\":0},{\"title\":\"Thriller\",\"slug\":\"thriller\",\"category_order\":0,\"image_url\":\"\",\"is_web_series\":0,\"is_archived\":0,\"archived_on\":null,\"is_approved\":1,\"webseries_detail_id\":0,\"video_webseries_detail_id\":0}],\"first_page_url\":\"https:\\/\\/api.homitv.com\\/common\\/api\\/v2\\/menu-categories?page=1\",\"from\":1,\"last_page\":1,\"last_page_url\":\"https:\\/\\/api.homitv.com\\/common\\/api\\/v2\\/menu-categories?page=1\",\"next_page_url\":null,\"path\":\"https:\\/\\/api.homitv.com\\/common\\/api\\/v2\\/menu-categories\",\"per_page\":50,\"prev_page_url\":null,\"to\":13,\"total\""
+   },
+   {
+    "u": "https://api.homitv.com/users/api/v2/profile",
+    "s": 401,
+    "ct": "application/json",
+    "b": "{\"error\":true,\"message\":\"Please login to continue\",\"method\":\"GET\",\"statusCode\":401}"
+   },
+   {
+    "u": "https://cdn.cookielaw.org/scripttemplates/6.38.0/assets/otFlat.json",
+    "s": 200,
+    "ct": "application/json",
+    "b": "\n            {\n                \"name\": \"otFlat\",\n                \"html\": \"PGRpdiBpZD0ib25ldHJ1c3QtYmFubmVyLXNkayIgY2xhc3M9Im90RmxhdCI+PGRpdiByb2xlPSJhbGVydGRpYWxvZyIgYXJpYS1kZXNjcmliZWRieT0ib25ldHJ1c3QtcG9saWN5LXRleHQiPjxkaXYgY2xhc3M9Im90LXNkay1jb250YWluZXIiPjxkaXYgY2xhc3M9Im90LXNkay1yb3ciPjxkaXYgaWQ9Im9uZXRydXN0LWdyb3VwLWNvbnRhaW5lciIgY2xhc3M9Im90LXNkay1laWdodCBvdC1zZGstY29sdW1ucyI+PGRpdiBjbGFzcz0iYmFubmVyX2xvZ28iPjwvZGl2PjxkaXYgaWQ9Im9uZXRydXN0LXBvbGljeSI+PGgyIGlkPSJvbmV0cnVzdC1wb2xpY3ktdGl0bGUiPlRpdGxlPC9oMj48cCBpZD0ib25ldHJ1c3QtcG9saWN5LXRleHQiPnRpdGxlPGEgaHJlZj0iIyI+cG9saWN5PC9hPjwvcD48ZGl2IGNsYXNzPSJvdC1kcGQtY29udGFpbmVyIj48aDMgY2xhc3M9Im90LWRwZC10aXRsZSI+V2UgY29sbGVjdCBkYXRhIGluIG9yZGVyIHRvIHByb3ZpZGU6PC9oMz48ZGl2IGNsYXNzPSJvdC1kcGQtY29udGVudCI+PHAgY2xhc3M9Im90LWRwZC1kZXNjIj5kZXNjcmlwdGlvbjwvcD48L2Rpdj48L2Rpdj48L2Rpdj48L2Rpdj48ZGl2IGlkPSJvbmV0cnVzdC1idXR0b24tZ3JvdXAtcGFyZW50IiBjbGFzcz0ib3Qtc2RrLXRocmVlIG90LXNkay1jb2x1bW5zIj48ZGl2IGlkPSJvbmV0cnVzdC1idXR0b24tZ3JvdXAiPjxidXR0b24gaWQ9Im9uZXRydXN0LXBjLWJ0bi1oYW5kbGVyIj5jaG9pY2U8L2J1dHRvbj4gPGJ1dHRvbiBpZD0ib25ldHJ1c3QtcmVqZWN0LWFsbC1oYW5kbGVyIj5SZWplY3Q8L2J1dHRvbj4gPGJ1dHRvbiBpZD0ib25ldHJ1c3QtYWNjZXB0LWJ0bi1oYW5kbGVyIj5BY2NlcHQ8L2J1dHRvbj48L2Rpdj48L2Rpdj48L2Rpdj48L2Rpdj48ZGl2IGNsYXNzPSJvdC1zZGstY29udGFpbmVyIiBpZD0iYmFubmVyLW9wdGlvbnMiPjxkaXYgY2xhc3M9Im90LXNkay1mb3VyIG90LXNkay1jb2x1bW5zIGJhbm5lci1vcHRpb24iPjxidXR0b24gYXJpYS1leHBhbmRlZD0iZmFsc2UiIGNsYXNzPSJiYW5uZXItb3B0aW9uLWlucHV0Ij48c3BhbiBjbGFzcz0iYmFubmVyLW9wdGlvbi1oZWFkZXIiPjxzcGFuPlB1cnBvc2Ugd2UgdXNlPC9zcGFuPiA8c3BhbiBjbGFzcz0ib3QtYXJyb3ctY29udGFpbmVyIj48L3NwYW4+PC9zcGFuPjwvYnV0dG9uPjxkaXYgY2xhc3M9ImJhbm5lci1vcHRpb24tZGV0YWlscyI+cHVycG9zZSBkZXNjcmlwdGlvbjwvZGl2PjwvZGl2PjwvZGl2PjwhLS0gQ2xvc2UgQnV0dG9uIC0tPjxkaXYgaWQ9Im9uZXRydXN0LWNsb3NlLWJ0bi1jb250YWluZXIiPjxidXR0b24gY2xhc3M9Im9uZXRydXN0LWNsb3NlLWJ0bi1oYW5kbGVyIG9uZXRydXN0LWNsb3NlLWJ0bi11aSBiYW5uZXItY2xvc2UtYnV0dG9uIG90LWNsb3NlLWljb24iPjwvYnV0dG9uPjwvZGl2PjwhLS0gQ2xvc2UgQnV0dG9uIEVORC0tPjwvZGl2PjwvZGl2Pg==\",\n                \"css\": \"#onetrust-banner-sdk{box-shadow:0 0 18px rgba(0,0,0,.2)}#onetrust-banner-sdk.otFlat{position:fixed;z-index:2147483645;bottom:0;right:0;left:0;background-color:#fff;max-height:90%;overflow-x:hidden;overflow-y:auto}#onetrust-banner-sdk.otFlat.top{top:0px;bottom:auto}#onetrust-banner-sdk.otRelFont{font-size:1rem}#onetrust-banner-sdk>.ot-sdk-container{overflow:hidden}#onetrust-banner-sdk::-webkit-scrollbar{width:11px}#onetrust-banner-sdk::-webkit-scrollbar-thumb{border-radius:10px;background:#c1c1c1}#onetrust-banner-sdk{scrollbar-arrow-color:#c1c1c1;scrollbar-darkshadow-color:#c1c1c1;scrollbar-face-color:#c1c1c1;scrollbar-shadow-color:#c1c1c1}#onetrust-banner-sdk #onetrust-policy{margin:1.25em 0 .625em 2em;overflow:hidden}#onetrust-banner-sdk #onetrust-policy .ot-gv-list-handler{float:left;font-size:.82em;padding:0;margin-bottom:0;border:0;line-height:normal;height:auto;width:auto}#onetrust-banner-sdk #onetrust-policy-title{font-size:1.2em;line-height:1.3;margin-bottom"
+   },
+   {
+    "u": "https://cdn.cookielaw.org/scripttemplates/6.38.0/assets/v2/otPcCenter.json",
+    "s": 200,
+    "ct": "application/json",
+    "b": "\n        {\n            \"name\": \"otPcCenter\",\n            \"html\": \"PGRpdiBpZD0ib25ldHJ1c3QtcGMtc2RrIiBjbGFzcz0ib3RQY0NlbnRlciBvdC1oaWRlIG90LWZhZGUtaW4iIGFyaWEtbW9kYWw9InRydWUiIHJvbGU9ImFsZXJ0ZGlhbG9nIiBhcmlhLWRlc2NyaWJlZGJ5PSJvdC1wYy1kZXNjIj48IS0tIENsb3NlIEJ1dHRvbiAtLT48ZGl2IGNsYXNzPSJvdC1wYy1oZWFkZXIiPjwhLS0gTG9nbyBUYWcgLS0+PGRpdiBjbGFzcz0ib3QtcGMtbG9nbyIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJDb21wYW55IExvZ28iPjwvZGl2PjxidXR0b24gaWQ9ImNsb3NlLXBjLWJ0bi1oYW5kbGVyIiBjbGFzcz0ib3QtY2xvc2UtaWNvbiIgYXJpYS1sYWJlbD0iQ2xvc2UiPjwvYnV0dG9uPjwvZGl2PjwhLS0gQ2xvc2UgQnV0dG9uIC0tPjxkaXYgaWQ9Im90LXBjLWNvbnRlbnQiIGNsYXNzPSJvdC1wYy1zY3JvbGxiYXIiPjxoMiBpZD0ib3QtcGMtdGl0bGUiPllvdXIgUHJpdmFjeTwvaDI+PGRpdiBpZD0ib3QtcGMtZGVzYyI+PC9kaXY+PGJ1dHRvbiBpZD0iYWNjZXB0LXJlY29tbWVuZGVkLWJ0bi1oYW5kbGVyIj5BbGxvdyBhbGw8L2J1dHRvbj48c2VjdGlvbiBjbGFzcz0ib3Qtc2RrLXJvdyBvdC1jYXQtZ3JwIj48aDMgaWQ9Im90LWNhdGVnb3J5LXRpdGxlIj5NYW5hZ2UgQ29va2llIFByZWZlcmVuY2VzPC9oMz48ZGl2IGNsYXNzPSJvdC1wbGktaGRyIj48c3BhbiBjbGFzcz0ib3QtbGktdGl0bGUiPkNvbnNlbnQ8L3NwYW4+IDxzcGFuIGNsYXNzPSJvdC1saS10aXRsZSI+TGVnaXQuIEludGVyZXN0PC9zcGFuPjwvZGl2PjwhLS0gR3JvdXBzIHNlY3Rpb25zIHN0YXJ0cyAtLT48ZGl2IGNsYXNzPSJvdC1jYXQtaXRlbSI+PCEtLSBHcm91cCBuYW1lIC0tPjxoNCBjbGFzcz0ib3QtY2F0LWhlYWRlciI+U3RpY3RseSBOZWNlc3NhcnkgQ29va2llczwvaDQ+PCEtLSBHcm91cCBkZXNjcmlwdGlvbiAtLT48cD5UaGVzZSBjb29raWVzIGFyZSBuZWNlc3NhcnkgZm9yIHRoZSB3ZWJzaXRlIHRvIGZ1bmN0aW9uIGFuZDwvcD48L2Rpdj48IS0tIEdyb3VwIHNlY3Rpb24gZW5kcyAtLT48IS0tIEFjY29yZGlvbiBHcm91cCBzZWN0aW9uIHN0YXJ0cyAtLT48ZGl2IGNsYXNzPSJvdC1hY2NvcmRpb24tbGF5b3V0IG90LWNhdC1pdGVtIj48YnV0dG9uIGFyaWEtZXhwYW5kZWQ9ImZhbHNlIiBvdC1hY2NvcmRpb249InRydWUiPjwvYnV0dG9uPjwhLS0gQWNjb3JkaW9uIGhlYWRlciAtLT48ZGl2IGNsYXNzPSJvdC1hY2MtaGRyIj48aDQgY2xhc3M9Im90LWNhdC1oZWFkZXIiPkluZm9ybWF0aW9uIHN0b3JhZ2UgYW5kIGFjY2VzczwvaDQ+PC9kaXY+PCEtLSBhY2NvcmRpb24gZGV0YWlsIC0tPjxkaXYgY2xhc3M9Im90LWFjYy1ncnBjbnRyIG90LWFjYy10eHQiPjxwIGNsYXNzPSJvdC1hY2MtZ3JwZGVzYyI+PC9wPjwvZGl2PjwvZGl2PjwhLS0gQWNjb3JkaW9uIEdyb3VwIHNlY3Rpb24gZW5kcyAtLT48L3NlY3Rpb24+PC9kaXY+PHNlY3Rpb24gaWQ9Im90LXBjLWxzdCIgY2xhc3M9Im90LWhpZGUgb3QtaG9zdHMtdWkgb3QtcGMtc2Nyb2xsYmFyIj48ZGl2IGlkPSJvdC1wYy1oZHIiPjxkaXYgaWQ9Im90LWxzdC10aXRsZSI+PGJ1dHRvbiBjbGFzcz0ib3QtbGluay1idG4gYmFjay1idG4taGFuZGxlciIgYXJpYS1sYWJlbD0iQmFjayI+PHN2ZyBpZD0ib3QtYmFjay1hcnciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNDQ0LjUzMSA0NDQuNTMxIiB4bWw6c3BhY2U9InByZXNlcnZlIj48dGl0bGU+QmFjayBCdXR0b248L3RpdGxlPjxnPjxwYXRoIGZpbGw9IiM2NTY1NjUiIGQ9Ik0yMTMuMTMsMjIyLjQwOUwzNTEuODgsODMuNjUzYzcuMDUtNy4wNDMsMTAuNTY3LTE1LjY1NywxMC41NjctMjUuODQxYzAtMTAuMTgzLTMuNTE4LTE4Ljc5My0xMC41NjctMjUuODM1CiAgICAgICAgICAgICAgICAgICAgbC0yMS40MDktMjEuNDE2QzMyMy40MzIsMy41MjEsMzE0LjgxNywwLDMwNC42MzcsMHMtMTguNzkxLDMuNTIxLTI1Ljg0MSwxMC41NjFMOTIuNjQ5LDE5Ni40MjUKICAgICAgICAgICAgICAgICAgICBjLTcuMDQ0LDcuMDQzLTEwLjU2NiwxNS42NTYtMTAuNTY2LDI1Ljg0MXMzLjUyMSwxOC43OTEsMTAuNTY2LDI1LjgzN2wxODYuMTQ2LDE4NS44NjRjNy4wNSw3LjA0MywxNS42NiwxMC41NjQsMjUuODQxLDEwLjU2NAogICAgICAgIC"
+   },
+   {
+    "u": "https://salesiq.zohopublic.com/visitor/v3/channels/website?widget_code=siqfaf0431062eb81117a5e943edd1ef5842ccd21fe9f9342729b4a694219ac4b42&page_title=Homi+-+African+Movies+%26+TV+Shows&current_domain=https%3A%2F%2Fhomitv.com&browser_language=en&is_signaturechat=false&include_fields=avuid&embed_versi",
+    "s": 200,
+    "ct": "application/json;charset=UTF-8",
+    "b": "{\"url\":\"/visitor/v3/channels/website\",\"object\":\"channels\",\"data\":{\"hide_widget_outside_business_hours\":false,\"uts_server\":\"vts.zohopublic.com\",\"product_url\":\"salesiq.zoho.com\",\"white_labelled\":true,\"free_logo_url\":\"https://www.zoho.com/salesiq?source=freelogo\",\"call_departments\":[{\"engaged\":false,\"name\":\"Homi TV Inc\",\"id\":\"1130526000000002022\",\"display_name\":\"Homi TV Inc\",\"users\":[\"1130526000000020001\",\"1130526000000002002\"],\"status\":true}],\"language\":\"en\",\"custom_css\":{\"file_name\":\"\",\"id\":\"\",\"enabled\":false},\"wms_info\":{\"js_static_domain\":\"js.zohostatic.com\",\"public_domain\":\"wms.zohopublic.com\",\"js_static_server\":\"https://static.zohocdn.com/ichat/js/Oct_30_2026_14976116_wmsliteapi.js\",\"product_code\":\"LD\"},\"csrf_cookie\":\"LS_CSRF_TOKEN\",\"call_status\":true,\"sesonaltheme_expiry_time\":\"1735583400000\",\"logo\":\"\",\"zmap\":{\"css_url\":\"https://static.zohocdn.com/salesiq/thirdparty/styles/mapboxgl/mapbox-gl.css\",\"api_url\":\"https://static.zohocdn.com/salesiq/thirdparty/js/mapboxgl/mapbox-gl.js\",\"api_key\":\"73f269cc3db5c26abb9a6b58b33e7452\",\"static_url\":\"https://maps.zoho.com/\"},\"custom_messages_url\":\"https://salesiq-us.nimbuspop.com/zohosalesiq-915573594-brands-messagetranslation/brands/1130526000000002236/messagetranslation?container&elementName=1_1\",\"waiting_time\":{\"call\":60,\"chat\":60},\"upload_download_server\":{\"event_based_url\":true,\"upload_server\":\"https://us4-files.zohopublic.com\",\"download_server\":\"https://us4-files.zohopublic.com\",\"enabled\":true,\"ud_revamp\":true,\"siq_ud_servicename\":\"SalesIQ\"},\"csrf_param\":\"zls_csrparam\",\"rtcp_info\":{\"_RTCPCFCOOKIENAME\":\"RTCPLATFORM_CSRF_TOKEN\",\"css_url\":[\"https://static.zohocdn.com/rtcplatform/css/ipversioning.min.006e6bc99ca96f1667aa13a8a7bb83d4.css\"],\"js_url\":[\"https://static.zohocdn.com/rtcplatform/js/tp.min.1c6b888013be5e98bc709ff986360ca2.js\",\"https://static.zohocdn.com/rtcplatform/js/components.min.860777ad94c69af7411d9802f13a1fd7.js\",\"https://static.zohocdn.com/rtcplatform/js/util.min.8073b2aa8837e0da843e1c58c78b579b.js\",\"https://static.zohocdn.com/rtcplatform/js/media.min.3baead31c8ee225cae77ba55cc803cbe.js\",\"https://static.zohocdn.com/rtcplatform/js/hls.min.03ec90db3c8c4b33e5436b0e778600c0.js\",\"https://static.zohocdn.com/rtcplatform/js/rtcp.min.40a860fcde13a6c9f25a10e8cb446edb.js\",\"https://static.zohocdn.com/rtcplatform/js/ipversioning.min.7e3eb1ebd364d51b46269f8523ecc6ee.js\"],\"domain_url\":\"https://rtcplatform.zoho.com\",\"RTCPCFPARAMNAME\":\"rtcplatform_csrparam\",\"prd\":\"LD\"},\"cdn\":{\"js_static_server\":\"https://static.zohocdn.com\",\"media_file_hashes\":\"{\\\"sound/ping.wav\\\":\\\"MIvrVlfGosBQ64WMzmJ3eNiLwybJRdxplQHGxgnhe_mIDq8SJhmbQHg8pNEEUofr\\\",\\\"sound/buzz.wav\\\":\\\"BAugnnEwdIh-3ge4hbZQJditOMfF6pim-qnxJzyHJj9RY5iicYCu7p8XP-DjGvQ-\\\",\\\"flash/player.swf\\\":\\\"vdFCfM9h3idF4FNktHB_mKzfYxnXbEFuBAzjjB5jptYdQjeBjOsBCtlQ3pZaTXmq\\\",\\\"sound/ping.mp3\\\":\\\"B3Q7CttOJr4_tpj5BQsAbUyBDTjROkEVntM-uJp-rdZT3N_ALeIfWJZULOfCeBiL\\\",\\\"sound/hold.wav\\\":\\\"cQOug7Pn7TqYL_3-q4JkLA7FLiaoiELK7iT944BcICxRa609EKP6vk2JghBoNOrc\\\",\\\"sound/buzz.mp3\\\":\\\"06Ua8LHa"
+   },
+   {
+    "u": "https://salesiq.zohopublic.com/visitor/v2/homitvinc/livevisitors/36785e74-05d6-495d-a213-f368c7c6a017/triggers",
+    "s": 200,
+    "ct": "application/json;charset=UTF-8",
+    "b": "{\"url\":\"/visitor/v2/homitvinc/livevisitors/36785e74-05d6-495d-a213-f368c7c6a017/triggers\",\"object\":\"triggers\",\"data\":{\"encrypted_visitor_info\":\"aa7c4fb5e5f568104b105294e8dbcc96\"}}"
+   },
+   {
+    "u": "https://api.homitv.com/medias/api/v2/home_page_banner",
+    "s": 200,
+    "ct": "application/json",
+    "b": "{\"error\":false,\"statusCode\":200,\"status\":\"success\",\"message\":\"Succesfully fetched records\",\"response\":{\"banner\":{\"current_page\":1,\"data\":[{\"id\":203,\"title\":\"When Sparks Fly\",\"slug\":\"when-sparks-fly-master\",\"in_app_id\":\"\",\"is_webseries\":0,\"thumbnail_image\":\"https:\\/\\/trayton-homitv-live.us-east-1.linodeobjects.com\\/images\\/videos\\/thumbnails\\/2026\\/08\\/6a90157e0d57a.jpeg\",\"poster_image\":\"https:\\/\\/trayton-homitv-live.us-east-1.linodeobjects.com\\/images\\/banner_images\\/2026\\/09\\/6a9ae75cb2482.jpeg\",\"is_favourite\":0,\"is_live\":0,\"view_count\":null,\"is_premium\":0,\"trailer_hls_url\":\"https:\\/\\/us-east-1.linodeobjects.com\\/trayton-homitv-live\\/videos\\/output\\/2026\\/08\\/WHEN_SPARKS_FLY_MASTER\\/trailer\\/hls\\/master.m3u8\",\"trailer_status\":\"Complete\",\"published_on\":\"2026\",\"video_duration\":\"01:39:24\",\"description\":\"Jordan grieves the love of his life after her tragic death. He is betrothed to Mena and has to make this work due to her family\\u2019s influence in their company. He soon meets therapist Alena who would help them come back together. A supposed romance begins to build between Jordan and Alena, and Mena would stop at nothing to find out what she is hiding as a truth hides in the dark.\",\"passphrase\":\"2261e6f747e463cd62b151984b69fe896d9fc67eb608be6b2cfb00b066a2e615\",\"genre_name\":\"Drama\",\"video_category_name\":\"Drama - Movies\",\"is_subscribed\":0,\"video_area\":\"English\",\"video_rating\":\"PG\",\"video_advisory\":\"Language\"},{\"id\":202,\"title\":\"Money Miss Road\",\"slug\":\"money-miss-road\",\"in_app_id\":\"\",\"is_webseries\":0,\"thumbnail_image\":\"https:\\/\\/trayton-homitv-live.us-east-1.linodeobjects.com\\/images\\/videos\\/thumbnails\\/2026\\/08\\/6a7f41876e34a.jpeg\",\"poster_image\":\"https:\\/\\/trayton-homitv-live.us-east-1.linodeobjects.com\\/images\\/banner_images\\/2026\\/09\\/6a9a08e77a35e.jpeg\",\"is_favourite\":0,\"is_live\":0,\"view_count\":null,\"is_premium\":1,\"trailer_hls_url\":\"https:\\/\\/us-east-1.linodeobjects.com\\/trayton-homitv-live\\/videos\\/output\\/2026\\/08\\/MONEY_MISS_ROAD_OFFICIAL_PRESENTATION_CINEMA\\/trailer\\/hls\\/master.m3u8\",\"trailer_status\":\"Complete\",\"published_on\":\"2026\",\"video_duration\":\"01:36:41\",\"description\":\"When two down on-their-luck friends cross paths with a local criminal in Abuja, they suddenly run into a lot of money. But who owns the money and how long can they hold on to their new lifestyle before the relentless criminal hunts them down in Lagos?\",\"passphrase\":\"2261e6f747e463cd62b151984b69fe896d9fc67eb608be6b2cfb00b066a2e615\",\"genre_name\":\"Comedy\",\"video_category_name\":\"Comedy - Movies\",\"is_subscribed\":0,\"video_area\":\"English\",\"video_rating\":\"All\",\"video_advisory\":\"Language\"},{\"id\":190,\"title\":\"Ekun Iyawo - A Tale of a Runaway Bride\",\"slug\":\"ekun-iyawo-a-tale-of-a-runaway-bride\",\"in_app_id\":\"\",\"is_webseries\":0,\"thumbnail_image\":\"https:\\/\\/trayton-homitv-live.us-east-1.linodeobjects.com\\/images\\/videos\\/thumbnails\\/2026\\/05\\/6a0b3a88c6289.jpeg\",\"poster_image\":\"https:\\/\\/trayton-homitv-live.us-east-1.linodeobjects.com\\/images\\/banner_images\\/2026\\/09\\/6a9a08315286c"
+   },
+   {
+    "u": "https://api.homitv.com/common/api/v2/menu-categories",
+    "s": 200,
+    "ct": "application/json",
+    "b": "{\"error\":false,\"statusCode\":200,\"status\":\"success\",\"message\":null,\"response\":{\"current_page\":1,\"data\":[{\"title\":\"Movie Genre\",\"slug\":\"movies-genre\",\"category_order\":5,\"image_url\":\"\",\"is_web_series\":0,\"is_archived\":0,\"archived_on\":null,\"is_approved\":1,\"webseries_detail_id\":0,\"video_webseries_detail_id\":0},{\"title\":\"TV Series\",\"slug\":\"tv-series\",\"category_order\":4,\"image_url\":\"\",\"is_web_series\":1,\"is_archived\":0,\"archived_on\":null,\"is_approved\":1,\"webseries_detail_id\":0,\"video_webseries_detail_id\":0},{\"title\":\"Movie Rental\",\"slug\":\"pay-per-view\",\"category_order\":3,\"image_url\":\"\",\"is_web_series\":0,\"is_archived\":0,\"archived_on\":null,\"is_approved\":1,\"webseries_detail_id\":0,\"video_webseries_detail_id\":0},{\"title\":\"Country\",\"slug\":\"country\",\"category_order\":2,\"image_url\":\"\",\"is_web_series\":0,\"is_archived\":0,\"archived_on\":null,\"is_approved\":1,\"webseries_detail_id\":0,\"video_webseries_detail_id\":0},{\"title\":\"Romance\",\"slug\":\"romance\",\"category_order\":0,\"image_url\":\"\",\"is_web_series\":0,\"is_archived\":0,\"archived_on\":null,\"is_approved\":1,\"webseries_detail_id\":0,\"video_webseries_detail_id\":0},{\"title\":\"Short Films\",\"slug\":\"short-films\",\"category_order\":0,\"image_url\":\"\",\"is_web_series\":0,\"is_archived\":0,\"archived_on\":null,\"is_approved\":1,\"webseries_detail_id\":0,\"video_webseries_detail_id\":0},{\"title\":\"Lifestyle\",\"slug\":\"life-style\",\"category_order\":0,\"image_url\":\"\",\"is_web_series\":0,\"is_archived\":0,\"archived_on\":null,\"is_approved\":1,\"webseries_detail_id\":0,\"video_webseries_detail_id\":0},{\"title\":\"Documentary\",\"slug\":\"documentary\",\"category_order\":0,\"image_url\":\"\",\"is_web_series\":0,\"is_archived\":0,\"archived_on\":null,\"is_approved\":1,\"webseries_detail_id\":0,\"video_webseries_detail_id\":0},{\"title\":\"Drama\",\"slug\":\"drama\",\"category_order\":0,\"image_url\":\"\",\"is_web_series\":0,\"is_archived\":0,\"archived_on\":null,\"is_approved\":1,\"webseries_detail_id\":0,\"video_webseries_detail_id\":0},{\"title\":\"Kids\",\"slug\":\"kids\",\"category_order\":0,\"image_url\":\"\",\"is_web_series\":0,\"is_archived\":0,\"archived_on\":null,\"is_approved\":1,\"webseries_detail_id\":0,\"video_webseries_detail_id\":0},{\"title\":\"Originals\",\"slug\":\"homi-originals\",\"category_order\":0,\"image_url\":\"\",\"is_web_series\":0,\"is_archived\":0,\"archived_on\":null,\"is_approved\":1,\"webseries_detail_id\":0,\"video_webseries_detail_id\":0},{\"title\":\"Comedy\",\"slug\":\"comedy\",\"category_order\":0,\"image_url\":\"\",\"is_web_series\":0,\"is_archived\":0,\"archived_on\":null,\"is_approved\":1,\"webseries_detail_id\":0,\"video_webseries_detail_id\":0},{\"title\":\"Thriller\",\"slug\":\"thriller\",\"category_order\":0,\"image_url\":\"\",\"is_web_series\":0,\"is_archived\":0,\"archived_on\":null,\"is_approved\":1,\"webseries_detail_id\":0,\"video_webseries_detail_id\":0}],\"first_page_url\":\"https:\\/\\/api.homitv.com\\/common\\/api\\/v2\\/menu-categories?page=1\",\"from\":1,\"last_page\":1,\"last_page_url\":\"https:\\/\\/api.homitv.com\\/common\\/api\\/v2\\/menu-categories?page=1\",\"next_page_url\":null,\"path\":\"https:\\/\\/api.homitv.com\\/common\\/api\\/v2\\/menu-categories\",\"per_page\":50,\"prev_page_url\":null,\"to\":13,\"total\""
+   },
+   {
+    "u": "https://analytics.tiktok.com/api/v2/monitor",
+    "s": 200,
+    "ct": "",
+    "b": ""
+   },
+   {
+    "u": "https://analytics.tiktok.com/api/v2/monitor",
+    "s": 200,
+    "ct": "",
+    "b": ""
+   },
+   {
+    "u": "https://m.stripe.com/6",
+    "s": 200,
+    "ct": "application/json;charset=utf-8",
+    "b": "{\"muid\":\"f208a5da-0757-4ca8-8b9c-1663a048b7e6af185b\",\"guid\":\"6a494d01-30a8-431c-94dc-8d089cb84cacb2d2bd\",\"sid\":\"3348c326-c3a8-4101-bb02-d1b51947a53b016bc2\"}"
+   },
+   {
+    "u": "https://analytics.tiktok.com/api/v2/pixel",
+    "s": 200,
+    "ct": "",
+    "b": ""
+   },
+   {
+    "u": "https://analytics.tiktok.com/api/v2/monitor",
+    "s": 200,
+    "ct": "",
+    "b": ""
+   }
+  ],
+  "media": [],
+  "status": "error page.goto: Timeout 45000ms exceeded.",
+  "finalUrl": "https://homitv.com/",
+  "title": "Homi - African Movies & TV Shows",
+  "text": "Movie Genre TV Series Movie Rental Country More Sign In This is a modal window. No compatible source was found for this media. When Sparks Fly Drama - Movies 01:39:24 HD PG Language Watch Movie Money Miss Road Comedy - Movies 01:36:41 HD All Language Watch Movie Ekun Iyawo - A Tale of a Runaway Bride Romance - Movies 00:11:02 HD All Language Watch Movie New on Homi HD 13+ How to break your virginity A young man's hapless quest to lose his virginity becomes a sidesplitting journey of self-discovery, as he navigates a s... HD 13+ Beyond His Shadow A father’s sudden illness forces his sheltered daughter to embrace independence, as they both learn that true love somet... HD 13+ A Wish For The Stars After meeting her Prince Charming who sweeps her off her feet, Ama faces her most adversary as her wicked aunt and jealo... HD 13+ Bed Of Thorns Greg, a disciplined businessman, marries Tina under family pressure. As opposites, their marriage becomes a battlefield.... HD 13+ In Between Colours Mike, struggling but hopeful, is diagnosed with aggressive melanoma and retreats into denial, refusing treatment. Sophie... HD 13+ When Sparks Fly Jordan grieves the love of his life after her tragic death. He is betrothed to Mena and has to make this work due to her... HD 13+ Money Miss Road When two down on-their-luck friends cross paths with a local criminal in Abuja, they suddenly run into a lot of money. B... HD 13+ My Sunshine In this heartfelt Nigerian-Korean romantic drama, Charis navigates love, intense family expectations, and life's unexpec... HD 13+ Inside Life Inside Life is a compelling drama that explores the growing realities of depression, suicide, and the silent emotional b... HD 13+ Field of Play Controversy trails a coaching appointment when a struggling local team name an ex-Super Falcons captain to save them. HD 13+ Ekun Iyawo - A Tale of a Runaway Bride With a gun pressed to her head, Omolewa is been compelled to drop tears on her “Bridal Tears” ceremony against her will.... HD 13+ Run Run flees after killing the Prime Minister. Disguised as a wandering madman, memories of his childhood, wild adventures,... HD 13+ Light in the Dark In the face of unspeakable pain, Mr. and Mrs. Arinze (Kalu Ikeagwu and Rita Dominic) must find a way to live and love ag... HD 13+ P Over D Ailla, a single mom betrayed by her ex, seeks independence with her friend Ursula's help. She meets Theon, who initially... HD 13+ Fries A young woman fleeing an abusive relationship wakes",
+  "links": [
+   "https://homitv.com/",
+   "https://homitv.com/category/movies-genre",
+   "https://homitv.com/category/tv-series",
+   "https://homitv.com/category/pay-per-view",
+   "https://homitv.com/category/country",
+   "https://homitv.com/category",
+   "https://homitv.com/category/",
+   "https://play.google.com/store/apps/details?id=com.traytontech.homitv",
+   "https://apps.apple.com/in/app/homitv/id1615772489",
+   "https://homitv.com/#",
+   "https://play.google.com/store/apps/details?id=com.traytontechtv.homitv",
+   "https://homitv.com/subscription",
+   "https://homitv.com/content/about-us",
+   "https://homitv.com/content/terms-and-conditions",
+   "https://homitv.com/content/privacy-policy",
+   "https://homitv.com/content/faq",
+   "mailto:hello@homitv.com",
+   "tel:+13022859335",
+   "https://homitv.com/contact-us",
+   "https://www.threads.net/@homitv_?igshid=NTc4MTIwNjQ2YQ==",
+   "https://www.facebook.com/share/15NNKqB7jy/?mibextid=wwXIfr",
+   "https://x.com/homitv_?s=21&t=f-UU4YS2C2xOiy2YFNHRfA",
+   "https://www.instagram.com/homitv_?igsh=MTlzbDg1bHBwOGQxdg%3D%3D&utm_source=qr",
+   "https://youtu.be/gbvDtd1zP_k?si=NCdZCjiEkujnHHLi",
+   "https://vm.tiktok.com/ZMBYpQnCe/",
+   "https://cookiepedia.co.uk/giving-consent-to-cookies",
+   "https://www.onetrust.com/products/cookie-consent/"
+  ],
+  "iframes": [
+   "",
+   "https://js.stripe.com/v3/m-outer-0edadf75b42c6ef7240c043f3272f3f9.html#url=https%3A%2F%2Fhomitv.com%2F&title=Homi%20-%20African%20Movies%20%26%20TV%20Shows&referrer=&muid=NA&sid=NA&version=6&preview=false&__shared_params__[version]=v3"
+  ]
+ },
+ {
+  "url": "https://www.homi.tv",
+  "xhr": [],
+  "media": [],
+  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.homi.tv/",
+  "finalUrl": "https://homitv.com/",
+  "title": "",
+  "text": "",
+  "links": [],
+  "iframes": []
+ }
+]
