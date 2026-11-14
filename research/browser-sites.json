@@ -1,60 +1,30 @@
 {
- "_note": "Browser probe batch 2.",
+ "_note": "Browser probe batch 3: AVO TV, Revo+, Aforevo Max, Aflik.",
  "sites": [
   {
-   "name": "circuits",
-   "url": "https://circuits.tv/",
+   "name": "avo-player",
+   "url": "https://player.avo.tv/",
    "open": 3
   },
   {
-   "name": "circuits-www",
-   "url": "https://www.circuits.tv/",
+   "name": "avo-player-movies",
+   "url": "https://player.avo.tv/movies",
    "open": 3
   },
   {
-   "name": "afriplay",
-   "url": "https://afriplay.tv/",
+   "name": "revoplus",
+   "url": "http://revoplus.com/",
+   "open": 3
+  },
+  {
+   "name": "aforevo-max",
+   "url": "https://www.aforevo.com/max",
    "open": 2
   },
   {
-   "name": "afriplay-app",
-   "url": "https://www.afriplay.co/",
-   "open": 2
-  },
-  {
-   "name": "irokotv",
-   "url": "https://irokotv.com/",
-   "open": 2
-  },
-  {
-   "name": "nollyland",
-   "url": "https://www.nollyland.com/",
-   "open": 2
-  },
-  {
-   "name": "moreplex",
-   "url": "https://moreplex.com/",
-   "open": 2
-  },
-  {
-   "name": "aforevo",
-   "url": "https://aforevo.com/",
-   "open": 2
-  },
-  {
-   "name": "kava",
-   "url": "https://kava.tv/",
-   "open": 2
-  },
-  {
-   "name": "tundekelani",
-   "url": "https://tundekelani.tv/",
-   "open": 2
-  },
-  {
-   "name": "filmporte",
-   "url": "https://filmporte.com/",
-   "open": 2
+   "name": "afliktv-partners",
+   "url": "https://www.afliktv.com/distribution-partners",
+   "open": 1
   }
  ]
 }
