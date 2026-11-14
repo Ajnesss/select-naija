@@ -146,3 +146,12 @@ plain MP4/HLS/DASH and DRM licence calls. 40 sites tested in two batches.
 AVAZ: OTTera and Blue Pictures' Nollywood channel is a 24-hour FAST channel (live) on FAST platforms. `avaz.tv` is an
 unrelated Bosnian news site, and Blue Pictures' own "Avaz" page is its restaurant (Avaz Kitchen). No on-demand library
 or feed found. Result: no free, permitted, directly playable source in this round.
+
+## Round 7 (14 Nov 2026): free AVOD, archives, other free routes
+
+| Lead | Nigerian films? | Free? | UK? | Web player? | Delivery | Third-party playback | Titles |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| NolliStream (nollistream.com, apps v10) | Yes (claims 2,000+; new original "Blood & Secrets" 20 Nov) | Yes, with ads, account required | Apps listed in UK | Web onboarding at nollistream.net, sign-up wall | Own apps; press says DRM and automated piracy detection | **No.** Terms s.6: may not "circumvent DRM, copy, or pirate Content" or "use automated tools to scrape or access Content"; s.5 ads (pre/mid-roll) fund it; s.4 personal streaming licence only. No partner API or feed | 0 |
+| Edimulo (edimulo.com, Beauld Communications) | Preview lists 60 films/series from 21 countries | Planned free-with-ads tier | n/a | Preview only | n/a | **Not operational.** Site banner: "edimulo has not launched yet — nothing here takes payment and accounts are not live", launching late 2026. Producer portal studio.edimulo.com. Re-check after launch | 0 |
+| NFC National Film, Video and Sound Archive (Jos) | Yes | No public access | — | None | Physical/celluloid; restorations (Shaihu Umar 1976, Kulba Na Barna) shown at festivals, DVDs to universities | **No online access**; rights held by NFC | 0 |
+| Internet Archive (5,000 items surveyed, title by title, via `scripts/archive-survey.js`) | Nollywood items exist (e.g. Day Break 1997, Heartbeat, Crisis in the Family) | Yes | Yes | Yes | Direct MP4 | **No for Nollywood items**: all are third-party uploads with no licence or rights statement. Only 13 items carry a CC/PD licence and none is a Nigerian film (TV livestream, news clips, an American ethnographic short, NGO video) | 0 |
