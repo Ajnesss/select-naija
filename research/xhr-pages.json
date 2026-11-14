@@ -1,8 +1,6 @@
 {
- "muvidb": ["https://muvidb.com/browse", "https://muvidb.com/watch/youtube", "https://muvidb.com/watch/kava", "https://muvidb.com/films/dear-ajayi-2026", "https://muvidb.com/companies", "https://muvidb.com/channels"],
- "muvidb2": ["https://muvidb.com/watch/docuth", "https://muvidb.com/watch/homitv", "https://muvidb.com/watch/circuits", "https://muvidb.com/watch/nollistream", "https://muvidb.com/watch/filmporte"],
- "glotv": ["http://myglotv.com", "https://www.gloworld.com/ng/entertainment/glo-tv"],
- "docuth": ["https://docuth.com", "https://www.docuth.com"],
- "homitv": ["https://homitv.com", "https://www.homi.tv"],
- "amc": ["https://www.africanmoviechannel.tv/", "https://www.africanmoviechannel.tv/amcop"]
+ "elsmovies": ["https://elsmovies.com/", "https://elsmovies.com/stream/", "https://elsmovies.com/stream/register/", "https://elsmovies.com/faqs/", "https://elsmovies.com/movies/"],
+ "nollistream": ["https://nollistream.net/", "https://nollistream.net/movie/69acaa0ddb7b256f83cfcb50", "https://nollistream.net/movie/69cd12fa3b92960c76d15943", "https://nollistream.net/terms"],
+ "vumaplus": ["https://vumaplus.com/", "https://vumaplus.com/movies", "https://vumaplus.com/terms"],
+ "filmflux": ["https://www.filmflux.app/", "https://www.filmflux.app/movies", "https://www.filmflux.app/terms"]
 }
