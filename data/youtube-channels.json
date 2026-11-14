@@ -274,5 +274,89 @@
   "title": "YAKUBU MOHAMMED 2EFFECT TV",
   "exactName": true,
   "at": "2026-11-13T17:29:35.012Z"
+ },
+ "KAP Stream": {
+  "id": "UCPdsCoSqO4dZcnkX_4do6hA",
+  "title": "KAP STREAM",
+  "exactName": true,
+  "at": "2026-11-14T00:19:49.007Z"
+ },
+ "NollywoodLove": {
+  "id": "UCuoDa0ZOF0h9doIaJIkr8yA",
+  "title": "NOLLYWOOD STARS TV",
+  "exactName": false,
+  "at": "2026-11-14T00:19:50.113Z"
+ },
+ "YorubaLove": {
+  "id": "UC9dLAOkjoMGMopPGbX0KQog",
+  "title": "Yorubalove",
+  "exactName": true,
+  "at": "2026-11-14T00:19:50.480Z"
+ },
+ "Biodun Stephen TV": {
+  "id": "UCLgjn9SPLG7BxyuFB_uNfXQ",
+  "title": "BIODUNSTEPHEN TV",
+  "exactName": true,
+  "at": "2026-11-14T00:19:51.326Z"
+ },
+ "Chioma Chukwuka TV": {
+  "id": "UCiZWyHYEvZO-1MFIxy1ojQg",
+  "title": "The Chioma Chukwuka TV",
+  "exactName": true,
+  "at": "2026-11-14T00:19:56.939Z"
+ },
+ "AMCChannels": {
+  "id": "UCHvs-WorIs9XvNMw4Jl1O_A",
+  "title": "AMCChannels",
+  "exactName": true,
+  "at": "2026-11-14T00:19:57.501Z"
+ },
+ "Okiki Premium TV": {
+  "id": "UC9HDrOalDVN0Wv-Q7zTkQCg",
+  "title": "Okiki Premium TV",
+  "exactName": true,
+  "at": "2026-11-14T00:20:01.609Z"
+ },
+ "YorubaPlay": {
+  "id": "UCdYgV-WJEog1H_PxN45cNWg",
+  "title": "YORUBAPLAY",
+  "exactName": true,
+  "at": "2026-11-14T00:20:05.026Z"
+ },
+ "Scene One TV": {
+  "id": "UCf9vGBrxWtIg5z1cnUOfw6A",
+  "title": "SceneOne TV",
+  "exactName": true,
+  "at": "2026-11-14T00:20:05.798Z"
+ },
+ "NollyReel": {
+  "id": "UC6izPafX_9ydQCa7xctxcuQ",
+  "title": "NollyReel",
+  "exactName": true,
+  "at": "2026-11-14T00:20:06.350Z"
+ },
+ "NollyNetwork": {
+  "id": "UCjS6UnmKjrBX3krk8oVZocg",
+  "title": "nollynetwork",
+  "exactName": true,
+  "at": "2026-11-14T00:20:09.910Z"
+ },
+ "Movie More": {
+  "id": "UCA_cLbPgQBD9mOCVPdToE1Q",
+  "title": "Mora Films",
+  "exactName": false,
+  "at": "2026-11-14T00:20:13.425Z"
+ },
+ "Waka TV": {
+  "id": "UCG5S2OAoB0Wbzfb9Ko1zxEw",
+  "title": "Waka Waka Tv",
+  "exactName": true,
+  "at": "2026-11-14T00:20:13.854Z"
+ },
+ "Syworld TV": {
+  "id": "UCk2uFrypitn-3yp_j-lvHfg",
+  "title": "SY WORLD",
+  "exactName": true,
+  "at": "2026-11-14T00:20:15.018Z"
  }
 }

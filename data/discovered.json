@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-13T17:15:34.054Z",
+ "generatedAt": "2026-11-14T00:18:31.512Z",
  "source": "TMDB discover, UK availability from JustWatch",
  "entries": [
   {
@@ -3247,7 +3247,7 @@
      "access": "ads"
     }
    ],
-   "watchLink": "https://www.themoviedb.org/movie/1272353/watch?locale=GB"
+   "watchLink": "https://www.themoviedb.org/movie/1272353-adam-bol/watch?locale=GB"
   },
   {
    "title": {
@@ -3316,6 +3316,11 @@
     }
    },
    "offers": [
+    {
+     "providerName": "Tubi TV",
+     "tmdbProviderId": 73,
+     "access": "ads"
+    },
     {
      "providerName": "Amazon Prime Video",
      "tmdbProviderId": 9,

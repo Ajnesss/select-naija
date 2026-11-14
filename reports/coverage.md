@@ -1,6 +1,6 @@
 # Select Naija coverage report
 
-Generated 2026-11-13T17:41:40.028Z. Links last verified 2026-11-13T17:41:39.986Z.
+Generated 2026-11-14T00:29:24.685Z. Links last verified 2026-11-14T00:29:24.637Z.
 A title counts as covered only if a verified Select Naija link is shown for it.
 
 ## Test catalogue by group
@@ -14,17 +14,74 @@ A title counts as covered only if a verified Select Naija link is shown for it.
 
 | Language | Catalogued | Covered | Coverage | Without TMDB/IMDb ID |
 | --- | --- | --- | --- | --- |
-| English | 12724 | 11095 | 87.2% | 12528 |
-| Yoruba | 929 | 811 | 87.3% | 882 |
-| Igbo | 1441 | 1417 | 98.3% | 1426 |
+| English | 14575 | 12949 | 88.8% | 14379 |
+| Yoruba | 979 | 861 | 87.9% | 932 |
+| Igbo | 1450 | 1426 | 98.3% | 1434 |
 | Hausa | 411 | 405 | 98.5% | 405 |
 | fr | 1 | 0 | 0% | 1 |
 
-## Watchable titles by service
+## Source breakdown (plays inside Nuvio)
 
-| Service | Titles |
+14150 playable titles; 14150 (100%) rely on YouTube alone.
+
+| Provider | Playable titles |
 | --- | --- |
-| YouTube | 12252 |
+| YouTube | 14150 |
+
+| Provider: channel | Playable titles |
+| --- | --- |
+| YouTube: AFOREVO STAGE | 2152 |
+| YouTube: Nigerian Movies Plus | 1964 |
+| YouTube: Nollywoodpicturestv | 1784 |
+| YouTube: BTAtv | 1452 |
+| YouTube: SY WORLD | 1223 |
+| YouTube: Nollywood RealnollyTV | 902 |
+| YouTube: ROCKCELLY NOLLYWOOD FILMS TV | 864 |
+| YouTube: Uche Nancy tv | 711 |
+| YouTube: NollyReel | 368 |
+| YouTube: APATATV+ | 345 |
+| YouTube: AREWA24 | 262 |
+| YouTube: RuthKadiri247 | 176 |
+| YouTube: LibraTv | 173 |
+| YouTube: Uchenna Mbunabo Tv | 166 |
+| YouTube: Global Update Movies Nollywood | 162 |
+| YouTube: FAAN TV | 159 |
+| YouTube: OrjiTv | 118 |
+| YouTube: nollynetwork | 113 |
+| YouTube: Omoni Oboli TV | 104 |
+| YouTube: Maurice Sam TV | 101 |
+| YouTube: AMCChannels | 75 |
+| YouTube: TK ÒPÓMÚLÉRÓ | 75 |
+| YouTube: Uduak Isong TV | 74 |
+| YouTube: OLUCHI AFUNDU TV | 67 |
+| YouTube: ChinneyLoveEze Tv | 66 |
+| YouTube: Sonia Uche Tv | 59 |
+| YouTube: Chinenye Nnebe | 51 |
+| YouTube: Okiki Premium TV | 50 |
+| YouTube: ABNUR ENTERTAINMENT | 43 |
+| YouTube: SANDRA OKUNZUWA TV | 42 |
+| YouTube: YAKUBU MOHAMMED 2EFFECT TV | 41 |
+| YouTube: Frederick Leonard TV. | 40 |
+| YouTube: BIODUNSTEPHEN TV | 36 |
+| YouTube: GEORGINA IBEH TV | 33 |
+| YouTube: EDDIE WATSON TV | 30 |
+| YouTube: Uche Montana TV | 25 |
+| YouTube: Maishadda Global Resources | 19 |
+| YouTube: Waka Waka Tv | 19 |
+| YouTube: Neptune3 Studios | 18 |
+| YouTube: Bimbo Ademoye TV | 16 |
+| YouTube: UK ENTERTAINMENT | 15 |
+| YouTube: Bconceptnetwork | 14 |
+| YouTube: BAKORI TV | 14 |
+| YouTube: IBAKATV | 10 |
+| YouTube: The Chioma Chukwuka TV | 9 |
+| YouTube: Saira Movies | 8 |
+| YouTube: KAP STREAM | 7 |
+| YouTube: Regina Daniels Tv | 4 |
+| YouTube: YORUBAPLAY | 3 |
+| YouTube: EbonyLife Films | 1 |
+| YouTube: Lilin Baba | 1 |
+| YouTube: SceneOne TV | 1 |
 
 ## Providers
 
@@ -32,8 +89,8 @@ A title counts as covered only if a verified Select Naija link is shown for it.
 | --- | --- | --- | --- | --- | --- |
 | Tubi | 40 | 0% | 100% | 100% | 1 |
 | Plex | 100 | 100% | 100% | 100% | 1 |
-| Select Naija test file | 100 | 100% | 100% | 100% | 20 |
-| YouTube | 100 | 100% | 100% | 100% | 5 |
+| Select Naija test file | 100 | 100% | 100% | 100% | 21 |
+| YouTube | 100 | 100% | 100% | 100% | 6 |
 
 ## Gaps: test titles with no verified source
 
