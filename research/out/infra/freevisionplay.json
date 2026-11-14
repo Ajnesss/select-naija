@@ -1,0 +1,13 @@
+[
+ {
+  "url": "https://freevisionplay.com",
+  "finalUrl": "chrome-error://chromewebdata/",
+  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://freevisionplay.com/",
+  "title": "",
+  "walls": [],
+  "fingerprints": {},
+  "media": [],
+  "iframes": [],
+  "text": ""
+ }
+]
