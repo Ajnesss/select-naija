@@ -1,0 +1,44 @@
+[
+ {
+  "url": "https://avaz.tv",
+  "finalUrl": "https://avaz.ba/avaz-tv",
+  "status": 200,
+  "title": "Avaz TV",
+  "walls": [],
+  "fingerprints": {
+   "jwplayer": [
+    "https://cdn.jwplayer.com/libraries/ReyKBDfI.js",
+    "https://cdn.jwplayer.com/players/0pG6uh7v-y2WCXTBX.html",
+    "https://cdn.jwplayer.com/players/smyAuPCZ-sTbdfRPb.html",
+    "https://cdn.jwplayer.com/players/8nm5afui-sTbdfRPb.html"
+   ],
+   "youtube": [
+    "https://www.youtube.com/embed/tgIQMvKdUxI",
+    "https://www.youtube.com/embed/FruK8oZ7W1c?si=tg7yAnA5upYn0Xxt",
+    "https://www.youtube.com/embed/9ua3yighekA?si=T88VZ4-nxdYWDoBY",
+    "https://www.youtube.com/embed/f_3TJFltnX0?si=nSWubcvqhrQFYOVP"
+   ]
+  },
+  "media": [
+   "https://vcdn.avaz.ba/1791575551000-ygk35aZAtBE0Z33o%20%282%29.mp4",
+   "https://vcdn.avaz.ba/1791575339392-bandicut-0.00-15.00.mp4",
+   "https://vcdn.avaz.ba/1788151543982-DXJOT-i5HDbGoQOJ.mp4",
+   "https://vcdn.avaz.ba/1781422722331-TnnsZ0NWSa5D5S0j.mp4",
+   "https://vcdn.avaz.ba/1780868758662-nJk6jXIAnuSgQE7G.mp4",
+   "https://vcdn.avaz.ba/1780868719360-tNpPs_p_sRmYyXGK.mp4",
+   "https://vcdn.avaz.ba/1777989073655-2b6b5854-50a0-46d6-a126-37785e8a509c.mp4",
+   "https://vcdn.avaz.ba/1777786641695-AQMC5YcpvIqIn8-jc08yTd5zefO-eu-xxmD0Cb5c6ySNYMW-kFvCZLgI9XI6hoc9-97cJI4QfwyLW99eYvjInDG5i4evh7kd%20%282%29.mp4",
+   "https://vcdn.avaz.ba/1777726710345-AQNvH8kvDWogTSEKlKYVJq5fH2-6DG6UlY0x7y7lDxuSX_yfMs9Og81iNb8jqka0EsS7IaGdN5z7k7cnypd5cuKHG-WBwmTnz6zttpC7MQ.mp4",
+   "https://vcdn.avaz.ba/1776677260421-AQN54uzZMSpeEyllZAVVIywwO3R7XUJhv08FyXZiqExnoK_KSR0IEcLv31vJUM8BjXP7CsejYJcV42uiOdYWSCZlE0vqiT-QYLgcFLB3CA.mp4"
+  ],
+  "iframes": [
+   "https://googleads.g.doubleclick.net/pagead/ads?gdpr=0&us_privacy=1---&gpp_sid=-1&client=ca-pub-9923238532781884&output=html&adk=1812271804&adf=3025194257&abgtt=1&lmt=1794653682&plat=2%3A16777216%2C3%3A16%2C4%3A16%2C9%3A32%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32%2C43%3A32%2C44%3A32&format=0x0&url=https%3A%2F%2Favaz.ba%2Favaz-tv&pra=5&aiof=14&asro=0&aimartd=4&aieuf=1&aicrs=1&uach=WyJXaW5kb3dzIiwiMTAuMCIsIng2NCIsIiIsIjEzMS4wLjY3NzguMzMiLG51bGwsMCxudWxsLCI2NCIsW1siSGVhZGxlc3NDaHJvbWUiLCIxMzEuMC42Nzc4LjMzIl0sWyJDaHJvbWl1bSIsIjEzMS4wLjY3NzguMzMiXSxbIk5vdF9BIEJyYW5kIiwiMjQuMC4wLjAiXV0sMF0.&dt=1794653681857&bpp=12&bdt=369&idt=389&shv=r20261112&mjsv=m202611100101&ptt=9&saldr=aa&abxe=1&cookie_enabled=1&eoidce=1&nras=1&correlator=28164962401&frm=20&pv=2&u_tz=0&u_his=2&u_h=720&u_w=1280&u_ah=720&u_aw=1280&u_cd=24&u_sd=1&dmc=8&adx=-12245933&ady=-12245933&biw=1280&bih=720&scr_x=0&scr_y=0&eid=95401823%2C95404669%2C95408908%2C95409066%2C95409325%2C95409874%2C122882144&oid=2&pvsid=639345471353325&tmod=1332931286&uas=0&nvt=1&fsapi=1&fc=1920&brdim=0%2C0%2C0%2C0%2C1280%2C0%2C1280%2C720%2C1280%2C720&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=32768&bc=31&bz=1&pgls=CAk.&ifi=1&uci=a!1&fsb=1&dtd=477",
+   "about:blank",
+   "about:blank",
+   "about:blank",
+   "about:blank",
+   "about:blank"
+  ],
+  "text": "NASLOVNICA AVAZOV INTERVJU OSTALO OTVORILI DUŠU Porodični rat zbog Aldine Bajić i Adisa: Braća i majka otkrili šta se krilo iza zatvorenih vrata FGR Podcast Nedim Makarević: Bh. političari neka prestanu napadati Trampa, to je suicid Adela Ramić: Komunizam i religija u BiH nas uče da mrzimo bogatstvo Faruk Hadžić: Telemach ima dugove, to će sigurno utjecati na samu cijenu Uk: Tito je i mrtav dobrodošao u Sarajevo, Benjamina bi me pobijedila na izborima Crvena olovka Šuvalić otkrio: Ponudili smo r"
+ }
+]

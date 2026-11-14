@@ -1,0 +1,13 @@
+[
+ {
+  "url": "https://inkblotproductions.com",
+  "finalUrl": "chrome-error://chromewebdata/",
+  "status": "error page.goto: net::ERR_CONNECTION_CLOSED at https://inkblotproductions.com/",
+  "title": "",
+  "walls": [],
+  "fingerprints": {},
+  "media": [],
+  "iframes": [],
+  "text": ""
+ }
+]
