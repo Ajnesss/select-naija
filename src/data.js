@@ -36,6 +36,36 @@ const { credentialsFor } = require('./resolvers/dailymotion');
 // In-app only: Select Naija shows a stream only if it plays inside Nuvio's own player. Links that open a
 // browser or another app are kept in the data (and still checked) but never shown, and titles with no
 // in-app stream leave the rows. SELECT_NAIJA_IN_APP_ONLY=0 shows external links again.
+
+/** Total minutes of a channel title (all parts), or null for titles without parts. */
+function totalMinutes(t) {
+  const parts = t.parts || [];
+  return parts.length ? parts.reduce((n, p) => n + (p.minutes || 0), 0) : null;
+}
+
+/**
+ * Are two same-named titles the same film or show? Video-channel uploads carry no reliable release year (the
+ * upload year), and Nollywood reuses names a lot, so for them the running time decides: within 5% (or 4 minutes),
+ * or within 15% when they also share a credited actor. Series need matching episode lengths. Catalogue/TMDB titles
+ * keep the release-year rule.
+ */
+function sameWork(a, b) {
+  const ma = totalMinutes(a);
+  const mb = totalMinutes(b);
+  if (ma && mb) {
+    const diff = Math.abs(ma - mb);
+    const sharesCast = (a.cast || []).some((c) => (b.cast || []).includes(c));
+    return diff <= Math.max(4, 0.05 * Math.max(ma, mb)) || (sharesCast && diff <= 0.15 * Math.max(ma, mb));
+  }
+  if (a.episodes?.length && b.episodes?.length) {
+    const len = new Map(a.episodes.map((e) => [`${e.season}:${e.episode}`, e.minutes]));
+    const shared = b.episodes.filter((e) => len.has(`${e.season}:${e.episode}`));
+    const matching = shared.filter((e) => Math.abs((len.get(`${e.season}:${e.episode}`) || 0) - (e.minutes || 0)) <= 2);
+    return shared.length >= 2 && matching.length >= 0.6 * shared.length;
+  }
+  return !a.year || !b.year || Math.abs(a.year - b.year) <= 1;
+}
+
 function loadData(
   dataDir,
   {
@@ -262,7 +292,7 @@ function loadData(
       list.sort((a, b) => rank(a) - rank(b) || size(b) - size(a));
       const kept = [];
       for (const t of list) {
-        const home = kept.find((k) => !t.year || !k.year || Math.abs(k.year - t.year) <= 1);
+        const home = kept.find((k) => sameWork(k, t));
         if (!home) {
           kept.push(t);
           continue;

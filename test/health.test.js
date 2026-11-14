@@ -17,7 +17,7 @@ function setup(health) {
   d.providers.providers.push({ id: 'youtube', name: 'YouTube', access: 'free', unavailableMarkers: [] });
   const dir = writeData(d);
   const film = (id, name, source, parts, t) => ({ id, type: 'movie', name, year: 2026, languages: ['en'], genres: ['Drama'], category: 'film',
-    channelName: source, uploadedAt: t, parts: parts.map((v, i) => ({ part: i + 1, videoId: v, minutes: 60 })) });
+    channelName: source, uploadedAt: t, parts: parts.map((v, i) => ({ part: i + 1, videoId: v, minutes: 120 / parts.length })) });
   fs.writeFileSync(path.join(dir, 'youtube.json'), JSON.stringify({ generatedAt: hoursAgo(1), titles: [
     film('snaija-yt-a', 'Alpha', 'Channel One', ['a1', 'a2'], hoursAgo(5)),
     film('snaija-yt-a2', 'Alpha', 'Channel Two', ['b1'], hoursAgo(6)),
@@ -68,4 +68,26 @@ test('streams: confirmed-playing source first, its parts kept together; failed p
   assert.match(streams[0].name, /HD/);
   const blocked = setup({ a1: ok, a2: ok, b1: applyPlayback(ok, { result: 'error', code: 101 }, hoursAgo(1)) });
   assert.deepStrictEqual((await buildStreams('movie', 'snaija-yt-a', blocked, { now: NOW })).map((s) => s.ytId), ['a1', 'a2']);
+});
+
+test('same-named films merge only when their running times match', () => {
+  const d = baseData();
+  d.providers.providers.push({ id: 'youtube', name: 'YouTube', access: 'free', unavailableMarkers: [] });
+  const dir = writeData(d);
+  const f = (id, ch, year, minutes, cast = []) => ({ id, type: 'movie', name: 'Dark Secret', year, languages: ['en'], channelName: ch, cast, parts: [{ part: 1, videoId: id.slice(-11), minutes }] });
+  fs.writeFileSync(path.join(dir, 'youtube.json'), JSON.stringify({ generatedAt: hoursAgo(1), titles: [
+    f('snaija-yt-x-aaaaaaaaaaa', 'Omoni Oboli TV', 2024, 102),
+    f('snaija-yt-x-bbbbbbbbbbb', 'Nigerian Movies Plus', 2025, 162),
+    f('snaija-yt-x-ccccccccccc', 'Rockcelly', 2023, 162),
+    f('snaija-yt-x-ddddddddddd', 'Another', 2024, 118, ['Ada Ameh']),
+    f('snaija-yt-x-eeeeeeeeeee', 'Omoni Oboli TV 2', 2026, 107, ['Ada Ameh']),
+  ] }));
+  const data = loadData(dir, { now: NOW, inAppOnly: true });
+  const rows = queryCatalog('movie', 'snaija-search', { search: 'dark secret' }, data, NOW);
+  // 102 ≈ 107 (within 5%) → one film; 162 = 162 across years → one film; 118 shares cast with 107 but is 10% off and
+  // 107 already belongs to the 102-minute film, so: {102,107,118?}. Expect at most 3 rows and never 102 with 162.
+  const merged = [...data.alias.entries()];
+  assert.ok(merged.every(([a, b]) => !((a.endsWith('bbbbbbbbbbb') || a.endsWith('ccccccccccc')) && b.endsWith('aaaaaaaaaaa'))));
+  assert.ok(merged.some(([a, b]) => [a, b].some((x) => x.endsWith('bbbbbbbbbbb')) && [a, b].some((x) => x.endsWith('ccccccccccc'))));
+  assert.ok(rows.length >= 2 && rows.length <= 3);
 });

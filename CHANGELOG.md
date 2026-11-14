@@ -8,6 +8,7 @@
 - Stream order: confirmed playing → available per API → HD before SD; a film's parts from one channel stay together and the option is ranked by its weakest part.
 - Stream text says which: "✓ played in YouTube's player 2 days ago" or "available on YouTube, not yet play-tested".
 - Nightly report: stream health section.
+- Duplicate matching fixed: same-named uploads from different channels are merged only when their running times match (within 5% or 4 minutes, 15% with a shared actor). The old year rule merged about 135 pairs of different films that share a name; those are now separate titles, so a stream is never for the wrong film.
 
 ## 0.4.0 (14 Nov 2026)
 

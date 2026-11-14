@@ -179,15 +179,15 @@ test('the same film from several channels becomes one title with every stream; o
   const d = baseData();
   d.providers.providers.push({ id: 'youtube', name: 'YouTube', access: 'free' }, { id: 'dailymotion', name: 'Dailymotion', access: 'ads' });
   fs.writeFileSync(path.join(dir, 'providers.json'), JSON.stringify(d.providers));
-  const film = (id, channelName, year, vid) => ({ id, type: 'movie', name: 'Ikemba', year, languages: ['en'], channel: channelName, channelName, parts: [{ part: 1, videoId: vid, minutes: 90 }] });
+  const film = (id, channelName, year, vid, minutes = 90) => ({ id, type: 'movie', name: 'Ikemba', year, languages: ['en'], channel: channelName, channelName, parts: [{ part: 1, videoId: vid, minutes }] });
   fs.writeFileSync(path.join(dir, 'youtube.json'), JSON.stringify({ generatedAt: hoursAgo(1), titles: [
     film('snaija-yt-ikemba-2023', 'BTAtv', 2023, 'aaaaaaaaaaa'),
     film('snaija-yt-ikemba-2024', 'RealnollyTV', 2024, 'bbbbbbbbbbb'),
-    film('snaija-yt-ikemba-2019', 'Old channel', 2019, 'ccccccccccc'),
+    film('snaija-yt-ikemba-2019', 'Old channel', 2019, 'ccccccccccc', 58),
   ] }));
   const data = loadData(dir, { now: NOW, inAppOnly: true });
   const rows = queryCatalog('movie', 'snaija-english', {}, data, NOW).filter((m) => m.name === 'Ikemba');
-  assert.equal(rows.length, 2); // 2023+2024 merged, 2019 is a different film
+  assert.equal(rows.length, 2); // 2023+2024 merged (same running time), the 58-minute upload is a different film
   const kept = rows.find((m) => m.id !== 'snaija-yt-ikemba-2019').id;
   const streams = await buildStreams('movie', kept, data, { now: NOW });
   assert.equal(streams.length, 2);
