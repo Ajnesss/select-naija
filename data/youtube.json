@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-14T00:19:27.763Z",
+ "generatedAt": "2026-11-14T10:28:26.396Z",
  "channels": {
   "UCbvdwZvZgdl-pPyomEmaEfg": {
    "name": "Omoni Oboli TV",
    "subscribers": 2110000,
-   "videos": 1328,
+   "videos": 1329,
    "films": 104
   },
   "UC83tx3zGcvQ_rXzsZigTnEA": {
@@ -88,7 +88,7 @@
   "UCRpVhC2Mv9B-CIhYXGb0IdA": {
    "name": "Nollywood RealnollyTV",
    "subscribers": 1920000,
-   "videos": 6219,
+   "videos": 6221,
    "films": 902
   },
   "UCm6NRZvIcYwpj79CIa1Lj9g": {
@@ -196,12 +196,12 @@
   "UCB4TZvSKXjSx2pyJG-zIxsQ": {
    "name": "TK ÒPÓMÚLÉRÓ",
    "subscribers": 115000,
-   "videos": 586,
+   "videos": 587,
    "films": 75
   },
   "UCK3bMasl8sG4wiahoUpBLnQ": {
    "name": "Chinenye Nnebe",
-   "subscribers": 734000,
+   "subscribers": 735000,
    "videos": 280,
    "films": 51
   },
@@ -332,7 +332,7 @@
   "UCjS6UnmKjrBX3krk8oVZocg": {
    "name": "nollynetwork",
    "subscribers": 223000,
-   "videos": 290,
+   "videos": 291,
    "films": 113
   },
   "UCA_cLbPgQBD9mOCVPdToE1Q": {
@@ -355,6 +355,13 @@
   "undefined": {
    "error": "no channel found for \"Nollyvids\"",
    "keptFromPreviousRun": 0
+  },
+  "UCgk6r-2ebeVkwaEXMtmXkiw": {
+   "name": "EL'S NOLLY TV ",
+   "handle": "@elsnollytv77",
+   "subscribers": 10100,
+   "videos": 225,
+   "films": 33
   }
  },
  "titles": [
@@ -49850,7 +49857,7 @@
    "category": "film",
    "genres": [],
    "cast": [],
-   "runtime": "236 min",
+   "runtime": "293 min",
    "description": "Welcome to Nollywood RealNolly TV – your home for the best Nollywood movies, Nigerian films, and African love stories! On this channel, you’ll enjoy the latest Nollywood movies 2026, trending Nigerian movies, romantic love stories, family dramas, and emotional African storytelling that will keep yo",
    "poster": "https://i.ytimg.com/vi/aUL4sPbgGJE/maxresdefault.jpg",
    "posterShape": "landscape",
@@ -49897,6 +49904,16 @@
     {
      "part": 8,
      "videoId": "lyHSBm8luQI",
+     "minutes": 28
+    },
+    {
+     "part": 9,
+     "videoId": "HvYbVmRt28M",
+     "minutes": 29
+    },
+    {
+     "part": 10,
+     "videoId": "2wdq6pYFYis",
      "minutes": 28
     }
    ],
@@ -511567,6 +511584,1012 @@
     }
    ],
    "channelName": "SY WORLD"
+  },
+  {
+   "id": "snaija-yt-the-kidnap-2026",
+   "type": "series",
+   "name": "The Kidnap",
+   "aliases": [],
+   "year": 2026,
+   "languages": [
+    "en"
+   ],
+   "category": "series",
+   "genres": [],
+   "poster": "https://i.ytimg.com/vi/TOGgz4aZ_cM/hqdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "videos": [
+    {
+     "season": 3,
+     "episode": 17,
+     "released": "2026-03-21T15:40:20.000Z"
+    }
+   ],
+   "episodes": [
+    {
+     "season": 3,
+     "episode": 17,
+     "videoId": "TOGgz4aZ_cM",
+     "minutes": 22,
+     "released": "2026-03-21T15:40:20.000Z"
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-big-girl-2026",
+   "type": "series",
+   "name": "Big Girl",
+   "aliases": [],
+   "year": 2026,
+   "languages": [
+    "en"
+   ],
+   "category": "series",
+   "genres": [],
+   "description": "BIG GIRL EL'S LOUNGE SEASON 3 EPISODE 16 -COMEDY OVERLOAD #NIGERIANCINEMA #FUNNY #COMEDY #SOKOHTV #AFRICANFILMS #ENGLISH #GERMANY #MOVIE #WESTAFRICA #SOUTHAFRICA #KENYA #FILM #CONGO #NAMIBIA #TURKEY #GHANA #NIGERIA #NIGER #GAMBIA #MOZAMBIQUE #ANGOLA #TURKEY #GHANA #ENTERTAINMENT #WESTAFRICA #EASTAF",
+   "poster": "https://i.ytimg.com/vi/7-StWF6bRc0/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "videos": [
+    {
+     "season": 1,
+     "episode": 16,
+     "released": "2026-03-18T17:53:15.000Z"
+    }
+   ],
+   "episodes": [
+    {
+     "season": 1,
+     "episode": 16,
+     "videoId": "7-StWF6bRc0",
+     "minutes": 22,
+     "released": "2026-03-18T17:53:15.000Z"
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-get-a-job-2026",
+   "type": "series",
+   "name": "Get a Job",
+   "aliases": [],
+   "year": 2026,
+   "languages": [
+    "en"
+   ],
+   "category": "series",
+   "genres": [],
+   "description": "EL'S LOUNGE SEASON 3 EPISODE 15#2026 #africanfilms ##comedy #sokohtv #comedy #africanfilms #westafrica #eastafrica #nigeria #niger #turkey #ghana #togo #liberia #english #germany #movie #westafrica #southafrica #kenya #film #comedy #africanfilms #mrfunny #mrmacaroni #sokohtv #funny #mrfunny #brodash",
+   "poster": "https://i.ytimg.com/vi/hJ2KSTT56ho/hqdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "videos": [
+    {
+     "season": 3,
+     "episode": 15,
+     "released": "2026-02-24T20:17:49.000Z"
+    }
+   ],
+   "episodes": [
+    {
+     "season": 3,
+     "episode": 15,
+     "videoId": "hJ2KSTT56ho",
+     "minutes": 22,
+     "released": "2026-02-24T20:17:49.000Z"
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-what-love-is-2026-nancy-isime-2026",
+   "type": "movie",
+   "name": "What Love Is _ 2026 Nancy Isime",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "101 min",
+   "description": "WHAT LOVE IS 2026 NOLLYWOOD MOVIE #MOVIE #WESTAFRICA #SOUTHAFRICA #KENYA #FILM #CONGO #NAMIBIA #TURKEY #GHANA #NIGERIA #NIGER #GAMBIA #MOZAMBIQUE #ANGOLA #TURKEY #GHANA #NIGERIA #NIGER #GAMBIA #MOZAMBIQUE #ANGOLA #TURKEY COLOMBIA #AFRICANFILMS #ENGLISH #GERMANY #MOVIE #AFRICANFILMS #MRFUNNY #SOKOHTV",
+   "poster": "https://i.ytimg.com/vi/tKGDoDoGlgo/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "tKGDoDoGlgo",
+     "minutes": 101
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-nollywood-blockbuster-2026",
+   "type": "movie",
+   "name": "Nollywood Blockbuster",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "87 min",
+   "description": "LATEST NOLLYWOOD BLOCKBUSTER #NOLLYWOOD #GHANA #NIGERIA #NOLLYWOOD #FILM #ENGLISH #SOUTHAFRICA #SOUTHSUDAN #SOUTHKOREA #SOUTHSUDAN #SOUTHKOREA #SOUTHSUDAN #MOVIE #FILM #SCOTLAND #WALES #POLAND #MACEDONIA#FILM #CYPRUS#MACEDONIA #CYPRUS #EARTH #EVERYONE #AFRICANFILMS #WESTAFRICA #GAMBIA #MOZAMBIQUE #A",
+   "poster": "https://i.ytimg.com/vi/F3uahcSbnUc/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "F3uahcSbnUc",
+     "minutes": 87
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-nedu-is-geh-geh-student-on-this-one-2025",
+   "type": "movie",
+   "name": "Nedu Is Geh Geh Student on This One",
+   "aliases": [],
+   "year": 2025,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "71 min",
+   "description": "MOVIE TITTLE 🎬 EMEKA CHINA PART 2#NEDU WAZOBIA #AARON SUNDAY #CHINONSO ARUBAYI #MAURICE SAM#UCHEMBUNABO##RUTHKADIRI247#nollywoodmovie #africanfilms #turkey #nigeria #ghana #comedy #niger #togo #movie #westafrica #mrfunny ##sokohtv #film #togo #liberia #2025 #sokohtv #ogabasseytv #mrmacaroni #waptv",
+   "poster": "https://i.ytimg.com/vi/9Aun70_ELG4/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "9Aun70_ELG4",
+     "minutes": 71
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-ghetto-christmas-2-etinosa-idemudia-2025",
+   "type": "movie",
+   "name": "Ghetto Christmas 2 Etinosa Idemudia",
+   "aliases": [],
+   "year": 2025,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "60 min",
+   "description": "GHETTO CHRISTMAS 2025 ETINOSA IDEMUDIA CHRISTMAS MOVIE #ETINOSATV #BABAREXTV #FUNNY #COMEDY #SOKOHTV #AFRICANFILMS #ENGLISH #GERMANY #MOVIE #WESTAFRICA #SOUTHAFRICA #KENYA #FILM #CONGO #NAMIBIA #TURKEY #GHANA #NIGERIA #NIGER #GAMBIA #MOZAMBIQUE #ANGOLA #TURKEY##SOUTHAFRICA #SOUTHSUDAN #SOUTHKOREA #S",
+   "poster": "https://i.ytimg.com/vi/ReNzC_uzJ18/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "ReNzC_uzJ18",
+     "minutes": 60
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-el-s-lounge-full-2025",
+   "type": "movie",
+   "name": "El's Lounge Full",
+   "aliases": [],
+   "year": 2025,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "33 min",
+   "description": "EL’S LOUNGE #africanfilms #nollywoodmovie#christmas #merrychristmas",
+   "poster": "https://i.ytimg.com/vi/6DsMBay0XK0/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "parts": [
+    {
+     "part": 6,
+     "videoId": "6DsMBay0XK0",
+     "minutes": 33
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-ghetto-christmas-2025",
+   "type": "movie",
+   "name": "Ghetto Christmas",
+   "aliases": [],
+   "year": 2025,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "59 min",
+   "description": "GHETTO CHRISTMAS 📽📽🤣🤣🤣🤣2025 CHRISTMAS MOVIE FROM THE STABLES OF EL'S MOVIES GLOBAL 🎬FEATURING 🤠#etinosatv#babarextv#comedy#africanfilms #comedy #movie #africanfilms #funny #togo #nigeria #westafrica #turkey #ghana #mrfunny #nollywoodmovie #merrychristmas #christmas #everyone #ghana #togo #l",
+   "poster": "https://i.ytimg.com/vi/OYXgwapSs7k/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "OYXgwapSs7k",
+     "minutes": 59
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-el-s-lounge-2025",
+   "type": "movie",
+   "name": "El's Lounge",
+   "aliases": [],
+   "year": 2025,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "39 min",
+   "poster": "https://i.ytimg.com/vi/h2Lho7IUwzw/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "h2Lho7IUwzw",
+     "minutes": 39
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-ekelebe-community-2025",
+   "type": "movie",
+   "name": "Ekelebe Community",
+   "aliases": [],
+   "year": 2025,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "45 min",
+   "description": "EKELEBE COMMUNITY SEASON 1_#africanfilms #english #ghana #Nigeria #togo #liberia #2025 #sokohtv #ogabasseytv #mrmacaroni #waptv #funny #mrfunny #brodashaggi #comedy #entertainment #africanfilms #westafrica #eastafrica #nigeria #niger #turkey #ghana #togo #liberia #2025 #sokohtv #ogabasseytv #mrmacar",
+   "poster": "https://i.ytimg.com/vi/9uu-X4P37x8/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "9uu-X4P37x8",
+     "minutes": 45
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-mama-g-the-landlady-patience-ozorkwor-ogabassey-adesuwa-ogechi-udo-2025-2025",
+   "type": "movie",
+   "name": "Mama G the Landlady _ Patience Ozorkwor _ Ogabassey _adesuwa Ogechi Udo _2025",
+   "aliases": [],
+   "year": 2025,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "110 min",
+   "description": "MAMA G THE LANDLADY _#africanfilms #nigerianmovie ##togo #liberia #2025 #sokohtv #ogabasseytv #mrmacaroni #waptv #funny #mrfunny #brodashaggi #comedy #entertainment #africanfilms #westafrica #eastafrica #nigeria #niger #turkey #ghana #togo #liberia #2025 #mercyjohnsonokojie #everyone #funny #togo #n",
+   "poster": "https://i.ytimg.com/vi/OhmqwXNetPA/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "OhmqwXNetPA",
+     "minutes": 110
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-single-mother-closer-kevin-mike-2025",
+   "type": "movie",
+   "name": "Single Mother (Closer) Kevin Mike",
+   "aliases": [],
+   "year": 2025,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "60 min",
+   "description": "single mother #westafrica #nollywood #movie #westafrica #nigeriancinema #africanfilms #nigeria #nollywood #togo ##southafrica #southsudan #namibia #turkey #ghana #togo #Nigeria #movie #westafrica #southafrica #kenya #film #comedy #africanfilms #mrmacaroni #uchenancytv",
+   "poster": "https://i.ytimg.com/vi/6NyVW2fhuBw/hqdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "6NyVW2fhuBw",
+     "minutes": 60
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-silver-or-gold-2025",
+   "type": "movie",
+   "name": "Silver Or Gold",
+   "aliases": [],
+   "year": 2025,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "81 min",
+   "description": "SILVER OR GOLD #nigerianmovie #MOVIE #WESTAFRICA #SOUTHAFRICA #KENYA #FILM #CONGO #NAMIBIA #TURKEY #GHANA #NIGERIA #NIGER #GAMBIA #MOZAMBIQUE #ANGOLA #TURKEY #GIUNEA #COMEDY #ENTERTAINMENT #AFRICANFILMS #WESTAFRICA #EASTAFRICA #NIGERIA #NIGER #TURKEY #GHANA #TOGO #NIGERIA #NIGER #TURKEY #GHANA #TOGO",
+   "poster": "https://i.ytimg.com/vi/tqY1P5BuAhY/hqdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "tqY1P5BuAhY",
+     "minutes": 81
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-the-toaster-el-s-lounge-season-3-2025",
+   "type": "movie",
+   "name": "The Toaster_el's Lounge _season 3_",
+   "aliases": [],
+   "year": 2025,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "20 min",
+   "description": "#nigeriancinema #africanfilms #funny #mrfunny #comedy #movie #mrmacaroni #togo #westafrica #sokohtv #2025 TOASTER _EL'S LOUNGE SEASON 3_EPISODE 3#funny #westafrica #eastafrica #nigeria #niger #turkey #ghana #togo #liberia #2025 #sokohtv #ogabasseytv #mrmacaroni #waptv #funny #mrfunny #brodashaggi #c",
+   "poster": "https://i.ytimg.com/vi/I66ozZiMfT4/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "parts": [
+    {
+     "part": 3,
+     "videoId": "I66ozZiMfT4",
+     "minutes": 20
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-memorandum-of-agreement-el-s-lounge-season-3-episode-2025",
+   "type": "movie",
+   "name": "Memorandum of Agreement _el's Lounge _season 3_episode",
+   "aliases": [],
+   "year": 2025,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "23 min",
+   "description": "MEMORANDUM OF AGREEMENT _EL'S LOUNGE SEASON 3_EPISODE 2#nollywood #comedy #funny #mrfunny #mrmacaroni #waptv #funny #mrfunny #brodashaggi #comedy #entertainment #africanfilms #westafrica #eastafrica #nigeria #niger #turkey #ghana #togo #liberia #2025 #sokohtv #ogabasseytv #mrmacaroni #waptv #funny #",
+   "poster": "https://i.ytimg.com/vi/mkX_OMWNwYI/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "mkX_OMWNwYI",
+     "minutes": 23
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-the-reward-el-s-lounge-season-3-episode-1-nedu-wazobia-ogabassey-mc-eba-2025",
+   "type": "movie",
+   "name": "The Reward _el's Lounge _season 3_episode 1_nedu Wazobia_ogabassey_mc Eba",
+   "aliases": [],
+   "year": 2025,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "20 min",
+   "description": "THE REWARD _EL'S LOUNGE _SEASON 3_EPISODE 1#nigeriancinema #africanfilms #movie #comedy #funny #mrfunny #mrmacaroni #nigerianmovie #film #nollywood #nollywoodmovie #everyone #comedyseries #tvseries #funny #mrfunny #brodashaggi #comedy #entertainment #africanfilms #westafrica #eastafrica #nigeria #ni",
+   "poster": "https://i.ytimg.com/vi/YZuI2Imkm8w/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "YZuI2Imkm8w",
+     "minutes": 20
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-out-of-frame-2025",
+   "type": "movie",
+   "name": "Out of Frame",
+   "aliases": [],
+   "year": 2025,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "79 min",
+   "description": "out of frame 2025# #nollywoodmovie #nigerianfilm #nigerianfilm #movie #togo #liberia #2025 #sokohtv #ogabasseytv #mrmacaroni #waptv #funny #mrfunny #brodashaggi #comedy #entertainment #africanfilms #westafrica #eastafrica #nigeria #niger #turkey #ghana #togo #liberia #2025 #sokohtv #ogabasseytv #mrm",
+   "poster": "https://i.ytimg.com/vi/4E450OWTgjs/hqdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "4E450OWTgjs",
+     "minutes": 79
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-bassey-aboki-vol-2025",
+   "type": "movie",
+   "name": "Bassey & Aboki Vol",
+   "aliases": [],
+   "year": 2025,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "22 min",
+   "description": "ABOKI & BASSEY #nollywoodboyz #nollywoodmovie #comedy #comedy #togo #westafrica #gambia #mozambique #angola #turkey Colombia #africanfilms #movie #funny #africanfilms #english #germany #movie #westafrica #southafrica #kenya #film #comedy #africanfilms #mrfunny #mrmacaroni #sokohtv #funny #togo #libe",
+   "poster": "https://i.ytimg.com/vi/tidvRGCsheI/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "parts": [
+    {
+     "part": 2,
+     "videoId": "tidvRGCsheI",
+     "minutes": 22
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-bassey-aboki-vol-1-2025",
+   "type": "movie",
+   "name": "Bassey & Aboki Vol.1",
+   "aliases": [],
+   "year": 2025,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "22 min",
+   "description": "BASSEY &ABOKI #comedy #nollywoodmovie #nigerianmovie #funny #funny #togo#nigerianmovie #comedy #scotland #wales #poland #macedonia #cyprus #english #comedy #entertainment #africanfilms #westafrica #eastafrica #nigeria #niger #turkey #ghana #togo #liberia #2025 #mercyjohnsonokojie #everyone #funny #t",
+   "poster": "https://i.ytimg.com/vi/YEGHkCw4xng/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "YEGHkCw4xng",
+     "minutes": 22
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-problem-landlady-vol-3-2025",
+   "type": "movie",
+   "name": "Problem Landlady Vol.3",
+   "aliases": [],
+   "year": 2025,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "24 min",
+   "description": "PROBLEM LANDLADY #comedy #comedy #turkey #africanfilms #nigeria #ghana #togo #mrfunny #movie #film #westafrica #english #germany #movie #westafrica #southafrica #kenya #film #comedy #africanfilms #mrfunny #mrmacaroni #sokohtv #funny #togo #liberia #2025 #sokohtv #ogabasseytv #mrmacaroni #waptv #funn",
+   "poster": "https://i.ytimg.com/vi/SVHJYPnaiiQ/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "SVHJYPnaiiQ",
+     "minutes": 24
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-problem-landlady-vol-2-2025",
+   "type": "movie",
+   "name": "Problem Landlady Vol.2",
+   "aliases": [],
+   "year": 2025,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "24 min",
+   "description": "PROBLEM LANDLADY #COMEDY #AFRICANFILMS #MRFUNNY #MRMACARONI #COMEDY#FILM #FUNNY #AFRICANFILMS #ENGLISH #GERMANY #MOVIE #WESTAFRICA #SOUTHAFRICA #FILM #MOVIE #FILM #AFOREVOTV #ENTERTAINMENT ##WESTAFRICA #EASTAFRICA #NIGERIA #NIGER #TURKEY #GHANA #TOGO #NIGERIA #NIGER #TURKEY #GHANA #TOGO #NIGERIA #M",
+   "poster": "https://i.ytimg.com/vi/eHYf_vbGcps/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "eHYf_vbGcps",
+     "minutes": 24
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-i-need-a-man-vol-2-2025",
+   "type": "movie",
+   "name": "I Need a Man Vol.2",
+   "aliases": [],
+   "year": 2025,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "34 min",
+   "description": "I NEED A MAN SHORT NOLLYWOOD MOVIE 2025# #NOLLYWOODMOVIE #NIGERIANFILM #NIGERIANFILM #MOVIE #TOGO #LIBERIA #2025 #MERCYJOHNSONOKOJIE #EVERYONE #FUNNY #TOGO #NIGERIA #NIGER #TURKEY #GHANA #TOGO #LIBERIA #ENGLISH #GERMANY #FILM #CONGO #NAMIBIA #TURKEY #GIUNEA #COMEDY #ENTERTAINMENT #AFRICANFILMS #WEST",
+   "poster": "https://i.ytimg.com/vi/ZmaAhfRljYQ/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "ZmaAhfRljYQ",
+     "minutes": 34
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-i-need-a-man-2025",
+   "type": "movie",
+   "name": "I Need a Man",
+   "aliases": [],
+   "year": 2025,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "31 min",
+   "description": "I NEED A MAN SHORT NOLLYWOOD MOVIE 2025#nollywoodmovie #westafrica #nollywood #nigeriancinema ##GLOBALCROWNTV #WALEOJO #togo #SOUTHAFRICA #SOUTHSUDAN #NAMIBIA #TURKEY #GHANA #NIGERIA #NIGER #GAMBIA #MOZAMBIQUE #ANGOLA #TURKEY #GIUNEA #COMEDY #ENTERTAINMENT #AFRICANFILMS #WESTAFRICA #EASTAFRICA #NIGE",
+   "poster": "https://i.ytimg.com/vi/zPeMDT2rK9g/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "zPeMDT2rK9g",
+     "minutes": 31
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-lover-boy-vol-2-2025",
+   "type": "movie",
+   "name": "Lover Boy Vol.2",
+   "aliases": [],
+   "year": 2025,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "21 min",
+   "description": "LOVER BOY VOL.2# COMEDY #NOLLYWOODMOVIE #ENGLISH #SCOTLAND #ENGLAND #NORWAY #TURKEY #GHANA #NIGERIA #NIGER #GAMBIA #MOZAMBIQUE #ANGOLA #TURKEY#movie #FILM #CONGO #NAMIBIA #TURKEY #GHANA #NIGERIA #NIGER #GAMBIA #MOZAMBIQUE #ANGOLA #TURKEY #GIUNEA #COMEDY #ENTERTAINMENT #AFRICANFILMS #WESTAFRICA #EAST",
+   "poster": "https://i.ytimg.com/vi/Lyn9k9gLxnA/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "Lyn9k9gLxnA",
+     "minutes": 21
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-lover-boy-vol-1-2025",
+   "type": "movie",
+   "name": "Lover Boy Vol.1",
+   "aliases": [],
+   "year": 2025,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "36 min",
+   "description": "LOVER BOY VOL.1 #comedy #africanfilms #westafrica #funny #movie #nigeria #sokohtv #ghana #film #turkey #comedy #nollywoodmovie #turkey #movie #nigerianfilm #westafrica #love #comedy ##entertainment #brazil #english #germany #movie #westafrica #southafrica #kenya #film #togo #Nigeria #ghana #entertai",
+   "poster": "https://i.ytimg.com/vi/CpyTxcVoS68/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "CpyTxcVoS68",
+     "minutes": 36
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-true-love-2025",
+   "type": "movie",
+   "name": "True Love",
+   "aliases": [],
+   "year": 2025,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "28 min",
+   "description": "True love #comedy #togo #Nigeria #ghana #entertainment #westafrica #eastafrica #nigeria #niger #turkey #ghana #togo #liberia #2025 #sokohtv #ogabasseytv #sokohtv #comedy #ogabasseytv #sokohtv #ogabasseytv #comedy #africanfilms #westafrica #tanzania #gambia #mozambique #angola #turkey #dubai #everyon",
+   "poster": "https://i.ytimg.com/vi/BxLAbB7ROaE/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "BxLAbB7ROaE",
+     "minutes": 28
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-driver-lover-2025",
+   "type": "movie",
+   "name": "Driver Lover",
+   "aliases": [],
+   "year": 2025,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "108 min",
+   "description": "DRIVER LOVER LATEST NOLLYWOOD MOVIE 2025# #nollywoodmovie #nigerianfilm #nigerianfilm #movie #togo #liberia #2025 #sokohtv #ogabasseytv #mrmacaroni #waptv #funny #mrfunny#love #brodashaggi #canada #usa #togo #southafrica #southsudan #namibia #turkey #ghana #togo #liberia #2025 #sokohtv #ogabasseytv",
+   "poster": "https://i.ytimg.com/vi/Cbd-9E2fUlw/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "Cbd-9E2fUlw",
+     "minutes": 108
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-two-can-play-the-game-2025",
+   "type": "movie",
+   "name": "Two Can Play the Game",
+   "aliases": [],
+   "year": 2025,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "23 min",
+   "description": "TWO CAN PLAY THE GAME #sokohtv #sokohtv #funny #togo #nollywoodmovie #english #germany #movie #westafrica #southafrica #kenya #film #comedy #africanfilms #mrfunny #mrmacaroni #sokohtv #funny #togo #liberia #2025 #sokohtv #ogabasseytv #mrmacaroni #waptv #funny #mrfunny #brodashaggi #comedy #entertai",
+   "poster": "https://i.ytimg.com/vi/HLuxllhPqzY/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "HLuxllhPqzY",
+     "minutes": 23
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-bassey-edidiong-2025",
+   "type": "movie",
+   "name": "Bassey &edidiong",
+   "aliases": [],
+   "year": 2025,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "30 min",
+   "description": "bassey&EDIDIONG #comedy #entertainment #africanfilms #westafrica #eastafrica #nigeria #niger #turkey #ghana #togo #liberia #2025 #sokohtv #ogabasseytv #mrmacaroni #waptv #funny #comedy #sokohtv #africanfilms #togo #funny #westafrica #nollywood #english #ghana #entertainment #westafrica #eastafrica #",
+   "poster": "https://i.ytimg.com/vi/2ayVnsRNvVQ/hqdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "2ayVnsRNvVQ",
+     "minutes": 30
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-what-do-men-really-want-2025",
+   "type": "movie",
+   "name": "What Do Men Really Want??",
+   "aliases": [],
+   "year": 2025,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "46 min",
+   "description": "WHAT DO MEN REALLY WANT?? LATEST NOLLYWOOD MOVIE #MOVIE #WESTAFRICA #SOUTHAFRICA #KENYA #FILM #CONGO #NAMIBIA #TURKEY #GHANA #NIGERIA #NIGER #GAMBIA #MOZAMBIQUE #ANGOLA #TURKEY #GHANA #TOGO #NIGERIA #NIGER #TURKEY COLOMBIA #AFRICANFILMS #ENGLISH #GERMANY #MOVIE #NOLLYWOOD #LOVE #BELGIUM #HOLLAND #EV",
+   "poster": "https://i.ytimg.com/vi/XH5nf9Cdvys/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "XH5nf9Cdvys",
+     "minutes": 46
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-sweet-apple-girls-2025",
+   "type": "movie",
+   "name": "Sweet Apple Girls",
+   "aliases": [],
+   "year": 2025,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "90 min",
+   "description": "Sweet apple 🍎 GIRLS 2035 NOLLYWOOD MOVIE#movie #ghana#togo#mali#liberia#english #kevinmike#benedictjohnson#eviasimon#julietilusota#movie #english #westafrica #nollywood #film#english#scotland#germany#spain#lovestory#uchenancy#mercyjohnson",
+   "poster": "https://i.ytimg.com/vi/OLSf16f5KCI/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "OLSf16f5KCI",
+     "minutes": 90
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
+  },
+  {
+   "id": "snaija-yt-awuf-wife-2024",
+   "type": "movie",
+   "name": "Awuf Wife",
+   "aliases": [],
+   "year": 2024,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "106 min",
+   "description": "AWUF WIFE - 2024 NOLLYWOOD MOVIE #movie #nollyfoxtvlatestnigerianmovie #nollywoodmovies #2024 #comedy # ogabasseytv #sokoh tv# viralvideo",
+   "poster": "https://i.ytimg.com/vi/axdlxPY1_3A/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel El's Nolly TV (UCgk6r-2ebeVkwaEXMtmXkiw)"
+   },
+   "channel": "UCgk6r-2ebeVkwaEXMtmXkiw",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "axdlxPY1_3A",
+     "minutes": 106
+    }
+   ],
+   "channelName": "EL'S NOLLY TV "
   }
  ]
 }
