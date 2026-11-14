@@ -1,0 +1,27 @@
+{
+ "name": "avo-player",
+ "home": {
+  "url": "https://player.avo.tv/",
+  "finalUrl": "https://player.avo.tv/start",
+  "status": 200,
+  "title": "AVO TV",
+  "text": "AVO TV Log in Home TV guide Subscriptions My content Settings Log in Now playing Channels TV Channels TV HD, 00:00 - 01:00 Unreel Unreel HD, 00:00 - 01:00 Liberation Hour Salvation TV, 00:00 - 01:00 Miracle TV Miracle TV, 00:00 - 01:00 TVC News TVC News HD, 00:00 - 01:00 SoundCity TV Sound City, 00:00 - 01:00 ALU TV Alu TV, 00:00 - 01:00 SportsGrid SportsGrid HD, 00:00 - 01:00 EuroNews Euronews Eng HD, 00:00 - 01:00 SuperScreen TV Superscreen, 00:00 - 01:00 Boxing Spotlight Boxing Spotlight HD, 00:00 - 06:00 Taswira TV Taswira TV, 00:00 - 01:00 Ticker News Ticker News HD, 00:00 - 01:00 GoUSA TV Go USA HD, 00:00 - 01:00 No data Rugby Zone TV HD, 00:00 - 01:00 No data MENA, 00:00 - 01:00 MANARA TV Manara, 00:00 - 01:00 Supreme Master TV Supreme M, 00:00 - 01:00 No data Horror TV HD, 00:00 - 01:00 LATE NIGHT MOVIES Nu View TV, 22:00 - 02:00 See all Popular on TV Dove TV Dove TV HD, 00:00 - 01:00 TVC News TVC News HD, 00:00 - 01:00 Channels TV Channels TV HD, 00:00 - 01:00 Silverbird TV Silverbird TV, 00:00 - 01:00 Synagogue TV Synagogue TV, 00:00 - 01:00 Itage TV Itage TV, 00:00 - 01:00 Nigbati TV Nigbati, 00:00 - 01:00 BCS StarCross TV BCS StarCross TV, 00:00 - 01:00 BEN TV Ben TV, 00:00 - 01:00 LATE NIGHT MOVIES Nu View TV, 22:00 - 02:00 SoundCity TV Sound City, 00:00 - 01:00 Trybe TV Trybe, 00:00 - 01:00 Rave TV Rave TV, 00:00 - 01:00 Miracle TV Miracle TV, 00:00 - 01:00 Televista Televista, 00:00 - 01:00 Cartoon Classics Cartoon Classics, 00:00 - 01:00 Old West TV Old West T",
+  "walls": [
+   "log in",
+   "subscription"
+  ],
+  "media": [
+   "https://player.avo.tv/manifest.json"
+  ],
+  "drm": [],
+  "players": []
+ },
+ "titleLinksFound": 0,
+ "titleLinkSamples": [],
+ "titles": [],
+ "terms": {
+  "url": "https://player.avo.tv/settings/terms",
+  "mentions": [],
+  "text": "Settings Log in Home TV guide Subscriptions My content Settings Log in Language Appearance Time format About Language English Deutsch English Español Français Italiano"
+ }
+}
