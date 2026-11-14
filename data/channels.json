@@ -559,6 +559,159 @@
    "owner": "Lilin Baba, actor-producer (Wuff series)",
    "approved": true,
    "search": "Lilin Baba"
+  },
+  {
+   "platform": "youtube",
+   "name": "KAP Stream",
+   "languages": [
+    "en",
+    "yo"
+   ],
+   "owner": "Kunle Afolayan's KAP Motion Pictures (The Figurine, Phone Swap, The CEO, October 1, Citation)",
+   "approved": true,
+   "search": "KAP Stream"
+  },
+  {
+   "platform": "youtube",
+   "name": "NollywoodLove",
+   "languages": [
+    "en"
+   ],
+   "owner": "iROKO Partners, licensed Nollywood channel",
+   "approved": true,
+   "search": "NollywoodLove"
+  },
+  {
+   "platform": "youtube",
+   "name": "YorubaLove",
+   "languages": [
+    "yo"
+   ],
+   "owner": "iROKO Partners, licensed Yoruba channel",
+   "approved": true,
+   "search": "YorubaLove"
+  },
+  {
+   "platform": "youtube",
+   "name": "Biodun Stephen TV",
+   "languages": [
+    "en"
+   ],
+   "owner": "Biodun Stephen, producer-director",
+   "approved": true,
+   "search": "Biodun Stephen TV"
+  },
+  {
+   "platform": "youtube",
+   "name": "Chioma Chukwuka TV",
+   "languages": [
+    "en",
+    "ig"
+   ],
+   "owner": "Chioma Chukwuka Akpotha, actress-producer",
+   "approved": true,
+   "search": "Chioma Chukwuka TV"
+  },
+  {
+   "platform": "youtube",
+   "name": "AMCChannels",
+   "languages": [
+    "en"
+   ],
+   "owner": "African Movie Channel UK Ltd",
+   "approved": true,
+   "search": "AMCChannels"
+  },
+  {
+   "platform": "youtube",
+   "name": "Okiki Premium TV",
+   "languages": [
+    "en"
+   ],
+   "owner": "Okiki, licensed AVOD distributor",
+   "approved": true,
+   "search": "Okiki Premium TV"
+  },
+  {
+   "platform": "youtube",
+   "name": "YorubaPlay",
+   "languages": [
+    "yo"
+   ],
+   "owner": "iBAKA TV, Yoruba distributor",
+   "approved": true,
+   "search": "YorubaPlay"
+  },
+  {
+   "platform": "youtube",
+   "name": "Scene One TV",
+   "languages": [
+    "en",
+    "yo"
+   ],
+   "owner": "Funke Akindele's Scene One Productions",
+   "approved": true,
+   "search": "Scene One TV"
+  },
+  {
+   "platform": "youtube",
+   "name": "NollyReel",
+   "languages": [
+    "en"
+   ],
+   "owner": "Aflik TV, distributor (25,000-film portfolio)",
+   "approved": true,
+   "search": "NollyReel"
+  },
+  {
+   "platform": "youtube",
+   "name": "NollyNetwork",
+   "languages": [
+    "en"
+   ],
+   "owner": "Aflik TV, distributor",
+   "approved": true,
+   "search": "NollyNetwork"
+  },
+  {
+   "platform": "youtube",
+   "name": "Movie More",
+   "languages": [
+    "en"
+   ],
+   "owner": "Aflik TV, distributor",
+   "approved": true,
+   "search": "Movie More"
+  },
+  {
+   "platform": "youtube",
+   "name": "Waka TV",
+   "languages": [
+    "en"
+   ],
+   "owner": "Aflik TV, distributor",
+   "approved": true,
+   "search": "Waka TV"
+  },
+  {
+   "platform": "youtube",
+   "name": "Syworld TV",
+   "languages": [
+    "en"
+   ],
+   "owner": "Aflik TV, distributor",
+   "approved": true,
+   "search": "Syworld TV"
+  },
+  {
+   "platform": "youtube",
+   "name": "Nollyvids",
+   "languages": [
+    "en"
+   ],
+   "owner": "Aflik TV, distributor",
+   "approved": true,
+   "search": "Nollyvids"
   }
  ]
 }

@@ -88,3 +88,17 @@ Scope: films and series only. Live TV is out of scope. Select Naija does not see
 Result: ZeraTV's Vimeo films can only be played on zeratv.com. Getting their streams into Nuvio would mean
 defeating Vimeo's domain lock, so they are excluded unless Zera Media supplies streams. Its YouTube embeds
 are third-party uploads; any from an approved official channel are already in the YouTube source.
+
+## Round 3 leads (14 Nov 2026)
+
+| Source | Tested | Result | Non-YouTube titles added |
+| --- | --- | --- | --- |
+| AVO TV (player.avo.tv, Tulix platform) | Web player in a browser; terms of service | Mostly live channels; films sit behind a log-in; terms: personal viewing only, no scraping, no redistribution or retransmission, no API or partner access | 0 |
+| Aforevo Max (MBI) | mbi247.com, aforevo.com/max | App only; no web catalogue or player found (aforevo.com/max: 404) | 0 |
+| Revo+ (MBI) | revoplus.com | Site refuses visitors (403); no live service found | 0 |
+| Aflik TV | afliktv.com | Distributes to Amazon, Netflix, iTunes, Hulu, Vudu (paid or DRM) and its own YouTube channels: NollyReel, NollyNetwork, Movie More, Waka TV, Syworld TV, Nollyvids. The YouTube channels are added as approved rights-holder channels | 0 (YouTube channels added) |
+| NaijasPride, Edimulo | Web and app-store search | No platform found under these names | 0 |
+
+Rights-holder YouTube channels added this round: KAP Stream (Kunle Afolayan), NollywoodLove and YorubaLove
+(iROKO), Biodun Stephen TV, Chioma Chukwuka TV, AMCChannels (African Movie Channel UK), Okiki Premium TV,
+YorubaPlay (iBAKA), Scene One TV, and Aflik's six channels.
