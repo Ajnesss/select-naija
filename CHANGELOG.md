@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.4.0 (14 Nov 2026)
+
+- Catalogue clean-up: removed three wrongly matched YouTube channels (a meditation channel, a Congolese channel and an actress's vlog); livestreams, talk shows, masterclasses, recaps and clips under 30 minutes no longer appear as films.
+- Better names: clickbait ("Don't leave YouTube without watching…"), cast lists, bracketed names and channel labels are stripped from titles.
+- Films uploaded in parts are one title (e.g. "Amare", parts 1–2); Hausa "Zango/Kashi" numbering and French "Saison/Épisode" are read as seasons and episodes; split shows ("Aiyetoro" / "Aiyetoro Town") are merged.
+- AREWA24's Hausa drama series are now series with episodes.
+- Rows open on the newest titles; genres and story descriptions are filled in; credits and "subscribe" text removed.
+- Streams show HD/SD (once YouTube reports it), running time, part and channel.
+- Settings page (/configure): choose languages and extra rows; the choice is carried in the install link.
+- Empty rows and the diagnostics row are hidden; daily end-to-end check of the live addon.
+
 Versions follow semantic versioning. Each release passes `npm test` and `node scripts/report.js --gate`.
 
 ## 0.3.0 (2026-11-12)

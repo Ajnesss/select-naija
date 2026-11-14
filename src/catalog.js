@@ -3,20 +3,21 @@
 const { LANGUAGES } = require('./data');
 const { normalize } = require('./text');
 const { linkState, isShown } = require('./states');
+const { DEFAULT, wantsTitle } = require('./config');
 
 const PAGE_SIZE = 50;
 const CLASSIC_BEFORE = 2010;
 
 // Rows shown in Nuvio. Every row supports a filter (genre extra) and paging (skip).
 const ROWS = [
-  { id: 'snaija-yoruba', type: 'movie', name: 'Yoruba films', match: (t) => t.languages.includes('yo') },
-  { id: 'snaija-igbo', type: 'movie', name: 'Igbo films', match: (t) => t.languages.includes('ig') },
-  { id: 'snaija-hausa', type: 'movie', name: 'Hausa films', match: (t) => t.languages.includes('ha') },
-  { id: 'snaija-english', type: 'movie', name: 'Nollywood (English)', match: (t) => t.languages.includes('en') },
-  { id: 'snaija-other-languages', type: 'movie', name: 'Pidgin & other languages', match: (t) => t.languages.some((l) => !['en', 'yo', 'ig', 'ha'].includes(l)) },
-  { id: 'snaija-series', type: 'series', name: 'Nigerian series', match: () => true },
-  { id: 'snaija-new', type: 'movie', name: 'New on Select Naija', match: () => true, sort: 'newest' },
-  { id: 'snaija-classics', type: 'movie', name: 'Nigerian classics', match: (t) => t.year && t.year < CLASSIC_BEFORE },
+  { id: 'snaija-new', type: 'movie', name: 'New on Select Naija', match: () => true, sort: 'newest', option: 'new' },
+  { id: 'snaija-english', type: 'movie', name: 'Nollywood (English)', match: (t) => t.languages.includes('en'), lang: 'en' },
+  { id: 'snaija-yoruba', type: 'movie', name: 'Yoruba films', match: (t) => t.languages.includes('yo'), lang: 'yo' },
+  { id: 'snaija-igbo', type: 'movie', name: 'Igbo films', match: (t) => t.languages.includes('ig'), lang: 'ig' },
+  { id: 'snaija-hausa', type: 'movie', name: 'Hausa films', match: (t) => t.languages.includes('ha'), lang: 'ha' },
+  { id: 'snaija-other-languages', type: 'movie', name: 'Pidgin & other languages', match: (t) => t.languages.some((l) => !['en', 'yo', 'ig', 'ha'].includes(l)), lang: 'other' },
+  { id: 'snaija-series', type: 'series', name: 'Nigerian series', match: () => true, option: 'series' },
+  { id: 'snaija-classics', type: 'movie', name: 'Nigerian classics', match: (t) => t.year && t.year < CLASSIC_BEFORE && !t.yearIsUpload, option: 'classics' },
 ];
 
 function decadeOf(year) {
@@ -91,8 +92,14 @@ function rowOptions(row, data, now) {
   return options;
 }
 
-function manifestCatalogs(data, now = Date.now(), { diagnostics = false } = {}) {
-  const catalogs = ROWS.map((row) => ({
+function rowEnabled(row, cfg) {
+  if (row.lang) return cfg.langs.includes(row.lang);
+  return !row.option || cfg.rows.includes(row.option);
+}
+
+function manifestCatalogs(data, now = Date.now(), { diagnostics = false, config = DEFAULT } = {}) {
+  // Rows with nothing in them right now are left out rather than shown empty.
+  const catalogs = ROWS.filter((row) => rowEnabled(row, config) && rowOptions(row, data, now).length).map((row) => ({
     type: row.type,
     id: row.id,
     name: row.name,
@@ -150,13 +157,13 @@ function searchScore(title, query) {
  * Answers a catalogue request. extra = { genre, search, skip }.
  * Rows list only titles with a shown link; search finds every catalogued title that has one.
  */
-function queryCatalog(type, id, extra, data, now = Date.now()) {
+function queryCatalog(type, id, extra, data, now = Date.now(), cfg = DEFAULT) {
   const skip = Math.max(0, parseInt(extra.skip, 10) || 0);
 
   if (id === 'snaija-search') {
     if (!extra.search) return [];
     return data.titles
-      .filter((t) => t.type === type && t.category !== 'test' && isAvailable(t, data, now))
+      .filter((t) => t.type === type && t.category !== 'test' && wantsTitle(t, cfg) && isAvailable(t, data, now))
       .map((t) => ({ t, score: searchScore(t, extra.search) }))
       .filter((x) => x.score > 0)
       .sort((a, b) => b.score - a.score || (b.t.year || 0) - (a.t.year || 0))
@@ -171,12 +178,16 @@ function queryCatalog(type, id, extra, data, now = Date.now()) {
   const row = ROWS.find((r) => r.id === id && r.type === type);
   if (!row) return [];
   const snap = snapshot(data, now);
-  const key = `${row.id}|${extra.genre || ''}`;
+  const langKey = cfg === DEFAULT ? '' : cfg.langs.join('.');
+  const key = `${row.id}|${extra.genre || ''}|${langKey}`;
   let list = snap.sorted.get(key);
   if (!list) {
-    list = data.titles.filter((t) => t.type === type && t.category !== 'test' && row.match(t) && isAvailable(t, data, now));
+    list = data.titles.filter((t) => t.type === type && t.category !== 'test' && row.match(t) && (row.lang || wantsTitle(t, cfg)) && isAvailable(t, data, now));
     if (extra.genre) list = list.filter((t) => filterLabels(t, data, now).includes(extra.genre));
-    list.sort((a, b) => (b.year || 0) - (a.year || 0) || a.name.localeCompare(b.name));
+    // Newest first: when the title (or its latest part or episode) was added, else its release year.
+    const when = (t) => t.uploadedAt || (t.year ? `${t.year}-01-01` : '');
+    if (row.sort === 'oldest') list.sort((a, b) => (a.year || 9999) - (b.year || 9999) || a.name.localeCompare(b.name));
+    else list.sort((a, b) => (when(b) > when(a) ? 1 : when(b) < when(a) ? -1 : a.name.localeCompare(b.name)));
     snap.sorted.set(key, list);
   }
   return list.slice(skip, skip + PAGE_SIZE).map(toPreview);

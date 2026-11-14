@@ -95,6 +95,7 @@ async function videoDetails(ids, key) {
         title: v.snippet.title,
         description: String(v.snippet.description || '').slice(0, 300),
         duration: seconds(v.contentDetails.duration),
+        definition: v.contentDetails.definition || null,
         created_time: Math.floor(Date.parse(v.snippet.publishedAt) / 1000),
         thumbnail_720_url: v.snippet.thumbnails?.maxres?.url || v.snippet.thumbnails?.high?.url || null,
         geoblocking: geoblocking(v.contentDetails.regionRestriction),
