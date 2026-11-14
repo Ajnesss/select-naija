@@ -58,7 +58,7 @@ HOST=127.0.0.1
 PUBLIC_URL=https://$HOST
 # Optional: a free TMDB API key adds "where to watch in the UK" links (powered by JustWatch)
 TMDB_API_KEY=
-SHOW_DIAGNOSTICS=1
+SELECT_NAIJA_DIAGNOSTICS=0
 ENV
   chmod 640 "$ENV_FILE"
   chgrp snaija "$ENV_FILE"
