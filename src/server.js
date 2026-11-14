@@ -5,11 +5,12 @@ const path = require('path');
 const { loadData } = require('./data');
 const { manifestCatalogs, queryCatalog, metaFor } = require('./catalog');
 const { buildStreams } = require('./streams');
+const { DEFAULT, decodeConfig, configurePage } = require('./config');
 const pkg = require('../package.json');
 
 const RELOAD_MS = 10 * 60 * 1000;
 
-function buildManifest(data, { diagnostics }) {
+function buildManifest(data, { diagnostics, config = DEFAULT }) {
   return {
     id: 'community.selectnaija',
     version: pkg.version,
@@ -22,8 +23,8 @@ function buildManifest(data, { diagnostics }) {
       { name: 'stream', types: ['movie', 'series'], idPrefixes: ['tt', 'snaija'] },
     ],
     types: ['movie', 'series'],
-    catalogs: manifestCatalogs(data, Date.now(), { diagnostics }),
-    behaviorHints: { configurable: false },
+    catalogs: manifestCatalogs(data, Date.now(), { diagnostics, config }),
+    behaviorHints: { configurable: true, configurationRequired: false },
   };
 }
 
@@ -40,7 +41,7 @@ function parseExtra(segment) {
 
 function createServer(options = {}) {
   const dataDir = options.dataDir || path.join(__dirname, '..', 'data');
-  const diagnostics = options.diagnostics ?? process.env.SHOW_DIAGNOSTICS !== '0';
+  const diagnostics = options.diagnostics ?? process.env.SHOW_DIAGNOSTICS === '1';
   const tmdbApiKey = options.tmdbApiKey ?? process.env.TMDB_API_KEY;
   const fetchImpl = options.fetchImpl || fetch;
   let data = loadData(dataDir);
@@ -54,6 +55,11 @@ function createServer(options = {}) {
       // Keep serving the last good data if a new file is malformed.
       console.error(`[reload] kept previous data: ${err.message}`);
     }
+  }
+
+  function sendHtml(res, html) {
+    res.writeHead(200, { 'content-type': 'text/html; charset=utf-8', 'cache-control': 'no-store' });
+    res.end(html);
   }
 
   function send(res, status, body, maxAge = 0) {
@@ -71,11 +77,19 @@ function createServer(options = {}) {
     try {
       if (req.method === 'OPTIONS') return send(res, 204, {});
       const url = new URL(req.url, 'http://localhost');
-      const rawParts = url.pathname.replace(/^\/+/, '').replace(/\.json$/, '').split('/');
+      let rawParts = url.pathname.replace(/^\/+/, '').replace(/\.json$/, '').split('/');
+      // Settings in the install URL: /<config>/manifest.json, /<config>/catalog/...
+      const RESOURCES = new Set(['', 'manifest', 'catalog', 'meta', 'stream', 'health', 'configure']);
+      const config = !RESOURCES.has(rawParts[0]) ? decodeConfig(rawParts[0]) : null;
+      if (config) rawParts = rawParts.slice(1);
+      const cfg = config || DEFAULT;
       const parts = rawParts.map(decodeURIComponent);
+      const origin = `${req.headers['x-forwarded-proto'] || 'https'}://${req.headers['x-forwarded-host'] || req.headers.host}`;
 
-      if (url.pathname === '/' || url.pathname === '/manifest.json') {
-        return send(res, 200, buildManifest(data, { diagnostics }), 3600);
+      if (parts[0] === 'configure') return sendHtml(res, configurePage(origin, cfg));
+      if (url.pathname === '/' && !config) return sendHtml(res, configurePage(origin, cfg));
+      if (parts[0] === 'manifest' || parts[0] === '') {
+        return send(res, 200, buildManifest(data, { diagnostics, config: cfg }), 3600);
       }
       if (parts[0] === 'health') {
         return send(res, 200, {
@@ -88,7 +102,7 @@ function createServer(options = {}) {
         });
       }
       if (parts[0] === 'catalog' && parts.length >= 3) {
-        const metas = queryCatalog(parts[1], parts[2], parseExtra(rawParts[3]), data);
+        const metas = queryCatalog(parts[1], parts[2], parseExtra(rawParts[3]), data, Date.now(), cfg);
         return send(res, 200, { metas }, 3600);
       }
       if (parts[0] === 'meta' && parts.length === 3) {

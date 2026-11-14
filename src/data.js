@@ -139,6 +139,7 @@ function loadData(
         url: isYt ? `https://www.youtube.com/watch?v=${e.videoId}` : `https://www.dailymotion.com/video/${e.videoId}`,
         source: t.channelName || channelNames.get(t.channel),
         minutes: e.minutes,
+        quality: e.quality,
         synthetic: true,
       });
       discoveredStatus[id] = { lastOk: at, lastCheck: at, checks: [{ at, ok: true }], ukSignal: 'provider' };
@@ -162,6 +163,7 @@ function loadData(
         label: total > 1 ? `Part ${part.part} of ${total}` : undefined,
         order: part.part,
         minutes: part.minutes,
+        quality: part.quality,
         synthetic: true,
       });
       // Listed as public, published and not blocked for the UK on the last nightly read: that is the check.
@@ -270,6 +272,8 @@ function loadData(
         home.cast = [...new Set([...(home.cast || []), ...(t.cast || [])])].slice(0, 10);
         if (!home.poster && t.poster) home.poster = t.poster;
         if (!home.description && t.description) home.description = t.description;
+        if ((t.uploadedAt || '') > (home.uploadedAt || '')) home.uploadedAt = t.uploadedAt;
+        if ((!home.genres?.length || (home.genres.length === 1 && home.genres[0] === 'Drama')) && t.genres?.length) home.genres = t.genres;
         if (home.type === 'series') {
           const have = new Set((home.videos || []).map((v) => `${v.season}:${v.episode}`));
           for (const v of t.videos || []) if (!have.has(`${v.season}:${v.episode}`)) (home.videos = home.videos || []).push(v);

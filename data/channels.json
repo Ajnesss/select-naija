@@ -395,8 +395,9 @@
     "ig"
    ],
    "owner": "Chinenye Nnebe, actress-producer",
-   "approved": true,
-   "search": "CHINENYE NNEBE MOVIES"
+   "approved": false,
+   "search": "CHINENYE NNEBE MOVIES",
+   "rejected": "name search matched the actress's personal vlog channel, not her movies channel"
   },
   {
    "platform": "youtube",
@@ -548,7 +549,8 @@
    ],
    "owner": "AREWA24, Hausa TV network (Dadin Kowa, Kwana Casa'in)",
    "approved": true,
-   "search": "AREWA24"
+   "search": "AREWA24",
+   "episodic": true
   },
   {
    "platform": "youtube",
@@ -690,8 +692,9 @@
     "en"
    ],
    "owner": "Aflik TV, distributor",
-   "approved": true,
-   "search": "Waka TV"
+   "approved": false,
+   "search": "Waka TV",
+   "rejected": "name search matched Waka Waka Tv (Congolese, Lingala), not the Aflik channel"
   },
   {
    "platform": "youtube",
@@ -700,8 +703,9 @@
     "en"
    ],
    "owner": "Aflik TV, distributor",
-   "approved": true,
-   "search": "Syworld TV"
+   "approved": false,
+   "search": "Syworld TV",
+   "rejected": "name search matched SY WORLD (Sahaja Yoga meditation), not the Aflik channel"
   },
   {
    "platform": "youtube",

@@ -41,6 +41,12 @@ function candidateLinks(streamId, data) {
   return [...exact, ...seriesLevel];
 }
 
+/** 124 → "2 h 4 min". */
+function duration(min) {
+  if (!min) return '';
+  return min >= 60 ? `${Math.floor(min / 60)} h${min % 60 ? ` ${min % 60} min` : ''}` : `${min} min`;
+}
+
 function formatLink(link, record, state, data, title, now) {
   const base = data.providerById.get(link.provider);
   const provider = link.providerName ? { ...base, name: link.providerName } : base;
@@ -51,9 +57,15 @@ function formatLink(link, record, state, data, title, now) {
   const name = title?.name || '';
   if (link.kind === 'youtube') {
     // Handed to the app as a YouTube video ID: Nuvio/Stremio play it with their own YouTube support.
+    // YouTube reports "hd" (720p or better) or "sd"; the app picks the best stream it can play.
+    const quality = link.quality === 'hd' ? 'HD' : link.quality === 'sd' ? 'SD' : '';
     return {
-      name: `Select Naija\n${provider.name}`,
-      title: [[`▶ ${name}`, part].filter(Boolean).join(' · '), [link.source || 'YouTube', access, checked].filter(Boolean).join(' · ')].join('\n'),
+      name: `Select Naija\n${provider.name}${quality ? ` ${quality}` : ''}`,
+      title: [
+        [`▶ ${name}`, link.label].filter(Boolean).join(' · '),
+        [quality && (quality === 'HD' ? 'HD (720p+)' : 'SD'), duration(link.minutes), link.source || 'YouTube', access].filter(Boolean).join(' · '),
+        checked,
+      ].filter(Boolean).join('\n'),
       ytId: link.ytId,
       behaviorHints: { bingeGroup: `selectnaija-${link.provider}` },
     };
