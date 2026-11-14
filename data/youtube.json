@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-14T10:28:26.396Z",
+ "generatedAt": "2026-11-14T15:52:54.290Z",
  "channels": {
   "UCbvdwZvZgdl-pPyomEmaEfg": {
    "name": "Omoni Oboli TV",
    "subscribers": 2110000,
-   "videos": 1329,
+   "videos": 1330,
    "films": 104
   },
   "UC83tx3zGcvQ_rXzsZigTnEA": {
@@ -16,7 +16,7 @@
   "UCjcFNZE51DmSrGYBqixs0Ug": {
    "name": "RuthKadiri247",
    "subscribers": 4190000,
-   "videos": 338,
+   "videos": 339,
    "films": 176
   },
   "UCypAoMCRQuNL2RBwy-x4oQg": {
@@ -99,7 +99,7 @@
   },
   "UCvpK1k1i23Xi5TM-ZDuSNDw": {
    "name": "LibraTv",
-   "subscribers": 956000,
+   "subscribers": 957000,
    "videos": 353,
    "films": 173
   },
@@ -130,7 +130,7 @@
   "UCi8vPG6uMxIjoZMhLLX2BkQ": {
    "name": "Nollywoodpicturestv",
    "subscribers": 3010000,
-   "videos": 10652,
+   "videos": 10654,
    "films": 1784
   },
   "UCNq7_TKmIc8J6j-qUcyxNFA": {
@@ -148,8 +148,8 @@
   "UCVsqair_RFTI1K5cuaLaNtg": {
    "name": "Nigerian Movies Plus",
    "subscribers": 1860000,
-   "videos": 3028,
-   "films": 1964
+   "videos": 3029,
+   "films": 1965
   },
   "UCJ1I13e9PN7u4iszJ6M0AXQ": {
    "name": "ROCKCELLY NOLLYWOOD FILMS TV",
@@ -218,7 +218,7 @@
   },
   "UCK-FDSIDGzjK6PYWcFaOzkA": {
    "name": "Saira Movies",
-   "subscribers": 2200000,
+   "subscribers": 2210000,
    "videos": 422,
    "films": 8
   },
@@ -261,7 +261,7 @@
   "UCJyFkDxxIgPVz-x_0UZPqfg": {
    "name": "AREWA24",
    "subscribers": 919000,
-   "videos": 5882,
+   "videos": 5883,
    "films": 262
   },
   "UClU5QkUqFL4a7AdxScHa2Vg": {
@@ -273,7 +273,7 @@
   "UCPdsCoSqO4dZcnkX_4do6hA": {
    "name": "KAP STREAM",
    "subscribers": 40100,
-   "videos": 106,
+   "videos": 107,
    "films": 7
   },
   "UCuoDa0ZOF0h9doIaJIkr8yA": {
@@ -290,7 +290,7 @@
   "UCLgjn9SPLG7BxyuFB_uNfXQ": {
    "name": "BIODUNSTEPHEN TV",
    "subscribers": 467000,
-   "videos": 933,
+   "videos": 934,
    "films": 36
   },
   "UCiZWyHYEvZO-1MFIxy1ojQg": {
@@ -308,7 +308,7 @@
   "UC9HDrOalDVN0Wv-Q7zTkQCg": {
    "name": "Okiki Premium TV",
    "subscribers": 354000,
-   "videos": 421,
+   "videos": 422,
    "films": 50
   },
   "UCdYgV-WJEog1H_PxN45cNWg": {
@@ -164459,6 +164459,51 @@
    "channelName": "AFOREVO STAGE"
   },
   {
+   "id": "snaija-yt-pains-of-choosing-you-2026",
+   "type": "movie",
+   "name": "Pains of Choosing You",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "160 min",
+   "description": "Pains Of Choosing You - New Nollywood Movie is a 2026 Nigerian film. It will have You Glue On A Chair Starring; Mike Goldson, Ella Idu - And More actors and actresses. -Pains Of Choosing You (New Movie) - 2026 Latest New Nigerian Nollywood Movie #Movie#2026#nigerianmovies2026latestfullmovies #nolly",
+   "poster": "https://i.ytimg.com/vi/2xkD8SFWmkw/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nollywoodpicturestv (UCi8vPG6uMxIjoZMhLLX2BkQ)"
+   },
+   "channel": "UCi8vPG6uMxIjoZMhLLX2BkQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "2xkD8SFWmkw",
+     "minutes": 41
+    },
+    {
+     "part": 2,
+     "videoId": "Kkp-5vhcmso",
+     "minutes": 41
+    },
+    {
+     "part": 3,
+     "videoId": "6bQqEDTRm-U",
+     "minutes": 39
+    },
+    {
+     "part": 4,
+     "videoId": "UibZJfoz0tQ",
+     "minutes": 39
+    }
+   ],
+   "channelName": "Nollywoodpicturestv"
+  },
+  {
    "id": "snaija-yt-my-father-s-secret-2026",
    "type": "movie",
    "name": "My Father's Secret",
@@ -164544,41 +164589,6 @@
      "part": 6,
      "videoId": "AKZnKRomYKY",
      "minutes": 33
-    }
-   ],
-   "channelName": "Nollywoodpicturestv"
-  },
-  {
-   "id": "snaija-yt-pains-of-choosing-you-2026",
-   "type": "movie",
-   "name": "Pains of Choosing You",
-   "aliases": [],
-   "year": 2026,
-   "yearIsUpload": false,
-   "languages": [
-    "en"
-   ],
-   "category": "film",
-   "genres": [],
-   "cast": [],
-   "runtime": "82 min",
-   "description": "Pains Of Choosing You - New Nollywood Movie is a 2026 Nigerian film. It will have You Glue On A Chair Starring; Mike Goldson, Ella Idu - And More actors and actresses. -Pains Of Choosing You (New Movie) - 2026 Latest New Nigerian Nollywood Movie #Movie#2026#nigerianmovies2026latestfullmovies #nolly",
-   "poster": "https://i.ytimg.com/vi/2xkD8SFWmkw/maxresdefault.jpg",
-   "posterShape": "landscape",
-   "sources": {
-    "all": "YouTube channel Nollywoodpicturestv (UCi8vPG6uMxIjoZMhLLX2BkQ)"
-   },
-   "channel": "UCi8vPG6uMxIjoZMhLLX2BkQ",
-   "parts": [
-    {
-     "part": 1,
-     "videoId": "2xkD8SFWmkw",
-     "minutes": 41
-    },
-    {
-     "part": 2,
-     "videoId": "Kkp-5vhcmso",
-     "minutes": 41
     }
    ],
    "channelName": "Nollywoodpicturestv"
@@ -249091,6 +249101,36 @@
     }
    ],
    "channelName": "Neptune3 Studios"
+  },
+  {
+   "id": "snaija-yt-the-ghost-of-my-late-mother-came-with-powers-to-save-me-from-d-wicked-village-queen-2026",
+   "type": "movie",
+   "name": "The Ghost of My Late Mother Came With Powers to Save Me From D Wicked Village Queen",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [],
+   "cast": [],
+   "runtime": "161 min",
+   "description": "#nigerianmovies #familymovies #nigerianmoviesplus In This African Nigerian movie ....A crowned prince defies royal tradition when he falls deeply in love with a beautiful common maiden instead of the royal bride chosen by his mother. Furious and determined to protect the royal bloodline, the queen p",
+   "poster": "https://i.ytimg.com/vi/v8iHMD-Wr2s/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "v8iHMD-Wr2s",
+     "minutes": 161
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
   },
   {
    "id": "snaija-yt-my-father-s-evil-secretary-killed-me-so-she-can-marry-my-father-but-my-ghost-is-back-2026",

@@ -1,21 +1,20 @@
 {
- "playable": 14182,
- "youtubeOnly": 14182,
+ "playable": 14183,
+ "youtubeOnly": 14183,
  "youtubeShare": 100,
  "nonYoutube": 0,
  "nonYoutubeBySource": {},
  "bySource": {
-  "YouTube": 14182
+  "YouTube": 14183
  },
  "byChannel": {
   "YouTube: BTAtv": 1452,
-  "YouTube: ROCKCELLY NOLLYWOOD FILMS TV": 864,
-  "YouTube: EbonyLife Films": 1,
-  "YouTube: Uchenna Mbunabo Tv": 166,
   "YouTube: Uche Nancy tv": 711,
-  "YouTube: Nigerian Movies Plus": 1964,
-  "YouTube: nollynetwork": 113,
+  "YouTube: ROCKCELLY NOLLYWOOD FILMS TV": 864,
+  "YouTube: Uchenna Mbunabo Tv": 166,
+  "YouTube: Nigerian Movies Plus": 1965,
   "YouTube: Nollywood RealnollyTV": 902,
+  "YouTube: EbonyLife Films": 1,
   "YouTube: Nollywoodpicturestv": 1784,
   "YouTube: APATATV+": 345,
   "YouTube: OLUCHI AFUNDU TV": 67,
@@ -24,6 +23,7 @@
   "YouTube: LibraTv": 173,
   "YouTube: RuthKadiri247": 176,
   "YouTube: OrjiTv": 118,
+  "YouTube: nollynetwork": 113,
   "YouTube: Regina Daniels Tv": 4,
   "YouTube: FAAN TV": 159,
   "YouTube: Bimbo Ademoye TV": 16,
@@ -62,8 +62,8 @@
   "YouTube: SY WORLD": 1223,
   "YouTube: EL'S NOLLY TV ": 33
  },
- "generatedAt": "2026-11-14T10:37:12.620Z",
- "statusGeneratedAt": "2026-11-14T10:37:12.565Z",
+ "generatedAt": "2026-11-14T15:57:44.667Z",
+ "statusGeneratedAt": "2026-11-14T15:57:44.613Z",
  "groups": {
   "classics": {
    "total": 1,
@@ -78,16 +78,16 @@
  },
  "languages": {
   "en": {
-   "catalogued": 14610,
-   "covered": 12981,
-   "withoutTmdb": 14414,
-   "coverage": 88.9
+   "catalogued": 14594,
+   "covered": 12982,
+   "withoutTmdb": 14416,
+   "coverage": 89
   },
   "yo": {
-   "catalogued": 979,
+   "catalogued": 976,
    "covered": 861,
-   "withoutTmdb": 932,
-   "coverage": 87.9
+   "withoutTmdb": 931,
+   "coverage": 88.2
   },
   "ig": {
    "catalogued": 1450,
@@ -128,14 +128,14 @@
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 22
+   "checks30d": 23
   },
   "youtube": {
    "score": 100,
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 7
+   "checks30d": 8
   }
  },
  "gaps": [

@@ -1,6 +1,6 @@
 # Select Naija coverage report
 
-Generated 2026-11-14T10:37:12.620Z. Links last verified 2026-11-14T10:37:12.565Z.
+Generated 2026-11-14T15:57:44.667Z. Links last verified 2026-11-14T15:57:44.613Z.
 A title counts as covered only if a verified Select Naija link is shown for it.
 
 ## Test catalogue by group
@@ -14,26 +14,26 @@ A title counts as covered only if a verified Select Naija link is shown for it.
 
 | Language | Catalogued | Covered | Coverage | Without TMDB/IMDb ID |
 | --- | --- | --- | --- | --- |
-| English | 14610 | 12981 | 88.9% | 14414 |
-| Yoruba | 979 | 861 | 87.9% | 932 |
+| English | 14594 | 12982 | 89% | 14416 |
+| Yoruba | 976 | 861 | 88.2% | 931 |
 | Igbo | 1450 | 1426 | 98.3% | 1434 |
 | Hausa | 411 | 405 | 98.5% | 405 |
 | fr | 1 | 0 | 0% | 1 |
 
 ## Source breakdown (plays inside Nuvio)
 
-14182 playable titles; 14182 (100%) rely on YouTube alone.
+14183 playable titles; 14183 (100%) rely on YouTube alone.
 
 **Unique non-YouTube playable titles: 0** (titles with at least one in-app stream from an independent provider; external links, live channels, trailers and YouTube duplicates are not counted).
 
 | Provider | Playable titles |
 | --- | --- |
-| YouTube | 14182 |
+| YouTube | 14183 |
 
 | Provider: channel | Playable titles |
 | --- | --- |
 | YouTube: AFOREVO STAGE | 2152 |
-| YouTube: Nigerian Movies Plus | 1964 |
+| YouTube: Nigerian Movies Plus | 1965 |
 | YouTube: Nollywoodpicturestv | 1784 |
 | YouTube: BTAtv | 1452 |
 | YouTube: SY WORLD | 1223 |
@@ -92,8 +92,8 @@ A title counts as covered only if a verified Select Naija link is shown for it.
 | --- | --- | --- | --- | --- | --- |
 | Tubi | 40 | 0% | 100% | 100% | 1 |
 | Plex | 100 | 100% | 100% | 100% | 1 |
-| Select Naija test file | 100 | 100% | 100% | 100% | 22 |
-| YouTube | 100 | 100% | 100% | 100% | 7 |
+| Select Naija test file | 100 | 100% | 100% | 100% | 23 |
+| YouTube | 100 | 100% | 100% | 100% | 8 |
 
 ## Gaps: test titles with no verified source
 
