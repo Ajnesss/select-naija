@@ -33,6 +33,7 @@ const PAGES = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'research', 
       rec.finalUrl = page.url();
       rec.title = await page.title().catch(() => '');
       rec.text = (await page.locator('body').innerText().catch(() => '')).replace(/\s+/g, ' ').slice(0, 2500);
+      rec.html = (await page.content().catch(() => '')).slice(0, 400000);
       rec.links = [...new Set(await page.$$eval('a[href]', (as) => as.map((a) => a.href)).catch(() => []))].slice(0, 300);
       rec.iframes = await page.$$eval('iframe', (f) => f.map((x) => x.src)).catch(() => []);
       page.removeAllListeners('response');
