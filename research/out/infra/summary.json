@@ -1,54 +1,9 @@
 {
- "afreetv": {
-  "start": "https://afree.tv",
-  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://afree.tv/",
-  "title": "",
-  "pages": 1,
-  "fingerprints": {},
-  "media": 0,
-  "walls": []
- },
- "mtnonetv": {
-  "start": "https://onetv.mtn.ng",
-  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://onetv.mtn.ng/",
-  "title": "",
-  "pages": 1,
-  "fingerprints": {},
-  "media": 0,
-  "walls": []
- },
- "cafrica": {
-  "start": "https://cafrica.tv",
-  "status": 403,
-  "title": "403 Forbidden",
-  "pages": 1,
-  "fingerprints": {},
-  "media": 0,
-  "walls": []
- },
- "evod": {
-  "start": "https://evod.ng",
-  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://evod.ng/",
-  "title": "",
-  "pages": 1,
-  "fingerprints": {},
-  "media": 0,
-  "walls": []
- },
- "freevisionplay": {
-  "start": "https://freevisionplay.com",
-  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://freevisionplay.com/",
-  "title": "",
-  "pages": 1,
-  "fingerprints": {},
-  "media": 0,
-  "walls": []
- },
- "ottera-avaz": {
-  "start": "https://avaz.ottera.tv",
-  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://avaz.ottera.tv/",
-  "title": "",
-  "pages": 1,
+ "bp-avaz": {
+  "start": "https://bluepicturesng.com/avaz/",
+  "status": 500,
+  "title": "Avaz Kitchen - Bluepictures Cinema",
+  "pages": 2,
   "fingerprints": {},
   "media": 0,
   "walls": []
