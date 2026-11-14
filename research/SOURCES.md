@@ -119,3 +119,12 @@ YorubaPlay (iBAKA), Scene One TV, and Aflik's six channels.
 Title-level tracing: every platform MuviDB records for a film was checked. None offers a free, permitted in-app stream in
 the UK, so tracing individual YouTube films to those platforms adds 0 non-YouTube playable titles. The nightly report now
 counts unique non-YouTube playable titles separately, so any future source shows up on its own line.
+
+## Round 5 (14 Nov 2026): El's Movies, NolliStream recheck, Vuma+, FilmFlux
+
+| Source | What was tested | Result |
+| --- | --- | --- |
+| El's Streaming (elsmovies.com/stream) | Home, film list, two film pages rendered in a browser; FAQ; terms; WordPress API index | WordPress site, free fan registration. Catalogue: 7 films (Awuf Wife, What Men Want, Divided Heart, Wicked Princes, Madam Hoha, Driver Lover, Face Mask). Every film page plays a **YouTube embed** (e.g. Awuf Wife = youtube `axdlxPY1_3A`, uploaded by El's own channel EL'S NOLLY TV, @elsnollytv77). No self-hosted files, no HLS/MP4. Terms are a template copied from "Digiflex". **Integrated via its official YouTube channel** (rights-holder) |
+| NolliStream (nollistream.net, app v10) | Web home and two film pages rendered | Free AVOD, but every page redirects to a sign-up wall; app v10 notes "tightened security". Playback only after an account login inside its apps/web, ad-funded; no public API or partner feed. **Excluded** (account-gated, ad-supported player; streaming into Nuvio would strip its ads) |
+| Vuma+ (vumaplus.com) | Home, browse, terms; data calls | Its own terms: "Content is streamed via YouTube's embedded player"; catalogue table is `yt_catalog` of YouTube video IDs from many channels (official and fan re-upload). **No independent source** |
+| FilmFlux (filmflux.app) | Site (Cloudflare bot wall), App Store listing | Listing: films "picked from the best YouTube creators". **No independent source** |
