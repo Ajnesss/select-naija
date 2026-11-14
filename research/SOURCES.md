@@ -71,3 +71,20 @@ from their owners (the distributors who supply Tubi), not from Tubi.
 
 
 Scope: films and series only. Live TV is out of scope. Select Naija does not seek licences from rights-holders.
+
+## ZeraTV (tested 14 Nov 2026, `scripts/probe-zeratv.js`, results in `research/out/zeratv.json`)
+
+| Check | Result |
+| --- | --- |
+| Catalogue | 683 posts (Movies 672 over 56 pages; Yoruba 7; Igbo 4; no Hausa). Vimeo IDs date from 2017–2018 |
+| Player per film | YouTube embed 386 (57%), Vimeo 243 (36%), other 43 |
+| Vimeo owner | "Zera Media" account |
+| Vimeo oEmbed (public video info) | 404 for all 12 tested: hidden from Vimeo's public listings |
+| Vimeo player opened directly (London) | 403 for 11, 404 for 1: playback is locked to zeratv.com (domain-restricted embed) |
+| Vimeo download | Not offered on any tested film |
+| Vimeo API | Direct files (`play`, `files`, `download`) are only returned to the video owner's own token |
+| ZeraTV terms | Claims no ownership of third-party content; allows only "a simple video embed"; "Unauthorized use … not allowed" |
+
+Result: ZeraTV's Vimeo films can only be played on zeratv.com. Getting their streams into Nuvio would mean
+defeating Vimeo's domain lock, so they are excluded unless Zera Media supplies streams. Its YouTube embeds
+are third-party uploads; any from an approved official channel are already in the YouTube source.
