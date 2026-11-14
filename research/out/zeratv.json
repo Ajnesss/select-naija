@@ -1,0 +1,6309 @@
+{
+ "categories": {
+  "movies": {
+   "pages": 56,
+   "newPosts": 672
+  },
+  "yoruba": {
+   "pages": 1,
+   "newPosts": 7
+  },
+  "igbo": {
+   "pages": 1,
+   "newPosts": 4
+  }
+ },
+ "posts": [
+  {
+   "url": "https://www.zeratv.com/feed/",
+   "cat": "movies",
+   "status": 200,
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/wp-json/",
+   "cat": "movies",
+   "status": 200,
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/actors/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Actors",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/hes-for-me/",
+   "cat": "movies",
+   "status": 200,
+   "title": "HE`S FOR ME",
+   "host": "vimeo",
+   "id": "281027423",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/destiny-dancing-maiden/",
+   "cat": "movies",
+   "status": 200,
+   "title": "The Destiny Of A Dancing Maiden",
+   "host": "vimeo",
+   "id": "281026515",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/ex-affairs/",
+   "cat": "movies",
+   "status": 200,
+   "title": "EX AFFAIRS",
+   "host": "vimeo",
+   "id": "281026181",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/rough-game/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ROUGH GAME",
+   "host": "vimeo",
+   "id": "281024968",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/choice-of-love/",
+   "cat": "movies",
+   "status": 200,
+   "title": "CHOICE OF LOVE",
+   "host": "vimeo",
+   "id": "281024125",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/luck-season-3/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE LUCK &#8211; (Season 3)",
+   "host": "vimeo",
+   "id": "281025958",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/luck-season-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE LUCK &#8211; (season 2)",
+   "host": "vimeo",
+   "id": "281024480",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-luck/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE LUCK",
+   "host": "vimeo",
+   "id": "281025237",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/a-silverspoon/",
+   "cat": "movies",
+   "status": 200,
+   "title": "A SILVERSPOON",
+   "host": "vimeo",
+   "id": "275287507",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/heartbeat/",
+   "cat": "movies",
+   "status": 200,
+   "title": "HEARTBEAT",
+   "host": "vimeo",
+   "id": "278428087",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/being-abused-by-my-husband/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BEING ABUSED BY MY HUSBAND",
+   "host": "vimeo",
+   "id": "278430445",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/coming-america-african-remake/",
+   "cat": "movies",
+   "status": 200,
+   "title": "COMING TO AMERICA (AFRICAN REMAKE)",
+   "host": "vimeo",
+   "id": "278430702",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/queen-niger/",
+   "cat": "movies",
+   "status": 200,
+   "title": "QUEEN OF THE NIGER",
+   "host": "vimeo",
+   "id": "135154805",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/sin-virgin-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SIN OF A VIRGIN Part 1",
+   "host": "vimeo",
+   "id": "131311045",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/sin-virgin-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SIN OF A VIRGIN Part 2",
+   "host": "vimeo",
+   "id": "131311044",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/endowed-bride/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ENDOWED BRIDE",
+   "host": "vimeo",
+   "id": "278431083",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/four-wasted-years/",
+   "cat": "movies",
+   "status": 200,
+   "title": "FOUR WASTED YEARS",
+   "host": "vimeo",
+   "id": "278431380",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/marriage-mistakes/",
+   "cat": "movies",
+   "status": 200,
+   "title": "MARRIAGE MISTAKES",
+   "host": "vimeo",
+   "id": "278431535",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/my-woman/",
+   "cat": "movies",
+   "status": 200,
+   "title": "MY WOMAN",
+   "host": "vimeo",
+   "id": "278431787",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/perfect-for-me/",
+   "cat": "movies",
+   "status": 200,
+   "title": "PERFECT FOR ME",
+   "host": "vimeo",
+   "id": "278432057",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/swings/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SWINGS",
+   "host": "vimeo",
+   "id": "278432400",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/public-wife/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Public Wife",
+   "host": "vimeo",
+   "id": "278432525",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/love-triangle/",
+   "cat": "movies",
+   "status": 200,
+   "title": "LOVE TRIANGLE",
+   "host": "vimeo",
+   "id": "278432695",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/rich-billionaire-falls-love-poor-fruit-seller-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE RICH BILLIONAIRE FALLS IN LOVE WITH THE POOR FRUIT SELLER 2",
+   "host": "vimeo",
+   "id": "279380956",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/rich-boy-falls-love-poor-fruit-seller-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE RICH BOY FALLS IN LOVE WITH THE POOR FRUIT SELLER 1",
+   "host": "vimeo",
+   "id": "279381543",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/signs-of-love/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SIGNS OF LOVE",
+   "host": "vimeo",
+   "id": "279383081",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/just-a-friend/",
+   "cat": "movies",
+   "status": 200,
+   "title": "JUST A FRIEND",
+   "host": "vimeo",
+   "id": "279384119",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/pathetic/",
+   "cat": "movies",
+   "status": 200,
+   "title": "PATHETIC",
+   "host": "vimeo",
+   "id": "279384379",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/chosen-one-among-equal-3/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE CHOSEN ONE AMONG HER EQUAL 3",
+   "host": "vimeo",
+   "id": "279384857",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/chosen-one-among-equal-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE CHOSEN ONE AMONG HER EQUAL 2",
+   "host": "vimeo",
+   "id": "279384578",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/chosen-one-among-equal-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE CHOSEN ONE AMONG HER EQUAL 1",
+   "host": "vimeo",
+   "id": "279385067",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/burden-of-attraction/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Burden of Attraction",
+   "host": "vimeo",
+   "id": "279385315",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/silent-sin/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SILENT SIN",
+   "host": "vimeo",
+   "id": "279385569",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/cold-night-final-saga/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ON A COLD NIGHT (Final Saga)",
+   "host": "vimeo",
+   "id": "279385914",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/mercy-johnson-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Who is Mercy Johnson 1",
+   "host": "vimeo",
+   "id": "279389721",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/pretended-poor-find-love-fell-common-waitress/",
+   "cat": "movies",
+   "status": 200,
+   "title": "HOW I PRETENDED TO BE POOR TO FIND LOVE &#038; FELL FOR A COMMON WAITRESS",
+   "host": "vimeo",
+   "id": "279390691",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/rich-prince-disguise-village-bicycle-rider-find-wife/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE RICH PRINCE THAT DISGUISE AS A VILLAGE BICYCLE RIDER TO FIND A WIFE",
+   "host": "vimeo",
+   "id": "279391408",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/house-boy-now-husband/",
+   "cat": "movies",
+   "status": 200,
+   "title": "My House Boy Is Now My Husband",
+   "host": "vimeo",
+   "id": "279391883",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/pregnant-two-brothers-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "PREGNANT FOR TWO BROTHERS 2",
+   "host": "vimeo",
+   "id": "279597614",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/pregnant-two-brothers-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "PREGNANT FOR TWO BROTHERS 1",
+   "host": "vimeo",
+   "id": "279597315",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/finally-in-love/",
+   "cat": "movies",
+   "status": 200,
+   "title": "FINALLY IN LOVE",
+   "host": "vimeo",
+   "id": "279597825",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/my-bodyguard/",
+   "cat": "movies",
+   "status": 200,
+   "title": "MY BODYGUARD",
+   "host": "vimeo",
+   "id": "279598217",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-boss-wife/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE BOSS WIFE",
+   "host": "vimeo",
+   "id": "279777723",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/butterflies/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BUTTERFLIES",
+   "host": "vimeo",
+   "id": "279778324",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/perfect-houseboy-chapter-4/",
+   "cat": "movies",
+   "status": 200,
+   "title": "PERFECT HOUSEBOY (chapter 4)",
+   "host": "vimeo",
+   "id": "279778924",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/perfect-houseboy-chapter-3/",
+   "cat": "movies",
+   "status": 200,
+   "title": "PERFECT HOUSEBOY (chapter 3)",
+   "host": "vimeo",
+   "id": "279779154",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/perfect-houseboy-chapter-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "PERFECT HOUSEBOY (chapter 2)",
+   "host": "vimeo",
+   "id": "279779512",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/perfect-houseboy-chapter-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "PERFECT HOUSEBOY (chapter 1)",
+   "host": "vimeo",
+   "id": "279780027",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/growing-without-mother/",
+   "cat": "movies",
+   "status": 200,
+   "title": "GROWING UP WITHOUT A MOTHER",
+   "host": "vimeo",
+   "id": "279783743",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/mr-mrs-johnson/",
+   "cat": "movies",
+   "status": 200,
+   "title": "MR &#038; MRS JOHNSON",
+   "host": "vimeo",
+   "id": "279784341",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/just-one-night/",
+   "cat": "movies",
+   "status": 200,
+   "title": "IN JUST ONE NIGHT",
+   "host": "vimeo",
+   "id": "279793345",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/last-tea-cup-starring-genevieve-nnaji/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE LAST TEA CUP &#8211; Starring Genevieve Nnaji",
+   "host": "vimeo",
+   "id": "229489942",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/dr-rachel-nollywood-movie-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Dr Rachel- A Nollywood Movie 2",
+   "host": "vimeo",
+   "id": "229490087",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/dr-rachel-nollywood-movie-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Dr Rachel- Nollywood Movie 1",
+   "host": "vimeo",
+   "id": "229490184",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/possible-mission-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "A Possible Mission- Part 2",
+   "host": "vimeo",
+   "id": "229490247",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/possible-mission-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "A Possible Mission- Part 1",
+   "host": "vimeo",
+   "id": "229490292",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/power-seekers-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Power Seekers 2",
+   "host": "vimeo",
+   "id": "229490394",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/power-seekers-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Power Seekers 1",
+   "host": "vimeo",
+   "id": "229490328",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/presidential-wedding-part-1-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Presidential Wedding -Part 1",
+   "host": "vimeo",
+   "id": "229490451",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/presidential-wedding-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Presidential wedding -Part 2",
+   "host": "vimeo",
+   "id": "229490529",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/millionaire-akara-seller/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE MILLIONAIRE AKARA SELLER",
+   "host": "vimeo",
+   "id": "229490599",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/rich-poor-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "The Rich And The Poor 1",
+   "host": "vimeo",
+   "id": "229490700",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/rich-poor-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "The Rich And The Poor 2",
+   "host": "vimeo",
+   "id": "229490806",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/set-1-starring-genevie-nnaji/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE SET UP -1 &#8211; Starring Genevie Nnaji",
+   "host": "vimeo",
+   "id": "229491076",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/my-lost-life/",
+   "cat": "movies",
+   "status": 200,
+   "title": "My Lost Life",
+   "host": "vimeo",
+   "id": "229491205",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/vice-presidents-mistress-starring-omotola/",
+   "cat": "movies",
+   "status": 200,
+   "title": "VICE PRESIDENT’S MISTRESS- Starring Omotola",
+   "host": "vimeo",
+   "id": "229491294",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/villa-queen/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Villa Queen",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/when-favour-speak-for-you/",
+   "cat": "movies",
+   "status": 200,
+   "title": "When Favour Speak For You",
+   "host": "vimeo",
+   "id": "229491692",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/god-side-starring-ini-edo/",
+   "cat": "movies",
+   "status": 200,
+   "title": "WHEN GOD IS ON YOUR SIDE &#8211; Starring Ini Edo",
+   "host": "vimeo",
+   "id": "229492151",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/married-wife-biter/",
+   "cat": "movies",
+   "status": 200,
+   "title": "When You Married A wife Biter",
+   "host": "vimeo",
+   "id": "229492251",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/eko-city-girls-starring-funke-akindele/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Eko City Girls &#8211; Starring Funke Akindele",
+   "host": "vimeo",
+   "id": "218095731",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/my-passion-your-pain/",
+   "cat": "movies",
+   "status": 200,
+   "title": "My Passion Your Pain",
+   "host": "vimeo",
+   "id": "218106349",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/value-wife-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Value Your Wife- A Nollywood Movie",
+   "host": "vimeo",
+   "id": "218298502",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/man-ring-part-2-starring-majid-michel/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Man In The Ring part 2 &#8211; Starring Majid Michel",
+   "host": "vimeo",
+   "id": "218300040",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/man-ring-part-1-starring-majid-michel-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Man In The Ring part 1 &#8211; Starring Majid Michel",
+   "host": "vimeo",
+   "id": "218299147",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/man-ring-part-1-starring-majid-michel/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Man In The Ring part 1 &#8211; Starring Majid Michel",
+   "host": "vimeo",
+   "id": "218299147",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/good-wife-2-starring-omotola/",
+   "cat": "movies",
+   "status": 200,
+   "title": "The Good Wife 2 -Starring Omotola",
+   "host": "vimeo",
+   "id": "218300814",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/good-wife-1-starring-omotola/",
+   "cat": "movies",
+   "status": 200,
+   "title": "The Good Wife 1 -Starring Omotola",
+   "host": "vimeo",
+   "id": "218300814",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/real-love-starring-jackie-appiah/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Is This Real Love- Starring Jackie Appiah",
+   "host": "vimeo",
+   "id": "218302287",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/abused-husband-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BEING ABUSED BY MY HUSBAND-A Nollywood Movie",
+   "host": "vimeo",
+   "id": "218302921",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/loosing-control-starring-omotola-jalade/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Loosing Control- Starring Omotola Jalade",
+   "host": "vimeo",
+   "id": "218303944",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/cheating-wives-starring-tonto-dikeh/",
+   "cat": "movies",
+   "status": 200,
+   "title": "CHEATING WIVES &#8211; Starring TONTO DIKEH",
+   "host": "vimeo",
+   "id": "218304615",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/house-girl-starring-omotola/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE HOUSE GIRL- Starring OMOTOLA",
+   "host": "vimeo",
+   "id": "218305557",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/babatunde-dairies-episode-13-wants-millionaire-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Babatunde Dairies &#8211; Episode 13 Who wants to be a Millionaire 2",
+   "host": "vimeo",
+   "id": "227566975",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/babatunde-dairies-episode-12-wants-millionaire/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Babatunde Dairies &#8211; Episode 12 Who wants to be a Millionaire",
+   "host": "vimeo",
+   "id": "227566665",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/babatunde-dairies-episode-11-dreamer/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Babatunde Dairies &#8211; Episode 11 Dreamer",
+   "host": "vimeo",
+   "id": "227566391",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/babatunde-dairies-episode-10-crooked-game/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Babatunde Dairies &#8211; Episode 10 Crooked game",
+   "host": "vimeo",
+   "id": "227566092",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/babatunde-dairies-episode-9-gagnam-style/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Babatunde Dairies &#8211; Episode 9 Gagnam Style",
+   "host": "vimeo",
+   "id": "227565778",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/babatunde-dairies-season-1-episode-8-don-port-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Babatunde Dairies &#8211; Season 1-Episode 8 &#8211; I Don Port",
+   "host": "vimeo",
+   "id": "227565514",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/babatunde-dairies-season-1-episode-7-kungfu/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Babatunde Dairies – Season 1-Episode 7 -Kungfu",
+   "host": "vimeo",
+   "id": "227565200",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/babatunde-dairies-season-1-episode-6-great-gambler-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Babatunde Dairies &#8211; Season -1-Episode 6 -Great Gambler",
+   "host": "vimeo",
+   "id": "227564807",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/babatunde-dairies-season1-episode-5-mama-put-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Babatunde Dairies &#8211; Season1-Episode 5 Mama Put.",
+   "host": "vimeo",
+   "id": "227562521",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/babatundes-diaries-season-1-episode-4-taxi-driver-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Babatunde&#8217;s Diaries  Season 1-Episode 4 &#8211; Taxi Driver",
+   "host": "vimeo",
+   "id": "227562139",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/babatunde-diaries-season-1-episode-3-false-prophet-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Babatunde Diaries Season 1-Episode 3 – False Prophet",
+   "host": "vimeo",
+   "id": "227561789",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/babatundes-diaries-season-1-episode-2-herbal-remix-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Babatunde’s Diaries Season 1-Episode 2 – Herbal Remix",
+   "host": "vimeo",
+   "id": "227561364",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/black-women-beautiful-part-1-startling-genevieve-nnaji-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Black Women Are Beautiful Part 1- Startling  GENEVIEVE NNAJI",
+   "host": "vimeo",
+   "id": "215735223",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/black-women-beautiful-part-2-startling-genevieve-nnaji/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Black Women Are Beautiful Part 2- Startling  GENEVIEVE NNAJI",
+   "host": "vimeo",
+   "id": "215751522",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/black-women-beautiful-part-1-startling-genevieve-nnaji/",
+   "cat": "movies",
+   "status": 200,
+   "title": "",
+   "host": "vimeo",
+   "id": "215735223",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/oya-rise-of-the-orisas-african-superhero-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Oya rise of the Orisas &#8211; African Superhero Movie",
+   "host": "vimeo",
+   "id": "118213327",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-return-of-the-last-super-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "The Return of the Last Super 1",
+   "host": "youtube",
+   "id": "1uXgg2Vl4gQ",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/babatunde-dairies-season-1-episode-8-don-port/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Babatunde Dairies &#8211; Season 1-Episode 8 &#8211; I Don Port",
+   "host": "vimeo",
+   "id": "134902533",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/babatunde-dairies-season1-episode-7-kungfu/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Babatunde Dairies &#8211; Season 1-Episode 7 -Kungfu",
+   "host": "vimeo",
+   "id": "134902532",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/babatunde-dairies-season-1-episode-6-great-gambler/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Babatunde Dairies &#8211; Season -1-Episode 6 -Great Gambler",
+   "host": "vimeo",
+   "id": "134902530",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/babatunde-dairies-season1-episode-5-mama-put/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Babatunde Dairies &#8211; Season-1-Episode 5 Mama Put.",
+   "host": "vimeo",
+   "id": "134902529",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/babatundes-diaries-season-1-episode-4-taxi-driver/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Babatunde&#8217;s Diaries  Season 1-Episode 4 &#8211; Taxi Driver",
+   "host": "vimeo",
+   "id": "134901563",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/babatunde-diaries-season-1-episode-3-false-prophet/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Babatunde Diaries Season 1-Episode 3 &#8211; False Prophet",
+   "host": "vimeo",
+   "id": "134901559",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/babatundes-diaries-season-1-episode-2-herbal-remix/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Babatunde&#8217;s Diaries Season 1-Episode 2 &#8211; Herbal Remix",
+   "host": "vimeo",
+   "id": "134901558",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/babatunde-diaries-season-1-episode-1-babatunde-comes-lagos/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Babatunde&#8217; Diaries SEASON 1-Episode 1 &#8211; Babatunde Comes to Lagos",
+   "host": "vimeo",
+   "id": "227560655",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/babatunde-diaries-season-1-trailer/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BABATUNDE DIARIES – SEASON 1- TRAILER",
+   "host": "youtube",
+   "id": "wHp3RnA-xeg",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/babatunde-dairies-trailer/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BABATUNDE DAIRIES- Trailer",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/dirty-pastor-full-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "DIRTY PASTOR- Full Movie",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/dirty-pastor-trailer/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Dirty Pastor &#8211; Trailer",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/street-marriage-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "STREET MARRIAGE 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "kfJDQVHilV0",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/street-marriage-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "STREET MARRIAGE 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "lpbfJ8Pcn0E",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/handsome-devil-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "HANDSOME DEVIL 2 &#8211; Nollywood Movie",
+   "host": "youtube",
+   "id": "D69NOfHUg_w",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/handsome-devil-1-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "HANDSOME DEVIL 1 &#8211; Nollywood Movie",
+   "host": "youtube",
+   "id": "yF4RliNZElQ",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/bread-life-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BREAD OF LIFE 2",
+   "host": "vimeo",
+   "id": "131307678",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/bread-life-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BREAD OF LIFE 1",
+   "host": "vimeo",
+   "id": "131306014",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/erotic-crime-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "EROTIC CRIME 2",
+   "host": "vimeo",
+   "id": "131309976",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/erotic-crime-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "EROTIC CRIME 1",
+   "host": "vimeo",
+   "id": "131309975",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/marriage-slaves-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Marrigae Slaves 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "yvjMsYSyWPI",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/marriage-slaves-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Marriage Slaves 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "Ir8-L7sEOOY",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/lion-heroes-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "LION HEROES PART 2",
+   "host": "vimeo",
+   "id": "129848694",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/lion-heroes-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "LION HEROES PART 1",
+   "host": "vimeo",
+   "id": "129835316",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/once-upon-a-virgin-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ONCE UPON A VIRGIN  Part 2",
+   "host": "vimeo",
+   "id": "131312299",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/once-upon-a-virgin-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ONCE UPON A VIRGIN Part 1",
+   "host": "vimeo",
+   "id": "131312298",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/gobe-masters-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "GOBE MASTERS  Part 2",
+   "host": "vimeo",
+   "id": "131315464",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/gobe-masters-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "GOBE MASTERS  Part 1",
+   "host": "vimeo",
+   "id": "131315463",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/genesis-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "GENESIS Part 2",
+   "host": "vimeo",
+   "id": "131316460",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/genesis-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "GENESIS Part 1",
+   "host": "vimeo",
+   "id": "131316459",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-stubborn-king-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE STUBBORN KING Part 2",
+   "host": "vimeo",
+   "id": "131317819",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-stubborn-king-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE STUBBORN KING Part 1",
+   "host": "vimeo",
+   "id": "131317818",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/daniella-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "DANIELLA  Part 2",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/daniella-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "DANIELLA Part 1",
+   "host": "vimeo",
+   "id": "131322811",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-cheaters-game-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE CHEATERS  GAME Part 2",
+   "host": "vimeo",
+   "id": "131323496",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-cheaters-game-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE CHEATERS  GAME Part 1",
+   "host": "vimeo",
+   "id": "131323495",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/bread-of-sorrow-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BREAD OF SORROW Part 2",
+   "host": "vimeo",
+   "id": "131324397",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/bread-of-sorrow-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BREAD OF SORROW Part 1",
+   "host": "vimeo",
+   "id": "131324398",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/bleeding-heart-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BLEEDING HEART 2",
+   "host": "vimeo",
+   "id": "131325179",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/bleeding-heart-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BLEEDING HEART 1",
+   "host": "vimeo",
+   "id": "131325178",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/painful-soul-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "PAINFUL SOUL Part 2",
+   "host": "vimeo",
+   "id": "131326082",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/painful-soul-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "PAINFUL SOUL Part 1",
+   "host": "vimeo",
+   "id": "131326082",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/my-brothers-wealth-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "MY BROTHERS WEALTH Part 2",
+   "host": "vimeo",
+   "id": "131326698",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/my-brothers-wealth-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "MY BROTHERS WEALTH Part 1",
+   "host": "vimeo",
+   "id": "131326697",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/days-of-sorrow-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "DAYS OF SORROW Part 2",
+   "host": "vimeo",
+   "id": "131327353",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/days-of-sorrow-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "DAYS OF SORROW Part 1",
+   "host": "vimeo",
+   "id": "131327352",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-miser-9-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE MISER 9 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "CyS-RKBnW-Y",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-miser-8-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE MISER 8 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "vAO8fNGAWqw",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-miser-7-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE MISER 7 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "sy7HJ8U8E6Q",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-miser-6-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE MISER 6 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "9zJqL3b1zq0",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/see-gobe-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SEE GOBE Part 2",
+   "host": "vimeo",
+   "id": "131351018",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/see-gobe-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SEE GOBE Part 1",
+   "host": "vimeo",
+   "id": "131351017",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/single-but-married-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SINGLE BUT MARRIED 2",
+   "host": "vimeo",
+   "id": "131352665",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/single-but-married-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SINGLE BUT MARRIED 1",
+   "host": "vimeo",
+   "id": "131352666",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/sisters-enemy-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SISTER&#8217;S ENEMY 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "nl_f-XnrxOM",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/sisters-enemy-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SISTER&#8217;S ENEMY 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "_nB4Qr02sIc",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/ninght-of-horror-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "NIGHT OF HORROR 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "hSkKzvSyLNY",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/ninght-of-horror-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "NIGHT OF HORROR 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "aTKnUB7aKqo",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/stand-by-me-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "STAND BY ME 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "b3mE8WLi0AI",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/stand-by-me-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "STAND BY ME 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "GPn1mtNdJtI",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-family-man-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE FAMILY MAN Part 2",
+   "host": "vimeo",
+   "id": "131357795",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-family-man-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE FAMILY MAN Part 1",
+   "host": "vimeo",
+   "id": "131357794",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/lords-of-the-rain-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "LORDS OF THE RAIN 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "llNWynKU5y4",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/lords-of-the-rain-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "LORDS OF THE RAIN 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "InRLKxZcYHc",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/in-the-name-of-the-king-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "IN THE NAME OF THE KING 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "PPRbTjdjaog",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/in-the-name-of-the-king-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "IN THE NAME OF THE KING 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "KMHms9syS-k",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/secret-of-amanda-2-nigerian-nollywood-movie-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SECRET OF AMANDA 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "sZihCH3sArQ",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/secret-of-amanda-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SECRET OF AMANDA 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "RZ8-2q5Tqtc",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/apostates-of-hell-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "APOSTATES OF HELL 2 &#8211; Nigerian Nollywood movie",
+   "host": "youtube",
+   "id": "fGGzjKBKw4U",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/apostates-of-hell-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "APOSTATES OF HELL 1 &#8211; Nigerian Nollywood movie",
+   "host": "youtube",
+   "id": "qlvZIy32YX4",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-miser-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE MISER 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "0yWIZAQ7hV0",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-miser-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE MISER 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "lJoAU2peL9E",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-miser-3-nigerian-nollywood-movie-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE MISER 3 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "900vX9PgSKo",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-miser-3-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE MISER 4 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "zdx1Kt32ZSo",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-miser-5-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE MISER 5 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "vQi6ZolyetE",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/tears-of-agony-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "TEARS OF AGONY Part 2",
+   "host": "vimeo",
+   "id": "131360683",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/tears-of-agony-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "TEARS OF AGONY Part 1",
+   "host": "vimeo",
+   "id": "131360684",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/radical-prince-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "RADICAL PRINCE part 2",
+   "host": "vimeo",
+   "id": "131362795",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/radical-prince-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "RADICAL PRINCE part 1",
+   "host": "vimeo",
+   "id": "131362796",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/divine-mercy-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "DIVINE MERCY  Part 1",
+   "host": "vimeo",
+   "id": "131364236",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/onyinye-the-wine-tapper-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Onyinye The Wine Tapper part 2",
+   "host": "vimeo",
+   "id": "131619289",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/onyinye-the-wine-tapper-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Onyinye The Wine Tapper part 1",
+   "host": "vimeo",
+   "id": "131616420",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-unfaithful-husband-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "The Unfaithful Husband part 2",
+   "host": "vimeo",
+   "id": "131628759",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/unfaithful-husband-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "The Unfaithful Husband part 1",
+   "host": "vimeo",
+   "id": "131624284",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/fifty-fifty-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "FIFTY FIFTY 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "hVo-ps0TmF0",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/fifty-fifty-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "FIFTY FIFTY 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "ZXCWNoiI5TM",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/queen-of-passion-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "QUEEN OF PASSION 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "H0wGWlWRq6E",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/queen-of-passion-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "QUEEN OF PASSION 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "Fa0nWFUDcm0",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/ring-and-ornaments-2-nigerian-nollywood-movies/",
+   "cat": "movies",
+   "status": 200,
+   "title": "RING AND ORNAMENTS 2 &#8211; Nigerian Nollywood Movies",
+   "host": "youtube",
+   "id": "nP1y77pcyPk",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/ring-and-ornaments-1-nigerian-nollywood-movies/",
+   "cat": "movies",
+   "status": 200,
+   "title": "RING AND ORNAMENTS 1 &#8211; Nigerian Nollywood Movies",
+   "host": "youtube",
+   "id": "3WM6uhiUVT4",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/forgive-me-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "FORGIVE ME 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "p8CixmyISDk",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/forgive-me-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "FORGIVE ME 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "tx5FlUKUq74",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/married-for-money-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "MARRIED FOR MONEY &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "CaxdA6RSrEU",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/attack-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ATTACK 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "JOFNLwHo4nI",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/attack-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ATTACK 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "2Fbt83DDpQc",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/princess-will-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "PRINCESS WILL 1",
+   "host": "vimeo",
+   "id": "131733966",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/princess-will-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "PRINCESS WILL 2",
+   "host": "vimeo",
+   "id": "131733965",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/my-last-wedding-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "MY LAST WEDDING Part 2",
+   "host": "vimeo",
+   "id": "131737163",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/my-last-wedding-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "MY LAST WEDDING Part 1",
+   "host": "vimeo",
+   "id": "131737162",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/things-we-do-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THINGS WE DO Part 2",
+   "host": "vimeo",
+   "id": "132571115",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/things-we-do-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THINGS WE DO Part 1",
+   "host": "vimeo",
+   "id": "132571114",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/dr-damian-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "DR DAMIAN 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "UsLnxI_zGpY",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/dr-damian-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "DR DAMIAN 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "eoDWNBgapJE",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/bitter-sugar-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BITTER SUGAR 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "D4jIKz-XGJc",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/bitter-sugar-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BITTER SUGAR 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "gfhM-63BSco",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/victim-of-love-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "VICTIM OF LOVE 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "mc59Oiy-waY",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/victim-of-love-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "VICTIM OF LOVE 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "gDggZNPwOeY",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-engaged-priest-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE ENGAGED PRIEST 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "g4VRlSl9Yw8",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-engaged-priest-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE ENGAGED PRIEST 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "yJ0Ha7n3fkU",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/days-of-war-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "DAYS OF WAR 2",
+   "host": "vimeo",
+   "id": "132572437",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/days-of-war-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "DAYS OF WAR 1",
+   "host": "vimeo",
+   "id": "132572438",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/queen-lateefah-3-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "QUEEN LATEEFAH 3 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "hANZj41edlE",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/queen-lateefah-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "QUEEN LATEEFAH 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "CtqNlfOIih0",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/queen-lateefah-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "QUEEN LATEEFAH 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "7WdfZNIB0MY",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/brothers-heart-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BROTHER&#8217;S HEART 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "YOAhgilLlxk",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/brothers-heart-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BROTHER&#8217;S HEART 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "ElnYZz7EEzY",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-c-e-o-3-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE C. E. O 3 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "nCrCkRue1vg",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-c-e-o-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE C. E. O 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "3Sd3Miz3l9k",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-c-e-o-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE C. E. O 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "bkId8sMA3Pc",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/beast-in-the-kingdom-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BEAST IN THE KINGDOM Part 2",
+   "host": "vimeo",
+   "id": "132573282",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/beast-in-the-kingdom-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BEAST IN THE KINGDOM Part 1",
+   "host": "vimeo",
+   "id": "132573283",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/unknown-bedmate-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "UNKNOWN BEDMATE 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "n0imQGA_SJw",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/unkonwn-bedmate-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "UNKONWN BEDMATE 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "wk4SXEYcT08",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/reckless-heart-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "RECKLESS HEART &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "YrhHVOXUMgY",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/total-confusion-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "TOTAL CONFUSION 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "-vYecVvvo88",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/total-confusion-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "TOTAL CONFUSION 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "XXZQwzfsjtw",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/el-gibor-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "EL GIBOR 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "Fw9oZImsVnc",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/el-gibor-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "EL GIBOR 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "2wqx63ZA63k",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/just-me-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "JUST ME 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "9-eG0lcH3Mw",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/just-me-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "JUST ME 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "hXK0Nt1jUZ8",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/table-of-men-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "TABLE OF MEN Part 2",
+   "host": "vimeo",
+   "id": "132575977",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/table-of-men-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "TABLE OF MEN Part 1",
+   "host": "vimeo",
+   "id": "132574197",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/king-of-campus-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "KING OF CAMPUS Part 2",
+   "host": "vimeo",
+   "id": "132575978",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/king-of-campus-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "KING OF CAMPUS Part 1",
+   "host": "vimeo",
+   "id": "132575976",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/my-past-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "MY PAST Part 2",
+   "host": "vimeo",
+   "id": "132576827",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/my-past-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "MY PAST Part 1",
+   "host": "vimeo",
+   "id": "132576826",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/holy-oracle-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "HOLY ORACLE 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "2DYn9K_YKEw",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/holy-oracle-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "HOLY ORACLE 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "CAJdHbeENx8",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/no-sex-no-wedding-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "NO SEX NO WEDDING 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "C5XyEN-Gxu0",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/no-sex-no-wedding-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "NO SEX NO WEDDING 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "P4iDr7wdt0w",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/last-challenge-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "LAST CHALLENGE 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "xjIEBS6RohM",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/last-challenge-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "LAST CHALLENGE 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "WaqRY-ovS2Q",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/sinful-act-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SINFUL ACT 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "X1kYy-VlmUU",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/sinful-act-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SINFUL ACT 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "IkoMOOpm8Dg",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/my-faith-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "MY FAITH &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "ynyRt8dkzf0",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/lord-you-can-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "LORD YOU CAN &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "G5M3MmXqy0E",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-exposed-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE EXPOSED &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "yGqqyK05xrQ",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/o-my-god-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "O MY GOD!! 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "-nkVLciuEcA",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/o-my-god-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "O MY GOD!! 2 &#8211; Nigerian Nollywood movie",
+   "host": "youtube",
+   "id": "r7zif5xVTGU",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/double-trouble-nigerian-nollywood-movie-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "DOUBLE TROUBLE &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "Ps6izlpGnrM",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/pleasure-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "PLEASURE  Part 2",
+   "host": "vimeo",
+   "id": "132576828",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/pleasure-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "PLEASURE  Part 1",
+   "host": "vimeo",
+   "id": "132576829",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/altar-against-altar-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ALTAR AGAINST ALTAR 2",
+   "host": "vimeo",
+   "id": "132623822",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/altar-against-altar-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ALTAR AGAINST ALTAR 1",
+   "host": "vimeo",
+   "id": "132623821",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/his-head-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "HIS HEAD 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "I5-Iro1DNC8",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/his-head-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "HIS HEAD 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "s9hujx6aYsk",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/queens-heart-1-ghanaian-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "QUEEN&#8217;S HEART 1 &#8211; Ghanaian Ghallywood Movie",
+   "host": "youtube",
+   "id": "AjZnj8X2qSE",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/queens-heart-2-ghanaian-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "QUEEN&#8217;S HEART 2 &#8211; Ghanaian Ghallywood Movie",
+   "host": "youtube",
+   "id": "VkFFYGOZjrw",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/kings-heart-2-ghanaian-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "KING&#8217;S HEART 2 &#8211; Ghanaian Ghallywood Movie",
+   "host": "youtube",
+   "id": "mq30qz5mLwg",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/kings-heart-ghanaian-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "KING&#8217;S HEART 1 &#8211; Ghanaian Ghallywood Movie",
+   "host": "youtube",
+   "id": "aJ128_h0_Dk",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/endless-agony-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ENDLESS AGONY Part 2",
+   "host": "vimeo",
+   "id": "132623824",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/endless-agony/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ENDLESS AGONY",
+   "host": "vimeo",
+   "id": "132623823",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-planner-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "The Planner Part 2",
+   "host": "vimeo",
+   "id": "132628106",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-planner/",
+   "cat": "movies",
+   "status": 200,
+   "title": "The Planner",
+   "host": "vimeo",
+   "id": "132628108",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/remote-control-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "REMOTE CONTROL 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "tXK8Mp2eWsw",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/remote-control-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "REMOTE CONTROL 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "Vy0k6FGMJt4",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/heavy-thunder-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "HEAVY THUNDER 2- Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "mt3IQME7mZQ",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/heavy-thunder-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "HEAVY THUNDER 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "CGj_JjXOEZs",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/family-runs-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "FAMILY RUNS Part 2",
+   "host": "vimeo",
+   "id": "132629630",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/family-runs-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "FAMILY RUNS Part 1",
+   "host": "vimeo",
+   "id": "132629279",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/cult-of-justice-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "CULT OF JUSTICE Part 2",
+   "host": "vimeo",
+   "id": "132677878",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/cult-of-justice-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "CULT OF JUSTICE Part 1",
+   "host": "vimeo",
+   "id": "132677876",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/before-the-truth-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BEFORE THE TRUTH 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "fwe3fLkRTD8",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/before-the-truth-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BEFORE THE TRUTH 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "2sl-pOXbyqo",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/one-last-feeling-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ONE LAST FEELING 1 &#8211; Nigerian Nollywood Movie",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/one-last-feeling-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ONE LAST FEELING 2 &#8211; Nigerian Nollywood Movie",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/three-squard-3-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THREE SQUARD 3 &#8211; Nigerian Nollywood Movie",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/three-squard-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THREE SQUARD 2 &#8211; Nigerian Nollywood Movie",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/three-squard-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THREE SQUARD 1 &#8211; Nigerian Nollywood Movie",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/wild-heart-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "WILD HEART 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "I0LaHFmyiII",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/wild-haert-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "WILD HAERT 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "y8-aDqbLQ88",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/ark-of-darkness-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ARK OF DARKNESS 2",
+   "host": "vimeo",
+   "id": "132677879",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/ark-of-darkness-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ARK OF DARKNESS 1",
+   "host": "vimeo",
+   "id": "132677877",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/exchange-of-power-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "EXCHANGE OF POWER 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "s05JO0T3JSU",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/exchange-of-powers-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "EXCHANGE OF POWER 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "RpC1pUACr7Q",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/turn-table-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "TURN TABLE 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "on1fWpQTDHA",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/turn-table-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "TURN TABLE 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "_1TeBh70D3I",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/illusion-1-nigerian-nollywood-ghanaian-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ILLUSION 1 &#8211; Nigerian Nollywood Ghanaian Ghallywood Movie",
+   "host": "youtube",
+   "id": "O4h1pmu-LlE",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/illusion-2-nigerian-nollywood-ghanaian-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ILLUSION 2 &#8211; Nigerian Nollywood Ghanaian Ghallywood Movie",
+   "host": "youtube",
+   "id": "4P78nvrkn50",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/heaven-after-hell-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "HEAVEN AFTER HELL 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "COMmpwdWGaE",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/heaven-after-hell-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "HEAVEN AFTER HELL 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "D9lks6tcMRg",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/snake-lovers-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SNAKE LOVERS 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "WcNavtHCgCU",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/snake-lovers-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SNAKE LOVERS 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "PzuNgXQ_Y-k",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/sacred-the-blood-sacrifice-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SACRED: THE BLOOD SACRIFICE 2",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/sacred-the-blood-sacrifice-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SACRED: THE BLOOD SACRIFICE 1",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/body-odour-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BODY ODOUR 2",
+   "host": "vimeo",
+   "id": "132680981",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/body-odour/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BODY ODOUR",
+   "host": "vimeo",
+   "id": "132680980",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/garizingar-hills-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "GARIZINGAR HILLS 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "JNyOp1J_Hfs",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/garizingar-hills-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "GARIZINGAR HILLS 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "atwGVuwES4Q",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-accursed-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE ACCURSED 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "fgOxBgDpTdA",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-accursed-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE ACCURSED 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "hEZPyiJORpw",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/angel-of-destiny-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ANGEL OF DESTINY 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "B6CzUBpXd1U",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/angel-of-destiny-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ANGEL OF DESTINY 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "w1FOLAqkbxA",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/lions-den-2-nigerian-nollywood-movie-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "LION&#8217;S DEN 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "G5wT0mHoJKE",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/lions-den-1-nigerian-nollywood-movie-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "LION&#8217;S DEN 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "GIYeMysUUOk",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/area-mafians-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "AREA MAFIANS 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "ACYgyegA5-0",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/area-mafians-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "AREA MAFIANS 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "GWY3keBKgls",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/festival-of-love-2-nigerian-nollywood-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "FESTIVAL OF LOVE 2 &#8211; Nigerian Nollywood Ghallywood Movie",
+   "host": "youtube",
+   "id": "eYd47nx8oRI",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/festival-of-love-1-nigerian-nollywood-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "FESTIVAL OF LOVE 1 &#8211; Nigerian Nollywood Ghallywood Movie",
+   "host": "youtube",
+   "id": "j6Vl3IAh08c",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/spirit-of-a-nurse-2-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SPIRIT OF A NURSE 2 &#8211; Ghallywood Movie",
+   "host": "youtube",
+   "id": "v2AtDMVep34",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/spirit-of-a-nurse-1-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SPIRIT OF A NURSE 1 &#8211; Ghallywood Movie",
+   "host": "youtube",
+   "id": "j0ZGU5wURs4",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/fureur-royale-finale-2-film-nigerian-version-francaise-avec-van-vicker-jackie-appiah/",
+   "cat": "movies",
+   "status": 200,
+   "title": "FUREUR ROYALE FINALE 2, Film nigérian version française avec Van Vicker, Jackie Appiah",
+   "host": "youtube",
+   "id": "1TZe9X00Vm0",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/fureur-royale-finale-1-film-nigerian-version-francaise-avec-van-vicker-jackie-appiah/",
+   "cat": "movies",
+   "status": 200,
+   "title": "FUREUR ROYALE FINALE 1, Film nigérian version française avec Van Vicker, Jackie Appiah",
+   "host": "youtube",
+   "id": "8Xl_9rAf05U",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/le-dernier-secret-2-film-africain-film-ghaneen-en-francais/",
+   "cat": "movies",
+   "status": 200,
+   "title": "LE DERNIER SECRET 2, Film africain, Film ghanéen en français",
+   "host": "youtube",
+   "id": "14bmIjaykik",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/le-dernier-secret-1-film-africain-film-ghaneen-en-francais/",
+   "cat": "movies",
+   "status": 200,
+   "title": "LE DERNIER SECRET 1, Film africain, Film ghanéen en français",
+   "host": "youtube",
+   "id": "_nAMhazmsBU",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/anointed-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ANOINTED 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "FB3PsrYPKyw",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/anointed-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ANOINTED 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "nWDSvNem5jQ",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/hidden-passion-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "HIDDEN PASSION 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "o3__dMHj4B8",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/hidden-passion-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "HIDDEN PASSION 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "cmwmyUDCbSI",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/oloola-yoruba-nollywood-movie-subtitled-in-english/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Oloola &#8211; Yoruba Nollywood Movie Subtitled in English",
+   "host": "youtube",
+   "id": "cvFSnIF2cyg",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/oloola-2-yoruba-nollywood-movie-sub-titled-in-english/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Oloola 2 &#8211; Yoruba Nollywood Movie Sub Titled in English",
+   "host": "youtube",
+   "id": "5FlcDd9GTso",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/state-of-democracy-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "State Of Democracy 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "bkoSRVfM8eU",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/state-of-democracy-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "State Of Democracy &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "aBx2NixThtI",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/la-droguee-2-film-nigerian-version-francaise-avec-jackie-appiah/",
+   "cat": "movies",
+   "status": 200,
+   "title": "LA DROGUEE 2, Film nigérian version française avec Jackie Appiah",
+   "host": "youtube",
+   "id": "XpyrSKSAEhw",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/la-droguee-1-film-nigerian-version-francaise-avec-jackie-appiah/",
+   "cat": "movies",
+   "status": 200,
+   "title": "LA DROGUEE 1, Film nigérian version française avec Jackie Appiah",
+   "host": "youtube",
+   "id": "47n2iZGOepM",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/sex-in-the-city-2-nigerian-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Sex in the City 2- Nigerian Movie",
+   "host": "youtube",
+   "id": "M-jpHhO9GBw",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/sex-in-the-city-1-nigerian-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Sex in the City 1- Nigerian Movie",
+   "host": "youtube",
+   "id": "hg2rM5AJUXc",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-kingdom-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "The Kingdom 2- Nigerian Nollywood movie",
+   "host": "youtube",
+   "id": "b3WhnZPjcCc",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-kingdom-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "The Kingdom- Nigerian Nollywood movie",
+   "host": "youtube",
+   "id": "e6aIRtAo6jY",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-wise-choice-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "The wise Choice 2-Nigerian Nollywood movie",
+   "host": "youtube",
+   "id": "BiZkLlp7tz0",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-wise-choice-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "The wise Choice-Nigerian Nollywood movie",
+   "host": "youtube",
+   "id": "0gwIKotfAVE",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/students-affairs-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "STUDENTS AFFAIRS Part 2",
+   "host": "vimeo",
+   "id": "132679328",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/students-affairs-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "STUDENTS AFFAIRS Part 1",
+   "host": "vimeo",
+   "id": "132679327",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/modern-slavery-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Modern Slavery 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "6DOtOuQn1I4",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/modern-slavery-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Modern Slavery 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "g6jmiti_lNg",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/rejected-king-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Rejected King 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "i0LnuZqgmTc",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/rejected-king-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Rejected King 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "Fv4CcZnHYw4",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/return-of-angolo-girls-2-nigerian-nollywood-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Return Of Angolo Girls 2- Nigerian Nollywood Ghallywood movie",
+   "host": "youtube",
+   "id": "HzjrpGrgwlA",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/return-of-angolo-girls-nigerian-nollywood-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Return Of Angolo Girls &#8211; Nigerian Nollywood Ghallywood movie",
+   "host": "youtube",
+   "id": "OWveQ8incQ4",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/angolo-girls-2-nigerian-nollywood-ghanaian-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Angolo Girls 2- Nigerian Nollywood Ghanaian Ghallywood movie",
+   "host": "youtube",
+   "id": "EGgeTJR-7_Q",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/angolo-girls-nigerian-nollywood-ghanaian-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Angolo Girls &#8211; Nigerian Nollywood Ghanaian Ghallywood movie",
+   "host": "youtube",
+   "id": "V0Hm7WFUCCg",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/mistakes-in-marriage-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Mistakes In Marriage 2- Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "xmNzBOH6sbc",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/mistakes-in-marriage-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Mistakes In Marriage &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "Nmj0gl9hQvo",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/away-from-evil-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Away From Evil 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "gg8qeZYzz4Q",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/away-from-evil-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Away From Evil 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "KZ9pTFgR0hU",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/hostage-2-ghanaian-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Hostage 2 &#8211; Ghanaian Ghallywood Movie",
+   "host": "youtube",
+   "id": "lPBJ3vOlAEo",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/hostage-1-ghanaian-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Hostage 1 &#8211; Ghanaian Ghallywood Movie",
+   "host": "youtube",
+   "id": "wGjip3QthDQ",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/angel-and-the-mailman/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ANGEL AND THE MAILMAN",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/dirty-pastor/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Dirty Pastor",
+   "host": "youtube",
+   "id": "1iAlLyFV-yI",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/from-sodom-2-nigerian-nollywood-ghanaian-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "From Sodom 2 &#8211; Nigerian Nollywood Ghanaian Ghallywood Movie",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/from-sodom-1-nigerian-nollywood-ghanaian-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "From Sodom 1 &#8211; Nigerian Nollywood Ghanaian Ghallywood Movie",
+   "host": "youtube",
+   "id": "D6gWPLirR64",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/double-trouble-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Double Trouble 2- Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "hKbp9lU4S2A",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/double-trouble-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Double Trouble &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "Ps6izlpGnrM",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/hypertension-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Hypertension 2- Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "r4cvmBO-WYg",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/hypertension-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Hypertension &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "JzlgeVjWWW0",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/extra-mile-2-nigerian-nollywood-ghanaian-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Extra Mile 2- Nigerian Nollywood Ghanaian Ghallywood Movie",
+   "host": "youtube",
+   "id": "mGAS02JsrCU",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/extra-mile-nigerian-nollywood-ghanaian-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Extra Mile &#8211; Nigerian Nollywood Ghanaian Ghallywood Movie",
+   "host": "youtube",
+   "id": "daU-4uR12nY",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-engagement-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "The Engagement 2- Nigerian Nollywood movie",
+   "host": "youtube",
+   "id": "k_BtUbyn3bw",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-engagement-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "The Engagement &#8211; Nigerian Nollywood movie",
+   "host": "youtube",
+   "id": "rUqlYIhG1dI",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/share-my-bed-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Share My Bed 2- Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "3-4xMactjBc",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/share-my-bed-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Share My Bed &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "VlSvLpkHQWQ",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/devilish-passion-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "DEVILISH PASSION Part 1",
+   "host": "vimeo",
+   "id": "132684961",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/devilish-passion-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "DEVILISH PASSION Part 2",
+   "host": "vimeo",
+   "id": "132684962",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/deadline-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "DEADLINE Part 2",
+   "host": "vimeo",
+   "id": "132684963",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/deadline-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "DEADLINE Part 1",
+   "host": "vimeo",
+   "id": "132684964",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/guilty-of-sex-2-nigerian-nollywood-ghanaian-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Guilty Of Sex 2- Nigerian Nollywood Ghanaian Ghallywood Movie",
+   "host": "youtube",
+   "id": "VO-kZcGnxi8",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/guilty-of-sex-nigerian-nollywood-ghanaian-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Guilty Of Sex &#8211; Nigerian Nollywood Ghanaian Ghallywood Movie",
+   "host": "youtube",
+   "id": "FdCFgAQXogg",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/he-goat-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "He Goat 2- Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "4UJY6snhve8",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/he-goat-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "He Goat &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "l14olPA-eWo",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/one-and-only-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "One And Only 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "zMLxEjcTzxo",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/one-and-only-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "One And Only 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "WSUqHQ7tdPo",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/jay-boy-obodo-oyibo-2-nigerian-nollywood-igbo-movie-sub-titled-in-english/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Jay Boy Obodo Oyibo 2-Nigerian Nollywood Igbo Movie Sub-Titled in English",
+   "host": "youtube",
+   "id": "cwopPZjjKdM",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/jay-boy-obodo-oyibo-1-nigerian-nollywood-igbo-movie-sub-titled-in-english/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Jay Boy Obodo Oyibo 1-Nigerian Nollywood Igbo Movie Sub-Titled in English",
+   "host": "youtube",
+   "id": "WJ18zi_83U0",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/ego-mbute-part-2-nigerian-nollywood-igbo-movie-sub-titled-in-english-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Ego Mbute Part 2 &#8211; Nigerian Nollywood Igbo Movie Sub-Titled in English",
+   "host": "youtube",
+   "id": "uR1cs_495oQ",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/ego-mbute-part-2-nigerian-nollywood-igbo-movie-sub-titled-in-english/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Ego Mbute Part 1 &#8211; Nigerian Nollywood Igbo Movie Sub-Titled in English",
+   "host": "youtube",
+   "id": "qPI-TLNOSDQ",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/nnem-onye-olu-part-2-nigerian-nollywood-igbo-movie-sub-titled-in-english/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Nnem Onye Olu Part 2- Nigerian Nollywood Igbo Movie Sub-Titled in English",
+   "host": "youtube",
+   "id": "J16_GarMR6M",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/nnem-onye-olu-part-1-nigerian-nollywood-igbo-movie-sub-titled-in-english/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Nnem Onye Olu Part 1- Nigerian Nollywood Igbo Movie Sub-Titled in English",
+   "host": "youtube",
+   "id": "clMfXlKS1qA",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/blood-and-chocolate-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BLOOD and CHOCOLATE 2- Nigerian Nollywood movie",
+   "host": "vimeo",
+   "id": "132687440",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/blood-and-chocolate-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BLOOD  and CHOCOLATE- Nigerian Nollywood Movie",
+   "host": "vimeo",
+   "id": "132687439",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/razor-blade-12-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Razor Blade 1&#038;2 -Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "6ikLvZyFv9E",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/my-soul-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "My Soul 2- Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "k2-XDGxokHU",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/my-soul-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "My Soul &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "nPSQaSrEwf8",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/remote-control-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Remote Control &#8211; Nollywood Movie",
+   "host": "youtube",
+   "id": "tXK8Mp2eWsw",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/remote-control-2-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Remote Control 2- Nollywood Movie",
+   "host": "youtube",
+   "id": "Vy0k6FGMJt4",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/end-of-hot-waitress-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "END OF HOT WAITRESS 2-Nigerian Nollywood Movie",
+   "host": "vimeo",
+   "id": "132687441",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/end-of-hot-waitress-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "END OF HOT WAITRESS 1-Nigerian Nollywood Movie",
+   "host": "vimeo",
+   "id": "132687442",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/misled-2-ghanaian-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Misled 2- Ghanaian Ghallywood Movie",
+   "host": "youtube",
+   "id": "SMWfvD6ocRs",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/misled-ghanaian-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Misled &#8211; Ghanaian Ghallywood Movie",
+   "host": "youtube",
+   "id": "_INoso12Vw4",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/bed-mate-2-ghanaian-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Bed Mate 2 &#8211; Ghanaian Ghallywood Movie",
+   "host": "youtube",
+   "id": "eAxbb7moNrE",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/bed-mate-1-ghanaian-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Bed Mate 1 &#8211; Ghanaian Ghallywood Movie",
+   "host": "youtube",
+   "id": "225oGbvC1vY",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/million-dollar-baby-part-3-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Million Dollar Baby Part 3 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "jvbJomVU9FU",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/million-dollar-baby-part-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Million Dollar Baby Part 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "mNFh0N_zwBo",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/million-dollar-baby-part-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Million Dollar Baby Part 1- Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "pN7FDTzjUiY",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/van-vickers-neat-job-2-nigerian-nollywood-ghanaian-ghallywood/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Van Vicker&#8217;s &#8220;Neat Job&#8221; 2 &#8211; Nigerian Nollywood Ghanaian Ghallywood",
+   "host": "youtube",
+   "id": "lHRq46UrQiI",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/van-vickers-neat-job-nigerian-nollywood-ghanaian-ghallywood/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Van Vicker&#8217;s &#8220;Neat Job&#8221; &#8211; Nigerian Nollywood Ghanaian Ghallywood",
+   "host": "youtube",
+   "id": "cFvsPzzicQA",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/my-fathers-son-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "My Father&#8217;s Son 2 -Nigerian Nollywood movie",
+   "host": "vimeo",
+   "id": "132690305",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/my-fathers-son-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "My Father&#8217;s Son 1 -Nigerian Nollywood movie",
+   "host": "vimeo",
+   "id": "132690304",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/all-sugar-part-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "All Sugar Part 2- Nigerian Nollywood movie",
+   "host": "vimeo",
+   "id": "132895637",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/all-sugar-part-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "All Sugar Part 1- Nigerian Nollywood movie",
+   "host": "vimeo",
+   "id": "132898273",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-woman-in-me-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "The Woman in me 2 &#8211; Nigerian Nollywood movie",
+   "host": "vimeo",
+   "id": "132690971",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-woman-in-me-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "The Woman in me &#8211; Nigerian Nollywood movie",
+   "host": "vimeo",
+   "id": "132690306",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/iron-lady-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Iron Lady 2- Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "hIjKDWvyINA",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/iron-lady-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Iron Lady &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "fR0xQArFbqQ",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/war-strikers-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "War Strikers 2- Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "CdgFvrIvx2I",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/war-strikers-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "War Strikers &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "5lu34vl-g4A",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/igba-ola-yoruba-nollywood-movie-sub-titled-in-english/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Igba Ola &#8211; Yoruba Nollywood Movie ( SUB-Titled In English)",
+   "host": "youtube",
+   "id": "OOhn4Rxp6Y8",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/spirit-of-workshop-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Spirit Of Workshop 2– Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "kB89tREITuI",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/spirit-of-workshop-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Spirit Of Workshop &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "ThP2AKgt2Bw",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/cruz-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Cruz 2- Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "JyiaADvlNAI",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/cruz-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Cruz &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "8J7D4CMRY6o",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/ada-owerri-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Ada Owerri 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "9RCp6bhTYvw",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/ada-owerri-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Ada Owerri &#8211; Nigerian Nollywood Movie",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/strong-connection-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Strong Connection  2- Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "HZaPGBnH06E",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/strong-connection-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Strong Connection &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "CwmOJyBgpIQ",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/happiest-woman-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Happiest Woman 2- Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "rHaC7GU-1JQ",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/happiest-woman-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Happiest Woman &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "vlcOt9hUR1o",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/desperate-singles-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Desperate Singles 2- Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "Db4IVXE0c3E",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/desperate-singles-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Desperate Singles &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "roDBLcglkeE",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/game-of-love-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Game Of Love 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "2ckod90rFQU",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/game-of-love-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Game Of Love &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "mc59Oiy-waY",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-priest-must-die-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "The Priest Must Die 2 &#8211; Nigerian nollywood Movie",
+   "host": "youtube",
+   "id": "1j20qq1JyX4",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-priest-must-die-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "The Priest Must Die &#8211; Nigerian nollywood Movie",
+   "host": "youtube",
+   "id": "WPo6mwzaeGI",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/david-my-son-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "David My Son 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "KUtpaXK3lk8",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/david-my-son-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "David My Son &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "rw6pCaJGRxU",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/my-unborn-son-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "My Unborn Son 2- Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "dd1btM8zauE",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/my-unborn-son-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "My Unborn Son &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "_rGHqiD_NSk",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/enemy-among-us-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Enemy Among Us 2 -Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "S8KL-OoLAuU",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/enemy-among-us-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Enemy Among Us -Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "ff5OjZ96f-w",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/box-of-truth-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Box Of Truth 2- Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "jU0Xwqm4iAk",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/box-of-truth-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Box Of Truth &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "vA_9cgNuQGg",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/box-of-hope-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Box Of Hope 2- Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "B-EzTktoeC8",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/box-of-hope-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Box Of Hope &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "0Jhk99c1xxg",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/in-the-name-of-money-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "In The Name Of Money 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "vn5ywt3UFPo",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/in-the-name-of-money-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "In The Name Of Money &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "_tQ_jqWhq38",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/state-of-emergency-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "State Of Emergency 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "W5JEaHPgcvE",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/state-of-emergency-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "State Of Emergency &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "AUDG0V1GjDQ",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/python-queen-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Python Queen  &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "GKXR7R6UGoQ",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/python-queen-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Python Queen 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "5QTBN36ooOA",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/secret-of-amanda-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Secret Of Amanda 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "sZihCH3sArQ",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/secret-of-amanda-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Secret Of Amanda &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "RZ8-2q5Tqtc",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/evil-gang-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Evil Gang 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "n_1xq9qQBCQ",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/evil-gang-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Evil Gang  &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "FC3bO9hSok4",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/royal-orphan-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Royal Orphan 2- Nigerian Nollywood Movie",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/royal-orphan-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Royal Orphan &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "dn1OiDQoQr8",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/world-of-regret-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "World Of  Regret 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "ovEKSB80aJY",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/world-of-regret-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "World Of  Regret &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "LDXyaACctHo",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-virgin-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "The Virgin 2- Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "F2-EUX84cH0",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-virgin-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "The Virgin &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "Gz3vKDVBJxY",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/one-more-night-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "One More Night 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "BkF1unXjrJM",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/one-more-night-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "One More Night &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "2kRBBmxRY7A",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/wipe-my-tears-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Wipe My Tears 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "-M-PK0DTBfo",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/wipe-my-tears-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Wipe My Tears &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "OqB4QCnBZAo",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/tears-upon-tears-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Tears Upon Tears 2 &#8211; Nigerian Nollywood Movie",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/tears-upon-tears-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Tears Upon Tears &#8211; Nigerian Nollywood Movie",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/angels-forever-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Angels Forever 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "4kPEPra35_k",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/angels-forever-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Angels Forever &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "WeRa9eg2BFA",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/queen-lateefah-3-ghanaian-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Queen Lateefah 3 &#8211; Ghanaian Ghallywood Movie",
+   "host": "youtube",
+   "id": "hANZj41edlE",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/queen-lateefah-2-ghanaian-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Queen Lateefah 2 &#8211; Ghanaian Ghallywood Movie",
+   "host": "youtube",
+   "id": "CtqNlfOIih0",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/unconditional-love-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Unconditional Love  &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "Re-9TnjFf24",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/unconditional-love-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Unconditional Love 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "fTz2UPcJix8",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/seed-of-bondage-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Seed Of Bondage 2- Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "honSRql2I_Y",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/seed-of-bondage-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Seed Of Bondage &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "UkmKLisOy5s",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/signs-of-time-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Signs Of Time 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "DykNsvU9krQ",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/signs-of-time-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Signs Of Time 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "znJoKd8sF9c",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/arrows-of-love-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ARROWS OF LOVE 2- Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "Yk58MUqjHZ4",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/arrows-of-love-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ARROWS OF LOVE &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "wd5f4RF_zJE",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/guilty-couples-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Guilty Couples 2 -Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "IckLboGLjhI",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/guilty-couples-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Guilty Couples 1 -Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "08FMccqfXMo",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/screen-saver-2-nigerian-nollywood-ghanaian-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Screen Saver 2- Nigerian Nollywood Ghanaian Ghallywood Movie",
+   "host": "youtube",
+   "id": "VRx74qwmbb8",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/screen-saver-nigerian-nollywood-ghanaian-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Screen Saver &#8211; Nigerian Nollywood Ghanaian Ghallywood Movie",
+   "host": "youtube",
+   "id": "Zv8U1hnr6no",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/divert-call-2-nigerian-nollywood-ghanaian-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Divert Call 2- Nigerian Nollywood Ghanaian Ghallywood Movie",
+   "host": "youtube",
+   "id": "WQ9bYX2Zfbg",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/divert-call-nigerian-nollywood-ghanaian-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Divert Call &#8211; Nigerian Nollywood Ghanaian Ghallywood Movie",
+   "host": "youtube",
+   "id": "gwNFqLG9oO4",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/drug-her-2-nigerian-nollywood-ghanaian-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Drug Her 2 &#8211; Nigerian Nollywood Ghanaian Ghallywood Movie",
+   "host": "youtube",
+   "id": "7IlBw4MWaOc",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/drug-her-nigerian-nollywood-ghanaian-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Drug Her &#8211; Nigerian Nollywood Ghanaian Ghallywood Movie",
+   "host": "youtube",
+   "id": "4XWuMhtsF5s",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/lions-den-2-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Lion&#8217;s Den 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "G5wT0mHoJKE",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/forbidden-powder-2-nigerian-nollywood-ghanaian-ghallywood/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Forbidden Powder 2 &#8211; Nigerian Nollywood Ghanaian Ghallywood",
+   "host": "youtube",
+   "id": "S2WlAx3FQ1g",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/forbidden-powder-nigerian-nollywood-ghanaian-ghallywood/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Forbidden Powder &#8211; Nigerian Nollywood Ghanaian Ghallywood",
+   "host": "youtube",
+   "id": "apyTMKeol6c",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/lions-den-1-nigerian-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Lion&#8217;s Den 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "GIYeMysUUOk",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/queen-lateefah-a-ghanaian-ghallywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Queen Lateefah &#8211; A Ghanaian Ghallywood Movie",
+   "host": "youtube",
+   "id": "7WdfZNIB0MY",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-imposter/",
+   "cat": "movies",
+   "status": 200,
+   "title": "The Imposter",
+   "host": "youtube",
+   "id": "MN97-H2odHM",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/sweetest-fruit-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Sweetest Fruit Part 2",
+   "host": "youtube",
+   "id": "F87LrsXYH3g",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/sweetest-fruit-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Sweetest Fruit Part 1",
+   "host": "youtube",
+   "id": "wJ_i3GsHWhI",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/courtesy-for-vengeance-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Courtesy for Vengeance part 2",
+   "host": "youtube",
+   "id": "3gyNtXJbaJ8",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/actress-omotola-jalade-ekeinde-interview/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Actress Omotola Jalade Ekeinde Interview",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/nonsekeable-nollywood-movie/",
+   "cat": "movies",
+   "status": 200,
+   "title": "NONSEKEABLE- A Nollywood Movie",
+   "host": "youtube",
+   "id": "t_TdoEqGe9M",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/saving-grace-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SAVING GRACE 2",
+   "host": "youtube",
+   "id": "lsqHQne5B44",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/saving-grace-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SAVING GRACE 1",
+   "host": "youtube",
+   "id": "J_IHdmMLdl8",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/traditional-medicine-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "TRADITIONAL MEDICINE 1",
+   "host": "youtube",
+   "id": "fc7NythcSlY",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/traditional-medicine-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "TRADITIONAL MEDICINE 2",
+   "host": "youtube",
+   "id": "bqHeLbLnlB8",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/o-treat-her-like-a-lady-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "O TREAT HER LIKE A LADY 2",
+   "host": "youtube",
+   "id": "i-W7X4MdTuw",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/o-treat-her-like-a-lady-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "O TREAT HER LIKE A LADY 1",
+   "host": "youtube",
+   "id": "NqeKVY6wWAk",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/o-sexual-healing-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "O SEXUAL HEALING 2",
+   "host": "youtube",
+   "id": "OfWgnjtJBdk",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/unlimited-denial-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "UNLIMITED DENIAL 2",
+   "host": "youtube",
+   "id": "SHA0G3wzJl4",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/unlimited-denial/",
+   "cat": "movies",
+   "status": 200,
+   "title": "UNLIMITED DENIAL",
+   "host": "youtube",
+   "id": "sEPGy2UZpNs",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/who-am-i-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "WHO AM i Part 2",
+   "host": "youtube",
+   "id": "JNpMZA1iAUI",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/who-am-i/",
+   "cat": "movies",
+   "status": 200,
+   "title": "WHO AM i",
+   "host": "youtube",
+   "id": "sDDWUOzRBN4",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/crime-beat-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "CRIME BEAT 2",
+   "host": "vimeo",
+   "id": "132898275",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/crime-beat/",
+   "cat": "movies",
+   "status": 200,
+   "title": "CRIME BEAT",
+   "host": "vimeo",
+   "id": "132898274",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/trials/",
+   "cat": "movies",
+   "status": 200,
+   "title": "TRIALS -Nollywood movie",
+   "host": "vimeo",
+   "id": "132908087",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-stranger/",
+   "cat": "movies",
+   "status": 200,
+   "title": "The Stranger",
+   "host": "vimeo",
+   "id": "132908090",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/super-babes-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SUPER BABES PART 2",
+   "host": "vimeo",
+   "id": "132903013",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/super-babes-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SUPER BABES PART 1",
+   "host": "vimeo",
+   "id": "132914704",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/hoodlums-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "HOODLUMS PART 2",
+   "host": "vimeo",
+   "id": "132914709",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/hoodlums-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "HOODLUMS PART 1",
+   "host": "vimeo",
+   "id": "132914708",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/end-of-the-specialist-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "END OF THE SPECIALIST PART 2",
+   "host": "vimeo",
+   "id": "132914711",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/end-of-the-specialist-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "END OF THE SPECIALIST PART 1",
+   "host": "vimeo",
+   "id": "132914710",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-specialist-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE SPECIALIST PART 2",
+   "host": "vimeo",
+   "id": "134504640",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-specialist-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE SPECIALIST PART 1",
+   "host": "vimeo",
+   "id": "134504639",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-final-colour-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE FINAL COLOUR PART 2",
+   "host": "youtube",
+   "id": "zZs3bOgm16E",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-final-colour-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE FINAL COLOUR PART 1",
+   "host": "youtube",
+   "id": "o9SL0-ieH-w",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-real-colour-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE REAL COLOUR PART 2",
+   "host": "youtube",
+   "id": "TWWJaxUwl6s",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/the-real-colour-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "THE REAL COLOUR PART 1",
+   "host": "youtube",
+   "id": "wlqtr2Lfoaw",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/hidden-snake-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "HIDDEN SNAKE PART 2",
+   "host": "youtube",
+   "id": "DeUCjqACW6A",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/hidden-snake-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "HIDDEN SNAKE PART 1",
+   "host": "youtube",
+   "id": "klT1rngmT3k",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/political-appointment-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "POLITICAL APPOINTMENT PART 2",
+   "host": "youtube",
+   "id": "ji-MVkoD89k",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/political-appointment-part-1-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "POLITICAL APPOINTMENT PART 1",
+   "host": "youtube",
+   "id": "XfWlLGx8Lbs",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/citizens-in-power-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "CITIZENS IN POWER PART 2",
+   "host": "youtube",
+   "id": "Q9BbML1l7eA",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/citizens-in-power-part-1-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "CITIZENS IN POWER PART 1",
+   "host": "youtube",
+   "id": "yyyKZEXBp14",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/love-and-steal-part-1-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "LOVE AND STEAL PART 1",
+   "host": "youtube",
+   "id": "Arfwm4-TVIg",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/love-and-steal-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "LOVE AND STEAL PART 2",
+   "host": "youtube",
+   "id": "fkxYWkiVoAY",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/take-my-wife-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "TAKE MY WIFE PART 2",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/take-my-wife-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "TAKE MY WIFE PART 1",
+   "host": "vimeo",
+   "id": "134506460",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/secret-tears-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SECRET TEARS PART 2",
+   "host": "vimeo",
+   "id": "134508391",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/secret-tears-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SECRET TEARS PART 1",
+   "host": "vimeo",
+   "id": "134508390",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/my-reverend-sister-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "My Reverend Sister Part 2",
+   "host": "vimeo",
+   "id": "134508392",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/my-reverend-sister-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "My Reverend Sister Part 1",
+   "host": "vimeo",
+   "id": "134508396",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/strange-affection-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "STRANGE AFFECTION PART 2",
+   "host": "youtube",
+   "id": "9q-Axz9c-ho",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/strange-affection-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "STRANGE AFFECTION PART 1",
+   "host": "youtube",
+   "id": "lB8wq0pVuLY",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/shades-of-sin-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SHADES OF SIN PART 2",
+   "host": "vimeo",
+   "id": "135199963",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/shades-of-sin-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SHADES OF SIN PART 1",
+   "host": "vimeo",
+   "id": "135199960",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/shame-of-life-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SHAME OF LIFE PART 1",
+   "host": "vimeo",
+   "id": "134572138",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/shame-of-life-part-1-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SHAME OF LIFE PART 2",
+   "host": "vimeo",
+   "id": "134572139",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/secret-life-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SECRET LIFE PART 2",
+   "host": "youtube",
+   "id": "Z-gnix0ln7I",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/mad-mike-and-us-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "MAD MIKE AND US PART 1",
+   "host": "vimeo",
+   "id": "135207275",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/mad-mike-and-us-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "MAD MIKE AND US PART 2",
+   "host": "vimeo",
+   "id": "135207277",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/mothers-crime-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "MOTHERS CRIME PART 1",
+   "host": "vimeo",
+   "id": "135157250",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/mothers-crime-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "MOTHERS CRIME PART 2",
+   "host": "vimeo",
+   "id": "135157252",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/secret-life-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SECRET LIFE PART 1",
+   "host": "vimeo",
+   "id": "135157253",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/prison-gate-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "PRISON GATE PART 1",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/prison-gate-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "PRISON GATE PART 2",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/queen-of-dreams-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "QUEEN OF DREAMS PART 1",
+   "host": "vimeo",
+   "id": "135199961",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/queen-of-dreams-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "QUEEN OF DREAMS PART 2",
+   "host": "vimeo",
+   "id": "135199962",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/please-marry-me-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "PLEASE MARRY ME PART 1",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/please-marry-me-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "PLEASE MARRY ME PART 2",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/player-number-1-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "PLAYER NUMBER 1 -PART 2",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/player-number-1-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "PLAYER NUMBER 1- PART 1",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/my-beauty-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "MY BEAUTY PART 2",
+   "host": "youtube",
+   "id": "wo9o91QM41A",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/my-beauty-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "MY BEAUTY PART 1",
+   "host": "youtube",
+   "id": "yKo9CzKwwVg",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/abiding-faith-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ABIDING FAITH PART 2",
+   "host": "youtube",
+   "id": "JNk2nbfzjFI",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/abiding-faith-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ABIDING FAITH PART 1",
+   "host": "youtube",
+   "id": "KPGb5WY0WKY",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/love-at-old-age-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "LOVE AT OLD AGE PART 2",
+   "host": "vimeo",
+   "id": "135207274",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/love-at-old-age-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "LOVE AT OLD AGE PART 1",
+   "host": "vimeo",
+   "id": "135207273",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/long-journey-home-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "LONG JOURNEY HOME 2",
+   "host": "vimeo",
+   "id": "135211165",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/long-journey-home-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "LONG JOURNEY HOME 1",
+   "host": "vimeo",
+   "id": "135211164",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/kiss-of-betrayal-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "KISS OF BETRAYAL PART 2",
+   "host": "youtube",
+   "id": "tIiDLsgC4o0",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/kiss-of-betrayal-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "KISS OF BETRAYAL PART 1",
+   "host": "youtube",
+   "id": "aIb7d0h0Erc",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/kingdom-of-men-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "KINGDOM OF MEN PART 2",
+   "host": "youtube",
+   "id": "wHDOUzq-FIs",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/kingdom-of-men-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "KINGDOM OF MEN PART 1",
+   "host": "youtube",
+   "id": "QveqEBdJivc",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/innocent-killer-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "INNOCENT KILLER PART 2",
+   "host": "vimeo",
+   "id": "135202138",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/innocent-killer-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "INNOCENT KILLER PART 1",
+   "host": "vimeo",
+   "id": "135202117",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/game-of-marraige-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "GAME OF MARRAIGE PART 2",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/game-of-marraige-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "GAME OF MARRAIGE PART 1",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/forever-mine-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "FOREVER MINE PART 2",
+   "host": "vimeo",
+   "id": "135211167",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/forever-mine-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "FOREVER MINE PART 1",
+   "host": "vimeo",
+   "id": "135211166",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/end-of-forbidden-game-2-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "END OF FORBIDDEN GAME 2",
+   "host": "vimeo",
+   "id": "135204829",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/end-of-forbidden-game-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "END OF FORBIDDEN GAME 1",
+   "host": "vimeo",
+   "id": "135204826",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/forbidden-game-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "FORBIDDEN GAME 2",
+   "host": "vimeo",
+   "id": "135204825",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/forbidden-game-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "FORBIDDEN GAME 1",
+   "host": "vimeo",
+   "id": "135212040",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/family-crisis-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "FAMILY CRISIS PART 2",
+   "host": "youtube",
+   "id": "TJoqj62nOqU",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/family-crisis-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "FAMILY CRISIS PART 1",
+   "host": "youtube",
+   "id": "_pRpABaMDXc",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/fake-preachers-trailer/",
+   "cat": "movies",
+   "status": 200,
+   "title": "FAKE PREACHERS Trailer",
+   "host": "youtube",
+   "id": "EC7GFrCO1w8",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/fake-preachers/",
+   "cat": "movies",
+   "status": 200,
+   "title": "FAKE PREACHERS",
+   "host": "youtube",
+   "id": "Yyx_2ht9wkE",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/why-me-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "WHY ME Part 2",
+   "host": "youtube",
+   "id": "OHrRxGnSYDY",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/why-me-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "WHY ME Part 1",
+   "host": "youtube",
+   "id": "KxG4KGzJH8k",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/end-point-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "END POINT Part 1",
+   "host": "youtube",
+   "id": "FBWfdTr4qjU",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/end-point-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "END POINT Part 2",
+   "host": "youtube",
+   "id": "9gzebUghTGo",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/crazy-game-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "CRAZY GAME Part 2",
+   "host": "youtube",
+   "id": "_v33eemsyPM",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/crazy-game-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "CRAZY GAME Part 1",
+   "host": "youtube",
+   "id": "fN7kT1eebd8",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/go-down-low-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "GO DOWN LOW Part 2",
+   "host": "youtube",
+   "id": "1V3IC89Qeqw",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/go-down-low/",
+   "cat": "movies",
+   "status": 200,
+   "title": "GO DOWN LOW Part 1",
+   "host": "youtube",
+   "id": "j9XV90hZgFA",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/end-of-karinas-pain-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "END OF KARINA&#8217;S PAIN PART 2",
+   "host": "vimeo",
+   "id": "135212041",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/end-of-karinas-pain-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "END OF KARINA&#8217;S PAIN PART 1",
+   "host": "vimeo",
+   "id": "135212041",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/karinas-pain-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "KARINA&#8217;S PAIN PART 2",
+   "host": "vimeo",
+   "id": "135212038",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/karinas-pain-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "KARINA&#8217;S PAIN PART 1",
+   "host": "vimeo",
+   "id": "135212037",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/dollar-goddess-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "DOLLAR GODDESS PART 2",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/dollar-goddess-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "DOLLAR GODDESS PART 1",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/dollar-queen-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "DOLLAR QUEEN PART 2",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/dollar-queen-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "DOLLAR QUEEN PART 1",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/deadly-obsession-part-3/",
+   "cat": "movies",
+   "status": 200,
+   "title": "DEADLY OBSESSION PART 3",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/deadly-obsession-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "DEADLY OBSESSION PART 2",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/deadly-obsession-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "DEADLY OBSESSION PART 1",
+   "host": "youtube",
+   "id": "CTAUsTSznhs",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/dark-marriage-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "DARK MARRIAGE PART 2",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/dark-marriage-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "DARK MARRIAGE PART 1",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/crazy-wife-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "CRAZY WIFE  PART 2",
+   "host": "youtube",
+   "id": "4Di6WHor3f4",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/crazy-wife-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "CRAZY WIFE  PART 1",
+   "host": "youtube",
+   "id": "bbXXnQlRSrA",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/deeper-life-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "DEEPER LIFE Part 1",
+   "host": "youtube",
+   "id": "9JiZw4Iz-T4",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/deeper-life-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "DEEPER LIFE Part 2",
+   "host": "youtube",
+   "id": "nLzFCFxFqX0",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/who-are-my-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "WHO ARE MY Part 2",
+   "host": "youtube",
+   "id": "JNpMZA1iAUI",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/who-am-i-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "WHO AM I Part 1",
+   "host": "youtube",
+   "id": "sDDWUOzRBN4",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/kingdom-in-tears-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "KINGDOM IN TEARS Part 2- Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "p8x6Gk7bZa8",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/kingdom-in-tears-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "KINGDOM IN TEARS Part 1-Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "9vOEu3pFaNI",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/mad-king-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "MAD KING Part 2- Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "fyz5h1Swo1U",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/mad-king-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "MAD KING Part 1- Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "8AiZIkUcpM8",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/political-appointment-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "POLITICAL APPOINTMENT Part 1",
+   "host": "youtube",
+   "id": "eaDzvaHiroc",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/chased-to-hell-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "CHASED TO HELL PART 2",
+   "host": "youtube",
+   "id": "-XwSGu5bzRM",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/chased-to-hell-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "CHASED TO HELL PART 1",
+   "host": "youtube",
+   "id": "MAmNznhwlXE",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/between-2-worlds-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BETWEEN 2 WORLDS PART 2",
+   "host": "youtube",
+   "id": "PR2LMOgVcgo",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/between-2-worlds-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BETWEEN 2 WORLDS PART 1",
+   "host": "youtube",
+   "id": "U105exXukNQ",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/bedroom-assasin-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BEDROOM ASSASIN PART 2",
+   "host": "youtube",
+   "id": "5w_vdYIRZ0s",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/bedroom-assasin-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BEDROOM ASSASIN PART 1",
+   "host": "youtube",
+   "id": "w5xD2262OR0",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/all-i-need-part-3/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ALL I NEED PART 3",
+   "host": "vimeo",
+   "id": "131303694",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/all-i-need-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ALL I NEED PART 2",
+   "host": "vimeo",
+   "id": "130042077",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/all-i-need-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ALL I NEED PART 1",
+   "host": "vimeo",
+   "id": "129860555",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/a-night-with-her-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "A NIGHT WITH HER PART 2",
+   "host": "youtube",
+   "id": "ZDtkRFrKU8U",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/a-night-with-her-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "A NIGHT WITH HER PART 1",
+   "host": "youtube",
+   "id": "ByxZnW8Pfmc",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/soul-of-a-woman-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SOUL OF A WOMAN PART 2",
+   "host": "youtube",
+   "id": "_jEMYCZc1wk",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/soul-of-a-woman-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SOUL OF A WOMAN PART 1",
+   "host": "youtube",
+   "id": "75vE2NZXct4",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/innocent-devil-part-1-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "INNOCENT DEVIL PART 2",
+   "host": "youtube",
+   "id": "b317vF3MQUw",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/innocent-devil-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "INNOCENT DEVIL PART 1",
+   "host": "youtube",
+   "id": "Pwmkk3jc1VQ",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/intimidating-house-boy-part-1-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "INTIMIDATING HOUSE BOY PART 1",
+   "host": "youtube",
+   "id": "QCv53UguHqg",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/intimidating-house-boy-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "INTIMIDATING HOUSE BOY PART 2",
+   "host": "youtube",
+   "id": "PxKwJ6n16Z4",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/official-house-boy-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "OFFICIAL HOUSE BOY PART 2",
+   "host": "youtube",
+   "id": "R2W2EHemSlI",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/official-house-boy-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "OFFICIAL HOUSE BOY PART 1",
+   "host": "youtube",
+   "id": "FmHOHZzKnqg",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/chicken-republic-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "CHICKEN REPUBLIC  PART 2",
+   "host": "youtube",
+   "id": "xsnA1VVGl4M",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/chicken-republic-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "CHICKEN REPUBLIC PART 1",
+   "host": "youtube",
+   "id": "jwcTKb0Q8RM",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/campus-decay-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "CAMPUS DECAY PART 2",
+   "host": "youtube",
+   "id": "rAUGcxO96TA",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/campus-decay-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "CAMPUS DECAY PART 1",
+   "host": "youtube",
+   "id": "sY7EIVwYMaY",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/busted-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BUSTED PART 1",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/blood-rage-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BLOOD RAGE Part 2",
+   "host": "youtube",
+   "id": "hkFkqWQQy8Y",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/blood-rage-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BLOOD RAGE Part 1",
+   "host": "youtube",
+   "id": "BZidBs4g80I",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/citizens-in-power-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "CITIZENS IN POWER Part 1",
+   "host": "youtube",
+   "id": "43i_jn9WaVQ",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/beyond-faith-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BEYOND FAITH Part 2",
+   "host": "youtube",
+   "id": "tqIj0O374zM",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/beyond-faith-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BEYOND FAITH Part 1",
+   "host": "youtube",
+   "id": "l_MVgpU7OD8",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/better-tomorrow-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BETTER TOMORROW Part 2",
+   "host": "youtube",
+   "id": "TzKx6ekBaFU",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/better-tomorrow-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BETTER TOMORROW Part 1",
+   "host": "youtube",
+   "id": "h6NXBCeBq14",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/busted-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BUSTED PART 2",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/ugly-yesterday-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "UGLY YESTERDAY Part 2",
+   "host": "youtube",
+   "id": "8fk6QMdkXUc",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/ugly-yesterday-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "UGLY YESTERDAY Part 1",
+   "host": "youtube",
+   "id": "8fk6QMdkXUc",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/sweet-hell-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SWEET HELL Part 2",
+   "host": "youtube",
+   "id": "ku4fYC15mSg",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/sweet-hell-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "SWEET HELL Part 1",
+   "host": "youtube",
+   "id": "E8W7hJVdGx8",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/my-mistake-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "MY MISTAKE Part 2",
+   "host": "youtube",
+   "id": "Hfd1X_nGMLI",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/my-mistake-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "MY MISTAKE Part 1",
+   "host": "youtube",
+   "id": "0bObjG0SEuY",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/gamble-of-love-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "GAMBLE OF LOVE Part 2",
+   "host": "youtube",
+   "id": "8WRCpy3m8iY",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/gamble-of-love-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Gamble of Love Part 1",
+   "host": "youtube",
+   "id": "26DXnSiurmo",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/all-by-faith-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ALL BY FAITH Part 2",
+   "host": "youtube",
+   "id": "WULOpAjfbaA",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/all-by-faith-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ALL BY FAITH Part 1",
+   "host": "youtube",
+   "id": "ZNACyxOmHIY",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/my-taxi-driver-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "MY TAXI DRIVER Part 1",
+   "host": "youtube",
+   "id": "qZ7qUOc_fRs",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/my-taxi-driver-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "MY TAXI DRIVER Part 2",
+   "host": "youtube",
+   "id": "RUy5Am16ePM",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/wanted-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "WANTED Part 2- Nigerian Nollywood and Ghallywood Movie",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/wanted-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "WANTED Part 1- Nigerian Nollywood and Ghallywood Movie",
+   "host": "other",
+   "id": null,
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/unimaginable-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "UNIMAGINABLE Part 2",
+   "host": "youtube",
+   "id": "lAvpgDMHDIc",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/unimaginable-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "UNIMAGINABLE Part 1",
+   "host": "youtube",
+   "id": "qspsGVHoIpI",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/heart-of-a-mission-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "HEART OF A MISSION Part 2",
+   "host": "youtube",
+   "id": "Ty8TPSwoIOw",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/heart-of-a-mission-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "HEART OF A MISSION Part 1",
+   "host": "youtube",
+   "id": "cbBrkPU96nk",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/power-of-sin-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "POWER OF SIN Part 2",
+   "host": "youtube",
+   "id": "-B7MNNA4bFQ",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/power-of-sin-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "POWER OF SIN Part 1",
+   "host": "youtube",
+   "id": "8gFsBCbu1xs",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/zeal-for-vengeance-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ZEAL FOR VENGEANCE Part 2- Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "3FvPHQkG73c",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/zeal-of-vengeance-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "ZEAL FOR VENGEANCE Part 1-Nigerian nollywood Movie",
+   "host": "youtube",
+   "id": "kP4311bws40",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/my-sister-and-i-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "MY SISTER AND i -Part 1",
+   "host": "youtube",
+   "id": "I1LTm4-LAkY",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/my-sister-and-i-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "MY SISTER AND i -Part 2",
+   "host": "youtube",
+   "id": "2Sny_4eMZNw",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/love-in-the-air-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "LOVE IN THE AIR Part 2",
+   "host": "youtube",
+   "id": "w9TOlhMbuFA",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/love-in-the-air-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "LOVE IN THE AIR Part 1",
+   "host": "youtube",
+   "id": "oBrjWx4t2Jw",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/ladies-lodge-part-1-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "LADIES LODGE PART 1",
+   "host": "youtube",
+   "id": "BUEi4OuT-zE",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/ladies-lodge-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "LADIES LODGE PART 2",
+   "host": "youtube",
+   "id": "-O8cxEhYSE0",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/hot-waitress-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "HOT WAITRESS PART 2-Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "wSwv0Ba1_FE",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/hot-waitress-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "HOT WAITRESS PART 1-Nigerian Nollywood movie",
+   "host": "youtube",
+   "id": "djqRQhhhCG0",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/bird-flu-part-2/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BIRD FLU PART 2",
+   "host": "youtube",
+   "id": "fRtmvdQz1YQ",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/bird-flu-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "BIRD FLU PART 1",
+   "host": "youtube",
+   "id": "z9ciJwJdcM4",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/courtesy-for-vengeance-part-1/",
+   "cat": "movies",
+   "status": 200,
+   "title": "Courtesy for Vengeance Part 1- Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "GHvhPQzQHeg",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/eje-dudu-nigerian-nollywood-yoruba-movie/",
+   "cat": "yoruba",
+   "status": 200,
+   "title": "EJE DUDU &#8211; Nigerian Nollywood Yoruba Movie",
+   "host": "youtube",
+   "id": "fFds6bK_-KI",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/eberu-olorun-nigerian-nollywood-yoruba-movie/",
+   "cat": "yoruba",
+   "status": 200,
+   "title": "EBERU OLORUN &#8211; Nigerian Nollywood Yoruba Movie",
+   "host": "youtube",
+   "id": "R7oQYphtd_w",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/ibrahim-omo-orukan-2-yoruba-nollywood-movie/",
+   "cat": "yoruba",
+   "status": 200,
+   "title": "Ibrahim Omo Orukan 2- Yoruba Nollywood Movie",
+   "host": "youtube",
+   "id": "NzjAw-WAioY",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/ibrahim-omo-orukan-yoruba-nollywood-movie/",
+   "cat": "yoruba",
+   "status": 200,
+   "title": "Ibrahim Omo Orukan 1 &#8211; Yoruba Nollywood Movie",
+   "host": "youtube",
+   "id": "FO4bHlOlics",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/igba-sango-yoruba-nollywood-movie/",
+   "cat": "yoruba",
+   "status": 200,
+   "title": "Igba Sango &#8211; Yoruba Nollywood Movie",
+   "host": "youtube",
+   "id": "4IHOmMMR-tw",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/idajo-oku-yoruba-movie/",
+   "cat": "yoruba",
+   "status": 200,
+   "title": "Idajo Oku &#8211; Yoruba Movie",
+   "host": "youtube",
+   "id": "NwzYdQ0YLYE",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/feyisara-yoruba-movie/",
+   "cat": "yoruba",
+   "status": 200,
+   "title": "Feyisara &#8211; Yoruba Movie",
+   "host": "youtube",
+   "id": "L1x9NYRzdII",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/evil-passion-part-2/",
+   "cat": "igbo",
+   "status": 200,
+   "title": "Evil Passion- Part 2",
+   "host": "vimeo",
+   "id": "227564206",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/evil-passion-part-1/",
+   "cat": "igbo",
+   "status": 200,
+   "title": "Evil Passion- Part 1",
+   "host": "vimeo",
+   "id": "227563466",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/akuko-uwam-2-nigerian-nollywood-movie/",
+   "cat": "igbo",
+   "status": 200,
+   "title": "AKUKO UWAM 2 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "Ox5iy8XU86I",
+   "membersOnly": false
+  },
+  {
+   "url": "https://www.zeratv.com/akuko-uwam-1-nigerian-nollywood-movie/",
+   "cat": "igbo",
+   "status": 200,
+   "title": "AKUKO UWAM 1 &#8211; Nigerian Nollywood Movie",
+   "host": "youtube",
+   "id": "AnlCw5AL7XE",
+   "membersOnly": false
+  }
+ ],
+ "vimeo": [
+  {
+   "id": "281027423",
+   "post": "https://www.zeratv.com/hes-for-me/",
+   "cat": "movies",
+   "oembedStatus": 404,
+   "pageStatusUS": 200,
+   "downloadOffered": "no",
+   "pageStatusUK": 200,
+   "embedStatusUK": 403,
+   "embedPrivacyHint": "blocked or private"
+  },
+  {
+   "id": "281026515",
+   "post": "https://www.zeratv.com/destiny-dancing-maiden/",
+   "cat": "movies",
+   "oembedStatus": 404,
+   "pageStatusUS": 200,
+   "downloadOffered": "no",
+   "pageStatusUK": 200,
+   "embedStatusUK": 403,
+   "embedPrivacyHint": "blocked or private"
+  },
+  {
+   "id": "281026181",
+   "post": "https://www.zeratv.com/ex-affairs/",
+   "cat": "movies",
+   "oembedStatus": 404,
+   "pageStatusUS": 200,
+   "downloadOffered": "no",
+   "pageStatusUK": 200,
+   "embedStatusUK": 403,
+   "embedPrivacyHint": "blocked or private"
+  },
+  {
+   "id": "281024968",
+   "post": "https://www.zeratv.com/rough-game/",
+   "cat": "movies",
+   "oembedStatus": 404,
+   "pageStatusUS": 200,
+   "downloadOffered": "no",
+   "pageStatusUK": 200,
+   "embedStatusUK": 403,
+   "embedPrivacyHint": "blocked or private"
+  },
+  {
+   "id": "281024125",
+   "post": "https://www.zeratv.com/choice-of-love/",
+   "cat": "movies",
+   "oembedStatus": 404,
+   "pageStatusUS": 200,
+   "downloadOffered": "no",
+   "pageStatusUK": 200,
+   "embedStatusUK": 403,
+   "embedPrivacyHint": "blocked or private"
+  },
+  {
+   "id": "281025958",
+   "post": "https://www.zeratv.com/luck-season-3/",
+   "cat": "movies",
+   "oembedStatus": 404,
+   "pageStatusUS": 200,
+   "downloadOffered": "no",
+   "pageStatusUK": 200,
+   "embedStatusUK": 403,
+   "embedPrivacyHint": "blocked or private"
+  },
+  {
+   "id": "281024480",
+   "post": "https://www.zeratv.com/luck-season-2/",
+   "cat": "movies",
+   "oembedStatus": 404,
+   "pageStatusUS": 200,
+   "downloadOffered": "no",
+   "pageStatusUK": 200,
+   "embedStatusUK": 404,
+   "embedPrivacyHint": "blocked or private"
+  },
+  {
+   "id": "281025237",
+   "post": "https://www.zeratv.com/the-luck/",
+   "cat": "movies",
+   "oembedStatus": 404,
+   "pageStatusUS": 200,
+   "downloadOffered": "no",
+   "pageStatusUK": 200,
+   "embedStatusUK": 403,
+   "embedPrivacyHint": "blocked or private"
+  },
+  {
+   "id": "275287507",
+   "post": "https://www.zeratv.com/a-silverspoon/",
+   "cat": "movies",
+   "oembedStatus": 404,
+   "pageStatusUS": 200,
+   "downloadOffered": "no",
+   "pageStatusUK": 200,
+   "embedStatusUK": 403,
+   "embedPrivacyHint": "blocked or private"
+  },
+  {
+   "id": "278428087",
+   "post": "https://www.zeratv.com/heartbeat/",
+   "cat": "movies",
+   "oembedStatus": 404,
+   "pageStatusUS": 200,
+   "downloadOffered": "no",
+   "pageStatusUK": 200,
+   "embedStatusUK": 403,
+   "embedPrivacyHint": "blocked or private"
+  },
+  {
+   "id": "278430445",
+   "post": "https://www.zeratv.com/being-abused-by-my-husband/",
+   "cat": "movies",
+   "oembedStatus": 404,
+   "pageStatusUS": 200,
+   "downloadOffered": "no",
+   "pageStatusUK": 200,
+   "embedStatusUK": 403,
+   "embedPrivacyHint": "blocked or private"
+  },
+  {
+   "id": "278430702",
+   "post": "https://www.zeratv.com/coming-america-african-remake/",
+   "cat": "movies",
+   "oembedStatus": 404,
+   "pageStatusUS": 200,
+   "downloadOffered": "no",
+   "pageStatusUK": 200,
+   "embedStatusUK": 403,
+   "embedPrivacyHint": "blocked or private"
+  }
+ ],
+ "summary": {
+  "posts": 683,
+  "hosts": {
+   "movies:other": 43,
+   "movies:vimeo": 243,
+   "movies:youtube": 386,
+   "yoruba:youtube": 7,
+   "igbo:vimeo": 2,
+   "igbo:youtube": 2
+  },
+  "membersOnly": 0
+ }
+}
