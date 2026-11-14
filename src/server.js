@@ -41,7 +41,7 @@ function parseExtra(segment) {
 
 function createServer(options = {}) {
   const dataDir = options.dataDir || path.join(__dirname, '..', 'data');
-  const diagnostics = options.diagnostics ?? process.env.SHOW_DIAGNOSTICS === '1';
+  const diagnostics = options.diagnostics ?? process.env.SELECT_NAIJA_DIAGNOSTICS === '1';
   const tmdbApiKey = options.tmdbApiKey ?? process.env.TMDB_API_KEY;
   const fetchImpl = options.fetchImpl || fetch;
   let data = loadData(dataDir);
