@@ -1,9 +1,66 @@
 {
+ "playable": 14150,
+ "youtubeOnly": 14150,
+ "youtubeShare": 100,
  "bySource": {
-  "YouTube": 12252
+  "YouTube": 14150
  },
- "generatedAt": "2026-11-13T17:41:40.028Z",
- "statusGeneratedAt": "2026-11-13T17:41:39.986Z",
+ "byChannel": {
+  "YouTube: BTAtv": 1452,
+  "YouTube: ROCKCELLY NOLLYWOOD FILMS TV": 864,
+  "YouTube: EbonyLife Films": 1,
+  "YouTube: Uchenna Mbunabo Tv": 166,
+  "YouTube: Uche Nancy tv": 711,
+  "YouTube: Nigerian Movies Plus": 1964,
+  "YouTube: nollynetwork": 113,
+  "YouTube: Nollywood RealnollyTV": 902,
+  "YouTube: Nollywoodpicturestv": 1784,
+  "YouTube: APATATV+": 345,
+  "YouTube: Omoni Oboli TV": 104,
+  "YouTube: Maurice Sam TV": 101,
+  "YouTube: LibraTv": 173,
+  "YouTube: RuthKadiri247": 176,
+  "YouTube: OrjiTv": 118,
+  "YouTube: Regina Daniels Tv": 4,
+  "YouTube: FAAN TV": 159,
+  "YouTube: Bimbo Ademoye TV": 16,
+  "YouTube: SANDRA OKUNZUWA TV": 42,
+  "YouTube: Sonia Uche Tv": 59,
+  "YouTube: GEORGINA IBEH TV": 33,
+  "YouTube: Uduak Isong TV": 74,
+  "YouTube: Uche Montana TV": 25,
+  "YouTube: ChinneyLoveEze Tv": 66,
+  "YouTube: Frederick Leonard TV.": 40,
+  "YouTube: IBAKATV": 10,
+  "YouTube: OLUCHI AFUNDU TV": 67,
+  "YouTube: AFOREVO STAGE": 2152,
+  "YouTube: AMCChannels": 75,
+  "YouTube: Bconceptnetwork": 14,
+  "YouTube: Neptune3 Studios": 18,
+  "YouTube: Global Update Movies Nollywood": 162,
+  "YouTube: BIODUNSTEPHEN TV": 36,
+  "YouTube: EDDIE WATSON TV": 30,
+  "YouTube: TK ÒPÓMÚLÉRÓ": 75,
+  "YouTube: Chinenye Nnebe": 51,
+  "YouTube: Saira Movies": 8,
+  "YouTube: BAKORI TV": 14,
+  "YouTube: UK ENTERTAINMENT": 15,
+  "YouTube: ABNUR ENTERTAINMENT": 43,
+  "YouTube: YAKUBU MOHAMMED 2EFFECT TV": 41,
+  "YouTube: Maishadda Global Resources": 19,
+  "YouTube: AREWA24": 262,
+  "YouTube: Lilin Baba": 1,
+  "YouTube: KAP STREAM": 7,
+  "YouTube: The Chioma Chukwuka TV": 9,
+  "YouTube: Okiki Premium TV": 50,
+  "YouTube: YORUBAPLAY": 3,
+  "YouTube: SceneOne TV": 1,
+  "YouTube: NollyReel": 368,
+  "YouTube: Waka Waka Tv": 19,
+  "YouTube: SY WORLD": 1223
+ },
+ "generatedAt": "2026-11-14T00:29:24.685Z",
+ "statusGeneratedAt": "2026-11-14T00:29:24.637Z",
  "groups": {
   "classics": {
    "total": 1,
@@ -18,21 +75,21 @@
  },
  "languages": {
   "en": {
-   "catalogued": 12724,
-   "covered": 11095,
-   "withoutTmdb": 12528,
-   "coverage": 87.2
+   "catalogued": 14575,
+   "covered": 12949,
+   "withoutTmdb": 14379,
+   "coverage": 88.8
   },
   "yo": {
-   "catalogued": 929,
-   "covered": 811,
-   "withoutTmdb": 882,
-   "coverage": 87.3
+   "catalogued": 979,
+   "covered": 861,
+   "withoutTmdb": 932,
+   "coverage": 87.9
   },
   "ig": {
-   "catalogued": 1441,
-   "covered": 1417,
-   "withoutTmdb": 1426,
+   "catalogued": 1450,
+   "covered": 1426,
+   "withoutTmdb": 1434,
    "coverage": 98.3
   },
   "ha": {
@@ -68,14 +125,14 @@
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 20
+   "checks30d": 21
   },
   "youtube": {
    "score": 100,
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 5
+   "checks30d": 6
   }
  },
  "gaps": [
