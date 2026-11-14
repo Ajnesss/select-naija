@@ -1,171 +1,24 @@
 {
- "avaz": {
-  "start": "https://avaz.tv",
-  "status": 200,
-  "title": "Avaz TV",
-  "pages": 1,
-  "fingerprints": {
-   "jwplayer": 1,
-   "youtube": 1
-  },
-  "media": 10,
-  "walls": []
- },
- "ottera": {
-  "start": "https://www.ottera.tv",
-  "status": 200,
-  "title": "White Label OTT Content Distribution and Monetization - OTTera",
-  "pages": 1,
-  "fingerprints": {},
-  "media": 0,
-  "walls": []
- },
- "bluepictures": {
-  "start": "https://bluepicturesng.com",
-  "status": 200,
-  "title": "Blue Pictures Cinema | New Movies in Cinemas | Lagos Cinema",
-  "pages": 6,
-  "fingerprints": {},
-  "media": 9,
-  "walls": [
-   "buy"
-  ]
- },
- "tvnolly": {
-  "start": "https://www.tvnolly.com",
-  "status": 403,
-  "title": "Just a moment...",
-  "pages": 1,
-  "fingerprints": {},
-  "media": 0,
-  "walls": []
- },
- "nollyland": {
-  "start": "https://www.nollyland.com",
-  "status": 401,
+ "afreetv": {
+  "start": "https://afree.tv",
+  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://afree.tv/",
   "title": "",
   "pages": 1,
   "fingerprints": {},
   "media": 0,
   "walls": []
  },
- "gidiboxoffice": {
-  "start": "https://gidiboxoffice.com",
-  "status": 200,
-  "title": "gidiboxoffice",
-  "pages": 1,
-  "fingerprints": {},
-  "media": 0,
-  "walls": [
-   "rent"
-  ]
- },
- "afrinolly": {
-  "start": "https://www.afrinolly.com",
-  "status": 200,
-  "title": "Home | Afrinolly | CRDzone",
-  "pages": 1,
-  "fingerprints": {},
-  "media": 0,
-  "walls": []
- },
- "ndanitv": {
-  "start": "https://ndani.tv",
-  "status": 200,
-  "title": "Ndani.tv — ndani.tv",
-  "pages": 6,
-  "fingerprints": {},
-  "media": 0,
-  "walls": [
-   "sign in",
-   "subscribe",
-   "rent"
-  ]
- },
- "redtv": {
-  "start": "https://www.redtv.ng",
-  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.redtv.ng/",
+ "mtnonetv": {
+  "start": "https://onetv.mtn.ng",
+  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://onetv.mtn.ng/",
   "title": "",
   "pages": 1,
   "fingerprints": {},
   "media": 0,
   "walls": []
  },
- "acceleratetv": {
-  "start": "https://acceleratetv.com",
-  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://acceleratetv.com/",
-  "title": "",
-  "pages": 1,
-  "fingerprints": {},
-  "media": 0,
-  "walls": []
- },
- "mountzion": {
-  "start": "https://www.mountzionfilm.org",
-  "status": 522,
-  "title": "mountzionfilm.org | 522: Connection timed out",
-  "pages": 1,
-  "fingerprints": {},
-  "media": 0,
-  "walls": []
- },
- "mzfmi": {
-  "start": "https://mzfmi.org",
-  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://mzfmi.org/",
-  "title": "",
-  "pages": 1,
-  "fingerprints": {},
-  "media": 0,
-  "walls": []
- },
- "anthill": {
-  "start": "https://anthillstudios.com",
-  "status": 200,
-  "title": "Anthill Studios | WE MAKE FILMS PEOPLE LOVE, SHARE AND REMEMBER.",
-  "pages": 2,
-  "fingerprints": {
-   "youtube": 2
-  },
-  "media": 0,
-  "walls": []
- },
- "trino": {
-  "start": "https://trinostudios.com",
-  "status": 200,
-  "title": "Trinostudios",
-  "pages": 1,
-  "fingerprints": {},
-  "media": 0,
-  "walls": [
-   "rent"
-  ]
- },
- "filmone": {
-  "start": "https://filmoneng.com",
-  "status": 200,
-  "title": "Film One",
-  "pages": 6,
-  "fingerprints": {
-   "youtube": 4
-  },
-  "media": 0,
-  "walls": [
-   "log in",
-   "rent",
-   "buy"
-  ]
- },
- "inkblot": {
-  "start": "https://inkblotproductions.com",
-  "status": "error page.goto: net::ERR_CONNECTION_CLOSED at https://inkblotproductions.com/",
-  "title": "",
-  "pages": 1,
-  "fingerprints": {},
-  "media": 0,
-  "walls": []
- },
- "ebonylife": {
-  "start": "https://ebonylifeonplus.com",
+ "cafrica": {
+  "start": "https://cafrica.tv",
   "status": 403,
   "title": "403 Forbidden",
   "pages": 1,
@@ -173,193 +26,28 @@
   "media": 0,
   "walls": []
  },
- "greoh": {
-  "start": "https://greohstudios.com",
-  "status": 200,
-  "title": "greohstudios.com",
-  "pages": 1,
-  "fingerprints": {},
-  "media": 0,
-  "walls": []
- },
- "nemsia": {
-  "start": "https://nemsiastudios.com",
-  "status": 200,
-  "title": "Nemsia Studios – There's No Gravity for the Mind",
-  "pages": 3,
-  "fingerprints": {
-   "youtube": 2
-  },
-  "media": 0,
-  "walls": [
-   "rent"
-  ]
- },
- "sceneone": {
-  "start": "https://sceneonetv.com",
-  "status": 200,
+ "evod": {
+  "start": "https://evod.ng",
+  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://evod.ng/",
   "title": "",
   "pages": 1,
   "fingerprints": {},
   "media": 0,
   "walls": []
  },
- "mainframe": {
-  "start": "https://mainframemovies.com",
-  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://mainframemovies.com/",
+ "freevisionplay": {
+  "start": "https://freevisionplay.com",
+  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://freevisionplay.com/",
   "title": "",
   "pages": 1,
   "fingerprints": {},
   "media": 0,
   "walls": []
  },
- "goldeneffects": {
-  "start": "https://kunleafolayan.com",
-  "status": 200,
-  "title": "kunleafolayan.com",
-  "pages": 1,
-  "fingerprints": {},
-  "media": 0,
-  "walls": [
-   "rent",
-   "buy"
-  ]
- },
- "afriff": {
-  "start": "https://afriff.com",
-  "status": 200,
-  "title": "AFRIFF 15 — Africa International Film Festival",
-  "pages": 3,
-  "fingerprints": {},
-  "media": 0,
-  "walls": [
-   "buy",
-   "rent"
-  ]
- },
- "irep": {
-  "start": "https://irepfilmfestival.com",
-  "status": 200,
-  "title": "iRep Film Festival - Honoring the Art of Filmmaking",
-  "pages": 1,
-  "fingerprints": {
-   "youtube": 1
-  },
-  "media": 0,
-  "walls": []
- },
- "lca": {
-  "start": "https://lightscameraafrica.com",
-  "status": 403,
-  "title": "Just a moment...",
-  "pages": 1,
-  "fingerprints": {},
-  "media": 0,
-  "walls": []
- },
- "nollywoodweek": {
-  "start": "https://nollywoodweek.com",
-  "status": 200,
-  "title": "NollywoodWeek Film Festival – Festival du cinéma nigérian",
-  "pages": 2,
-  "fingerprints": {
-   "youtube": 1
-  },
-  "media": 0,
-  "walls": [
-   "subscribe",
-   "buy"
-  ]
- },
- "documentaryafrica": {
-  "start": "https://documentaryafrica.org",
-  "status": 403,
-  "title": "Just a moment...",
-  "pages": 1,
-  "fingerprints": {},
-  "media": 0,
-  "walls": []
- },
- "afridocs": {
-  "start": "https://afridocs.net",
-  "status": 200,
-  "title": "AfriDocs - Stream Award-Winning Documentaries for FREE",
-  "pages": 6,
-  "fingerprints": {
-   "youtube": 5,
-   "vimeo": 1
-  },
-  "media": 0,
-  "walls": []
- },
- "olaniitv": {
-  "start": "https://olaniitv.com",
-  "status": 200,
-  "title": "Home",
-  "pages": 6,
-  "fingerprints": {
-   "bunny": 1,
-   "youtube": 6,
-   "vimeo": 6
-  },
-  "media": 10,
-  "walls": [
-   "subscribe",
-   "subscription",
-   "rent",
-   "pay per view"
-  ]
- },
- "abidontv": {
-  "start": "https://abidontv.com",
-  "status": 200,
-  "title": "AbidonTv Entertainment – Kingdom of entertainment",
-  "pages": 6,
-  "fingerprints": {},
-  "media": 0,
-  "walls": [
-   "subscribe",
-   "rent",
-   "buy"
-  ]
- },
- "nvivo": {
-  "start": "https://nvivo.tv",
-  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://nvivo.tv/",
+ "ottera-avaz": {
+  "start": "https://avaz.ottera.tv",
+  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://avaz.ottera.tv/",
   "title": "",
-  "pages": 1,
-  "fingerprints": {},
-  "media": 0,
-  "walls": []
- },
- "kweli": {
-  "start": "https://kweli.tv",
-  "status": 200,
-  "title": "kweliTV",
-  "pages": 6,
-  "fingerprints": {},
-  "media": 10,
-  "walls": [
-   "log in",
-   "subscribe",
-   "/month",
-   "rent",
-   "buy"
-  ]
- },
- "shortfilmnaija": {
-  "start": "https://www.thenollywoodshorts.com",
-  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.thenollywoodshorts.com/",
-  "title": "",
-  "pages": 1,
-  "fingerprints": {},
-  "media": 0,
-  "walls": []
- },
- "naijapals": {
-  "start": "https://www.naijapals.com/movies",
-  "status": 403,
-  "title": "Just a moment...",
   "pages": 1,
   "fingerprints": {},
   "media": 0,
