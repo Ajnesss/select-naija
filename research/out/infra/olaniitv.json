@@ -1,0 +1,147 @@
+[
+ {
+  "url": "https://olaniitv.com",
+  "finalUrl": "https://olaniitv.com/",
+  "status": 200,
+  "title": "Home",
+  "walls": [
+   "subscribe",
+   "subscription",
+   "rent",
+   "pay per view"
+  ],
+  "fingerprints": {
+   "bunny": [
+    "https://vz-daf0b06b-83c.b-cdn.net/4e3f76b7-373c-4629-9654-69911ea222f4/play_1080p.mp4",
+    "https://vz-daf0b06b-83c.b-cdn.net/cd52da2f-4ea1-4ffd-a5cc-36c1585222cd/play_720p.mp4",
+    "https://vz-daf0b06b-83c.b-cdn.net/f1d74616-e561-4d0f-b273-f5aae9f679a5/play_720p.mp4",
+    "https://vz-daf0b06b-83c.b-cdn.net/5f46d435-4398-4e31-81a7-cc4a15234d22/play_1080p.mp4"
+   ],
+   "youtube": [
+    "https://www.youtube.com/embed/${videoId}`"
+   ],
+   "vimeo": [
+    "https://player.vimeo.com/video/${videoId}`"
+   ]
+  },
+  "media": [
+   "https://vz-daf0b06b-83c.b-cdn.net/4e3f76b7-373c-4629-9654-69911ea222f4/play_1080p.mp4",
+   "https://vz-daf0b06b-83c.b-cdn.net/cd52da2f-4ea1-4ffd-a5cc-36c1585222cd/play_720p.mp4",
+   "https://vz-daf0b06b-83c.b-cdn.net/f1d74616-e561-4d0f-b273-f5aae9f679a5/play_720p.mp4",
+   "https://vz-daf0b06b-83c.b-cdn.net/5f46d435-4398-4e31-81a7-cc4a15234d22/play_1080p.mp4",
+   "https://vz-daf0b06b-83c.b-cdn.net/5bc8f7e8-7981-4254-9e66-ee107da76314/play_1080p.mp4",
+   "https://vz-daf0b06b-83c.b-cdn.net/af042396-1fbe-4d5b-aa33-da1adb0ba620/play_720p.mp4",
+   "https://vz-daf0b06b-83c.b-cdn.net/ee356f82-49a9-49be-953c-42c0092d032a/play_720p.mp4",
+   "https://vz-daf0b06b-83c.b-cdn.net/36286de4-ec2d-4abf-8eec-134dff95ebf7/play_720p.mp4",
+   "https://vz-daf0b06b-83c.b-cdn.net/e50b9441-1d93-44ca-8026-f4d8ac946a43/play_1080p.mp4",
+   "https://vz-daf0b06b-83c.b-cdn.net/fbbce84c-96fd-4748-94ce-fdbc6243f367/play_720p.mp4"
+  ],
+  "iframes": [],
+  "text": "Home All Content Coming Soon Live TV EN SUBSCRIBE Login Thriller The Locked Room A therapy session spirals into a deadly game of truth. When a celebrated psychologist is trapped in her office by a grieving man seeking answers, buried secrets begin to surface. As time runs out, she realizes the real danger isn’t just in the room… It’s much closer than she thinks. A gripping psychological thriller where every truth comes at a cost. 2025 English 01h 28m Play Now Romantic Abeke Love was never the pr"
+ },
+ {
+  "url": "https://olaniitv.com/movies/genre/1",
+  "finalUrl": "https://olaniitv.com/movies/genre/1",
+  "status": 200,
+  "title": "Action",
+  "walls": [
+   "subscribe",
+   "subscription"
+  ],
+  "fingerprints": {
+   "youtube": [
+    "https://www.youtube.com/embed/${videoId}`"
+   ],
+   "vimeo": [
+    "https://player.vimeo.com/video/${videoId}`"
+   ]
+  },
+  "media": [],
+  "iframes": [],
+  "text": "Home All Content Coming Soon Live TV EN SUBSCRIBE Login Action All Movie TV Show Olaniitv is a subscription-based streaming platform built to bring authentic African storytelling to a global audience. From Nollywood films to emerging voices across Africa, Olaniitv connects viewers in Nigeria and the diaspora to stories that reflect culture, identity, and lived experiences. With a producer-first model, Olaniitv empowers filmmakers by offering fair compensation, visibility, and a direct path to gl"
+ },
+ {
+  "url": "https://olaniitv.com/movies/genre/2",
+  "finalUrl": "https://olaniitv.com/movies/genre/2",
+  "status": 200,
+  "title": "Animation",
+  "walls": [
+   "subscribe",
+   "subscription"
+  ],
+  "fingerprints": {
+   "youtube": [
+    "https://www.youtube.com/embed/${videoId}`"
+   ],
+   "vimeo": [
+    "https://player.vimeo.com/video/${videoId}`"
+   ]
+  },
+  "media": [],
+  "iframes": [],
+  "text": "Home All Content Coming Soon Live TV EN SUBSCRIBE Login Animation All Movie TV Show Olaniitv is a subscription-based streaming platform built to bring authentic African storytelling to a global audience. From Nollywood films to emerging voices across Africa, Olaniitv connects viewers in Nigeria and the diaspora to stories that reflect culture, identity, and lived experiences. With a producer-first model, Olaniitv empowers filmmakers by offering fair compensation, visibility, and a direct path to"
+ },
+ {
+  "url": "https://olaniitv.com/movies/genre/3",
+  "finalUrl": "https://olaniitv.com/movies/genre/3",
+  "status": 200,
+  "title": "Comedy",
+  "walls": [
+   "subscribe",
+   "subscription"
+  ],
+  "fingerprints": {
+   "youtube": [
+    "https://www.youtube.com/embed/${videoId}`"
+   ],
+   "vimeo": [
+    "https://player.vimeo.com/video/${videoId}`"
+   ]
+  },
+  "media": [],
+  "iframes": [],
+  "text": "Home All Content Coming Soon Live TV EN SUBSCRIBE Login Comedy All Movie TV Show Olaniitv is a subscription-based streaming platform built to bring authentic African storytelling to a global audience. From Nollywood films to emerging voices across Africa, Olaniitv connects viewers in Nigeria and the diaspora to stories that reflect culture, identity, and lived experiences. With a producer-first model, Olaniitv empowers filmmakers by offering fair compensation, visibility, and a direct path to gl"
+ },
+ {
+  "url": "https://olaniitv.com/movies/genre/4",
+  "finalUrl": "https://olaniitv.com/movies/genre/4",
+  "status": 200,
+  "title": "Historical",
+  "walls": [
+   "subscribe",
+   "subscription"
+  ],
+  "fingerprints": {
+   "youtube": [
+    "https://www.youtube.com/embed/${videoId}`"
+   ],
+   "vimeo": [
+    "https://player.vimeo.com/video/${videoId}`"
+   ]
+  },
+  "media": [],
+  "iframes": [],
+  "text": "Home All Content Coming Soon Live TV EN SUBSCRIBE Login Historical All Movie TV Show Olaniitv is a subscription-based streaming platform built to bring authentic African storytelling to a global audience. From Nollywood films to emerging voices across Africa, Olaniitv connects viewers in Nigeria and the diaspora to stories that reflect culture, identity, and lived experiences. With a producer-first model, Olaniitv empowers filmmakers by offering fair compensation, visibility, and a direct path t"
+ },
+ {
+  "url": "https://olaniitv.com/movies/genre/5",
+  "finalUrl": "https://olaniitv.com/movies/genre/5",
+  "status": 200,
+  "title": "Horror",
+  "walls": [
+   "subscribe",
+   "subscription"
+  ],
+  "fingerprints": {
+   "youtube": [
+    "https://www.youtube.com/embed/${videoId}`"
+   ],
+   "vimeo": [
+    "https://player.vimeo.com/video/${videoId}`"
+   ]
+  },
+  "media": [],
+  "iframes": [],
+  "text": "Home All Content Coming Soon Live TV EN SUBSCRIBE Login Horror All Movie TV Show Olaniitv is a subscription-based streaming platform built to bring authentic African storytelling to a global audience. From Nollywood films to emerging voices across Africa, Olaniitv connects viewers in Nigeria and the diaspora to stories that reflect culture, identity, and lived experiences. With a producer-first model, Olaniitv empowers filmmakers by offering fair compensation, visibility, and a direct path to gl"
+ }
+]

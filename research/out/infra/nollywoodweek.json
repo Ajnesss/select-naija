@@ -1,0 +1,40 @@
+[
+ {
+  "url": "https://nollywoodweek.com",
+  "finalUrl": "https://nollywoodweek.com/en/",
+  "status": 200,
+  "title": "NollywoodWeek Film Festival – Festival du cinéma nigérian",
+  "walls": [
+   "subscribe",
+   "buy"
+  ],
+  "fingerprints": {
+   "youtube": [
+    "https://www.youtube.com/embed/fk8X8jWbIDA?controls=0&rel=0&playsinline=0&cc_load_policy=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fnollywoodweek.com&widget",
+    "https://i.ytimg.com/vi_webp/fk8X8jWbIDA/sddefault.webp",
+    "https://www.youtube.com/embed/fk8X8jWbIDA?controls=0&amp;rel=0&amp;playsinline=0&amp;cc_load_policy=0&amp;autoplay=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2F"
+   ]
+  },
+  "media": [],
+  "iframes": [
+   "https://www.youtube.com/embed/fk8X8jWbIDA?controls=0&rel=0&playsinline=0&cc_load_policy=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fnollywoodweek.com&widgetid=1&forigin=https%3A%2F%2Fnollywoodweek.com%2Fen%2F&aoriginsup=1&gporigin=https%3A%2F%2Fnollywoodweek.com%2F&vf=1",
+   "https://15bb4719.sibforms.com/v2/serve/MUIFAMTCt-0CnvIMupAzlpJPV7gToGjIU_aaBYeDJxTZPIwo8RVvTJ-jhcys8lpCmbVTrDGBGGhiuXfVB_OohzO68zySVcDr8rCcO5dwfJgJuX0wiwmwgDSt20lDeCyaDLGgGrVJOPuIKTmCaeULWdCe6VdxAFEjpZXD08eiqhzxzcWQpofIqkHPBlShgRMMJ4s1SYrxrxKIo0so"
+  ],
+  "text": "Skip to main content Cinéma l'Arlequin - 76 Rue de Rennes, 75006 Paris, France THE FESTIVAL PRESS SPONSORSHIP FESTIVAL PASSES FESTIVAL SHOP CONTACT FRANÇAIS THE NIGERIAN AND AFRICAN DIASPORA FILM FESTIVAL This year, NollywoodWeek returns with a dynamic and carefully curated program that brings together bold storytelling, industry insight, and vibrant cultural experiences in the heart of Paris. From May 6–10, 2026, expect a packed schedule featuring a diverse selection of films spanning features,"
+ },
+ {
+  "url": "https://nollywoodweek.com/en/les-films/",
+  "finalUrl": "https://nollywoodweek.com/en/les-films/",
+  "status": 200,
+  "title": "The Films – NollywoodWeek Film Festival",
+  "walls": [
+   "subscribe"
+  ],
+  "fingerprints": {},
+  "media": [],
+  "iframes": [
+   "https://15bb4719.sibforms.com/v2/serve/MUIFAMTCt-0CnvIMupAzlpJPV7gToGjIU_aaBYeDJxTZPIwo8RVvTJ-jhcys8lpCmbVTrDGBGGhiuXfVB_OohzO68zySVcDr8rCcO5dwfJgJuX0wiwmwgDSt20lDeCyaDLGgGrVJOPuIKTmCaeULWdCe6VdxAFEjpZXD08eiqhzxzcWQpofIqkHPBlShgRMMJ4s1SYrxrxKIo0so"
+  ],
+  "text": "Skip to main content Cinéma l'Arlequin - 76 Rue de Rennes, 75006 Paris, France THE FESTIVAL PRESS SPONSORSHIP FESTIVAL PASSES FESTIVAL SHOP CONTACT FRANÇAIS THE FILMS THE SHORT FILMS Goat GOAT A romantic getaway turns into a nightmare as one woman confronts a chilling ancestral debt she must escape. in Short Films God’s Wife GOD’S WIFE A widow must choose between her faith and her freedom when tradition demands a price she refuses to pay. in Short Films Hussaini HUSSAINI A desperate rush home tu"
+ }
+]

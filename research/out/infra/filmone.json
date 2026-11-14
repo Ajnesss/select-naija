@@ -1,0 +1,104 @@
+[
+ {
+  "url": "https://filmoneng.com",
+  "finalUrl": "https://www.filmoneng.com/home",
+  "status": 200,
+  "title": "Film One",
+  "walls": [
+   "log in"
+  ],
+  "fingerprints": {
+   "youtube": [
+    "https://www.youtube.com/embed/PckuGRb6Q54",
+    "https://www.youtube.com/embed/QCdpXtp-qtI",
+    "https://www.youtube.com/embed/Qotmgq1Ph00"
+   ]
+  },
+  "media": [],
+  "iframes": [],
+  "text": "HOME IN CINEMAS WATCH AT HOME COMING SOON ABOUT YEARBOOK ACTIVITY Search movie Start typing at least 3 characters. Use arrow keys to navigate suggestions, Enter to select, Escape to close. LOG IN A Production and Distribution Company CLICK HERE FOR MORE INFO Play King Kosoko Now Showing CLICK HERE FOR MORE INFO Watch Trailer Ikenga: The Last Festival Now Showing CLICK HERE FOR MORE INFO Watch Trailer The Dog Stars Now Showing CLICK HERE FOR MORE INFO Watch Trailer IN CINEMAS View All Avengers: D"
+ },
+ {
+  "url": "https://www.filmoneng.com/movies/in-cinemas",
+  "finalUrl": "https://www.filmoneng.com/movies/in-cinemas?lat=6.5243793&lon=3.3792057&sortDesc=true",
+  "status": 200,
+  "title": "Film One - Movies In Cinemas Now",
+  "walls": [
+   "log in"
+  ],
+  "fingerprints": {
+   "youtube": [
+    "https://www.youtube.com/embed/BjkIOU5PhyQ"
+   ]
+  },
+  "media": [],
+  "iframes": [],
+  "text": "HOME IN CINEMAS WATCH AT HOME COMING SOON ABOUT YEARBOOK ACTIVITY Search movie Start typing at least 3 characters. Use arrow keys to navigate suggestions, Enter to select, Escape to close. LOG IN LOCATION CINEMA All Cinema Selected SORT BY Release Date MORE FILTERS GENRES Action Animation Classic Comedy Concert Documentary Drama Family Horror Musical Event Cinema Romance SciFi/Fantasy Suspense/Thriller War Western History Biopic AVENGERS: DOOMSDAY AVENGERS: DOOMSDAY In Cinemas The Avengers, Waka"
+ },
+ {
+  "url": "https://www.filmoneng.com/movies/watch-at-home",
+  "finalUrl": "https://www.filmoneng.com/movies/watch-at-home?movieStreamingCountry=nigeria&trLanguage=en&sortDesc=true",
+  "status": 200,
+  "title": "Film One - Movies Streaming Online",
+  "walls": [
+   "log in",
+   "rent",
+   "buy"
+  ],
+  "fingerprints": {
+   "youtube": [
+    "https://www.youtube.com/embed/F6v_I34-EWY",
+    "https://www.youtube.com/embed/kknGAmtNvc8",
+    "https://www.youtube.com/embed/LhRXf-yEQqA",
+    "https://www.youtube.com/embed/3wRCOqyDI6E"
+   ]
+  },
+  "media": [],
+  "iframes": [],
+  "text": "HOME IN CINEMAS WATCH AT HOME COMING SOON ABOUT YEARBOOK ACTIVITY Search movie Start typing at least 3 characters. Use arrow keys to navigate suggestions, Enter to select, Escape to close. LOG IN STREAMING All Platforms Selected SORT BY Release Date MORE FILTERS GENRES Action Animation Classic Comedy Concert Documentary Drama Family Horror Musical Event Cinema Romance SciFi/Fantasy Suspense/Thriller War Western History Biopic ANACONDA ANACONDA At home Planned reboot. WATCH NOW COLOURS OF FIRE CO"
+ },
+ {
+  "url": "https://www.filmoneng.com/movies/coming-soon",
+  "finalUrl": "https://www.filmoneng.com/movies/coming-soon",
+  "status": 200,
+  "title": "Film One - Movies Coming Soon",
+  "walls": [
+   "log in"
+  ],
+  "fingerprints": {
+   "youtube": [
+    "https://www.youtube.com/embed/mtC4sjABZNw"
+   ]
+  },
+  "media": [],
+  "iframes": [],
+  "text": "HOME IN CINEMAS WATCH AT HOME COMING SOON ABOUT YEARBOOK ACTIVITY Search movie Start typing at least 3 characters. Use arrow keys to navigate suggestions, Enter to select, Escape to close. LOG IN MORE FILTERS GENRES Action Animation Classic Comedy Concert Documentary Drama Family Horror Musical Event Cinema Romance SciFi/Fantasy Suspense/Thriller War Western History Biopic HEXED HEXED NOVEMBER 27, 2026 Watch Trailer An impulsive and unconventional teenage girl named Billie discovers secret magic"
+ },
+ {
+  "url": "https://www.filmoneng.com/movie/kosoko",
+  "finalUrl": "https://www.filmoneng.com/movie/kosoko",
+  "status": 200,
+  "title": "Film One - KOSOKO",
+  "walls": [
+   "log in"
+  ],
+  "fingerprints": {},
+  "media": [],
+  "iframes": [],
+  "text": "HOME IN CINEMAS WATCH AT HOME COMING SOON ABOUT YEARBOOK ACTIVITY Search movie Start typing at least 3 characters. Use arrow keys to navigate suggestions, Enter to select, Escape to close. LOG IN KOSOKO SYNOPSIS Warrior Kosoko, grandson of King Ologun Kutere, survives childhood curses to become a formidable prince. When his father, Esinlokun, dies, Kosoko is sidelined as his younger brother Idewu and later his uncle Adele Ajosun usurp the throne. Kosoko bides his time, amassing wealth through tr"
+ },
+ {
+  "url": "https://www.filmoneng.com/movie/ikenga-the-last-festival",
+  "finalUrl": "https://www.filmoneng.com/movie/ikenga-the-last-festival",
+  "status": 200,
+  "title": "Film One - Ikenga: The Last Festival",
+  "walls": [
+   "log in",
+   "rent"
+  ],
+  "fingerprints": {},
+  "media": [],
+  "iframes": [],
+  "text": "HOME IN CINEMAS WATCH AT HOME COMING SOON ABOUT YEARBOOK ACTIVITY Search movie Start typing at least 3 characters. Use arrow keys to navigate suggestions, Enter to select, Escape to close. LOG IN IKENGA: THE LAST FESTIVAL SYNOPSIS In the peaceful kingdom of Umuani, where honor, integrity, and sacred traditions guide the people, the use of dark spiritual forces is strongly condemned. But when a powerful man rises through forbidden powers and tests the resolve of the entire kingdom, the very found"
+ }
+]

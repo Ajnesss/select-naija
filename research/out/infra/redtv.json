@@ -1,0 +1,13 @@
+[
+ {
+  "url": "https://www.redtv.ng",
+  "finalUrl": "chrome-error://chromewebdata/",
+  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.redtv.ng/",
+  "title": "",
+  "walls": [],
+  "fingerprints": {},
+  "media": [],
+  "iframes": [],
+  "text": ""
+ }
+]
