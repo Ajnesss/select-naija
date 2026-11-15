@@ -5,10 +5,14 @@
 
 const LANG_OPTIONS = { en: 'English', yo: 'Yoruba', ig: 'Igbo', ha: 'Hausa', other: 'Pidgin & other languages' };
 const ROW_OPTIONS = { new: 'New on Select Naija', series: 'Nigerian series', classics: 'Nigerian classics' };
-const DEFAULT = Object.freeze({ langs: Object.keys(LANG_OPTIONS), rows: Object.keys(ROW_OPTIONS) });
+const YT_OPTIONS = {
+  nuvio: "Play in Nuvio's own player (Nuvio's built-in YouTube support)",
+  app: "Open in the YouTube app (YouTube's own player and adverts, as YouTube's terms require)",
+};
+const DEFAULT = Object.freeze({ langs: Object.keys(LANG_OPTIONS), rows: Object.keys(ROW_OPTIONS), yt: 'nuvio' });
 
 function encodeConfig(cfg) {
-  return Buffer.from(JSON.stringify({ langs: cfg.langs, rows: cfg.rows })).toString('base64url');
+  return Buffer.from(JSON.stringify({ langs: cfg.langs, rows: cfg.rows, yt: cfg.yt })).toString('base64url');
 }
 
 /** Returns a settings object, or null when the segment is not a Select Naija config. */
@@ -18,7 +22,7 @@ function decodeConfig(segment) {
     const raw = JSON.parse(Buffer.from(segment, 'base64url').toString('utf8'));
     const langs = (Array.isArray(raw.langs) ? raw.langs : []).filter((l) => LANG_OPTIONS[l]);
     const rows = (Array.isArray(raw.rows) ? raw.rows : []).filter((r) => ROW_OPTIONS[r]);
-    return { langs: langs.length ? langs : DEFAULT.langs, rows };
+    return { langs: langs.length ? langs : DEFAULT.langs, rows, yt: YT_OPTIONS[raw.yt] ? raw.yt : DEFAULT.yt };
   } catch {
     return null;
   }
@@ -47,6 +51,8 @@ button.secondary{background:#37474f}
 <form id="f">
 <fieldset><legend>Languages</legend>${Object.entries(LANG_OPTIONS).map(([k, v]) => box('langs', k, v, current.langs.includes(k))).join('')}</fieldset>
 <fieldset><legend>Extra rows</legend>${Object.entries(ROW_OPTIONS).map(([k, v]) => box('rows', k, v, current.rows.includes(k))).join('')}</fieldset>
+<fieldset><legend>YouTube films</legend>${Object.entries(YT_OPTIONS).map(([k, v]) => `<label><input type="radio" name="yt" value="${k}"${current.yt === k ? ' checked' : ''}> ${v}</label>`).join('')}
+<p style="font-size:14px">Nuvio plays YouTube videos by fetching the video itself, without YouTube's player or adverts, which YouTube's terms do not allow. The YouTube-app option keeps to YouTube's terms. Either way, every title also lists "Open in the YouTube app" as a last fallback.</p></fieldset>
 </form>
 <p>Install link for Nuvio (paste it under Addons → Add addon):</p>
 <div class="url" id="url"></div>
@@ -54,7 +60,7 @@ button.secondary{background:#37474f}
 <script>
 const origin=${JSON.stringify(origin)};
 function enc(o){return btoa(unescape(encodeURIComponent(JSON.stringify(o)))).replace(/\\+/g,'-').replace(/\\//g,'_').replace(/=+$/,'')}
-function update(){const f=new FormData(document.getElementById('f'));const cfg={langs:f.getAll('langs'),rows:f.getAll('rows')};
+function update(){const f=new FormData(document.getElementById('f'));const cfg={langs:f.getAll('langs'),rows:f.getAll('rows'),yt:f.get('yt')||'nuvio'};
 const u=origin+'/'+enc(cfg)+'/manifest.json';document.getElementById('url').textContent=u;document.getElementById('install').href=u.replace(/^https?:/,'stremio:');}
 document.getElementById('f').addEventListener('change',update);
 document.getElementById('copy').addEventListener('click',()=>{navigator.clipboard&&navigator.clipboard.writeText(document.getElementById('url').textContent);document.getElementById('copy').textContent='Copied';});
@@ -62,4 +68,4 @@ update();
 </script></body></html>`;
 }
 
-module.exports = { LANG_OPTIONS, ROW_OPTIONS, DEFAULT, encodeConfig, decodeConfig, wantsTitle, configurePage };
+module.exports = { LANG_OPTIONS, ROW_OPTIONS, YT_OPTIONS, DEFAULT, encodeConfig, decodeConfig, wantsTitle, configurePage };

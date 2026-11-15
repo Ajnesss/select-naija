@@ -37,8 +37,11 @@ const check = (ok, msg) => { console.log(`${ok ? 'ok  ' : 'FAIL'} ${msg}`); if (
       const streamId = type === 'series' ? meta.meta?.videos?.[0]?.id : item.id;
       const { body: st } = await get(`/stream/${type}/${streamId}.json`);
       const playable = (st.streams || []).filter((x) => x.ytId || x.url);
-      const external = (st.streams || []).filter((x) => x.externalUrl);
-      check(playable.length > 0 && external.length === 0, `${type} ${streamId}: ${playable.length} in-app streams, ${external.length} external`);
+      const fallbacks = (st.streams || []).filter((x) => x.externalUrl && /Fallback/.test(x.title || ''));
+      const external = (st.streams || []).filter((x) => x.externalUrl && !fallbacks.includes(x));
+      const firstFallback = (st.streams || []).findIndex((x) => fallbacks.includes(x));
+      check(playable.length > 0 && external.length === 0 && (firstFallback === -1 || firstFallback >= playable.length),
+        `${type} ${streamId}: ${playable.length} in-app streams, ${fallbacks.length} YouTube-app fallback(s) listed last, ${external.length} other external`);
     }
     const cfg = Buffer.from(JSON.stringify({ langs: ['yo'], rows: ['new'] })).toString('base64url');
     const { body: cm } = await get(`/${cfg}/manifest.json`);

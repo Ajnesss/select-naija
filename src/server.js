@@ -113,7 +113,7 @@ function createServer(options = {}) {
         return meta ? send(res, 200, { meta }, 3600) : send(res, 404, { meta: null });
       }
       if (parts[0] === 'stream' && parts.length === 3) {
-        const streams = await buildStreams(parts[1], parts[2], data, { tmdbApiKey, fetchImpl });
+        const streams = await buildStreams(parts[1], parts[2], data, { tmdbApiKey, fetchImpl, youtube: cfg.yt, fallback: true });
         return send(res, 200, { streams }, 600);
       }
       return send(res, 404, { error: 'not found' });

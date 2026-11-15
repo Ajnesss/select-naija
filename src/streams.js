@@ -100,7 +100,7 @@ function formatLink(link, record, state, data, title, now) {
  * Order: in-app streams, then verified links by provider score, then stale links, then TMDB/JustWatch offers
  * for providers not already listed. Unverified and failing links are never returned.
  */
-async function buildStreams(type, requestedId, data, { tmdbApiKey, fetchImpl, now = Date.now(), env = process.env } = {}) {
+async function buildStreams(type, requestedId, data, { tmdbApiKey, fetchImpl, now = Date.now(), env = process.env, youtube = 'nuvio', fallback = false } = {}) {
   // A title merged into another keeps working under its old ID (saved in someone's library or history).
   const [rid, ...rest] = String(requestedId).split(':');
   const streamId = data.alias?.has(rid) ? [data.alias.get(rid), ...rest].join(':') : requestedId;
@@ -152,8 +152,27 @@ async function buildStreams(type, requestedId, data, { tmdbApiKey, fetchImpl, no
   const streams = playable.map((s) => {
     const st = formatLink(s.link, s.record, s.state, data, title, now);
     if (s.resolvedUrl) st.url = s.resolvedUrl;
+    // "Open in the YouTube app" setting: YouTube's own player and adverts, as YouTube's terms require.
+    if (s.link.kind === 'youtube' && youtube === 'app') {
+      delete st.ytId;
+      st.externalUrl = `https://www.youtube.com/watch?v=${s.link.ytId}`;
+      st.name = st.name.replace(/\nYouTube/, '\nYouTube ↗');
+      st.title = st.title.replace(/^▶ /, '▶ Watch on YouTube: ');
+    }
     return st;
   });
+  // Fallback: if Nuvio cannot play the best YouTube option, the same video can always open in the YouTube app.
+  const bestYt = playable.find((s) => s.link.kind === 'youtube');
+  if (fallback && bestYt && youtube !== 'app') {
+    const group = playable.filter((s) => s.link.kind === 'youtube' && s.link.source === bestYt.link.source);
+    for (const s of group) {
+      streams.push({
+        name: 'Select Naija\nYouTube app ↗',
+        title: [`Fallback: open in the YouTube app${s.link.label ? ` · ${s.link.label}` : ''}`, `${s.link.source || 'YouTube'} · plays in YouTube's own player`].join('\n'),
+        externalUrl: `https://www.youtube.com/watch?v=${s.link.ytId}`,
+      });
+    }
+  }
   const listedProviders = new Set(shown.map((s) => s.link.provider));
   const listedNames = new Set(shown.map((s) => (s.link.providerName || '').toLowerCase()).filter(Boolean));
 

@@ -91,3 +91,15 @@ test('same-named films merge only when their running times match', () => {
   assert.ok(merged.some(([a, b]) => [a, b].some((x) => x.endsWith('bbbbbbbbbbb')) && [a, b].some((x) => x.endsWith('ccccccccccc'))));
   assert.ok(rows.length >= 2 && rows.length <= 3);
 });
+
+test('YouTube-app setting and the always-present YouTube-app fallback', async () => {
+  const ok = applyApi({}, OK_ITEM, hoursAgo(2));
+  const data = setup({ a1: ok, a2: ok, b1: ok });
+  const inApp = await buildStreams('movie', 'snaija-yt-a', data, { now: NOW, fallback: true });
+  const ext = inApp.filter((s) => s.externalUrl);
+  assert.ok(inApp.filter((s) => s.ytId).length === 3 && ext.length >= 1);
+  assert.ok(ext.every((s) => /youtube\.com\/watch\?v=/.test(s.externalUrl) && /Fallback/.test(s.title)));
+  assert.strictEqual(inApp.findIndex((s) => s.externalUrl), 3); // fallbacks come after every in-app option
+  const app = await buildStreams('movie', 'snaija-yt-a', data, { now: NOW, fallback: true, youtube: 'app' });
+  assert.ok(app.length === 3 && app.every((s) => !s.ytId && /youtube\.com\/watch/.test(s.externalUrl) && /Watch on YouTube/.test(s.title)));
+});
