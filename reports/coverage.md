@@ -1,6 +1,6 @@
 # Select Naija coverage report
 
-Generated 2026-11-15T10:00:39.416Z. Links last verified 2026-11-15T10:00:39.365Z.
+Generated 2026-11-15T10:10:18.408Z. Links last verified 2026-11-15T10:10:18.347Z.
 A title counts as covered only if a verified Select Naija link is shown for it.
 
 ## Test catalogue by group
@@ -14,11 +14,11 @@ A title counts as covered only if a verified Select Naija link is shown for it.
 
 | Language | Catalogued | Covered | Coverage | Without TMDB/IMDb ID |
 | --- | --- | --- | --- | --- |
-| English | 12669 | 11234 | 88.7% | 12471 |
-| Yoruba | 845 | 736 | 87.1% | 798 |
-| Igbo | 1351 | 1331 | 98.5% | 1335 |
+| English | 12669 | 11254 | 88.8% | 12471 |
+| Yoruba | 845 | 738 | 87.3% | 798 |
+| Igbo | 1351 | 1332 | 98.6% | 1335 |
 | Hausa | 507 | 502 | 99% | 501 |
-| fr | 1 | 0 | 0% | 1 |
+| fr | 1 | 1 | 100% | 1 |
 
 ## Stream health (YouTube)
 
@@ -34,19 +34,21 @@ Last playback run: 30 tested in 0 min ({"error 150":30}) — not applied: YouTub
 
 ## Source breakdown (plays inside Nuvio)
 
-12499 playable titles; 12414 (99.3%) rely on YouTube alone.
+12520 playable titles; 12414 (99.2%) rely on YouTube alone.
 
-**Unique non-YouTube playable titles: 85** (titles with a working source other than YouTube: a file that plays in Nuvio, or the film's own page in a free UK service's app; searches, live channels, trailers and YouTube duplicates are not counted).
+**Unique non-YouTube playable titles: 106** (titles with a working source other than YouTube: a file that plays in Nuvio, or the film's own page in a free UK service's app; searches, live channels, trailers and YouTube duplicates are not counted).
 
 | Independent provider | Playable titles |
 | --- | --- |
-| Tubi | 75 |
+| Tubi | 91 |
+| Prime Video | 19 |
 | Plex | 12 |
 
 | Provider | Playable titles |
 | --- | --- |
 | YouTube | 12418 |
-| Tubi | 75 |
+| Tubi | 91 |
+| Prime Video | 19 |
 | Plex | 12 |
 
 | Provider: channel | Playable titles |
@@ -69,7 +71,7 @@ Last playback run: 30 tested in 0 min ({"error 150":30}) — not applied: YouTub
 | YouTube: nollynetwork | 112 |
 | YouTube: Omoni Oboli TV | 104 |
 | YouTube: Maurice Sam TV | 100 |
-| Tubi: - | 75 |
+| Tubi: - | 91 |
 | YouTube: AMCChannels | 75 |
 | YouTube: Uduak Isong TV | 73 |
 | YouTube: ChinneyLoveEze Tv | 65 |
@@ -87,6 +89,7 @@ Last playback run: 30 tested in 0 min ({"error 150":30}) — not applied: YouTub
 | YouTube: EDDIE WATSON TV | 28 |
 | YouTube: Uche Montana TV | 24 |
 | YouTube: EL'S NOLLY TV  | 24 |
+| Prime Video: - | 19 |
 | YouTube: Maishadda Global Resources | 18 |
 | YouTube: Bimbo Ademoye TV | 16 |
 | YouTube: Bconceptnetwork | 13 |
@@ -110,8 +113,8 @@ Last playback run: 30 tested in 0 min ({"error 150":30}) — not applied: YouTub
 | --- | --- | --- | --- | --- | --- |
 | Tubi | 40 | 0% | 100% | 100% | 1 |
 | Plex | 100 | 100% | 100% | 100% | 1 |
-| Select Naija test file | 100 | 100% | 100% | 100% | 26 |
-| YouTube | 100 | 100% | 100% | 100% | 11 |
+| Select Naija test file | 100 | 100% | 100% | 100% | 27 |
+| YouTube | 100 | 100% | 100% | 100% | 12 |
 
 ## Gaps: test titles with no verified source
 

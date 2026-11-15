@@ -1,20 +1,23 @@
 {
- "playable": 12499,
+ "playable": 12520,
  "youtubeOnly": 12414,
- "youtubeShare": 99.3,
- "nonYoutube": 85,
+ "youtubeShare": 99.2,
+ "nonYoutube": 106,
  "nonYoutubeBySource": {
   "Plex": 12,
-  "Tubi": 75
+  "Tubi": 91,
+  "Prime Video": 19
  },
  "bySource": {
   "Plex": 12,
-  "Tubi": 75,
+  "Tubi": 91,
+  "Prime Video": 19,
   "YouTube": 12418
  },
  "byChannel": {
   "Plex: -": 12,
-  "Tubi: -": 75,
+  "Tubi: -": 91,
+  "Prime Video: -": 19,
   "YouTube: BTAtv": 1404,
   "YouTube: Uche Nancy tv": 666,
   "YouTube: ROCKCELLY NOLLYWOOD FILMS TV": 835,
@@ -66,8 +69,8 @@
   "YouTube: SceneOne TV": 1,
   "YouTube: EL'S NOLLY TV ": 24
  },
- "generatedAt": "2026-11-15T10:00:39.416Z",
- "statusGeneratedAt": "2026-11-15T10:00:39.365Z",
+ "generatedAt": "2026-11-15T10:10:18.408Z",
+ "statusGeneratedAt": "2026-11-15T10:10:18.347Z",
  "groups": {
   "classics": {
    "total": 1,
@@ -83,21 +86,21 @@
  "languages": {
   "en": {
    "catalogued": 12669,
-   "covered": 11234,
+   "covered": 11254,
    "withoutTmdb": 12471,
-   "coverage": 88.7
+   "coverage": 88.8
   },
   "yo": {
    "catalogued": 845,
-   "covered": 736,
+   "covered": 738,
    "withoutTmdb": 798,
-   "coverage": 87.1
+   "coverage": 87.3
   },
   "ig": {
    "catalogued": 1351,
-   "covered": 1331,
+   "covered": 1332,
    "withoutTmdb": 1335,
-   "coverage": 98.5
+   "coverage": 98.6
   },
   "ha": {
    "catalogued": 507,
@@ -107,9 +110,9 @@
   },
   "fr": {
    "catalogued": 1,
-   "covered": 0,
+   "covered": 1,
    "withoutTmdb": 1,
-   "coverage": 0
+   "coverage": 100
   }
  },
  "providers": {
@@ -132,14 +135,14 @@
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 26
+   "checks30d": 27
   },
   "youtube": {
    "score": 100,
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 11
+   "checks30d": 12
   }
  },
  "gaps": [
