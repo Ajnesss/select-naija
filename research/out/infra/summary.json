@@ -1,76 +1,38 @@
 {
- "kava": {
-  "start": "https://watch.kava.tv",
+ "mytelevision": {
+  "start": "https://mytelevision.tv/en/movies",
   "status": 200,
-  "title": "Browse - Kava TV",
-  "pages": 6,
-  "fingerprints": {
-   "vhx": 6,
-   "vimeo": 5
-  },
-  "media": 5,
-  "walls": [
-   "sign in",
-   "subscribe"
-  ]
- },
- "kava-home": {
-  "start": "https://kava.tv",
-  "status": 200,
-  "title": "Kava — The Home of Premium Nollywood & African Cinema",
-  "pages": 1,
+  "title": "Movies — Cinema on demand — MyTelevision",
+  "pages": 4,
   "fingerprints": {},
-  "media": 1,
+  "media": 0,
   "walls": [
-   "log in",
-   "subscribe",
-   "subscription",
-   "/month",
    "rent"
   ]
  },
- "circuits": {
-  "start": "https://circuits.tv",
+ "abiplay": {
+  "start": "https://www.abiplay.com/",
   "status": 200,
-  "title": "Now Showing | Circuits - Africa's Premier Virtual Cinema",
-  "pages": 1,
-  "fingerprints": {
-   "drm": 1
-  },
-  "media": 0,
-  "walls": [
-   "log in"
-  ]
- },
- "circuits-freeflex": {
-  "start": "https://circuits.tv/freeflex",
-  "status": 404,
-  "title": "Circuits - Africa's Premier Virtual Cinema",
-  "pages": 1,
-  "fingerprints": {
-   "drm": 1
-  },
-  "media": 0,
-  "walls": []
- },
- "ebonylife": {
-  "start": "https://www.ebonylifeonplus.com",
-  "status": 403,
-  "title": "403 Forbidden",
-  "pages": 1,
+  "title": "AbiPlay - Free Streaming Platform for African and Global Movies",
+  "pages": 2,
   "fingerprints": {},
   "media": 0,
-  "walls": []
+  "walls": [
+   "subscription",
+   "rent",
+   "sign in"
+  ]
  },
- "docuth": {
-  "start": "https://web.docuth.com",
+ "tazama": {
+  "start": "https://tazamaafrica.net/browse",
   "status": 200,
-  "title": "",
+  "title": "Tazama Africa | African Streaming Platform",
   "pages": 6,
   "fingerprints": {},
   "media": 0,
   "walls": [
-   "buy"
+   "sign in",
+   "subscribe"
   ]
  }
 }

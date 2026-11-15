@@ -1,0 +1,29 @@
+[
+ {
+  "url": "https://www.abiplay.com/",
+  "finalUrl": "https://www.abiplay.com/",
+  "status": 200,
+  "title": "AbiPlay - Free Streaming Platform for African and Global Movies",
+  "walls": [
+   "subscription",
+   "rent"
+  ],
+  "fingerprints": {},
+  "media": [],
+  "iframes": [],
+  "text": "Terms & Condition Privacy Policy Unlimited Movies & Shows, for Everyone! Watch live on Web/PC NEW Watch anywhere, anytime, for FREE. Free with Ads Watch unlimited movies, shows, and more for free on AbiPlay! No subscriptions, no hidden fees—just nonstop entertainment, supported by in-page and direct video ads. Enjoy open entertainment anytime, anywhere! Secured Kids Profile AbiPlay keeps kids safe with a secure Kids Profile, featuring age-appropriate content with parental control and ZERO in pag"
+ },
+ {
+  "url": "https://www.abiplay.com/webmovie",
+  "finalUrl": "https://www.abiplay.com/login?redirect=/webmovie",
+  "status": 200,
+  "title": "AbiPlay - Free Streaming Platform for African and Global Movies",
+  "walls": [
+   "sign in"
+  ],
+  "fingerprints": {},
+  "media": [],
+  "iframes": [],
+  "text": "Unlock a world of endless entertainment Login to Discover, Stream, and Enjoy! Sign in Continue with Google Continue with Apple ID Continue with Email"
+ }
+]
