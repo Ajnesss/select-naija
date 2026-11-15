@@ -1,0 +1,185 @@
+[
+ {
+  "url": "https://watch.kava.tv",
+  "finalUrl": "https://watch.kava.tv/browse",
+  "status": 200,
+  "title": "Browse - Kava TV",
+  "walls": [
+   "sign in",
+   "subscribe"
+  ],
+  "fingerprints": {
+   "vhx": [
+    "https://kavatv.vhx.tv/browse",
+    "https://cdn.vhx.tv/assets/webpack/browse-ottbundle-4ecfe2a54b2001dfa070.css",
+    "https://cdn.vhx.tv/assets/webpack/browse-extras-ottbundle-1358c5e4451a0f6218c1.js",
+    "https://cdn.vhx.tv/assets/webpack/browse-ottbundle-47d76abc5ff75e3817c3.js"
+   ]
+  },
+  "media": [],
+  "iframes": [
+   "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LfvmnopAAAAACA1XKDZ4aLl79C20qmy7BJp9SP8&co=aHR0cHM6Ly93YXRjaC5rYXZhLnR2OjQ0Mw..&hl=en&v=4i3aN5wAweL7i3ADI7BSX4B-&size=invisible&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=q4rh4dm54mky"
+  ],
+  "text": "BROWSE SEARCH SUBSCRIBE SIGN IN Trending View all Kava Staff Picks - Tayo View all Series, Sequels & Franchises View all Show more Help Terms Privacy Cookies Manage Cookie Preferences Sign in Language: English Español Français Português"
+ },
+ {
+  "url": "https://watch.kava.tv/videos/the-return-of-arinzo-official-trailer-april-3-mp4",
+  "finalUrl": "https://watch.kava.tv/videos/the-return-of-arinzo-official-trailer-april-3-mp4",
+  "status": 200,
+  "title": "The Return Of Arinzo - Trailer - Kava TV",
+  "walls": [
+   "sign in",
+   "subscribe"
+  ],
+  "fingerprints": {
+   "vhx": [
+    "https://cdn.vhx.tv/assets/webpack/device-limit-player-ottbundle-bf5f2df3061f96958c2b.css",
+    "https://cdn.vhx.tv/assets/webpack/videos-ottbundle-45b2efb4636018f58c3a.css",
+    "https://cdn.vhx.tv/assets/webpack/videos-ottbundle-70c393f2c6573464fbc1.js",
+    "https://cdn.vhx.tv/assets/vite/assets/video-ratings-bbbbd31e.js"
+   ],
+   "vimeo": [
+    "https://f.vimeocdn.com/p/4.46.150/css/player.css",
+    "https://f.vimeocdn.com/p/4.46.150/js/player.js",
+    "https://player.vimeo.com/video/1243364327/config?autoplay=1&color=eb4296&controls=1&speed=1&token=eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3OTQ3NTQ2NTEsImV4cCI6MTc5NDc1N",
+    "https://i.vimeocdn.com/video/2221862717-e18e6195e2b3973cd189600ec7fe4fd7f85aea567e2ffe794d8606efaba1798f-d?mw=1100&mh=619"
+   ]
+  },
+  "media": [
+   "https://vod-adaptive-ak.vimeocdn.com/exp=1794758253~acl=%2F8534f002-9e3f-45c0-9029-d03a7b800c45%2Fpsid%3D1e783cb3165ab662ab8a357c9a840be9d5d97ebd1794754653%2F%2A~hmac=5af87669eafdedfa247f17e4f46b62be9dbe567cbc0f25e83c187"
+  ],
+  "iframes": [
+   "https://embed.vhx.tv/videos/4278883?api=1&autoplay=1&color=eb4296&context=https%3A%2F%2Fwatch.kava.tv%2Fbrowse&is_trailer=true&live=0&locale=en&playsinline=1&referrer=&video_ratings=1&vimeo=1",
+   "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LfvmnopAAAAACA1XKDZ4aLl79C20qmy7BJp9SP8&co=aHR0cHM6Ly93YXRjaC5rYXZhLnR2OjQ0Mw..&hl=en&v=4i3aN5wAweL7i3ADI7BSX4B-&size=invisible&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=9ixn0etyar9n"
+  ],
+  "text": "Skip to main content BROWSE SEARCH SUBSCRIBE SIGN IN The Return Of Arinzo - Trailer 2m 29s Like Not for me Help Terms Privacy Cookies Manage Cookie Preferences Sign in Language: English Español Français Português"
+ },
+ {
+  "url": "https://watch.kava.tv/videos/warlord-olori-ogun-official-trailer",
+  "finalUrl": "https://watch.kava.tv/videos/warlord-olori-ogun-official-trailer",
+  "status": 200,
+  "title": "Warlord - Olori Ogun Trailer - Kava TV",
+  "walls": [
+   "sign in",
+   "subscribe"
+  ],
+  "fingerprints": {
+   "vhx": [
+    "https://cdn.vhx.tv/assets/webpack/device-limit-player-ottbundle-bf5f2df3061f96958c2b.css",
+    "https://cdn.vhx.tv/assets/webpack/videos-ottbundle-45b2efb4636018f58c3a.css",
+    "https://cdn.vhx.tv/assets/webpack/videos-ottbundle-70c393f2c6573464fbc1.js",
+    "https://cdn.vhx.tv/assets/vite/assets/video-ratings-bbbbd31e.js"
+   ],
+   "vimeo": [
+    "https://f.vimeocdn.com/p/4.46.150/css/player.css",
+    "https://f.vimeocdn.com/p/4.46.150/js/player.js",
+    "https://player.vimeo.com/video/1237183622/config?autoplay=1&color=eb4296&controls=1&speed=1&token=eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3OTQ3NTQ2NTgsImV4cCI6MTc5NDc1N",
+    "https://i.vimeocdn.com/video/2213874902-db571191cdf2317ea4fb4abdcb70825753f10dd25c9621149f1e8439705704bf-d?mw=1100&mh=619"
+   ]
+  },
+  "media": [
+   "https://vod-adaptive-ak.vimeocdn.com/exp=1794758258~acl=%2Febc71551-0e90-43f1-9dfe-e61447960f4e%2Fpsid%3Dbad59ff15f2d01e07a5db22dc92e24de3c03d1031794754658%2F%2A~hmac=ff31f28111a472325fea16e754414677aa0363ac56198e094e1e4"
+  ],
+  "iframes": [
+   "https://embed.vhx.tv/videos/4248616?api=1&autoplay=1&color=eb4296&context=https%3A%2F%2Fwatch.kava.tv%2Fbrowse&is_trailer=true&live=0&locale=en&playsinline=1&referrer=&video_ratings=1&vimeo=1",
+   "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LfvmnopAAAAACA1XKDZ4aLl79C20qmy7BJp9SP8&co=aHR0cHM6Ly93YXRjaC5rYXZhLnR2OjQ0Mw..&hl=en&v=4i3aN5wAweL7i3ADI7BSX4B-&size=invisible&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=1b50i79ty7do"
+  ],
+  "text": "Skip to main content BROWSE SEARCH SUBSCRIBE SIGN IN Warlord - Olori Ogun Trailer 2m 27s Like Not for me Help Terms Privacy Cookies Manage Cookie Preferences Sign in Language: English Español Français Português"
+ },
+ {
+  "url": "https://watch.kava.tv/videos/flowergirl-trl-1080p24-mp4",
+  "finalUrl": "https://watch.kava.tv/videos/flowergirl-trl-1080p24-mp4",
+  "status": 200,
+  "title": "Flower Girl Trailer - Kava TV",
+  "walls": [
+   "sign in",
+   "subscribe"
+  ],
+  "fingerprints": {
+   "vhx": [
+    "https://cdn.vhx.tv/assets/webpack/device-limit-player-ottbundle-bf5f2df3061f96958c2b.css",
+    "https://cdn.vhx.tv/assets/webpack/videos-ottbundle-45b2efb4636018f58c3a.css",
+    "https://cdn.vhx.tv/assets/webpack/videos-ottbundle-70c393f2c6573464fbc1.js",
+    "https://cdn.vhx.tv/assets/vite/assets/video-ratings-bbbbd31e.js"
+   ],
+   "vimeo": [
+    "https://f.vimeocdn.com/p/4.46.150/css/player.css",
+    "https://f.vimeocdn.com/p/4.46.150/js/player.js",
+    "https://player.vimeo.com/video/1230553237/config?autoplay=1&color=eb4296&controls=1&speed=1&token=eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3OTQ3NTQ2NjQsImV4cCI6MTc5NDc1N",
+    "https://i.vimeocdn.com/video/2205478053-398e785c9e69ace3b399fa060c8a69ca9cf195545269bc2c9c18196a73bfc66f-d?mw=1100&mh=619"
+   ]
+  },
+  "media": [
+   "https://vod-adaptive-ak.vimeocdn.com/exp=1794758264~acl=%2F683a94fc-f4b1-4768-b677-0e25b71fcae3%2Fpsid%3D674de751d95dd66d4bce4d887e22132cbd5bc45d1794754664%2F%2A~hmac=2f2e8a7960e065f7f8bbf7e88e7d0859def8635b2c56218b5a709"
+  ],
+  "iframes": [
+   "https://embed.vhx.tv/videos/4213697?api=1&autoplay=1&color=eb4296&context=https%3A%2F%2Fwatch.kava.tv%2Fbrowse&is_trailer=true&live=0&locale=en&playsinline=1&referrer=&video_ratings=1&vimeo=1",
+   "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LfvmnopAAAAACA1XKDZ4aLl79C20qmy7BJp9SP8&co=aHR0cHM6Ly93YXRjaC5rYXZhLnR2OjQ0Mw..&hl=en&v=4i3aN5wAweL7i3ADI7BSX4B-&size=invisible&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=l5rza7d1tr2o"
+  ],
+  "text": "Skip to main content BROWSE SEARCH SUBSCRIBE SIGN IN Flower Girl Trailer 2m 40s Like Not for me Help Terms Privacy Cookies Manage Cookie Preferences Sign in Language: English Español Français Português"
+ },
+ {
+  "url": "https://watch.kava.tv/videos/oversabi-aunty-trailer-1",
+  "finalUrl": "https://watch.kava.tv/videos/oversabi-aunty-trailer-1",
+  "status": 200,
+  "title": "Oversabi Aunty Trailer - Kava TV",
+  "walls": [
+   "sign in",
+   "subscribe"
+  ],
+  "fingerprints": {
+   "vhx": [
+    "https://cdn.vhx.tv/assets/webpack/device-limit-player-ottbundle-bf5f2df3061f96958c2b.css",
+    "https://cdn.vhx.tv/assets/webpack/videos-ottbundle-45b2efb4636018f58c3a.css",
+    "https://cdn.vhx.tv/assets/webpack/videos-ottbundle-70c393f2c6573464fbc1.js",
+    "https://cdn.vhx.tv/assets/vite/assets/video-ratings-bbbbd31e.js"
+   ],
+   "vimeo": [
+    "https://f.vimeocdn.com/p/4.46.150/css/player.css",
+    "https://f.vimeocdn.com/p/4.46.150/js/player.js",
+    "https://player.vimeo.com/video/1231263650/config?autoplay=1&color=eb4296&controls=1&speed=1&token=eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3OTQ3NTQ2NzAsImV4cCI6MTc5NDc1N",
+    "https://i.vimeocdn.com/video/2206386139-cfc0d75ba286998a4f6ab44f393e42b4d764d08ce11bbf71a19ba7dd69c214ab-d?mw=1100&mh=619"
+   ]
+  },
+  "media": [
+   "https://vod-adaptive-ak.vimeocdn.com/exp=1794758271~acl=%2Fb3c38e66-9c51-47b9-a9ce-8ca1daf6369e%2Fpsid%3D3fe815e80f70025d3c948e5291582b0c381f3cd21794754671%2F%2A~hmac=476a978b243930f5d66e2cf7efef0ccb82ea899edf35bb0c3cfc2"
+  ],
+  "iframes": [
+   "https://embed.vhx.tv/videos/4216249?api=1&autoplay=1&color=eb4296&context=https%3A%2F%2Fwatch.kava.tv%2Fbrowse&is_trailer=true&live=0&locale=en&playsinline=1&referrer=&video_ratings=1&vimeo=1",
+   "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LfvmnopAAAAACA1XKDZ4aLl79C20qmy7BJp9SP8&co=aHR0cHM6Ly93YXRjaC5rYXZhLnR2OjQ0Mw..&hl=en&v=4i3aN5wAweL7i3ADI7BSX4B-&size=invisible&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=96y58dmcu5hi"
+  ],
+  "text": "Skip to main content BROWSE SEARCH SUBSCRIBE SIGN IN Oversabi Aunty Trailer 2m 16s Like Not for me Help Terms Privacy Cookies Manage Cookie Preferences Sign in Language: English Español Français Português"
+ },
+ {
+  "url": "https://watch.kava.tv/videos/93days-trailer-mp4",
+  "finalUrl": "https://watch.kava.tv/videos/93days-trailer-mp4",
+  "status": 200,
+  "title": "93 Days Trailer - Kava TV",
+  "walls": [
+   "sign in",
+   "subscribe"
+  ],
+  "fingerprints": {
+   "vhx": [
+    "https://cdn.vhx.tv/assets/webpack/device-limit-player-ottbundle-bf5f2df3061f96958c2b.css",
+    "https://cdn.vhx.tv/assets/webpack/videos-ottbundle-45b2efb4636018f58c3a.css",
+    "https://cdn.vhx.tv/assets/webpack/videos-ottbundle-70c393f2c6573464fbc1.js",
+    "https://cdn.vhx.tv/assets/vite/assets/video-ratings-bbbbd31e.js"
+   ],
+   "vimeo": [
+    "https://f.vimeocdn.com/p/4.46.150/css/player.css",
+    "https://f.vimeocdn.com/p/4.46.150/js/player.js",
+    "https://player.vimeo.com/video/1230552510/config?autoplay=1&color=eb4296&controls=1&speed=1&token=eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3OTQ3NTQ2NzcsImV4cCI6MTc5NDc1N",
+    "https://i.vimeocdn.com/video/2205477129-fcccf1de21179d93f948b334f33d0fdc1eba2815b2b2f40aee36392df51ecbc0-d?mw=1100&mh=619"
+   ]
+  },
+  "media": [
+   "https://vod-adaptive-ak.vimeocdn.com/exp=1794758277~acl=%2F480297e0-0905-485b-a8e8-96abd5a7e14d%2Fpsid%3Dc92f181652726fce74948d704fea10b5f5ee01581794754677%2F%2A~hmac=b5d397418fd0b76cc309c7a810ac20ae59e67d50759e6c3b2bf67"
+  ],
+  "iframes": [
+   "https://embed.vhx.tv/videos/4213699?api=1&autoplay=1&color=eb4296&context=https%3A%2F%2Fwatch.kava.tv%2Fbrowse&is_trailer=true&live=0&locale=en&playsinline=1&referrer=&video_ratings=1&vimeo=1",
+   "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LfvmnopAAAAACA1XKDZ4aLl79C20qmy7BJp9SP8&co=aHR0cHM6Ly93YXRjaC5rYXZhLnR2OjQ0Mw..&hl=en&v=4i3aN5wAweL7i3ADI7BSX4B-&size=invisible&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=1knbsgsiy6m6"
+  ],
+  "text": "Skip to main content BROWSE SEARCH SUBSCRIBE SIGN IN 93 Days Trailer 2m 33s Like Not for me Help Terms Privacy Cookies Manage Cookie Preferences Sign in Language: English Español Français Português"
+ }
+]

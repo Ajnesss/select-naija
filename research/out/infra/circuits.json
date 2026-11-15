@@ -1,0 +1,22 @@
+[
+ {
+  "url": "https://circuits.tv",
+  "finalUrl": "https://www.circuits.tv/page/646792d82a19035a166745f6",
+  "status": 200,
+  "title": "Now Showing | Circuits - Africa's Premier Virtual Cinema",
+  "walls": [
+   "log in"
+  ],
+  "fingerprints": {
+   "drm": [
+    "https://insight-api-shared.univtec.com/cms/pentity/papaya/drm/getCert/fairPlay"
+   ]
+  },
+  "media": [],
+  "iframes": [
+   "https://imasdk.googleapis.com/js/core/dai_iframe3.799.0_en.html?origin=https%3A%2F%2Fwww.circuits.tv",
+   "https://tpc.googlesyndication.com/sodar/LVEN46HQ.html"
+  ],
+  "text": "You can skip ad in Ad will start in.. Now Showing Premium FlexiWatch FreeFlex Coming Soon Uganda Catalog Log in Pre-order Now Showing Premium FlexiWatch FreeFlex Privacy Policy Terms and Conditions About Us FAQs Refund Policy"
+ }
+]

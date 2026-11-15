@@ -1,11 +1,76 @@
 {
- "bp-avaz": {
-  "start": "https://bluepicturesng.com/avaz/",
-  "status": 500,
-  "title": "Avaz Kitchen - Bluepictures Cinema",
-  "pages": 2,
+ "kava": {
+  "start": "https://watch.kava.tv",
+  "status": 200,
+  "title": "Browse - Kava TV",
+  "pages": 6,
+  "fingerprints": {
+   "vhx": 6,
+   "vimeo": 5
+  },
+  "media": 5,
+  "walls": [
+   "sign in",
+   "subscribe"
+  ]
+ },
+ "kava-home": {
+  "start": "https://kava.tv",
+  "status": 200,
+  "title": "Kava — The Home of Premium Nollywood & African Cinema",
+  "pages": 1,
+  "fingerprints": {},
+  "media": 1,
+  "walls": [
+   "log in",
+   "subscribe",
+   "subscription",
+   "/month",
+   "rent"
+  ]
+ },
+ "circuits": {
+  "start": "https://circuits.tv",
+  "status": 200,
+  "title": "Now Showing | Circuits - Africa's Premier Virtual Cinema",
+  "pages": 1,
+  "fingerprints": {
+   "drm": 1
+  },
+  "media": 0,
+  "walls": [
+   "log in"
+  ]
+ },
+ "circuits-freeflex": {
+  "start": "https://circuits.tv/freeflex",
+  "status": 404,
+  "title": "Circuits - Africa's Premier Virtual Cinema",
+  "pages": 1,
+  "fingerprints": {
+   "drm": 1
+  },
+  "media": 0,
+  "walls": []
+ },
+ "ebonylife": {
+  "start": "https://www.ebonylifeonplus.com",
+  "status": 403,
+  "title": "403 Forbidden",
+  "pages": 1,
   "fingerprints": {},
   "media": 0,
   "walls": []
+ },
+ "docuth": {
+  "start": "https://web.docuth.com",
+  "status": 200,
+  "title": "",
+  "pages": 6,
+  "fingerprints": {},
+  "media": 0,
+  "walls": [
+   "buy"
+  ]
  }
 }
