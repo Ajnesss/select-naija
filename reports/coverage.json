@@ -1,29 +1,29 @@
 {
- "playable": 12520,
- "youtubeOnly": 12407,
+ "playable": 12524,
+ "youtubeOnly": 12410,
  "youtubeShare": 99.1,
- "nonYoutube": 113,
+ "nonYoutube": 114,
  "nonYoutubeBySource": {
   "Plex": 12,
-  "Tubi": 98,
-  "Prime Video": 19
+  "Tubi": 99,
+  "Prime Video": 18
  },
  "bySource": {
   "Plex": 12,
-  "Tubi": 98,
-  "Prime Video": 19,
-  "YouTube": 12418
+  "Tubi": 99,
+  "Prime Video": 18,
+  "YouTube": 12421
  },
  "byChannel": {
   "Plex: -": 12,
-  "Tubi: -": 98,
-  "Prime Video: -": 19,
+  "Tubi: -": 99,
+  "Prime Video: -": 18,
   "YouTube: BTAtv": 1404,
-  "YouTube: Uche Nancy tv": 666,
   "YouTube: ROCKCELLY NOLLYWOOD FILMS TV": 835,
-  "YouTube: Uchenna Mbunabo Tv": 166,
+  "YouTube: Nigerian Movies Plus": 1966,
   "YouTube: EbonyLife Films": 1,
-  "YouTube: Nigerian Movies Plus": 1965,
+  "YouTube: Uche Nancy tv": 667,
+  "YouTube: Uchenna Mbunabo Tv": 166,
   "YouTube: nollynetwork": 112,
   "YouTube: Nollywood RealnollyTV": 696,
   "YouTube: Nollywoodpicturestv": 1658,
@@ -43,7 +43,7 @@
   "YouTube: ChinneyLoveEze Tv": 65,
   "YouTube: Frederick Leonard TV.": 29,
   "YouTube: IBAKATV": 10,
-  "YouTube: LibraTv": 168,
+  "YouTube: LibraTv": 169,
   "YouTube: Regina Daniels Tv": 4,
   "YouTube: AFOREVO STAGE": 2151,
   "YouTube: Bconceptnetwork": 13,
@@ -69,8 +69,8 @@
   "YouTube: SceneOne TV": 1,
   "YouTube: EL'S NOLLY TV ": 24
  },
- "generatedAt": "2026-11-15T10:37:19.872Z",
- "statusGeneratedAt": "2026-11-15T10:37:19.819Z",
+ "generatedAt": "2026-11-15T16:37:09.497Z",
+ "statusGeneratedAt": "2026-11-15T16:37:09.433Z",
  "groups": {
   "classics": {
    "total": 1,
@@ -85,22 +85,22 @@
  },
  "languages": {
   "en": {
-   "catalogued": 12669,
-   "covered": 11254,
-   "withoutTmdb": 12471,
-   "coverage": 88.8
+   "catalogued": 12662,
+   "covered": 11257,
+   "withoutTmdb": 12476,
+   "coverage": 88.9
   },
   "yo": {
-   "catalogued": 845,
-   "covered": 738,
-   "withoutTmdb": 798,
-   "coverage": 87.3
+   "catalogued": 843,
+   "covered": 740,
+   "withoutTmdb": 800,
+   "coverage": 87.8
   },
   "ig": {
-   "catalogued": 1351,
+   "catalogued": 1349,
    "covered": 1332,
    "withoutTmdb": 1335,
-   "coverage": 98.6
+   "coverage": 98.7
   },
   "ha": {
    "catalogued": 507,
@@ -135,14 +135,14 @@
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 29
+   "checks30d": 30
   },
   "youtube": {
    "score": 100,
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 14
+   "checks30d": 15
   }
  },
  "gaps": [

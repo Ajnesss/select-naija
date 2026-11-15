@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-15T00:36:43.112Z",
+ "generatedAt": "2026-11-15T16:28:25.158Z",
  "channels": {
   "UCbvdwZvZgdl-pPyomEmaEfg": {
    "name": "Omoni Oboli TV",
    "subscribers": 2110000,
-   "videos": 1332,
+   "videos": 1334,
    "films": 104
   },
   "UC83tx3zGcvQ_rXzsZigTnEA": {
@@ -21,7 +21,7 @@
   },
   "UCypAoMCRQuNL2RBwy-x4oQg": {
    "name": "Uchenna Mbunabo Tv",
-   "subscribers": 3960000,
+   "subscribers": 3970000,
    "videos": 270,
    "films": 166
   },
@@ -69,7 +69,7 @@
   },
   "UCGRC6hm8mD8WqeY0auwrCrQ": {
    "name": "Uche Montana TV",
-   "subscribers": 2030000,
+   "subscribers": 2040000,
    "videos": 113,
    "films": 24
   },
@@ -88,7 +88,7 @@
   "UCRpVhC2Mv9B-CIhYXGb0IdA": {
    "name": "Nollywood RealnollyTV",
    "subscribers": 1920000,
-   "videos": 6221,
+   "videos": 6222,
    "films": 696
   },
   "UCm6NRZvIcYwpj79CIa1Lj9g": {
@@ -100,8 +100,8 @@
   "UCvpK1k1i23Xi5TM-ZDuSNDw": {
    "name": "LibraTv",
    "subscribers": 957000,
-   "videos": 353,
-   "films": 168
+   "videos": 354,
+   "films": 169
   },
   "UCiahLsxiMoVkuUM1bbgPg0g": {
    "name": "OrjiTv",
@@ -130,7 +130,7 @@
   "UCi8vPG6uMxIjoZMhLLX2BkQ": {
    "name": "Nollywoodpicturestv",
    "subscribers": 3010000,
-   "videos": 10654,
+   "videos": 10655,
    "films": 1658
   },
   "UCNq7_TKmIc8J6j-qUcyxNFA": {
@@ -148,8 +148,8 @@
   "UCVsqair_RFTI1K5cuaLaNtg": {
    "name": "Nigerian Movies Plus",
    "subscribers": 1860000,
-   "videos": 3032,
-   "films": 1965
+   "videos": 3033,
+   "films": 1966
   },
   "UCJ1I13e9PN7u4iszJ6M0AXQ": {
    "name": "ROCKCELLY NOLLYWOOD FILMS TV",
@@ -190,13 +190,13 @@
   "UCzKrLr1ZD1uds-7c7vaSjVA": {
    "name": "Uche Nancy tv",
    "subscribers": 2380000,
-   "videos": 1711,
-   "films": 666
+   "videos": 1712,
+   "films": 667
   },
   "UCB4TZvSKXjSx2pyJG-zIxsQ": {
    "name": "TK ÒPÓMÚLÉRÓ",
    "subscribers": 115000,
-   "videos": 587,
+   "videos": 588,
    "films": 58
   },
   "UCMLiH9492y_qAPWfJY93ySQ": {
@@ -283,8 +283,8 @@
   },
   "UCLgjn9SPLG7BxyuFB_uNfXQ": {
    "name": "BIODUNSTEPHEN TV",
-   "subscribers": 467000,
-   "videos": 934,
+   "subscribers": 468000,
+   "videos": 936,
    "films": 35
   },
   "UCiZWyHYEvZO-1MFIxy1ojQg": {
@@ -302,7 +302,7 @@
   "UC9HDrOalDVN0Wv-Q7zTkQCg": {
    "name": "Okiki Premium TV",
    "subscribers": 354000,
-   "videos": 422,
+   "videos": 423,
    "films": 46
   },
   "UCdYgV-WJEog1H_PxN45cNWg": {
@@ -87953,6 +87953,40 @@
     }
    ],
    "channelName": "IBAKATV"
+  },
+  {
+   "id": "snaija-yt-ebute-ife-2026",
+   "type": "movie",
+   "name": "Ebute Ife",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": false,
+   "languages": [
+    "yo"
+   ],
+   "category": "film",
+   "genres": [
+    "Drama"
+   ],
+   "cast": [],
+   "runtime": "132 min",
+   "description": "EBUTE IFE an intriguing drama. In a world where bold actions shape our destiny and inspiring efforts pave the way forward, we discover the true power of stepping up and embracing our truest selves. Between every turning point lies a magnificent story waiting to be experienced! 🎬💫 Watch as Bimbo a",
+   "uploadedAt": "2026-11-15T11:56:04.000Z",
+   "poster": "https://i.ytimg.com/vi/IA81NCWIetI/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel LibraTv (UCvpK1k1i23Xi5TM-ZDuSNDw)"
+   },
+   "channel": "UCvpK1k1i23Xi5TM-ZDuSNDw",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "IA81NCWIetI",
+     "minutes": 132,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "LibraTv"
   },
   {
    "id": "snaija-yt-okan-lile-2026",
@@ -271032,6 +271066,42 @@
    "channelName": "Neptune3 Studios"
   },
   {
+   "id": "snaija-yt-my-wicked-stepmom-piosoned-me-so-she-can-marry-my-dad-but-my-ghost-is-back-to-hunt-2026",
+   "type": "movie",
+   "name": "My Wicked Stepmom Piosoned Me So She Can Marry My Dad But My Ghost Is Back to Hunt!",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Comedy",
+    "Supernatural"
+   ],
+   "cast": [],
+   "runtime": "101 min",
+   "description": "What should have been a joyful Christmas celebration turns into a hilarious family showdown when two children discover their father's unexpected surprise. With jealousy, rivalry, and emotional drama taking over the",
+   "uploadedAt": "2026-11-15T11:00:03.000Z",
+   "poster": "https://i.ytimg.com/vi/Ec8jcABouzY/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "Ec8jcABouzY",
+     "minutes": 101,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
+  },
+  {
    "id": "snaija-yt-my-evil-boyfriend-buried-me-alive-for-money-ritual-but-my-ghost-is-back-for-revenge-2026",
    "type": "movie",
    "name": "My Evil Boyfriend Buried Me Alive for Money Ritual But My Ghost Is Back for Revenge!",
@@ -426550,6 +426620,40 @@
    "channelName": "EDDIE WATSON TV"
   },
   {
+   "id": "snaija-yt-after-the-light-2026",
+   "type": "movie",
+   "name": "After the Light",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Drama"
+   ],
+   "cast": [],
+   "runtime": "146 min",
+   "description": "AFTER THE LIGHT (Full Movie) | Nollywood Movies 2026 Latest Full Movies Get ready to be entertained...",
+   "uploadedAt": "2026-11-15T16:00:16.000Z",
+   "poster": "https://i.ytimg.com/vi/L2LnUWtPcrs/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Uche Nancy TV (UCzKrLr1ZD1uds-7c7vaSjVA)"
+   },
+   "channel": "UCzKrLr1ZD1uds-7c7vaSjVA",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "L2LnUWtPcrs",
+     "minutes": 146,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Uche Nancy tv"
+  },
+  {
    "id": "snaija-yt-all-about-her-2026",
    "type": "movie",
    "name": "All About Her",
@@ -511384,6 +511488,45 @@
    "channelName": "AMCChannels"
   },
   {
+   "id": "snaija-yt-aye-n-sare-2026",
+   "type": "movie",
+   "name": "Aye N Sare",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": false,
+   "languages": [
+    "yo"
+   ],
+   "category": "film",
+   "genres": [
+    "Drama"
+   ],
+   "cast": [],
+   "runtime": "164 min",
+   "description": "Driven by the hunger for wealth and success, a man becomes desperate to make it big at all costs. In his rush to achieve greatness, he begins to make choices that could cost him everything. But every shortcut comes with a price, and every ambition has its limits. WATCH AYE N SARE now showing on OKIK",
+   "uploadedAt": "2026-11-15T12:00:39.000Z",
+   "poster": "https://i.ytimg.com/vi/n-KIiF98M8M/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Okiki Premium TV (UC9HDrOalDVN0Wv-Q7zTkQCg)"
+   },
+   "channel": "UC9HDrOalDVN0Wv-Q7zTkQCg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "n-KIiF98M8M",
+     "minutes": 85
+    },
+    {
+     "part": 2,
+     "videoId": "vB50G3joIZ8",
+     "minutes": 79,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Okiki Premium TV"
+  },
+  {
    "id": "snaija-yt-jomi-jomi-2026",
    "type": "movie",
    "name": "Jomi Jomi",
@@ -511456,39 +511599,6 @@
      "part": 2,
      "videoId": "FJYufTcRZtE",
      "minutes": 101
-    }
-   ],
-   "channelName": "Okiki Premium TV"
-  },
-  {
-   "id": "snaija-yt-aye-n-sare-2026",
-   "type": "movie",
-   "name": "Aye N Sare",
-   "aliases": [],
-   "year": 2026,
-   "yearIsUpload": false,
-   "languages": [
-    "yo"
-   ],
-   "category": "film",
-   "genres": [
-    "Drama"
-   ],
-   "cast": [],
-   "runtime": "85 min",
-   "description": "Driven by the hunger for wealth and success, a man becomes desperate to make it big at all costs. In his rush to achieve greatness, he begins to make choices that could cost him everything. But every shortcut comes with a price, and every ambition has its limits. WATCH AYE N SARE now showing on OKIK",
-   "uploadedAt": "2026-11-01T12:00:00.000Z",
-   "poster": "https://i.ytimg.com/vi/n-KIiF98M8M/maxresdefault.jpg",
-   "posterShape": "landscape",
-   "sources": {
-    "all": "YouTube channel Okiki Premium TV (UC9HDrOalDVN0Wv-Q7zTkQCg)"
-   },
-   "channel": "UC9HDrOalDVN0Wv-Q7zTkQCg",
-   "parts": [
-    {
-     "part": 1,
-     "videoId": "n-KIiF98M8M",
-     "minutes": 85
     }
    ],
    "channelName": "Okiki Premium TV"
