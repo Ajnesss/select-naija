@@ -1,0 +1,27 @@
+name: Research title-first
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/title-first.js
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+      - name: Save results
+        run: |
+          git config user.name "select-naija-verifier"
+          git config user.email "actions@users.noreply.github.com"
+          git add research/out
+          git diff --cached --quiet || git commit -m "Research title-first $(date -u +%Y-%m-%dT%H:%M)"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push && break; sleep 5; done
