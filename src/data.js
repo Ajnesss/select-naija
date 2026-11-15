@@ -234,7 +234,9 @@ function loadData(
   const key = (name, year) => `${normalizeName(name)}|${year || ''}`;
   for (const t of titles) nameYear.set(key(t.name, t.year), t);
   for (const e of tubi.titles || []) {
-    let t = nameYear.get(key(e.name, e.year)) || nameYear.get(key(e.name, e.year - 1)) || nameYear.get(key(e.name, e.year + 1));
+    // matchTitleId: discover-tubi.js matched this Tubi film to a catalogue film by name and running time.
+    let t = (e.matchTitleId && byId.get(e.matchTitleId))
+      || nameYear.get(key(e.name, e.year)) || nameYear.get(key(e.name, e.year - 1)) || nameYear.get(key(e.name, e.year + 1));
     if (!t) {
       t = {
         id: `snaija-tubi-${e.tubiId}`,

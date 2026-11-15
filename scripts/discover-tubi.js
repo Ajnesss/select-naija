@@ -164,8 +164,44 @@ async function main() {
       console.error(`Tubi search "${e.title.name}": ${err.message}`);
     }
   }
+  // Title-first: every channel film in the catalogue whose name is a Tubi UK title becomes a second source when
+  // Tubi's own page shows the same film (running time within 5%, or 15% with a shared actor). Up to 400 pages a night.
+  let matched = 0;
+  let checked = 0;
+  try {
+    const yt = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'youtube.json'), 'utf8')).titles || [];
+    const linked = new Set([...byId.values()].map((t) => t.matchTitleId).filter(Boolean));
+    const rejected = new Set(previous.rejected || []);
+    for (const t of yt) {
+      if (checked >= 400) break;
+      if (t.type !== 'movie' || linked.has(t.id)) continue;
+      const minutes = (t.parts || []).reduce((n, p) => n + (p.minutes || 0), 0);
+      if (minutes < 60) continue;
+      const hit = bySlug.get(slugify(t.name));
+      if (!hit || hit.kind !== 'movies' || rejected.has(`${t.id}|${hit.id}`)) continue;
+      checked += 1;
+      let v = null;
+      try {
+        const data = await edgeGet(base, token, `https://tubitv.com/movies/${hit.id}`);
+        v = data?.video?.byId?.[hit.id] || Object.values(data?.video?.byId || {}).find((x) => String(x.id) === hit.id);
+      } catch { continue; }
+      if (!v?.duration) continue;
+      const tubiMin = v.duration / 60;
+      const diff = Math.abs(tubiMin - minutes);
+      const sharesCast = (v.actors || []).some((a) => (t.cast || []).some((c) => normalize(c) === normalize(a)));
+      if (diff <= Math.max(4, 0.05 * Math.max(tubiMin, minutes)) || (sharesCast && diff <= 0.15 * Math.max(tubiMin, minutes))) {
+        const [entry] = entriesFrom({ container: { containerChildrenIdMap: { match: [hit.id] } }, video: { byId: { [hit.id]: v } } }, 'match');
+        byId.set(hit.id, { ...byId.get(hit.id), ...entry, matchTitleId: t.id, firstSeen: byId.get(hit.id)?.firstSeen || now, lastListed: now });
+        matched += 1;
+      } else rejected.add(`${t.id}|${hit.id}`);
+    }
+    previous.rejected = [...rejected];
+  } catch (err) {
+    console.error(`Tubi title matching: ${err.message}`);
+  }
+  console.log(`Tubi title-first: ${checked} channel films checked against Tubi pages, ${matched} confirmed as the same film`);
   console.log(`Tubi UK: ${done.size} collections read; ${found} of ${wanted.length} catalogue films matched on Tubi search; ${byId.size} titles known`);
-  fs.writeFileSync(OUT, `${JSON.stringify({ generatedAt: now, titles: [...byId.values()] }, null, 1)}\n`);
+  fs.writeFileSync(OUT, `${JSON.stringify({ generatedAt: now, titles: [...byId.values()], rejected: previous.rejected || [] }, null, 1)}\n`);
 }
 
 if (require.main === module) main();
