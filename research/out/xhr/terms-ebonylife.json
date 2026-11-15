@@ -1,0 +1,26 @@
+[
+ {
+  "url": "https://www.ebonylifeonplus.com/terms",
+  "xhr": [],
+  "media": [],
+  "status": 403,
+  "finalUrl": "https://www.ebonylifeonplus.com/terms",
+  "title": "403 Forbidden",
+  "text": "403 Forbidden",
+  "html": "<html><head><title>403 Forbidden</title></head>\n<body>\n<center><h1>403 Forbidden</h1></center>\n\n\n\n\n\n\n\n\n</body></html>",
+  "links": [],
+  "iframes": []
+ },
+ {
+  "url": "https://www.ebonylifeonplus.com/terms-of-use",
+  "xhr": [],
+  "media": [],
+  "status": 403,
+  "finalUrl": "https://www.ebonylifeonplus.com/terms-of-use",
+  "title": "403 Forbidden",
+  "text": "403 Forbidden",
+  "html": "<html><head><title>403 Forbidden</title></head>\n<body>\n<center><h1>403 Forbidden</h1></center>\n\n\n\n\n\n\n\n\n</body></html>",
+  "links": [],
+  "iframes": []
+ }
+]
