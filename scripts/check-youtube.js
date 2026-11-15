@@ -16,7 +16,11 @@ const KEEP_CHECKS = 7;
 function videoIds(dataDir = DATA) {
   const yt = JSON.parse(fs.readFileSync(path.join(dataDir, 'youtube.json'), 'utf8'));
   const ids = new Set();
-  for (const t of yt.titles || []) for (const p of [...(t.parts || []), ...(t.episodes || [])]) if (p.videoId) ids.add(p.videoId);
+  for (const t of yt.titles || []) {
+    for (const p of [...(t.parts || []), ...(t.episodes || [])]) if (p.videoId) ids.add(p.videoId);
+    for (const a of t.alternates || []) for (const p of a.parts) ids.add(p.videoId);
+    for (const e of t.episodes || []) for (const o of e.alternates || []) ids.add(o.videoId);
+  }
   for (const l of JSON.parse(fs.readFileSync(path.join(dataDir, 'links.json'), 'utf8')).links || []) if (l.ytId) ids.add(l.ytId);
   return [...ids];
 }

@@ -184,6 +184,11 @@ function genresFor(text) {
   return g.length ? g.slice(0, 3) : ['Drama'];
 }
 
+/** Same video length (another copy of the same upload): within 5% or 4 minutes. */
+function sameLength(a, b) {
+  return Math.abs(a - b) <= Math.max(240, 0.05 * Math.max(a, b));
+}
+
 function languagesFor(title, channel) {
   const t = normalize(title);
   const found = ['yoruba', 'igbo', 'hausa'].filter((l) => t.includes(l)).map((l) => ({ yoruba: 'yo', igbo: 'ig', hausa: 'ha' })[l]);
@@ -270,7 +275,13 @@ function buildTitles(channel, videos, { idPrefix = 'snaija-dm' } = {}) {
       }
       const episodes = [...byEp.values()]
         .sort((a, b) => a.season - b.season || a.episode - b.episode)
-        .map((v) => ({ season: v.season, episode: v.episode, videoId: v.id, minutes: Math.round(v.duration / 60), quality: v.definition || undefined, released: new Date(v.created_time * 1000).toISOString() }));
+        .map((v) => ({
+          season: v.season, episode: v.episode, videoId: v.id, minutes: Math.round(v.duration / 60), quality: v.definition || undefined,
+          released: new Date(v.created_time * 1000).toISOString(),
+          // Other uploads of the same episode (same length) are backup streams.
+          alternates: vids.filter((o) => o.id !== v.id && o.season === v.season && o.episode === v.episode && sameLength(o.duration, v.duration))
+            .map((o) => ({ videoId: o.id, minutes: Math.round(o.duration / 60), quality: o.definition || undefined })),
+        }));
       const first = vids.find((v) => v.id === episodes[0].videoId);
       const year = Math.min(...vids.map((v) => v.year || new Date(v.created_time * 1000).getUTCFullYear()));
       titles.push({
@@ -294,12 +305,26 @@ function buildTitles(channel, videos, { idPrefix = 'snaija-dm' } = {}) {
       continue;
     }
     // One upload per part; when a part was uploaded twice keep the longest.
+    // A complete upload whose length matches the numbered parts added together is the same film in one piece:
+    // it becomes an alternative stream, not "part 1".
+    const numbered = new Map();
+    for (const v of vids) if (v.part != null && (!numbered.has(v.part) || v.duration > numbered.get(v.part).duration)) numbered.set(v.part, v);
+    const partsTotal = [...numbered.values()].reduce((n, v) => n + v.duration, 0);
+    const complete = numbered.size >= 2 ? vids.filter((v) => v.part == null && sameLength(v.duration, partsTotal)) : [];
+    const pool = vids.filter((v) => !complete.includes(v));
     const byPart = new Map();
-    for (const v of vids) {
+    for (const v of pool) {
       const k = v.part ?? 1;
       if (!byPart.has(k) || v.duration > byPart.get(k).duration) byPart.set(k, v);
     }
-    const parts = [...byPart.entries()].sort((a, b) => a[0] - b[0]).map(([part, v]) => ({ part, videoId: v.id, minutes: Math.round(v.duration / 60), quality: v.definition || undefined }));
+    const asPart = (part, v) => ({ part, videoId: v.id, minutes: Math.round(v.duration / 60), quality: v.definition || undefined });
+    const parts = [...byPart.entries()].sort((a, b) => a[0] - b[0]).map(([part, v]) => asPart(part, v));
+    // Backup streams: other uploads of a part with the same length, and the complete film in one piece.
+    const alternates = [];
+    for (const [part, v] of byPart) {
+      for (const o of pool) if (o !== v && (o.part ?? 1) === part && sameLength(o.duration, v.duration)) alternates.push({ label: 'another upload', parts: [asPart(part, o)] });
+    }
+    for (const v of complete) alternates.push({ label: 'complete film', parts: [asPart(1, v)] });
     // A single upload under half an hour is a clip, talk or recap, not a film.
     if (parts.length === 1 && parts[0].minutes < MIN_FILM_MINUTES && !vids.some((v) => v.part != null)) continue;
     const first = byPart.get(parts[0].part);
@@ -323,6 +348,7 @@ function buildTitles(channel, videos, { idPrefix = 'snaija-dm' } = {}) {
       sources: { all: `${channel.platform === 'youtube' ? 'YouTube' : 'Dailymotion'} channel ${channel.name} (${channel.user})` },
       channel: channel.user,
       parts,
+      alternates: alternates.length ? alternates : undefined,
     });
   }
   // Two different films with the same name and year on one channel: keep the IDs unique.

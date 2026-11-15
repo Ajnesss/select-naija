@@ -57,3 +57,20 @@ test('install-URL settings round-trip and filter by language', () => {
   assert.ok(wantsTitle({ languages: ['yo'] }, cfg));
   assert.ok(!wantsTitle({ languages: ['ig'] }, cfg));
 });
+
+test('re-uploads and a complete upload become backup streams, not extra parts', () => {
+  const v = (id, title, min) => ({ id, title, duration: min * 60, created_time: 1, description: '' });
+  const [t] = buildTitles({ name: 'A', user: 'u', languages: ['yo'], platform: 'youtube' }, [
+    v('p1', 'OYELA Part 1 - Latest Yoruba Movie', 60),
+    v('p2', 'OYELA Part 2 - Latest Yoruba Movie', 58),
+    v('full', 'OYELA - Latest Yoruba Movie', 118),
+    v('p1b', 'OYELA Part 1 | Yoruba Movie', 61),
+  ], { idPrefix: 'x' });
+  assert.deepStrictEqual(t.parts.map((p) => p.videoId), ['p1b', 'p2']);
+  assert.deepStrictEqual(t.alternates.map((a) => [a.label, a.parts[0].videoId]), [['another upload', 'p1'], ['complete film', 'full']]);
+  // A different-length "complete" upload is a different film, not a backup.
+  const [u] = buildTitles({ name: 'A', user: 'u', languages: ['yo'], platform: 'youtube' }, [
+    v('q1', 'KOKUMO Part 2', 70), v('q2', 'KOKUMO Part 3', 72), v('q0', 'KOKUMO', 72),
+  ], { idPrefix: 'x' });
+  assert.ok(!u.alternates);
+});

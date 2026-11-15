@@ -129,7 +129,7 @@ async function buildStreams(type, requestedId, data, { tmdbApiKey, fetchImpl, no
     x.record?.ukSignal === 'page-only' ? 1 : 0,
     -x.score,
   ];
-  const groupOf = (x) => `${x.link.provider}|${x.link.source || ''}`;
+  const groupOf = (x) => `${x.link.provider}|${x.link.source || ''}|${x.link.variant || ''}`;
   const groups = new Map();
   for (const x of shown) {
     if (!groups.has(groupOf(x))) groups.set(groupOf(x), []);

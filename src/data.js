@@ -199,6 +199,33 @@ function loadData(
       // Listed as public, published and not blocked for the UK on the last nightly read: that is the check.
       discoveredStatus[id] = { lastOk: at, lastCheck: at, checks: [{ at, ok: true }], ukSignal: 'provider' };
     }
+    // Backup streams from the same channel: another upload of the same part or episode, or the complete film in
+    // one piece. Each is its own option (variant), listed after the main one unless it is healthier.
+    if (platform !== 'youtube') continue;
+    const source = t.channelName || channelNames.get(t.channel);
+    (t.alternates || []).forEach((alt, i) => {
+      for (const part of alt.parts) {
+        const id = `yt:${part.videoId}`;
+        extraLinks.push({
+          id, titleId: t.id, provider: 'youtube', kind: 'youtube', ytId: part.videoId, url: `https://www.youtube.com/watch?v=${part.videoId}`,
+          source, variant: `alt${i + 1}`,
+          label: alt.label === 'complete film' ? 'Complete film' : total > 1 ? `Part ${part.part} of ${total} (another upload)` : 'Another upload',
+          order: part.part, minutes: part.minutes, quality: part.quality, synthetic: true,
+        });
+        discoveredStatus[id] = { lastOk: at, lastCheck: at, checks: [{ at, ok: true }], ukSignal: 'provider' };
+      }
+    });
+    for (const e of t.episodes || []) {
+      (e.alternates || []).forEach((o, i) => {
+        const id = `yt:${o.videoId}`;
+        extraLinks.push({
+          id, titleId: t.id, season: e.season, episode: e.episode, provider: 'youtube', kind: 'youtube', ytId: o.videoId,
+          url: `https://www.youtube.com/watch?v=${o.videoId}`, source, variant: `alt${i + 1}`, label: 'Another upload',
+          minutes: o.minutes, quality: o.quality, synthetic: true,
+        });
+        discoveredStatus[id] = { lastOk: at, lastCheck: at, checks: [{ at, ok: true }], ukSignal: 'provider' };
+      });
+    }
   }
 
   // Tubi UK's own Nollywood collection (scripts/discover-tubi.js). Matched to a title already in the
