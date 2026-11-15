@@ -98,7 +98,9 @@ async function main() {
     done.add(collection);
     try {
       const data = await edgeGet(base, token, `https://tubitv.com/category/${collection}`);
-      for (const c of relatedCollections(data)) if (!done.has(c)) queue.push(c);
+      const related = relatedCollections(data);
+      if (done.size === 1) console.log(`Tubi collections on the page: ${Object.keys(data?.container?.containerIdMap || {}).slice(0, 40).join(', ')} | related: ${related.join(', ')}`);
+      for (const c of related) if (!done.has(c)) queue.push(c);
       const entries = entriesFrom(data, collection);
       for (const e of entries) byId.set(e.tubiId, { ...byId.get(e.tubiId), ...e, firstSeen: byId.get(e.tubiId)?.firstSeen || now, lastListed: now });
       console.log(`Tubi UK ${collection}: ${entries.length} titles listed today, ${byId.size} known in total`);
@@ -116,7 +118,35 @@ async function main() {
   } catch { /* none */ }
   const known = new Set([...byId.values()].map((t) => `${normalize(t.name)}|${t.year || ''}`));
   let found = 0;
+  // Tubi's public sitemap lists every film's address (/movies/<id>/<slug>): match wanted films by slug.
+  const { slugify } = require('../src/text');
+  const bySlug = new Map();
+  try {
+    const raw = async (url) => {
+      const res = await fetch(`${base}/api/fetch?url=${encodeURIComponent(url)}`, { headers: { 'x-select-naija-token': token }, signal: AbortSignal.timeout(60000) });
+      return res.status === 200 && res.headers.get('x-upstream-status') === '200' ? res.text() : '';
+    };
+    const index = await raw('https://tubitv.com/sitemap.xml');
+    const maps = [...index.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]).filter((u) => /movie|series|video|title/i.test(u));
+    console.log(`Tubi sitemap: ${maps.length} film/series sitemaps (${index.length} bytes index) ${maps.slice(0, 3).join(' ')}`);
+    for (const m of maps.slice(0, 40)) {
+      const xml = await raw(m);
+      for (const [, kind, id, slug] of xml.matchAll(/tubitv\.com\/(movies|series)\/(\d+)\/([a-z0-9-]+)/g)) if (!bySlug.has(slug)) bySlug.set(slug, { kind, id });
+    }
+    console.log(`Tubi sitemap: ${bySlug.size} titles indexed`);
+  } catch (err) {
+    console.error(`Tubi sitemap: ${err.message}`);
+  }
   for (const e of wanted) {
+    const hitSlug = bySlug.get(slugify(e.title.name));
+    if (hitSlug && !known.has(`${normalize(e.title.name)}|${e.title.year || ''}`)) {
+      const t = e.title;
+      byId.set(hitSlug.id, { ...byId.get(hitSlug.id), tubiId: hitSlug.id, type: hitSlug.kind === 'series' ? 'series' : 'movie', name: t.name, year: t.year, languages: t.languages, genres: t.genres || [], runtime: t.runtime, description: t.description, poster: t.poster, background: t.background, collection: 'sitemap', firstSeen: byId.get(hitSlug.id)?.firstSeen || now, lastListed: now });
+      known.add(`${normalize(t.name)}|${t.year || ''}`);
+      found += 1;
+      continue;
+    }
+    if (bySlug.size) continue;
     const key = `${normalize(e.title.name)}|${e.title.year || ''}`;
     if (known.has(key)) continue;
     try {
