@@ -174,3 +174,11 @@ Elesin Oba, Chief Daddy, Shanty Town, Blood Sisters, Far From Home → Netflix o
 Gangs of Lagos → Prime Video only. The Wedding Party → Prime Video free with ads, MX Player, Runtime. Living in Bondage:
 Breaking Free → Prime Video, Tubi. Merry Men → Tubi. Mami Wata → BFI Player rental. Brotherhood, Omo Ghetto: The Saga,
 October 1 → no UK provider. No title has a provider whose playback can legitimately run inside Nuvio.
+
+## Round 9 (15 Nov 2026): MyTelevision, AbiPlay, Tazama Africa
+
+| Service | What the browser found | Login | Terms | Status |
+| --- | --- | --- | --- | --- |
+| Tazama Africa | 15 titles; film pages are placeholders (same cast "Ama Boateng / Tendai Moyo" on every title, "TEST_def2c0" title, canned reviews). The "Nigerian Yoruba feature" Lagos Hustle (1h 4m, 2026) is "Premium — Subscribe to Watch" | Subscription for Premium | — | Not a working catalogue (demo/test content); excluded |
+| MyTelevision | Next.js site; films, series and replays "Free with an account"; no catalogue or player without login | Free account (email) | May: stream for personal, private use on your compatible devices. May not: circumvent protection or geo-restriction, copy or redistribute content. No licence beyond the personal viewing right | Player untested: needs a logged-in account |
+| AbiPlay | "Free with Ads … supported by in-page and direct video ads"; /webmovie redirects to login | Google, Apple or email account | Published terms are a privacy policy only | Player untested: needs a logged-in account; ad-funded (playing in Nuvio would drop its video ads) |
