@@ -1,9 +1,6 @@
 {
- "abiplay-scan": ["https://www.abiplay.com/", "https://www.abiplay.com/login?redirect=/webmovie", "https://www.abiplay.com/terms-and-condition", "https://www.abiplay.com/privacy-policy"],
- "afroland": ["https://www.afrolandtv.com/", "https://www.afrolandtv.com/linear/afrolandtv", "https://www.afrolandtv.com/movies", "https://www.afrolandtv.com/terms"],
- "wanzami": ["https://wanzamitv.com/", "https://www.wanzami.tv/"],
- "ewaen": ["https://ewaenstudios.com/", "https://ewaenstudios.com/movies/"],
- "filmjoint": ["https://filmjoint.com/", "https://www.filmjoint.ng/"],
- "olongo": ["https://olongoafrica.com/ebrohimie-road-a-museum-of-memory-is-available-to-watch-online-for-seven-days-this-july/"],
- "nollistream-web": ["https://nollistream.com/", "https://nollistream.com/movies", "https://app.nollistream.com/", "https://watch.nollistream.com/"]
+ "afroland-vod": ["https://www.afrolandtv.com/feature/gwoza", "https://www.afrolandtv.com/linear/nollywood", "https://www.afrolandtv.com/?section=moviessection"],
+ "afroland-terms": ["https://assets.static-ottera.com/prod/alt/static/al/terms.html", "https://www.afrolandtv.com/devices", "https://www.afrolandtv.com/app"],
+ "ewaen-film": ["https://ewaenstudios.com/movies/shackles-of-fate", "https://ewaenstudios.com/pricing-plan/", "https://ewaenstudios.com/terms-of-use/"],
+ "faithstream": ["https://thefaithstream.com/", "https://www.thefaithstream.com/browse", "https://www.thefaithstream.com/terms"]
 }

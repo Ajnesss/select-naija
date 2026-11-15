@@ -43,7 +43,7 @@ const PAGES = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'research', 
         }
         if (/\.m3u8|\.mpd|\.mp4/i.test(u)) rec.media.push(u.slice(0, 200));
         if (!/json|graphql|text\/plain|x-component/i.test(ct) && !/\/api\/|_next\/data|\.json/i.test(u)) return;
-        try { const b = await r.text(); rec.xhr.push({ u: u.slice(0, 300), s: r.status(), ct, b: b.slice(0, 3000) }); } catch {}
+        try { const b = await r.text(); rec.xhr.push({ u: u.slice(0, 300), s: r.status(), ct, b: b.slice(0, 20000) }); } catch {}
       });
       try {
         const res = await page.goto(url, { waitUntil: 'networkidle', timeout: 45000 });
