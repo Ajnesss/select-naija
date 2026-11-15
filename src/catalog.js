@@ -52,17 +52,22 @@ function snapshot(data, now) {
   const c = caches.get(data);
   if (c && Math.abs(now - c.at) < CACHE_MS) return c;
   const available = new Set();
+  const availableYoutubeOnly = new Set();
   for (const t of data.titles) {
-    if (linksForTitle(t.id, data).some((l) => isShown(linkState(data.status.links[l.id], now)))) available.add(t.id);
+    const shown = linksForTitle(t.id, data).filter((l) => isShown(linkState(data.status.links[l.id], now)));
+    if (shown.length) available.add(t.id);
+    if (shown.some((l) => l.kind === 'youtube' || l.kind === 'direct')) availableYoutubeOnly.add(t.id);
   }
-  const fresh = { at: now, available, labels: new Map(), rowOptions: new Map(), sorted: new Map() };
+  const fresh = { at: now, available, availableYoutubeOnly, labels: new Map(), rowOptions: new Map(), sorted: new Map() };
   caches.set(data, fresh);
   return fresh;
 }
 
 // A title appears in rows only when at least one of its links is currently shown.
-function isAvailable(title, data, now) {
-  return snapshot(data, now).available.has(title.id);
+// With "other free sources" switched off, titles only on Tubi, Plex etc. are left out too.
+function isAvailable(title, data, now, cfg = DEFAULT) {
+  const snap = snapshot(data, now);
+  return (cfg.apps === false ? snap.availableYoutubeOnly : snap.available).has(title.id);
 }
 
 // Filter labels a title answers to: its genres, languages, decade, category and access.
@@ -163,7 +168,7 @@ function queryCatalog(type, id, extra, data, now = Date.now(), cfg = DEFAULT) {
   if (id === 'snaija-search') {
     if (!extra.search) return [];
     return data.titles
-      .filter((t) => t.type === type && t.category !== 'test' && wantsTitle(t, cfg) && isAvailable(t, data, now))
+      .filter((t) => t.type === type && t.category !== 'test' && wantsTitle(t, cfg) && isAvailable(t, data, now, cfg))
       .map((t) => ({ t, score: searchScore(t, extra.search) }))
       .filter((x) => x.score > 0)
       .sort((a, b) => b.score - a.score || (b.t.year || 0) - (a.t.year || 0))
@@ -178,11 +183,11 @@ function queryCatalog(type, id, extra, data, now = Date.now(), cfg = DEFAULT) {
   const row = ROWS.find((r) => r.id === id && r.type === type);
   if (!row) return [];
   const snap = snapshot(data, now);
-  const langKey = cfg === DEFAULT ? '' : cfg.langs.join('.');
+  const langKey = cfg === DEFAULT ? '' : `${cfg.langs.join('.')}|${cfg.apps === false ? 'yt' : 'all'}`;
   const key = `${row.id}|${extra.genre || ''}|${langKey}`;
   let list = snap.sorted.get(key);
   if (!list) {
-    list = data.titles.filter((t) => t.type === type && t.category !== 'test' && row.match(t) && (row.lang || wantsTitle(t, cfg)) && isAvailable(t, data, now));
+    list = data.titles.filter((t) => t.type === type && t.category !== 'test' && row.match(t) && (row.lang || wantsTitle(t, cfg)) && isAvailable(t, data, now, cfg));
     if (extra.genre) list = list.filter((t) => filterLabels(t, data, now).includes(extra.genre));
     // Newest first: when the title (or its latest part or episode) was added, else its release year.
     const when = (t) => t.uploadedAt || (t.year ? `${t.year}-01-01` : '');

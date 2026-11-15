@@ -203,21 +203,24 @@ test('discovered titles join the catalogue with JustWatch-confirmed links; curat
 
   const data = loadData(dir, { now: NOW });
   assert.equal(data.byId.get('tt0000001').name, 'Ọ̀ṣun Sẹ̀ẹ̀gẹ̀sí'); // curated wins
-  assert.ok(queryCatalog('movie', 'snaija-yoruba', {}, data, NOW).some((m) => m.id === 'tt2000001'));
-  assert.ok(queryCatalog('series', 'snaija-series', {}, data, NOW).some((m) => m.id === 'snaija-tmdb-tv-9'));
-  const streams = await buildStreams('movie', 'tt2000001', data, { now: NOW });
-  const nf = streams.find((s) => s.externalUrl.includes('netflix'));
-  assert.equal(nf.externalUrl, 'https://www.netflix.com/search?q=Jagun%20Jagun');
-  assert.match(nf.title, /JustWatch via TMDB/);
-  const c5 = streams.find((s) => /Channel 5/.test(s.name));
-  assert.equal(c5.externalUrl, 'https://tmdb/watch');
-  assert.equal(streams.length, 2);
+  // Offers without a link to the film's own page (only a search or TMDB's page) are not shown: on a TV they would
+  // open a browser. So Jagun Jagun (search/TMDB only) and the series leave the rows; Aníkúlápó (Netflix id) stays.
+  assert.ok(!queryCatalog('movie', 'snaija-yoruba', {}, data, NOW).some((m) => m.id === 'tt2000001'));
+  assert.ok(!queryCatalog('series', 'snaija-series', {}, data, NOW).some((m) => m.id === 'snaija-tmdb-tv-9'));
+  assert.deepEqual(await buildStreams('movie', 'tt2000001', data, { now: NOW }), []);
   const direct = await buildStreams('movie', 'tt2000002', data, { now: NOW });
-  assert.ok(direct.some((x) => x.externalUrl === 'https://www.netflix.com/title/81234567'));
-  const ep = await buildStreams('series', 'snaija-tmdb-tv-9:1:2', data, { now: NOW });
-  assert.equal(ep.length, 2);
+  assert.deepEqual(direct.map((x) => x.externalUrl), ['https://www.netflix.com/title/81234567']);
+  assert.match(direct[0].title, /JustWatch via TMDB/);
+  // Plex films get their own page from data/app-links.json (scripts/resolve-app-links.js).
+  d.providers.providers.push({ id: 'plex', name: 'Plex', access: 'free', tmdbNames: ['Plex'], titleUrl: 'https://watch.plex.tv/{id}' });
+  fs.writeFileSync(path.join(dir, 'providers.json'), JSON.stringify(d.providers));
+  const plexEntry = toEntry('movie', detail({ id: 7, title: 'Gidi Up', external_ids: { imdb_id: 'tt2000003' }, 'watch/providers': { results: { GB: { link: 'https://tmdb/watch', ads: [{ provider_name: 'Plex', provider_id: 538 }] } } } }));
+  fs.writeFileSync(path.join(dir, 'discovered.json'), JSON.stringify({ generatedAt: hoursAgo(5), entries: [fresh, dupe, show, withId, plexEntry] }));
+  fs.writeFileSync(path.join(dir, 'app-links.json'), JSON.stringify({ plex: { tt2000003: 'movie/gidi-up' } }));
+  const withPlex = loadData(dir, { now: NOW });
+  assert.deepEqual((await buildStreams('movie', 'tt2000003', withPlex, { now: NOW })).map((x) => x.externalUrl), ['https://watch.plex.tv/movie/gidi-up']);
   // A week after the last discovery run the links are only stale; they never turn into unverified.
-  assert.equal(linkState(data.status.links['jw:netflix2:tt2000001'], NOW + 8 * 864e5), 'stale');
+  assert.equal(linkState(data.status.links['jw:netflix2:tt2000002'], NOW + 8 * 864e5), 'stale');
 });
 
 test('free only: subscription and rental links are dropped, and titles with nothing free leave the rows', async () => {

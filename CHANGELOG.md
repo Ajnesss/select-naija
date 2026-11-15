@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.7.0 (15 Nov 2026)
+
+- YouTube playback follows YouTube's terms by default: YouTube films open in the YouTube app (YouTube's own player and adverts). Nuvio has no YouTube player: its sideloaded builds fetch the video file themselves and its store builds open YouTube, so that is the compliant route. Nuvio's in-app playback remains an opt-in setting, labelled as not allowed by YouTube's terms.
+- Free UK services as sources: films listed on Tubi and Plex in the UK open on the film's own page in that service's app. Links that would only open a search or TMDB's page are no longer shown; Dailymotion (no Fire TV app) stays hidden.
+- Tubi: every Nigerian/African collection found on Tubi UK is read, and films the UK catalogue data lists on Tubi are looked up on Tubi's search so the link opens the film.
+- Plex: films listed on Plex in the UK get their watch.plex.tv page, confirmed from London (scripts/resolve-app-links.js).
+- Setting: "Other free sources" (on by default).
+- Report and live check count non-YouTube sources and fail on any stream that would open a search page.
+
 ## 0.6.0 (15 Nov 2026)
 
 - Backup streams: other uploads of the same film part or episode on a channel, and a complete-film upload next to the parts, are kept as extra stream options (only when the length matches). Before, they were thrown away, and a complete upload was wrongly shown as "Part 1".

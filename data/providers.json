@@ -62,7 +62,8 @@
       "tmdbNames": [
         "Plex",
         "Plex Channel"
-      ]
+      ],
+      "titleUrl": "https://watch.plex.tv/{id}"
     },
     {
       "id": "netflix",
@@ -125,7 +126,8 @@
       "ukCheckRequired": true,
       "tmdbNames": [
         "Filmzie"
-      ]
+      ],
+      "tvApp": false
     },
     {
       "id": "other",
@@ -133,7 +135,8 @@
       "access": "subscription",
       "unavailableMarkers": [],
       "ukCheckRequired": true,
-      "_note": "Catch-all for UK services TMDB lists that Select Naija has no entry for yet; the link shows the service's own name and opens TMDB's where-to-watch page."
+      "_note": "Catch-all for UK services TMDB lists that Select Naija has no entry for yet; the link shows the service's own name and opens TMDB's where-to-watch page.",
+      "tvApp": false
     },
     {
       "id": "dailymotion",
@@ -145,7 +148,8 @@
         "private video"
       ],
       "ukCheckRequired": false,
-      "_note": "Approved channels only (data/channels.json). UK availability from Dailymotion's own geoblocking field."
+      "_note": "Approved channels only (data/channels.json). UK availability from Dailymotion's own geoblocking field.",
+      "tvApp": false
     },
     {
       "id": "youtube",

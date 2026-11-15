@@ -64,7 +64,7 @@ test('streams: confirmed-playing source first, its parts kept together; failed p
   const streams = await buildStreams('movie', 'snaija-yt-a', data, { now: NOW });
   assert.deepStrictEqual(streams.map((s) => s.ytId), ['b1', 'a1', 'a2']);
   assert.match(streams[0].title, /played in YouTube's player/);
-  assert.match(streams[1].title, /not yet play-tested/);
+  assert.match(streams[1].title, /available on YouTube in the UK/);
   assert.match(streams[0].name, /HD/);
   const blocked = setup({ a1: ok, a2: ok, b1: applyPlayback(ok, { result: 'error', code: 101 }, hoursAgo(1)) });
   assert.deepStrictEqual((await buildStreams('movie', 'snaija-yt-a', blocked, { now: NOW })).map((s) => s.ytId), ['a1', 'a2']);

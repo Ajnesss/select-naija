@@ -69,7 +69,7 @@ function formatLink(link, record, state, data, title, now) {
       title: [
         [`▶ ${name}`, link.label].filter(Boolean).join(' · '),
         [quality && (quality === 'HD' ? 'HD (720p+)' : 'SD'), duration(link.minutes), link.source || 'YouTube', access].filter(Boolean).join(' · '),
-        record?.lastPlayedAt ? `✓ played in YouTube's player ${ago(record.lastPlayedAt, now)}` : record?.api === 'ok' ? `available on YouTube (checked ${ago(record.lastCheck, now)}), not yet play-tested` : checked,
+        record?.lastPlayedAt ? `✓ played in YouTube's player ${ago(record.lastPlayedAt, now)}` : record?.api === 'ok' ? `available on YouTube in the UK (checked ${ago(record.lastCheck, now)})` : checked,
       ].filter(Boolean).join('\n'),
       ytId: link.ytId,
       behaviorHints: { bingeGroup: `selectnaija-${link.provider}` },
@@ -100,7 +100,7 @@ function formatLink(link, record, state, data, title, now) {
  * Order: in-app streams, then verified links by provider score, then stale links, then TMDB/JustWatch offers
  * for providers not already listed. Unverified and failing links are never returned.
  */
-async function buildStreams(type, requestedId, data, { tmdbApiKey, fetchImpl, now = Date.now(), env = process.env, youtube = 'nuvio', fallback = false } = {}) {
+async function buildStreams(type, requestedId, data, { tmdbApiKey, fetchImpl, now = Date.now(), env = process.env, youtube = 'nuvio', apps = true, fallback = false } = {}) {
   // A title merged into another keeps working under its old ID (saved in someone's library or history).
   const [rid, ...rest] = String(requestedId).split(':');
   const streamId = data.alias?.has(rid) ? [data.alias.get(rid), ...rest].join(':') : requestedId;
@@ -148,7 +148,8 @@ async function buildStreams(type, requestedId, data, { tmdbApiKey, fetchImpl, no
       s.resolvedUrl = await ownerStreamUrl(s.link.resolve.videoId, s.link.resolve.channel, { fetchImpl: fetchImpl || fetch, now, env });
     }),
   );
-  const playable = shown.filter((s) => !s.link.resolve || s.resolvedUrl);
+  // "Other free sources" off: only YouTube and in-app streams.
+  const playable = shown.filter((s) => (!s.link.resolve || s.resolvedUrl) && (apps || s.link.kind === 'youtube' || s.link.kind === 'direct'));
   const streams = playable.map((s) => {
     const st = formatLink(s.link, s.record, s.state, data, title, now);
     if (s.resolvedUrl) st.url = s.resolvedUrl;

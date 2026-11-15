@@ -36,12 +36,13 @@ const check = (ok, msg) => { console.log(`${ok ? 'ok  ' : 'FAIL'} ${msg}`); if (
       check(meta.meta?.name && meta.meta?.poster, `${type} page "${meta.meta?.name}"${meta.meta?.videos ? `, ${meta.meta.videos.length} episodes` : ''}`);
       const streamId = type === 'series' ? meta.meta?.videos?.[0]?.id : item.id;
       const { body: st } = await get(`/stream/${type}/${streamId}.json`);
-      const playable = (st.streams || []).filter((x) => x.ytId || x.url);
-      const fallbacks = (st.streams || []).filter((x) => x.externalUrl && /Fallback/.test(x.title || ''));
-      const external = (st.streams || []).filter((x) => x.externalUrl && !fallbacks.includes(x));
-      const firstFallback = (st.streams || []).findIndex((x) => fallbacks.includes(x));
-      check(playable.length > 0 && external.length === 0 && (firstFallback === -1 || firstFallback >= playable.length),
-        `${type} ${streamId}: ${playable.length} in-app streams, ${fallbacks.length} YouTube-app fallback(s) listed last, ${external.length} other external`);
+      const APP_PAGE = /^https:\/\/(www\.youtube\.com\/watch\?v=|tubitv\.com\/(movies|series)\/\d|watch\.plex\.tv\/(movie|show)\/|www\.netflix\.com\/title\/)/;
+      const all = st.streams || [];
+      const inApp = all.filter((x) => x.ytId || x.url);
+      const appPages = all.filter((x) => x.externalUrl && APP_PAGE.test(x.externalUrl));
+      const bad = all.filter((x) => x.externalUrl && !APP_PAGE.test(x.externalUrl));
+      check(all.length > 0 && bad.length === 0,
+        `${type} ${streamId}: ${all.length} streams (${inApp.length} in Nuvio, ${appPages.length} open the film in the provider's app), ${bad.length} open a search or other page`);
     }
     const cfg = Buffer.from(JSON.stringify({ langs: ['yo'], rows: ['new'] })).toString('base64url');
     const { body: cm } = await get(`/${cfg}/manifest.json`);

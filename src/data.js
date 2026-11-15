@@ -33,9 +33,9 @@ function readJson(file, fallback) {
 const FREE_ACCESS = new Set(['free', 'ads']);
 const { credentialsFor } = require('./resolvers/dailymotion');
 
-// In-app only: Select Naija shows a stream only if it plays inside Nuvio's own player. Links that open a
-// browser or another app are kept in the data (and still checked) but never shown, and titles with no
-// in-app stream leave the rows. SELECT_NAIJA_IN_APP_ONLY=0 shows external links again.
+// Links that open a provider's own app (YouTube, Tubi, Plex, Prime Video free with ads…) are shown: that is how
+// those providers allow their films to be watched from another app. Whether a viewer sees them is a setting in
+// their install link (config.js). SELECT_NAIJA_IN_APP_ONLY=1 drops them on the server altogether.
 
 /** Total minutes of a channel title (all parts), or null for titles without parts. */
 function totalMinutes(t) {
@@ -71,7 +71,7 @@ function loadData(
   {
     now = Date.now(),
     freeOnly = process.env.SELECT_NAIJA_FREE_ONLY !== '0',
-    inAppOnly = process.env.SELECT_NAIJA_IN_APP_ONLY !== '0',
+    inAppOnly = process.env.SELECT_NAIJA_IN_APP_ONLY === '1',
     env = process.env,
   } = {},
 ) {
@@ -96,6 +96,7 @@ function loadData(
 
   // Titles found automatically (scripts/discover.js). Hand-curated entries always win.
   const discovered = readJson(path.join(dataDir, 'discovered.json'), { entries: [] });
+  const appLinks = readJson(path.join(dataDir, 'app-links.json'), {});
   const extraLinks = [];
   const discoveredStatus = {};
   for (const entry of discovered.entries || []) {
@@ -112,14 +113,11 @@ function loadData(
       const slug = p.id === 'other' ? `other-${offer.tmdbProviderId}` : p.id;
       const id = `jw:${slug}:${t.id}`;
       if (discoveredStatus[id]) continue; // e.g. "Prime Video" and "Prime Video with Ads": one link, cheapest offer first
-      const serviceId = entry.serviceIds?.[p.id];
-      const url =
-        serviceId && p.titleUrl
-          ? p.titleUrl.replace('{id}', encodeURIComponent(serviceId))
-          : p.openUrl
-            ? p.openUrl.replace('{q}', encodeURIComponent(t.name))
-            : entry.watchLink;
-      if (!url) continue;
+      const serviceId = entry.serviceIds?.[p.id] || appLinks[p.id]?.[t.id];
+      // Only a link to the film's own page opens it in the provider's app on a TV; a search or TMDB's page
+      // would open a browser, so those links are not shown (Tubi films are linked via data/tubi.json instead).
+      if (!serviceId || !p.titleUrl) continue;
+      const url = p.titleUrl.replace('{id}', serviceId.includes('/') ? serviceId : encodeURIComponent(serviceId));
       extraLinks.push({
         id,
         titleId: t.id,
@@ -355,6 +353,9 @@ function loadData(
   for (const link of allLinks) {
     // YouTube links count as in-app candidates: the app plays them itself (confirmed per device by testing).
     if (inAppOnly && link.kind !== 'direct' && link.kind !== 'youtube') continue;
+    // Providers without a TV app that opens the film (providers.json "tvApp": false, e.g. Dailymotion) would
+    // open a browser, so their external links are not shown.
+    if (link.kind === 'external' && providerById.get(link.provider)?.tvApp === false) continue;
     if (!providerById.has(link.provider)) throw new Error(`Link ${link.id} uses unknown provider ${link.provider}`);
     const key = link.season != null ? `${link.titleId}:${link.season}:${link.episode}` : link.titleId;
     if (!linksByStreamId.has(key)) linksByStreamId.set(key, []);

@@ -34,7 +34,7 @@ jobs:
         env:
           UK_EDGE_URL: https://select-naija-uk-edge.vercel.app
           UK_EDGE_TOKEN: ${{ secrets.UK_EDGE_TOKEN }}
-        run: node scripts/discover-tubi.js
+        run: node scripts/discover-tubi.js && node scripts/resolve-app-links.js
       - name: Read approved video channels
         run: node scripts/discover-dailymotion.js
       - name: Read approved YouTube channels

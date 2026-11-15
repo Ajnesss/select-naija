@@ -11,6 +11,8 @@ const path = require('path');
 
 const OUT = path.join(__dirname, '..', 'data', 'tubi.json');
 const COLLECTIONS = ['nollywood_naija_tales'];
+// Other Tubi collections whose id or title looks Nigerian/African are read too (found on the collection page).
+const RELATED = /nolly|naija|nigeria|african|afro|lagos/i;
 const LANG = { english: 'en', yoruba: 'yo', igbo: 'ig', hausa: 'ha', pidgin: 'pcm' };
 
 function pageData(html) {
@@ -51,6 +53,28 @@ function entriesFrom(data, collection) {
   return out;
 }
 
+/** Collection ids mentioned in Tubi's page data that look Nigerian or African. */
+function relatedCollections(data) {
+  const byId = data?.container?.containerIdMap || data?.container?.containerChildrenIdMap || {};
+  const ids = new Set(Object.keys(data?.container?.containerChildrenIdMap || {}));
+  for (const [id, c] of Object.entries(byId)) if (c && typeof c === 'object' && RELATED.test(`${id} ${c.title || ''}`)) ids.add(id);
+  return [...ids].filter((id) => RELATED.test(id) || RELATED.test(byId[id]?.title || ''));
+}
+
+/** Search results in Tubi's page data → entries (same shape as a collection). */
+function searchEntries(data) {
+  const byId = data?.video?.byId || {};
+  const ids = data?.search?.hash ? Object.values(data.search.hash).flatMap((h) => h?.videos || h || []) : Object.keys(byId);
+  const fake = { container: { containerChildrenIdMap: { search: [...new Set(ids.map(String))] } }, video: { byId } };
+  return entriesFrom(fake, 'search');
+}
+
+async function edgeGet(base, token, url) {
+  const res = await fetch(`${base}/api/fetch?url=${encodeURIComponent(url)}`, { headers: { 'x-select-naija-token': token }, signal: AbortSignal.timeout(30000) });
+  if (res.status !== 200 || res.headers.get('x-upstream-status') !== '200') throw new Error(`HTTP ${res.status}/${res.headers.get('x-upstream-status')}`);
+  return pageData(await res.text());
+}
+
 async function main() {
   const base = process.env.UK_EDGE_URL;
   const token = process.env.UK_EDGE_TOKEN;
@@ -66,24 +90,52 @@ async function main() {
   }
   const now = new Date().toISOString();
   const byId = new Map((previous.titles || []).map((t) => [t.tubiId, t]));
-  for (const collection of COLLECTIONS) {
+  const queue = [...COLLECTIONS];
+  const done = new Set();
+  while (queue.length && done.size < 12) {
+    const collection = queue.shift();
+    if (done.has(collection)) continue;
+    done.add(collection);
     try {
-      const url = `https://tubitv.com/category/${collection}`;
-      const res = await fetch(`${base}/api/fetch?url=${encodeURIComponent(url)}`, {
-        headers: { 'x-select-naija-token': token },
-        signal: AbortSignal.timeout(30000),
-      });
-      if (res.status !== 200 || res.headers.get('x-upstream-status') !== '200') throw new Error(`HTTP ${res.status}/${res.headers.get('x-upstream-status')}`);
-      const entries = entriesFrom(pageData(await res.text()), collection);
+      const data = await edgeGet(base, token, `https://tubitv.com/category/${collection}`);
+      for (const c of relatedCollections(data)) if (!done.has(c)) queue.push(c);
+      const entries = entriesFrom(data, collection);
       for (const e of entries) byId.set(e.tubiId, { ...byId.get(e.tubiId), ...e, firstSeen: byId.get(e.tubiId)?.firstSeen || now, lastListed: now });
       console.log(`Tubi UK ${collection}: ${entries.length} titles listed today, ${byId.size} known in total`);
     } catch (err) {
       console.error(`Tubi UK ${collection}: ${err.message}; previous list kept`);
     }
   }
+  // Films the UK catalogue data (JustWatch via TMDB) lists on Tubi: find each on Tubi's own search page so the
+  // stream opens that film in the Tubi app, not a search.
+  const { normalize } = require('../src/text');
+  let wanted = [];
+  try {
+    wanted = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'discovered.json'), 'utf8')).entries
+      .filter((e) => (e.offers || []).some((o) => /tubi/i.test(o.providerName || '')));
+  } catch { /* none */ }
+  const known = new Set([...byId.values()].map((t) => `${normalize(t.name)}|${t.year || ''}`));
+  let found = 0;
+  for (const e of wanted) {
+    const key = `${normalize(e.title.name)}|${e.title.year || ''}`;
+    if (known.has(key)) continue;
+    try {
+      const data = await edgeGet(base, token, `https://tubitv.com/search/${encodeURIComponent(e.title.name)}`);
+      const results = searchEntries(data);
+      if (!results.length && !found) console.log('Tubi search page data keys:', Object.keys(data || {}).join(','), '| search:', JSON.stringify(data?.search || {}).slice(0, 300));
+      const hit = results.find((x) => normalize(x.name) === normalize(e.title.name) && (!x.year || !e.title.year || Math.abs(x.year - e.title.year) <= 1));
+      if (hit) {
+        byId.set(hit.tubiId, { ...byId.get(hit.tubiId), ...hit, collection: 'search', firstSeen: byId.get(hit.tubiId)?.firstSeen || now, lastListed: now });
+        found += 1;
+      }
+    } catch (err) {
+      console.error(`Tubi search "${e.title.name}": ${err.message}`);
+    }
+  }
+  console.log(`Tubi UK: ${done.size} collections read; ${found} of ${wanted.length} catalogue films matched on Tubi search; ${byId.size} titles known`);
   fs.writeFileSync(OUT, `${JSON.stringify({ generatedAt: now, titles: [...byId.values()] }, null, 1)}\n`);
 }
 
 if (require.main === module) main();
 
-module.exports = { entriesFrom, pageData };
+module.exports = { entriesFrom, pageData, relatedCollections, searchEntries };

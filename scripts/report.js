@@ -89,7 +89,8 @@ function main() {
     playable += 1;
     const providers = new Set(shown.map((l) => data.providerById.get(l.provider)?.name || l.provider));
     if (providers.size === 1 && providers.has('YouTube')) youtubeOnly += 1;
-    const independent = new Set(shown.filter((l) => l.kind === 'direct').map((l) => data.providerById.get(l.provider)?.name || l.provider));
+    // Independent = any shown source that is not YouTube: in-app files, or a free service's own film page.
+    const independent = new Set(shown.filter((l) => l.provider !== 'youtube' && l.provider !== 'selftest').map((l) => data.providerById.get(l.provider)?.name || l.provider));
     if (independent.size) nonYoutube += 1;
     for (const p of independent) nonYoutubeBySource[p] = (nonYoutubeBySource[p] || 0) + 1;
     for (const p of providers) bySource[p] = (bySource[p] || 0) + 1;
@@ -143,7 +144,7 @@ function main() {
     ``,
     `${report.playable} playable titles; ${report.youtubeOnly} (${report.youtubeShare ?? 0}%) rely on YouTube alone.`,
     ``,
-    `**Unique non-YouTube playable titles: ${report.nonYoutube}** (titles with at least one in-app stream from an independent provider; external links, live channels, trailers and YouTube duplicates are not counted).`,
+    `**Unique non-YouTube playable titles: ${report.nonYoutube}** (titles with a working source other than YouTube: a file that plays in Nuvio, or the film's own page in a free UK service's app; searches, live channels, trailers and YouTube duplicates are not counted).`,
     ``,
     ...(Object.keys(report.nonYoutubeBySource).length
       ? [`| Independent provider | Playable titles |`, `| --- | --- |`, ...Object.entries(report.nonYoutubeBySource).sort((a, b) => b[1] - a[1]).map(([k, v]) => `| ${k} | ${v} |`), ``]

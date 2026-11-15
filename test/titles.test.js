@@ -52,7 +52,7 @@ test('descriptions keep the story, drop credits and calls to subscribe', () => {
 
 test('install-URL settings round-trip and filter by language', () => {
   const cfg = decodeConfig(encodeConfig({ langs: ['yo', 'ha'], rows: ['new'] }));
-  assert.deepStrictEqual(cfg, { langs: ['yo', 'ha'], rows: ['new'], yt: 'nuvio' });
+  assert.deepStrictEqual(cfg, { langs: ['yo', 'ha'], rows: ['new'], yt: 'app', apps: true });
   assert.strictEqual(decodeConfig('manifest'), null);
   assert.ok(wantsTitle({ languages: ['yo'] }, cfg));
   assert.ok(!wantsTitle({ languages: ['ig'] }, cfg));
