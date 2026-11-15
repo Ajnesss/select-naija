@@ -1,0 +1,28 @@
+[
+ {
+  "url": "https://filmjoint.com/",
+  "xhr": [],
+  "media": [],
+  "scripts": [],
+  "status": 200,
+  "finalUrl": "https://forsale.godaddy.com/forsale/filmjoint.com?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&",
+  "title": "Access Denied",
+  "text": "Access Denied You don't have permission to access \"http://forsale.godaddy.com/forsale/filmjoint.com?\" on this server. Reference #18.6f743617.1794774330.582ce8e2 https://errors.edgesuite.net/18.6f743617.1794774330.582ce8e2",
+  "html": "<html><head>\n<title>Access Denied</title>\n</head><body>\n<h1>Access Denied</h1>\n \nYou don't have permission to access \"http://forsale.godaddy.com/forsale/filmjoint.com?\" on this server.<p>\nReference #18.6f743617.1794774330.582ce8e2\n</p><p>https://errors.edgesuite.net/18.6f743617.1794774330.582ce8e2</p>\n\n\n</body></html>",
+  "links": [],
+  "iframes": []
+ },
+ {
+  "url": "https://www.filmjoint.ng/",
+  "xhr": [],
+  "media": [],
+  "scripts": [],
+  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.filmjoint.ng/",
+  "finalUrl": "https://forsale.godaddy.com/forsale/filmjoint.com?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&",
+  "title": "",
+  "text": "",
+  "html": "<html><head></head><body></body></html>",
+  "links": [],
+  "iframes": []
+ }
+]
