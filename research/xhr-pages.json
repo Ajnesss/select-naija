@@ -1,6 +1,5 @@
 {
- "terms-kava": ["https://kava.tv/terms", "https://kava.tv/terms-of-use", "https://watch.kava.tv/terms"],
- "terms-circuits": ["https://circuits.tv/terms", "https://circuits.tv/terms-of-service", "https://circuits.tv/terms-and-conditions"],
- "terms-ebonylife": ["https://www.ebonylifeonplus.com/terms", "https://www.ebonylifeonplus.com/terms-of-use"],
- "terms-docuth": ["https://docuth.com/terms", "https://web.docuth.com/terms"]
+ "mytelevision": ["https://mytelevision.tv/en/movies", "https://mytelevision.tv/en/terms", "https://mytelevision.tv/en/content-providers"],
+ "abiplay": ["https://www.abiplay.com/", "https://www.abiplay.com/terms", "https://www.abiplay.com/browse"],
+ "tazama": ["https://tazamaafrica.net/browse", "https://tazamaafrica.net/terms", "https://tazamaafrica.net/"]
 }
