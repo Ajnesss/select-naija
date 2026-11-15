@@ -26,6 +26,15 @@ async function main() {
     const res = await fetch(`${base}/api/fetch?url=${encodeURIComponent(url)}`, { headers: { 'x-select-naija-token': token }, signal: AbortSignal.timeout(30000) }).catch(() => null);
     return res && res.status === 200 && res.headers.get('x-upstream-status') === '200' ? res.text() : null;
   };
+  // Re-check last night's film pages: a page that is gone (or no longer the film) is dropped and looked up again.
+  // A fetch that fails (network, check point) proves nothing: the link is kept and checked again tomorrow.
+  const stillThere = async (url, name) => {
+    const html = await page(url);
+    return html == null ? null : normalize(html.match(/<title>([^<]*)<\/title>/i)?.[1] || '').includes(normalize(name));
+  };
+  const names = new Map(entries.map((e) => [e.title.id, e.title.name]));
+  for (const [id, slug] of Object.entries(plex)) if (!names.has(id) || (await stillThere(`https://watch.plex.tv/${slug}`, names.get(id))) === false) delete plex[id];
+  for (const [id, pid] of Object.entries(primevideo)) if (!names.has(id) || (await stillThere(`https://www.primevideo.com/detail/${pid}`, names.get(id))) === false) delete primevideo[id];
   for (const e of entries) {
     if (!(e.offers || []).some((o) => /prime video free with ads|mx player/i.test(o.providerName || ''))) continue;
     const t = e.title;

@@ -138,7 +138,9 @@ async function main() {
     console.error(`Tubi sitemap: ${err.message}`);
   }
   for (const e of wanted) {
-    const hitSlug = bySlug.get(slugify(e.title.name));
+    const base = slugify(e.title.name);
+    const hitSlug = [base, base.replace(/^the-/, ''), `${base}-${e.title.year}`, base.replace(/-and-/g, '-'), base.replace(/-a-/g, '-')]
+      .map((k) => bySlug.get(k)).find(Boolean);
     if (hitSlug && !known.has(`${normalize(e.title.name)}|${e.title.year || ''}`)) {
       const t = e.title;
       byId.set(hitSlug.id, { ...byId.get(hitSlug.id), tubiId: hitSlug.id, type: hitSlug.kind === 'series' ? 'series' : 'movie', name: t.name, year: t.year, languages: t.languages, genres: t.genres || [], runtime: t.runtime, description: t.description, poster: t.poster, background: t.background, collection: 'sitemap', firstSeen: byId.get(hitSlug.id)?.firstSeen || now, lastListed: now });
