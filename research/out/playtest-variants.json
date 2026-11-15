@@ -1,0 +1,487 @@
+{
+ "localhost-headless": {
+  "tally": {
+   "error 150": 15
+  },
+  "rows": [
+   {
+    "id": "--7CHobmZcU",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "33_m6vvw_fs",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "7NrYF3PRq6w",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "BeoRkJ7D3Es",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "Fv0NuxXMaM8",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "K4PRCwPSGAo",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "OQQaDqLCgKg",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "SdPVeSbQS3I",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "WsepqbYB-YI",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "a6EjaNS3Mf8",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "e8OwlzJ39Js",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "if_c0qiEsSY",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "mwj2fOMyIB8",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "r3a5K_LceRw",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "vQNmQmPLm9k",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   }
+  ]
+ },
+ "server-headless": {
+  "tally": {
+   "error 150": 15
+  },
+  "rows": [
+   {
+    "id": "--7CHobmZcU",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "33_m6vvw_fs",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "7NrYF3PRq6w",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "BeoRkJ7D3Es",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "Fv0NuxXMaM8",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "K4PRCwPSGAo",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "OQQaDqLCgKg",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "SdPVeSbQS3I",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "WsepqbYB-YI",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "a6EjaNS3Mf8",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "e8OwlzJ39Js",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "if_c0qiEsSY",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "mwj2fOMyIB8",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "r3a5K_LceRw",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "vQNmQmPLm9k",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   }
+  ]
+ },
+ "server-headed": {
+  "tally": {
+   "error 150": 15
+  },
+  "rows": [
+   {
+    "id": "--7CHobmZcU",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "33_m6vvw_fs",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "7NrYF3PRq6w",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "BeoRkJ7D3Es",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "Fv0NuxXMaM8",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "K4PRCwPSGAo",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "OQQaDqLCgKg",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "SdPVeSbQS3I",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "WsepqbYB-YI",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "a6EjaNS3Mf8",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "e8OwlzJ39Js",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "if_c0qiEsSY",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "mwj2fOMyIB8",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "r3a5K_LceRw",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "vQNmQmPLm9k",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   }
+  ]
+ },
+ "server-headed-nocookie": {
+  "tally": {
+   "error 150": 15
+  },
+  "rows": [
+   {
+    "id": "--7CHobmZcU",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "33_m6vvw_fs",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "7NrYF3PRq6w",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "BeoRkJ7D3Es",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "Fv0NuxXMaM8",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "K4PRCwPSGAo",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "OQQaDqLCgKg",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "SdPVeSbQS3I",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "WsepqbYB-YI",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "a6EjaNS3Mf8",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "e8OwlzJ39Js",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "if_c0qiEsSY",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "mwj2fOMyIB8",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "r3a5K_LceRw",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "vQNmQmPLm9k",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   }
+  ]
+ },
+ "localhost-headed": {
+  "tally": {
+   "error 150": 15
+  },
+  "rows": [
+   {
+    "id": "--7CHobmZcU",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "33_m6vvw_fs",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "7NrYF3PRq6w",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "BeoRkJ7D3Es",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "Fv0NuxXMaM8",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "K4PRCwPSGAo",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "OQQaDqLCgKg",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "SdPVeSbQS3I",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "WsepqbYB-YI",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "a6EjaNS3Mf8",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "e8OwlzJ39Js",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "if_c0qiEsSY",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "mwj2fOMyIB8",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "r3a5K_LceRw",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   },
+   {
+    "id": "vQNmQmPLm9k",
+    "result": "error",
+    "code": 150,
+    "shown": "Sign in to confirm that you're not a bot This helps protect our community Sign in Learn more"
+   }
+  ]
+ }
+}
