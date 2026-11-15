@@ -1,4 +1,6 @@
 {
- "edimulo": ["https://edimulo.com", "https://www.edimulo.com", "https://edimulo.tv", "https://beauld.com/edimulo.html", "https://beauld.com/about.html"],
- "nollistreamcom": ["https://nollistream.com/", "https://nollistream.com/faq", "https://nollistream.com/terms", "https://app.nollistream.com", "https://watch.nollistream.com"]
+ "terms-kava": ["https://kava.tv/terms", "https://kava.tv/terms-of-use", "https://watch.kava.tv/terms"],
+ "terms-circuits": ["https://circuits.tv/terms", "https://circuits.tv/terms-of-service", "https://circuits.tv/terms-and-conditions"],
+ "terms-ebonylife": ["https://www.ebonylifeonplus.com/terms", "https://www.ebonylifeonplus.com/terms-of-use"],
+ "terms-docuth": ["https://docuth.com/terms", "https://web.docuth.com/terms"]
 }
