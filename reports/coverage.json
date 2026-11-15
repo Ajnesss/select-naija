@@ -1,13 +1,20 @@
 {
- "playable": 12418,
- "youtubeOnly": 12418,
- "youtubeShare": 100,
- "nonYoutube": 0,
- "nonYoutubeBySource": {},
+ "playable": 12499,
+ "youtubeOnly": 12414,
+ "youtubeShare": 99.3,
+ "nonYoutube": 85,
+ "nonYoutubeBySource": {
+  "Plex": 12,
+  "Tubi": 75
+ },
  "bySource": {
+  "Plex": 12,
+  "Tubi": 75,
   "YouTube": 12418
  },
  "byChannel": {
+  "Plex: -": 12,
+  "Tubi: -": 75,
   "YouTube: BTAtv": 1404,
   "YouTube: Uche Nancy tv": 666,
   "YouTube: ROCKCELLY NOLLYWOOD FILMS TV": 835,
@@ -59,13 +66,13 @@
   "YouTube: SceneOne TV": 1,
   "YouTube: EL'S NOLLY TV ": 24
  },
- "generatedAt": "2026-11-15T00:43:08.750Z",
- "statusGeneratedAt": "2026-11-15T00:43:08.691Z",
+ "generatedAt": "2026-11-15T10:00:39.416Z",
+ "statusGeneratedAt": "2026-11-15T10:00:39.365Z",
  "groups": {
   "classics": {
    "total": 1,
-   "covered": 0,
-   "coverage": 0
+   "covered": 1,
+   "coverage": 100
   },
   "recent": {
    "total": 1,
@@ -75,28 +82,28 @@
  },
  "languages": {
   "en": {
-   "catalogued": 12667,
-   "covered": 11157,
-   "withoutTmdb": 12469,
-   "coverage": 88.1
+   "catalogued": 12669,
+   "covered": 11234,
+   "withoutTmdb": 12471,
+   "coverage": 88.7
   },
   "yo": {
    "catalogued": 845,
-   "covered": 727,
+   "covered": 736,
    "withoutTmdb": 798,
-   "coverage": 86
+   "coverage": 87.1
   },
   "ig": {
    "catalogued": 1351,
-   "covered": 1329,
+   "covered": 1331,
    "withoutTmdb": 1335,
-   "coverage": 98.4
+   "coverage": 98.5
   },
   "ha": {
    "catalogued": 507,
-   "covered": 501,
+   "covered": 502,
    "withoutTmdb": 501,
-   "coverage": 98.8
+   "coverage": 99
   },
   "fr": {
    "catalogued": 1,
@@ -125,23 +132,17 @@
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 25
+   "checks30d": 26
   },
   "youtube": {
    "score": 100,
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 10
+   "checks30d": 11
   }
  },
  "gaps": [
-  {
-   "id": "tt1288595",
-   "group": "classics",
-   "note": "documentary, Plex",
-   "name": "Nollywood Babylon"
-  },
   {
    "id": "tt8355352",
    "group": "recent",
