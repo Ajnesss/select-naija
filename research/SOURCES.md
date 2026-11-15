@@ -190,3 +190,20 @@ October 1 → no UK provider. No title has a provider whose playback can legitim
 | MyTelevision | Sitemap: 50 marketing pages only, no title pages. Browse: "Live TV — more than 40 live channels, from France and beyond", "Movies — films in French and English". No Nigerian title visible anywhere public | Free with an email account; browser, iPhone, Android; terms: personal use on the service, no circumvention, no redistribution | Not a viable candidate: no evidence of a Nigerian catalogue; French-focused |
 | AbiPlay | No sitemap (404); every catalogue page redirects to login | "Free, ad-supported streaming… supported by in-page and direct video ads"; Google/Apple/email login | Not viable: the service is paid for by video adverts in its player; serving its streams in Nuvio would drop them |
 | EnfiTV (new lead) | Catalogue incl. The Secret Life of a Troll, 12 Hours, Alaise, Erimorara, The Last Call | Subscription ₦5,000/month after a 3-day trial; creators paid per view | Not viable: paid subscription |
+
+## Round 11 (15 Nov 2026): AbiPlay re-check; broadcasters, FAST/AVOD, producer sites, non-profits
+
+Method: headless page loads with a keyword scan of every script each page loads (ad SDKs, server-side
+ad insertion, players, DRM, hosting, embed routes, partner APIs), plus each site's public data calls.
+
+| Lead | Nigerian content | Complete films free? | Delivery / ads | Third-party playback | Verdict |
+| --- | --- | --- | --- | --- | --- |
+| AbiPlay | Unknown (sign-in wall) | Free account | Plyr/react-player (Wistia support); only ad code is Google AdSense page ads; no IMA/VAST, no server-side ad insertion, no embed or partner API (only Firebase auth calls); terms/privacy URLs 404 | Ads sit on its own pages, so any outside playback removes them | **Ruled out** |
+| AfroLandTV (OTTera) | Yes: e.g. Gwoza (Nigeria 2025, Meg Otanwa, Ini Dima-Okojie), Asiri Ilu Awon Osu 1–2, Sword of God; public catalogue API (api-ott.afrolandtv.com, ~1,150 related objects) | Films: "You must be logged in to watch this" (free account); some rentals | Films: client-side Google IMA ads. Live channels (incl. /linear/nollywood): server-side stitched ads via stream.ads.ottera.tv (`delivery_type=fast`) | Films: outside playback drops the IMA ads. Live Nollywood channel: ads would survive, but the stream URL is a FAST distribution endpoint (app bundle/device macros) for contracted platforms; terms say unauthorised use may give rise to a claim | **Films: no. Live channel: only with AfroLandTV's agreement** (live, not per-title) |
+| Ewaen Studios (producer site) | Yes, own films (Shackles of Fate, Atonement in Blue, Omoatama, Integrity) | "Subscribe to Watch"; free plan 480p after sign-up; paid 1080p/4K | Plyr + IMA VAST (aniview) | Terms: personal, non-commercial use of the Service; "duplication and copy strictly prohibited" | No (account; ad-funded player) |
+| FaithStream (House of Faith, non-profit) | Nigerian-led; catalogue empty for a US visitor ("TOP 10 in Unknown") | Free with email account, **no ads**, donation-funded | Next.js app, gateway.thefaithstream.com API (401 without token), CloudFront images | No published terms page (404); account required | Possible candidate: needs a look inside with an account, then the operator's permission |
+| Wanzami TV | Own originals (Quicksand, Ruin, Traffick) | Pay-per-view | CloudFront | — | No (paid) |
+| NTA (nta.ng), TVC Entertainment, Lagos TV | Live channels | No on-demand film/drama archive | Signed 10-minute HLS (NTA), plain HLS (TVC, LTV); site videos are YouTube embeds | Live only | Not film sources |
+| Pluto TV, Samsung TV Plus, Rakuten TV, DistroTV | Nolly Africa HD / Demand Africa FAST channels | Live channels, some VOD | Own apps | Pluto ToS s.5.2(a) bars access via other tools; same model elsewhere | No |
+| Filmjoint | Shorts | — | Domain for sale | — | Defunct |
+| Ebrohimie Road (Olongo Africa) | Yes | 7-day free window ended; now Vimeo On Demand | Vimeo OTT | — | No (rental) |
