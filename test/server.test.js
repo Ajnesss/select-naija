@@ -35,7 +35,11 @@ test('manifest declares catalogue, own-ID metadata and streams for tt and snaija
 });
 
 test('catalogue, meta and stream routes work end to end, including encoded custom IDs', async () => {
-  await withServer(async (base) => {
+  await withServer(async (server) => {
+    // By default only streams that play inside Nuvio are listed; these test titles only have external links.
+    assert.deepEqual((await (await fetch(`${server}/catalog/movie/snaija-yoruba/genre=2020s.json`)).json()).metas, []);
+    assert.deepEqual((await (await fetch(`${server}/stream/series/${encodeURIComponent('snaija-dadin-kowa-2015:1:1')}.json`)).json()).streams, []);
+    const base = `${server}/${Buffer.from(JSON.stringify({ langs: ['en', 'yo', 'ig', 'ha', 'other'], rows: ['new', 'series', 'classics'], yt: 'nuvio', apps: true })).toString('base64url')}`;
     const cat = await (await fetch(`${base}/catalog/movie/snaija-yoruba/genre=2020s.json`)).json();
     assert.deepEqual(cat.metas.map((m) => m.id), ['snaija-iyalode-2025']);
     const meta = await (await fetch(`${base}/meta/movie/snaija-iyalode-2025.json`)).json();
@@ -45,7 +49,7 @@ test('catalogue, meta and stream routes work end to end, including encoded custo
     assert.equal(st.streams[0].externalUrl, 'https://arewa.example/dk');
     const unknown = await (await fetch(`${base}/stream/movie/tt7654321.json`)).json();
     assert.deepEqual(unknown.streams, []);
-    const health = await (await fetch(`${base}/health`)).json();
+    const health = await (await fetch(`${server}/health`)).json();
     assert.equal(health.ok, true);
   });
 });

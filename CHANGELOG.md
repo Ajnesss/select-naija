@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.8.0 (15 Nov 2026)
+
+- Everything plays inside Nuvio by default: YouTube films play in Nuvio's own player again (the viewer's choice; Nuvio's built-in YouTube support is not allowed by YouTube's terms, which the settings page says). Tubi, Plex and Prime Video links (they open other apps) and the "Open in the YouTube app" fallback are off by default; both remain optional in the settings.
+- Link test title removed.
+
 ## 0.7.0 (15 Nov 2026)
 
 - YouTube playback follows YouTube's terms by default: YouTube films open in the YouTube app (YouTube's own player and adverts). Nuvio has no YouTube player: its sideloaded builds fetch the video file themselves and its store builds open YouTube, so that is the compliant route. Nuvio's in-app playback remains an opt-in setting, labelled as not allowed by YouTube's terms.

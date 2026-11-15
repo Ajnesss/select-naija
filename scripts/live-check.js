@@ -30,10 +30,6 @@ const check = (ok, msg) => { console.log(`${ok ? 'ok  ' : 'FAIL'} ${msg}`); if (
     }
     const { body: s } = await get(`/catalog/movie/snaija-search/search=${encodeURIComponent('love')}.json`);
     check((s.metas || []).length > 0, `search "love": ${(s.metas || []).length} films`);
-    const { body: lt } = await get(`/catalog/movie/snaija-search/search=${encodeURIComponent('link test')}.json`);
-    const ltId = (lt.metas || []).find((x) => x.id === 'snaija-linktest-apps');
-    const { body: lts } = ltId ? await get('/stream/movie/snaija-linktest-apps.json') : { body: {} };
-    check(Boolean(ltId) && (lts.streams || []).length === 14, `search "link test" finds the link test title (${(lts.streams || []).length} streams)`);
     for (const [type, item] of [['movie', film], ['series', show]]) {
       if (!item) { check(false, `no ${type} to test`); continue; }
       const { body: meta } = await get(`/meta/${type}/${item.id}.json`);
@@ -45,7 +41,7 @@ const check = (ok, msg) => { console.log(`${ok ? 'ok  ' : 'FAIL'} ${msg}`); if (
       const inApp = all.filter((x) => x.ytId || x.url);
       const appPages = all.filter((x) => x.externalUrl && APP_PAGE.test(x.externalUrl));
       const bad = all.filter((x) => x.externalUrl && !APP_PAGE.test(x.externalUrl));
-      check(all.length > 0 && bad.length === 0,
+      check(all.length > 0 && bad.length === 0 && appPages.length === 0,
         `${type} ${streamId}: ${all.length} streams (${inApp.length} in Nuvio, ${appPages.length} open the film in the provider's app), ${bad.length} open a search or other page`);
     }
     const cfg = Buffer.from(JSON.stringify({ langs: ['yo'], rows: ['new'] })).toString('base64url');

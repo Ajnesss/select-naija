@@ -100,29 +100,7 @@ function formatLink(link, record, state, data, title, now) {
  * Order: in-app streams, then verified links by provider score, then stale links, then TMDB/JustWatch offers
  * for providers not already listed. Unverified and failing links are never returned.
  */
-// Fire TV only hands a link to an app that has registered that link type; otherwise it opens Silk. This test
-// title lists candidate link types per provider so they can be tried on the device in one go.
-const LINK_TEST = [
-  ['YouTube A · web link', 'https://www.youtube.com/watch?v=1FfwOJzNxfQ'],
-  ['YouTube B · vnd.youtube', 'vnd.youtube:1FfwOJzNxfQ'],
-  ['YouTube C · youtube://', 'youtube://www.youtube.com/watch?v=1FfwOJzNxfQ'],
-  ['YouTube D · youtu.be', 'https://youtu.be/1FfwOJzNxfQ'],
-  ['YouTube E · YouTube TV page', 'https://www.youtube.com/tv#/watch?v=1FfwOJzNxfQ'],
-  ['Tubi A · web link (Gwoza)', 'https://tubitv.com/movies/100047943'],
-  ['Tubi B · tubitv:// details', 'tubitv://media-details?contentType=movie&contentId=100047943'],
-  ['Tubi C · tubitv:// play', 'tubitv://media-playback?contentType=movie&contentId=100047943'],
-  ['Tubi D · tubitv://movies', 'tubitv://movies/100047943'],
-  ['Plex A · web link (Rattlesnake)', 'https://watch.plex.tv/movie/rattlesnake-the-ahanna-story'],
-  ['Plex B · plex://', 'plex://watch.plex.tv/movie/rattlesnake-the-ahanna-story'],
-  ['Prime A · primevideo.com (Love Me a Little More)', 'https://www.primevideo.com/detail/0JWW660HIZ04NN4J7055QGMBPB'],
-  ['Prime B · amazon.co.uk video', 'https://www.amazon.co.uk/gp/video/detail/0JWW660HIZ04NN4J7055QGMBPB'],
-  ['Prime C · app.primevideo.com', 'https://app.primevideo.com/detail?gti=0JWW660HIZ04NN4J7055QGMBPB'],
-];
-
 async function buildStreams(type, requestedId, data, { tmdbApiKey, fetchImpl, now = Date.now(), env = process.env, youtube = 'nuvio', apps = true, fallback = false } = {}) {
-  if (requestedId === 'snaija-linktest-apps') {
-    return LINK_TEST.map(([label, externalUrl]) => ({ name: `Select Naija\nLink test ${label.split(' ')[0]} ${label.split(' ')[1]}`, title: `${label}\n${externalUrl}`, externalUrl }));
-  }
   // A title merged into another keeps working under its old ID (saved in someone's library or history).
   const [rid, ...rest] = String(requestedId).split(':');
   const streamId = data.alias?.has(rid) ? [data.alias.get(rid), ...rest].join(':') : requestedId;

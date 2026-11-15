@@ -4,6 +4,8 @@ const { LANGUAGES } = require('./data');
 const { normalize } = require('./text');
 const { linkState, isShown } = require('./states');
 const { DEFAULT, wantsTitle } = require('./config');
+// Library default (tests, scripts): every source. The server always passes the viewer's settings.
+const ALL = Object.freeze({ ...DEFAULT, apps: true });
 
 const PAGE_SIZE = 50;
 const CLASSIC_BEFORE = 2010;
@@ -65,7 +67,7 @@ function snapshot(data, now) {
 
 // A title appears in rows only when at least one of its links is currently shown.
 // With "other free sources" switched off, titles only on Tubi, Plex etc. are left out too.
-function isAvailable(title, data, now, cfg = DEFAULT) {
+function isAvailable(title, data, now, cfg = ALL) {
   const snap = snapshot(data, now);
   return (cfg.apps === false ? snap.availableYoutubeOnly : snap.available).has(title.id);
 }
@@ -162,7 +164,7 @@ function searchScore(title, query) {
  * Answers a catalogue request. extra = { genre, search, skip }.
  * Rows list only titles with a shown link; search finds every catalogued title that has one.
  */
-function queryCatalog(type, id, extra, data, now = Date.now(), cfg = DEFAULT) {
+function queryCatalog(type, id, extra, data, now = Date.now(), cfg = ALL) {
   const skip = Math.max(0, parseInt(extra.skip, 10) || 0);
 
   if (id === 'snaija-search') {
@@ -183,7 +185,7 @@ function queryCatalog(type, id, extra, data, now = Date.now(), cfg = DEFAULT) {
   const row = ROWS.find((r) => r.id === id && r.type === type);
   if (!row) return [];
   const snap = snapshot(data, now);
-  const langKey = cfg === DEFAULT ? '' : `${cfg.langs.join('.')}|${cfg.apps === false ? 'yt' : 'all'}`;
+  const langKey = `${cfg.langs.join('.')}|${cfg.apps === false ? 'yt' : 'all'}`;
   const key = `${row.id}|${extra.genre || ''}|${langKey}`;
   let list = snap.sorted.get(key);
   if (!list) {
