@@ -1,6 +1,6 @@
 # Select Naija coverage report
 
-Generated 2026-11-15T10:19:39.351Z. Links last verified 2026-11-15T10:19:39.306Z.
+Generated 2026-11-15T10:37:19.872Z. Links last verified 2026-11-15T10:37:19.819Z.
 A title counts as covered only if a verified Select Naija link is shown for it.
 
 ## Test catalogue by group
@@ -34,20 +34,20 @@ Last playback run: 30 tested in 0 min ({"error 150":30}) — not applied: YouTub
 
 ## Source breakdown (plays inside Nuvio)
 
-12520 playable titles; 12414 (99.2%) rely on YouTube alone.
+12520 playable titles; 12407 (99.1%) rely on YouTube alone.
 
-**Unique non-YouTube playable titles: 106** (titles with a working source other than YouTube: a file that plays in Nuvio, or the film's own page in a free UK service's app; searches, live channels, trailers and YouTube duplicates are not counted).
+**Unique non-YouTube playable titles: 113** (titles with a working source other than YouTube: a file that plays in Nuvio, or the film's own page in a free UK service's app; searches, live channels, trailers and YouTube duplicates are not counted).
 
 | Independent provider | Playable titles |
 | --- | --- |
-| Tubi | 91 |
+| Tubi | 98 |
 | Prime Video | 19 |
 | Plex | 12 |
 
 | Provider | Playable titles |
 | --- | --- |
 | YouTube | 12418 |
-| Tubi | 91 |
+| Tubi | 98 |
 | Prime Video | 19 |
 | Plex | 12 |
 
@@ -71,7 +71,7 @@ Last playback run: 30 tested in 0 min ({"error 150":30}) — not applied: YouTub
 | YouTube: nollynetwork | 112 |
 | YouTube: Omoni Oboli TV | 104 |
 | YouTube: Maurice Sam TV | 100 |
-| Tubi: - | 91 |
+| Tubi: - | 98 |
 | YouTube: AMCChannels | 75 |
 | YouTube: Uduak Isong TV | 73 |
 | YouTube: ChinneyLoveEze Tv | 65 |
@@ -113,8 +113,8 @@ Last playback run: 30 tested in 0 min ({"error 150":30}) — not applied: YouTub
 | --- | --- | --- | --- | --- | --- |
 | Tubi | 40 | 0% | 100% | 100% | 1 |
 | Plex | 100 | 100% | 100% | 100% | 1 |
-| Select Naija test file | 100 | 100% | 100% | 100% | 28 |
-| YouTube | 100 | 100% | 100% | 100% | 13 |
+| Select Naija test file | 100 | 100% | 100% | 100% | 29 |
+| YouTube | 100 | 100% | 100% | 100% | 14 |
 
 ## Gaps: test titles with no verified source
 
