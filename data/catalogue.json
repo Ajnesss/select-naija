@@ -87,6 +87,30 @@
     "id": "Select Naija",
     "video": "YouTube, Omoni Oboli TV (UCbvdwZvZgdl-pPyomEmaEfg)"
    }
+  },
+  {
+   "id": "snaija-linktest-apps",
+   "type": "movie",
+   "name": "Select Naija link test",
+   "aliases": [
+    "app link test",
+    "linktest"
+   ],
+   "year": 2026,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Test"
+   ],
+   "runtime": "1 min",
+   "description": "Test page: each stream opens the same film a different way. Pick each one on the Fire TV and note which open the right app (YouTube, Tubi, Plex, Prime Video) and which open the Silk browser.",
+   "poster": "https://i.ytimg.com/vi/1FfwOJzNxfQ/hqdefault.jpg",
+   "hidden": false,
+   "sources": {
+    "id": "Select Naija"
+   }
   }
  ]
 }

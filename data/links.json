@@ -33,6 +33,15 @@
    "ytId": "1FfwOJzNxfQ",
    "url": "https://www.youtube.com/watch?v=1FfwOJzNxfQ",
    "expectTitle": null
+  },
+  {
+   "id": "youtube:linktest-1FfwOJzNxfQ",
+   "titleId": "snaija-linktest-apps",
+   "provider": "youtube",
+   "kind": "youtube",
+   "ytId": "1FfwOJzNxfQ",
+   "url": "https://www.youtube.com/watch?v=1FfwOJzNxfQ",
+   "expectTitle": null
   }
  ]
 }
