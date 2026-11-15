@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.6.0 (15 Nov 2026)
+
+- Backup streams: other uploads of the same film part or episode on a channel, and a complete-film upload next to the parts, are kept as extra stream options (only when the length matches). Before, they were thrown away, and a complete upload was wrongly shown as "Part 1".
+- Fallback: every title with a YouTube stream also lists "Open in the YouTube app" after all in-app options.
+- Setting: YouTube films can play in Nuvio's player (default) or open in the YouTube app (YouTube's own player and adverts, as YouTube's terms require).
+- Playback test page served by the addon (/playtest). YouTube asks GitHub's servers to sign in ("confirm you're not a bot") for every video, so the nightly playback test runs as a 30-video canary and never marks streams broken on that basis.
+
 ## 0.5.0 (15 Nov 2026)
 
 - Real YouTube stream health instead of "it was in last night's listing": every video is checked nightly through the official Data API (deleted, private, still processing, blocked in the UK, embedding not allowed, age-restricted), with verified HD/SD and duration.
