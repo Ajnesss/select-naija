@@ -69,8 +69,8 @@
   "YouTube: SceneOne TV": 1,
   "YouTube: EL'S NOLLY TV ": 24
  },
- "generatedAt": "2026-11-15T10:10:18.408Z",
- "statusGeneratedAt": "2026-11-15T10:10:18.347Z",
+ "generatedAt": "2026-11-15T10:19:39.351Z",
+ "statusGeneratedAt": "2026-11-15T10:19:39.306Z",
  "groups": {
   "classics": {
    "total": 1,
@@ -135,14 +135,14 @@
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 27
+   "checks30d": 28
   },
   "youtube": {
    "score": 100,
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 12
+   "checks30d": 13
   }
  },
  "gaps": [
