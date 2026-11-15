@@ -114,7 +114,8 @@
         "Amazon MX Player",
         "Amazon Video"
       ],
-      "openUrl": "https://www.primevideo.com/search?phrase={q}"
+      "openUrl": "https://www.primevideo.com/search?phrase={q}",
+      "titleUrl": "https://www.primevideo.com/detail/{id}"
     },
     {
       "id": "filmzie",

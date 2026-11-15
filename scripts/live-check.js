@@ -36,7 +36,7 @@ const check = (ok, msg) => { console.log(`${ok ? 'ok  ' : 'FAIL'} ${msg}`); if (
       check(meta.meta?.name && meta.meta?.poster, `${type} page "${meta.meta?.name}"${meta.meta?.videos ? `, ${meta.meta.videos.length} episodes` : ''}`);
       const streamId = type === 'series' ? meta.meta?.videos?.[0]?.id : item.id;
       const { body: st } = await get(`/stream/${type}/${streamId}.json`);
-      const APP_PAGE = /^https:\/\/(www\.youtube\.com\/watch\?v=|tubitv\.com\/(movies|series)\/\d|watch\.plex\.tv\/(movie|show)\/|www\.netflix\.com\/title\/)/;
+      const APP_PAGE = /^https:\/\/(www\.youtube\.com\/watch\?v=|tubitv\.com\/(movies|series)\/\d|watch\.plex\.tv\/(movie|show)\/|www\.netflix\.com\/title\/|www\.primevideo\.com\/detail\/)/;
       const all = st.streams || [];
       const inApp = all.filter((x) => x.ytId || x.url);
       const appPages = all.filter((x) => x.externalUrl && APP_PAGE.test(x.externalUrl));
