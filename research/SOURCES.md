@@ -155,3 +155,22 @@ or feed found. Result: no free, permitted, directly playable source in this roun
 | Edimulo (edimulo.com, Beauld Communications) | Preview lists 60 films/series from 21 countries | Planned free-with-ads tier | n/a | Preview only | n/a | **Not operational.** Site banner: "edimulo has not launched yet — nothing here takes payment and accounts are not live", launching late 2026. Producer portal studio.edimulo.com. Re-check after launch | 0 |
 | NFC National Film, Video and Sound Archive (Jos) | Yes | No public access | — | None | Physical/celluloid; restorations (Shaihu Umar 1976, Kulba Na Barna) shown at festivals, DVDs to universities | **No online access**; rights held by NFC | 0 |
 | Internet Archive (5,000 items surveyed, title by title, via `scripts/archive-survey.js`) | Nollywood items exist (e.g. Day Break 1997, Heartbeat, Crisis in the Family) | Yes | Yes | Yes | Direct MP4 | **No for Nollywood items**: all are third-party uploads with no licence or rights statement. Only 13 items carry a CC/PD licence and none is a Nigerian film (TV livestream, news clips, an American ethnographic short, NGO video) | 0 |
+
+## Round 8 (15 Nov 2026): integration candidates and 20-title check
+
+| Provider | Web player / delivery (tested in a headless browser) | Login | Terms | Can it play inside Nuvio? |
+| --- | --- | --- | --- | --- |
+| Kava | Vimeo OTT (VHX): embed.vhx.tv → player.vimeo.com config → signed, expiring HLS on vod-adaptive-ak.vimeocdn.com; without a subscription only trailers play; reCAPTCHA Enterprise on the site | Paid subscription | "use any robot, spider, scraper or other automated means to access the Kava service" and circumventing "content protections" prohibited; personal use | No: paid, session-signed streams, terms forbid automated access |
+| Circuits | Univtec Insight player, `drmEnabled: true` (FairPlay/Widevine licence server), Google DAI ad insertion on FreeFlex | Log in; FreeFlex free with ads, rest pay-per-view | Same automated-access and circumvention prohibitions | No: DRM and server-inserted ads |
+| Tubi | Ad-supported HLS | None | Third-party playback prohibited (round 2) | No |
+| Docuth | Rental storefront ("buy") | Paid | — | No: paid |
+| Filmporte | Vimeo OTT (VHX), same as Kava | Account | — | No |
+| HomiTV | HLS on Linode storage | Subscription | Personal use on Homi platforms only | No: paid |
+| EbonyLife ON Plus | 403 from outside Nigeria; subscription | Paid | — | No |
+| NolliStream | Own apps, DRM | Account, ads | Automated access and DRM circumvention prohibited | No |
+
+20-title check (TMDB/JustWatch UK, scripts/title-first.js): King of Boys, Lionheart, Anikulapo, Jagun Jagun, The Black Book,
+Elesin Oba, Chief Daddy, Shanty Town, Blood Sisters, Far From Home → Netflix only. Battle on Buka Street, A Tribe Called Judah,
+Gangs of Lagos → Prime Video only. The Wedding Party → Prime Video free with ads, MX Player, Runtime. Living in Bondage:
+Breaking Free → Prime Video, Tubi. Merry Men → Tubi. Mami Wata → BFI Player rental. Brotherhood, Omo Ghetto: The Saga,
+October 1 → no UK provider. No title has a provider whose playback can legitimately run inside Nuvio.
