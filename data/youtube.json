@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-14T18:58:03.937Z",
+ "generatedAt": "2026-11-14T23:21:14.132Z",
  "channels": {
   "UCbvdwZvZgdl-pPyomEmaEfg": {
    "name": "Omoni Oboli TV",
    "subscribers": 2110000,
-   "videos": 1330,
+   "videos": 1332,
    "films": 104
   },
   "UC83tx3zGcvQ_rXzsZigTnEA": {
@@ -124,7 +124,7 @@
   "UC1By7koB6TJqjrfCvmYUIxQ": {
    "name": "AFOREVO STAGE",
    "subscribers": 2630000,
-   "videos": 3419,
+   "videos": 3420,
    "films": 2151
   },
   "UCi8vPG6uMxIjoZMhLLX2BkQ": {
@@ -148,8 +148,8 @@
   "UCVsqair_RFTI1K5cuaLaNtg": {
    "name": "Nigerian Movies Plus",
    "subscribers": 1860000,
-   "videos": 3029,
-   "films": 1962
+   "videos": 3032,
+   "films": 1965
   },
   "UCJ1I13e9PN7u4iszJ6M0AXQ": {
    "name": "ROCKCELLY NOLLYWOOD FILMS TV",
@@ -190,7 +190,7 @@
   "UCzKrLr1ZD1uds-7c7vaSjVA": {
    "name": "Uche Nancy tv",
    "subscribers": 2380000,
-   "videos": 1710,
+   "videos": 1711,
    "films": 666
   },
   "UCB4TZvSKXjSx2pyJG-zIxsQ": {
@@ -204,6 +204,11 @@
    "subscribers": 19,
    "videos": 2,
    "films": 0
+  },
+  "UCGyPHwlkRV_Ai7aLRXpXJow": {
+   "name": "Damilola Mike-Bamiloye",
+   "wanted": "Kingdom Mount Zion Movies",
+   "skipped": "name mismatch"
   },
   "UCK-FDSIDGzjK6PYWcFaOzkA": {
    "name": "Saira Movies",
@@ -226,7 +231,7 @@
   "UC6CxpgmZUkTH0NnksC0o_fg": {
    "name": "ABNUR ENTERTAINMENT",
    "subscribers": 884000,
-   "videos": 412,
+   "videos": 413,
    "films": 34
   },
   "UC3PkFyrpeoRxfwWpTUp2uUg": {
@@ -255,7 +260,7 @@
   },
   "UClU5QkUqFL4a7AdxScHa2Vg": {
    "name": "Lilin Baba",
-   "subscribers": 945000,
+   "subscribers": 946000,
    "videos": 326,
    "films": 1
   },
@@ -264,6 +269,11 @@
    "subscribers": 40100,
    "videos": 107,
    "films": 7
+  },
+  "UCuoDa0ZOF0h9doIaJIkr8yA": {
+   "name": "NOLLYWOOD STARS TV",
+   "wanted": "NollywoodLove",
+   "skipped": "name mismatch"
   },
   "UC9dLAOkjoMGMopPGbX0KQog": {
    "name": "Yorubalove",
@@ -310,7 +320,7 @@
   "UC6izPafX_9ydQCa7xctxcuQ": {
    "name": "NollyReel",
    "subscribers": 150000,
-   "videos": 373,
+   "videos": 374,
    "films": 359
   },
   "UCjS6UnmKjrBX3krk8oVZocg": {
@@ -318,6 +328,15 @@
    "subscribers": 223000,
    "videos": 291,
    "films": 112
+  },
+  "UCA_cLbPgQBD9mOCVPdToE1Q": {
+   "name": "Mora Films",
+   "wanted": "Movie More",
+   "skipped": "name mismatch"
+  },
+  "undefined": {
+   "error": "no channel found for \"Nollyvids\"",
+   "keptFromPreviousRun": 0
   },
   "UCgk6r-2ebeVkwaEXMtmXkiw": {
    "name": "EL'S NOLLY TV ",
@@ -97310,6 +97329,40 @@
    "channelName": "Regina Daniels Tv"
   },
   {
+   "id": "snaija-yt-he-kicked-out-his-old-father-because-of-his-new-wife-but-his-new-wife-later-abandon-him-2026",
+   "type": "movie",
+   "name": "He Kicked Out His Old Father Because of His New Wife But His New Wife Later Abandon Him",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "173 min",
+   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2026 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
+   "uploadedAt": "2026-11-14T16:23:39.000Z",
+   "poster": "https://i.ytimg.com/vi/cWrbrJ8u6pY/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
+   },
+   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "cWrbrJ8u6pY",
+     "minutes": 173
+    }
+   ],
+   "channelName": "AFOREVO STAGE"
+  },
+  {
    "id": "snaija-yt-age-is-just-a-number-true-love-is-all-that-matters-explosive-micheal-victory-2026",
    "type": "movie",
    "name": "Age Is Just a Number True Love Is All That Matters Explosive Micheal Victory",
@@ -128565,40 +128618,6 @@
      "part": 1,
      "videoId": "bYaSbuX72P4",
      "minutes": 101
-    }
-   ],
-   "channelName": "AFOREVO STAGE"
-  },
-  {
-   "id": "snaija-yt-he-kicked-out-his-old-father-because-of-his-new-wife-but-his-new-wife-later-abandon-him-2026",
-   "type": "movie",
-   "name": "He Kicked Out His Old Father Because of His New Wife But His New Wife Later Abandon Him",
-   "aliases": [],
-   "year": 2026,
-   "yearIsUpload": true,
-   "languages": [
-    "en"
-   ],
-   "category": "film",
-   "genres": [
-    "Romance",
-    "Family"
-   ],
-   "cast": [],
-   "runtime": "173 min",
-   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2026 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
-   "uploadedAt": "2026-03-28T08:08:31.000Z",
-   "poster": "https://i.ytimg.com/vi/cWrbrJ8u6pY/maxresdefault.jpg",
-   "posterShape": "landscape",
-   "sources": {
-    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
-   },
-   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
-   "parts": [
-    {
-     "part": 1,
-     "videoId": "cWrbrJ8u6pY",
-     "minutes": 173
     }
    ],
    "channelName": "AFOREVO STAGE"
@@ -255697,6 +255716,113 @@
     }
    ],
    "channelName": "Neptune3 Studios"
+  },
+  {
+   "id": "snaija-yt-my-evil-boyfriend-buried-me-alive-for-money-ritual-but-my-ghost-is-back-for-revenge-2026",
+   "type": "movie",
+   "name": "My Evil Boyfriend Buried Me Alive for Money Ritual But My Ghost Is Back for Revenge!",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Thriller",
+    "Supernatural",
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "104 min",
+   "description": "A terrifying supernatural entity known as Anakum unleashes darkness upon a family, forcing sisters Esther and Linda into a desperate battle for survival. But as shocking secrets from their family's past begin to sur",
+   "uploadedAt": "2026-11-14T23:00:11.000Z",
+   "poster": "https://i.ytimg.com/vi/7t7dhcEExJw/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "7t7dhcEExJw",
+     "minutes": 104,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
+  },
+  {
+   "id": "snaija-yt-the-powerful-ghos-of-my-late-son-came-with-powers-to-save-me-from-my-evil-kinsmen-2026",
+   "type": "movie",
+   "name": "The Powerful Ghos of My Late Son Came With Powers to Save Me From My Evil Kinsmen!",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Supernatural",
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "105 min",
+   "description": "Obinna finds himself caught in a painful battle of family betrayal, social rejection, and hidden truths connected to his family's past. As shocking revelations threaten to destroy their unity, he must uncover the s",
+   "uploadedAt": "2026-11-14T19:00:12.000Z",
+   "poster": "https://i.ytimg.com/vi/75Y2KHhzUSE/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "75Y2KHhzUSE",
+     "minutes": 105,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
+  },
+  {
+   "id": "snaija-yt-my-evil-stepsister-piosoned-me-to-marry-my-rich-boyfriend-but-my-angry-ghost-is-back-2026",
+   "type": "movie",
+   "name": "My Evil Stepsister Piosoned Me to Marry My Rich Boyfriend But My Angry Ghost Is Back",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Supernatural",
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "207 min",
+   "description": "Akunne, a determined young Keke rider, struggles to make ends meet while battling endless family problems. Despite the humiliation and emotional pain, she refuses to give up. But when her family pushes her beyond he",
+   "uploadedAt": "2026-11-14T17:00:17.000Z",
+   "poster": "https://i.ytimg.com/vi/EFTvIz4PDlk/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "EFTvIz4PDlk",
+     "minutes": 207,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
   },
   {
    "id": "snaija-yt-the-ghost-of-my-late-mother-came-with-powers-to-save-me-from-d-wicked-village-queen-2026",
@@ -490212,6 +490338,39 @@
    "channelName": "SceneOne TV"
   },
   {
+   "id": "snaija-yt-every-ladies-man-2026",
+   "type": "movie",
+   "name": "Every Ladies Man",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Drama"
+   ],
+   "cast": [],
+   "runtime": "159 min",
+   "uploadedAt": "2026-11-14T19:00:20.000Z",
+   "poster": "https://i.ytimg.com/vi/Tvzf-Sskev0/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel NollyReel (UC6izPafX_9ydQCa7xctxcuQ)"
+   },
+   "channel": "UC6izPafX_9ydQCa7xctxcuQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "Tvzf-Sskev0",
+     "minutes": 159,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "NollyReel"
+  },
+  {
    "id": "snaija-yt-deceietful-union-2026",
    "type": "movie",
    "name": "Deceietful Union",
@@ -491295,38 +491454,6 @@
      "part": 1,
      "videoId": "27701lrZfCw",
      "minutes": 94
-    }
-   ],
-   "channelName": "NollyReel"
-  },
-  {
-   "id": "snaija-yt-every-ladies-man-2026",
-   "type": "movie",
-   "name": "Every Ladies Man",
-   "aliases": [],
-   "year": 2026,
-   "yearIsUpload": false,
-   "languages": [
-    "en"
-   ],
-   "category": "film",
-   "genres": [
-    "Drama"
-   ],
-   "cast": [],
-   "runtime": "114 min",
-   "uploadedAt": "2026-10-16T19:00:32.000Z",
-   "poster": "https://i.ytimg.com/vi/2m-qv7sC2xA/maxresdefault.jpg",
-   "posterShape": "landscape",
-   "sources": {
-    "all": "YouTube channel NollyReel (UC6izPafX_9ydQCa7xctxcuQ)"
-   },
-   "channel": "UC6izPafX_9ydQCa7xctxcuQ",
-   "parts": [
-    {
-     "part": 1,
-     "videoId": "2m-qv7sC2xA",
-     "minutes": 114
     }
    ],
    "channelName": "NollyReel"
