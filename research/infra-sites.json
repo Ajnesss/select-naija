@@ -1,1 +1,8 @@
-{ "bp-avaz": "https://bluepicturesng.com/avaz/" }
+{
+ "kava": "https://watch.kava.tv",
+ "kava-home": "https://kava.tv",
+ "circuits": "https://circuits.tv",
+ "circuits-freeflex": "https://circuits.tv/freeflex",
+ "ebonylife": "https://www.ebonylifeonplus.com",
+ "docuth": "https://web.docuth.com"
+}
