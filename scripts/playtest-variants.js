@@ -25,7 +25,7 @@ const ids = Object.entries(health.videos).filter(([, v]) => v.api === 'ok').map(
   ];
   const out = {};
   for (const [name, opts, base, extra] of variants) {
-    const browser = await chromium.launch({ ...opts, args: ['--autoplay-policy=no-user-gesture-required', '--disable-blink-features=AutomationControlled'] });
+    const browser = await chromium.launch({ ...opts, args: ['--autoplay-policy=no-user-gesture-required'] });
     const ctx = await browser.newContext({ userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', locale: 'en-GB' });
     const page = await ctx.newPage();
     const rows = [];

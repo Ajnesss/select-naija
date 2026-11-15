@@ -19,7 +19,7 @@ function healthLines(dir) {
     ``,
     `HD (720p or better, as YouTube reports it): ${n((x) => x.definition === 'hd')}; SD: ${n((x) => x.definition === 'sd')}.`,
     `Playback in YouTube's official embedded player: played ${n((x) => x.playback?.result === 'played')}, failed ${n((x) => x.playback?.result === 'failed')}, inconclusive ${n((x) => x.playback?.result === 'inconclusive')}, not yet tested ${n((x) => x.api === 'ok' && !x.playback)}.`,
-    run ? `Last playback run: ${run.tested} tested in ${run.minutes} min (${JSON.stringify(run.tally)})${run.applied ? '' : ' — not applied, YouTube appeared to refuse the test server'}.` : 'No playback run yet.',
+    run ? `Last playback run: ${run.tested} tested in ${run.minutes} min (${JSON.stringify(run.tally)})${run.applied ? '' : run.blockedByYouTube ? ' — not applied: YouTube asks the test server to sign in ("confirm you are not a bot"), so playback cannot be confirmed from GitHub' : ' — not applied, YouTube appeared to refuse the test server'}.` : 'No playback run yet.',
   ];
 }
 

@@ -79,7 +79,15 @@ async function main() {
     }
     await page.close();
   }
+  // Canary first: GitHub's servers get YouTube's "confirm you're not a bot" wall (seen 15 Nov 2026 for every video,
+  // in every browser setup). While the canary is blocked, stop after 30 videos; no result is applied.
+  const rest = ids.splice(30);
   await Promise.all(Array.from({ length: CONCURRENCY }, worker));
+  const canaryPlayed = Object.values(results).filter((r) => r.result === 'played').length;
+  if (canaryPlayed >= 10) {
+    ids.push(...rest);
+    await Promise.all(Array.from({ length: CONCURRENCY }, worker));
+  }
   await browser.close();
   server.close();
 
@@ -91,7 +99,8 @@ async function main() {
   const suspicious = tested >= 30 && played / tested < 0.2;
   const at = new Date().toISOString();
   if (!suspicious) for (const [id, r] of Object.entries(results)) health.videos[id] = applyPlayback(health.videos[id], r, at);
-  health.playbackRun = { at, tested, tally, applied: !suspicious, queue: ids.length, minutes: Math.round((Date.now() - started) / 60000) };
+  const blockedByYouTube = suspicious && Object.values(results).some((r) => r.result === 'error' && r.code === 150);
+  health.playbackRun = { at, tested, tally, applied: !suspicious, blockedByYouTube, minutes: Math.round((Date.now() - started) / 60000) };
   fs.writeFileSync(FILE, `${JSON.stringify(health)}\n`);
   console.log(`playback tests: ${tested} of ${ids.length} queued in ${health.playbackRun.minutes} min`, tally, suspicious ? '— NOT applied (looks like YouTube refused this server)' : '');
 }
