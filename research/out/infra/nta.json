@@ -1,0 +1,87 @@
+[
+ {
+  "url": "https://www.nta.ng",
+  "finalUrl": "https://www.nta.ng/",
+  "status": 200,
+  "title": "Nigerian Television Authority - News, Live TV and Replay",
+  "walls": [
+   "rent"
+  ],
+  "fingerprints": {
+   "youtube": [
+    "https://i.ytimg.com/vi_webp/mnkLg6eoO4g/maxresdefault.webp",
+    "https://i.ytimg.com/vi_webp/l609Mi09Ksk/maxresdefault.webp",
+    "https://i.ytimg.com/vi_webp/wfgVALWd0_E/maxresdefault.webp",
+    "https://i.ytimg.com/vi_webp/UqKcg1mxitc/maxresdefault.webp"
+   ]
+  },
+  "media": [],
+  "iframes": [],
+  "text": "Home News Streaming Services Paperless Service ON AIR NTA INT'L NTA NEWS24 NTA PARLIAMENT NTA2 LAGOS NTA ENTERTAINMENT Top News Politics & Current Affairs French Protesters Rally Against Inflation, Police Powers in Paris November 15, 2026 POLITICS & CURRENT AFFAIRS Entertainment FRAMEFEST Abuja 2026: Building Nigerian characters, taking African stories to the world November 15, 2026 ENTERTAINMENT Entertainment BeBe and CeCe Winans Announce 2027 Reunion Tour Across 15 US Cities November 14, 2026 "
+ },
+ {
+  "url": "https://www.nta.ng/watch/live/ntaintl",
+  "finalUrl": "https://www.nta.ng/watch/live/ntaintl",
+  "status": 200,
+  "title": "NTA INT'L - NTA",
+  "walls": [],
+  "fingerprints": {},
+  "media": [
+   "https://live1.acangroup.org:1929/publiclive/ntaintl.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMTUvMjAyNiA4OjE0OjQ4IFBNJmhhc2hfdmFsdWU9RFc1TGUxS1NIUlBlVUY5L3VobGladz09JnZhbGlkbWludXRlcz0xMA=="
+  ],
+  "iframes": [],
+  "text": "Home News Streaming Services Paperless Service Auto NTA INT'L TV NTA INTERNATIONAL NETWORK TV CHANNELS Back to Hub NTA INT'L PLAYING NTA NEWS24 NTA PARLIAMENT NTA2 LAGOS NTA ENTERTAINMENT +1.3 M Followers +1.7 M Followers +10 K Followers +76 K Followers Download our apps from Terms of Use About the NTA Privacy Policy Cookies Accessibility Help © 2026 NTA. All rights reserved. Designed by aCAN Group."
+ },
+ {
+  "url": "https://www.nta.ng/watch/live/ntanews24",
+  "finalUrl": "https://www.nta.ng/watch/live/ntanews24",
+  "status": 200,
+  "title": "NTA NEWS24 - NTA",
+  "walls": [],
+  "fingerprints": {},
+  "media": [
+   "https://edge-a19ab.acan.group/ntanews24/index.m3u8?signature=c2VydmVyX3RpbWU9MTEvMTUvMjAyNiA4OjE0OjU0IFBNJmhhc2hfdmFsdWU9MVZFUXVKZnJONGJHMmJ0RVNuSXl0dz09JnZhbGlkbWludXRlcz0xMA=="
+  ],
+  "iframes": [],
+  "text": "Home News Streaming Services Paperless Service Auto NTA NEWS24 TV All the latest News TV CHANNELS Back to Hub NTA INT'L NTA NEWS24 PLAYING NTA PARLIAMENT NTA2 LAGOS NTA ENTERTAINMENT +1.3 M Followers +1.7 M Followers +10 K Followers +76 K Followers Download our apps from Terms of Use About the NTA Privacy Policy Cookies Accessibility Help © 2026 NTA. All rights reserved. Designed by aCAN Group."
+ },
+ {
+  "url": "https://www.nta.ng/watch/live/ntaparliement",
+  "finalUrl": "https://www.nta.ng/watch/live/ntaparliement",
+  "status": 200,
+  "title": "NTA PARLIAMENT - NTA",
+  "walls": [],
+  "fingerprints": {},
+  "media": [
+   "https://edge-a19ab.acan.group/ntaparliement/index.m3u8?signature=c2VydmVyX3RpbWU9MTEvMTUvMjAyNiA4OjE1OjAwIFBNJmhhc2hfdmFsdWU9dkN2SDZRVkhZQjlyWFlOOWx6dXZkQT09JnZhbGlkbWludXRlcz0xMA=="
+  ],
+  "iframes": [],
+  "text": "Home News Streaming Services Paperless Service Auto NTA PARLIAMENT TV TV Dedicated to the Nigerian National Assembly TV CHANNELS Back to Hub NTA INT'L NTA NEWS24 NTA PARLIAMENT PLAYING NTA2 LAGOS NTA ENTERTAINMENT +1.3 M Followers +1.7 M Followers +10 K Followers +76 K Followers Download our apps from Terms of Use About the NTA Privacy Policy Cookies Accessibility Help © 2026 NTA. All rights reserved. Designed by aCAN Group."
+ },
+ {
+  "url": "https://www.nta.ng/watch/live/nta2lagos",
+  "finalUrl": "https://www.nta.ng/watch/live/nta2lagos",
+  "status": 200,
+  "title": "NTA2 LAGOS - NTA",
+  "walls": [],
+  "fingerprints": {},
+  "media": [
+   "https://edge-a19ab.acan.group/nta2lagos/index.m3u8?signature=c2VydmVyX3RpbWU9MTEvMTUvMjAyNiA4OjE1OjA2IFBNJmhhc2hfdmFsdWU9eTFSTDBuaGVkRUV3bjhiY2tMV09FQT09JnZhbGlkbWludXRlcz0xMA=="
+  ],
+  "iframes": [],
+  "text": "Home News Streaming Services Paperless Service Auto NTA2 LAGOS TV NTA2 LAGOS TV CHANNELS Back to Hub NTA INT'L NTA NEWS24 NTA PARLIAMENT NTA2 LAGOS PLAYING NTA ENTERTAINMENT +1.3 M Followers +1.7 M Followers +10 K Followers +76 K Followers Download our apps from Terms of Use About the NTA Privacy Policy Cookies Accessibility Help © 2026 NTA. All rights reserved. Designed by aCAN Group."
+ },
+ {
+  "url": "https://www.nta.ng/watch/live/ntaentertainment",
+  "finalUrl": "https://www.nta.ng/watch/live/ntaentertainment",
+  "status": 200,
+  "title": "NTA ENTERTAINMENT - NTA",
+  "walls": [],
+  "fingerprints": {},
+  "media": [
+   "https://edge-a19ab.acan.group/ntahaousa/index.m3u8?signature=c2VydmVyX3RpbWU9MTEvMTUvMjAyNiA4OjE1OjEzIFBNJmhhc2hfdmFsdWU9cXEyUTNqOUVGVHFvemdJTlF5cnVJQT09JnZhbGlkbWludXRlcz0xMA=="
+  ],
+  "iframes": [],
+  "text": "Home News Streaming Services Paperless Service Auto NTA ENTERTAINMENT TV NTA ENTERTAINMENT TV CHANNELS Back to Hub NTA INT'L NTA NEWS24 NTA PARLIAMENT NTA2 LAGOS NTA ENTERTAINMENT PLAYING +1.3 M Followers +1.7 M Followers +10 K Followers +76 K Followers Download our apps from Terms of Use About the NTA Privacy Policy Cookies Accessibility Help © 2026 NTA. All rights reserved. Designed by aCAN Group."
+ }
+]

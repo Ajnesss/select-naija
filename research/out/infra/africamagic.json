@@ -1,0 +1,13 @@
+[
+ {
+  "url": "https://www.africamagic.tv",
+  "finalUrl": "https://www.dstv.com/africamagic/en-ng",
+  "status": 500,
+  "title": "",
+  "walls": [],
+  "fingerprints": {},
+  "media": [],
+  "iframes": [],
+  "text": "{\"request_id\":\"70b6eced3bd9176a282d6cfe1fa2af23\",\"status\":500,\"log\":\"Other\",\"result\":\"FetchError: request to https://dkkzkegfj4bkf.cloudfront.net/africamagic/en-ng failed, reason: address not available\\n at FetchBaseError (fetch:899:3)\\n at FetchError (fetch:930:3)\\n at <anonymous> (fetch:2456:12)\\n at call (native)\\n at emitOne (events:92:13)\\n at emit (events:179:7)\\n at _final (http:478:18)\",\"error_code\":\"FSS.3000\"}"
+ }
+]

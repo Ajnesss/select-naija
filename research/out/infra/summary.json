@@ -1,38 +1,141 @@
 {
- "mytelevision": {
-  "start": "https://mytelevision.tv/en/movies",
+ "nta": {
+  "start": "https://www.nta.ng",
   "status": 200,
-  "title": "Movies — Cinema on demand — MyTelevision",
-  "pages": 4,
-  "fingerprints": {},
-  "media": 0,
+  "title": "Nigerian Television Authority - News, Live TV and Replay",
+  "pages": 6,
+  "fingerprints": {
+   "youtube": 1
+  },
+  "media": 5,
   "walls": [
    "rent"
   ]
  },
- "abiplay": {
-  "start": "https://www.abiplay.com/",
-  "status": 200,
-  "title": "AbiPlay - Free Streaming Platform for African and Global Movies",
-  "pages": 2,
+ "ntaondemand": {
+  "start": "https://ntaondemand.ng",
+  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://ntaondemand.ng/",
+  "title": "",
+  "pages": 1,
   "fingerprints": {},
   "media": 0,
+  "walls": []
+ },
+ "ait": {
+  "start": "https://www.aitonline.tv",
+  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.aitonline.tv/",
+  "title": "",
+  "pages": 1,
+  "fingerprints": {},
+  "media": 0,
+  "walls": []
+ },
+ "tvc": {
+  "start": "https://www.tvcnews.tv",
+  "status": 403,
+  "title": "Just a moment...",
+  "pages": 1,
+  "fingerprints": {},
+  "media": 0,
+  "walls": []
+ },
+ "tvcent": {
+  "start": "https://tvcentertainment.tv",
+  "status": 200,
+  "title": "Homepage - PURE ENTERTAINMENT",
+  "pages": 6,
+  "fingerprints": {
+   "youtube": 1
+  },
+  "media": 4,
   "walls": [
-   "subscription",
    "rent",
-   "sign in"
+   "buy"
   ]
  },
- "tazama": {
-  "start": "https://tazamaafrica.net/browse",
+ "silverbird": {
+  "start": "https://silverbirdtv.com",
   "status": 200,
-  "title": "Tazama Africa | African Streaming Platform",
-  "pages": 6,
+  "title": "Home - SilverbirdTV",
+  "pages": 1,
   "fingerprints": {},
   "media": 0,
+  "walls": []
+ },
+ "ontv": {
+  "start": "https://ontvnetwork.com",
+  "status": 403,
+  "title": "Just a moment...",
+  "pages": 1,
+  "fingerprints": {},
+  "media": 0,
+  "walls": []
+ },
+ "galaxy": {
+  "start": "https://galaxytvonline.com",
+  "status": 403,
+  "title": "Just a moment...",
+  "pages": 1,
+  "fingerprints": {},
+  "media": 0,
+  "walls": []
+ },
+ "bcos": {
+  "start": "https://bcos.tv",
+  "status": 200,
+  "title": "HITCLUB 🎖️ Trang Chủ HITCLUB.COM Chính Thức #1 VN",
+  "pages": 1,
+  "fingerprints": {},
+  "media": 0,
+  "walls": []
+ },
+ "lagostv": {
+  "start": "https://lagostelevision.com",
+  "status": 200,
+  "title": "Lagos Television - LTV",
+  "pages": 1,
+  "fingerprints": {},
+  "media": 1,
+  "walls": []
+ },
+ "africamagic": {
+  "start": "https://www.africamagic.tv",
+  "status": 500,
+  "title": "",
+  "pages": 1,
+  "fingerprints": {},
+  "media": 0,
+  "walls": []
+ },
+ "dstvstream": {
+  "start": "https://now.dstv.com",
+  "status": 200,
+  "title": "DStv - Watch Live sports and Catch Up on TV series, movies and kids shows online.",
+  "pages": 1,
+  "fingerprints": {},
+  "media": 0,
+  "walls": []
+ },
+ "startimes": {
+  "start": "https://www.startimestv.com",
+  "status": 200,
+  "title": "StarTimes",
+  "pages": 1,
+  "fingerprints": {},
+  "media": 0,
+  "walls": []
+ },
+ "rokufree": {
+  "start": "https://therokuchannel.roku.com",
+  "status": 200,
+  "title": "Roku - Watch Movies, TV Shows & Live News Online",
+  "pages": 6,
+  "fingerprints": {},
+  "media": 4,
   "walls": [
    "sign in",
-   "subscribe"
+   "subscription",
+   "rent"
   ]
  }
 }
