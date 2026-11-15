@@ -1,4 +1,9 @@
 {
- "mytv-catalogue": ["https://mytelevision.tv/sitemap.xml", "https://mytelevision.tv/robots.txt", "https://mytelevision.tv/en/browse", "https://mytelevision.tv/en/creators", "https://mytelevision.tv/en/devices"],
- "abiplay-catalogue": ["https://www.abiplay.com/sitemap.xml", "https://www.abiplay.com/robots.txt", "https://www.abiplay.com/about-us", "https://www.abiplay.com/webmovie"]
+ "abiplay-scan": ["https://www.abiplay.com/", "https://www.abiplay.com/login?redirect=/webmovie", "https://www.abiplay.com/terms-and-condition", "https://www.abiplay.com/privacy-policy"],
+ "afroland": ["https://www.afrolandtv.com/", "https://www.afrolandtv.com/linear/afrolandtv", "https://www.afrolandtv.com/movies", "https://www.afrolandtv.com/terms"],
+ "wanzami": ["https://wanzamitv.com/", "https://www.wanzami.tv/"],
+ "ewaen": ["https://ewaenstudios.com/", "https://ewaenstudios.com/movies/"],
+ "filmjoint": ["https://filmjoint.com/", "https://www.filmjoint.ng/"],
+ "olongo": ["https://olongoafrica.com/ebrohimie-road-a-museum-of-memory-is-available-to-watch-online-for-seven-days-this-july/"],
+ "nollistream-web": ["https://nollistream.com/", "https://nollistream.com/movies", "https://app.nollistream.com/", "https://watch.nollistream.com/"]
 }
