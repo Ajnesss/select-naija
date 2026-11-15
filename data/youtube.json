@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-15T00:17:55.653Z",
+ "generatedAt": "2026-11-15T00:36:43.112Z",
  "channels": {
   "UCbvdwZvZgdl-pPyomEmaEfg": {
    "name": "Omoni Oboli TV",
@@ -205,6 +205,11 @@
    "videos": 2,
    "films": 0
   },
+  "UCGyPHwlkRV_Ai7aLRXpXJow": {
+   "name": "Damilola Mike-Bamiloye",
+   "wanted": "Kingdom Mount Zion Movies",
+   "skipped": "name mismatch"
+  },
   "UCK-FDSIDGzjK6PYWcFaOzkA": {
    "name": "Saira Movies",
    "subscribers": 2210000,
@@ -265,6 +270,11 @@
    "videos": 107,
    "films": 7
   },
+  "UCuoDa0ZOF0h9doIaJIkr8yA": {
+   "name": "NOLLYWOOD STARS TV",
+   "wanted": "NollywoodLove",
+   "skipped": "name mismatch"
+  },
   "UC9dLAOkjoMGMopPGbX0KQog": {
    "name": "Yorubalove",
    "subscribers": 8870,
@@ -318,6 +328,15 @@
    "subscribers": 223000,
    "videos": 291,
    "films": 112
+  },
+  "UCA_cLbPgQBD9mOCVPdToE1Q": {
+   "name": "Mora Films",
+   "wanted": "Movie More",
+   "skipped": "name mismatch"
+  },
+  "undefined": {
+   "error": "no channel found for \"Nollyvids\"",
+   "keptFromPreviousRun": 0
   },
   "UCgk6r-2ebeVkwaEXMtmXkiw": {
    "name": "EL'S NOLLY TV ",
