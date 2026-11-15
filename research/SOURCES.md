@@ -182,3 +182,11 @@ October 1 → no UK provider. No title has a provider whose playback can legitim
 | Tazama Africa | 15 titles; film pages are placeholders (same cast "Ama Boateng / Tendai Moyo" on every title, "TEST_def2c0" title, canned reviews). The "Nigerian Yoruba feature" Lagos Hustle (1h 4m, 2026) is "Premium — Subscribe to Watch" | Subscription for Premium | — | Not a working catalogue (demo/test content); excluded |
 | MyTelevision | Next.js site; films, series and replays "Free with an account"; no catalogue or player without login | Free account (email) | May: stream for personal, private use on your compatible devices. May not: circumvent protection or geo-restriction, copy or redistribute content. No licence beyond the personal viewing right | Player untested: needs a logged-in account |
 | AbiPlay | "Free with Ads … supported by in-page and direct video ads"; /webmovie redirects to login | Google, Apple or email account | Published terms are a privacy policy only | Player untested: needs a logged-in account; ad-funded (playing in Nuvio would drop its video ads) |
+
+## Round 10 (15 Nov 2026): MyTelevision and AbiPlay without an account; EnfiTV
+
+| Service | Catalogue evidence | Delivery / model | Verdict (no account needed to decide) |
+| --- | --- | --- | --- |
+| MyTelevision | Sitemap: 50 marketing pages only, no title pages. Browse: "Live TV — more than 40 live channels, from France and beyond", "Movies — films in French and English". No Nigerian title visible anywhere public | Free with an email account; browser, iPhone, Android; terms: personal use on the service, no circumvention, no redistribution | Not a viable candidate: no evidence of a Nigerian catalogue; French-focused |
+| AbiPlay | No sitemap (404); every catalogue page redirects to login | "Free, ad-supported streaming… supported by in-page and direct video ads"; Google/Apple/email login | Not viable: the service is paid for by video adverts in its player; serving its streams in Nuvio would drop them |
+| EnfiTV (new lead) | Catalogue incl. The Secret Life of a Troll, 12 Hours, Alaise, Erimorara, The Last Call | Subscription ₦5,000/month after a 3-day trial; creators paid per view | Not viable: paid subscription |
