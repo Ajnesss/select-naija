@@ -1,5 +1,4 @@
 {
- "mytelevision": ["https://mytelevision.tv/en/movies", "https://mytelevision.tv/en/terms", "https://mytelevision.tv/en/content-providers"],
- "abiplay": ["https://www.abiplay.com/", "https://www.abiplay.com/terms", "https://www.abiplay.com/browse"],
- "tazama": ["https://tazamaafrica.net/browse", "https://tazamaafrica.net/terms", "https://tazamaafrica.net/"]
+ "mytv-catalogue": ["https://mytelevision.tv/sitemap.xml", "https://mytelevision.tv/robots.txt", "https://mytelevision.tv/en/browse", "https://mytelevision.tv/en/creators", "https://mytelevision.tv/en/devices"],
+ "abiplay-catalogue": ["https://www.abiplay.com/sitemap.xml", "https://www.abiplay.com/robots.txt", "https://www.abiplay.com/about-us", "https://www.abiplay.com/webmovie"]
 }
