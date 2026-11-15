@@ -18,11 +18,13 @@ const TIMEOUT_MS = 25000;
 const VIDEO_FAULT = { 100: 'not found or private', 101: 'embedding not allowed', 150: 'embedding not allowed' };
 
 const PAGE = `<!DOCTYPE html><html><body><div id="p"></div><script>
-const id = new URLSearchParams(location.search).get('v');
+const q = new URLSearchParams(location.search);
+const id = q.get('v');
+const host = q.get('host') === 'nc' ? 'https://www.youtube-nocookie.com' : 'https://www.youtube.com';
 window.result = null;
 const done = (r) => { if (!window.result) window.result = r; };
 function onYouTubeIframeAPIReady() {
-  const player = new YT.Player('p', { width: 640, height: 360, videoId: id,
+  const player = new YT.Player('p', { width: 640, height: 360, videoId: id, host,
     playerVars: { autoplay: 1, mute: 1, playsinline: 1, origin: location.origin },
     events: {
       onReady: (e) => { e.target.mute(); e.target.playVideo(); },
@@ -96,4 +98,4 @@ async function main() {
 
 if (require.main === module) main().catch((e) => { console.error(e); process.exit(1); });
 
-module.exports = { queue, applyPlayback, VIDEO_FAULT };
+module.exports = { queue, applyPlayback, VIDEO_FAULT, PAGE };

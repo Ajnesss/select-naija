@@ -9,6 +9,7 @@ const { DEFAULT, decodeConfig, configurePage } = require('./config');
 const pkg = require('../package.json');
 
 const RELOAD_MS = 10 * 60 * 1000;
+const { PAGE: PLAYTEST_PAGE } = require('../scripts/check-youtube-playback');
 
 function buildManifest(data, { diagnostics, config = DEFAULT }) {
   return {
@@ -79,7 +80,7 @@ function createServer(options = {}) {
       const url = new URL(req.url, 'http://localhost');
       let rawParts = url.pathname.replace(/^\/+/, '').replace(/\.json$/, '').split('/');
       // Settings in the install URL: /<config>/manifest.json, /<config>/catalog/...
-      const RESOURCES = new Set(['', 'manifest', 'catalog', 'meta', 'stream', 'health', 'configure']);
+      const RESOURCES = new Set(['', 'manifest', 'catalog', 'meta', 'stream', 'health', 'configure', 'playtest']);
       const config = !RESOURCES.has(rawParts[0]) ? decodeConfig(rawParts[0]) : null;
       if (config) rawParts = rawParts.slice(1);
       const cfg = config || DEFAULT;
@@ -87,6 +88,8 @@ function createServer(options = {}) {
       const origin = `${req.headers['x-forwarded-proto'] || 'https'}://${req.headers['x-forwarded-host'] || req.headers.host}`;
 
       if (parts[0] === 'configure') return sendHtml(res, configurePage(origin, cfg));
+      // Page for the nightly playback test: one video in YouTube's official embedded player (IFrame API).
+      if (parts[0] === 'playtest') return sendHtml(res, PLAYTEST_PAGE);
       if (url.pathname === '/' && !config) return sendHtml(res, configurePage(origin, cfg));
       if (parts[0] === 'manifest' || parts[0] === '') {
         return send(res, 200, buildManifest(data, { diagnostics, config: cfg }), 3600);
