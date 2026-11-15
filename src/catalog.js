@@ -106,7 +106,7 @@ function rowEnabled(row, cfg) {
 
 function manifestCatalogs(data, now = Date.now(), { diagnostics = false, config = DEFAULT } = {}) {
   // Rows with nothing in them right now are left out rather than shown empty.
-  const catalogs = ROWS.filter((row) => rowEnabled(row, config) && rowOptions(row, data, now).length).map((row) => ({
+  const catalogs = ROWS.filter((row) => rowEnabled(row, config) && rowOptions(row, data, now).length && queryCatalog(row.type, row.id, {}, data, now, config).length).map((row) => ({
     type: row.type,
     id: row.id,
     name: row.name,
