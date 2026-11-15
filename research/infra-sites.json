@@ -1,5 +1,16 @@
 {
- "mytelevision": "https://mytelevision.tv/en/movies",
- "abiplay": "https://www.abiplay.com/",
- "tazama": "https://tazamaafrica.net/browse"
+ "nta": "https://www.nta.ng",
+ "ntaondemand": "https://ntaondemand.ng",
+ "ait": "https://www.aitonline.tv",
+ "tvc": "https://www.tvcnews.tv",
+ "tvcent": "https://tvcentertainment.tv",
+ "silverbird": "https://silverbirdtv.com",
+ "ontv": "https://ontvnetwork.com",
+ "galaxy": "https://galaxytvonline.com",
+ "bcos": "https://bcos.tv",
+ "lagostv": "https://lagostelevision.com",
+ "africamagic": "https://www.africamagic.tv",
+ "dstvstream": "https://now.dstv.com",
+ "startimes": "https://www.startimestv.com",
+ "rokufree": "https://therokuchannel.roku.com"
 }
