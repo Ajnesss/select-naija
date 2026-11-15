@@ -1,0 +1,277 @@
+[
+ {
+  "type": "movie",
+  "name": "King of Boys",
+  "year": 2018,
+  "tmdb": 570465,
+  "providers": {
+   "flatrate": [
+    "Netflix",
+    "Netflix Standard with Ads"
+   ]
+  },
+  "selectNaija": []
+ },
+ {
+  "type": "movie",
+  "name": "The Wedding Party",
+  "year": 2016,
+  "tmdb": 412196,
+  "providers": {
+   "ads": [
+    "Amazon Prime Video Free with Ads",
+    "Runtime",
+    "Amazon MX Player"
+   ],
+   "rent": [
+    "Amazon Video"
+   ],
+   "buy": [
+    "Amazon Video"
+   ]
+  },
+  "selectNaija": [
+   "primevideo"
+  ]
+ },
+ {
+  "type": "movie",
+  "name": "Living in Bondage: Breaking Free",
+  "year": 2019,
+  "tmdb": 648041,
+  "providers": {
+   "flatrate": [
+    "Amazon Prime Video",
+    "Amazon Prime Video with Ads"
+   ],
+   "ads": [
+    "Tubi TV"
+   ],
+   "rent": [
+    "Amazon Video"
+   ],
+   "buy": [
+    "Amazon Video"
+   ]
+  },
+  "selectNaija": [
+   "tubi"
+  ]
+ },
+ {
+  "type": "movie",
+  "name": "Lionheart",
+  "year": 2018,
+  "tmdb": 543774,
+  "providers": {
+   "flatrate": [
+    "Netflix",
+    "Netflix Standard with Ads"
+   ]
+  },
+  "selectNaija": []
+ },
+ {
+  "type": "movie",
+  "name": "Anikulapo",
+  "year": 2022,
+  "tmdb": 1023994,
+  "providers": {
+   "flatrate": [
+    "Netflix",
+    "Netflix Standard with Ads"
+   ]
+  },
+  "selectNaija": []
+ },
+ {
+  "type": "movie",
+  "name": "Jagun Jagun",
+  "year": 2023,
+  "tmdb": 1163045,
+  "providers": {
+   "flatrate": [
+    "Netflix",
+    "Netflix Standard with Ads"
+   ]
+  },
+  "selectNaija": []
+ },
+ {
+  "type": "movie",
+  "name": "Battle on Buka Street",
+  "year": 2022,
+  "tmdb": 1058479,
+  "providers": {
+   "flatrate": [
+    "Amazon Prime Video",
+    "Amazon Prime Video with Ads"
+   ]
+  },
+  "selectNaija": []
+ },
+ {
+  "type": "movie",
+  "name": "A Tribe Called Judah",
+  "year": 2023,
+  "tmdb": 1206988,
+  "providers": {
+   "flatrate": [
+    "Amazon Prime Video",
+    "Amazon Prime Video with Ads"
+   ]
+  },
+  "selectNaija": []
+ },
+ {
+  "type": "movie",
+  "name": "Brotherhood",
+  "year": 2022,
+  "tmdb": 1042978,
+  "providers": {},
+  "selectNaija": [
+   "youtube (Nollywoodpicturestv)",
+   "tubi"
+  ]
+ },
+ {
+  "type": "movie",
+  "name": "Merry Men: The Real Yoruba Demons",
+  "year": 2018,
+  "tmdb": 629742,
+  "providers": {
+   "ads": [
+    "Tubi TV"
+   ]
+  },
+  "selectNaija": [
+   "tubi"
+  ]
+ },
+ {
+  "type": "movie",
+  "name": "Chief Daddy",
+  "year": 2018,
+  "tmdb": 588346,
+  "providers": {
+   "flatrate": [
+    "Netflix",
+    "Netflix Standard with Ads"
+   ]
+  },
+  "selectNaija": [
+   "youtube (ROCKCELLY NOLLYWOOD FILMS TV)",
+   "youtube (EbonyLife Films)"
+  ]
+ },
+ {
+  "type": "movie",
+  "name": "Omo Ghetto: The Saga",
+  "year": 2020,
+  "tmdb": 790682,
+  "providers": {},
+  "selectNaija": [
+   "youtube (FAAN TV)"
+  ]
+ },
+ {
+  "type": "movie",
+  "name": "Gangs of Lagos",
+  "year": 2023,
+  "tmdb": 1104040,
+  "providers": {
+   "flatrate": [
+    "Amazon Prime Video",
+    "Amazon Prime Video with Ads"
+   ]
+  },
+  "selectNaija": [
+   "youtube (ROCKCELLY NOLLYWOOD FILMS TV)"
+  ]
+ },
+ {
+  "type": "movie",
+  "name": "The Black Book",
+  "year": 2023,
+  "tmdb": 1172009,
+  "providers": {
+   "flatrate": [
+    "Netflix",
+    "Netflix Standard with Ads"
+   ]
+  },
+  "selectNaija": []
+ },
+ {
+  "type": "movie",
+  "name": "Mami Wata",
+  "year": 2023,
+  "tmdb": 1013865,
+  "providers": {
+   "rent": [
+    "BFI Player"
+   ]
+  },
+  "selectNaija": []
+ },
+ {
+  "type": "movie",
+  "name": "Elesin Oba: The King's Horseman",
+  "year": 2022,
+  "tmdb": 1005774,
+  "providers": {
+   "flatrate": [
+    "Netflix",
+    "Netflix Standard with Ads"
+   ]
+  },
+  "selectNaija": []
+ },
+ {
+  "type": "movie",
+  "name": "October 1",
+  "year": 2014,
+  "tmdb": 325803,
+  "providers": {},
+  "selectNaija": []
+ },
+ {
+  "type": "tv",
+  "name": "Shanty Town",
+  "year": 2023,
+  "tmdb": 217460,
+  "providers": {
+   "flatrate": [
+    "Netflix",
+    "Netflix Standard with Ads"
+   ]
+  },
+  "selectNaija": []
+ },
+ {
+  "type": "tv",
+  "name": "Blood Sisters",
+  "year": 2022,
+  "tmdb": 197428,
+  "providers": {
+   "flatrate": [
+    "Netflix",
+    "Netflix Standard with Ads"
+   ]
+  },
+  "selectNaija": []
+ },
+ {
+  "type": "tv",
+  "name": "Far From Home",
+  "year": 2022,
+  "tmdb": 215874,
+  "providers": {
+   "flatrate": [
+    "Netflix",
+    "Netflix Standard with Ads"
+   ]
+  },
+  "selectNaija": []
+ }
+]
