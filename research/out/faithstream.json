@@ -1,5 +1,5 @@
 {
- "at": "2026-11-17T22:55:37.676Z",
+ "at": "2026-11-17T22:57:29.600Z",
  "signedIn": false,
  "pages": [],
  "calls": [
@@ -7,11 +7,112 @@
    "u": "https://gateway.thefaithstream.com/content/my-list",
    "m": "GET",
    "s": 401,
-   "b": "{\"status\":false,\"message\":\"Invalid or expired token\",\"error\":{\"code\":\"Unauthorized\",\"message\":\"Invalid or expired token\",\"details\":{\"message\":\"Invalid or expired token\",\"error\":\"Unauthorized\",\"statusCode\":401}},\"timestamp\":\"2026-11-17T22:55:39.170Z\",\"path\":\"/content/my-list\",\"method\":\"GET\",\"statusCode\":401}"
+   "b": "{\"status\":false,\"message\":\"Invalid or expired token\",\"error\":{\"code\":\"Unauthorized\",\"message\":\"Invalid or expired token\",\"details\":{\"message\":\"Invalid or expired token\",\"error\":\"Unauthorized\",\"statusCode\":401}},\"timestamp\":\"2026-11-17T22:57:31.034Z\",\"path\":\"/content/my-list\",\"method\":\"GET\",\"statusCode\":401}"
   }
  ],
  "media": [],
  "errors": [
-  "page.fill: Timeout 30000ms exceeded."
+  "locator.fill: Timeout 15000ms exceeded."
+ ],
+ "loginForm": [
+  {
+   "tag": "INPUT",
+   "type": "text",
+   "name": "",
+   "id": "_R_1lbqanpfivqllb_",
+   "ph": "example@gmail.com",
+   "text": "",
+   "visible": true
+  },
+  {
+   "tag": "INPUT",
+   "type": "password",
+   "name": "",
+   "id": "_R_2lbqanpfivqllb_",
+   "ph": "Enter password",
+   "text": "",
+   "visible": true
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "name": "",
+   "id": "",
+   "text": "",
+   "visible": true
+  },
+  {
+   "tag": "INPUT",
+   "type": "checkbox",
+   "name": "",
+   "id": "",
+   "ph": "",
+   "text": "",
+   "visible": true
+  },
+  {
+   "tag": "BUTTON",
+   "type": "submit",
+   "name": "",
+   "id": "",
+   "text": "Login",
+   "visible": true
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "name": "",
+   "id": "",
+   "text": "Sign In with Google",
+   "visible": true
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "name": "",
+   "id": "",
+   "text": "",
+   "visible": true
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "name": "",
+   "id": "",
+   "text": "",
+   "visible": true
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "name": "",
+   "id": "",
+   "text": "",
+   "visible": true
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "name": "",
+   "id": "",
+   "text": "",
+   "visible": true
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "name": "",
+   "id": "",
+   "text": "",
+   "visible": true
+  },
+  {
+   "tag": "BUTTON",
+   "type": "button",
+   "name": "",
+   "id": "",
+   "text": "Download on the\nApp Store",
+   "visible": true
+  }
  ]
 }
