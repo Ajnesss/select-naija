@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-17T23:49:22.666Z",
+ "generatedAt": "2026-11-17T23:52:37.056Z",
  "source": "FaithStream (thefaithstream.com)",
  "titles": [
   {
@@ -107,29 +107,6 @@
    "fsIds": [
     "5578167f-d12e-4809-83e7-95fe1feb46b9"
    ]
-  },
-  {
-   "id": "snaija-fs-the-peacemaker",
-   "type": "movie",
-   "name": "The Peacemaker",
-   "year": null,
-   "description": "A Mount Zion Production",
-   "poster": "https://d3jaci99bhbzji.cloudfront.net/thumbnails/5c05865e-c9b2-4080-b16a-553e36a3476d-1778256837544.jpg",
-   "languages": [
-    "en"
-   ],
-   "genres": [
-    "Faith",
-    "Drama"
-   ],
-   "live": [
-    "faithstream"
-   ],
-   "fsIds": [
-    "3912d291-a977-4d0e-a1df-ae765b7eb9f7",
-    "8ad7dec5-5ebb-4978-842d-042ad5f74323"
-   ],
-   "fsParts": true
   },
   {
    "id": "snaija-fs-the-kingmaker",
@@ -363,27 +340,6 @@
    ],
    "fsIds": [
     "7817f64d-0cfc-44bd-b1f1-d9e993f26701"
-   ]
-  },
-  {
-   "id": "snaija-fs-enoch",
-   "type": "movie",
-   "name": "Enoch",
-   "year": null,
-   "description": "A biographical drama that follows E. A. Adeboye from a childhood marked by poverty to his rise as the General Overseer of Redeemed Christian Church of God, tracing his academic journey, spiritual transformation, and the path that shaped his life of ministry and leadership.",
-   "poster": "https://d3jaci99bhbzji.cloudfront.net/thumbnails/0d1cfe82-059c-4faa-86d3-5bb1d1d401b6/53de06e7-ea5a-4879-b896-89a52f15d519/w1280.webp",
-   "languages": [
-    "en"
-   ],
-   "genres": [
-    "Faith",
-    "Drama"
-   ],
-   "live": [
-    "faithstream"
-   ],
-   "fsIds": [
-    "0d1cfe82-059c-4faa-86d3-5bb1d1d401b6"
    ]
   },
   {
@@ -757,22 +713,10 @@
      "title": "Episode 3"
     },
     {
-     "season": 1,
-     "episode": 4,
-     "fsId": "fc328032-d719-46d3-8c09-5fb6f28e531a",
-     "title": "Episode 4"
-    },
-    {
      "season": 2,
      "episode": 1,
      "fsId": "e97d1cfa-cadb-40f3-830a-d1bf83c6d676",
      "title": "Episode 1"
-    },
-    {
-     "season": 2,
-     "episode": 2,
-     "fsId": "811fcddb-9410-4f0a-a3ec-8f689bb84033",
-     "title": "Episode 2"
     },
     {
      "season": 2,
@@ -803,12 +747,6 @@
      "episode": 1,
      "fsId": "2fb16cdd-9ad1-4f37-b5f3-b4ca2e011653",
      "title": "Episode 1"
-    },
-    {
-     "season": 3,
-     "episode": 3,
-     "fsId": "363e4303-b695-4747-8a3a-8c1501f5fb3b",
-     "title": "Episode 3"
     }
    ]
   },
