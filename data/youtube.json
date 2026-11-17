@@ -1,16 +1,16 @@
 {
- "generatedAt": "2026-11-16T19:43:18.325Z",
+ "generatedAt": "2026-11-17T18:41:10.624Z",
  "channels": {
   "UCbvdwZvZgdl-pPyomEmaEfg": {
    "name": "Omoni Oboli TV",
    "subscribers": 2110000,
-   "videos": 1338,
+   "videos": 1340,
    "films": 104
   },
   "UC83tx3zGcvQ_rXzsZigTnEA": {
    "name": "APATATV+",
    "subscribers": 2640000,
-   "videos": 2353,
+   "videos": 2357,
    "films": 342
   },
   "UCjcFNZE51DmSrGYBqixs0Ug": {
@@ -22,7 +22,7 @@
   "UCypAoMCRQuNL2RBwy-x4oQg": {
    "name": "Uchenna Mbunabo Tv",
    "subscribers": 3970000,
-   "videos": 272,
+   "videos": 273,
    "films": 167
   },
   "UCThviXLHvH8VwqxQEa4vZaw": {
@@ -34,7 +34,7 @@
   "UCLLA3OKhzK-tzXFvXhnGKZQ": {
    "name": "FAAN TV",
    "subscribers": 1440000,
-   "videos": 2778,
+   "videos": 2780,
    "films": 50
   },
   "UCneM4DHHUWMVwmYktz8X46g": {
@@ -46,7 +46,7 @@
   "UCf6hnTFeMiX6FCwLEGDIjOw": {
    "name": "SANDRA OKUNZUWA TV",
    "subscribers": 1170000,
-   "videos": 931,
+   "videos": 932,
    "films": 42
   },
   "UCHY9J0IWIWht6GqIBiLidBA": {
@@ -124,13 +124,13 @@
   "UC1By7koB6TJqjrfCvmYUIxQ": {
    "name": "AFOREVO STAGE",
    "subscribers": 2630000,
-   "videos": 3430,
+   "videos": 3432,
    "films": 2152
   },
   "UCi8vPG6uMxIjoZMhLLX2BkQ": {
    "name": "Nollywoodpicturestv",
    "subscribers": 3010000,
-   "videos": 10658,
+   "videos": 10661,
    "films": 1658
   },
   "UCNq7_TKmIc8J6j-qUcyxNFA": {
@@ -148,8 +148,8 @@
   "UCVsqair_RFTI1K5cuaLaNtg": {
    "name": "Nigerian Movies Plus",
    "subscribers": 1860000,
-   "videos": 3039,
-   "films": 1972
+   "videos": 3042,
+   "films": 1975
   },
   "UCJ1I13e9PN7u4iszJ6M0AXQ": {
    "name": "ROCKCELLY NOLLYWOOD FILMS TV",
@@ -195,8 +195,8 @@
   },
   "UCB4TZvSKXjSx2pyJG-zIxsQ": {
    "name": "TK ÒPÓMÚLÉRÓ",
-   "subscribers": 115000,
-   "videos": 588,
+   "subscribers": 116000,
+   "videos": 589,
    "films": 58
   },
   "UCMLiH9492y_qAPWfJY93ySQ": {
@@ -237,7 +237,7 @@
   "UC3PkFyrpeoRxfwWpTUp2uUg": {
    "name": "YAKUBU MOHAMMED 2EFFECT TV",
    "subscribers": 384000,
-   "videos": 374,
+   "videos": 375,
    "films": 31
   },
   "UCdiI6VrQ4aYI29FW1ChiHsA": {
@@ -255,7 +255,7 @@
   "UCJyFkDxxIgPVz-x_0UZPqfg": {
    "name": "AREWA24",
    "subscribers": 919000,
-   "videos": 5884,
+   "videos": 5886,
    "films": 390
   },
   "UClU5QkUqFL4a7AdxScHa2Vg": {
@@ -267,7 +267,7 @@
   "UCPdsCoSqO4dZcnkX_4do6hA": {
    "name": "KAP STREAM",
    "subscribers": 40100,
-   "videos": 107,
+   "videos": 108,
    "films": 7
   },
   "UCuoDa0ZOF0h9doIaJIkr8yA": {
@@ -283,8 +283,8 @@
   },
   "UCLgjn9SPLG7BxyuFB_uNfXQ": {
    "name": "BIODUNSTEPHEN TV",
-   "subscribers": 468000,
-   "videos": 939,
+   "subscribers": 469000,
+   "videos": 941,
    "films": 35
   },
   "UCiZWyHYEvZO-1MFIxy1ojQg": {
@@ -302,7 +302,7 @@
   "UC9HDrOalDVN0Wv-Q7zTkQCg": {
    "name": "Okiki Premium TV",
    "subscribers": 355000,
-   "videos": 428,
+   "videos": 429,
    "films": 46
   },
   "UCdYgV-WJEog1H_PxN45cNWg": {
@@ -320,13 +320,13 @@
   "UC6izPafX_9ydQCa7xctxcuQ": {
    "name": "NollyReel",
    "subscribers": 150000,
-   "videos": 376,
-   "films": 361
+   "videos": 377,
+   "films": 362
   },
   "UCjS6UnmKjrBX3krk8oVZocg": {
    "name": "nollynetwork",
    "subscribers": 223000,
-   "videos": 292,
+   "videos": 293,
    "films": 112
   },
   "UCA_cLbPgQBD9mOCVPdToE1Q": {
@@ -98531,6 +98531,63 @@
    "channelName": "Regina Daniels Tv"
   },
   {
+   "id": "snaija-yt-i-urge-every-lady-never-to-skip-this-mindblowing-love-movie-and-learn-from-it-2026",
+   "type": "movie",
+   "name": "I Urge Every Lady Never to Skip This Mindblowing Love Movie and Learn From It",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance"
+   ],
+   "cast": [],
+   "runtime": "133 min",
+   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2026 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
+   "uploadedAt": "2026-11-17T16:00:09.000Z",
+   "poster": "https://i.ytimg.com/vi/7ZTYbaEK4tI/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
+   },
+   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "7ZTYbaEK4tI",
+     "minutes": 133,
+     "quality": "hd"
+    }
+   ],
+   "alternates": [
+    {
+     "label": "another upload",
+     "parts": [
+      {
+       "part": 1,
+       "videoId": "uo_jRPeXyBQ",
+       "minutes": 132,
+       "quality": "hd"
+      }
+     ]
+    },
+    {
+     "label": "another upload",
+     "parts": [
+      {
+       "part": 1,
+       "videoId": "WMld8q3AIPc",
+       "minutes": 128
+      }
+     ]
+    }
+   ],
+   "channelName": "AFOREVO STAGE"
+  },
+  {
    "id": "snaija-yt-i-plead-with-every-lady-to-watch-this-explosive-love-movie-learn-a-life-lesson-2026",
    "type": "movie",
    "name": "I Plead With Every Lady to Watch This Explosive Love Movie & Learn a Life Lesson",
@@ -98784,39 +98841,6 @@
        "minutes": 172
       }
      ]
-    }
-   ],
-   "channelName": "AFOREVO STAGE"
-  },
-  {
-   "id": "snaija-yt-i-urge-every-lady-never-to-skip-this-mindblowing-love-movie-and-learn-from-it-2026",
-   "type": "movie",
-   "name": "I Urge Every Lady Never to Skip This Mindblowing Love Movie and Learn From It",
-   "aliases": [],
-   "year": 2026,
-   "yearIsUpload": true,
-   "languages": [
-    "en"
-   ],
-   "category": "film",
-   "genres": [
-    "Romance"
-   ],
-   "cast": [],
-   "runtime": "128 min",
-   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2026 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
-   "uploadedAt": "2026-11-16T11:00:09.000Z",
-   "poster": "https://i.ytimg.com/vi/WMld8q3AIPc/maxresdefault.jpg",
-   "posterShape": "landscape",
-   "sources": {
-    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
-   },
-   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
-   "parts": [
-    {
-     "part": 1,
-     "videoId": "WMld8q3AIPc",
-     "minutes": 128
     }
    ],
    "channelName": "AFOREVO STAGE"
@@ -183880,6 +183904,66 @@
    "channelName": "AFOREVO STAGE"
   },
   {
+   "id": "snaija-yt-pains-of-choosing-you-2026",
+   "type": "movie",
+   "name": "Pains of Choosing You",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Drama"
+   ],
+   "cast": [],
+   "runtime": "239 min",
+   "description": "Pains Of Choosing You - New Nollywood Movie is a 2026 Nigerian film.",
+   "uploadedAt": "2026-11-17T12:02:25.000Z",
+   "poster": "https://i.ytimg.com/vi/2xkD8SFWmkw/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nollywoodpicturestv (UCi8vPG6uMxIjoZMhLLX2BkQ)"
+   },
+   "channel": "UCi8vPG6uMxIjoZMhLLX2BkQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "2xkD8SFWmkw",
+     "minutes": 41
+    },
+    {
+     "part": 2,
+     "videoId": "Kkp-5vhcmso",
+     "minutes": 41
+    },
+    {
+     "part": 3,
+     "videoId": "6bQqEDTRm-U",
+     "minutes": 39
+    },
+    {
+     "part": 4,
+     "videoId": "UibZJfoz0tQ",
+     "minutes": 39
+    },
+    {
+     "part": 5,
+     "videoId": "NCQRWGSwNrY",
+     "minutes": 41,
+     "quality": "hd"
+    },
+    {
+     "part": 6,
+     "videoId": "v1ub9cOf7Lg",
+     "minutes": 38,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nollywoodpicturestv"
+  },
+  {
    "id": "snaija-yt-my-father-s-secret-2026",
    "type": "movie",
    "name": "My Father's Secret",
@@ -183925,54 +184009,6 @@
      "videoId": "tNAJAAmUI3I",
      "minutes": 35,
      "quality": "hd"
-    }
-   ],
-   "channelName": "Nollywoodpicturestv"
-  },
-  {
-   "id": "snaija-yt-pains-of-choosing-you-2026",
-   "type": "movie",
-   "name": "Pains of Choosing You",
-   "aliases": [],
-   "year": 2026,
-   "yearIsUpload": false,
-   "languages": [
-    "en"
-   ],
-   "category": "film",
-   "genres": [
-    "Drama"
-   ],
-   "cast": [],
-   "runtime": "160 min",
-   "description": "Pains Of Choosing You - New Nollywood Movie is a 2026 Nigerian film.",
-   "uploadedAt": "2026-11-14T11:58:12.000Z",
-   "poster": "https://i.ytimg.com/vi/2xkD8SFWmkw/maxresdefault.jpg",
-   "posterShape": "landscape",
-   "sources": {
-    "all": "YouTube channel Nollywoodpicturestv (UCi8vPG6uMxIjoZMhLLX2BkQ)"
-   },
-   "channel": "UCi8vPG6uMxIjoZMhLLX2BkQ",
-   "parts": [
-    {
-     "part": 1,
-     "videoId": "2xkD8SFWmkw",
-     "minutes": 41
-    },
-    {
-     "part": 2,
-     "videoId": "Kkp-5vhcmso",
-     "minutes": 41
-    },
-    {
-     "part": 3,
-     "videoId": "6bQqEDTRm-U",
-     "minutes": 39
-    },
-    {
-     "part": 4,
-     "videoId": "UibZJfoz0tQ",
-     "minutes": 39
     }
    ],
    "channelName": "Nollywoodpicturestv"
@@ -271192,6 +271228,111 @@
     }
    ],
    "channelName": "Neptune3 Studios"
+  },
+  {
+   "id": "snaija-yt-betrayed-by-the-royal-family-2026",
+   "type": "movie",
+   "name": "Betrayed By the Royal Family",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "157 min",
+   "description": "Long-buried secrets, deadly curses, and shocking betrayals unleash terror upon an innocent generation. As darkness threatens to consume the land, the people must uncover the truth behind their ancestors' wicked deed",
+   "uploadedAt": "2026-11-17T17:00:25.000Z",
+   "poster": "https://i.ytimg.com/vi/1kJ2Cuh_xl4/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "1kJ2Cuh_xl4",
+     "minutes": 157,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
+  },
+  {
+   "id": "snaija-yt-i-piosoned-the-princess-so-she-won-t-marry-my-man-but-her-ghost-is-back-to-hunt-me-2026",
+   "type": "movie",
+   "name": "I Piosoned the Princess So She Won't Marry My Man But Her Ghost Is Back to Hunt Me!",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Epic",
+    "Supernatural"
+   ],
+   "cast": [],
+   "runtime": "141 min",
+   "description": "Long-buried secrets, deadly curses, and shocking betrayals unleash terror upon an innocent generation. As darkness threatens to consume the land, the people must uncover the truth behind their ancestors' wicked deed",
+   "uploadedAt": "2026-11-17T11:20:47.000Z",
+   "poster": "https://i.ytimg.com/vi/LjqBNzfzFWc/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "LjqBNzfzFWc",
+     "minutes": 141,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
+  },
+  {
+   "id": "snaija-yt-my-evil-mother-and-her-boyfriend-killed-me-to-hide-the-truth-but-my-spirit-is-back-2026",
+   "type": "movie",
+   "name": "My Evil Mother and Her Boyfriend Killed Me to Hide the Truth But My Spirit Is Back!",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Supernatural",
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "178 min",
+   "description": "Consumed by greed, jealousy and insecurity, a desperate single mother makes a shocking decision that threatens to destroy her own family. But just when she thinks she has gotten away with it, fate strikes in the mos",
+   "uploadedAt": "2026-11-16T23:00:03.000Z",
+   "poster": "https://i.ytimg.com/vi/Hhed775fP54/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "Hhed775fP54",
+     "minutes": 178,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
   },
   {
    "id": "snaija-yt-they-came-from-the-village-to-destroy-my-marriage-but-god-shattered-their-plans-2026",
@@ -513676,6 +513817,39 @@
     }
    ],
    "channelName": "SceneOne TV"
+  },
+  {
+   "id": "snaija-yt-gen-z-wife-x-titled-husband-2026",
+   "type": "movie",
+   "name": "Gen Z Wife X Titled Husband",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance"
+   ],
+   "cast": [],
+   "runtime": "119 min",
+   "uploadedAt": "2026-11-17T17:00:00.000Z",
+   "poster": "https://i.ytimg.com/vi/0rG_N2V70Xc/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel NollyReel (UC6izPafX_9ydQCa7xctxcuQ)"
+   },
+   "channel": "UC6izPafX_9ydQCa7xctxcuQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "0rG_N2V70Xc",
+     "minutes": 119,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "NollyReel"
   },
   {
    "id": "snaija-yt-sour-marriage-secrets-2026",

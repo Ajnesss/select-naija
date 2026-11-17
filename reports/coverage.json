@@ -1,34 +1,34 @@
 {
- "playable": 12539,
- "youtubeOnly": 12420,
- "youtubeShare": 99.1,
- "nonYoutube": 119,
+ "playable": 12545,
+ "youtubeOnly": 12424,
+ "youtubeShare": 99,
+ "nonYoutube": 121,
  "nonYoutubeBySource": {
   "Plex": 13,
-  "Tubi": 103,
+  "Tubi": 105,
   "Prime Video": 19
  },
  "bySource": {
   "Plex": 13,
-  "Tubi": 103,
-  "YouTube": 12431,
+  "Tubi": 105,
+  "YouTube": 12435,
   "Prime Video": 19
  },
  "byChannel": {
   "Plex: -": 13,
-  "Tubi: -": 103,
+  "Tubi: -": 105,
   "YouTube: BTAtv": 1404,
-  "Prime Video: -": 19,
   "YouTube: ROCKCELLY NOLLYWOOD FILMS TV": 835,
-  "YouTube: Uchenna Mbunabo Tv": 167,
-  "YouTube: EbonyLife Films": 1,
-  "YouTube: Nigerian Movies Plus": 1972,
   "YouTube: Uche Nancy tv": 667,
+  "YouTube: EbonyLife Films": 1,
+  "Prime Video: -": 19,
+  "YouTube: Nigerian Movies Plus": 1975,
+  "YouTube: Uchenna Mbunabo Tv": 167,
   "YouTube: nollynetwork": 112,
   "YouTube: Nollywood RealnollyTV": 696,
   "YouTube: Nollywoodpicturestv": 1658,
   "YouTube: Omoni Oboli TV": 104,
-  "YouTube: NollyReel": 361,
+  "YouTube: NollyReel": 362,
   "YouTube: APATATV+": 342,
   "YouTube: RuthKadiri247": 174,
   "YouTube: Uduak Isong TV": 73,
@@ -69,8 +69,8 @@
   "YouTube: SceneOne TV": 1,
   "YouTube: EL'S NOLLY TV ": 24
  },
- "generatedAt": "2026-11-16T19:52:48.830Z",
- "statusGeneratedAt": "2026-11-16T19:52:48.790Z",
+ "generatedAt": "2026-11-17T18:50:19.289Z",
+ "statusGeneratedAt": "2026-11-17T18:50:19.242Z",
  "groups": {
   "classics": {
    "total": 1,
@@ -85,9 +85,9 @@
  },
  "languages": {
   "en": {
-   "catalogued": 12685,
-   "covered": 11272,
-   "withoutTmdb": 12487,
+   "catalogued": 12690,
+   "covered": 11278,
+   "withoutTmdb": 12492,
    "coverage": 88.9
   },
   "yo": {
@@ -135,14 +135,14 @@
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 31
+   "checks30d": 32
   },
   "youtube": {
    "score": 100,
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 16
+   "checks30d": 17
   }
  },
  "gaps": [
