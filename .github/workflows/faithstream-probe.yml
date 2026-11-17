@@ -1,0 +1,49 @@
+name: Research FaithStream (signed in)
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: '41 */3 * * *' # until the first successful sign-in result is saved
+
+permissions:
+  contents: write
+
+concurrency:
+  group: verify
+  cancel-in-progress: false
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Skip if already done or no account yet
+        id: gate
+        env:
+          FS_EMAIL: ${{ secrets.FAITHSTREAM_EMAIL }}
+        run: |
+          if [ -z "$FS_EMAIL" ]; then echo "run=no" >> "$GITHUB_OUTPUT"; echo "No FAITHSTREAM_EMAIL secret yet"; exit 0; fi
+          if [ "${{ github.event_name }}" = "schedule" ] && grep -q '"signedIn": true' research/out/faithstream.json 2>/dev/null; then echo "run=no" >> "$GITHUB_OUTPUT"; exit 0; fi
+          echo "run=yes" >> "$GITHUB_OUTPUT"
+      - uses: actions/setup-node@v4
+        if: steps.gate.outputs.run == 'yes'
+        with:
+          node-version: 22
+      - name: Install browser
+        if: steps.gate.outputs.run == 'yes'
+        run: npm install --no-save playwright@1.49.1 && npx playwright install --with-deps chromium
+      - name: Sign in and record
+        if: steps.gate.outputs.run == 'yes'
+        env:
+          FAITHSTREAM_EMAIL: ${{ secrets.FAITHSTREAM_EMAIL }}
+          FAITHSTREAM_PASSWORD: ${{ secrets.FAITHSTREAM_PASSWORD }}
+        run: node scripts/faithstream-probe.js
+      - name: Save results
+        if: steps.gate.outputs.run == 'yes'
+        run: |
+          git config user.name "select-naija-research"
+          git config user.email "actions@users.noreply.github.com"
+          git add research/out/faithstream.json
+          git diff --cached --quiet || git commit -m "Research: FaithStream signed-in probe"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push && break; sleep 5; done
