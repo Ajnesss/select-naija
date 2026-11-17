@@ -1,6 +1,6 @@
 {
   "name": "select-naija",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "Select Naija: Nigerian films and series for Nuvio/Stremio from legitimate sources, with its own catalogue and verified links.",
   "main": "src/server.js",
   "type": "commonjs",
@@ -13,7 +13,9 @@
     "verify": "node scripts/verify.js",
     "report": "node scripts/report.js",
     "test": "node --test test/*.test.js",
-    "live-check": "node scripts/live-check.js"
+    "live-check": "node scripts/live-check.js",
+    "providers": "node test.js",
+    "providers-live": "node scripts/providers-live.js"
   },
   "license": "MIT",
   "private": true

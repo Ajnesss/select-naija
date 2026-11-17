@@ -6,6 +6,7 @@ const { loadData } = require('./data');
 const { manifestCatalogs, queryCatalog, metaFor } = require('./catalog');
 const { buildStreams } = require('./streams');
 const { DEFAULT, decodeConfig, configurePage } = require('./config');
+const { createEngine } = require('./engine');
 const pkg = require('../package.json');
 
 const RELOAD_MS = 10 * 60 * 1000;
@@ -45,6 +46,8 @@ function createServer(options = {}) {
   const diagnostics = options.diagnostics ?? process.env.SELECT_NAIJA_DIAGNOSTICS === '1';
   const tmdbApiKey = options.tmdbApiKey ?? process.env.TMDB_API_KEY;
   const fetchImpl = options.fetchImpl || fetch;
+  // Live providers (src/providers): on unless SELECT_NAIJA_LIVE_PROVIDERS=0 or options.engine === null.
+  const engine = options.engine !== undefined ? options.engine : process.env.SELECT_NAIJA_LIVE_PROVIDERS === '0' ? null : createEngine({ fetchImpl });
   let data = loadData(dataDir);
   let loadedAt = new Date().toISOString();
 
@@ -80,7 +83,7 @@ function createServer(options = {}) {
       const url = new URL(req.url, 'http://localhost');
       let rawParts = url.pathname.replace(/^\/+/, '').replace(/\.json$/, '').split('/');
       // Settings in the install URL: /<config>/manifest.json, /<config>/catalog/...
-      const RESOURCES = new Set(['', 'manifest', 'catalog', 'meta', 'stream', 'health', 'configure', 'playtest']);
+      const RESOURCES = new Set(['', 'manifest', 'catalog', 'meta', 'stream', 'health', 'configure', 'playtest', 'providers']);
       const config = !RESOURCES.has(rawParts[0]) ? decodeConfig(rawParts[0]) : null;
       if (config) rawParts = rawParts.slice(1);
       const cfg = config || DEFAULT;
@@ -104,6 +107,9 @@ function createServer(options = {}) {
           dataLoadedAt: loadedAt,
         });
       }
+      if (parts[0] === 'providers') {
+        return send(res, 200, { providers: engine ? engine.status() : [] });
+      }
       if (parts[0] === 'catalog' && parts.length >= 3) {
         const metas = queryCatalog(parts[1], parts[2], parseExtra(rawParts[3]), data, Date.now(), cfg);
         return send(res, 200, { metas }, 3600);
@@ -113,7 +119,17 @@ function createServer(options = {}) {
         return meta ? send(res, 200, { meta }, 3600) : send(res, 404, { meta: null });
       }
       if (parts[0] === 'stream' && parts.length === 3) {
-        const streams = await buildStreams(parts[1], parts[2], data, { tmdbApiKey, fetchImpl, youtube: cfg.yt, apps: cfg.apps === true, fallback: false });
+        const [catalogue, live] = await Promise.all([
+          buildStreams(parts[1], parts[2], data, { tmdbApiKey, fetchImpl, youtube: cfg.yt, apps: cfg.apps === true, fallback: false }),
+          engine ? engine.streamsFor(parts[1], parts[2], { data, tmdbApiKey }) : [],
+        ]);
+        // Streams that play in Nuvio first (catalogue, then live providers), links that open elsewhere last.
+        const plays = (s) => Boolean(s.url || s.ytId);
+        const seen = new Set();
+        const streams = [...catalogue.filter(plays), ...live, ...catalogue.filter((s) => !plays(s))].filter((s) => {
+          const key = s.url || s.ytId || s.externalUrl;
+          return seen.has(key) ? false : seen.add(key);
+        });
         return send(res, 200, { streams }, 600);
       }
       return send(res, 404, { error: 'not found' });

@@ -1,0 +1,36 @@
+name: Live providers
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: '23 4 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: verify
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Run providers against the test titles
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: node scripts/providers-live.js
+      - name: CLI sample
+        run: node test.js "Living in Bondage (1992)" && node test.js --coverage
+      - name: Save report
+        run: |
+          git config user.name "select-naija-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/providers-live.json reports/providers-live.md
+          git diff --cached --quiet || git commit -m "Live providers report $(date -u +%Y-%m-%d)"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push && break; sleep 5; done

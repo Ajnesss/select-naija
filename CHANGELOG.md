@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.9.0 — 17 Nov 2026
+
+- Live provider engine: `config/providers.js` (enable/disable, base-URL fallbacks, headers, rate limits, credentials by env name),
+  `src/engine/http.js` (cookie jar, redirect tracking, retries, timeouts, media probe), `matcher.js` (catalogue → Cinemeta → TMDB
+  resolution; tag stripping, Part/Season/Episode detection, ±1 year), `streamBuilder.js` (Nuvio stream schema with headers,
+  parts kept together), `index.js` (parallel providers, 8 s each, caching, pausing failing providers).
+- Providers: Internet Archive (open-licence, Nigeria-tagged items only) and Wikimedia Commons; `_template.js` reference provider.
+- `node test.js "<title>" | <imdb id>` CLI; `/providers` status endpoint; nightly `Live providers` workflow with a report.
+
 ## 0.8.0 (15 Nov 2026)
 
 - Everything plays inside Nuvio by default: YouTube films play in Nuvio's own player again (the viewer's choice; Nuvio's built-in YouTube support is not allowed by YouTube's terms, which the settings page says). Tubi, Plex and Prime Video links (they open other apps) and the "Open in the YouTube app" fallback are off by default; both remain optional in the settings.
