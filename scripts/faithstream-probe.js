@@ -29,7 +29,7 @@ const { chromium } = require('playwright');
     await page.goto('https://www.thefaithstream.com/auth/login', { waitUntil: 'networkidle', timeout: 45000 });
     await page.waitForTimeout(3000);
     out.loginForm = await page.$$eval('input, button', (els) => els.map((e) => ({ tag: e.tagName, type: e.type, name: e.name, id: e.id, ph: e.placeholder, text: (e.innerText || '').slice(0, 40), visible: !!(e.offsetWidth || e.offsetHeight) })));
-    const emailBox = page.locator('input[type="email"], input[name*="email" i], input[placeholder*="email" i], input[id*="email" i]').filter({ visible: true }).first();
+    const emailBox = page.locator('input[type="email"], input[name*="email" i], input[placeholder*="@"], input[placeholder*="email" i], input[type="text"]').filter({ visible: true }).first();
     await emailBox.fill(email, { timeout: 15000 });
     let pass = page.locator('input[type="password"]').filter({ visible: true }).first();
     if (!(await pass.count())) {
