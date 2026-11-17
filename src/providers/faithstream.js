@@ -166,5 +166,6 @@ module.exports = {
   },
 
   loadCatalogue,
+  _token: () => session?.token,
   _reset() { session = null; catalogue = null; },
 };

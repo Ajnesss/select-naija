@@ -36,12 +36,12 @@ jobs:
         env:
           FAITHSTREAM_EMAIL: ${{ secrets.FAITHSTREAM_EMAIL }}
           FAITHSTREAM_PASSWORD: ${{ secrets.FAITHSTREAM_PASSWORD }}
-        run: node scripts/faithstream-probe.js
+        run: node scripts/faithstream-diag.js
       - name: Save results
         if: steps.gate.outputs.run == 'yes'
         run: |
           git config user.name "select-naija-research"
           git config user.email "actions@users.noreply.github.com"
-          git add research/out/faithstream.json
+          git add research/out/faithstream-diag.json
           git diff --cached --quiet || git commit -m "Research: FaithStream signed-in probe"
           for i in 1 2 3; do git pull --rebase -q origin main && git push && break; sleep 5; done
