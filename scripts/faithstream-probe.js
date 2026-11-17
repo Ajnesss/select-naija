@@ -27,10 +27,23 @@ const { chromium } = require('playwright');
   });
   try {
     await page.goto('https://www.thefaithstream.com/auth/login', { waitUntil: 'networkidle', timeout: 45000 });
-    await page.fill('input[type="email"], input[name="email"]', email);
-    await page.fill('input[type="password"], input[name="password"]', password);
-    await Promise.all([page.waitForLoadState('networkidle').catch(() => {}), page.click('button[type="submit"]')]);
-    await page.waitForTimeout(6000);
+    await page.waitForTimeout(3000);
+    out.loginForm = await page.$$eval('input, button', (els) => els.map((e) => ({ tag: e.tagName, type: e.type, name: e.name, id: e.id, ph: e.placeholder, text: (e.innerText || '').slice(0, 40), visible: !!(e.offsetWidth || e.offsetHeight) })));
+    const emailBox = page.locator('input[type="email"], input[name*="email" i], input[placeholder*="email" i], input[id*="email" i]').filter({ visible: true }).first();
+    await emailBox.fill(email, { timeout: 15000 });
+    let pass = page.locator('input[type="password"]').filter({ visible: true }).first();
+    if (!(await pass.count())) {
+      // Two-step form: email first, then password.
+      await page.locator('button[type="submit"], button:has-text("Continue"), button:has-text("Next"), button:has-text("Login"), button:has-text("Sign in")').filter({ visible: true }).first().click();
+      await page.waitForTimeout(4000);
+      pass = page.locator('input[type="password"]').filter({ visible: true }).first();
+    }
+    await pass.fill(password, { timeout: 15000 });
+    await Promise.all([
+      page.waitForLoadState('networkidle').catch(() => {}),
+      page.locator('button[type="submit"], button:has-text("Login"), button:has-text("Sign in"), button:has-text("Log in")').filter({ visible: true }).first().click(),
+    ]);
+    await page.waitForTimeout(8000);
     out.signedIn = !/\/auth\//.test(page.url());
     for (const url of ['https://www.thefaithstream.com/browse', 'https://www.thefaithstream.com/movies', 'https://www.thefaithstream.com/series']) {
       try {
