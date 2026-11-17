@@ -207,3 +207,13 @@ ad insertion, players, DRM, hosting, embed routes, partner APIs), plus each site
 | Pluto TV, Samsung TV Plus, Rakuten TV, DistroTV | Nolly Africa HD / Demand Africa FAST channels | Live channels, some VOD | Own apps | Pluto ToS s.5.2(a) bars access via other tools; same model elsewhere | No |
 | Filmjoint | Shorts | — | Domain for sale | — | Defunct |
 | Ebrohimie Road (Olongo Africa) | Yes | 7-day free window ended; now Vimeo On Demand | Vimeo OTT | — | No (rental) |
+
+## Round 12 (17 Nov 2026): live engine run; open archives; PeerTube; open-source integrations
+
+- Engine 0.9.0 ran live against 20 Nigerian titles (reports/providers-live.md).
+- Internet Archive (open licence + Nigeria tag): 200 items, none a Nigerian feature film (sermons, dances, a Katsina TV
+  livestream, clips). 0 of 20 test titles.
+- Wikimedia Commons: Daybreak in Udi (1949, filmed in Nigeria, public domain), 2 links answered as video. 1 of 20 titles.
+- PeerTube (Sepia Search, 480 hits for "nollywood"): fuzzy matches on Hollywood/Bollywood; no Nigerian films.
+- GitHub (repos/code mentioning Nollywood/Nigerian movies/Yoruba): YouTube-based apps, datasets, AI tools; no provider
+  integration with an authorised non-YouTube source.
