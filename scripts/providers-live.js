@@ -24,7 +24,7 @@ const TITLES = [
   for (const t of TITLES) {
     const req = { ...fromText(t, 'movie'), private: true };
     const { reports } = await engine.run(req, { verify: true, useCache: false });
-    runs.push({ query: t, reports: reports.map((r) => ({ provider: r.provider, status: r.status, ms: r.ms, error: r.error, steps: r.steps, matches: r.matches, results: r.results.map((x) => ({ url: x.url, part: x.part, quality: x.quality, licence: x.licence, verified: x.verified && { ok: x.verified.ok, status: x.verified.status, type: x.verified.type, length: x.verified.length } })) })) });
+    runs.push({ query: t, reports: reports.map((r) => ({ provider: r.provider, status: r.status, ms: r.ms, error: r.error, steps: r.steps, matches: r.matches, results: r.results.map((x) => ({ url: String(x.url).replace(/(playbackToken|token|Signature|Key-Pair-Id|Policy)=[^&]+/g, '$1=<removed>'), part: x.part, quality: x.quality, licence: x.licence, verified: x.verified && { ok: x.verified.ok, status: x.verified.status, type: x.verified.type, length: x.verified.length } })) })) });
   }
   const out = { generatedAt: new Date().toISOString(), providers: engine.providers, coverage, runs };
   const dir = path.join(__dirname, '..', 'reports');
