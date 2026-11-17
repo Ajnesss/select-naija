@@ -1,23 +1,23 @@
-# Live providers — 2026-11-17T23:18:29.683Z
+# Live providers — 2026-11-17T23:47:19.022Z
 
 ## Coverage
 
 - **archive**: 200 title(s)
-  - ISE ALAGBEDE (2023) — CC BY-SA 4.0
-  - End of the World - Season 1 - Episode 14 (2007) — CC BY-NC 2.5
+  - Paralisis Del Sueno (2010) — CC BY-NC-SA 4.0
+  - Sex Show 07 Ene 2013 (?) — CC BY-ND 3.0
   - Reading- Of David Rackoff's Half Empty (Penguinrandomhouse) (?) — CC BY-NC-ND 4.0
+  - James Hirabayashi Interview Segment 04 (2008) — CC BY-NC-SA 4.0
   - Shock (?) — CC BY-ND 3.0
   - MVI_1891 (2010) — CC BY 2.0
-  - Better Days Films - Day 16 (2013) — CC BY-SA 4.0
-  - C4I - Aug 21 Mike Gaddy Bill of rights (2018) — CC BY-NC-ND 3.0
-  - Human Touch 68 Democracy And Destabilization (?) — CC BY-NC-ND 4.0
-  - Yoruba . Translations of the meaning of the Noble Quran in Yoruba language. ìsìn; èsìn (?) — CC BY-NC-ND 3.0
+  - C4I for May 13 a barrell roll of flippin facts! (2014) — CC BY-NC-ND 3.0
   - Case Study: Return (?) — CC BY-NC-ND 3.0
-  - Ebola – soll eine weltweite Epidemie ausgerufen werden? (2014) — CC BY 3.0
-  - Africa Day : The Siddis and Folk Dances and Music From Kenya, Uganda, Sudan and Nigeria (1992) — CC BY-NC 4.0
-  - Community Network Exchange 2020 - CNXAPAC2020 (2020) — CC BY-SA 4.0
-  - THIS IS THE TIME!!! | TB Joshua Viewers Prayer (2021) — Public domain
-  - Egypt Accepts United Nations Cease-Fire, 1967/06/09 (1967) — Public domain
+  - Human Touch 68 Democracy And Destabilization (?) — CC BY-NC-ND 4.0
+  - George W Bush 20060329_ (?) — Public domain
+  - Countering Asymmetric Threats: Evaluating Nigeria’s Strategic Approaches to International Terrorism in the Boko Haram Era (2026) — CC0
+  - Africa Revisited 2010 A triptych of differing themes. (2010) — CC BY 2.0
+  - News at 7 [NTA Keffi, December 26, 2025] (2025) — CC BY-ND 4.0
+  - No More Innocent People Dying Official Video (2020) — CC BY-NC-ND 4.0
+  - Democracy Now! Thursday, October 17th, 2024 (2024) — CC BY-NC-ND 4.0
 - **commons**: 0 title(s)
 - **faithstream**: 14 title(s) · types {"Animations/Animation":7,"Movies/movie":49,"Podcasts/podcast":5,"Devotionals/daily-devotionals":3,"movie/null":22,"Series/series-episode":25,"series_episode/null":1,"PrayerStreams/Prayer-room":27}
   - WOUNDED (53 min)

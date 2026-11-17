@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-17T23:18:09.343Z",
+ "generatedAt": "2026-11-17T23:46:55.932Z",
  "source": "FaithStream (thefaithstream.com)",
  "titles": [
   {
@@ -25,71 +25,6 @@
    ]
   },
   {
-   "id": "snaija-fs-sims-2",
-   "type": "movie",
-   "name": "Sims 2",
-   "year": null,
-   "runtime": "77 min",
-   "description": "A DT Movie Production",
-   "poster": "https://d3jaci99bhbzji.cloudfront.net/thumbnails/d405153d-4596-40d8-8596-c8af319d7e14/e8bb3d43-0038-430e-b9cd-9fdcbf92d561/w1280.webp",
-   "languages": [
-    "en"
-   ],
-   "genres": [
-    "Faith",
-    "Drama"
-   ],
-   "live": [
-    "faithstream"
-   ],
-   "fsIds": [
-    "d405153d-4596-40d8-8596-c8af319d7e14"
-   ]
-  },
-  {
-   "id": "snaija-fs-the-ark",
-   "type": "movie",
-   "name": "The Ark",
-   "year": null,
-   "runtime": "88 min",
-   "description": "The Ark",
-   "poster": "https://d3jaci99bhbzji.cloudfront.net/thumbnails/737faf63-1f4e-4595-bb90-2b630b55432e/3331b8fe-0dc6-4208-8d7b-e67e46058e7f/w1280.webp",
-   "languages": [
-    "en"
-   ],
-   "genres": [
-    "Faith",
-    "Drama"
-   ],
-   "live": [
-    "faithstream"
-   ],
-   "fsIds": [
-    "737faf63-1f4e-4595-bb90-2b630b55432e"
-   ]
-  },
-  {
-   "id": "snaija-fs-sims-1",
-   "type": "movie",
-   "name": "Sims 1",
-   "year": null,
-   "description": "A Deep Thought Movie Production",
-   "poster": "https://d3jaci99bhbzji.cloudfront.net/thumbnails/3654f0ef-13d2-4c6c-92a4-425beed4b501/294792a7-4b68-47ba-9a60-09c1b0a89276/w1280.webp",
-   "languages": [
-    "en"
-   ],
-   "genres": [
-    "Faith",
-    "Drama"
-   ],
-   "live": [
-    "faithstream"
-   ],
-   "fsIds": [
-    "3654f0ef-13d2-4c6c-92a4-425beed4b501"
-   ]
-  },
-  {
    "id": "snaija-fs-my-defender-2",
    "type": "movie",
    "name": "My Defender 2",
@@ -108,6 +43,27 @@
    ],
    "fsIds": [
     "0bd7e582-a088-4d6a-bf15-8cdd0581ef81"
+   ]
+  },
+  {
+   "id": "snaija-fs-my-defender",
+   "type": "movie",
+   "name": "My Defender",
+   "year": null,
+   "description": "A Mount Zion Production",
+   "poster": "https://d3jaci99bhbzji.cloudfront.net/thumbnails/4af4105a-8b5b-42b4-86e8-c1752c5f7197/29bcce38-b8f9-440a-b186-cf99de8c3f35/w1280.webp",
+   "languages": [
+    "en"
+   ],
+   "genres": [
+    "Faith",
+    "Drama"
+   ],
+   "live": [
+    "faithstream"
+   ],
+   "fsIds": [
+    "4af4105a-8b5b-42b4-86e8-c1752c5f7197"
    ]
   },
   {
@@ -153,9 +109,55 @@
    ]
   },
   {
+   "id": "snaija-fs-the-peacemaker",
+   "type": "movie",
+   "name": "The Peacemaker",
+   "year": null,
+   "description": "A Mount Zion Production",
+   "poster": "https://d3jaci99bhbzji.cloudfront.net/thumbnails/5c05865e-c9b2-4080-b16a-553e36a3476d-1778256837544.jpg",
+   "languages": [
+    "en"
+   ],
+   "genres": [
+    "Faith",
+    "Drama"
+   ],
+   "live": [
+    "faithstream"
+   ],
+   "fsIds": [
+    "3912d291-a977-4d0e-a1df-ae765b7eb9f7",
+    "8ad7dec5-5ebb-4978-842d-042ad5f74323"
+   ],
+   "fsParts": true
+  },
+  {
+   "id": "snaija-fs-the-kingmaker",
+   "type": "movie",
+   "name": "The KingMaker",
+   "year": null,
+   "description": "A Mount Zion Film Production",
+   "poster": "https://d3jaci99bhbzji.cloudfront.net/thumbnails/ecce1248-2647-45ec-a8fe-44c89803e05b-1778257954240.jpg",
+   "languages": [
+    "en"
+   ],
+   "genres": [
+    "Faith",
+    "Drama"
+   ],
+   "live": [
+    "faithstream"
+   ],
+   "fsIds": [
+    "610fc22a-4961-444c-9b83-8f8607094067",
+    "0d4abb38-d9c7-4f6d-b203-30b31da20c1e"
+   ],
+   "fsParts": true
+  },
+  {
    "id": "snaija-fs-land-of-fury",
    "type": "movie",
-   "name": "Land Of Fury",
+   "name": "Land of Fury",
    "year": null,
    "description": "When a ruthless military force invades a peaceful town and abducts young schoolgirls, fear grips the community as chaos unfolds. As hope fades and time runs out, the people become desperate for who they can turn to for salvation.",
    "poster": "https://d3jaci99bhbzji.cloudfront.net/thumbnails/4270dae9-b9a8-45a1-a46e-33a0780b532b/d4693a13-c3da-424e-bae1-c5e49705d7c9/w1280.webp",
@@ -511,6 +513,27 @@
    ]
   },
   {
+   "id": "snaija-fs-recitation",
+   "type": "movie",
+   "name": "Recitation",
+   "year": null,
+   "description": "Testimony, a student with a stammer, is encouraged by his teacher to enter a 50-verse Bible recitation contest, a journey that challenges his confidence and changes how he sees his voice.",
+   "poster": "https://d3jaci99bhbzji.cloudfront.net/thumbnails/664e28fd-1505-429f-8875-cb3e9bbe994f/5feb25bb-eec0-4a92-b6d0-47e193b61afb/w1280.webp",
+   "languages": [
+    "en"
+   ],
+   "genres": [
+    "Faith",
+    "Drama"
+   ],
+   "live": [
+    "faithstream"
+   ],
+   "fsIds": [
+    "664e28fd-1505-429f-8875-cb3e9bbe994f"
+   ]
+  },
+  {
    "id": "snaija-fs-legion",
    "type": "movie",
    "name": "Legion",
@@ -613,6 +636,264 @@
    ],
    "fsIds": [
     "f71d14b1-4f6c-4473-8269-9bb0805b471c"
+   ]
+  },
+  {
+   "id": "snaija-fs-haunted",
+   "type": "movie",
+   "name": "Haunted",
+   "year": null,
+   "description": "Rebecca is tormented by unseen spiritual forces, drawing her into an intense battle that reveals the reality of spiritual warfare and her need for divine intervention.",
+   "poster": "https://d3jaci99bhbzji.cloudfront.net/thumbnails/178a961c-bf25-4d60-98ee-a8e5f3943f75/69776fcd-d24a-45ab-81b9-55f9febcbd9a/w1280.webp",
+   "languages": [
+    "en"
+   ],
+   "genres": [
+    "Faith",
+    "Drama"
+   ],
+   "live": [
+    "faithstream"
+   ],
+   "fsIds": [
+    "178a961c-bf25-4d60-98ee-a8e5f3943f75"
+   ]
+  },
+  {
+   "id": "snaija-fs-dying-with-the-king",
+   "type": "movie",
+   "name": "Dying with the King",
+   "year": null,
+   "description": "A king, aware that his end is near, sets out to secure a legacy that will outlive him, but the choices he makes will determine whether he is remembered with honour or regret.",
+   "poster": "https://d3jaci99bhbzji.cloudfront.net/thumbnails/bfccc949-3f02-4fe3-8675-23ebe7fe567d/7da0eae4-b73b-4ea7-9fa1-ec833121ce47/w1280.webp",
+   "languages": [
+    "en"
+   ],
+   "genres": [
+    "Faith",
+    "Drama"
+   ],
+   "live": [
+    "faithstream"
+   ],
+   "fsIds": [
+    "bfccc949-3f02-4fe3-8675-23ebe7fe567d"
+   ]
+  },
+  {
+   "id": "snaija-fs-ina-abe-aso",
+   "type": "movie",
+   "name": "Ina Abe Aso",
+   "year": null,
+   "description": "A respected individual hides a dangerous secret behind a seemingly upright life, but as the truth begins to surface, the consequences of hidden actions threaten everything they stand for.",
+   "poster": "https://d3jaci99bhbzji.cloudfront.net/thumbnails/4cab16f9-5e7e-4eda-809a-583f5998d8dc/a2c5e9c5-2160-49e5-ae6e-f7050e5d55c5/w1280.webp",
+   "languages": [
+    "en"
+   ],
+   "genres": [
+    "Faith",
+    "Drama"
+   ],
+   "live": [
+    "faithstream"
+   ],
+   "fsIds": [
+    "4cab16f9-5e7e-4eda-809a-583f5998d8dc"
+   ]
+  },
+  {
+   "id": "snaija-fs-the-accountant",
+   "type": "movie",
+   "name": "The Accountant",
+   "year": null,
+   "description": "An accountant faces pressure at home and temptation at work, forcing him to choose between compromise and standing firm in his faith.",
+   "poster": "https://d3jaci99bhbzji.cloudfront.net/thumbnails/5c9e6e77-3152-466b-9d17-7a255edf6932/0d5fb462-956a-4b32-bb5b-ac70bb12f3f9/w1280.webp",
+   "languages": [
+    "en"
+   ],
+   "genres": [
+    "Faith",
+    "Drama"
+   ],
+   "live": [
+    "faithstream"
+   ],
+   "fsIds": [
+    "5c9e6e77-3152-466b-9d17-7a255edf6932"
+   ]
+  },
+  {
+   "id": "snaija-fs-abattoir",
+   "type": "series",
+   "name": "Abattoir",
+   "poster": "https://d3jaci99bhbzji.cloudfront.net/thumbnails/363e4303-b695-4747-8a3a-8c1501f5fb3b/c6b937d6-099b-4e1b-b1eb-5dc35c1e1463/w1280.webp",
+   "languages": [
+    "en"
+   ],
+   "genres": [
+    "Faith",
+    "Drama"
+   ],
+   "live": [
+    "faithstream"
+   ],
+   "videos": [
+    {
+     "season": 1,
+     "episode": 1,
+     "fsId": "971fae71-10ca-4f25-8eb4-c54fb60475b0",
+     "title": "Episode 1"
+    },
+    {
+     "season": 1,
+     "episode": 2,
+     "fsId": "dfdf74e4-9713-4d22-b2b7-4f0eb5621dbf",
+     "title": "Episode 2"
+    },
+    {
+     "season": 1,
+     "episode": 3,
+     "fsId": "7cfbaee3-4e11-4d36-aad6-ee8f7b1d55f3",
+     "title": "Episode 3"
+    },
+    {
+     "season": 1,
+     "episode": 4,
+     "fsId": "fc328032-d719-46d3-8c09-5fb6f28e531a",
+     "title": "Episode 4"
+    },
+    {
+     "season": 2,
+     "episode": 1,
+     "fsId": "e97d1cfa-cadb-40f3-830a-d1bf83c6d676",
+     "title": "Episode 1"
+    },
+    {
+     "season": 2,
+     "episode": 2,
+     "fsId": "811fcddb-9410-4f0a-a3ec-8f689bb84033",
+     "title": "Episode 2"
+    },
+    {
+     "season": 2,
+     "episode": 3,
+     "fsId": "0d6bb340-0308-44cc-938b-2bde4042d5bb",
+     "title": "Episode 3"
+    },
+    {
+     "season": 2,
+     "episode": 4,
+     "fsId": "bfc5795a-f09c-409c-8d24-3850e98629bc",
+     "title": "Episode 4"
+    },
+    {
+     "season": 2,
+     "episode": 5,
+     "fsId": "938dba22-f27b-468f-bca8-7d5af1d3e390",
+     "title": "Episode 5"
+    },
+    {
+     "season": 2,
+     "episode": 6,
+     "fsId": "8f23b7f0-19d0-4312-aa01-b5c3272fe48e",
+     "title": "Episode 6"
+    },
+    {
+     "season": 3,
+     "episode": 1,
+     "fsId": "2fb16cdd-9ad1-4f37-b5f3-b4ca2e011653",
+     "title": "Episode 1"
+    },
+    {
+     "season": 3,
+     "episode": 3,
+     "fsId": "363e4303-b695-4747-8a3a-8c1501f5fb3b",
+     "title": "Episode 3"
+    }
+   ]
+  },
+  {
+   "id": "snaija-fs-gbemi",
+   "type": "series",
+   "name": "Gbemi",
+   "poster": "https://d3jaci99bhbzji.cloudfront.net/thumbnails/69bf58dd-4b07-4ca5-bfe3-1dbb4027533e/3e3d249b-06e1-4a91-8a34-4922df30d7be/w1280.webp",
+   "languages": [
+    "en"
+   ],
+   "genres": [
+    "Faith",
+    "Drama"
+   ],
+   "live": [
+    "faithstream"
+   ],
+   "videos": [
+    {
+     "season": 2,
+     "episode": 2,
+     "fsId": "69bf58dd-4b07-4ca5-bfe3-1dbb4027533e",
+     "title": "Episode 2"
+    }
+   ]
+  },
+  {
+   "id": "snaija-fs-corper-s-lodge",
+   "type": "series",
+   "name": "Corper's Lodge",
+   "poster": "https://d3jaci99bhbzji.cloudfront.net/thumbnails/ee1907fc-afa3-4862-9235-4241f786fca0/w1280.webp",
+   "languages": [
+    "en"
+   ],
+   "genres": [
+    "Faith",
+    "Drama"
+   ],
+   "live": [
+    "faithstream"
+   ],
+   "videos": [
+    {
+     "season": 1,
+     "episode": 1,
+     "fsId": "4974a4a7-13e1-4252-ade1-0277e7516af4",
+     "title": "Episode 1"
+    },
+    {
+     "season": 1,
+     "episode": 2,
+     "fsId": "0f71b914-f795-4722-9a80-e68cad9f9012",
+     "title": "Episode 2"
+    },
+    {
+     "season": 1,
+     "episode": 3,
+     "fsId": "65fbf68b-b0af-4542-a86b-762570cc3fe3",
+     "title": "Episode 3"
+    },
+    {
+     "season": 1,
+     "episode": 4,
+     "fsId": "4ec8d556-7910-4b1e-95aa-f832c179b622",
+     "title": "Episode 4"
+    },
+    {
+     "season": 1,
+     "episode": 5,
+     "fsId": "b2b45701-2e16-43ef-b422-fe4dd7a4e13d",
+     "title": "Episode 5"
+    },
+    {
+     "season": 1,
+     "episode": 6,
+     "fsId": "8f9744b3-9df3-4f9d-ae49-24ccc74464f2",
+     "title": "Episode 6"
+    },
+    {
+     "season": 1,
+     "episode": 7,
+     "fsId": "93b76795-dd7c-42a8-b506-f08aae852dcd",
+     "title": "Episode 7"
+    }
    ]
   }
  ]
