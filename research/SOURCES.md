@@ -227,3 +227,5 @@ ad insertion, players, DRM, hosting, embed routes, partner APIs), plus each site
   Series episodes not yet mapped to series names (Abejoye, Corper's Lodge) — next.
 - Live check: God Calling, Stranded, Land of Fury, The Train, Ipenija, Eternal Verdict — playback URLs issued and
   answered as HLS from GitHub's servers.
+- 17 Nov 2026 23:38: **playback verified in Nuvio** (user's device, private install): God Calling via FaithStream.
+  Server /providers: FaithStream ok, no failures, ~4.1 s for the first (signed-in) request.
