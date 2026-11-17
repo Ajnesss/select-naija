@@ -1,0 +1,610 @@
+{
+  "generatedAt": "2026-11-17T22:43:51.594Z",
+  "providers": [
+    "archive",
+    "commons"
+  ],
+  "coverage": [
+    {
+      "provider": "archive",
+      "titles": 200,
+      "matchedQuery": 442,
+      "sample": [
+        "Hausa Soul Winning Gospel Presentation Only JESUS CHRIST Saves (?) — Public domain",
+        "The White Aryan ije - marun root ije yii (?) — Public domain",
+        "Strike 4 A Cure (?) — CC BY-NC-ND 2.0",
+        "Should Museums Return Their Stolen Objects Empires Of Dirt (2020) — CC0",
+        "Iwan Baan: Ingenious homes in unexpected places (2013) — CC BY-NC-ND 3.0",
+        "[video] U.S. Army Medical Research Unit - Improving malaria diagnostics, Kisumu, Kenya, May 2010 (2010) — CC BY 2.0",
+        "Terres Brulees - Un Film Sur Le Congo Belge (1934) (1934) — Public domain",
+        "Nigerian Soldier Carries Actress 😂 😂 😂 🔥 🔥 04 (2021) — Public domain",
+        "EKEREAGWU/AGBOROGWỤ DANCE (2022) — CC BY-NC-ND 4.0",
+        "EN-HB(MM) (?) — CC BY 3.0",
+        "New Year’s Eve Sunday Service December 31st, 2023 (2024) — CC0",
+        "DTNS 20240304 (2024) — CC BY-ND 4.0",
+        "Katsina State Television Service Livestream [December 7, 2020] (2020) — CC BY-ND 4.0",
+        "Sex Show 16 Abril 2012 (?) — CC BY-ND 3.0",
+        "Stories From The Sacrifice Of The Companions Of The Prophet ( Itan Ifi Ẹmi Ji Iku Lọdọ Awọn Sahaabah) (?) — Public domain"
+      ]
+    },
+    {
+      "provider": "commons",
+      "titles": 0,
+      "sample": []
+    }
+  ],
+  "runs": [
+    {
+      "query": "Living in Bondage (1992)",
+      "reports": [
+        {
+          "provider": "archive",
+          "status": "no-match",
+          "ms": 343,
+          "error": null,
+          "steps": [
+            "search \"Living in Bondage\": 0 Nigeria-related items, 0 with an open licence"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "commons",
+          "status": "no-match",
+          "ms": 460,
+          "error": null,
+          "steps": [
+            "search \"Living in Bondage\": 0 video files, 0 tied to Nigeria"
+          ],
+          "matches": [],
+          "results": []
+        }
+      ]
+    },
+    {
+      "query": "Osuofia in London (2003)",
+      "reports": [
+        {
+          "provider": "archive",
+          "status": "no-match",
+          "ms": 582,
+          "error": null,
+          "steps": [
+            "search \"Osuofia in London\": 0 Nigeria-related items, 0 with an open licence"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "commons",
+          "status": "no-match",
+          "ms": 499,
+          "error": null,
+          "steps": [
+            "search \"Osuofia in London\": 0 video files, 0 tied to Nigeria"
+          ],
+          "matches": [],
+          "results": []
+        }
+      ]
+    },
+    {
+      "query": "Blood Sisters (2022)",
+      "reports": [
+        {
+          "provider": "archive",
+          "status": "no-match",
+          "ms": 464,
+          "error": null,
+          "steps": [
+            "search \"Blood Sisters\": 0 Nigeria-related items, 0 with an open licence"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "commons",
+          "status": "no-match",
+          "ms": 985,
+          "error": null,
+          "steps": [
+            "search \"Blood Sisters\": 30 video files, 0 tied to Nigeria"
+          ],
+          "matches": [],
+          "results": []
+        }
+      ]
+    },
+    {
+      "query": "Anikulapo (2022)",
+      "reports": [
+        {
+          "provider": "archive",
+          "status": "no-match",
+          "ms": 205,
+          "error": null,
+          "steps": [
+            "search \"Anikulapo\": 0 Nigeria-related items, 0 with an open licence"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "commons",
+          "status": "no-match",
+          "ms": 577,
+          "error": null,
+          "steps": [
+            "search \"Anikulapo\": 3 video files, 1 tied to Nigeria"
+          ],
+          "matches": [],
+          "results": []
+        }
+      ]
+    },
+    {
+      "query": "King of Boys (2018)",
+      "reports": [
+        {
+          "provider": "archive",
+          "status": "no-match",
+          "ms": 362,
+          "error": null,
+          "steps": [
+            "search \"King of Boys\": 0 Nigeria-related items, 0 with an open licence"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "commons",
+          "status": "no-match",
+          "ms": 696,
+          "error": null,
+          "steps": [
+            "search \"King of Boys\": 21 video files, 0 tied to Nigeria"
+          ],
+          "matches": [],
+          "results": []
+        }
+      ]
+    },
+    {
+      "query": "The Wedding Party (2016)",
+      "reports": [
+        {
+          "provider": "archive",
+          "status": "no-match",
+          "ms": 413,
+          "error": null,
+          "steps": [
+            "search \"The Wedding Party\": 0 Nigeria-related items, 0 with an open licence"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "commons",
+          "status": "no-match",
+          "ms": 869,
+          "error": null,
+          "steps": [
+            "search \"The Wedding Party\": 9 video files, 0 tied to Nigeria"
+          ],
+          "matches": [],
+          "results": []
+        }
+      ]
+    },
+    {
+      "query": "Lionheart (2018)",
+      "reports": [
+        {
+          "provider": "archive",
+          "status": "no-match",
+          "ms": 270,
+          "error": null,
+          "steps": [
+            "search \"Lionheart\": 0 Nigeria-related items, 0 with an open licence"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "commons",
+          "status": "no-match",
+          "ms": 779,
+          "error": null,
+          "steps": [
+            "search \"Lionheart\": 4 video files, 0 tied to Nigeria"
+          ],
+          "matches": [],
+          "results": []
+        }
+      ]
+    },
+    {
+      "query": "Ajani Ogun (1976)",
+      "reports": [
+        {
+          "provider": "archive",
+          "status": "no-match",
+          "ms": 474,
+          "error": null,
+          "steps": [
+            "search \"Ajani Ogun\": 0 Nigeria-related items, 0 with an open licence"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "commons",
+          "status": "no-match",
+          "ms": 353,
+          "error": null,
+          "steps": [
+            "search \"Ajani Ogun\": 0 video files, 0 tied to Nigeria"
+          ],
+          "matches": [],
+          "results": []
+        }
+      ]
+    },
+    {
+      "query": "Shaihu Umar (1976)",
+      "reports": [
+        {
+          "provider": "archive",
+          "status": "no-match",
+          "ms": 311,
+          "error": null,
+          "steps": [
+            "search \"Shaihu Umar\": 0 Nigeria-related items, 0 with an open licence"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "commons",
+          "status": "no-match",
+          "ms": 431,
+          "error": null,
+          "steps": [
+            "search \"Shaihu Umar\": 0 video files, 0 tied to Nigeria"
+          ],
+          "matches": [],
+          "results": []
+        }
+      ]
+    },
+    {
+      "query": "Daybreak in Udi (1949)",
+      "reports": [
+        {
+          "provider": "archive",
+          "status": "no-match",
+          "ms": 544,
+          "error": null,
+          "steps": [
+            "search \"Daybreak in Udi\": 0 Nigeria-related items, 0 with an open licence"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "commons",
+          "status": "ok",
+          "ms": 952,
+          "error": null,
+          "steps": [
+            "search \"Daybreak in Udi\": 1 video files, 1 tied to Nigeria",
+            "File:Daybreak in Udi (1949).webm: 2 playable version(s)"
+          ],
+          "matches": [
+            {
+              "title": "Daybreak in Udi (1949)",
+              "year": 1949,
+              "score": 0.86,
+              "ref": "https://commons.wikimedia.org/wiki/File:Daybreak_in_Udi_(1949).webm",
+              "licence": "Public domain"
+            }
+          ],
+          "results": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Daybreak_in_Udi_%281949%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "quality": 240,
+              "licence": "Public domain",
+              "verified": {
+                "ok": true,
+                "status": 200,
+                "type": "video/webm",
+                "length": 61556478
+              }
+            },
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c7/Daybreak_in_Udi_%281949%29.webm/Daybreak_in_Udi_%281949%29.webm.240p.vp9.webm",
+              "quality": 240,
+              "licence": "Public domain",
+              "verified": {
+                "ok": true,
+                "status": 200,
+                "type": "video/webm",
+                "length": 59856837
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Kongi's Harvest (1970)",
+      "reports": [
+        {
+          "provider": "archive",
+          "status": "no-match",
+          "ms": 282,
+          "error": null,
+          "steps": [
+            "search \"Kongi's Harvest\": 0 Nigeria-related items, 0 with an open licence"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "commons",
+          "status": "no-match",
+          "ms": 659,
+          "error": null,
+          "steps": [
+            "search \"Kongi's Harvest\": 0 video files, 0 tied to Nigeria"
+          ],
+          "matches": [],
+          "results": []
+        }
+      ]
+    },
+    {
+      "query": "Saworoide (1999)",
+      "reports": [
+        {
+          "provider": "archive",
+          "status": "no-match",
+          "ms": 288,
+          "error": null,
+          "steps": [
+            "search \"Saworoide\": 0 Nigeria-related items, 0 with an open licence"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "commons",
+          "status": "no-match",
+          "ms": 501,
+          "error": null,
+          "steps": [
+            "search \"Saworoide\": 0 video files, 0 tied to Nigeria"
+          ],
+          "matches": [],
+          "results": []
+        }
+      ]
+    },
+    {
+      "query": "Thunderbolt (2000)",
+      "reports": [
+        {
+          "provider": "archive",
+          "status": "no-match",
+          "ms": 450,
+          "error": null,
+          "steps": [
+            "search \"Thunderbolt\": 0 Nigeria-related items, 0 with an open licence"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "commons",
+          "status": "no-match",
+          "ms": 596,
+          "error": null,
+          "steps": [
+            "search \"Thunderbolt\": 30 video files, 0 tied to Nigeria"
+          ],
+          "matches": [],
+          "results": []
+        }
+      ]
+    },
+    {
+      "query": "Ije (2010)",
+      "reports": [
+        {
+          "provider": "archive",
+          "status": "no-match",
+          "ms": 528,
+          "error": null,
+          "steps": [
+            "search \"Ije\": 1 Nigeria-related items, 1 with an open licence"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "commons",
+          "status": "no-match",
+          "ms": 1178,
+          "error": null,
+          "steps": [
+            "search \"Ije\": 30 video files, 0 tied to Nigeria"
+          ],
+          "matches": [],
+          "results": []
+        }
+      ]
+    },
+    {
+      "query": "Half of a Yellow Sun (2013)",
+      "reports": [
+        {
+          "provider": "archive",
+          "status": "no-match",
+          "ms": 373,
+          "error": null,
+          "steps": [
+            "search \"Half of a Yellow Sun\": 0 Nigeria-related items, 0 with an open licence"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "commons",
+          "status": "no-match",
+          "ms": 640,
+          "error": null,
+          "steps": [
+            "search \"Half of a Yellow Sun\": 2 video files, 0 tied to Nigeria"
+          ],
+          "matches": [],
+          "results": []
+        }
+      ]
+    },
+    {
+      "query": "October 1 (2014)",
+      "reports": [
+        {
+          "provider": "archive",
+          "status": "no-match",
+          "ms": 382,
+          "error": null,
+          "steps": [
+            "search \"October 1\": 0 Nigeria-related items, 0 with an open licence"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "commons",
+          "status": "no-match",
+          "ms": 1449,
+          "error": null,
+          "steps": [
+            "search \"October 1\": 30 video files, 0 tied to Nigeria"
+          ],
+          "matches": [],
+          "results": []
+        }
+      ]
+    },
+    {
+      "query": "The Figurine (2009)",
+      "reports": [
+        {
+          "provider": "archive",
+          "status": "no-match",
+          "ms": 511,
+          "error": null,
+          "steps": [
+            "search \"The Figurine\": 0 Nigeria-related items, 0 with an open licence"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "commons",
+          "status": "no-match",
+          "ms": 829,
+          "error": null,
+          "steps": [
+            "search \"The Figurine\": 30 video files, 0 tied to Nigeria"
+          ],
+          "matches": [],
+          "results": []
+        }
+      ]
+    },
+    {
+      "query": "Eyimofe (2020)",
+      "reports": [
+        {
+          "provider": "archive",
+          "status": "no-match",
+          "ms": 399,
+          "error": null,
+          "steps": [
+            "search \"Eyimofe\": 0 Nigeria-related items, 0 with an open licence"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "commons",
+          "status": "no-match",
+          "ms": 479,
+          "error": null,
+          "steps": [
+            "search \"Eyimofe\": 4 video files, 0 tied to Nigeria"
+          ],
+          "matches": [],
+          "results": []
+        }
+      ]
+    },
+    {
+      "query": "Juju Stories (2021)",
+      "reports": [
+        {
+          "provider": "archive",
+          "status": "no-match",
+          "ms": 437,
+          "error": null,
+          "steps": [
+            "search \"Juju Stories\": 0 Nigeria-related items, 0 with an open licence"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "commons",
+          "status": "no-match",
+          "ms": 529,
+          "error": null,
+          "steps": [
+            "search \"Juju Stories\": 0 video files, 0 tied to Nigeria"
+          ],
+          "matches": [],
+          "results": []
+        }
+      ]
+    },
+    {
+      "query": "Mami Wata (2023)",
+      "reports": [
+        {
+          "provider": "archive",
+          "status": "no-match",
+          "ms": 328,
+          "error": null,
+          "steps": [
+            "search \"Mami Wata\": 0 Nigeria-related items, 0 with an open licence"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "commons",
+          "status": "no-match",
+          "ms": 553,
+          "error": null,
+          "steps": [
+            "search \"Mami Wata\": 1 video files, 1 tied to Nigeria"
+          ],
+          "matches": [],
+          "results": []
+        }
+      ]
+    }
+  ]
+}
