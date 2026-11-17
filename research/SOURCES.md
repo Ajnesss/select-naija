@@ -217,3 +217,13 @@ ad insertion, players, DRM, hosting, embed routes, partner APIs), plus each site
 - PeerTube (Sepia Search, 480 hits for "nollywood"): fuzzy matches on Hollywood/Bollywood; no Nigerian films.
 - GitHub (repos/code mentioning Nollywood/Nigerian movies/Yoruba): YouTube-based apps, datasets, AI tools; no provider
   integration with an authorised non-YouTube source.
+
+## Round 13 (17 Nov 2026): FaithStream integrated
+
+- Signed in with Select Naija's own free account. API: gateway.thefaithstream.com (`/auth/login`, `/content?limit=100&page=N`,
+  `/content/playback/url/<id>` → HLS on the gateway with a viewer `playbackToken`, valid 1 hour). H.264/AAC, 144p–720p,
+  no DRM, no adverts. Terms: content is for personal, non-commercial use → provider serves private installs only.
+- Catalogue: 139 videos; 29 Nigerian films identified (Mount Zion and other Nigerian faith films, God Calling).
+  Series episodes not yet mapped to series names (Abejoye, Corper's Lodge) — next.
+- Live check: God Calling, Stranded, Land of Fury, The Train, Ipenija, Eternal Verdict — playback URLs issued and
+  answered as HLS from GitHub's servers.
