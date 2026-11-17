@@ -2,8 +2,6 @@ name: Research FaithStream (signed in)
 
 on:
   workflow_dispatch: {}
-  schedule:
-    - cron: '41 */3 * * *' # until the first successful sign-in result is saved
 
 permissions:
   contents: write
@@ -24,7 +22,7 @@ jobs:
           FS_EMAIL: ${{ secrets.FAITHSTREAM_EMAIL }}
         run: |
           if [ -z "$FS_EMAIL" ]; then echo "run=no" >> "$GITHUB_OUTPUT"; echo "No FAITHSTREAM_EMAIL secret yet"; exit 0; fi
-          if [ "${{ github.event_name }}" = "schedule" ] && grep -q '"signedIn": true' research/out/faithstream.json 2>/dev/null; then echo "run=no" >> "$GITHUB_OUTPUT"; exit 0; fi
+          if [ "${{ github.event_name }}" = "schedule" ]; then echo "run=no" >> "$GITHUB_OUTPUT"; exit 0; fi
           echo "run=yes" >> "$GITHUB_OUTPUT"
       - uses: actions/setup-node@v4
         if: steps.gate.outputs.run == 'yes'

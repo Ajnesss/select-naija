@@ -17,13 +17,17 @@ const { chromium } = require('playwright');
   const browser = await chromium.launch();
   const page = await (await browser.newContext({ locale: 'en-GB', timezoneId: 'Europe/London' })).newPage();
   const redact = (s) => String(s).split(email).join('<email>').split(password).join('<password>').replace(/("?(?:access|refresh)_?token"?\s*[:=]\s*")[^"]+/gi, '$1<token>').replace(/Bearer\s+[\w.-]+/g, 'Bearer <token>');
+  let auth = null;
+  const unsign = (s) => String(s).replace(/(Signature|Key-Pair-Id|Policy)=[^&"\s]+/g, '$1=<removed>');
   page.on('response', async (r) => {
     const u = r.url();
-    if (/\.m3u8|\.mpd|\.mp4|\.webm|manifest|playlist|widevine|license|drm/i.test(u)) out.media.push({ u: redact(u.slice(0, 300)), s: r.status(), ct: r.headers()['content-type'] || '' });
+    if (/\.m3u8|\.mpd|\.mp4|\.webm|manifest|playlist|widevine|license|drm/i.test(u)) out.media.push({ u: unsign(u.slice(0, 300)), s: r.status(), ct: r.headers()['content-type'] || '' });
     if (!/gateway\.thefaithstream\.com/.test(u)) return;
     let b = '';
     try { b = await r.text(); } catch {}
-    out.calls.push({ u: redact(u.slice(0, 300)), m: r.request().method(), s: r.status(), b: redact(b.slice(0, 6000)) });
+    if (!auth && r.request().headers().authorization) auth = r.request().headers().authorization;
+    const accountCall = /\/(auth|users|account|profile)/i.test(new URL(u).pathname);
+    out.calls.push({ u: unsign(u.slice(0, 300)), m: r.request().method(), s: r.status(), b: accountCall ? '<account data not recorded>' : unsign(redact(b.slice(0, 20000))) });
   });
   try {
     await page.goto('https://www.thefaithstream.com/auth/login', { waitUntil: 'networkidle', timeout: 45000 });
@@ -53,15 +57,41 @@ const { chromium } = require('playwright');
         out.pages.push({ url, final: page.url(), title: await page.title(), text: (await page.locator('body').innerText()).replace(/\s+/g, ' ').slice(0, 4000), links: links.slice(0, 200) });
       } catch (e) { out.errors.push(`${url}: ${e.message.split('\n')[0]}`); }
     }
-    // Open up to three titles and press play, as a viewer would.
-    const titleLinks = [...new Set(out.pages.flatMap((p) => p.links))].filter((l) => /thefaithstream\.com\/(watch|movie|movies|series|title|video|content)\//.test(l)).slice(0, 3);
-    for (const url of titleLinks) {
+    // Catalogue as the site's own pages request it (signed-in viewer).
+    out.catalogue = {};
+    for (const ep of ['/content/content-types/list', '/content/curated-collections/homepage']) {
       try {
-        await page.goto(url, { waitUntil: 'networkidle', timeout: 45000 });
-        const play = page.locator('button:has-text("Play"), button:has-text("Watch"), [aria-label*="Play" i]').first();
-        if (await play.count()) { await play.click().catch(() => {}); await page.waitForTimeout(10000); }
-        out.pages.push({ url, final: page.url(), title: await page.title(), text: (await page.locator('body').innerText()).replace(/\s+/g, ' ').slice(0, 2000), videos: await page.$$eval('video', (vs) => vs.map((v) => ({ src: v.currentSrc || v.src, w: v.videoWidth, h: v.videoHeight, t: v.currentTime }))) });
-      } catch (e) { out.errors.push(`${url}: ${e.message.split('\n')[0]}`); }
+        const r = await page.request.get(`https://gateway.thefaithstream.com${ep}`, { headers: auth ? { authorization: auth } : {} });
+        out.catalogue[ep] = { s: r.status(), b: unsign((await r.text()).slice(0, 400000)) };
+      } catch (e) { out.errors.push(`${ep}: ${e.message.split('\n')[0]}`); }
+    }
+    out.terms = '';
+    try {
+      await page.goto('https://www.thefaithstream.com/legal/terms-and-conditions', { waitUntil: 'networkidle', timeout: 45000 });
+      out.terms = (await page.locator('body').innerText()).replace(/\s+/g, ' ').slice(0, 30000);
+    } catch (e) { out.errors.push(`terms: ${e.message.split('\n')[0]}`); }
+    // Open a film from the Movies page and press play, as a viewer would.
+    out.plays = [];
+    for (let i = 0; i < 2; i += 1) {
+      try {
+        await page.goto('https://www.thefaithstream.com/browse/movie', { waitUntil: 'networkidle', timeout: 45000 });
+        await page.waitForTimeout(3000);
+        const tiles = page.locator('main img, [class*="card" i] img, [class*="poster" i] img').filter({ visible: true });
+        const n = await tiles.count();
+        if (n <= i) { out.errors.push(`movie tiles found: ${n}`); break; }
+        const before = out.calls.length;
+        await tiles.nth(i).click({ timeout: 10000 });
+        await page.waitForTimeout(4000);
+        const play = page.locator('button:has-text("Play"), button:has-text("Watch"), a:has-text("Play"), [aria-label*="play" i]').filter({ visible: true }).first();
+        if (await play.count()) { await play.click({ timeout: 10000 }).catch(() => {}); await page.waitForTimeout(15000); }
+        out.plays.push({
+          url: page.url(),
+          title: await page.title(),
+          text: (await page.locator('body').innerText()).replace(/\s+/g, ' ').slice(0, 1500),
+          videos: await page.$$eval('video', (vs) => vs.map((v) => ({ src: (v.currentSrc || v.src || '').slice(0, 120), w: v.videoWidth, h: v.videoHeight, t: v.currentTime, d: v.duration }))),
+          callsDuring: out.calls.slice(before).map((c) => `${c.m} ${c.s} ${c.u}`),
+        });
+      } catch (e) { out.errors.push(`play ${i}: ${e.message.split('\n')[0]}`); }
     }
   } catch (e) { out.errors.push(e.message.split('\n')[0]); }
   await browser.close();

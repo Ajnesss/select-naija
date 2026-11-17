@@ -6,7 +6,7 @@
    "url": "https://www.thefaithstream.com/browse",
    "final": "https://www.thefaithstream.com/browse",
    "title": "Browse | FaithStream",
-   "text": "FaithStream Home Movies Series Devotionals Podcasts Animations My List 1 Give FaithStream Play More Info List Give G New on Faithstream Top 10 Today 1 2 3 4 5 6 7 8 9 10 Top 10 Movies in United States Today 1 2 3 4 5 6 7 8 9 10 We Think You'll Love These All Time Classic FaithStream © 2026, FaithStream, All rights reserved Powered by House of Faith Home Movies Series PrayerStreams Devotionals Podcasts Animations Terms and Conditions Privacy Policy Cookies Policy Help GIVE Contact Us Link TV Download on the App Store",
+   "text": "FaithStream Home Movies Series Devotionals Podcasts Animations My List 1 Give FaithStream Play More Info List Give G New on Faithstream Top 10 Today 1 2 3 4 5 6 7 8 9 10 Top 10 Movies in United States Today 1 2 3 4 5 6 7 8 9 10 We Think You'll Love These All Time Classic FaithStream \u00a9 2026, FaithStream, All rights reserved Powered by House of Faith Home Movies Series PrayerStreams Devotionals Podcasts Animations Terms and Conditions Privacy Policy Cookies Policy Help GIVE Contact Us Link TV Download on the App Store",
    "links": [
     "https://www.thefaithstream.com/browse",
     "https://www.thefaithstream.com/browse/movie",
@@ -62,7 +62,7 @@
    "u": "https://gateway.thefaithstream.com/auth/login",
    "m": "POST",
    "s": 200,
-   "b": "{\"status\":true,\"message\":\"Resource created successfully\",\"data\":{\"data\":{\"id\":\"<removed>\",\"email\":\"<email>\",\"firstName\":\"<removed>\",\"lastName\":\"<removed>\",\"username\":null,\"phoneNumber\":\"<removed>\",\"status\":\"active\",\"isApproved\":false,\"authProvider\":\"local\",\"providerId\":null,\"googleId\":null,\"facebookId\":null,\"emailVerified\":true,\"emailVerificationExpires\":null,\"passwordResetExpires\":null,\"twoFactorEnabled\":false,\"lastLogin\":\"2026-11-17T22:59:21.491Z\",\"lastIp\":\"<removed>\",\"createdAt\":\"2026-11-17T22:52:28.288Z\",\"updatedAt\":\"2026-11-17T22:59:21.588Z\",\"selectedExperienceGroupId\":null,\"experienceGroupSelected\":false,\"roles\":[{\"id\":\"5544a167-8472-4f4e-9c51-13269b224fe4\",\"name\":\"Standard User\",\"description\":null,\"type\":\"standard_user\",\"active\":true,\"createdAt\":\"2025-08-09T18:01:30.846Z\",\"updatedAt\":\"2025-08-09T18:01:30.846Z\"}],\"profile\":{\"id\":\"c6670eb3-6210-407b-945b-7457a7cc06ca\",\"userId\":\"<removed>\",\"avatar\":null,\"bio\":null,\"location\":null,\"website\":null,\"dateOfBirth\":null,\"gender\":null,\"theme\":\"auto\",\"language\":\"en\",\"emailNotifications\":true,\"pushNotifications\":true,\"marketingEmails\":false,\"adPersonalization\":true,\"parentalControls\":false,\"parentalPin\":null,\"preferredGenres\":[],\"preferredLanguages\":[],\"watchTimeMinutes\":0,\"videosWatched\":0,\"referralCount\":0,\"rewardPoints\":0,\"preferences\":null,\"createdAt\":\"2026-11-17T22:52:28.295Z\",\"updatedAt\":\"2026-11-17T22:52:28.295Z\"}},\"accessToken\":\"<token>\",\"refreshToken\":\"<token>\",\"location\":{\"country\":\"United States\",\"countryCode\":\"US\",\"city\":\"Phoenix\",\"state\":null,\"region\":\"Arizona\",\"timezone\":\"America/Phoenix\",\"ipAddress\":\"<removed>\",\"latitude\":33.448376,\"longitude\":-112.074036}},\"timestamp\":\"2026-11-17T22:59:21.604Z\",\"path\":\"/auth/login\",\"method\":\"POST\",\"statusCode\":200}"
+   "b": "<account data removed>"
   },
   {
    "u": "https://gateway.thefaithstream.com/content/content-types/list",
@@ -74,7 +74,7 @@
    "u": "https://gateway.thefaithstream.com/users/streaming-profiles/with-tokens",
    "m": "GET",
    "s": 200,
-   "b": "{\"status\":true,\"message\":\"Retrieved 1 items\",\"data\":[{\"id\":\"<removed>\",\"userId\":\"<removed>\",\"name\":\"<removed> <removed>\",\"avatar\":null,\"type\":\"adult\",\"maxAgeRating\":\"R\",\"isKidsProfile\":false,\"isPrimary\":true,\"isActive\":true,\"pinCode\":null,\"autoplayEnabled\":true,\"notificationsEnabled\":true,\"preferredGenres\":[],\"preferredLanguages\":[],\"blockedContentTypes\":[],\"watchTimeMinutes\":0,\"videosWatched\":0,\"lastWatchedAt\":null,\"preferences\":{},\"createdAt\":\"2026-11-17T22:52:55.677Z\",\"updatedAt\":\"2026-11-17T22:52:55.677Z\",\"accessToken\":\"<token>\"}],\"timestamp\":\"2026-11-17T22:59:22.459Z\",\"path\":\"/users/streaming-profiles/with-tokens\",\"method\":\"GET\",\"statusCode\":200}"
+   "b": "<account data removed>"
   },
   {
    "u": "https://gateway.thefaithstream.com/content/content-types/list",
@@ -92,7 +92,7 @@
    "u": "https://gateway.thefaithstream.com/content/trailers/cb3f18dd-c7b3-4b72-9f5d-2c88a04c5a21",
    "m": "GET",
    "s": 200,
-   "b": "{\"status\":true,\"message\":\"Operation successful\",\"data\":[{\"id\":\"trailer-0\",\"title\":\"Trailer 1\",\"url\":\"https://d39dojq0ctbdjy.cloudfront.net/trl-fa74176d-578b-41c1-8da1-d3a7b0fad304/master.m3u8?Expires=1794959964&Key-Pair-Id=E39T4M9Q1VV7XL&Signature=Gg2QzKTa8sPdcyFbweInEkzN2HXbc1I25TNPHONT3iFoVvsWZtzFNwizsmt~BR5zyCwXjTaiZb3xFxg3x~C5PdLdBJlqRCD9g1dTwyYgJwaELBbFjriCjbeGwbfLUDI-Snn0N-M~VX7NeIkNhEGtZa4rZW3jgK6EK0wb8AH49KX820ZLb1dY~Godx4nfnVMBsLIEzB3y7QrUG2~Yj9WXTKr3DsUiv8xXPZ-7zqNkWYyjb0Jy62BFUh~wIPVPJCGjj~47K8~N1yJGTBU0d~8IVgrABido8wYagGZfDChMAOeWegOcfOleEodhvJXH2tACWK8ursdRgjt5w3M3-hcfgA__\",\"duration\":0,\"quality\":\"HLS\",\"thumbnailUrl\":null}],\"timestamp\":\"2026-11-17T22:59:23.985Z\",\"path\":\"/content/trailers/cb3f18dd-c7b3-4b72-9f5d-2c88a04c5a21\",\"method\":\"GET\",\"statusCode\":200}"
+   "b": "{\"status\":true,\"message\":\"Operation successful\",\"data\":[{\"id\":\"trailer-0\",\"title\":\"Trailer 1\",\"url\":\"https://d39dojq0ctbdjy.cloudfront.net/trl-fa74176d-578b-41c1-8da1-d3a7b0fad304/master.m3u8?Expires=1794959964&Key-Pair-Id=E39T4M9Q1VV7XL&Signature=<removed>",\"duration\":0,\"quality\":\"HLS\",\"thumbnailUrl\":null}],\"timestamp\":\"2026-11-17T22:59:23.985Z\",\"path\":\"/content/trailers/cb3f18dd-c7b3-4b72-9f5d-2c88a04c5a21\",\"method\":\"GET\",\"statusCode\":200}"
   },
   {
    "u": "https://gateway.thefaithstream.com/content/curated-collections/homepage",
@@ -104,7 +104,7 @@
    "u": "https://gateway.thefaithstream.com/users/streaming-profiles/with-tokens",
    "m": "GET",
    "s": 200,
-   "b": "{\"status\":true,\"message\":\"Retrieved 1 items\",\"data\":[{\"id\":\"<removed>\",\"userId\":\"<removed>\",\"name\":\"<removed> <removed>\",\"avatar\":null,\"type\":\"adult\",\"maxAgeRating\":\"R\",\"isKidsProfile\":false,\"isPrimary\":true,\"isActive\":true,\"pinCode\":null,\"autoplayEnabled\":true,\"notificationsEnabled\":true,\"preferredGenres\":[],\"preferredLanguages\":[],\"blockedContentTypes\":[],\"watchTimeMinutes\":0,\"videosWatched\":0,\"lastWatchedAt\":null,\"preferences\":{},\"createdAt\":\"2026-11-17T22:52:55.677Z\",\"updatedAt\":\"2026-11-17T22:52:55.677Z\",\"accessToken\":\"<token>\"}],\"timestamp\":\"2026-11-17T22:59:28.988Z\",\"path\":\"/users/streaming-profiles/with-tokens\",\"method\":\"GET\",\"statusCode\":200}"
+   "b": "<account data removed>"
   },
   {
    "u": "https://gateway.thefaithstream.com/content/content-types/list",
@@ -134,7 +134,7 @@
    "u": "https://gateway.thefaithstream.com/content/trailers/cb3f18dd-c7b3-4b72-9f5d-2c88a04c5a21",
    "m": "GET",
    "s": 200,
-   "b": "{\"status\":true,\"message\":\"Operation successful\",\"data\":[{\"id\":\"trailer-0\",\"title\":\"Trailer 1\",\"url\":\"https://d39dojq0ctbdjy.cloudfront.net/trl-fa74176d-578b-41c1-8da1-d3a7b0fad304/master.m3u8?Expires=1794959969&Key-Pair-Id=E39T4M9Q1VV7XL&Signature=PlMLGHwhDa~jmSbzVk21-Mg68gssEOOYcNXWQLpoeoKlSbUS00ZZkJrV~Zc0p3b5BUKM5szq9hzmnTcAZAyMFKPmzs-6f5M7Oe0lWndORFn-Y-7a~9l1L~PKw4Alq9anR98LSXEoxByde-DAPqVWdEDiNIZe2Xp6H1v0rRzWldu5LlXTW3~saBM7eJ16JoVLfXN4HqJBw4ROQTKvZdutAHREnAlVUNQUiNZ4E-mkTb~CmXbtJse6v3N8Sal3yfAzPhvS6VO5jljqvuaUlAFqpFQdxVfeRsiRYuZr5ffuJES23pzPzWf9C~Wh-LEwuFAhE-UGmPKk3Vm-NgHgOyTeIw__\",\"duration\":0,\"quality\":\"HLS\",\"thumbnailUrl\":null}],\"timestamp\":\"2026-11-17T22:59:29.392Z\",\"path\":\"/content/trailers/cb3f18dd-c7b3-4b72-9f5d-2c88a04c5a21\",\"method\":\"GET\",\"statusCode\":200}"
+   "b": "{\"status\":true,\"message\":\"Operation successful\",\"data\":[{\"id\":\"trailer-0\",\"title\":\"Trailer 1\",\"url\":\"https://d39dojq0ctbdjy.cloudfront.net/trl-fa74176d-578b-41c1-8da1-d3a7b0fad304/master.m3u8?Expires=1794959969&Key-Pair-Id=E39T4M9Q1VV7XL&Signature=<removed>",\"duration\":0,\"quality\":\"HLS\",\"thumbnailUrl\":null}],\"timestamp\":\"2026-11-17T22:59:29.392Z\",\"path\":\"/content/trailers/cb3f18dd-c7b3-4b72-9f5d-2c88a04c5a21\",\"method\":\"GET\",\"statusCode\":200}"
   },
   {
    "u": "https://gateway.thefaithstream.com/content/my-list",
@@ -151,12 +151,12 @@
  ],
  "media": [
   {
-   "u": "https://d39dojq0ctbdjy.cloudfront.net/trl-fa74176d-578b-41c1-8da1-d3a7b0fad304/master.m3u8?Expires=1794959964&Key-Pair-Id=E39T4M9Q1VV7XL&Signature=Gg2QzKTa8sPdcyFbweInEkzN2HXbc1I25TNPHONT3iFoVvsWZtzFNwizsmt~BR5zyCwXjTaiZb3xFxg3x~C5PdLdBJlqRCD9g1dTwyYgJwaELBbFjriCjbeGwbfLUDI-Snn0N-M~VX7NeIkNhEGtZa4rZ",
+   "u": "https://d39dojq0ctbdjy.cloudfront.net/trl-fa74176d-578b-41c1-8da1-d3a7b0fad304/master.m3u8?Expires=1794959964&Key-Pair-Id=E39T4M9Q1VV7XL&Signature=<removed>",
    "s": 200,
    "ct": "application/vnd.apple.mpegurl"
   },
   {
-   "u": "https://d39dojq0ctbdjy.cloudfront.net/trl-fa74176d-578b-41c1-8da1-d3a7b0fad304/master.m3u8?Expires=1794959969&Key-Pair-Id=E39T4M9Q1VV7XL&Signature=PlMLGHwhDa~jmSbzVk21-Mg68gssEOOYcNXWQLpoeoKlSbUS00ZZkJrV~Zc0p3b5BUKM5szq9hzmnTcAZAyMFKPmzs-6f5M7Oe0lWndORFn-Y-7a~9l1L~PKw4Alq9anR98LSXEoxByde-DAPqVWdEDiN",
+   "u": "https://d39dojq0ctbdjy.cloudfront.net/trl-fa74176d-578b-41c1-8da1-d3a7b0fad304/master.m3u8?Expires=1794959969&Key-Pair-Id=E39T4M9Q1VV7XL&Signature=<removed>",
    "s": 200,
    "ct": "application/vnd.apple.mpegurl"
   }
