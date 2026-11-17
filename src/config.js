@@ -22,7 +22,7 @@ function decodeConfig(segment) {
     const raw = JSON.parse(Buffer.from(segment, 'base64url').toString('utf8'));
     const langs = (Array.isArray(raw.langs) ? raw.langs : []).filter((l) => LANG_OPTIONS[l]);
     const rows = (Array.isArray(raw.rows) ? raw.rows : []).filter((r) => ROW_OPTIONS[r]);
-    return { langs: langs.length ? langs : DEFAULT.langs, rows, yt: YT_OPTIONS[raw.yt] ? raw.yt : DEFAULT.yt, apps: raw.apps === true };
+    return { langs: langs.length ? langs : DEFAULT.langs, rows, yt: YT_OPTIONS[raw.yt] ? raw.yt : DEFAULT.yt, apps: raw.apps === true, ...(typeof raw.k === 'string' && /^[A-Za-z0-9_-]{16,64}$/.test(raw.k) ? { k: raw.k } : {}) };
   } catch {
     return null;
   }

@@ -24,9 +24,14 @@ jobs:
       - name: Run providers against the test titles
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          FAITHSTREAM_EMAIL: ${{ secrets.FAITHSTREAM_EMAIL }}
+          FAITHSTREAM_PASSWORD: ${{ secrets.FAITHSTREAM_PASSWORD }}
         run: node scripts/providers-live.js
       - name: CLI sample
-        run: node test.js "Living in Bondage (1992)" && node test.js --coverage
+        env:
+          FAITHSTREAM_EMAIL: ${{ secrets.FAITHSTREAM_EMAIL }}
+          FAITHSTREAM_PASSWORD: ${{ secrets.FAITHSTREAM_PASSWORD }}
+        run: node test.js "Living in Bondage (1992)" && node test.js "God Calling" --provider faithstream && node test.js --coverage
       - name: Save report
         run: |
           git config user.name "select-naija-bot"

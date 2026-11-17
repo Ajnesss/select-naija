@@ -36,6 +36,16 @@ module.exports = {
       headers: { 'User-Agent': 'SelectNaija/0.9 (https://github.com/Ajnesss/select-naija; Nuvio addon)' },
       cacheHours: 24,
     },
+    faithstream: {
+      name: 'FaithStream',
+      enabled: true, // also needs FAITHSTREAM_EMAIL/PASSWORD and a private install (see src/providers/faithstream.js)
+      baseUrls: ['https://gateway.thefaithstream.com'],
+      timeoutMs: 7000,
+      rateLimit: 4,
+      headers: {},
+      auth: { email: 'FAITHSTREAM_EMAIL', password: 'FAITHSTREAM_PASSWORD' },
+      cacheHours: 0.75, // playback URLs expire after an hour
+    },
     template: {
       name: 'Template',
       enabled: false, // reference implementation only (src/providers/_template.js)

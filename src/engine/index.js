@@ -81,6 +81,9 @@ function createEngine({ config = defaults, env = process.env, fetchImpl = fetch,
     const report = { provider: m.key, name: s.name || m.key, status: 'ok', ms: 0, matches: [], steps: [], results: [], error: null };
     const st = h(m.key);
     if (!m.types.includes(request.type)) { report.status = 'skipped'; report.error = `does not serve ${request.type}`; return report; }
+    if (m.private && !request.private) { report.status = 'skipped'; report.error = 'private installs only'; return report; }
+    const missing = Object.values(s.auth || {}).filter((name) => !env[name]);
+    if (missing.length) { report.status = 'skipped'; report.error = `needs ${missing.join(', ')}`; return report; }
     if (st.pausedUntil > now()) { report.status = 'paused'; report.error = `paused after ${st.consecutive} failures: ${st.lastError}`; return report; }
     const cacheKey = `${m.key}|${request.type}|${request.imdb || request.id || request.name}|${request.year || ''}|${request.season ?? ''}|${request.episode ?? ''}`;
     const hit = useCache && cache.get(cacheKey);
@@ -128,13 +131,13 @@ function createEngine({ config = defaults, env = process.env, fetchImpl = fetch,
   }
 
   /** For the addon: Nuvio's (type, id) → stream objects. Never throws; capped by totalTimeoutMs. */
-  async function streamsFor(type, id, { data, tmdbApiKey } = {}) {
+  async function streamsFor(type, id, { data, tmdbApiKey, private: isPrivate = false } = {}) {
     if (!mods.length) return [];
     try {
       return await withTimeout((async () => {
         const request = await resolveRequest(type, id, { data, fetchImpl, tmdbApiKey });
         if (!request) return [];
-        return (await run(request)).streams;
+        return (await run({ ...request, private: isPrivate })).streams;
       })(), engineCfg.totalTimeoutMs, 'live providers');
     } catch (err) {
       console.error(`[providers] ${type}/${id}: ${err.message}`);
@@ -148,6 +151,8 @@ function createEngine({ config = defaults, env = process.env, fetchImpl = fetch,
     const out = [];
     for (const m of mods) {
       if (typeof m.coverage !== 'function') { out.push({ provider: m.key, error: 'no coverage() method' }); continue; }
+      const missing = Object.values(settings[m.key]?.auth || {}).filter((name) => !env[name]);
+      if (missing.length) { out.push({ provider: m.key, error: `needs ${missing.join(', ')}` }); continue; }
       try { out.push({ provider: m.key, ...(await m.coverage({ client: clientFor(m), config: settings[m.key] || {}, env, log: () => {}, match: () => {} })) }); }
       catch (err) { out.push({ provider: m.key, error: err.message }); }
     }

@@ -48,6 +48,9 @@ function createServer(options = {}) {
   const fetchImpl = options.fetchImpl || fetch;
   // Live providers (src/providers): on unless SELECT_NAIJA_LIVE_PROVIDERS=0 or options.engine === null.
   const engine = options.engine !== undefined ? options.engine : process.env.SELECT_NAIJA_LIVE_PROVIDERS === '0' ? null : createEngine({ fetchImpl });
+  // Private installs (household use): the install URL carries the server's SELECT_NAIJA_PRIVATE_KEY.
+  const privateKey = options.privateKey ?? process.env.SELECT_NAIJA_PRIVATE_KEY;
+  const isPrivateInstall = (cfg) => Boolean(privateKey && privateKey.length >= 16 && cfg.k === privateKey);
   let data = loadData(dataDir);
   let loadedAt = new Date().toISOString();
 
@@ -121,7 +124,7 @@ function createServer(options = {}) {
       if (parts[0] === 'stream' && parts.length === 3) {
         const [catalogue, live] = await Promise.all([
           buildStreams(parts[1], parts[2], data, { tmdbApiKey, fetchImpl, youtube: cfg.yt, apps: cfg.apps === true, fallback: false }),
-          engine ? engine.streamsFor(parts[1], parts[2], { data, tmdbApiKey }) : [],
+          engine ? engine.streamsFor(parts[1], parts[2], { data, tmdbApiKey, private: isPrivateInstall(cfg) }) : [],
         ]);
         // Streams that play in Nuvio first (catalogue, then live providers), links that open elsewhere last.
         const plays = (s) => Boolean(s.url || s.ytId);

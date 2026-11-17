@@ -59,7 +59,7 @@ const c = process.stdout.isTTY ? { g: (s) => `\x1b[32m${s}\x1b[0m`, r: (s) => `\
   if (!request) { console.error(c.r(`Could not resolve ${opt.query} (try a title, or set TMDB_API_KEY)`)); process.exit(1); }
 
   const started = Date.now();
-  const { streams, reports } = await engine.run(request, { verify: opt.verify, useCache: false });
+  const { streams, reports } = await engine.run({ ...request, private: true }, { verify: opt.verify, useCache: false });
   if (opt.json) return console.log(JSON.stringify({ request, reports, streams }, null, 2));
 
   console.log(c.b(`\n${request.name}${request.year ? ` (${request.year})` : ''}`), c.d(`[${request.type}${request.season != null ? ` S${request.season}E${request.episode}` : ''}] resolved via ${request.source}`));

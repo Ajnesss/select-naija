@@ -227,3 +227,51 @@ test('commons provider: Nigerian files only, original MP4 plus best WebM transco
   assert.equal(reports[0].matches.length, 1);
   assert.deepEqual(streams.map((s) => s.url).sort(), ['https://upload.wikimedia.org/a/Daybreak.webm', 'https://upload.wikimedia.org/t/Daybreak.webm.480p.vp9.webm']);
 });
+
+const faithstream = require('../src/providers/faithstream');
+
+test('faithstream: signs in, matches the catalogue, returns playback URLs; private installs only', async () => {
+  faithstream._reset();
+  const seen = [];
+  const fetchImpl = async (url, opts) => {
+    seen.push(`${opts.method || 'GET'} ${url} ${opts.headers.Authorization || ''}`);
+    if (url.endsWith('/auth/login')) {
+      const body = JSON.parse(opts.body);
+      assert.equal(body.email, 'me@example.com');
+      return res(200, { status: true, data: { data: { id: 'u' }, accessToken: 'acct-token-0123456789abcdef' } });
+    }
+    if (url.includes('/users/streaming-profiles/with-tokens')) return res(200, { data: [{ isPrimary: true, accessToken: 'profile-token-0123456789abcdef' }] });
+    if (url.includes('/content?type=movie')) return res(200, { data: [
+      { id: 'f1', title: 'God Calling', type: 'movie', durationSeconds: 7195, availableRegions: ['GB', 'NG'] },
+      { id: 'f2', title: 'Stranded 2', type: 'movie', durationSeconds: 5400 },
+      { id: 'f3', title: 'DAY 1', type: 'movie' },
+    ] });
+    if (url.includes('/content?type=')) return res(200, { data: [] });
+    if (url.includes('/content/playback/url/f1')) return res(200, { data: { url: 'https://gateway.thefaithstream.com/content/streaming/hls/f1/x.m3u8?playbackToken=<removed>', expiresAt: '2026-11-18T00:00:00Z' } });
+    return res(404, 'x');
+  };
+  const cfg = { engine: config.engine, providers: { faithstream: { name: 'FaithStream', enabled: true, baseUrls: [], auth: { email: 'FAITHSTREAM_EMAIL', password: 'FAITHSTREAM_PASSWORD' } } } };
+  const env = { FAITHSTREAM_EMAIL: 'me@example.com', FAITHSTREAM_PASSWORD: 'pw' };
+
+  const publicRun = await createEngine({ config: cfg, env, providers: [faithstream], fetchImpl }).run({ type: 'movie', name: 'God Calling', year: 2018 });
+  assert.equal(publicRun.reports[0].status, 'skipped');
+  assert.equal(seen.length, 0);
+
+  const noCreds = await createEngine({ config: cfg, env: {}, providers: [faithstream], fetchImpl }).run({ type: 'movie', name: 'God Calling', private: true });
+  assert.match(noCreds.reports[0].error, /needs FAITHSTREAM_EMAIL/);
+
+  const { streams, reports } = await createEngine({ config: cfg, env, providers: [faithstream], fetchImpl }).run({ type: 'movie', name: 'God Calling', year: 2018, private: true });
+  assert.equal(reports[0].status, 'ok', reports[0].error);
+  assert.equal(streams.length, 1);
+  assert.match(streams[0].url, /\/content\/streaming\/hls\/f1\//);
+  assert.equal(streams[0].headers.Referer, 'https://www.thefaithstream.com/');
+  assert.ok(seen.some((s) => s.includes('/content/playback/url/f1') && s.includes('Bearer profile-token')));
+});
+
+test('private install key travels in the install URL config', () => {
+  const { decodeConfig } = require('../src/config');
+  const seg = Buffer.from(JSON.stringify({ langs: ['yo'], k: 'abcdefghijklmnop1234' })).toString('base64url');
+  assert.equal(decodeConfig(seg).k, 'abcdefghijklmnop1234');
+  const bad = Buffer.from(JSON.stringify({ k: 'x' })).toString('base64url');
+  assert.equal(decodeConfig(bad).k, undefined);
+});

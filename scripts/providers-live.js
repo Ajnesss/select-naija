@@ -14,6 +14,7 @@ const TITLES = [
   'The Wedding Party (2016)', 'Lionheart (2018)', 'Ajani Ogun (1976)', 'Shaihu Umar (1976)', 'Daybreak in Udi (1949)',
   'Kongi\'s Harvest (1970)', 'Saworoide (1999)', 'Thunderbolt (2000)', 'Ije (2010)', 'Half of a Yellow Sun (2013)',
   'October 1 (2014)', 'The Figurine (2009)', 'Eyimofe (2020)', 'Juju Stories (2021)', 'Mami Wata (2023)',
+  'God Calling (2018)', 'Stranded', 'Land of Fury', 'The Train', 'Ipenija', 'Eternal Verdict',
 ];
 
 (async () => {
@@ -21,7 +22,7 @@ const TITLES = [
   const coverage = await engine.coverage();
   const runs = [];
   for (const t of TITLES) {
-    const req = fromText(t, 'movie');
+    const req = { ...fromText(t, 'movie'), private: true };
     const { reports } = await engine.run(req, { verify: true, useCache: false });
     runs.push({ query: t, reports: reports.map((r) => ({ provider: r.provider, status: r.status, ms: r.ms, error: r.error, steps: r.steps, matches: r.matches, results: r.results.map((x) => ({ url: x.url, part: x.part, quality: x.quality, licence: x.licence, verified: x.verified && { ok: x.verified.ok, status: x.verified.status, type: x.verified.type, length: x.verified.length } })) })) });
   }
