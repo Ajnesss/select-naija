@@ -43,6 +43,7 @@ const c = process.stdout.isTTY ? { g: (s) => `\x1b[32m${s}\x1b[0m`, r: (s) => `\
     if (opt.json) return console.log(JSON.stringify(cov, null, 2));
     for (const x of cov) {
       console.log(c.b(`\n${x.provider}`), x.error ? c.r(x.error) : `${x.titles} title(s)${x.matchedQuery != null ? ` (query matched ${x.matchedQuery})` : ''}`);
+      if (x.typeCounts) console.log(c.d(`  types: ${JSON.stringify(x.typeCounts)}`));
       for (const s of x.sample || []) console.log(`  · ${s}`);
     }
     return;

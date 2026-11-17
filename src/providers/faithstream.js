@@ -57,7 +57,7 @@ async function api(ctx, path) {
   }
 }
 
-const yearOf = (v) => Number(String(v.releaseYear || v.year || v.releaseDate || '').slice(0, 4)) || null;
+const yearOf = (v) => Number(String(v.releaseYear || v.productionYear || v.year || '').slice(0, 4)) || null;
 
 function toItems(list) {
   return list.map((v) => {
@@ -65,7 +65,8 @@ function toItems(list) {
     return {
       id: v.id,
       title: v.title,
-      type: v.type,
+      type: v.type || v.contentType?.slug || null,
+      typeName: v.contentType?.slug || v.contentType?.name || null,
       year: yearOf(v),
       minutes: v.durationSeconds ? Math.round(v.durationSeconds / 60) : null,
       language: v.language || null,
@@ -116,7 +117,8 @@ module.exports = {
       hits = items.filter((x) => x.seriesTitle && scoreMatch({ title: x.seriesTitle, year: null }, want) > 0 && x.episode === request.episode && (x.season == null || request.season == null || x.season === request.season))
         .map((x) => ({ x, score: 1 }));
     } else {
-      hits = items.filter((x) => x.type === 'movie' && (!x.regions || x.regions.includes('GB')))
+      const isFilm = (x) => !x.seriesTitle && (/movie|film/i.test(`${x.type} ${x.typeName}`) || (x.minutes || 0) >= 40);
+      hits = items.filter((x) => isFilm(x) && (!Array.isArray(x.regions) || !x.regions.length || x.regions.includes('GB')))
         .map((x) => ({ x, score: scoreMatch({ title: x.title, year: x.year }, want) }))
         .filter((h) => h.score > 0)
         .sort((a, b) => b.score - a.score);
@@ -150,9 +152,11 @@ module.exports = {
 
   async coverage(ctx) {
     const items = await loadCatalogue(ctx);
-    const films = items.filter((x) => x.type === 'movie' && (x.minutes == null || x.minutes >= 40));
+    const films = items.filter((x) => !x.seriesTitle && (x.minutes || 0) >= 40);
     const series = [...new Set(items.filter((x) => x.seriesTitle).map((x) => x.seriesTitle))];
-    return { titles: films.length + series.length, episodes: items.filter((x) => x.seriesTitle).length, sample: [...films.map((x) => `${x.title}${x.minutes ? ` (${x.minutes} min)` : ''}`), ...series.map((s) => `series: ${s}`)].slice(0, 80) };
+    const typeCounts = {};
+    for (const x of items) typeCounts[`${x.type}/${x.typeName}`] = (typeCounts[`${x.type}/${x.typeName}`] || 0) + 1;
+    return { typeCounts, titles: films.length + series.length, episodes: items.filter((x) => x.seriesTitle).length, sample: [...films.map((x) => `${x.title}${x.minutes ? ` (${x.minutes} min)` : ''}`), ...series.map((s) => `series: ${s}`)].slice(0, 80) };
   },
 
   _reset() { session = null; catalogue = null; },

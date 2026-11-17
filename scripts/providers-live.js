@@ -31,7 +31,7 @@ const TITLES = [
   fs.mkdirSync(dir, { recursive: true });
   fs.writeFileSync(path.join(dir, 'providers-live.json'), JSON.stringify(out, null, 2));
   const lines = [`# Live providers — ${out.generatedAt}`, '', '## Coverage', ''];
-  for (const c of coverage) lines.push(`- **${c.provider}**: ${c.error ? `error: ${c.error}` : `${c.titles} title(s)`}${c.sample?.length ? `\n  - ${c.sample.join('\n  - ')}` : ''}`);
+  for (const c of coverage) lines.push(`- **${c.provider}**: ${c.error ? `error: ${c.error}` : `${c.titles} title(s)${c.episodes ? `, ${c.episodes} episode(s)` : ''}${c.typeCounts ? ` · types ${JSON.stringify(c.typeCounts)}` : ''}`}${c.sample?.length ? `\n  - ${c.sample.join('\n  - ')}` : ''}`);
   lines.push('', '## Title runs', '', '| Title | ' + engine.providers.join(' | ') + ' |', '| --- | ' + engine.providers.map(() => '---').join(' | ') + ' |');
   for (const r of runs) {
     lines.push(`| ${r.query} | ${engine.providers.map((p) => {
