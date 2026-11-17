@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-11-17T22:43:51.594Z",
+  "generatedAt": "2026-11-17T23:09:33.947Z",
   "providers": [
     "archive",
-    "commons"
+    "commons",
+    "faithstream"
   ],
   "coverage": [
     {
@@ -10,26 +11,32 @@
       "titles": 200,
       "matchedQuery": 442,
       "sample": [
-        "Hausa Soul Winning Gospel Presentation Only JESUS CHRIST Saves (?) — Public domain",
-        "The White Aryan ije - marun root ije yii (?) — Public domain",
-        "Strike 4 A Cure (?) — CC BY-NC-ND 2.0",
-        "Should Museums Return Their Stolen Objects Empires Of Dirt (2020) — CC0",
-        "Iwan Baan: Ingenious homes in unexpected places (2013) — CC BY-NC-ND 3.0",
-        "[video] U.S. Army Medical Research Unit - Improving malaria diagnostics, Kisumu, Kenya, May 2010 (2010) — CC BY 2.0",
-        "Terres Brulees - Un Film Sur Le Congo Belge (1934) (1934) — Public domain",
-        "Nigerian Soldier Carries Actress 😂 😂 😂 🔥 🔥 04 (2021) — Public domain",
-        "EKEREAGWU/AGBOROGWỤ DANCE (2022) — CC BY-NC-ND 4.0",
-        "EN-HB(MM) (?) — CC BY 3.0",
-        "New Year’s Eve Sunday Service December 31st, 2023 (2024) — CC0",
-        "DTNS 20240304 (2024) — CC BY-ND 4.0",
-        "Katsina State Television Service Livestream [December 7, 2020] (2020) — CC BY-ND 4.0",
-        "Sex Show 16 Abril 2012 (?) — CC BY-ND 3.0",
-        "Stories From The Sacrifice Of The Companions Of The Prophet ( Itan Ifi Ẹmi Ji Iku Lọdọ Awọn Sahaabah) (?) — Public domain"
+        "ISE ALAGBEDE (2023) — CC BY-SA 4.0",
+        "End of the World - Season 1 - Episode 14 (2007) — CC BY-NC 2.5",
+        "Reading- Of David Rackoff's Half Empty (Penguinrandomhouse) (?) — CC BY-NC-ND 4.0",
+        "Shock (?) — CC BY-ND 3.0",
+        "MVI_1891 (2010) — CC BY 2.0",
+        "Better Days Films - Day 16 (2013) — CC BY-SA 4.0",
+        "C4I - Aug 21 Mike Gaddy Bill of rights (2018) — CC BY-NC-ND 3.0",
+        "Human Touch 68 Democracy And Destabilization (?) — CC BY-NC-ND 4.0",
+        "Yoruba . Translations of the meaning of the Noble Quran in Yoruba language. ìsìn; èsìn (?) — CC BY-NC-ND 3.0",
+        "Case Study: Return (?) — CC BY-NC-ND 3.0",
+        "Ebola – soll eine weltweite Epidemie ausgerufen werden? (2014) — CC BY 3.0",
+        "Africa Day : The Siddis and Folk Dances and Music From Kenya, Uganda, Sudan and Nigeria (1992) — CC BY-NC 4.0",
+        "Community Network Exchange 2020 - CNXAPAC2020 (2020) — CC BY-SA 4.0",
+        "THIS IS THE TIME!!! | TB Joshua Viewers Prayer (2021) — Public domain",
+        "Egypt Accepts United Nations Cease-Fire, 1967/06/09 (1967) — Public domain"
       ]
     },
     {
       "provider": "commons",
       "titles": 0,
+      "sample": []
+    },
+    {
+      "provider": "faithstream",
+      "titles": 0,
+      "episodes": 0,
       "sample": []
     }
   ],
@@ -40,7 +47,7 @@
         {
           "provider": "archive",
           "status": "no-match",
-          "ms": 343,
+          "ms": 442,
           "error": null,
           "steps": [
             "search \"Living in Bondage\": 0 Nigeria-related items, 0 with an open licence"
@@ -51,11 +58,20 @@
         {
           "provider": "commons",
           "status": "no-match",
-          "ms": 460,
+          "ms": 386,
           "error": null,
           "steps": [
             "search \"Living in Bondage\": 0 video files, 0 tied to Nigeria"
           ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "faithstream",
+          "status": "no-match",
+          "ms": 2,
+          "error": null,
+          "steps": [],
           "matches": [],
           "results": []
         }
@@ -67,7 +83,7 @@
         {
           "provider": "archive",
           "status": "no-match",
-          "ms": 582,
+          "ms": 637,
           "error": null,
           "steps": [
             "search \"Osuofia in London\": 0 Nigeria-related items, 0 with an open licence"
@@ -78,11 +94,20 @@
         {
           "provider": "commons",
           "status": "no-match",
-          "ms": 499,
+          "ms": 303,
           "error": null,
           "steps": [
             "search \"Osuofia in London\": 0 video files, 0 tied to Nigeria"
           ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "faithstream",
+          "status": "no-match",
+          "ms": 1,
+          "error": null,
+          "steps": [],
           "matches": [],
           "results": []
         }
@@ -94,7 +119,7 @@
         {
           "provider": "archive",
           "status": "no-match",
-          "ms": 464,
+          "ms": 373,
           "error": null,
           "steps": [
             "search \"Blood Sisters\": 0 Nigeria-related items, 0 with an open licence"
@@ -112,6 +137,15 @@
           ],
           "matches": [],
           "results": []
+        },
+        {
+          "provider": "faithstream",
+          "status": "no-match",
+          "ms": 0,
+          "error": null,
+          "steps": [],
+          "matches": [],
+          "results": []
         }
       ]
     },
@@ -121,7 +155,7 @@
         {
           "provider": "archive",
           "status": "no-match",
-          "ms": 205,
+          "ms": 187,
           "error": null,
           "steps": [
             "search \"Anikulapo\": 0 Nigeria-related items, 0 with an open licence"
@@ -132,11 +166,20 @@
         {
           "provider": "commons",
           "status": "no-match",
-          "ms": 577,
+          "ms": 469,
           "error": null,
           "steps": [
             "search \"Anikulapo\": 3 video files, 1 tied to Nigeria"
           ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "faithstream",
+          "status": "no-match",
+          "ms": 1,
+          "error": null,
+          "steps": [],
           "matches": [],
           "results": []
         }
@@ -148,7 +191,7 @@
         {
           "provider": "archive",
           "status": "no-match",
-          "ms": 362,
+          "ms": 422,
           "error": null,
           "steps": [
             "search \"King of Boys\": 0 Nigeria-related items, 0 with an open licence"
@@ -159,11 +202,20 @@
         {
           "provider": "commons",
           "status": "no-match",
-          "ms": 696,
+          "ms": 701,
           "error": null,
           "steps": [
             "search \"King of Boys\": 21 video files, 0 tied to Nigeria"
           ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "faithstream",
+          "status": "no-match",
+          "ms": 0,
+          "error": null,
+          "steps": [],
           "matches": [],
           "results": []
         }
@@ -175,7 +227,7 @@
         {
           "provider": "archive",
           "status": "no-match",
-          "ms": 413,
+          "ms": 262,
           "error": null,
           "steps": [
             "search \"The Wedding Party\": 0 Nigeria-related items, 0 with an open licence"
@@ -186,11 +238,20 @@
         {
           "provider": "commons",
           "status": "no-match",
-          "ms": 869,
+          "ms": 650,
           "error": null,
           "steps": [
             "search \"The Wedding Party\": 9 video files, 0 tied to Nigeria"
           ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "faithstream",
+          "status": "no-match",
+          "ms": 0,
+          "error": null,
+          "steps": [],
           "matches": [],
           "results": []
         }
@@ -202,7 +263,7 @@
         {
           "provider": "archive",
           "status": "no-match",
-          "ms": 270,
+          "ms": 394,
           "error": null,
           "steps": [
             "search \"Lionheart\": 0 Nigeria-related items, 0 with an open licence"
@@ -213,11 +274,20 @@
         {
           "provider": "commons",
           "status": "no-match",
-          "ms": 779,
+          "ms": 672,
           "error": null,
           "steps": [
             "search \"Lionheart\": 4 video files, 0 tied to Nigeria"
           ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "faithstream",
+          "status": "no-match",
+          "ms": 0,
+          "error": null,
+          "steps": [],
           "matches": [],
           "results": []
         }
@@ -229,7 +299,7 @@
         {
           "provider": "archive",
           "status": "no-match",
-          "ms": 474,
+          "ms": 649,
           "error": null,
           "steps": [
             "search \"Ajani Ogun\": 0 Nigeria-related items, 0 with an open licence"
@@ -240,11 +310,20 @@
         {
           "provider": "commons",
           "status": "no-match",
-          "ms": 353,
+          "ms": 316,
           "error": null,
           "steps": [
             "search \"Ajani Ogun\": 0 video files, 0 tied to Nigeria"
           ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "faithstream",
+          "status": "no-match",
+          "ms": 0,
+          "error": null,
+          "steps": [],
           "matches": [],
           "results": []
         }
@@ -256,7 +335,7 @@
         {
           "provider": "archive",
           "status": "no-match",
-          "ms": 311,
+          "ms": 265,
           "error": null,
           "steps": [
             "search \"Shaihu Umar\": 0 Nigeria-related items, 0 with an open licence"
@@ -267,11 +346,20 @@
         {
           "provider": "commons",
           "status": "no-match",
-          "ms": 431,
+          "ms": 346,
           "error": null,
           "steps": [
             "search \"Shaihu Umar\": 0 video files, 0 tied to Nigeria"
           ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "faithstream",
+          "status": "no-match",
+          "ms": 0,
+          "error": null,
+          "steps": [],
           "matches": [],
           "results": []
         }
@@ -283,7 +371,7 @@
         {
           "provider": "archive",
           "status": "no-match",
-          "ms": 544,
+          "ms": 482,
           "error": null,
           "steps": [
             "search \"Daybreak in Udi\": 0 Nigeria-related items, 0 with an open licence"
@@ -294,7 +382,7 @@
         {
           "provider": "commons",
           "status": "ok",
-          "ms": 952,
+          "ms": 1011,
           "error": null,
           "steps": [
             "search \"Daybreak in Udi\": 1 video files, 1 tied to Nigeria",
@@ -333,6 +421,15 @@
               }
             }
           ]
+        },
+        {
+          "provider": "faithstream",
+          "status": "no-match",
+          "ms": 0,
+          "error": null,
+          "steps": [],
+          "matches": [],
+          "results": []
         }
       ]
     },
@@ -342,7 +439,7 @@
         {
           "provider": "archive",
           "status": "no-match",
-          "ms": 282,
+          "ms": 759,
           "error": null,
           "steps": [
             "search \"Kongi's Harvest\": 0 Nigeria-related items, 0 with an open licence"
@@ -353,11 +450,20 @@
         {
           "provider": "commons",
           "status": "no-match",
-          "ms": 659,
+          "ms": 510,
           "error": null,
           "steps": [
             "search \"Kongi's Harvest\": 0 video files, 0 tied to Nigeria"
           ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "faithstream",
+          "status": "no-match",
+          "ms": 0,
+          "error": null,
+          "steps": [],
           "matches": [],
           "results": []
         }
@@ -369,7 +475,7 @@
         {
           "provider": "archive",
           "status": "no-match",
-          "ms": 288,
+          "ms": 344,
           "error": null,
           "steps": [
             "search \"Saworoide\": 0 Nigeria-related items, 0 with an open licence"
@@ -380,11 +486,20 @@
         {
           "provider": "commons",
           "status": "no-match",
-          "ms": 501,
+          "ms": 385,
           "error": null,
           "steps": [
             "search \"Saworoide\": 0 video files, 0 tied to Nigeria"
           ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "faithstream",
+          "status": "no-match",
+          "ms": 0,
+          "error": null,
+          "steps": [],
           "matches": [],
           "results": []
         }
@@ -396,7 +511,7 @@
         {
           "provider": "archive",
           "status": "no-match",
-          "ms": 450,
+          "ms": 663,
           "error": null,
           "steps": [
             "search \"Thunderbolt\": 0 Nigeria-related items, 0 with an open licence"
@@ -407,11 +522,20 @@
         {
           "provider": "commons",
           "status": "no-match",
-          "ms": 596,
+          "ms": 848,
           "error": null,
           "steps": [
             "search \"Thunderbolt\": 30 video files, 0 tied to Nigeria"
           ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "faithstream",
+          "status": "no-match",
+          "ms": 0,
+          "error": null,
+          "steps": [],
           "matches": [],
           "results": []
         }
@@ -423,7 +547,7 @@
         {
           "provider": "archive",
           "status": "no-match",
-          "ms": 528,
+          "ms": 261,
           "error": null,
           "steps": [
             "search \"Ije\": 1 Nigeria-related items, 1 with an open licence"
@@ -434,11 +558,20 @@
         {
           "provider": "commons",
           "status": "no-match",
-          "ms": 1178,
+          "ms": 1013,
           "error": null,
           "steps": [
             "search \"Ije\": 30 video files, 0 tied to Nigeria"
           ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "faithstream",
+          "status": "no-match",
+          "ms": 1,
+          "error": null,
+          "steps": [],
           "matches": [],
           "results": []
         }
@@ -450,7 +583,7 @@
         {
           "provider": "archive",
           "status": "no-match",
-          "ms": 373,
+          "ms": 803,
           "error": null,
           "steps": [
             "search \"Half of a Yellow Sun\": 0 Nigeria-related items, 0 with an open licence"
@@ -461,11 +594,20 @@
         {
           "provider": "commons",
           "status": "no-match",
-          "ms": 640,
+          "ms": 499,
           "error": null,
           "steps": [
             "search \"Half of a Yellow Sun\": 2 video files, 0 tied to Nigeria"
           ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "faithstream",
+          "status": "no-match",
+          "ms": 0,
+          "error": null,
+          "steps": [],
           "matches": [],
           "results": []
         }
@@ -477,7 +619,7 @@
         {
           "provider": "archive",
           "status": "no-match",
-          "ms": 382,
+          "ms": 718,
           "error": null,
           "steps": [
             "search \"October 1\": 0 Nigeria-related items, 0 with an open licence"
@@ -488,11 +630,20 @@
         {
           "provider": "commons",
           "status": "no-match",
-          "ms": 1449,
+          "ms": 1512,
           "error": null,
           "steps": [
             "search \"October 1\": 30 video files, 0 tied to Nigeria"
           ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "faithstream",
+          "status": "no-match",
+          "ms": 0,
+          "error": null,
+          "steps": [],
           "matches": [],
           "results": []
         }
@@ -504,7 +655,7 @@
         {
           "provider": "archive",
           "status": "no-match",
-          "ms": 511,
+          "ms": 339,
           "error": null,
           "steps": [
             "search \"The Figurine\": 0 Nigeria-related items, 0 with an open licence"
@@ -515,11 +666,20 @@
         {
           "provider": "commons",
           "status": "no-match",
-          "ms": 829,
+          "ms": 908,
           "error": null,
           "steps": [
             "search \"The Figurine\": 30 video files, 0 tied to Nigeria"
           ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "faithstream",
+          "status": "no-match",
+          "ms": 0,
+          "error": null,
+          "steps": [],
           "matches": [],
           "results": []
         }
@@ -531,7 +691,7 @@
         {
           "provider": "archive",
           "status": "no-match",
-          "ms": 399,
+          "ms": 980,
           "error": null,
           "steps": [
             "search \"Eyimofe\": 0 Nigeria-related items, 0 with an open licence"
@@ -542,11 +702,20 @@
         {
           "provider": "commons",
           "status": "no-match",
-          "ms": 479,
+          "ms": 470,
           "error": null,
           "steps": [
             "search \"Eyimofe\": 4 video files, 0 tied to Nigeria"
           ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "faithstream",
+          "status": "no-match",
+          "ms": 0,
+          "error": null,
+          "steps": [],
           "matches": [],
           "results": []
         }
@@ -558,7 +727,7 @@
         {
           "provider": "archive",
           "status": "no-match",
-          "ms": 437,
+          "ms": 412,
           "error": null,
           "steps": [
             "search \"Juju Stories\": 0 Nigeria-related items, 0 with an open licence"
@@ -569,11 +738,20 @@
         {
           "provider": "commons",
           "status": "no-match",
-          "ms": 529,
+          "ms": 395,
           "error": null,
           "steps": [
             "search \"Juju Stories\": 0 video files, 0 tied to Nigeria"
           ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "faithstream",
+          "status": "no-match",
+          "ms": 0,
+          "error": null,
+          "steps": [],
           "matches": [],
           "results": []
         }
@@ -585,7 +763,7 @@
         {
           "provider": "archive",
           "status": "no-match",
-          "ms": 328,
+          "ms": 915,
           "error": null,
           "steps": [
             "search \"Mami Wata\": 0 Nigeria-related items, 0 with an open licence"
@@ -596,11 +774,236 @@
         {
           "provider": "commons",
           "status": "no-match",
-          "ms": 553,
+          "ms": 367,
           "error": null,
           "steps": [
             "search \"Mami Wata\": 1 video files, 1 tied to Nigeria"
           ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "faithstream",
+          "status": "no-match",
+          "ms": 0,
+          "error": null,
+          "steps": [],
+          "matches": [],
+          "results": []
+        }
+      ]
+    },
+    {
+      "query": "God Calling (2018)",
+      "reports": [
+        {
+          "provider": "archive",
+          "status": "no-match",
+          "ms": 347,
+          "error": null,
+          "steps": [
+            "search \"God Calling\": 0 Nigeria-related items, 0 with an open licence"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "commons",
+          "status": "no-match",
+          "ms": 754,
+          "error": null,
+          "steps": [
+            "search \"God Calling\": 14 video files, 0 tied to Nigeria"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "faithstream",
+          "status": "no-match",
+          "ms": 1,
+          "error": null,
+          "steps": [],
+          "matches": [],
+          "results": []
+        }
+      ]
+    },
+    {
+      "query": "Stranded",
+      "reports": [
+        {
+          "provider": "archive",
+          "status": "no-match",
+          "ms": 221,
+          "error": null,
+          "steps": [
+            "search \"Stranded\": 0 Nigeria-related items, 0 with an open licence"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "commons",
+          "status": "no-match",
+          "ms": 968,
+          "error": null,
+          "steps": [
+            "search \"Stranded\": 30 video files, 0 tied to Nigeria"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "faithstream",
+          "status": "no-match",
+          "ms": 0,
+          "error": null,
+          "steps": [],
+          "matches": [],
+          "results": []
+        }
+      ]
+    },
+    {
+      "query": "Land of Fury",
+      "reports": [
+        {
+          "provider": "archive",
+          "status": "no-match",
+          "ms": 1278,
+          "error": null,
+          "steps": [
+            "search \"Land of Fury\": 0 Nigeria-related items, 0 with an open licence"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "commons",
+          "status": "no-match",
+          "ms": 927,
+          "error": null,
+          "steps": [
+            "search \"Land of Fury\": 30 video files, 0 tied to Nigeria"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "faithstream",
+          "status": "no-match",
+          "ms": 1,
+          "error": null,
+          "steps": [],
+          "matches": [],
+          "results": []
+        }
+      ]
+    },
+    {
+      "query": "The Train",
+      "reports": [
+        {
+          "provider": "archive",
+          "status": "no-match",
+          "ms": 275,
+          "error": null,
+          "steps": [
+            "search \"The Train\": 0 Nigeria-related items, 0 with an open licence"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "commons",
+          "status": "no-match",
+          "ms": 839,
+          "error": null,
+          "steps": [
+            "search \"The Train\": 30 video files, 0 tied to Nigeria"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "faithstream",
+          "status": "no-match",
+          "ms": 0,
+          "error": null,
+          "steps": [],
+          "matches": [],
+          "results": []
+        }
+      ]
+    },
+    {
+      "query": "Ipenija",
+      "reports": [
+        {
+          "provider": "archive",
+          "status": "no-match",
+          "ms": 647,
+          "error": null,
+          "steps": [
+            "search \"Ipenija\": 0 Nigeria-related items, 0 with an open licence"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "commons",
+          "status": "no-match",
+          "ms": 224,
+          "error": null,
+          "steps": [
+            "search \"Ipenija\": 0 video files, 0 tied to Nigeria"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "faithstream",
+          "status": "no-match",
+          "ms": 0,
+          "error": null,
+          "steps": [],
+          "matches": [],
+          "results": []
+        }
+      ]
+    },
+    {
+      "query": "Eternal Verdict",
+      "reports": [
+        {
+          "provider": "archive",
+          "status": "no-match",
+          "ms": 621,
+          "error": null,
+          "steps": [
+            "search \"Eternal Verdict\": 0 Nigeria-related items, 0 with an open licence"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "commons",
+          "status": "no-match",
+          "ms": 322,
+          "error": null,
+          "steps": [
+            "search \"Eternal Verdict\": 0 video files, 0 tied to Nigeria"
+          ],
+          "matches": [],
+          "results": []
+        },
+        {
+          "provider": "faithstream",
+          "status": "no-match",
+          "ms": 1,
+          "error": null,
+          "steps": [],
           "matches": [],
           "results": []
         }
