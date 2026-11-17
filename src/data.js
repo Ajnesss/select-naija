@@ -226,6 +226,19 @@ function loadData(
     }
   }
 
+  // Titles served by live providers at play time (scripts/discover-faithstream.js). They have no stored links:
+  // the provider fetches a fresh stream when Nuvio asks. An existing catalogue title with the same name (and year,
+  // when both have one) gets the live provider instead of a duplicate.
+  const live = readJson(path.join(dataDir, 'faithstream.json'), { titles: [] });
+  for (const lt of live.titles || []) {
+    if (!lt?.id || !lt.name) continue;
+    const same = titles.find((t) => t.type === lt.type && normalizeName(t.name) === normalizeName(lt.name) && (!t.year || !lt.year || Math.abs(t.year - lt.year) <= 1));
+    if (same) { same.live = [...new Set([...(same.live || []), ...(lt.live || [])])]; continue; }
+    if (byId.has(lt.id)) continue;
+    titles.push(lt);
+    byId.set(lt.id, lt);
+  }
+
   // Tubi UK's own Nollywood collection (scripts/discover-tubi.js). Matched to a title already in the
   // catalogue by name and year where possible; otherwise it becomes a title of its own. These links are
   // checked every night through the London check point like any hand-added link.

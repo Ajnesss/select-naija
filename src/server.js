@@ -89,7 +89,7 @@ function createServer(options = {}) {
       const RESOURCES = new Set(['', 'manifest', 'catalog', 'meta', 'stream', 'health', 'configure', 'playtest', 'providers']);
       const config = !RESOURCES.has(rawParts[0]) ? decodeConfig(rawParts[0]) : null;
       if (config) rawParts = rawParts.slice(1);
-      const cfg = config || DEFAULT;
+      const cfg = config ? { ...config, private: isPrivateInstall(config) } : DEFAULT;
       const parts = rawParts.map(decodeURIComponent);
       const origin = `${req.headers['x-forwarded-proto'] || 'https'}://${req.headers['x-forwarded-host'] || req.headers.host}`;
 
@@ -124,7 +124,7 @@ function createServer(options = {}) {
       if (parts[0] === 'stream' && parts.length === 3) {
         const [catalogue, live] = await Promise.all([
           buildStreams(parts[1], parts[2], data, { tmdbApiKey, fetchImpl, youtube: cfg.yt, apps: cfg.apps === true, fallback: false }),
-          engine ? engine.streamsFor(parts[1], parts[2], { data, tmdbApiKey, private: isPrivateInstall(cfg) }) : [],
+          engine ? engine.streamsFor(parts[1], parts[2], { data, tmdbApiKey, private: cfg.private === true }) : [],
         ]);
         // Streams that play in Nuvio first (catalogue, then live providers), links that open elsewhere last.
         const plays = (s) => Boolean(s.url || s.ytId);

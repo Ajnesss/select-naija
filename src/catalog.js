@@ -69,6 +69,8 @@ function snapshot(data, now) {
 // With "other free sources" switched off, titles only on Tubi, Plex etc. are left out too.
 function isAvailable(title, data, now, cfg = ALL) {
   const snap = snapshot(data, now);
+  // Titles played through a private-install provider (e.g. FaithStream) only show on private installs.
+  if (cfg.private && title.live?.length) return true;
   return (cfg.apps === false ? snap.availableYoutubeOnly : snap.available).has(title.id);
 }
 

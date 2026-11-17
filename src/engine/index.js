@@ -136,7 +136,8 @@ function createEngine({ config = defaults, env = process.env, fetchImpl = fetch,
     try {
       return await withTimeout((async () => {
         const request = await resolveRequest(type, id, { data, fetchImpl, tmdbApiKey });
-        if (!request) return [];
+        // Select Naija answers only for titles in its own (Nigerian) catalogue.
+        if (!request || request.source !== 'catalogue') return [];
         return (await run({ ...request, private: isPrivate })).streams;
       })(), engineCfg.totalTimeoutMs, 'live providers');
     } catch (err) {

@@ -21,6 +21,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: FaithStream Nigerian titles for the catalogue
+        env:
+          FAITHSTREAM_EMAIL: ${{ secrets.FAITHSTREAM_EMAIL }}
+          FAITHSTREAM_PASSWORD: ${{ secrets.FAITHSTREAM_PASSWORD }}
+        run: node scripts/discover-faithstream.js || echo "FaithStream discovery failed; keeping the previous list"
       - name: Run providers against the test titles
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
@@ -36,6 +41,7 @@ jobs:
         run: |
           git config user.name "select-naija-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add reports/providers-live.json reports/providers-live.md
+          git add reports/providers-live.json reports/providers-live.md data/faithstream.json 2>/dev/null || git add reports/providers-live.json reports/providers-live.md
+          node --test test/*.test.js >/dev/null || { echo "tests fail with the new data; not saving"; git checkout -- data/faithstream.json 2>/dev/null; git reset -q data/faithstream.json 2>/dev/null; }
           git diff --cached --quiet || git commit -m "Live providers report $(date -u +%Y-%m-%d)"
           for i in 1 2 3; do git pull --rebase -q origin main && git push && break; sleep 5; done

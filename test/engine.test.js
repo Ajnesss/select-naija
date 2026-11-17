@@ -275,3 +275,21 @@ test('private install key travels in the install URL config', () => {
   const bad = Buffer.from(JSON.stringify({ k: 'x' })).toString('base64url');
   assert.equal(decodeConfig(bad).k, undefined);
 });
+
+test('live-provider titles show only on private installs', () => {
+  const { isAvailable } = require('../src/catalog');
+  const data = { titles: [{ id: 'snaija-fs-god-calling', type: 'movie', name: 'God Calling', live: ['faithstream'] }], byId: new Map(), linksByStreamId: new Map(), links: [], status: { links: {}, providers: {} } };
+  data.byId.set('snaija-fs-god-calling', data.titles[0]);
+  const t = data.titles[0];
+  assert.equal(isAvailable(t, data, Date.now(), { apps: true, private: true }), true);
+  assert.equal(isAvailable(t, data, Date.now(), { apps: true }), false);
+});
+
+test('engine only answers for catalogue titles', async () => {
+  let called = 0;
+  const engine = createEngine({ config, env: {}, providers: [fakeProvider('fast', async () => { called += 1; return [{ title: 'X', url: 'https://f/x.mp4' }]; })], fetchImpl: async () => res(200, { meta: { name: 'Million Dollar Baby', releaseInfo: '2004' } }) });
+  assert.deepEqual(await engine.streamsFor('movie', 'tt0405159', { data: { byId: new Map(), alias: new Map() } }), []);
+  assert.equal(called, 0);
+  const data = { byId: new Map([['snaija-x', { id: 'snaija-x', name: 'X', year: 2020 }]]), alias: new Map() };
+  assert.equal((await engine.streamsFor('movie', 'snaija-x', { data })).length, 1);
+});

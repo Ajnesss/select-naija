@@ -74,6 +74,9 @@ function toItems(list) {
       season: v.seasonNumber ?? v.season?.seasonNumber ?? p.season ?? null,
       episode: v.episodeNumber ?? p.episode ?? null,
       regions: v.availableRegions || null,
+      description: v.description || '',
+      poster: (v.thumbnailUrls || [])[0] || null,
+      seriesId: v.seriesId || null,
     };
   }).filter((x) => x.id && x.title);
 }
@@ -113,7 +116,10 @@ module.exports = {
     const items = await loadCatalogue(ctx);
     const want = { name: request.name, aliases: request.aliases, year: request.year };
     let hits;
-    if (request.type === 'series') {
+    if (request.type === 'movie' && request.fsIds?.length) {
+      // Catalogue title built from FaithStream itself: use its FaithStream ids directly.
+      hits = request.fsIds.map((id) => items.find((x) => x.id === id) || { id, title: request.name }).map((x) => ({ x, score: 1 }));
+    } else if (request.type === 'series') {
       hits = items.filter((x) => x.seriesTitle && scoreMatch({ title: x.seriesTitle, year: null }, want) > 0 && x.episode === request.episode && (x.season == null || request.season == null || x.season === request.season))
         .map((x) => ({ x, score: 1 }));
     } else {
@@ -159,5 +165,6 @@ module.exports = {
     return { typeCounts, titles: films.length + series.length, episodes: items.filter((x) => x.seriesTitle).length, sample: [...films.map((x) => `${x.title}${x.minutes ? ` (${x.minutes} min)` : ''}`), ...series.map((s) => `series: ${s}`)].slice(0, 80) };
   },
 
+  loadCatalogue,
   _reset() { session = null; catalogue = null; },
 };
