@@ -241,12 +241,12 @@ test('faithstream: signs in, matches the catalogue, returns playback URLs; priva
       return res(200, { status: true, data: { data: { id: 'u' }, accessToken: 'acct-token-0123456789abcdef' } });
     }
     if (url.includes('/users/streaming-profiles/with-tokens')) return res(200, { data: [{ isPrimary: true, accessToken: 'profile-token-0123456789abcdef' }] });
-    if (url.includes('/content?type=movie')) return res(200, { data: [
+    if (url.includes('/content/series?')) return res(200, { data: { items: [] } });
+    if (url.includes('/content?limit=100&page=1')) return res(200, { data: { items: [
       { id: 'f1', title: 'God Calling', type: 'movie', durationSeconds: 7195, availableRegions: ['GB', 'NG'] },
       { id: 'f2', title: 'Stranded 2', type: 'movie', durationSeconds: 5400 },
       { id: 'f3', title: 'DAY 1', type: 'movie' },
-    ] });
-    if (url.includes('/content?type=')) return res(200, { data: [] });
+    ] } });
     if (url.includes('/content/playback/url/f1')) return res(200, { data: { url: 'https://gateway.thefaithstream.com/content/streaming/hls/f1/x.m3u8?playbackToken=<removed>', expiresAt: '2026-11-18T00:00:00Z' } });
     return res(404, 'x');
   };

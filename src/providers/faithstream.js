@@ -77,19 +77,29 @@ function toItems(list) {
   }).filter((x) => x.id && x.title);
 }
 
+const listOf = (j) => (Array.isArray(j.data) ? j.data : j.data?.items || j.data?.videos || j.data?.data || []);
+
 async function loadCatalogue(ctx) {
   if (catalogue && Date.now() - catalogue.at < CATALOGUE_TTL) return catalogue.items;
+  // Series names (episodes refer to their series by id).
+  const seriesNames = new Map();
+  try {
+    for (let page = 1; page <= 10; page += 1) {
+      const list = listOf(await api(ctx, `/content/series?limit=100&page=${page}`));
+      for (const x of list) seriesNames.set(x.id, x.title);
+      if (list.length < 100) break;
+    }
+  } catch (err) { ctx.log(`series list: ${err.message}`); }
   const items = [];
-  for (const path of ['/content?type=movie&limit=500', '/content?type=series-episode&limit=500', '/content?type=episode&limit=500']) {
-    try {
-      const j = await api(ctx, path);
-      const list = Array.isArray(j.data) ? j.data : j.data?.items || j.data?.videos || j.data?.data || [];
-      items.push(...toItems(list));
-    } catch (err) { ctx.log(`${path}: ${err.message}`); }
+  for (let page = 1; page <= 20; page += 1) {
+    let list;
+    try { list = listOf(await api(ctx, `/content?limit=100&page=${page}`)); } catch (err) { ctx.log(`content page ${page}: ${err.message}`); break; }
+    items.push(...toItems(list.map((v) => ({ ...v, seriesTitle: v.seriesTitle || v.series?.title || seriesNames.get(v.seriesId) || null }))));
+    if (list.length < 100) break;
   }
   const unique = [...new Map(items.map((x) => [x.id, x])).values()];
   catalogue = { at: Date.now(), items: unique };
-  ctx.log(`catalogue: ${unique.length} videos`);
+  ctx.log(`catalogue: ${unique.length} videos, ${seriesNames.size} series`);
   return unique;
 }
 
