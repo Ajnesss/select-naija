@@ -18,7 +18,7 @@ const { chromium } = require('playwright');
   const page = await (await browser.newContext({ locale: 'en-GB', timezoneId: 'Europe/London' })).newPage();
   const redact = (s) => String(s).split(email).join('<email>').split(password).join('<password>').replace(/("?(?:access|refresh)_?token"?\s*[:=]\s*")[^"]+/gi, '$1<token>').replace(/Bearer\s+[\w.-]+/g, 'Bearer <token>');
   let auth = null;
-  const unsign = (s) => String(s).replace(/(Signature|Key-Pair-Id|Policy)=[^&"\s]+/g, '$1=<removed>');
+  const unsign = (s) => String(s).replace(/(Signature|Key-Pair-Id|Policy|playbackToken|token)=[^&"\s]+/g, '$1=<removed>');
   page.on('response', async (r) => {
     const u = r.url();
     if (/\.m3u8|\.mpd|\.mp4|\.webm|manifest|playlist|widevine|license|drm/i.test(u)) out.media.push({ u: unsign(u.slice(0, 300)), s: r.status(), ct: r.headers()['content-type'] || '' });
@@ -27,6 +27,12 @@ const { chromium } = require('playwright');
     try { b = await r.text(); } catch {}
     if (!auth && r.request().headers().authorization) auth = r.request().headers().authorization;
     const accountCall = /\/(auth|users|account|profile)/i.test(new URL(u).pathname);
+    const shape = (v, depth = 0) => (v && typeof v === 'object' && depth < 4 ? Object.fromEntries(Object.entries(v).map(([k, x]) => [k, shape(x, depth + 1)])) : typeof v);
+    if (accountCall || /playback|streaming/.test(u)) {
+      let post = null; try { post = shape(JSON.parse(r.request().postData() || 'null')); } catch {}
+      let resp = null; try { resp = accountCall ? shape(JSON.parse(b)) : null; } catch {}
+      (out.shapes = out.shapes || []).push({ path: new URL(u).pathname, method: r.request().method(), status: r.status(), requestHeaders: Object.keys(r.request().headers()), body: post, response: resp });
+    }
     out.calls.push({ u: unsign(u.slice(0, 300)), m: r.request().method(), s: r.status(), b: accountCall ? '<account data not recorded>' : unsign(redact(b.slice(0, 20000))) });
   });
   try {
@@ -64,6 +70,14 @@ const { chromium } = require('playwright');
         const r = await page.request.get(`https://gateway.thefaithstream.com${ep}`, { headers: auth ? { authorization: auth } : {} });
         out.catalogue[ep] = { s: r.status(), b: unsign((await r.text()).slice(0, 400000)) };
       } catch (e) { out.errors.push(`${ep}: ${e.message.split('\n')[0]}`); }
+    }
+    out.guesses = {};
+    for (const ep of ['/content/search?q=God%20Calling', '/content/search?query=God%20Calling', '/content?type=movie&limit=100', '/content/videos?type=movie&limit=100', '/content/browse/movie', '/content/content-types/movie/videos?limit=100', '/content/movies?limit=100', '/content/series?limit=100', '/content/type/movie?limit=100']) {
+      try {
+        const r = await page.request.get(`https://gateway.thefaithstream.com${ep}`, { headers: auth ? { authorization: auth } : {} });
+        const t = await r.text();
+        out.guesses[ep] = { s: r.status(), n: t.length, titles: [...new Set([...t.matchAll(/"title":"([^"]+)"/g)].map((m) => m[1]))].slice(0, 200), types: [...new Set([...t.matchAll(/"type":"([^"]+)"/g)].map((m) => m[1]))], head: t.slice(0, 300) };
+      } catch (e) { out.guesses[ep] = { error: e.message.split('\n')[0] }; }
     }
     out.terms = '';
     try {
