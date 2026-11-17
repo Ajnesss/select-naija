@@ -101,7 +101,7 @@ async function resolveRequest(type, requestId, { data, fetchImpl = fetch, tmdbAp
   const base = { type, season: ref.season, episode: ref.episode, requestId };
   const local = data?.byId?.get(data.alias?.get(ref.id) || ref.id);
   if (local) {
-    return { ...base, id: local.id, imdb: /^tt/.test(local.id) ? local.id : local.imdbId || null, name: local.name, aliases: local.aliases || [], year: local.year || null, languages: local.languages || [], fsIds: local.fsIds || null, live: local.live || null, source: 'catalogue' };
+    return { ...base, id: local.id, imdb: /^tt/.test(local.id) ? local.id : local.imdbId || null, name: local.name, aliases: local.aliases || [], year: local.year || null, languages: local.languages || [], fsIds: local.fsIds || null, fsParts: local.fsParts || false, fsEpisodes: (local.videos || []).filter((v) => v.fsId).map((v) => ({ season: v.season, episode: v.episode, fsId: v.fsId, title: v.title })), live: local.live || null, source: 'catalogue' };
   }
   const key = `${type}:${ref.kind}:${ref.id}`;
   if (cache.has(key)) return { ...base, ...cache.get(key) };

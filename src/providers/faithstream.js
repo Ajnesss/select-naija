@@ -77,6 +77,8 @@ function toItems(list) {
       description: v.description || '',
       poster: (v.thumbnailUrls || [])[0] || null,
       seriesId: v.seriesId || null,
+      publisher: v.metadata?.publisherLabel || null,
+      uploader: v.uploaderId || null,
     };
   }).filter((x) => x.id && x.title);
 }
@@ -119,6 +121,9 @@ module.exports = {
     if (request.type === 'movie' && request.fsIds?.length) {
       // Catalogue title built from FaithStream itself: use its FaithStream ids directly.
       hits = request.fsIds.map((id) => items.find((x) => x.id === id) || { id, title: request.name }).map((x) => ({ x, score: 1 }));
+    } else if (request.type === 'series' && request.fsEpisodes?.length) {
+      const ep = request.fsEpisodes.find((e) => e.season === request.season && e.episode === request.episode);
+      hits = ep ? [{ x: items.find((x) => x.id === ep.fsId) || { id: ep.fsId, title: ep.title || request.name }, score: 1 }] : [];
     } else if (request.type === 'series') {
       hits = items.filter((x) => x.seriesTitle && scoreMatch({ title: x.seriesTitle, year: null }, want) > 0 && x.episode === request.episode && (x.season == null || request.season == null || x.season === request.season))
         .map((x) => ({ x, score: 1 }));
@@ -132,14 +137,14 @@ module.exports = {
     hits = hits.slice(0, 4);
     for (const h of hits) ctx.match({ title: h.x.title, year: h.x.year, score: Number(h.score.toFixed(2)), ref: `${SITE}/watch/${h.x.id}` });
     // Films split into parts on FaithStream ("Stranded 2" is a sequel, "… Part 2" a part) stay grouped.
-    const parts = hits.filter((h) => detectPart(h.x.title).part);
+    const parts = request.fsParts ? hits : hits.filter((h) => detectPart(h.x.title).part);
     const results = [];
     for (const { x } of hits) {
       const p = await api(ctx, `/content/playback/url/${x.id}?region=GB`);
       const url = p.data?.url || p.data?.cloudFrontUrl;
       if (!url) { ctx.log(`${x.title}: no playback URL`); continue; }
       ctx.log(`${x.title}: playback URL issued, expires ${p.data.expiresAt || '?'}`);
-      const part = detectPart(x.title).part;
+      const part = request.fsParts ? hits.findIndex((h) => h.x.id === x.id) + 1 : detectPart(x.title).part;
       results.push({
         title: request.name,
         url,
@@ -149,8 +154,8 @@ module.exports = {
         season: request.season,
         episode: request.episode,
         headers: { Referer: `${SITE}/`, Origin: SITE },
-        note: 'free, no adverts (donation-funded)',
         groupKey: parts.length > 1 ? 'parts' : x.id,
+        note: [request.fsIds?.length > 1 && !request.fsParts ? `upload ${request.fsIds.indexOf(x.id) + 1} of ${request.fsIds.length}` : '', 'free, no adverts (donation-funded)'].filter(Boolean).join(' · '),
       });
     }
     return results;

@@ -293,3 +293,17 @@ test('engine only answers for catalogue titles', async () => {
   const data = { byId: new Map([['snaija-x', { id: 'snaija-x', name: 'X', year: 2020 }]]), alias: new Map() };
   assert.equal((await engine.streamsFor('movie', 'snaija-x', { data })).length, 1);
 });
+
+test('FaithStream discovery parses episodes, parts and typo variants', () => {
+  const m = require('../scripts/discover-faithstream');
+  assert.deepEqual(m.parseEpisode('ABATTOIR S2 EP6'), { base: 'ABATTOIR', season: 2, episode: 6 });
+  assert.deepEqual(m.parseEpisode('ABATTOIR 3 EP 3'), { base: 'ABATTOIR', season: 3, episode: 3 });
+  assert.deepEqual(m.parseEpisode('COPRERS LODGE EPISODE 2'), { base: 'COPRERS LODGE', season: 1, episode: 2 });
+  assert.equal(m.parseEpisode('THE PEACE MAKER 1'), null);
+  assert.deepEqual(m.parseNumbered('THE PEACE MAKER 1'), { base: 'THE PEACE MAKER', n: 1 });
+  assert.ok(m.sameName('COPRERS LODGE', "CORPER'S LODGE"));
+  assert.ok(m.sameName('The KingMaker', 'The King Maker'));
+  assert.ok(!m.sameName('Stranded', 'Stranded 2'));
+  assert.equal(m.pretty("CORPER'S LODGE"), "Corper's Lodge");
+  assert.equal(m.pretty('DYING WITH THE KING'), 'Dying with the King');
+});
