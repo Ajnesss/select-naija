@@ -140,7 +140,8 @@ module.exports = {
     const parts = request.fsParts ? hits : hits.filter((h) => detectPart(h.x.title).part);
     const results = [];
     for (const { x } of hits) {
-      const p = await api(ctx, `/content/playback/url/${x.id}?region=GB`);
+      let p;
+      try { p = await api(ctx, `/content/playback/url/${x.id}?region=GB`); } catch (err) { ctx.log(`${x.title}: ${err.message}`); continue; }
       const url = p.data?.url || p.data?.cloudFrontUrl;
       if (!url) { ctx.log(`${x.title}: no playback URL`); continue; }
       ctx.log(`${x.title}: playback URL issued, expires ${p.data.expiresAt || '?'}`);
@@ -171,6 +172,10 @@ module.exports = {
   },
 
   loadCatalogue,
+  /** True when FaithStream issues a playback URL for this video (used by the nightly catalogue check). */
+  async playable(ctx, id) {
+    try { const p = await api(ctx, `/content/playback/url/${id}?region=GB`); return Boolean(p.data?.url || p.data?.cloudFrontUrl); } catch { return false; }
+  },
   _token: () => session?.token,
   _reset() { session = null; catalogue = null; },
 };

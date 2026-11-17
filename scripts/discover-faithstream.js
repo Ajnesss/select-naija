@@ -115,6 +115,23 @@ async function main() {
     const name = pretty(s.name).replace(/^Coprers|^Corpers/i, "Corper's");
     out.titles.push({ id: `snaija-fs-${normalize(name).replace(/ /g, '-')}`, type: 'series', name, poster: s.x.poster || undefined, languages: ['en'], genres: ['Faith', 'Drama'], live: ['faithstream'], videos });
   }
+  // Keep only videos FaithStream will actually play (some uploads are listed but not playable yet).
+  let dropped = 0;
+  for (const t of out.titles) {
+    if (t.fsIds) {
+      const ok = [];
+      for (const id of t.fsIds) if (await faithstream.playable(ctx, id)) ok.push(id); else dropped += 1;
+      if (t.fsParts && ok.length !== t.fsIds.length) { t.fsIds = []; continue; } // a film missing a part is not offered
+      t.fsIds = ok;
+    }
+    if (t.videos) {
+      const ok = [];
+      for (const v of t.videos) if (await faithstream.playable(ctx, v.fsId)) ok.push(v); else dropped += 1;
+      t.videos = ok;
+    }
+  }
+  out.titles = out.titles.filter((t) => (t.fsIds ? t.fsIds.length : t.videos?.length));
+  console.log(`  › ${dropped} listed video(s) not playable on FaithStream right now; left out`);
   fs.writeFileSync(path.join(__dirname, '..', 'data', 'faithstream.json'), `${JSON.stringify(out, null, 1)}\n`);
   const nFilms = out.titles.filter((t) => t.type === 'movie').length;
   const nSeries = out.titles.filter((t) => t.type === 'series');
