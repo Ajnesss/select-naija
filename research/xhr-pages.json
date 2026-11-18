@@ -1,6 +1,5 @@
 {
- "afroland-vod": ["https://www.afrolandtv.com/feature/gwoza", "https://www.afrolandtv.com/linear/nollywood", "https://www.afrolandtv.com/?section=moviessection"],
- "afroland-terms": ["https://assets.static-ottera.com/prod/alt/static/al/terms.html", "https://www.afrolandtv.com/devices", "https://www.afrolandtv.com/app"],
- "ewaen-film": ["https://ewaenstudios.com/movies/shackles-of-fate", "https://ewaenstudios.com/pricing-plan/", "https://ewaenstudios.com/terms-of-use/"],
- "faithstream": ["https://thefaithstream.com/", "https://www.thefaithstream.com/browse", "https://www.thefaithstream.com/terms"]
+ "avo": ["https://www.avo.tv/", "https://watch.avo.tv/", "https://web.avo.tv/", "https://app.avo.tv/"],
+ "ohprime": ["https://ohprime.tv/", "https://www.ohprimetv.com/", "https://ohprime.com/"],
+ "nsky": ["https://nskytv.com/", "https://www.nskytv.com/"]
 }
