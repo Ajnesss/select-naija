@@ -1,4 +1,4 @@
 {
- "avo-player": ["https://player.avo.tv/", "https://player.avo.tv/movies", "https://player.avo.tv/vod", "https://player.avo.tv/on-demand"],
- "avo-terms": ["https://www.avo.tv/terms-of-service"]
+ "northflix": ["https://northflix.ng/", "https://www.northflix.ng/movies", "https://northflix.ng/terms"],
+ "arewaflix": ["https://arewaflix.com/", "https://www.arewaflix.com/", "https://arewaflix.ng/", "https://web.arewaflix.com/"]
 }
