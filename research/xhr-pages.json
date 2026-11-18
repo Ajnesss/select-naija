@@ -1,5 +1,4 @@
 {
- "avo": ["https://www.avo.tv/", "https://watch.avo.tv/", "https://web.avo.tv/", "https://app.avo.tv/"],
- "ohprime": ["https://ohprime.tv/", "https://www.ohprimetv.com/", "https://ohprime.com/"],
- "nsky": ["https://nskytv.com/", "https://www.nskytv.com/"]
+ "avo-player": ["https://player.avo.tv/", "https://player.avo.tv/movies", "https://player.avo.tv/vod", "https://player.avo.tv/on-demand"],
+ "avo-terms": ["https://www.avo.tv/terms-of-service"]
 }
