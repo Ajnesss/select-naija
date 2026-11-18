@@ -1,16 +1,16 @@
 {
- "generatedAt": "2026-11-18T08:39:44.527Z",
+ "generatedAt": "2026-11-18T18:11:45.083Z",
  "channels": {
   "UCbvdwZvZgdl-pPyomEmaEfg": {
    "name": "Omoni Oboli TV",
    "subscribers": 2110000,
-   "videos": 1341,
+   "videos": 1342,
    "films": 104
   },
   "UC83tx3zGcvQ_rXzsZigTnEA": {
    "name": "APATATV+",
    "subscribers": 2640000,
-   "videos": 2357,
+   "videos": 2359,
    "films": 342
   },
   "UCjcFNZE51DmSrGYBqixs0Ug": {
@@ -34,7 +34,7 @@
   "UCLLA3OKhzK-tzXFvXhnGKZQ": {
    "name": "FAAN TV",
    "subscribers": 1440000,
-   "videos": 2780,
+   "videos": 2781,
    "films": 50
   },
   "UCneM4DHHUWMVwmYktz8X46g": {
@@ -52,8 +52,8 @@
   "UCHY9J0IWIWht6GqIBiLidBA": {
    "name": "Sonia Uche Tv",
    "subscribers": 1550000,
-   "videos": 146,
-   "films": 59
+   "videos": 147,
+   "films": 60
   },
   "UCt8C0h1RscuQL6P0nGDkXIg": {
    "name": "GEORGINA IBEH TV",
@@ -88,13 +88,13 @@
   "UCRpVhC2Mv9B-CIhYXGb0IdA": {
    "name": "Nollywood RealnollyTV",
    "subscribers": 1920000,
-   "videos": 6224,
+   "videos": 6225,
    "films": 696
   },
   "UCm6NRZvIcYwpj79CIa1Lj9g": {
    "name": "IBAKATV",
    "subscribers": 1450000,
-   "videos": 183,
+   "videos": 184,
    "films": 10
   },
   "UCvpK1k1i23Xi5TM-ZDuSNDw": {
@@ -124,14 +124,14 @@
   "UC1By7koB6TJqjrfCvmYUIxQ": {
    "name": "AFOREVO STAGE",
    "subscribers": 2630000,
-   "videos": 3436,
-   "films": 2153
+   "videos": 3443,
+   "films": 2155
   },
   "UCi8vPG6uMxIjoZMhLLX2BkQ": {
    "name": "Nollywoodpicturestv",
    "subscribers": 3010000,
-   "videos": 10661,
-   "films": 1658
+   "videos": 10664,
+   "films": 1659
   },
   "UCNq7_TKmIc8J6j-qUcyxNFA": {
    "name": "Bconceptnetwork",
@@ -148,8 +148,8 @@
   "UCVsqair_RFTI1K5cuaLaNtg": {
    "name": "Nigerian Movies Plus",
    "subscribers": 1860000,
-   "videos": 3044,
-   "films": 1977
+   "videos": 3046,
+   "films": 1979
   },
   "UCJ1I13e9PN7u4iszJ6M0AXQ": {
    "name": "ROCKCELLY NOLLYWOOD FILMS TV",
@@ -231,7 +231,7 @@
   "UC6CxpgmZUkTH0NnksC0o_fg": {
    "name": "ABNUR ENTERTAINMENT",
    "subscribers": 886000,
-   "videos": 413,
+   "videos": 414,
    "films": 34
   },
   "UC3PkFyrpeoRxfwWpTUp2uUg": {
@@ -254,8 +254,8 @@
   },
   "UCJyFkDxxIgPVz-x_0UZPqfg": {
    "name": "AREWA24",
-   "subscribers": 919000,
-   "videos": 5886,
+   "subscribers": 920000,
+   "videos": 5887,
    "films": 390
   },
   "UClU5QkUqFL4a7AdxScHa2Vg": {
@@ -284,8 +284,8 @@
   "UCLgjn9SPLG7BxyuFB_uNfXQ": {
    "name": "BIODUNSTEPHEN TV",
    "subscribers": 469000,
-   "videos": 942,
-   "films": 35
+   "videos": 944,
+   "films": 36
   },
   "UCiZWyHYEvZO-1MFIxy1ojQg": {
    "name": "The Chioma Chukwuka TV",
@@ -326,7 +326,7 @@
   "UCjS6UnmKjrBX3krk8oVZocg": {
    "name": "nollynetwork",
    "subscribers": 223000,
-   "videos": 293,
+   "videos": 294,
    "films": 112
   },
   "UCA_cLbPgQBD9mOCVPdToE1Q": {
@@ -41242,6 +41242,40 @@
     }
    ],
    "channelName": "SANDRA OKUNZUWA TV"
+  },
+  {
+   "id": "snaija-yt-gloria-must-go-2026",
+   "type": "movie",
+   "name": "Gloria Must Go",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Drama"
+   ],
+   "cast": [],
+   "runtime": "137 min",
+   "description": "This beautiful masterpiece will blow your mind, keep you glued to your screen all day. Very intriguing and thought provoking.",
+   "uploadedAt": "2026-11-18T17:00:15.000Z",
+   "poster": "https://i.ytimg.com/vi/ShC9YaCkDfo/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Sonia Uche TV (UCHY9J0IWIWht6GqIBiLidBA)"
+   },
+   "channel": "UCHY9J0IWIWht6GqIBiLidBA",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "ShC9YaCkDfo",
+     "minutes": 137,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Sonia Uche Tv"
   },
   {
    "id": "snaija-yt-fallen-star-2026",
@@ -98529,6 +98563,75 @@
     }
    ],
    "channelName": "Regina Daniels Tv"
+  },
+  {
+   "id": "snaija-yt-if-your-heart-isn-t-strong-this-painful-family-movie-will-make-you-shed-tears-2026",
+   "type": "movie",
+   "name": "If Your Heart Isn’t Strong, This Painful Family Movie Will Make You Shed Tears",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "159 min",
+   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2026 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
+   "uploadedAt": "2026-11-18T13:30:09.000Z",
+   "poster": "https://i.ytimg.com/vi/BLzgN49KtfE/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
+   },
+   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "BLzgN49KtfE",
+     "minutes": 159,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "AFOREVO STAGE"
+  },
+  {
+   "id": "snaija-yt-i-plead-with-everyone-to-watch-this-explosive-famiy-movie-learn-a-life-lesson-2026",
+   "type": "movie",
+   "name": "I Plead With Everyone to Watch This Explosive Famiy Movie & Learn a Life Lesson",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Drama"
+   ],
+   "cast": [],
+   "runtime": "108 min",
+   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2026 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
+   "uploadedAt": "2026-11-18T11:00:06.000Z",
+   "poster": "https://i.ytimg.com/vi/F8KyKqQMalc/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
+   },
+   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "F8KyKqQMalc",
+     "minutes": 108,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "AFOREVO STAGE"
   },
   {
    "id": "snaija-yt-no-matter-what-you-do-don-t-skip-this-emotional-family-movie-based-on-true-story-2026",
@@ -183947,6 +184050,47 @@
     }
    ],
    "channelName": "AFOREVO STAGE"
+  },
+  {
+   "id": "snaija-yt-close-and-deadly-2026",
+   "type": "movie",
+   "name": "Close and Deadly",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Epic"
+   ],
+   "cast": [],
+   "runtime": "65 min",
+   "description": "She was a princess. Beautiful, royal, loved by everyone. But behind the palace walls, she was suffering a secret pain that nobody could explain. Then came her wedding day, The biggest day in the kingdom. But what happened that day shocked the whole community. But the real truth was hidden in the pa",
+   "uploadedAt": "2026-11-18T12:14:43.000Z",
+   "poster": "https://i.ytimg.com/vi/h9UsZmrx_Ok/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nollywoodpicturestv (UCi8vPG6uMxIjoZMhLLX2BkQ)"
+   },
+   "channel": "UCi8vPG6uMxIjoZMhLLX2BkQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "h9UsZmrx_Ok",
+     "minutes": 32,
+     "quality": "hd"
+    },
+    {
+     "part": 2,
+     "videoId": "DgBSS81NrTI",
+     "minutes": 33,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nollywoodpicturestv"
   },
   {
    "id": "snaija-yt-pains-of-choosing-you-2026",
@@ -271273,6 +271417,77 @@
     }
    ],
    "channelName": "Neptune3 Studios"
+  },
+  {
+   "id": "snaija-yt-i-buried-my-best-friend-alive-in-the-bush-to-marry-her-husband-but-her-ghost-is-back-2026",
+   "type": "movie",
+   "name": "I Buried My Best Friend Alive in the Bush to Marry Her Husband But Her Ghost Is Back",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Supernatural",
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "112 min",
+   "description": "Despite his family's disapproval, Ezennie remains deeply in love with her man. But tragedy strikes when her closest friend becomes obsessed with the same man and goes to unimaginable lengths to claim him.",
+   "uploadedAt": "2026-11-18T17:00:10.000Z",
+   "poster": "https://i.ytimg.com/vi/9-Dm-YmPc8s/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "9-Dm-YmPc8s",
+     "minutes": 112,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
+  },
+  {
+   "id": "snaija-yt-the-angry-ghost-of-the-lady-they-betrayed-and-killed-came-back-for-sweet-revenge-2026",
+   "type": "movie",
+   "name": "The Angry Ghost of the Lady They Betrayed and Killed Came Back for Sweet Revenge!",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Thriller",
+    "Supernatural"
+   ],
+   "cast": [],
+   "runtime": "117 min",
+   "description": "Driven by greed, Jane and her boyfriend lead Mirabel to a tragic death, believing riches will solve their problems. But just when they think they've gotten away with their wickedness, unexpected vengeance turns thei",
+   "uploadedAt": "2026-11-18T11:00:25.000Z",
+   "poster": "https://i.ytimg.com/vi/VQTozMwCZUE/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "VQTozMwCZUE",
+     "minutes": 117,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
   },
   {
    "id": "snaija-yt-you-destroyed-my-entire-family-in-cold-blood-but-my-powerful-ghost-is-back-2026",
@@ -508091,6 +508306,40 @@
     }
    ],
    "channelName": "KAP STREAM"
+  },
+  {
+   "id": "snaija-yt-whole-again-2026",
+   "type": "movie",
+   "name": "Whole Again",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "142 min",
+   "description": "In the WHOLE AGAIN, one of the latest Nigerian movies 2026, the sole survivor among four friends trafficked across the Sahara into Libya, a traumatised young Nigerian woman returns home carrying the scars of captivity, abuse, and loss. Consumed by shame and afraid to face the family she left behind,",
+   "uploadedAt": "2026-11-18T17:00:13.000Z",
+   "poster": "https://i.ytimg.com/vi/e1I31v24kEc/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Biodun Stephen TV (UCLgjn9SPLG7BxyuFB_uNfXQ)"
+   },
+   "channel": "UCLgjn9SPLG7BxyuFB_uNfXQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "e1I31v24kEc",
+     "minutes": 142,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "BIODUNSTEPHEN TV"
   },
   {
    "id": "snaija-yt-caught-in-the-cycle-2026",
