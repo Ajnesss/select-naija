@@ -1,0 +1,47 @@
+name: YouTube health (every 4 hours)
+
+# Faster broken-link detection: re-reads the official status of every YouTube video Select Naija lists
+# (removed, private, region-blocked, no longer embeddable) and picks up new uploads on the approved channels,
+# which is where re-uploads that replace a removed video appear. A removed video is hidden on the next data
+# reload (server reloads data every 10 minutes), and its backup upload, if any, moves up.
+# Quota: ~560 units for the status read + a few units per channel for new uploads, 5 times a day: well inside
+# the free 10,000 units a day alongside the nightly run.
+
+on:
+  schedule:
+    - cron: '23 1,5,13,17,21 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: verify
+  cancel-in-progress: false
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: New uploads on approved channels
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node scripts/discover-youtube.js
+      - name: Official status of every listed video
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node scripts/check-youtube.js
+      - name: Tests with the new data
+        run: npm test
+      - name: Save
+        run: |
+          git config user.name "select-naija-verifier"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "YouTube health $(date -u +%Y-%m-%dT%H:%M)"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push && break; sleep 5; done
