@@ -1,0 +1,41 @@
+[
+ {
+  "url": "https://northflix.ng/",
+  "xhr": [],
+  "media": [],
+  "scripts": [],
+  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://northflix.ng/",
+  "finalUrl": "about:blank",
+  "title": "",
+  "text": "",
+  "html": "<html><head></head><body></body></html>",
+  "links": [],
+  "iframes": []
+ },
+ {
+  "url": "https://www.northflix.ng/movies",
+  "xhr": [],
+  "media": [],
+  "scripts": [],
+  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.northflix.ng/movies",
+  "finalUrl": "chrome-error://chromewebdata/",
+  "title": "",
+  "text": "",
+  "html": "<html><head></head><body></body></html>",
+  "links": [],
+  "iframes": []
+ },
+ {
+  "url": "https://northflix.ng/terms",
+  "xhr": [],
+  "media": [],
+  "scripts": [],
+  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://northflix.ng/terms",
+  "finalUrl": "chrome-error://chromewebdata/",
+  "title": "",
+  "text": "",
+  "html": "<html><head></head><body></body></html>",
+  "links": [],
+  "iframes": []
+ }
+]
