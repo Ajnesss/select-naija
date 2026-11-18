@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-17T18:41:10.624Z",
+ "generatedAt": "2026-11-18T00:18:39.705Z",
  "channels": {
   "UCbvdwZvZgdl-pPyomEmaEfg": {
    "name": "Omoni Oboli TV",
@@ -124,7 +124,7 @@
   "UC1By7koB6TJqjrfCvmYUIxQ": {
    "name": "AFOREVO STAGE",
    "subscribers": 2630000,
-   "videos": 3432,
+   "videos": 3434,
    "films": 2152
   },
   "UCi8vPG6uMxIjoZMhLLX2BkQ": {
@@ -148,8 +148,8 @@
   "UCVsqair_RFTI1K5cuaLaNtg": {
    "name": "Nigerian Movies Plus",
    "subscribers": 1860000,
-   "videos": 3042,
-   "films": 1975
+   "videos": 3044,
+   "films": 1977
   },
   "UCJ1I13e9PN7u4iszJ6M0AXQ": {
    "name": "ROCKCELLY NOLLYWOOD FILMS TV",
@@ -230,13 +230,13 @@
   },
   "UC6CxpgmZUkTH0NnksC0o_fg": {
    "name": "ABNUR ENTERTAINMENT",
-   "subscribers": 885000,
+   "subscribers": 886000,
    "videos": 413,
    "films": 34
   },
   "UC3PkFyrpeoRxfwWpTUp2uUg": {
    "name": "YAKUBU MOHAMMED 2EFFECT TV",
-   "subscribers": 384000,
+   "subscribers": 385000,
    "videos": 375,
    "films": 31
   },
@@ -266,7 +266,7 @@
   },
   "UCPdsCoSqO4dZcnkX_4do6hA": {
    "name": "KAP STREAM",
-   "subscribers": 40100,
+   "subscribers": 40200,
    "videos": 108,
    "films": 7
   },
@@ -284,7 +284,7 @@
   "UCLgjn9SPLG7BxyuFB_uNfXQ": {
    "name": "BIODUNSTEPHEN TV",
    "subscribers": 469000,
-   "videos": 941,
+   "videos": 942,
    "films": 35
   },
   "UCiZWyHYEvZO-1MFIxy1ojQg": {
@@ -320,8 +320,8 @@
   "UC6izPafX_9ydQCa7xctxcuQ": {
    "name": "NollyReel",
    "subscribers": 150000,
-   "videos": 377,
-   "films": 362
+   "videos": 378,
+   "films": 363
   },
   "UCjS6UnmKjrBX3krk8oVZocg": {
    "name": "nollynetwork",
@@ -98547,7 +98547,7 @@
    "cast": [],
    "runtime": "133 min",
    "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2026 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
-   "uploadedAt": "2026-11-17T16:00:09.000Z",
+   "uploadedAt": "2026-11-17T19:00:10.000Z",
    "poster": "https://i.ytimg.com/vi/7ZTYbaEK4tI/maxresdefault.jpg",
    "posterShape": "landscape",
    "sources": {
@@ -98563,6 +98563,17 @@
     }
    ],
    "alternates": [
+    {
+     "label": "another upload",
+     "parts": [
+      {
+       "part": 1,
+       "videoId": "ycspNTehbNE",
+       "minutes": 131,
+       "quality": "hd"
+      }
+     ]
+    },
     {
      "label": "another upload",
      "parts": [
@@ -271228,6 +271239,78 @@
     }
    ],
    "channelName": "Neptune3 Studios"
+  },
+  {
+   "id": "snaija-yt-you-destroyed-my-entire-family-in-cold-blood-but-my-powerful-ghost-is-back-2026",
+   "type": "movie",
+   "name": "You Destroyed My Entire Family in Cold Blood But My Powerful Ghost Is Back!",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Epic",
+    "Supernatural",
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "109 min",
+   "description": "For years, a ruthless chief priestess has ruled her village through fear and dark powers. But when the ghost of a young maiden returns to avenge her family and destroy the evil shrine, the battle between darkness an",
+   "uploadedAt": "2026-11-17T23:00:08.000Z",
+   "poster": "https://i.ytimg.com/vi/aqtyXCE1LvE/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "aqtyXCE1LvE",
+     "minutes": 109,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
+  },
+  {
+   "id": "snaija-yt-she-came-to-my-introduction-with-her-evil-powers-but-my-mother-s-ghost-stopped-her-2026",
+   "type": "movie",
+   "name": "She Came to My Introduction With Her Evil Powers But My Mother's Ghost Stopped Her!",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Thriller",
+    "Supernatural"
+   ],
+   "cast": [],
+   "runtime": "154 min",
+   "description": "Consumed by jealousy and revenge over hurtful words from the past, a ruthless woman unleashes a deadly illness upon her co-wife and sets out to destroy her daughter's marriage. But how long can her evil plans succee",
+   "uploadedAt": "2026-11-17T19:00:00.000Z",
+   "poster": "https://i.ytimg.com/vi/uFEHctiReaI/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "uFEHctiReaI",
+     "minutes": 154,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
   },
   {
    "id": "snaija-yt-betrayed-by-the-royal-family-2026",
@@ -513817,6 +513900,39 @@
     }
    ],
    "channelName": "SceneOne TV"
+  },
+  {
+   "id": "snaija-yt-three-hearts-2026",
+   "type": "movie",
+   "name": "Three Hearts",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Drama"
+   ],
+   "cast": [],
+   "runtime": "108 min",
+   "uploadedAt": "2026-11-17T19:00:34.000Z",
+   "poster": "https://i.ytimg.com/vi/Zgyp__NGHcA/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel NollyReel (UC6izPafX_9ydQCa7xctxcuQ)"
+   },
+   "channel": "UC6izPafX_9ydQCa7xctxcuQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "Zgyp__NGHcA",
+     "minutes": 108,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "NollyReel"
   },
   {
    "id": "snaija-yt-gen-z-wife-x-titled-husband-2026",
