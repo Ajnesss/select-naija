@@ -249,3 +249,16 @@ ad insertion, players, DRM, hosting, embed routes, partner APIs), plus each site
 | Northflix.ng (described as free Hausa films) | Domain no longer resolves | Defunct |
 | ArewaFlix (free Hausa app) | arewaflix.com "Account Suspended" | Defunct |
 | IBAKATV, Flicks ON | Subscription | No (paid) |
+
+## Round 16 (18 Nov 2026): public broadcasters and cultural film libraries
+
+| Lead | Finding | Verdict |
+| --- | --- | --- |
+| TV5MONDE+ (free, global) | Cinémathèque Afrique: 15 restored African classics (francophone); no Nigerian films found | No Nigerian content |
+| BFI Player free collection | African Odysseys free shorts are mostly Black British; Nigerian features are subscription/rental | No free Nigerian films |
+| ARTE | Only a 13-minute 2009 report on Nollywood | No |
+| Goethe on Demand | German films (free after registration) | No Nigerian films |
+
+YouTube reliability: status of all ~27,500 listed videos now read every 4 hours (was daily), new uploads on approved
+channels picked up at the same time. Cross-channel "same title" pairs checked: almost all are different films with the
+same name (running times differ), so they are not added as backups.
