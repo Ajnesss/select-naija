@@ -239,3 +239,13 @@ ad insertion, players, DRM, hosting, embed routes, partner APIs), plus each site
 | NSKY TV | Website "under construction"; Roku/Android TV live channels | Re-check after launch |
 | Mount Zion own app | Not found (searches return unrelated US churches) | Mount Zion films reach us via FaithStream |
 | FaithStream "Love and Porridge" (original, 20 Nov) | Added to the known-Nigerian list so the nightly run picks it up | Pending release |
+
+## Round 15 (18 Nov 2026): Hausa / Kannywood platforms, studio libraries
+
+| Lead | Finding | Verdict |
+| --- | --- | --- |
+| AREWA24 On Demand | Subscription (in-app $3.99) | No (paid) |
+| Kallo.ng | Subscription service | No (paid) |
+| Northflix.ng (described as free Hausa films) | Domain no longer resolves | Defunct |
+| ArewaFlix (free Hausa app) | arewaflix.com "Account Suspended" | Defunct |
+| IBAKATV, Flicks ON | Subscription | No (paid) |
