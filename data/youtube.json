@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-18T18:11:45.083Z",
+ "generatedAt": "2026-11-18T21:28:42.802Z",
  "channels": {
   "UCbvdwZvZgdl-pPyomEmaEfg": {
    "name": "Omoni Oboli TV",
@@ -124,7 +124,7 @@
   "UC1By7koB6TJqjrfCvmYUIxQ": {
    "name": "AFOREVO STAGE",
    "subscribers": 2630000,
-   "videos": 3443,
+   "videos": 3444,
    "films": 2155
   },
   "UCi8vPG6uMxIjoZMhLLX2BkQ": {
@@ -148,8 +148,8 @@
   "UCVsqair_RFTI1K5cuaLaNtg": {
    "name": "Nigerian Movies Plus",
    "subscribers": 1860000,
-   "videos": 3046,
-   "films": 1979
+   "videos": 3047,
+   "films": 1980
   },
   "UCJ1I13e9PN7u4iszJ6M0AXQ": {
    "name": "ROCKCELLY NOLLYWOOD FILMS TV",
@@ -320,8 +320,8 @@
   "UC6izPafX_9ydQCa7xctxcuQ": {
    "name": "NollyReel",
    "subscribers": 150000,
-   "videos": 378,
-   "films": 363
+   "videos": 379,
+   "films": 364
   },
   "UCjS6UnmKjrBX3krk8oVZocg": {
    "name": "nollynetwork",
@@ -271419,6 +271419,42 @@
    "channelName": "Neptune3 Studios"
   },
   {
+   "id": "snaija-yt-she-killed-me-to-marry-my-rich-boyfriend-but-my-angry-ghost-is-back-for-revenge-2026",
+   "type": "movie",
+   "name": "She Killed Me to Marry My Rich Boyfriend But My Angry Ghost Is Back for Revenge!",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Thriller",
+    "Supernatural"
+   ],
+   "cast": [],
+   "runtime": "167 min",
+   "description": "Ezennie's love faces fierce opposition from her man's family, but the greatest danger comes from a jealous friend determined to steal him. Her desperate obsession leads to tragedy, awakening Ezennie's vengeful spiri",
+   "uploadedAt": "2026-11-18T19:00:34.000Z",
+   "poster": "https://i.ytimg.com/vi/6FTdUDdIPwM/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "6FTdUDdIPwM",
+     "minutes": 167,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
+  },
+  {
    "id": "snaija-yt-i-buried-my-best-friend-alive-in-the-bush-to-marry-her-husband-but-her-ghost-is-back-2026",
    "type": "movie",
    "name": "I Buried My Best Friend Alive in the Bush to Marry Her Husband But Her Ghost Is Back",
@@ -514183,6 +514219,39 @@
     }
    ],
    "channelName": "SceneOne TV"
+  },
+  {
+   "id": "snaija-yt-daddy-duties-2026",
+   "type": "movie",
+   "name": "Daddy Duties",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Drama"
+   ],
+   "cast": [],
+   "runtime": "90 min",
+   "uploadedAt": "2026-11-18T19:00:26.000Z",
+   "poster": "https://i.ytimg.com/vi/7CIau4_h4aQ/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel NollyReel (UC6izPafX_9ydQCa7xctxcuQ)"
+   },
+   "channel": "UC6izPafX_9ydQCa7xctxcuQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "7CIau4_h4aQ",
+     "minutes": 90,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "NollyReel"
   },
   {
    "id": "snaija-yt-three-hearts-2026",
