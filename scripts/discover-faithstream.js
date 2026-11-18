@@ -22,7 +22,7 @@ const KNOWN_NIGERIAN = new Set([
   'prodigal ones', 'rapture nightmare', 'tribulation night', 'apoti eri', 'eternal verdict', 'enoch', 'ipenija',
   'burning coles', 'the manager', 'jailer', 'legion', 'family riot', 'youthful lust', 'fiwajomi', 'stalker', 'haunt', 'haunted',
   'abejoye', 'corpers lodge', 'god calling', 'my defender', 'journey in the circle', 'abattoir', 'gbemi', 'the peacemaker',
-  'the kingmaker', 'dying with the king', 'ina abe aso', 'the accountant', 'recitation',
+  'the kingmaker', 'dying with the king', 'ina abe aso', 'the accountant', 'recitation', 'love and porridge',
 ]);
 const NIGERIAN_TEXT = /\b(nigeria|nigerian|lagos|abuja|ibadan|enugu|kano|port harcourt|yoruba|igbo|hausa|naija|mount zion|mzfm|adeboye|kolade|temilola|adesewa|abayomi|funke|olakunle|iremoje|kunle|tunde|yemi|tolu|seun|bisi|emeka|ngozi|nkechi|chinedu|obinna|sade)\b/i;
 const NOT_FILMS = /^(day \d+|renewed mind|daily prayers|open mic|loosed to love|positioning yourself|healing, not burdens|forgive yourself|stop the hustle|become mercy|never messy|new fix testing|gc trailer|burnng bush|moses and the burning bush|parable of the talents)/i;

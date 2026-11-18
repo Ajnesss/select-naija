@@ -229,3 +229,13 @@ ad insertion, players, DRM, hosting, embed routes, partner APIs), plus each site
   answered as HLS from GitHub's servers.
 - 17 Nov 2026 23:38: **playback verified in Nuvio** (user's device, private install): God Calling via FaithStream.
   Server /providers: FaithStream ok, no failures, ~4.1 s for the first (signed-in) request.
+
+## Round 14 (18 Nov 2026): faith platforms and free TV apps
+
+| Lead | Finding | Verdict |
+| --- | --- | --- |
+| AVO TV (player.avo.tv, UK company, free, 120+ channels, Nollywood VOD) | Web player loads Widevine/PlayReady/FairPlay (Axinom) and client-side Google IMA ads; VOD now promoted via "Trybe"/subscriptions | No: DRM and player-side adverts |
+| OH Prime (RCCG / Dove Media) | Live channels only; ohprime.com parked, no web player found | No on-demand films |
+| NSKY TV | Website "under construction"; Roku/Android TV live channels | Re-check after launch |
+| Mount Zion own app | Not found (searches return unrelated US churches) | Mount Zion films reach us via FaithStream |
+| FaithStream "Love and Porridge" (original, 20 Nov) | Added to the known-Nigerian list so the nightly run picks it up | Pending release |
