@@ -1,0 +1,41 @@
+[
+ {
+  "url": "https://ohprime.tv/",
+  "xhr": [],
+  "media": [],
+  "scripts": [],
+  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://ohprime.tv/",
+  "finalUrl": "about:blank",
+  "title": "",
+  "text": "",
+  "html": "<html><head></head><body></body></html>",
+  "links": [],
+  "iframes": []
+ },
+ {
+  "url": "https://www.ohprimetv.com/",
+  "xhr": [],
+  "media": [],
+  "scripts": [],
+  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.ohprimetv.com/",
+  "finalUrl": "chrome-error://chromewebdata/",
+  "title": "",
+  "text": "",
+  "html": "<html><head></head><body></body></html>",
+  "links": [],
+  "iframes": []
+ },
+ {
+  "url": "https://ohprime.com/",
+  "xhr": [],
+  "media": [],
+  "scripts": [],
+  "status": 200,
+  "finalUrl": "https://forsale.godaddy.com/forsale/ohprime.com?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&",
+  "title": "Access Denied",
+  "text": "Access Denied You don't have permission to access \"http://forsale.godaddy.com/forsale/ohprime.com?\" on this server. Reference #18.1271ca17.1794960049.d7e534c https://errors.edgesuite.net/18.1271ca17.1794960049.d7e534c",
+  "html": "<html><head>\n<title>Access Denied</title>\n</head><body>\n<h1>Access Denied</h1>\n \nYou don't have permission to access \"http://forsale.godaddy.com/forsale/ohprime.com?\" on this server.<p>\nReference #18.1271ca17.1794960049.d7e534c\n</p><p>https://errors.edgesuite.net/18.1271ca17.1794960049.d7e534c</p>\n\n\n</body></html>",
+  "links": [],
+  "iframes": []
+ }
+]
