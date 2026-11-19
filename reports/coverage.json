@@ -1,36 +1,36 @@
 {
- "playable": 12556,
+ "playable": 12570,
  "youtubeOnly": 12432,
- "youtubeShare": 99,
- "nonYoutube": 124,
+ "youtubeShare": 98.9,
+ "nonYoutube": 138,
  "nonYoutubeBySource": {
   "Plex": 13,
-  "Tubi": 108,
+  "Tubi": 124,
   "Prime Video": 19
  },
  "bySource": {
   "Plex": 13,
-  "Tubi": 108,
-  "YouTube": 12443,
+  "Tubi": 124,
+  "YouTube": 12448,
   "Prime Video": 19
  },
  "byChannel": {
   "Plex: -": 13,
-  "Tubi: -": 108,
+  "Tubi: -": 124,
   "YouTube: BTAtv": 1404,
   "YouTube: ROCKCELLY NOLLYWOOD FILMS TV": 835,
   "YouTube: EbonyLife Films": 1,
   "Prime Video: -": 19,
+  "YouTube: Nigerian Movies Plus": 1981,
   "YouTube: Uche Nancy tv": 667,
-  "YouTube: Nigerian Movies Plus": 1978,
-  "YouTube: Uchenna Mbunabo Tv": 167,
+  "YouTube: Uchenna Mbunabo Tv": 166,
   "YouTube: nollynetwork": 112,
   "YouTube: Nollywood RealnollyTV": 696,
   "YouTube: Nollywoodpicturestv": 1659,
   "YouTube: Omoni Oboli TV": 104,
-  "YouTube: NollyReel": 362,
+  "YouTube: NollyReel": 363,
   "YouTube: APATATV+": 342,
-  "YouTube: RuthKadiri247": 174,
+  "YouTube: RuthKadiri247": 175,
   "YouTube: Uduak Isong TV": 73,
   "YouTube: OrjiTv": 118,
   "YouTube: Maurice Sam TV": 100,
@@ -45,7 +45,7 @@
   "YouTube: IBAKATV": 10,
   "YouTube: LibraTv": 169,
   "YouTube: Regina Daniels Tv": 4,
-  "YouTube: AFOREVO STAGE": 2155,
+  "YouTube: AFOREVO STAGE": 2156,
   "YouTube: Bconceptnetwork": 13,
   "YouTube: Neptune3 Studios": 12,
   "YouTube: Global Update Movies Nollywood": 145,
@@ -69,8 +69,8 @@
   "YouTube: SceneOne TV": 1,
   "YouTube: EL'S NOLLY TV ": 24
  },
- "generatedAt": "2026-11-18T18:21:19.654Z",
- "statusGeneratedAt": "2026-11-18T18:21:19.604Z",
+ "generatedAt": "2026-11-19T18:38:32.117Z",
+ "statusGeneratedAt": "2026-11-19T18:38:32.060Z",
  "groups": {
   "classics": {
    "total": 1,
@@ -85,16 +85,16 @@
  },
  "languages": {
   "en": {
-   "catalogued": 12735,
-   "covered": 11288,
-   "withoutTmdb": 12537,
-   "coverage": 88.6
+   "catalogued": 12741,
+   "covered": 11300,
+   "withoutTmdb": 12545,
+   "coverage": 88.7
   },
   "yo": {
-   "catalogued": 847,
-   "covered": 741,
-   "withoutTmdb": 800,
-   "coverage": 87.5
+   "catalogued": 849,
+   "covered": 744,
+   "withoutTmdb": 802,
+   "coverage": 87.6
   },
   "ig": {
    "catalogued": 1352,
@@ -117,32 +117,32 @@
  },
  "providers": {
   "tubi": {
-   "score": 40,
-   "reliability30d": 0,
+   "score": 94,
+   "reliability30d": 91,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 1
+   "checks30d": 1801
   },
   "plex": {
-   "score": 100,
-   "reliability30d": 100,
+   "score": 94,
+   "reliability30d": 91,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 1
+   "checks30d": 32
   },
   "selftest": {
    "score": 100,
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 33
+   "checks30d": 34
   },
   "youtube": {
    "score": 100,
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 18
+   "checks30d": 19
   }
  },
  "gaps": [
