@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-19T18:28:07.496Z",
+ "generatedAt": "2026-11-19T21:41:37.949Z",
  "channels": {
   "UCbvdwZvZgdl-pPyomEmaEfg": {
    "name": "Omoni Oboli TV",
    "subscribers": 2120000,
-   "videos": 1347,
+   "videos": 1348,
    "films": 104
   },
   "UC83tx3zGcvQ_rXzsZigTnEA": {
@@ -34,7 +34,7 @@
   "UCLLA3OKhzK-tzXFvXhnGKZQ": {
    "name": "FAAN TV",
    "subscribers": 1440000,
-   "videos": 2781,
+   "videos": 2782,
    "films": 50
   },
   "UCneM4DHHUWMVwmYktz8X46g": {
@@ -124,7 +124,7 @@
   "UC1By7koB6TJqjrfCvmYUIxQ": {
    "name": "AFOREVO STAGE",
    "subscribers": 2630000,
-   "videos": 3449,
+   "videos": 3453,
    "films": 2156
   },
   "UCi8vPG6uMxIjoZMhLLX2BkQ": {
@@ -148,8 +148,8 @@
   "UCVsqair_RFTI1K5cuaLaNtg": {
    "name": "Nigerian Movies Plus",
    "subscribers": 1860000,
-   "videos": 3050,
-   "films": 1982
+   "videos": 3051,
+   "films": 1983
   },
   "UCJ1I13e9PN7u4iszJ6M0AXQ": {
    "name": "ROCKCELLY NOLLYWOOD FILMS TV",
@@ -224,14 +224,14 @@
   },
   "UCfY4SmVarak6C7C5M2ebNtA": {
    "name": "UK ENTERTAINMENT",
-   "subscribers": 433000,
+   "subscribers": 434000,
    "videos": 432,
    "films": 7
   },
   "UC6CxpgmZUkTH0NnksC0o_fg": {
    "name": "ABNUR ENTERTAINMENT",
    "subscribers": 886000,
-   "videos": 414,
+   "videos": 415,
    "films": 34
   },
   "UC3PkFyrpeoRxfwWpTUp2uUg": {
@@ -320,7 +320,7 @@
   "UC6izPafX_9ydQCa7xctxcuQ": {
    "name": "NollyReel",
    "subscribers": 150000,
-   "videos": 379,
+   "videos": 380,
    "films": 364
   },
   "UCjS6UnmKjrBX3krk8oVZocg": {
@@ -98598,6 +98598,100 @@
    "channelName": "Regina Daniels Tv"
   },
   {
+   "id": "snaija-yt-billionaire-mother-was-expecting-her-son-but-was-shocked-to-see-him-happily-married-with-kids-2025",
+   "type": "movie",
+   "name": "Billionaire Mother Was Expecting Her Son But Was Shocked to See Him Happily Married With Kids",
+   "aliases": [],
+   "year": 2025,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "105 min",
+   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2025 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
+   "uploadedAt": "2026-11-19T20:10:31.000Z",
+   "poster": "https://i.ytimg.com/vi/zSh46YS4pBE/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
+   },
+   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "zSh46YS4pBE",
+     "minutes": 105
+    }
+   ],
+   "alternates": [
+    {
+     "label": "another upload",
+     "parts": [
+      {
+       "part": 1,
+       "videoId": "pe5tfco8adE",
+       "minutes": 105,
+       "quality": "hd"
+      }
+     ]
+    }
+   ],
+   "channelName": "AFOREVO STAGE"
+  },
+  {
+   "id": "snaija-yt-my-sister-took-my-husband-threw-me-out-when-she-was-pregnant-for-my-billionaire-husband-2025",
+   "type": "movie",
+   "name": "My Sister Took My Husband & Threw Me Out When She Was Pregnant for My Billionaire Husband",
+   "aliases": [],
+   "year": 2025,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "96 min",
+   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2024 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
+   "uploadedAt": "2026-11-19T20:00:38.000Z",
+   "poster": "https://i.ytimg.com/vi/zxUE5ejtb1g/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
+   },
+   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "zxUE5ejtb1g",
+     "minutes": 96
+    }
+   ],
+   "alternates": [
+    {
+     "label": "another upload",
+     "parts": [
+      {
+       "part": 1,
+       "videoId": "nvUg8YNGlWU",
+       "minutes": 95,
+       "quality": "hd"
+      }
+     ]
+    }
+   ],
+   "channelName": "AFOREVO STAGE"
+  },
+  {
    "id": "snaija-yt-ladies-be-the-first-to-watch-this-emotional-love-movie-with-a-big-life-lesson-2026",
    "type": "movie",
    "name": "Ladies Be the First to Watch This Emotional Love Movie With a Big Life Lesson",
@@ -170281,40 +170375,6 @@
    "channelName": "AFOREVO STAGE"
   },
   {
-   "id": "snaija-yt-billionaire-mother-was-expecting-her-son-but-was-shocked-to-see-him-happily-married-with-kids-2025",
-   "type": "movie",
-   "name": "Billionaire Mother Was Expecting Her Son But Was Shocked to See Him Happily Married With Kids",
-   "aliases": [],
-   "year": 2025,
-   "yearIsUpload": true,
-   "languages": [
-    "en"
-   ],
-   "category": "film",
-   "genres": [
-    "Romance",
-    "Family"
-   ],
-   "cast": [],
-   "runtime": "105 min",
-   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2025 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
-   "uploadedAt": "2025-08-19T17:00:06.000Z",
-   "poster": "https://i.ytimg.com/vi/zSh46YS4pBE/maxresdefault.jpg",
-   "posterShape": "landscape",
-   "sources": {
-    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
-   },
-   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
-   "parts": [
-    {
-     "part": 1,
-     "videoId": "zSh46YS4pBE",
-     "minutes": 105
-    }
-   ],
-   "channelName": "AFOREVO STAGE"
-  },
-  {
    "id": "snaija-yt-my-father-rejected-the-poor-keke-driver-but-was-shocked-to-see-him-as-a-billionaire-prince-2025",
    "type": "movie",
    "name": "My Father Rejected the Poor Keke Driver But Was Shocked to See Him As a Billionaire Prince",
@@ -172915,40 +172975,6 @@
      "part": 1,
      "videoId": "t93GjY_kTaw",
      "minutes": 74
-    }
-   ],
-   "channelName": "AFOREVO STAGE"
-  },
-  {
-   "id": "snaija-yt-my-sister-took-my-husband-threw-me-out-when-she-was-pregnant-for-my-billionaire-husband-2025",
-   "type": "movie",
-   "name": "My Sister Took My Husband & Threw Me Out When She Was Pregnant for My Billionaire Husband",
-   "aliases": [],
-   "year": 2025,
-   "yearIsUpload": true,
-   "languages": [
-    "en"
-   ],
-   "category": "film",
-   "genres": [
-    "Romance",
-    "Family"
-   ],
-   "cast": [],
-   "runtime": "96 min",
-   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2024 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
-   "uploadedAt": "2025-07-25T14:00:06.000Z",
-   "poster": "https://i.ytimg.com/vi/zxUE5ejtb1g/maxresdefault.jpg",
-   "posterShape": "landscape",
-   "sources": {
-    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
-   },
-   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
-   "parts": [
-    {
-     "part": 1,
-     "videoId": "zxUE5ejtb1g",
-     "minutes": 96
     }
    ],
    "channelName": "AFOREVO STAGE"
@@ -271496,6 +271522,42 @@
     }
    ],
    "channelName": "Neptune3 Studios"
+  },
+  {
+   "id": "snaija-yt-the-powerful-ghost-of-my-mother-came-wit-powers-to-save-me-from-my-evil-mother-inlaw-2026",
+   "type": "movie",
+   "name": "The Powerful Ghost of My Mother Came Wit Powers to Save Me From My Evil Mother Inlaw",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Supernatural",
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "190 min",
+   "description": "A young woman finds herself trapped in a troubled relationship with a possessive boyfriend who refuses to let her go. As his desperate attempts to control her become increasingly extreme, love turns into fear, jealo",
+   "uploadedAt": "2026-11-19T19:00:09.000Z",
+   "poster": "https://i.ytimg.com/vi/VsDa1h_1H1g/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "VsDa1h_1H1g",
+     "minutes": 190,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
   },
   {
    "id": "snaija-yt-my-ghost-will-give-this-village-no-peace-until-i-silence-those-who-buried-me-alive-2026",
@@ -464259,7 +464321,7 @@
    "genres": [
     "Drama"
    ],
-   "uploadedAt": "2026-11-12T19:00:07.000Z",
+   "uploadedAt": "2026-11-19T19:00:08.000Z",
    "poster": "https://i.ytimg.com/vi/CXRgsWBj0pA/hqdefault.jpg",
    "posterShape": "landscape",
    "sources": {
@@ -464281,6 +464343,11 @@
      "season": 1,
      "episode": 3,
      "released": "2026-11-12T19:00:07.000Z"
+    },
+    {
+     "season": 1,
+     "episode": 4,
+     "released": "2026-11-19T19:00:08.000Z"
     }
    ],
    "episodes": [
@@ -464306,6 +464373,15 @@
      "videoId": "ugiaQaTPId0",
      "minutes": 69,
      "released": "2026-11-12T19:00:07.000Z",
+     "alternates": []
+    },
+    {
+     "season": 1,
+     "episode": 4,
+     "videoId": "F_sRC7gu2Ic",
+     "minutes": 67,
+     "quality": "hd",
+     "released": "2026-11-19T19:00:08.000Z",
      "alternates": []
     }
    ],
@@ -514400,6 +514476,39 @@
    "channelName": "SceneOne TV"
   },
   {
+   "id": "snaija-yt-marriage-mender-2026",
+   "type": "movie",
+   "name": "Marriage Mender",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance"
+   ],
+   "cast": [],
+   "runtime": "126 min",
+   "uploadedAt": "2026-11-19T19:00:11.000Z",
+   "poster": "https://i.ytimg.com/vi/mwnpyONbf4w/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel NollyReel (UC6izPafX_9ydQCa7xctxcuQ)"
+   },
+   "channel": "UC6izPafX_9ydQCa7xctxcuQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "mwnpyONbf4w",
+     "minutes": 126,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "NollyReel"
+  },
+  {
    "id": "snaija-yt-daddy-duties-2026",
    "type": "movie",
    "name": "Daddy Duties",
@@ -514817,38 +514926,6 @@
      "part": 1,
      "videoId": "PqeeGUXAgIs",
      "minutes": 105
-    }
-   ],
-   "channelName": "NollyReel"
-  },
-  {
-   "id": "snaija-yt-marriage-mender-2026",
-   "type": "movie",
-   "name": "Marriage Mender",
-   "aliases": [],
-   "year": 2026,
-   "yearIsUpload": false,
-   "languages": [
-    "en"
-   ],
-   "category": "film",
-   "genres": [
-    "Romance"
-   ],
-   "cast": [],
-   "runtime": "100 min",
-   "uploadedAt": "2026-11-06T19:00:18.000Z",
-   "poster": "https://i.ytimg.com/vi/FunOSG5QnTk/maxresdefault.jpg",
-   "posterShape": "landscape",
-   "sources": {
-    "all": "YouTube channel NollyReel (UC6izPafX_9ydQCa7xctxcuQ)"
-   },
-   "channel": "UC6izPafX_9ydQCa7xctxcuQ",
-   "parts": [
-    {
-     "part": 1,
-     "videoId": "FunOSG5QnTk",
-     "minutes": 100
     }
    ],
    "channelName": "NollyReel"
