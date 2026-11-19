@@ -1,16 +1,16 @@
 {
- "generatedAt": "2026-11-18T21:28:42.802Z",
+ "generatedAt": "2026-11-19T08:55:02.803Z",
  "channels": {
   "UCbvdwZvZgdl-pPyomEmaEfg": {
    "name": "Omoni Oboli TV",
    "subscribers": 2110000,
-   "videos": 1342,
+   "videos": 1343,
    "films": 104
   },
   "UC83tx3zGcvQ_rXzsZigTnEA": {
    "name": "APATATV+",
    "subscribers": 2640000,
-   "videos": 2359,
+   "videos": 2361,
    "films": 342
   },
   "UCjcFNZE51DmSrGYBqixs0Ug": {
@@ -106,7 +106,7 @@
   "UCiahLsxiMoVkuUM1bbgPg0g": {
    "name": "OrjiTv",
    "subscribers": 584000,
-   "videos": 245,
+   "videos": 246,
    "films": 118
   },
   "UCw2noEeao113AcTVlXnW4Wg": {
@@ -148,8 +148,8 @@
   "UCVsqair_RFTI1K5cuaLaNtg": {
    "name": "Nigerian Movies Plus",
    "subscribers": 1860000,
-   "videos": 3047,
-   "films": 1980
+   "videos": 3048,
+   "films": 1981
   },
   "UCJ1I13e9PN7u4iszJ6M0AXQ": {
    "name": "ROCKCELLY NOLLYWOOD FILMS TV",
@@ -213,7 +213,7 @@
   "UCK-FDSIDGzjK6PYWcFaOzkA": {
    "name": "Saira Movies",
    "subscribers": 2210000,
-   "videos": 422,
+   "videos": 423,
    "films": 7
   },
   "UCN3dhIcfderAlznX52VEyTQ": {
@@ -283,7 +283,7 @@
   },
   "UCLgjn9SPLG7BxyuFB_uNfXQ": {
    "name": "BIODUNSTEPHEN TV",
-   "subscribers": 469000,
+   "subscribers": 470000,
    "videos": 944,
    "films": 36
   },
@@ -271417,6 +271417,42 @@
     }
    ],
    "channelName": "Neptune3 Studios"
+  },
+  {
+   "id": "snaija-yt-the-evil-prince-buried-me-alive-in-the-river-to-hide-the-truth-but-my-ghost-is-back-2026",
+   "type": "movie",
+   "name": "The Evil Prince Buried Me Alive in the River to Hide the Truth But My Ghost Is Back!",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Epic",
+    "Supernatural"
+   ],
+   "cast": [],
+   "runtime": "102 min",
+   "description": "When a powerful prince falls desperately in love with Achalugo, a beautiful village maiden, he vows to make her his queen. But Achalugo is deeply in love with Ikemba, and the prince refuses to let her go.",
+   "uploadedAt": "2026-11-18T23:00:38.000Z",
+   "poster": "https://i.ytimg.com/vi/BfoRjgdul3A/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "BfoRjgdul3A",
+     "minutes": 102,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
   },
   {
    "id": "snaija-yt-she-killed-me-to-marry-my-rich-boyfriend-but-my-angry-ghost-is-back-for-revenge-2026",
