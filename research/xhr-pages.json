@@ -1,5 +1,3 @@
 {
- "flickson": ["https://theflickson.com/", "https://www.flickson.com/", "https://flicksonline.com/"],
- "hadassah": ["https://hadassahtv.com/", "https://www.hadassah.tv/", "https://hcentv.com/"],
- "abidon": ["https://abidontv.com/", "https://www.abidon.tv/", "https://abidontv.ng/"]
+ "abidon-film": ["https://abidontv.com/movies/moranugba-2", "https://abidontv.com/movies/ojiji-omo-eni", "https://abidontv.com/movies/", "https://abidontv.com/about-us/", "https://abidontv.com/terms-of-use/", "https://abidontv.com/membership-account-2/", "https://abidontv.com/faq-5/", "https://abidontv.com/tvshows/"]
 }
