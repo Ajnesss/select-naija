@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-20T17:57:29.877Z",
+ "generatedAt": "2026-11-20T21:20:55.525Z",
  "channels": {
   "UCbvdwZvZgdl-pPyomEmaEfg": {
    "name": "Omoni Oboli TV",
    "subscribers": 2120000,
-   "videos": 1350,
+   "videos": 1351,
    "films": 105
   },
   "UC83tx3zGcvQ_rXzsZigTnEA": {
@@ -15,8 +15,8 @@
   },
   "UCjcFNZE51DmSrGYBqixs0Ug": {
    "name": "RuthKadiri247",
-   "subscribers": 4200000,
-   "videos": 342,
+   "subscribers": 4210000,
+   "videos": 343,
    "films": 174
   },
   "UCypAoMCRQuNL2RBwy-x4oQg": {
@@ -124,7 +124,7 @@
   "UC1By7koB6TJqjrfCvmYUIxQ": {
    "name": "AFOREVO STAGE",
    "subscribers": 2630000,
-   "videos": 3482,
+   "videos": 3483,
    "films": 2162
   },
   "UCi8vPG6uMxIjoZMhLLX2BkQ": {
@@ -148,8 +148,8 @@
   "UCVsqair_RFTI1K5cuaLaNtg": {
    "name": "Nigerian Movies Plus",
    "subscribers": 1860000,
-   "videos": 3049,
-   "films": 1982
+   "videos": 3050,
+   "films": 1983
   },
   "UCJ1I13e9PN7u4iszJ6M0AXQ": {
    "name": "ROCKCELLY NOLLYWOOD FILMS TV",
@@ -212,7 +212,7 @@
   },
   "UCK-FDSIDGzjK6PYWcFaOzkA": {
    "name": "Saira Movies",
-   "subscribers": 2210000,
+   "subscribers": 2220000,
    "videos": 420,
    "films": 7
   },
@@ -236,7 +236,7 @@
   },
   "UC3PkFyrpeoRxfwWpTUp2uUg": {
    "name": "YAKUBU MOHAMMED 2EFFECT TV",
-   "subscribers": 385000,
+   "subscribers": 386000,
    "videos": 375,
    "films": 31
   },
@@ -288717,6 +288717,42 @@
     }
    ],
    "channelName": "Neptune3 Studios"
+  },
+  {
+   "id": "snaija-yt-the-banished-maiden-came-with-strange-powers-to-stop-the-evil-village-chief-priest-2026",
+   "type": "movie",
+   "name": "The Banished Maiden Came With Strange Powers to Stop the Evil Village Chief Priest!",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Epic",
+    "Supernatural",
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "61 min",
+   "description": "Rescued from a mysterious forest, Dubem suffers rejection and false accusations from the family that shelters her. But when she miraculously saves her adopted mother, shocking secrets begin to emerge about her conne",
+   "uploadedAt": "2026-11-20T19:00:11.000Z",
+   "poster": "https://i.ytimg.com/vi/gbKIA6U1qeA/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "gbKIA6U1qeA",
+     "minutes": 61,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
   },
   {
    "id": "snaija-yt-my-wicked-ghost-will-not-rest-until-i-silence-the-evil-king-who-buried-me-alive-2026",
