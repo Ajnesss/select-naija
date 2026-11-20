@@ -1,141 +1,145 @@
 {
- "nta": {
-  "start": "https://www.nta.ng",
+ "ogtv": {
+  "start": "https://ogtv.ng",
+  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://ogtv.ng/",
+  "title": "",
+  "pages": 1,
+  "fingerprints": {},
+  "media": 0,
+  "walls": []
+ },
+ "kwtv": {
+  "start": "https://kwaratv.ng",
+  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://kwaratv.ng/",
+  "title": "",
+  "pages": 1,
+  "fingerprints": {},
+  "media": 0,
+  "walls": []
+ },
+ "esbs": {
+  "start": "https://esbs.en.gov.ng",
+  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://esbs.en.gov.ng/",
+  "title": "",
+  "pages": 1,
+  "fingerprints": {},
+  "media": 0,
+  "walls": []
+ },
+ "abs": {
+  "start": "https://absradiotv.com",
   "status": 200,
-  "title": "Nigerian Television Authority - News, Live TV and Replay",
-  "pages": 6,
+  "title": "Heartbeat Of The East",
+  "pages": 1,
+  "fingerprints": {},
+  "media": 0,
+  "walls": []
+ },
+ "rstv": {
+  "start": "https://rstv.ng",
+  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://rstv.ng/",
+  "title": "",
+  "pages": 1,
+  "fingerprints": {},
+  "media": 0,
+  "walls": []
+ },
+ "dbs": {
+  "start": "https://dbsasaba.com",
+  "status": 200,
+  "title": "Bot Verification",
+  "pages": 1,
+  "fingerprints": {},
+  "media": 0,
+  "walls": []
+ },
+ "ebs": {
+  "start": "https://ebstv.tv",
+  "status": 200,
+  "title": "EBS TV - Your #1 Choice! | Home To Ethiopian Best Tv Shows , Series Dramas , Movies , Musics & Latest News",
+  "pages": 4,
   "fingerprints": {
    "youtube": 1
   },
-  "media": 5,
+  "media": 0,
+  "walls": [
+   "subscribe"
+  ]
+ },
+ "prtvc": {
+  "start": "https://prtvc.com.ng",
+  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://prtvc.com.ng/",
+  "title": "",
+  "pages": 1,
+  "fingerprints": {},
+  "media": 0,
+  "walls": []
+ },
+ "akbc": {
+  "start": "https://akbc.ng",
+  "status": 200,
+  "title": "AKBC CONVERTER | Professional Unit Conversion",
+  "pages": 1,
+  "fingerprints": {},
+  "media": 0,
+  "walls": []
+ },
+ "ibc": {
+  "start": "https://ibcorlu.com",
+  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://ibcorlu.com/",
+  "title": "",
+  "pages": 1,
+  "fingerprints": {},
+  "media": 0,
+  "walls": []
+ },
+ "osbc": {
+  "start": "https://osbc.ng",
+  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://osbc.ng/",
+  "title": "",
+  "pages": 1,
+  "fingerprints": {},
+  "media": 0,
+  "walls": []
+ },
+ "osrc": {
+  "start": "https://osrc.ng",
+  "status": 200,
+  "title": "HOME - OSRC TV",
+  "pages": 3,
+  "fingerprints": {
+   "youtube": 1
+  },
+  "media": 0,
   "walls": [
    "rent"
   ]
  },
- "ntaondemand": {
-  "start": "https://ntaondemand.ng",
-  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://ntaondemand.ng/",
+ "wazobiatv": {
+  "start": "https://wazobiatv.com",
+  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://wazobiatv.com/",
   "title": "",
   "pages": 1,
   "fingerprints": {},
   "media": 0,
   "walls": []
  },
- "ait": {
-  "start": "https://www.aitonline.tv",
-  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.aitonline.tv/",
+ "mitv": {
+  "start": "https://mitvng.com",
+  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://mitvng.com/",
   "title": "",
   "pages": 1,
   "fingerprints": {},
   "media": 0,
   "walls": []
  },
- "tvc": {
-  "start": "https://www.tvcnews.tv",
-  "status": 403,
-  "title": "Just a moment...",
-  "pages": 1,
-  "fingerprints": {},
-  "media": 0,
-  "walls": []
- },
- "tvcent": {
-  "start": "https://tvcentertainment.tv",
-  "status": 200,
-  "title": "Homepage - PURE ENTERTAINMENT",
-  "pages": 6,
-  "fingerprints": {
-   "youtube": 1
-  },
-  "media": 4,
-  "walls": [
-   "rent",
-   "buy"
-  ]
- },
- "silverbird": {
-  "start": "https://silverbirdtv.com",
-  "status": 200,
-  "title": "Home - SilverbirdTV",
-  "pages": 1,
-  "fingerprints": {},
-  "media": 0,
-  "walls": []
- },
- "ontv": {
-  "start": "https://ontvnetwork.com",
-  "status": 403,
-  "title": "Just a moment...",
-  "pages": 1,
-  "fingerprints": {},
-  "media": 0,
-  "walls": []
- },
- "galaxy": {
-  "start": "https://galaxytvonline.com",
-  "status": 403,
-  "title": "Just a moment...",
-  "pages": 1,
-  "fingerprints": {},
-  "media": 0,
-  "walls": []
- },
- "bcos": {
-  "start": "https://bcos.tv",
-  "status": 200,
-  "title": "HITCLUB 🎖️ Trang Chủ HITCLUB.COM Chính Thức #1 VN",
-  "pages": 1,
-  "fingerprints": {},
-  "media": 0,
-  "walls": []
- },
- "lagostv": {
-  "start": "https://lagostelevision.com",
-  "status": 200,
-  "title": "Lagos Television - LTV",
-  "pages": 1,
-  "fingerprints": {},
-  "media": 1,
-  "walls": []
- },
- "africamagic": {
-  "start": "https://www.africamagic.tv",
-  "status": 500,
+ "artv": {
+  "start": "https://artvkano.com",
+  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://artvkano.com/",
   "title": "",
   "pages": 1,
   "fingerprints": {},
   "media": 0,
   "walls": []
- },
- "dstvstream": {
-  "start": "https://now.dstv.com",
-  "status": 200,
-  "title": "DStv - Watch Live sports and Catch Up on TV series, movies and kids shows online.",
-  "pages": 1,
-  "fingerprints": {},
-  "media": 0,
-  "walls": []
- },
- "startimes": {
-  "start": "https://www.startimestv.com",
-  "status": 200,
-  "title": "StarTimes",
-  "pages": 1,
-  "fingerprints": {},
-  "media": 0,
-  "walls": []
- },
- "rokufree": {
-  "start": "https://therokuchannel.roku.com",
-  "status": 200,
-  "title": "Roku - Watch Movies, TV Shows & Live News Online",
-  "pages": 6,
-  "fingerprints": {},
-  "media": 4,
-  "walls": [
-   "sign in",
-   "subscription",
-   "rent"
-  ]
  }
 }

@@ -1,0 +1,13 @@
+[
+ {
+  "url": "https://esbs.en.gov.ng",
+  "finalUrl": "chrome-error://chromewebdata/",
+  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://esbs.en.gov.ng/",
+  "title": "",
+  "walls": [],
+  "fingerprints": {},
+  "media": [],
+  "iframes": [],
+  "text": ""
+ }
+]
