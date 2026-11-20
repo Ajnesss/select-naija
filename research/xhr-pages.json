@@ -1,3 +1,1 @@
-{
- "abidon-film": ["https://abidontv.com/movies/moranugba-2", "https://abidontv.com/movies/ojiji-omo-eni", "https://abidontv.com/movies/", "https://abidontv.com/about-us/", "https://abidontv.com/terms-of-use/", "https://abidontv.com/membership-account-2/", "https://abidontv.com/faq-5/", "https://abidontv.com/tvshows/"]
-}
+{ "abidon-free": ["https://abidontv.com/movies/?access=free", "https://abidontv.com/movies/?movie_access=free", "https://abidontv.com/movies/?filter_access=free", "https://abidontv.com/movies/?sort_by=latest&access_type=free"] }
