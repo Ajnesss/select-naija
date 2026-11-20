@@ -1,25 +1,26 @@
-# Live providers — 2026-11-19T13:29:15.812Z
+# Live providers — 2026-11-20T13:10:21.200Z
 
 ## Coverage
 
 - **archive**: 200 title(s)
   - Hausa Soul Winning Gospel Presentation Only JESUS CHRIST Saves (?) — Public domain
-  - Sex Show 20Febrero 2012 (?) — CC BY-ND 3.0
-  - Nigeria02 (?) — Public domain
-  - programa 29_08_2011 (?) — CC0
-  - Countering Asymmetric Threats: Evaluating Nigeria’s Strategic Approaches to International Terrorism in the Boko Haram Era (2026) — CC0
-  - Aboluyo Women's Cassava Processing Centre. Ibadan, Nigeria. 2003 (1993) — CC BY-NC-SA 4.0
-  - News and Akụkọ ụwa [NTA Aba, June 3, 2026] (2026) — CC BY-ND 4.0
-  - Nestlé blüht auf – Äthiopien verdorrt (2018) — CC BY 3.0
-  - Africa Revisited 2010 A triptych of differing themes. (2010) — CC BY 2.0
-  - NTA News [January 27, 2002] (2002) — CC BY-ND 4.0
+  - Indo-Africa Cultural Event (Vol.II) (1993) — CC BY-NC 4.0
   - Sunday Service October 13th, 2024 (2024) — CC0
   - Groundnut and Zobo ($12) (2018) — CC BY 2.0
   - Zee crowded Race Back to The Moon | February 26, 2024 (2024) — CC BY-ND 4.0
-  - EKEREAGWU/AGBOROGWỤ DANCE (2022) — CC BY-NC-ND 4.0
   - Nigerian Soldier Carries Actress 😂 😂 😂 🔥 🔥 04 (2021) — Public domain
+  - EKEREAGWU/AGBOROGWỤ DANCE (2022) — CC BY-NC-ND 4.0
+  - EN-HB(MM) (?) — CC BY 3.0
+  - Sex Show 16 Abril 2012 (?) — CC BY-ND 3.0
+  - Katsina State Television Service Livestream [December 7, 2020] (2020) — CC BY-ND 4.0
+  - Stories From The Sacrifice Of The Companions Of The Prophet ( Itan Ifi Ẹmi Ji Iku Lọdọ Awọn Sahaabah) (?) — Public domain
+  - George W Bush 20041202_3_ (?) — Public domain
+  - Taraba Television Live Stream [September 14, 2018] (2018) — CC BY-ND 4.0
+  - Shell Graduate Recruitment Action at Randolph Hotel in Oxford, UK (2009) — CC BY-NC-SA 2.0
+  - Surviving Crisis In Your World (2017) — CC BY-NC-ND 3.0
 - **commons**: 0 title(s)
-- **faithstream**: 14 title(s) · types {"Animations/Animation":7,"Movies/movie":49,"Podcasts/podcast":5,"Devotionals/daily-devotionals":3,"movie/null":22,"Series/series-episode":25,"series_episode/null":1,"PrayerStreams/Prayer-room":27}
+- **faithstream**: 15 title(s) · types {"Movies/movie":51,"movie/null":23,"Animations/Animation":7,"Podcasts/podcast":5,"Devotionals/daily-devotionals":3,"Series/series-episode":25,"series_episode/null":1,"PrayerStreams/Prayer-room":27}
+  - Love & Porridge (77 min)
   - WOUNDED (53 min)
   - In The Gap (97 min)
   - God Calling (120 min)
