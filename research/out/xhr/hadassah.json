@@ -1,0 +1,41 @@
+[
+ {
+  "url": "https://hadassahtv.com/",
+  "xhr": [],
+  "media": [],
+  "scripts": [],
+  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://hadassahtv.com/",
+  "finalUrl": "about:blank",
+  "title": "",
+  "text": "",
+  "html": "<html><head></head><body></body></html>",
+  "links": [],
+  "iframes": []
+ },
+ {
+  "url": "https://www.hadassah.tv/",
+  "xhr": [],
+  "media": [],
+  "scripts": [],
+  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.hadassah.tv/",
+  "finalUrl": "chrome-error://chromewebdata/",
+  "title": "",
+  "text": "",
+  "html": "<html><head></head><body></body></html>",
+  "links": [],
+  "iframes": []
+ },
+ {
+  "url": "https://hcentv.com/",
+  "xhr": [],
+  "media": [],
+  "scripts": [],
+  "status": "error page.goto: net::ERR_NAME_NOT_RESOLVED at https://hcentv.com/",
+  "finalUrl": "chrome-error://chromewebdata/",
+  "title": "",
+  "text": "",
+  "html": "<html><head></head><body></body></html>",
+  "links": [],
+  "iframes": []
+ }
+]
