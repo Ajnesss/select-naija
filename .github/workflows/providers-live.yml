@@ -36,7 +36,7 @@ jobs:
         env:
           FAITHSTREAM_EMAIL: ${{ secrets.FAITHSTREAM_EMAIL }}
           FAITHSTREAM_PASSWORD: ${{ secrets.FAITHSTREAM_PASSWORD }}
-        run: node test.js "Living in Bondage (1992)" && node test.js "God Calling" --provider faithstream && node test.js snaija-fs-abattoir:2:1 --type series --provider faithstream && node test.js snaija-fs-the-peacemaker --provider faithstream && node test.js --coverage
+        run: node test.js "Living in Bondage (1992)" && node test.js "God Calling" --provider faithstream && node test.js snaija-fs-abattoir:2:1 --type series --provider faithstream && node test.js "Love and Porridge" --provider faithstream && node test.js --coverage
       - name: Save report
         run: |
           git config user.name "select-naija-bot"
