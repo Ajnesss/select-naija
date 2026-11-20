@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-19T21:41:37.949Z",
+ "generatedAt": "2026-11-20T08:41:44.685Z",
  "channels": {
   "UCbvdwZvZgdl-pPyomEmaEfg": {
    "name": "Omoni Oboli TV",
    "subscribers": 2120000,
-   "videos": 1348,
+   "videos": 1349,
    "films": 104
   },
   "UC83tx3zGcvQ_rXzsZigTnEA": {
@@ -148,8 +148,8 @@
   "UCVsqair_RFTI1K5cuaLaNtg": {
    "name": "Nigerian Movies Plus",
    "subscribers": 1860000,
-   "videos": 3051,
-   "films": 1983
+   "videos": 3052,
+   "films": 1984
   },
   "UCJ1I13e9PN7u4iszJ6M0AXQ": {
    "name": "ROCKCELLY NOLLYWOOD FILMS TV",
@@ -284,7 +284,7 @@
   "UCLgjn9SPLG7BxyuFB_uNfXQ": {
    "name": "BIODUNSTEPHEN TV",
    "subscribers": 471000,
-   "videos": 945,
+   "videos": 946,
    "films": 36
   },
   "UCiZWyHYEvZO-1MFIxy1ojQg": {
@@ -271522,6 +271522,42 @@
     }
    ],
    "channelName": "Neptune3 Studios"
+  },
+  {
+   "id": "snaija-yt-the-banished-old-witch-came-with-powers-to-save-the-princess-from-her-river-husband-2026",
+   "type": "movie",
+   "name": "The Banished Old Witch Came With Powers to Save the Princess From Her River Husband!",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Epic",
+    "Supernatural"
+   ],
+   "cast": [],
+   "runtime": "177 min",
+   "description": "A beautiful princess becomes trapped in a terrifying spiritual marriage that threatens her happiness and future. As dark secrets unfold and supernatural forces tighten their grip, she must fight to break the mysteri",
+   "uploadedAt": "2026-11-19T23:00:24.000Z",
+   "poster": "https://i.ytimg.com/vi/fXVS-MSF5P0/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "fXVS-MSF5P0",
+     "minutes": 177,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
   },
   {
    "id": "snaija-yt-the-powerful-ghost-of-my-mother-came-wit-powers-to-save-me-from-my-evil-mother-inlaw-2026",
