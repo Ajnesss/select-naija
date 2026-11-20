@@ -1,7 +1,29 @@
 {
- "generatedAt": "2026-11-20T22:59:35.502Z",
+ "generatedAt": "2026-11-20T23:05:10.547Z",
  "source": "FaithStream (thefaithstream.com)",
  "titles": [
+  {
+   "id": "snaija-fs-love-porridge",
+   "type": "movie",
+   "name": "Love & Porridge",
+   "year": null,
+   "runtime": "77 min",
+   "description": "When celebrity chef Dapo  meets Ifedayo, a rising buka owner, a random social media post sets them on a path where love, friendship and faith come together in unexpected ways that test their convictions.\n",
+   "poster": "https://d3jaci99bhbzji.cloudfront.net/thumbnails/fcf541da-723a-4e12-8f0e-bb193f1df1a8/25c7aa31-1fbc-441d-8087-83e60094dc68/w1280.webp",
+   "languages": [
+    "en"
+   ],
+   "genres": [
+    "Faith",
+    "Drama"
+   ],
+   "live": [
+    "faithstream"
+   ],
+   "fsIds": [
+    "fcf541da-723a-4e12-8f0e-bb193f1df1a8"
+   ]
+  },
   {
    "id": "snaija-fs-god-calling",
    "type": "movie",
