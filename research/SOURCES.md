@@ -269,3 +269,9 @@ same name (running times differ), so they are not added as backups.
 - NSKY TV: still "coming soon" (re-check scheduled 1 Dec).
 - State broadcasters (ABS Anambra, OSRC Ondo and others): sites are news/live pages with YouTube embeds; several
   domains no longer resolve; DBS Asaba behind a bot check. No on-demand film or drama libraries found.
+
+## Round 18 (20 Nov 2026): film festivals and filmmaker self-distribution
+
+- AFRIFF (Lagos, 1–7 Nov), Nollywood Week Paris, Nollywood in Hollywood, AAIFF (28 Nov, Lagos), Kingdom Film Festival
+  (25–28 Nov, Lagos): in-person screenings; no free online screenings found.
+- Ema Edosio (When Nigeria Happens, Kasala, Otiti) self-distributes on emaedosio.com: ₦10,000 ticket, time-limited. Paid.
