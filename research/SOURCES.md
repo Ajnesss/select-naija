@@ -262,3 +262,10 @@ ad insertion, players, DRM, hosting, embed routes, partner APIs), plus each site
 YouTube reliability: status of all ~27,500 listed videos now read every 4 hours (was daily), new uploads on approved
 channels picked up at the same time. Cross-channel "same title" pairs checked: almost all are different films with the
 same name (running times differ), so they are not added as backups.
+
+## Round 17 (20 Nov 2026): state broadcasters; FaithStream Love & Porridge
+
+- FaithStream: "Love & Porridge" (77 min) added after fixing '&' matching; playback URL issued in the live check. 33 films, 3 series.
+- NSKY TV: still "coming soon" (re-check scheduled 1 Dec).
+- State broadcasters (ABS Anambra, OSRC Ondo and others): sites are news/live pages with YouTube embeds; several
+  domains no longer resolve; DBS Asaba behind a bot check. No on-demand film or drama libraries found.
