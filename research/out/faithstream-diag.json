@@ -43,6 +43,28 @@
  ],
  "series": [
   {
+   "id": "74389e7a-9801-415d-821c-6b82902f5325",
+   "title": "A GOD OF MULTIPLICATION",
+   "type": "sermon_series",
+   "seasons": null,
+   "episodeCount": 4,
+   "keysWithEpisodes": [
+    "episodeCount",
+    "episodes"
+   ]
+  },
+  {
+   "id": "197a0b66-e237-4df5-8074-da93b82a94d2",
+   "title": "Discerning Gods' Voice",
+   "type": "sermon_series",
+   "seasons": null,
+   "episodeCount": 5,
+   "keysWithEpisodes": [
+    "episodeCount",
+    "episodes"
+   ]
+  },
+  {
    "id": "06cfb3ab-82d2-4c68-9117-fe8e183d3efb",
    "title": "A God of Multiplication",
    "type": "sermon_series",
@@ -113,7 +135,7 @@
    "title": "GBEMI 3",
    "type": "sermon_series",
    "seasons": null,
-   "episodeCount": 2,
+   "episodeCount": 3,
    "keysWithEpisodes": [
     "episodeCount",
     "episodes"
@@ -603,6 +625,51 @@
   "/content/episodes/series/0b89ef71-b59f-4f8d-b142-d62a9bb5d5c7": "error HTTP 404"
  },
  "films": [
+  {
+   "id": "7625ccce-625c-42d0-b89f-4c63c10c706f",
+   "title": "HARMONY DEAL",
+   "minutes": null,
+   "description": "Daniel, a young musician and rapper chasing quick success in the music industry while navigating strained family relationships, personal struggles, and health crises. metadata",
+   "language": "en",
+   "cast": null,
+   "director": null,
+   "producer": null,
+   "keys": [
+    "casts",
+    "tags",
+    "genres"
+   ]
+  },
+  {
+   "id": "6c3066d7-7824-4fa3-a2f6-98c158fd5289",
+   "title": "L&V Trailer",
+   "minutes": 2,
+   "description": "L&V Trailer\nSource: l&p Final trailer.mov",
+   "language": "en",
+   "cast": null,
+   "director": null,
+   "producer": null,
+   "keys": [
+    "casts",
+    "tags",
+    "genres"
+   ]
+  },
+  {
+   "id": "fcf541da-723a-4e12-8f0e-bb193f1df1a8",
+   "title": "Love & Porridge",
+   "minutes": 77,
+   "description": "When celebrity chef Dapo  meets Ifedayo, a rising buka owner, a random social media post sets them on a path where love, friendship and faith come together in unexpected ways that test their convictions.\n",
+   "language": "en",
+   "cast": null,
+   "director": null,
+   "producer": null,
+   "keys": [
+    "casts",
+    "tags",
+    "genres"
+   ]
+  },
   {
    "id": "b9bd7297-8fd1-4074-80b9-79333ac9cc22",
    "title": "New Fix Testing",
