@@ -275,3 +275,17 @@ same name (running times differ), so they are not added as backups.
 - AFRIFF (Lagos, 1–7 Nov), Nollywood Week Paris, Nollywood in Hollywood, AAIFF (28 Nov, Lagos), Kingdom Film Festival
   (25–28 Nov, Lagos): in-person screenings; no free online screenings found.
 - Ema Edosio (When Nigeria Happens, Kasala, Otiti) self-distributes on emaedosio.com: ₦10,000 ticket, time-limited. Paid.
+
+## Round 19 (20 Nov 2026): revisits and new discovery
+
+| Lead | Finding | Verdict |
+| --- | --- | --- |
+| NSKY TV (revisit) | Website still "coming soon". On Lightcast/Android TV it is a multi-channel app: Nsky Cinema, Nsky Movies Yoruba/Igbo/Hausa, OGTV, Oodua TV — live linear channels, app-only, no web player | Not per-title streams; re-check 1 Dec |
+| Love & Porridge (revisit) | On FaithStream since 20 Nov; integrated | Done |
+| AbidonTV (abidontv.com) | WordPress "Streamit" site, Plyr; 28 films (Yoruba/Nollywood: Moranugba 1–2, Ojiji Omo Eni, Ayani Lowo Ipa…), 2 series; film pages say "Subscribe or Login to Watch"; $3/month; terms: subscription licence, personal use | Paid as checked; a free tier is offered by the site's filter but could not be confirmed without an account |
+| StarTimes ON | VIP in-app subscriptions | No (paid) |
+| cLoveWorld (Christ Embassy) | LoveWorld channels + VOD (sermons/ministry) | No Nollywood films |
+| Hadassah TV / HCENTV (Doris Ariole) | iOS app only; hadassahtv.com / hcentv.com do not resolve | No web; re-check if a site appears |
+| Flicks ON | theflickson.com parked/for sale | Defunct web |
+| KingsView, Fliika | Subscription | No (paid) |
+| Circuits FreeFlex (revisit) | Free tier exists but DRM (Widevine/FairPlay) + Google DAI | Still no |
