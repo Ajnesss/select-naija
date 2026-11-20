@@ -1,1 +1,5 @@
-{ "nsky2": ["https://nskytv.com/", "https://nskytv.com/watch", "https://app.nskytv.com/"] }
+{
+ "flickson": ["https://theflickson.com/", "https://www.flickson.com/", "https://flicksonline.com/"],
+ "hadassah": ["https://hadassahtv.com/", "https://www.hadassah.tv/", "https://hcentv.com/"],
+ "abidon": ["https://abidontv.com/", "https://www.abidon.tv/", "https://abidontv.ng/"]
+}
