@@ -24,12 +24,12 @@ const KNOWN_NIGERIAN = new Set([
   'abejoye', 'corpers lodge', 'god calling', 'my defender', 'journey in the circle', 'abattoir', 'gbemi', 'the peacemaker',
   'the kingmaker', 'dying with the king', 'ina abe aso', 'the accountant', 'recitation', 'love and porridge',
 ]);
-const NIGERIAN_TEXT = /\b(nigeria|nigerian|lagos|abuja|ibadan|enugu|kano|port harcourt|yoruba|igbo|hausa|naija|mount zion|mzfm|adeboye|kolade|temilola|adesewa|abayomi|funke|olakunle|iremoje|kunle|tunde|yemi|tolu|seun|bisi|emeka|ngozi|nkechi|chinedu|obinna|sade)\b/i;
+const NIGERIAN_TEXT = /\b(nigeria|nigerian|lagos|abuja|ibadan|enugu|kano|port harcourt|yoruba|igbo|hausa|naija|mount zion|mzfm|adeboye|kolade|temilola|adesewa|abayomi|funke|olakunle|iremoje|kunle|tunde|yemi|tolu|seun|bisi|emeka|ngozi|nkechi|chinedu|obinna|sade|dapo|ifedayo|buka)\b/i;
 const NOT_FILMS = /^(day \d+|renewed mind|daily prayers|open mic|loosed to love|positioning yourself|healing, not burdens|forgive yourself|stop the hustle|become mercy|never messy|new fix testing|gc trailer|burnng bush|moses and the burning bush|parable of the talents)/i;
 
 const tidy = (s) => String(s || '').replace(/\s+/g, ' ').trim();
 const pretty = (s) => (s === s.toUpperCase() ? s.toLowerCase().replace(/(^|[\s(-])([a-z])/g, (m, a, b) => a + b.toUpperCase()).replace(/\b(Of|The|And|In|A|With)\b(?!$)/g, (w, _x, i) => (i === 0 ? w : w.toLowerCase())) : s);
-const key = (s) => normalize(s).replace(/\bthe\b/g, '').replace(/\s+/g, '');
+const key = (s) => normalize(String(s).replace(/&/g, ' and ')).replace(/\bthe\b/g, '').replace(/\s+/g, '');
 
 // "ABATTOIR S2 EP6" → { base: 'ABATTOIR', season: 2, episode: 6 }; "ABATTOIR 3 EP 1" → season 3; "Corpers Lodge Ep 4" → season 1
 function parseEpisode(title) {

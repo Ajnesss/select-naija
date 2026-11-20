@@ -304,6 +304,7 @@ test('FaithStream discovery parses episodes, parts and typo variants', () => {
   assert.ok(m.sameName('COPRERS LODGE', "CORPER'S LODGE"));
   assert.ok(m.sameName('The KingMaker', 'The King Maker'));
   assert.ok(!m.sameName('Stranded', 'Stranded 2'));
+  assert.ok(m.sameName('Love & Porridge', 'love and porridge'));
   assert.equal(m.pretty("CORPER'S LODGE"), "Corper's Lodge");
   assert.equal(m.pretty('DYING WITH THE KING'), 'Dying with the King');
 });
