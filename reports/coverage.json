@@ -1,29 +1,29 @@
 {
- "playable": 12587,
- "youtubeOnly": 12441,
+ "playable": 12593,
+ "youtubeOnly": 12444,
  "youtubeShare": 98.8,
- "nonYoutube": 146,
+ "nonYoutube": 149,
  "nonYoutubeBySource": {
   "Plex": 13,
-  "Tubi": 132,
+  "Tubi": 135,
   "Prime Video": 19
  },
  "bySource": {
   "Plex": 13,
-  "Tubi": 132,
-  "YouTube": 12461,
+  "Tubi": 135,
+  "YouTube": 12464,
   "Prime Video": 19
  },
  "byChannel": {
   "Plex: -": 13,
-  "Tubi: -": 132,
-  "YouTube: BTAtv": 1404,
+  "Tubi: -": 135,
   "YouTube: ROCKCELLY NOLLYWOOD FILMS TV": 835,
   "YouTube: EbonyLife Films": 1,
   "Prime Video: -": 19,
-  "YouTube: Nigerian Movies Plus": 1982,
+  "YouTube: BTAtv": 1404,
+  "YouTube: Uchenna Mbunabo Tv": 166,
+  "YouTube: Nigerian Movies Plus": 1985,
   "YouTube: Uche Nancy tv": 667,
-  "YouTube: Uchenna Mbunabo Tv": 167,
   "YouTube: nollynetwork": 113,
   "YouTube: Nollywood RealnollyTV": 698,
   "YouTube: Nollywoodpicturestv": 1660,
@@ -31,7 +31,7 @@
   "YouTube: NollyReel": 363,
   "YouTube: APATATV+": 341,
   "YouTube: RuthKadiri247": 174,
-  "YouTube: Uduak Isong TV": 73,
+  "YouTube: Uduak Isong TV": 74,
   "YouTube: OrjiTv": 119,
   "YouTube: Maurice Sam TV": 100,
   "YouTube: FAAN TV": 50,
@@ -69,8 +69,8 @@
   "YouTube: SceneOne TV": 1,
   "YouTube: EL'S NOLLY TV ": 24
  },
- "generatedAt": "2026-11-20T18:14:32.853Z",
- "statusGeneratedAt": "2026-11-20T18:14:32.792Z",
+ "generatedAt": "2026-11-21T17:04:38.244Z",
+ "statusGeneratedAt": "2026-11-21T17:04:38.202Z",
  "groups": {
   "classics": {
    "total": 1,
@@ -85,9 +85,9 @@
  },
  "languages": {
   "en": {
-   "catalogued": 12756,
-   "covered": 11318,
-   "withoutTmdb": 12560,
+   "catalogued": 12767,
+   "covered": 11324,
+   "withoutTmdb": 12568,
    "coverage": 88.7
   },
   "yo": {
@@ -98,7 +98,7 @@
   },
   "ig": {
    "catalogued": 1353,
-   "covered": 1336,
+   "covered": 1335,
    "withoutTmdb": 1337,
    "coverage": 98.7
   },
@@ -117,32 +117,32 @@
  },
  "providers": {
   "tubi": {
-   "score": 94,
+   "score": 93,
    "reliability30d": 89,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 1970
+   "checks30d": 2142
   },
   "plex": {
    "score": 95,
    "reliability30d": 91,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 33
+   "checks30d": 34
   },
   "selftest": {
    "score": 100,
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 35
+   "checks30d": 36
   },
   "youtube": {
    "score": 100,
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 20
+   "checks30d": 21
   }
  },
  "gaps": [

@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-21T13:36:30.080Z",
+ "generatedAt": "2026-11-21T16:52:59.122Z",
  "channels": {
   "UCbvdwZvZgdl-pPyomEmaEfg": {
    "name": "Omoni Oboli TV",
    "subscribers": 2120000,
-   "videos": 1354,
+   "videos": 1355,
    "films": 105
   },
   "UC83tx3zGcvQ_rXzsZigTnEA": {
@@ -64,8 +64,8 @@
   "UCVVs7iCZgDTBi7nPs4m4ksg": {
    "name": "Uduak Isong TV",
    "subscribers": 823000,
-   "videos": 153,
-   "films": 73
+   "videos": 154,
+   "films": 74
   },
   "UCGRC6hm8mD8WqeY0auwrCrQ": {
    "name": "Uche Montana TV",
@@ -124,7 +124,7 @@
   "UC1By7koB6TJqjrfCvmYUIxQ": {
    "name": "AFOREVO STAGE",
    "subscribers": 2630000,
-   "videos": 3488,
+   "videos": 3490,
    "films": 2162
   },
   "UCi8vPG6uMxIjoZMhLLX2BkQ": {
@@ -267,7 +267,7 @@
   "UCPdsCoSqO4dZcnkX_4do6hA": {
    "name": "KAP STREAM",
    "subscribers": 40200,
-   "videos": 108,
+   "videos": 109,
    "films": 7
   },
   "UCuoDa0ZOF0h9doIaJIkr8yA": {
@@ -283,7 +283,7 @@
   },
   "UCLgjn9SPLG7BxyuFB_uNfXQ": {
    "name": "BIODUNSTEPHEN TV",
-   "subscribers": 472000,
+   "subscribers": 473000,
    "videos": 947,
    "films": 36
   },
@@ -46075,6 +46075,44 @@
     }
    ],
    "channelName": "GEORGINA IBEH TV"
+  },
+  {
+   "id": "snaija-yt-three-sisters-2026",
+   "type": "movie",
+   "name": "Three Sisters",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Drama"
+   ],
+   "cast": [
+    "Bimbo Ademoye",
+    "Chioma Nwosu",
+    "Baaj Adebule",
+    "Abiola Kareem"
+   ],
+   "runtime": "102 min",
+   "uploadedAt": "2026-11-21T15:59:57.000Z",
+   "poster": "https://i.ytimg.com/vi/aCLfTID1YyE/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Uduak Isong TV (UCVVs7iCZgDTBi7nPs4m4ksg)"
+   },
+   "channel": "UCVVs7iCZgDTBi7nPs4m4ksg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "aCLfTID1YyE",
+     "minutes": 102,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Uduak Isong TV"
   },
   {
    "id": "snaija-yt-mr-fixer-2026",
