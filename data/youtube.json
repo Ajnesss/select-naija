@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-21T16:52:59.122Z",
+ "generatedAt": "2026-11-21T22:14:58.214Z",
  "channels": {
   "UCbvdwZvZgdl-pPyomEmaEfg": {
    "name": "Omoni Oboli TV",
    "subscribers": 2120000,
-   "videos": 1355,
+   "videos": 1356,
    "films": 105
   },
   "UC83tx3zGcvQ_rXzsZigTnEA": {
@@ -34,7 +34,7 @@
   "UCLLA3OKhzK-tzXFvXhnGKZQ": {
    "name": "FAAN TV",
    "subscribers": 1440000,
-   "videos": 2783,
+   "videos": 2784,
    "films": 50
   },
   "UCneM4DHHUWMVwmYktz8X46g": {
@@ -46,12 +46,12 @@
   "UCf6hnTFeMiX6FCwLEGDIjOw": {
    "name": "SANDRA OKUNZUWA TV",
    "subscribers": 1170000,
-   "videos": 933,
+   "videos": 934,
    "films": 42
   },
   "UCHY9J0IWIWht6GqIBiLidBA": {
    "name": "Sonia Uche Tv",
-   "subscribers": 1550000,
+   "subscribers": 1560000,
    "videos": 147,
    "films": 60
   },
@@ -63,7 +63,7 @@
   },
   "UCVVs7iCZgDTBi7nPs4m4ksg": {
    "name": "Uduak Isong TV",
-   "subscribers": 823000,
+   "subscribers": 824000,
    "videos": 154,
    "films": 74
   },
@@ -94,7 +94,7 @@
   "UCm6NRZvIcYwpj79CIa1Lj9g": {
    "name": "IBAKATV",
    "subscribers": 1450000,
-   "videos": 188,
+   "videos": 189,
    "films": 11
   },
   "UCvpK1k1i23Xi5TM-ZDuSNDw": {
@@ -124,7 +124,7 @@
   "UC1By7koB6TJqjrfCvmYUIxQ": {
    "name": "AFOREVO STAGE",
    "subscribers": 2630000,
-   "videos": 3490,
+   "videos": 3495,
    "films": 2162
   },
   "UCi8vPG6uMxIjoZMhLLX2BkQ": {
@@ -148,8 +148,8 @@
   "UCVsqair_RFTI1K5cuaLaNtg": {
    "name": "Nigerian Movies Plus",
    "subscribers": 1860000,
-   "videos": 3052,
-   "films": 1985
+   "videos": 3054,
+   "films": 1987
   },
   "UCJ1I13e9PN7u4iszJ6M0AXQ": {
    "name": "ROCKCELLY NOLLYWOOD FILMS TV",
@@ -104461,6 +104461,98 @@
    "channelName": "Regina Daniels Tv"
   },
   {
+   "id": "snaija-yt-i-urge-every-lady-to-watch-this-life-changing-marriage-movie-learn-something-2026",
+   "type": "movie",
+   "name": "I Urge Every Lady to Watch This Life-Changing Marriage Movie & Learn Something",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance"
+   ],
+   "cast": [],
+   "runtime": "144 min",
+   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2026 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
+   "uploadedAt": "2026-11-21T20:00:11.000Z",
+   "poster": "https://i.ytimg.com/vi/ei4erBcFJP4/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
+   },
+   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "ei4erBcFJP4",
+     "minutes": 144,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "AFOREVO STAGE"
+  },
+  {
+   "id": "snaija-yt-how-the-billionaire-lady-fell-in-love-with-a-kind-man-that-saved-her-life-fixed-her-car-2025",
+   "type": "movie",
+   "name": "How the Billionaire Lady Fell in Love With a Kind Man That Saved Her Life & Fixed Her Car",
+   "aliases": [],
+   "year": 2025,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance"
+   ],
+   "cast": [],
+   "runtime": "123 min",
+   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2025 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
+   "uploadedAt": "2026-11-21T18:28:49.000Z",
+   "poster": "https://i.ytimg.com/vi/Labf_3QOm1g/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
+   },
+   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "Labf_3QOm1g",
+     "minutes": 123,
+     "quality": "hd"
+    }
+   ],
+   "alternates": [
+    {
+     "label": "another upload",
+     "parts": [
+      {
+       "part": 1,
+       "videoId": "8kSZYpMg9pI",
+       "minutes": 122,
+       "quality": "hd"
+      }
+     ]
+    },
+    {
+     "label": "another upload",
+     "parts": [
+      {
+       "part": 1,
+       "videoId": "1fMg5WYs7C4",
+       "minutes": 123,
+       "quality": "hd"
+      }
+     ]
+    }
+   ],
+   "channelName": "AFOREVO STAGE"
+  },
+  {
    "id": "snaija-yt-no-matter-what-you-do-don-t-skip-this-emotional-love-movie-based-on-true-story-2026",
    "type": "movie",
    "name": "No Matter What You Do Don't Skip This Emotional Love Movie Based on True Story",
@@ -107234,40 +107326,6 @@
      "part": 1,
      "videoId": "DTipwG5Vw5g",
      "minutes": 223,
-     "quality": "hd"
-    }
-   ],
-   "channelName": "AFOREVO STAGE"
-  },
-  {
-   "id": "snaija-yt-i-urge-every-lady-to-watch-this-life-changing-marriage-movie-learn-something-2026",
-   "type": "movie",
-   "name": "I Urge Every Lady to Watch This Life-Changing Marriage Movie & Learn Something",
-   "aliases": [],
-   "year": 2026,
-   "yearIsUpload": true,
-   "languages": [
-    "en"
-   ],
-   "category": "film",
-   "genres": [
-    "Romance"
-   ],
-   "cast": [],
-   "runtime": "144 min",
-   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2026 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
-   "uploadedAt": "2026-10-31T01:00:10.000Z",
-   "poster": "https://i.ytimg.com/vi/ei4erBcFJP4/maxresdefault.jpg",
-   "posterShape": "landscape",
-   "sources": {
-    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
-   },
-   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
-   "parts": [
-    {
-     "part": 1,
-     "videoId": "ei4erBcFJP4",
-     "minutes": 144,
      "quality": "hd"
     }
    ],
@@ -172305,53 +172363,6 @@
      "videoId": "ytKN19YLQWE",
      "minutes": 202,
      "quality": "hd"
-    }
-   ],
-   "channelName": "AFOREVO STAGE"
-  },
-  {
-   "id": "snaija-yt-how-the-billionaire-lady-fell-in-love-with-a-kind-man-that-saved-her-life-fixed-her-car-2025",
-   "type": "movie",
-   "name": "How the Billionaire Lady Fell in Love With a Kind Man That Saved Her Life & Fixed Her Car",
-   "aliases": [],
-   "year": 2025,
-   "yearIsUpload": true,
-   "languages": [
-    "en"
-   ],
-   "category": "film",
-   "genres": [
-    "Romance"
-   ],
-   "cast": [],
-   "runtime": "123 min",
-   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2025 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
-   "uploadedAt": "2025-10-19T05:56:47.000Z",
-   "poster": "https://i.ytimg.com/vi/Labf_3QOm1g/maxresdefault.jpg",
-   "posterShape": "landscape",
-   "sources": {
-    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
-   },
-   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
-   "parts": [
-    {
-     "part": 1,
-     "videoId": "Labf_3QOm1g",
-     "minutes": 123,
-     "quality": "hd"
-    }
-   ],
-   "alternates": [
-    {
-     "label": "another upload",
-     "parts": [
-      {
-       "part": 1,
-       "videoId": "1fMg5WYs7C4",
-       "minutes": 123,
-       "quality": "hd"
-      }
-     ]
     }
    ],
    "channelName": "AFOREVO STAGE"
@@ -288767,6 +288778,75 @@
     }
    ],
    "channelName": "Neptune3 Studios"
+  },
+  {
+   "id": "snaija-yt-the-strange-ghost-came-with-special-powers-to-save-the-maiden-from-her-evil-stepmom-2026",
+   "type": "movie",
+   "name": "The Strange Ghost Came With Special Powers to Save the Maiden From Her Evil Stepmom!",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Supernatural"
+   ],
+   "cast": [],
+   "runtime": "60 min",
+   "uploadedAt": "2026-11-21T19:00:36.000Z",
+   "poster": "https://i.ytimg.com/vi/ZK4at2Hr7eU/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "ZK4at2Hr7eU",
+     "minutes": 60,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
+  },
+  {
+   "id": "snaija-yt-the-strange-daughter-of-the-goddess-came-with-special-powers-to-save-our-kingdom-2026",
+   "type": "movie",
+   "name": "The Strange Daughter of the Goddess Came With Special Powers to Save Our Kingdom!",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Epic",
+    "Supernatural",
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "189 min",
+   "description": "Marked by the gods and chosen for greatness, a young maiden becomes the kingdom’s only hope against dark spiritual forces. As ancient secrets unfold, she must embrace her divine destiny and fight to save her people—",
+   "uploadedAt": "2026-11-21T17:00:38.000Z",
+   "poster": "https://i.ytimg.com/vi/syER_wstJak/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "syER_wstJak",
+     "minutes": 189,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
   },
   {
    "id": "snaija-yt-the-powerful-ghost-of-our-dead-daughter-came-to-save-us-from-d-wicked-native-doctor-2026",
