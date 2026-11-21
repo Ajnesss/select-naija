@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-20T21:20:55.525Z",
+ "generatedAt": "2026-11-21T02:39:12.083Z",
  "channels": {
   "UCbvdwZvZgdl-pPyomEmaEfg": {
    "name": "Omoni Oboli TV",
    "subscribers": 2120000,
-   "videos": 1351,
+   "videos": 1352,
    "films": 105
   },
   "UC83tx3zGcvQ_rXzsZigTnEA": {
@@ -124,7 +124,7 @@
   "UC1By7koB6TJqjrfCvmYUIxQ": {
    "name": "AFOREVO STAGE",
    "subscribers": 2630000,
-   "videos": 3483,
+   "videos": 3485,
    "films": 2162
   },
   "UCi8vPG6uMxIjoZMhLLX2BkQ": {
@@ -148,8 +148,8 @@
   "UCVsqair_RFTI1K5cuaLaNtg": {
    "name": "Nigerian Movies Plus",
    "subscribers": 1860000,
-   "videos": 3050,
-   "films": 1983
+   "videos": 3051,
+   "films": 1984
   },
   "UCJ1I13e9PN7u4iszJ6M0AXQ": {
    "name": "ROCKCELLY NOLLYWOOD FILMS TV",
@@ -320,8 +320,8 @@
   "UC6izPafX_9ydQCa7xctxcuQ": {
    "name": "NollyReel",
    "subscribers": 150000,
-   "videos": 380,
-   "films": 364
+   "videos": 379,
+   "films": 363
   },
   "UCjS6UnmKjrBX3krk8oVZocg": {
    "name": "nollynetwork",
@@ -288719,6 +288719,42 @@
    "channelName": "Neptune3 Studios"
   },
   {
+   "id": "snaija-yt-battle-for-the-heart-of-the-crown-prince-2026",
+   "type": "movie",
+   "name": "Battle for the Heart of the Crown Prince!",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Epic",
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "106 min",
+   "description": "Consumed by his desire for a male heir and traditional recognition, a cruel father subjects his family to unimaginable suffering. But when a mysterious disappearance shakes the village, a desperate search through th",
+   "uploadedAt": "2026-11-20T23:00:23.000Z",
+   "poster": "https://i.ytimg.com/vi/NzJ0mp7vUgs/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "NzJ0mp7vUgs",
+     "minutes": 106,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
+  },
+  {
    "id": "snaija-yt-the-banished-maiden-came-with-strange-powers-to-stop-the-evil-village-chief-priest-2026",
    "type": "movie",
    "name": "The Banished Maiden Came With Strange Powers to Stop the Evil Village Chief Priest!",
@@ -535697,7 +535733,8 @@
     {
      "part": 1,
      "videoId": "Nv1u3yoAAZA",
-     "minutes": 94
+     "minutes": 94,
+     "quality": "hd"
     }
    ],
    "channelName": "KAP STREAM"
@@ -535731,7 +535768,8 @@
     {
      "part": 1,
      "videoId": "xUdoUoMidVg",
-     "minutes": 139
+     "minutes": 139,
+     "quality": "hd"
     }
    ],
    "channelName": "KAP STREAM"
@@ -535766,7 +535804,8 @@
     {
      "part": 1,
      "videoId": "lU1Y7Lc4Pwo",
-     "minutes": 145
+     "minutes": 145,
+     "quality": "hd"
     }
    ],
    "channelName": "KAP STREAM"
@@ -535801,7 +535840,8 @@
     {
      "part": 1,
      "videoId": "-tMqbLV7hjs",
-     "minutes": 99
+     "minutes": 99,
+     "quality": "hd"
     }
    ],
    "channelName": "KAP STREAM"
@@ -535835,7 +535875,8 @@
     {
      "part": 1,
      "videoId": "ovI2x9AhQyQ",
-     "minutes": 122
+     "minutes": 122,
+     "quality": "hd"
     }
    ],
    "channelName": "KAP STREAM"
@@ -535869,7 +535910,8 @@
     {
      "part": 1,
      "videoId": "E6d4OZ3lTRE",
-     "minutes": 117
+     "minutes": 117,
+     "quality": "hd"
     }
    ],
    "channelName": "KAP STREAM"
@@ -535903,7 +535945,8 @@
     {
      "part": 1,
      "videoId": "douRZoRGv-o",
-     "minutes": 109
+     "minutes": 109,
+     "quality": "hd"
     }
    ],
    "channelName": "KAP STREAM"
@@ -535970,7 +536013,8 @@
     {
      "part": 1,
      "videoId": "eYt7tSqvc_U",
-     "minutes": 99
+     "minutes": 99,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -536003,7 +536047,8 @@
     {
      "part": 1,
      "videoId": "-AxfPNSiwZI",
-     "minutes": 94
+     "minutes": 94,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -536036,7 +536081,8 @@
     {
      "part": 1,
      "videoId": "GrxitJ4fHT8",
-     "minutes": 121
+     "minutes": 121,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -536069,7 +536115,8 @@
     {
      "part": 1,
      "videoId": "k-ApyygFibs",
-     "minutes": 96
+     "minutes": 96,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -536102,7 +536149,8 @@
     {
      "part": 1,
      "videoId": "L5yFBXDhWmA",
-     "minutes": 124
+     "minutes": 124,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -536136,7 +536184,8 @@
     {
      "part": 1,
      "videoId": "pqv13KazuVM",
-     "minutes": 113
+     "minutes": 113,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -536169,7 +536218,8 @@
     {
      "part": 1,
      "videoId": "QY68the1_yU",
-     "minutes": 98
+     "minutes": 98,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -536202,7 +536252,8 @@
     {
      "part": 1,
      "videoId": "VYdJ00edWkY",
-     "minutes": 112
+     "minutes": 112,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -536236,7 +536287,8 @@
     {
      "part": 1,
      "videoId": "TRJDeOEhbnU",
-     "minutes": 98
+     "minutes": 98,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -536269,7 +536321,8 @@
     {
      "part": 1,
      "videoId": "wUZC0y-pKeE",
-     "minutes": 110
+     "minutes": 110,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -536303,7 +536356,8 @@
     {
      "part": 1,
      "videoId": "TYEpzmr7qgE",
-     "minutes": 134
+     "minutes": 134,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -536336,7 +536390,8 @@
     {
      "part": 1,
      "videoId": "jI2-0knJaHI",
-     "minutes": 81
+     "minutes": 81,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -536370,7 +536425,8 @@
     {
      "part": 1,
      "videoId": "M0ywkeJXMO8",
-     "minutes": 104
+     "minutes": 104,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -536404,7 +536460,8 @@
     {
      "part": 1,
      "videoId": "YIZXNyV-FzI",
-     "minutes": 99
+     "minutes": 99,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -536437,12 +536494,14 @@
     {
      "part": 1,
      "videoId": "Fk47RceISk8",
-     "minutes": 113
+     "minutes": 113,
+     "quality": "hd"
     },
     {
      "part": 2,
      "videoId": "xPaqiJkkZMk",
-     "minutes": 100
+     "minutes": 100,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -536475,7 +536534,8 @@
     {
      "part": 1,
      "videoId": "Bl_TKOOa5WU",
-     "minutes": 101
+     "minutes": 101,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -536508,7 +536568,8 @@
     {
      "part": 1,
      "videoId": "mrfe78KLlRQ",
-     "minutes": 104
+     "minutes": 104,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -536541,7 +536602,8 @@
     {
      "part": 1,
      "videoId": "vuJBH0QyxZk",
-     "minutes": 109
+     "minutes": 109,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -536574,7 +536636,8 @@
     {
      "part": 1,
      "videoId": "UiotH7Mz8d4",
-     "minutes": 131
+     "minutes": 131,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -536607,7 +536670,8 @@
     {
      "part": 1,
      "videoId": "fc_APG_1rM8",
-     "minutes": 119
+     "minutes": 119,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -536640,7 +536704,8 @@
     {
      "part": 1,
      "videoId": "WW_59VCXMbQ",
-     "minutes": 101
+     "minutes": 101,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -536674,7 +536739,8 @@
     {
      "part": 1,
      "videoId": "y8I2GdttsTw",
-     "minutes": 84
+     "minutes": 84,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -536707,7 +536773,8 @@
     {
      "part": 1,
      "videoId": "rL45H21VTjM",
-     "minutes": 87
+     "minutes": 87,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -536740,7 +536807,8 @@
     {
      "part": 1,
      "videoId": "3gd_IGSR8Ps",
-     "minutes": 106
+     "minutes": 106,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -536773,7 +536841,8 @@
     {
      "part": 1,
      "videoId": "5Xcj2t3DzfI",
-     "minutes": 87
+     "minutes": 87,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -536806,7 +536875,8 @@
     {
      "part": 1,
      "videoId": "8s_M8eiDtbA",
-     "minutes": 101
+     "minutes": 101,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -536840,7 +536910,8 @@
     {
      "part": 1,
      "videoId": "VTEx6q_2RoA",
-     "minutes": 108
+     "minutes": 108,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -536873,7 +536944,8 @@
     {
      "part": 1,
      "videoId": "j1WgdWqWuWo",
-     "minutes": 119
+     "minutes": 119,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -536907,7 +536979,8 @@
     {
      "part": 1,
      "videoId": "5TI-llUQw6k",
-     "minutes": 101
+     "minutes": 101,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -536942,7 +537015,8 @@
     {
      "part": 1,
      "videoId": "zQjrDIdrqv4",
-     "minutes": 100
+     "minutes": 100,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -536975,7 +537049,8 @@
     {
      "part": 1,
      "videoId": "GfF4Dz_e3P4",
-     "minutes": 89
+     "minutes": 89,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -537008,7 +537083,8 @@
     {
      "part": 1,
      "videoId": "6H0Q9QDKRcM",
-     "minutes": 72
+     "minutes": 72,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -537041,7 +537117,8 @@
     {
      "part": 1,
      "videoId": "1FOB4aKNISQ",
-     "minutes": 108
+     "minutes": 108,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -537074,7 +537151,8 @@
     {
      "part": 1,
      "videoId": "NDceql26QRc",
-     "minutes": 83
+     "minutes": 83,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -537109,7 +537187,8 @@
     {
      "part": 1,
      "videoId": "TQLqpBOSmFE",
-     "minutes": 102
+     "minutes": 102,
+     "quality": "hd"
     }
    ],
    "channelName": "BIODUNSTEPHEN TV"
@@ -537143,7 +537222,8 @@
     {
      "part": 1,
      "videoId": "JEf4I_d16AI",
-     "minutes": 104
+     "minutes": 104,
+     "quality": "hd"
     }
    ],
    "channelName": "The Chioma Chukwuka TV"
@@ -537180,7 +537260,8 @@
     {
      "part": 1,
      "videoId": "TKcmvErqJcU",
-     "minutes": 119
+     "minutes": 119,
+     "quality": "hd"
     }
    ],
    "channelName": "The Chioma Chukwuka TV"
@@ -537218,7 +537299,8 @@
     {
      "part": 1,
      "videoId": "sq7xzBfMePs",
-     "minutes": 130
+     "minutes": 130,
+     "quality": "hd"
     }
    ],
    "channelName": "The Chioma Chukwuka TV"
@@ -537255,7 +537337,8 @@
     {
      "part": 1,
      "videoId": "-1fFLFFAsRk",
-     "minutes": 97
+     "minutes": 97,
+     "quality": "hd"
     }
    ],
    "channelName": "The Chioma Chukwuka TV"
@@ -537289,7 +537372,8 @@
     {
      "part": 1,
      "videoId": "0_QbyIFv32g",
-     "minutes": 112
+     "minutes": 112,
+     "quality": "hd"
     }
    ],
    "channelName": "The Chioma Chukwuka TV"
@@ -537323,7 +537407,8 @@
     {
      "part": 1,
      "videoId": "ib-5j1P69u0",
-     "minutes": 116
+     "minutes": 116,
+     "quality": "hd"
     }
    ],
    "channelName": "The Chioma Chukwuka TV"
@@ -537356,7 +537441,8 @@
     {
      "part": 1,
      "videoId": "xaBM6h3a6RI",
-     "minutes": 113
+     "minutes": 113,
+     "quality": "hd"
     }
    ],
    "channelName": "The Chioma Chukwuka TV"
@@ -537389,7 +537475,8 @@
     {
      "part": 1,
      "videoId": "UPzXAvL36Ag",
-     "minutes": 121
+     "minutes": 121,
+     "quality": "hd"
     }
    ],
    "channelName": "The Chioma Chukwuka TV"
@@ -537423,7 +537510,8 @@
     {
      "part": 1,
      "videoId": "rdDs1_09i6A",
-     "minutes": 110
+     "minutes": 110,
+     "quality": "hd"
     }
    ],
    "channelName": "The Chioma Chukwuka TV"
@@ -537456,7 +537544,8 @@
     {
      "part": 1,
      "videoId": "zqkrGyEDRzk",
-     "minutes": 60
+     "minutes": 60,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -537489,7 +537578,8 @@
     {
      "part": 1,
      "videoId": "_FW0S6P3A1k",
-     "minutes": 75
+     "minutes": 75,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -537522,7 +537612,8 @@
     {
      "part": 1,
      "videoId": "a2i_6sTjHOk",
-     "minutes": 103
+     "minutes": 103,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -537555,7 +537646,8 @@
     {
      "part": 1,
      "videoId": "zWt2Z6yB15M",
-     "minutes": 109
+     "minutes": 109,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -537588,7 +537680,8 @@
     {
      "part": 1,
      "videoId": "qMO_78fISMI",
-     "minutes": 103
+     "minutes": 103,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -537621,7 +537714,8 @@
     {
      "part": 1,
      "videoId": "tntkL_J_5FY",
-     "minutes": 101
+     "minutes": 101,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -537654,7 +537748,8 @@
     {
      "part": 1,
      "videoId": "mFX61MKolgk",
-     "minutes": 73
+     "minutes": 73,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -537688,7 +537783,8 @@
     {
      "part": 1,
      "videoId": "knsbjWNgqlA",
-     "minutes": 99
+     "minutes": 99,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -537722,7 +537818,8 @@
     {
      "part": 1,
      "videoId": "9PK6bCQOvrc",
-     "minutes": 103
+     "minutes": 103,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -537755,7 +537852,8 @@
     {
      "part": 1,
      "videoId": "ltBKokk7Z80",
-     "minutes": 93
+     "minutes": 93,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -537789,7 +537887,8 @@
     {
      "part": 1,
      "videoId": "obGjSK_6-cU",
-     "minutes": 108
+     "minutes": 108,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -537822,7 +537921,8 @@
     {
      "part": 1,
      "videoId": "j0SWe2AlHUs",
-     "minutes": 69
+     "minutes": 69,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -537855,7 +537955,8 @@
     {
      "part": 1,
      "videoId": "tDmAt6ZQ9pc",
-     "minutes": 105
+     "minutes": 105,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -537889,7 +537990,8 @@
     {
      "part": 1,
      "videoId": "AaMb1fC7OHU",
-     "minutes": 85
+     "minutes": 85,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -537923,7 +538025,8 @@
     {
      "part": 1,
      "videoId": "KvGYXxx3Ylg",
-     "minutes": 95
+     "minutes": 95,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -537956,7 +538059,8 @@
     {
      "part": 1,
      "videoId": "bckeuzvyAbA",
-     "minutes": 81
+     "minutes": 81,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -537989,7 +538093,8 @@
     {
      "part": 1,
      "videoId": "C29uQVqE_Tg",
-     "minutes": 70
+     "minutes": 70,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -538022,7 +538127,8 @@
     {
      "part": 1,
      "videoId": "ycpnoDctflw",
-     "minutes": 95
+     "minutes": 95,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -538055,7 +538161,8 @@
     {
      "part": 1,
      "videoId": "W0EKwNXBGQk",
-     "minutes": 98
+     "minutes": 98,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -538089,7 +538196,8 @@
     {
      "part": 1,
      "videoId": "KYygBLQ3YeQ",
-     "minutes": 75
+     "minutes": 75,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -538122,7 +538230,8 @@
     {
      "part": 1,
      "videoId": "AcS-O81qr2M",
-     "minutes": 113
+     "minutes": 113,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -538155,7 +538264,8 @@
     {
      "part": 1,
      "videoId": "odm5xsm3rvU",
-     "minutes": 59
+     "minutes": 59,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -538188,7 +538298,8 @@
     {
      "part": 1,
      "videoId": "yDuHNB6zPc4",
-     "minutes": 79
+     "minutes": 79,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -538221,7 +538332,8 @@
     {
      "part": 1,
      "videoId": "vUAcnrOeaac",
-     "minutes": 63
+     "minutes": 63,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -538254,7 +538366,8 @@
     {
      "part": 1,
      "videoId": "Xog8szaAJ9Q",
-     "minutes": 85
+     "minutes": 85,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -538287,7 +538400,8 @@
     {
      "part": 1,
      "videoId": "5UtbwWdjbJQ",
-     "minutes": 79
+     "minutes": 79,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -538320,7 +538434,8 @@
     {
      "part": 1,
      "videoId": "QZK4ZQ9U5MQ",
-     "minutes": 70
+     "minutes": 70,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -538354,7 +538469,8 @@
     {
      "part": 1,
      "videoId": "eD-JvOmq1AA",
-     "minutes": 116
+     "minutes": 116,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -538387,7 +538503,8 @@
     {
      "part": 1,
      "videoId": "CsSXc9fYGGM",
-     "minutes": 110
+     "minutes": 110,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -538420,7 +538537,8 @@
     {
      "part": 1,
      "videoId": "sNywUET_7fg",
-     "minutes": 93
+     "minutes": 93,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -538453,7 +538571,8 @@
     {
      "part": 1,
      "videoId": "O-dZH7GeU4Q",
-     "minutes": 83
+     "minutes": 83,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -538487,7 +538606,8 @@
     {
      "part": 1,
      "videoId": "lNlTaaPKYwk",
-     "minutes": 70
+     "minutes": 70,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -538521,7 +538641,8 @@
     {
      "part": 1,
      "videoId": "d7CrlXeMMm8",
-     "minutes": 105
+     "minutes": 105,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -538554,7 +538675,8 @@
     {
      "part": 1,
      "videoId": "nupoqBrEdd4",
-     "minutes": 97
+     "minutes": 97,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -538587,7 +538709,8 @@
     {
      "part": 1,
      "videoId": "L7m7uYSskhw",
-     "minutes": 92
+     "minutes": 92,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -538621,7 +538744,8 @@
     {
      "part": 1,
      "videoId": "xOVLS_htoW8",
-     "minutes": 63
+     "minutes": 63,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -538654,7 +538778,8 @@
     {
      "part": 1,
      "videoId": "-RSD5o4tN8I",
-     "minutes": 59
+     "minutes": 59,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -538687,7 +538812,8 @@
     {
      "part": 1,
      "videoId": "iKiM26sYO2I",
-     "minutes": 90
+     "minutes": 90,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -538720,7 +538846,8 @@
     {
      "part": 1,
      "videoId": "BFiG2MuJFYQ",
-     "minutes": 68
+     "minutes": 68,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -538753,7 +538880,8 @@
     {
      "part": 1,
      "videoId": "0-z20cGmrxA",
-     "minutes": 73
+     "minutes": 73,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -538787,7 +538915,8 @@
     {
      "part": 1,
      "videoId": "VcIP5Ly8Po0",
-     "minutes": 94
+     "minutes": 94,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -538820,7 +538949,8 @@
     {
      "part": 1,
      "videoId": "eiwj9UPryYU",
-     "minutes": 59
+     "minutes": 59,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -538853,7 +538983,8 @@
     {
      "part": 1,
      "videoId": "eFAmpw-_1AM",
-     "minutes": 113
+     "minutes": 113,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -538886,7 +539017,8 @@
     {
      "part": 1,
      "videoId": "bEP8URfmjhw",
-     "minutes": 86
+     "minutes": 86,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -538919,7 +539051,8 @@
     {
      "part": 1,
      "videoId": "etv7sc4TZk4",
-     "minutes": 74
+     "minutes": 74,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -538953,7 +539086,8 @@
     {
      "part": 1,
      "videoId": "Io6UkphQwMQ",
-     "minutes": 100
+     "minutes": 100,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -538986,7 +539120,8 @@
     {
      "part": 1,
      "videoId": "7HFV97U6oGk",
-     "minutes": 73
+     "minutes": 73,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -539019,7 +539154,8 @@
     {
      "part": 1,
      "videoId": "YLw3v1CGNoM",
-     "minutes": 99
+     "minutes": 99,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -539052,7 +539188,8 @@
     {
      "part": 1,
      "videoId": "eUX7T1itc94",
-     "minutes": 104
+     "minutes": 104,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -539085,7 +539222,8 @@
     {
      "part": 1,
      "videoId": "5yEcjBXYrQE",
-     "minutes": 98
+     "minutes": 98,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -539118,7 +539256,8 @@
     {
      "part": 1,
      "videoId": "RzzWqPId_q0",
-     "minutes": 93
+     "minutes": 93,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -539153,7 +539292,8 @@
     {
      "part": 1,
      "videoId": "XyQHgjrKJ_0",
-     "minutes": 30
+     "minutes": 30,
+     "quality": "hd"
     }
    ],
    "alternates": [
@@ -539163,7 +539303,8 @@
       {
        "part": 1,
        "videoId": "2mKkYWEWlmg",
-       "minutes": 29
+       "minutes": 29,
+       "quality": "hd"
       }
      ]
     }
@@ -539199,7 +539340,8 @@
     {
      "part": 1,
      "videoId": "PaXNuO_pFXo",
-     "minutes": 85
+     "minutes": 85,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -539232,7 +539374,8 @@
     {
      "part": 1,
      "videoId": "WMN43Vux4Fc",
-     "minutes": 94
+     "minutes": 94,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -539265,7 +539408,8 @@
     {
      "part": 1,
      "videoId": "1ZF4BS78yiU",
-     "minutes": 82
+     "minutes": 82,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -539298,7 +539442,8 @@
     {
      "part": 1,
      "videoId": "Bj0-lRhVSR8",
-     "minutes": 90
+     "minutes": 90,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -539331,7 +539476,8 @@
     {
      "part": 1,
      "videoId": "oH551BHzHqk",
-     "minutes": 106
+     "minutes": 106,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -539366,7 +539512,8 @@
     {
      "part": 1,
      "videoId": "kzDOIZRjd48",
-     "minutes": 82
+     "minutes": 82,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -539399,7 +539546,8 @@
     {
      "part": 1,
      "videoId": "cMlikqUl5I8",
-     "minutes": 90
+     "minutes": 90,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -539432,7 +539580,8 @@
     {
      "part": 1,
      "videoId": "yC90vWyV1lo",
-     "minutes": 98
+     "minutes": 98,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -539465,7 +539614,8 @@
     {
      "part": 1,
      "videoId": "IRbiEPQ-J1E",
-     "minutes": 102
+     "minutes": 102,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -539498,7 +539648,8 @@
     {
      "part": 1,
      "videoId": "Uy8SjfizuhI",
-     "minutes": 93
+     "minutes": 93,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -539532,7 +539683,8 @@
     {
      "part": 1,
      "videoId": "yg155ZwfVbI",
-     "minutes": 101
+     "minutes": 101,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -539565,7 +539717,8 @@
     {
      "part": 1,
      "videoId": "KXk7eeqidu8",
-     "minutes": 123
+     "minutes": 123,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -539599,7 +539752,8 @@
     {
      "part": 1,
      "videoId": "hwuw0S6cQIY",
-     "minutes": 96
+     "minutes": 96,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -539632,7 +539786,8 @@
     {
      "part": 1,
      "videoId": "Zx8pv2jNDlI",
-     "minutes": 107
+     "minutes": 107,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -539666,7 +539821,8 @@
     {
      "part": 1,
      "videoId": "kDcEdR6SBAM",
-     "minutes": 114
+     "minutes": 114,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -539699,7 +539855,8 @@
     {
      "part": 1,
      "videoId": "Np12lfjcnJ0",
-     "minutes": 119
+     "minutes": 119,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -539732,7 +539889,8 @@
     {
      "part": 1,
      "videoId": "U3NN0h-Xzk4",
-     "minutes": 93
+     "minutes": 93,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -539765,7 +539923,8 @@
     {
      "part": 1,
      "videoId": "JzZmGeN7Zbc",
-     "minutes": 78
+     "minutes": 78,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -539798,7 +539957,8 @@
     {
      "part": 1,
      "videoId": "QPQBxNaboQ0",
-     "minutes": 107
+     "minutes": 107,
+     "quality": "sd"
     }
    ],
    "channelName": "AMCChannels"
@@ -539831,7 +539991,8 @@
     {
      "part": 1,
      "videoId": "XaMM5Yq5dQ4",
-     "minutes": 62
+     "minutes": 62,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -539864,7 +540025,8 @@
     {
      "part": 1,
      "videoId": "nUo4tFR3cOA",
-     "minutes": 122
+     "minutes": 122,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -539897,7 +540059,8 @@
     {
      "part": 1,
      "videoId": "2xAkd1lT8NQ",
-     "minutes": 127
+     "minutes": 127,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -539930,7 +540093,8 @@
     {
      "part": 1,
      "videoId": "4selXFGVuWE",
-     "minutes": 119
+     "minutes": 119,
+     "quality": "hd"
     }
    ],
    "channelName": "AMCChannels"
@@ -539963,7 +540127,8 @@
     {
      "part": 1,
      "videoId": "n-KIiF98M8M",
-     "minutes": 85
+     "minutes": 85,
+     "quality": "hd"
     },
     {
      "part": 2,
@@ -540002,12 +540167,14 @@
     {
      "part": 1,
      "videoId": "IUH-6JPX0QM",
-     "minutes": 91
+     "minutes": 91,
+     "quality": "hd"
     },
     {
      "part": 2,
      "videoId": "pmex3hKo1cs",
-     "minutes": 125
+     "minutes": 125,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -540041,12 +540208,14 @@
     {
      "part": 1,
      "videoId": "HAk1mLJfWuQ",
-     "minutes": 99
+     "minutes": 99,
+     "quality": "hd"
     },
     {
      "part": 2,
      "videoId": "FJYufTcRZtE",
-     "minutes": 101
+     "minutes": 101,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -540079,12 +540248,14 @@
     {
      "part": 1,
      "videoId": "cg-_Yamx0v4",
-     "minutes": 74
+     "minutes": 74,
+     "quality": "hd"
     },
     {
      "part": 2,
      "videoId": "lfpOos092WQ",
-     "minutes": 113
+     "minutes": 113,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -540117,12 +540288,14 @@
     {
      "part": 1,
      "videoId": "2b9ItbzCAbA",
-     "minutes": 76
+     "minutes": 76,
+     "quality": "hd"
     },
     {
      "part": 2,
      "videoId": "m-C-GZya7ck",
-     "minutes": 98
+     "minutes": 98,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -540155,12 +540328,14 @@
     {
      "part": 1,
      "videoId": "nozkkBEDkyc",
-     "minutes": 125
+     "minutes": 125,
+     "quality": "hd"
     },
     {
      "part": 2,
      "videoId": "Pm211ajkKDw",
-     "minutes": 80
+     "minutes": 80,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -540194,12 +540369,14 @@
     {
      "part": 1,
      "videoId": "wq4ZxR4xDOI",
-     "minutes": 93
+     "minutes": 93,
+     "quality": "hd"
     },
     {
      "part": 2,
      "videoId": "otJNMfwVHdc",
-     "minutes": 89
+     "minutes": 89,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -540233,12 +540410,14 @@
     {
      "part": 1,
      "videoId": "7QfO8fjJCss",
-     "minutes": 117
+     "minutes": 117,
+     "quality": "hd"
     },
     {
      "part": 2,
      "videoId": "wsDmhAGttRU",
-     "minutes": 98
+     "minutes": 98,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -540271,7 +540450,8 @@
     {
      "part": 1,
      "videoId": "tDlfObD0c8g",
-     "minutes": 79
+     "minutes": 79,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -540305,7 +540485,8 @@
     {
      "part": 1,
      "videoId": "-54A6exmV-w",
-     "minutes": 104
+     "minutes": 104,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -540338,12 +540519,14 @@
     {
      "part": 1,
      "videoId": "btKkDX6CkGE",
-     "minutes": 107
+     "minutes": 107,
+     "quality": "hd"
     },
     {
      "part": 2,
      "videoId": "E5wmsDga_2A",
-     "minutes": 93
+     "minutes": 93,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -540376,12 +540559,14 @@
     {
      "part": 1,
      "videoId": "ZtyK8NIcUn4",
-     "minutes": 115
+     "minutes": 115,
+     "quality": "hd"
     },
     {
      "part": 2,
      "videoId": "5f9yFnza1A8",
-     "minutes": 81
+     "minutes": 81,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -540414,7 +540599,8 @@
     {
      "part": 1,
      "videoId": "HEMPftK_uJk",
-     "minutes": 92
+     "minutes": 92,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -540447,7 +540633,8 @@
     {
      "part": 1,
      "videoId": "6vwFFbtaLsU",
-     "minutes": 127
+     "minutes": 127,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -540480,7 +540667,8 @@
     {
      "part": 1,
      "videoId": "6xAVPGFj6_w",
-     "minutes": 107
+     "minutes": 107,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -540513,7 +540701,8 @@
     {
      "part": 1,
      "videoId": "8SNiErsrGhw",
-     "minutes": 116
+     "minutes": 116,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -540547,12 +540736,14 @@
     {
      "part": 1,
      "videoId": "OV36TT72GVo",
-     "minutes": 124
+     "minutes": 124,
+     "quality": "hd"
     },
     {
      "part": 2,
      "videoId": "-10MovhckEk",
-     "minutes": 94
+     "minutes": 94,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -540585,7 +540776,8 @@
     {
      "part": 1,
      "videoId": "RS9qupDwaN8",
-     "minutes": 102
+     "minutes": 102,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -540619,12 +540811,14 @@
     {
      "part": 1,
      "videoId": "e-4f06jaqp4",
-     "minutes": 95
+     "minutes": 95,
+     "quality": "hd"
     },
     {
      "part": 2,
      "videoId": "8zeBJMPNBHg",
-     "minutes": 71
+     "minutes": 71,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -540657,7 +540851,8 @@
     {
      "part": 1,
      "videoId": "_JPga6WOs9o",
-     "minutes": 72
+     "minutes": 72,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -540690,7 +540885,8 @@
     {
      "part": 1,
      "videoId": "0NtvARLXbbE",
-     "minutes": 173
+     "minutes": 173,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -540723,12 +540919,14 @@
     {
      "part": 1,
      "videoId": "zTXnO9N44DE",
-     "minutes": 105
+     "minutes": 105,
+     "quality": "hd"
     },
     {
      "part": 2,
      "videoId": "Z4XxXXQ5i2k",
-     "minutes": 112
+     "minutes": 112,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -540761,12 +540959,14 @@
     {
      "part": 1,
      "videoId": "iRlyvjvZMPE",
-     "minutes": 144
+     "minutes": 144,
+     "quality": "hd"
     },
     {
      "part": 2,
      "videoId": "I8y8qvO-VZE",
-     "minutes": 94
+     "minutes": 94,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -540800,7 +541000,8 @@
     {
      "part": 1,
      "videoId": "zlTNsXMRQSA",
-     "minutes": 91
+     "minutes": 91,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -540833,12 +541034,14 @@
     {
      "part": 1,
      "videoId": "lZ58kb7nk3c",
-     "minutes": 99
+     "minutes": 99,
+     "quality": "hd"
     },
     {
      "part": 2,
      "videoId": "vQXd6x-ikfs",
-     "minutes": 91
+     "minutes": 91,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -540871,12 +541074,14 @@
     {
      "part": 1,
      "videoId": "XZtLKv4PQEc",
-     "minutes": 146
+     "minutes": 146,
+     "quality": "hd"
     },
     {
      "part": 2,
      "videoId": "5cVt2x_wny4",
-     "minutes": 131
+     "minutes": 131,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -540910,7 +541115,8 @@
     {
      "part": 1,
      "videoId": "PM4vHlrDcag",
-     "minutes": 129
+     "minutes": 129,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -540945,7 +541151,8 @@
     {
      "part": 1,
      "videoId": "1qsdZj_H14M",
-     "minutes": 89
+     "minutes": 89,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -540982,12 +541189,14 @@
     {
      "part": 1,
      "videoId": "mAh00FGI-sE",
-     "minutes": 82
+     "minutes": 82,
+     "quality": "hd"
     },
     {
      "part": 2,
      "videoId": "u6SZg7exiQ0",
-     "minutes": 101
+     "minutes": 101,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -541023,7 +541232,8 @@
     {
      "part": 1,
      "videoId": "AV44HEN0308",
-     "minutes": 84
+     "minutes": 84,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -541059,7 +541269,8 @@
     {
      "part": 1,
      "videoId": "di6omJFtKus",
-     "minutes": 121
+     "minutes": 121,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -541096,12 +541307,14 @@
     {
      "part": 1,
      "videoId": "S8pvpv6U908",
-     "minutes": 119
+     "minutes": 119,
+     "quality": "hd"
     },
     {
      "part": 2,
      "videoId": "1M2fAyuw7J0",
-     "minutes": 111
+     "minutes": 111,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -541138,7 +541351,8 @@
     {
      "part": 1,
      "videoId": "XYSdKPQkT3o",
-     "minutes": 96
+     "minutes": 96,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -541175,12 +541389,14 @@
     {
      "part": 1,
      "videoId": "T8n0TjUvaiM",
-     "minutes": 118
+     "minutes": 118,
+     "quality": "hd"
     },
     {
      "part": 2,
      "videoId": "MH5DxsT2qZw",
-     "minutes": 90
+     "minutes": 90,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -541218,7 +541434,8 @@
     {
      "part": 1,
      "videoId": "kkkl_p7ZGVk",
-     "minutes": 145
+     "minutes": 145,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -541256,7 +541473,8 @@
     {
      "part": 1,
      "videoId": "QAVlugC7ZKI",
-     "minutes": 170
+     "minutes": 170,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -541292,7 +541510,8 @@
     {
      "part": 1,
      "videoId": "Vx_IN4dPeV0",
-     "minutes": 123
+     "minutes": 123,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -541329,7 +541548,8 @@
     {
      "part": 1,
      "videoId": "aZ2-sYcH_bA",
-     "minutes": 92
+     "minutes": 92,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -541367,12 +541587,14 @@
     {
      "part": 1,
      "videoId": "w1ahbjSKnv4",
-     "minutes": 106
+     "minutes": 106,
+     "quality": "hd"
     },
     {
      "part": 2,
      "videoId": "4Ywid2ei6bA",
-     "minutes": 71
+     "minutes": 71,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -541410,12 +541632,14 @@
     {
      "part": 1,
      "videoId": "7DaQVdxmRbk",
-     "minutes": 104
+     "minutes": 104,
+     "quality": "hd"
     },
     {
      "part": 2,
      "videoId": "webuRT9ka4I",
-     "minutes": 89
+     "minutes": 89,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -541447,7 +541671,8 @@
     {
      "part": 1,
      "videoId": "REazS9xRd7g",
-     "minutes": 76
+     "minutes": 76,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -541485,7 +541710,8 @@
     {
      "part": 1,
      "videoId": "CozFDN0_e-I",
-     "minutes": 76
+     "minutes": 76,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -541525,12 +541751,14 @@
     {
      "part": 1,
      "videoId": "_6J_2dHsa2E",
-     "minutes": 102
+     "minutes": 102,
+     "quality": "hd"
     },
     {
      "part": 2,
      "videoId": "YUc2BBSxdo0",
-     "minutes": 102
+     "minutes": 102,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -541567,7 +541795,8 @@
     {
      "part": 1,
      "videoId": "5FEiDya7TYA",
-     "minutes": 133
+     "minutes": 133,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -541605,12 +541834,14 @@
     {
      "part": 1,
      "videoId": "ZZMuXdEUuOE",
-     "minutes": 89
+     "minutes": 89,
+     "quality": "hd"
     },
     {
      "part": 2,
      "videoId": "O_daWmYTGxU",
-     "minutes": 71
+     "minutes": 71,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -541648,7 +541879,8 @@
     {
      "part": 1,
      "videoId": "amVDqvdQEZM",
-     "minutes": 112
+     "minutes": 112,
+     "quality": "hd"
     }
    ],
    "channelName": "Okiki Premium TV"
@@ -541681,7 +541913,8 @@
     {
      "part": 1,
      "videoId": "OaIi07_0KqY",
-     "minutes": 77
+     "minutes": 77,
+     "quality": "hd"
     }
    ],
    "channelName": "YORUBAPLAY"
@@ -541714,7 +541947,8 @@
     {
      "part": 1,
      "videoId": "G6fH-Y0mkRE",
-     "minutes": 79
+     "minutes": 79,
+     "quality": "hd"
     }
    ],
    "channelName": "YORUBAPLAY"
@@ -541747,7 +541981,8 @@
     {
      "part": 1,
      "videoId": "rAO4T3eDxME",
-     "minutes": 82
+     "minutes": 82,
+     "quality": "hd"
     }
    ],
    "channelName": "YORUBAPLAY"
@@ -541780,7 +542015,8 @@
     {
      "part": 1,
      "videoId": "lbO98JfqMZ4",
-     "minutes": 102
+     "minutes": 102,
+     "quality": "sd"
     }
    ],
    "channelName": "SceneOne TV"
@@ -542043,7 +542279,8 @@
     {
      "part": 1,
      "videoId": "m895ezpAU_I",
-     "minutes": 93
+     "minutes": 93,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -542075,7 +542312,8 @@
     {
      "part": 1,
      "videoId": "mrfFR5X2ock",
-     "minutes": 94
+     "minutes": 94,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -542107,7 +542345,8 @@
     {
      "part": 1,
      "videoId": "FW0cCHVa3h8",
-     "minutes": 95
+     "minutes": 95,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -542139,7 +542378,8 @@
     {
      "part": 1,
      "videoId": "smkS6o-kU00",
-     "minutes": 122
+     "minutes": 122,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -542171,7 +542411,8 @@
     {
      "part": 1,
      "videoId": "5Za-qmRrsUU",
-     "minutes": 154
+     "minutes": 154,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -542203,7 +542444,8 @@
     {
      "part": 1,
      "videoId": "1zQPzAMpTu4",
-     "minutes": 134
+     "minutes": 134,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -542235,7 +542477,8 @@
     {
      "part": 1,
      "videoId": "PqeeGUXAgIs",
-     "minutes": 105
+     "minutes": 105,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -542267,7 +542510,8 @@
     {
      "part": 1,
      "videoId": "u-NXWcCSKAo",
-     "minutes": 96
+     "minutes": 96,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -542299,7 +542543,8 @@
     {
      "part": 1,
      "videoId": "QkRELvfJwPg",
-     "minutes": 125
+     "minutes": 125,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -542331,7 +542576,8 @@
     {
      "part": 1,
      "videoId": "LxL-JjurYxY",
-     "minutes": 106
+     "minutes": 106,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -542363,7 +542609,8 @@
     {
      "part": 1,
      "videoId": "Dz8Io7BZCao",
-     "minutes": 105
+     "minutes": 105,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -542395,7 +542642,8 @@
     {
      "part": 1,
      "videoId": "0BuJikV1_U4",
-     "minutes": 92
+     "minutes": 92,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -542427,39 +542675,8 @@
     {
      "part": 1,
      "videoId": "qsNd61NpJuU",
-     "minutes": 113
-    }
-   ],
-   "channelName": "NollyReel"
-  },
-  {
-   "id": "snaija-yt-unhealthy-love-2026",
-   "type": "movie",
-   "name": "Unhealthy Love",
-   "aliases": [],
-   "year": 2026,
-   "yearIsUpload": false,
-   "languages": [
-    "en"
-   ],
-   "category": "film",
-   "genres": [
-    "Romance"
-   ],
-   "cast": [],
-   "runtime": "108 min",
-   "uploadedAt": "2026-10-31T17:00:08.000Z",
-   "poster": "https://i.ytimg.com/vi/1PZ7yuuEje8/maxresdefault.jpg",
-   "posterShape": "landscape",
-   "sources": {
-    "all": "YouTube channel NollyReel (UC6izPafX_9ydQCa7xctxcuQ)"
-   },
-   "channel": "UC6izPafX_9ydQCa7xctxcuQ",
-   "parts": [
-    {
-     "part": 1,
-     "videoId": "1PZ7yuuEje8",
-     "minutes": 108
+     "minutes": 113,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -542491,7 +542708,8 @@
     {
      "part": 1,
      "videoId": "PpCYAfSuFcQ",
-     "minutes": 130
+     "minutes": 130,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -542523,7 +542741,8 @@
     {
      "part": 1,
      "videoId": "_GvZKJgcFsk",
-     "minutes": 82
+     "minutes": 82,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -542555,7 +542774,8 @@
     {
      "part": 1,
      "videoId": "svoEsia0HWE",
-     "minutes": 131
+     "minutes": 131,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -542587,7 +542807,8 @@
     {
      "part": 1,
      "videoId": "pbbzUfDxGww",
-     "minutes": 98
+     "minutes": 98,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -542619,7 +542840,8 @@
     {
      "part": 1,
      "videoId": "j_4pw3yVL6s",
-     "minutes": 103
+     "minutes": 103,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -542651,7 +542873,8 @@
     {
      "part": 1,
      "videoId": "q50yC617-8o",
-     "minutes": 90
+     "minutes": 90,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -542683,7 +542906,8 @@
     {
      "part": 1,
      "videoId": "2T9t8lFMDAA",
-     "minutes": 80
+     "minutes": 80,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -542715,7 +542939,8 @@
     {
      "part": 1,
      "videoId": "VDapALpWzEQ",
-     "minutes": 88
+     "minutes": 88,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -542747,7 +542972,8 @@
     {
      "part": 1,
      "videoId": "Qavle3mbnMs",
-     "minutes": 170
+     "minutes": 170,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -542779,7 +543005,8 @@
     {
      "part": 1,
      "videoId": "uq26HTr_DZU",
-     "minutes": 83
+     "minutes": 83,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -542811,7 +543038,8 @@
     {
      "part": 1,
      "videoId": "4k6VDLHRb8E",
-     "minutes": 134
+     "minutes": 134,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -542843,7 +543071,8 @@
     {
      "part": 1,
      "videoId": "-l-Gd3vWP80",
-     "minutes": 128
+     "minutes": 128,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -542875,7 +543104,8 @@
     {
      "part": 1,
      "videoId": "mQ5YtKmurxY",
-     "minutes": 130
+     "minutes": 130,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -542907,7 +543137,8 @@
     {
      "part": 1,
      "videoId": "6PYY6MEh7CY",
-     "minutes": 81
+     "minutes": 81,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -542939,7 +543170,8 @@
     {
      "part": 1,
      "videoId": "pKnKKCzX8AI",
-     "minutes": 79
+     "minutes": 79,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -542971,7 +543203,8 @@
     {
      "part": 1,
      "videoId": "lTLJvb1IDes",
-     "minutes": 132
+     "minutes": 132,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543003,7 +543236,8 @@
     {
      "part": 1,
      "videoId": "y4NQuCFoXsg",
-     "minutes": 111
+     "minutes": 111,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543035,7 +543269,8 @@
     {
      "part": 1,
      "videoId": "zMOZ8ruu3c4",
-     "minutes": 119
+     "minutes": 119,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543067,7 +543302,8 @@
     {
      "part": 1,
      "videoId": "27701lrZfCw",
-     "minutes": 94
+     "minutes": 94,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543099,7 +543335,8 @@
     {
      "part": 1,
      "videoId": "phWyjuTfOPo",
-     "minutes": 103
+     "minutes": 103,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543132,7 +543369,8 @@
     {
      "part": 1,
      "videoId": "CZHd2Ax_3p8",
-     "minutes": 101
+     "minutes": 101,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543164,7 +543402,8 @@
     {
      "part": 1,
      "videoId": "vnlzVN11LUQ",
-     "minutes": 80
+     "minutes": 80,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543196,7 +543435,8 @@
     {
      "part": 1,
      "videoId": "3tiiz3da_Ms",
-     "minutes": 102
+     "minutes": 102,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543228,7 +543468,8 @@
     {
      "part": 1,
      "videoId": "fwTBi-GeKe8",
-     "minutes": 82
+     "minutes": 82,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543260,7 +543501,8 @@
     {
      "part": 1,
      "videoId": "W98asmvLovI",
-     "minutes": 113
+     "minutes": 113,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543292,7 +543534,8 @@
     {
      "part": 1,
      "videoId": "tfzvSAvKeFo",
-     "minutes": 79
+     "minutes": 79,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543324,7 +543567,8 @@
     {
      "part": 1,
      "videoId": "ciGILpZh4xc",
-     "minutes": 100
+     "minutes": 100,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543356,7 +543600,8 @@
     {
      "part": 1,
      "videoId": "3HQnpkJYvKQ",
-     "minutes": 82
+     "minutes": 82,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543388,7 +543633,8 @@
     {
      "part": 1,
      "videoId": "swDmFoWpUNE",
-     "minutes": 109
+     "minutes": 109,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543420,7 +543666,8 @@
     {
      "part": 1,
      "videoId": "BKWveKGtVCg",
-     "minutes": 98
+     "minutes": 98,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543452,7 +543699,8 @@
     {
      "part": 1,
      "videoId": "cMEFz6M-3KI",
-     "minutes": 145
+     "minutes": 145,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543484,7 +543732,8 @@
     {
      "part": 1,
      "videoId": "b1drsCNRevY",
-     "minutes": 97
+     "minutes": 97,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543516,7 +543765,8 @@
     {
      "part": 1,
      "videoId": "F1xnLuNZV-0",
-     "minutes": 145
+     "minutes": 145,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543548,7 +543798,8 @@
     {
      "part": 1,
      "videoId": "YgSb6IG3f2k",
-     "minutes": 159
+     "minutes": 159,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543580,7 +543831,8 @@
     {
      "part": 1,
      "videoId": "H1Q0qLxSr-Y",
-     "minutes": 119
+     "minutes": 119,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543612,7 +543864,8 @@
     {
      "part": 1,
      "videoId": "1iVbz5sc8LQ",
-     "minutes": 102
+     "minutes": 102,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543644,7 +543897,8 @@
     {
      "part": 1,
      "videoId": "0PEbS4Zdl40",
-     "minutes": 75
+     "minutes": 75,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543676,7 +543930,8 @@
     {
      "part": 1,
      "videoId": "gBWIxbha8SE",
-     "minutes": 121
+     "minutes": 121,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543708,7 +543963,8 @@
     {
      "part": 1,
      "videoId": "lBv62RPJYNA",
-     "minutes": 113
+     "minutes": 113,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543740,7 +543996,8 @@
     {
      "part": 1,
      "videoId": "8DQ81K9_mxo",
-     "minutes": 97
+     "minutes": 97,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543772,7 +544029,8 @@
     {
      "part": 1,
      "videoId": "JPtIpyrQxAs",
-     "minutes": 160
+     "minutes": 160,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543804,7 +544062,8 @@
     {
      "part": 1,
      "videoId": "FOZ6TFMJaLM",
-     "minutes": 82
+     "minutes": 82,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543836,7 +544095,8 @@
     {
      "part": 1,
      "videoId": "VXcjD5MYdo0",
-     "minutes": 118
+     "minutes": 118,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543868,7 +544128,8 @@
     {
      "part": 1,
      "videoId": "7Rl_yZX3rHQ",
-     "minutes": 85
+     "minutes": 85,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543901,7 +544162,8 @@
     {
      "part": 1,
      "videoId": "R2B2RL2afZs",
-     "minutes": 116
+     "minutes": 116,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543933,7 +544195,8 @@
     {
      "part": 1,
      "videoId": "Udst6y0VTR4",
-     "minutes": 79
+     "minutes": 79,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543965,7 +544228,8 @@
     {
      "part": 1,
      "videoId": "JMwUDwBysOA",
-     "minutes": 119
+     "minutes": 119,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -543997,7 +544261,8 @@
     {
      "part": 1,
      "videoId": "1yK4AWhH41w",
-     "minutes": 109
+     "minutes": 109,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -544029,7 +544294,8 @@
     {
      "part": 1,
      "videoId": "ltkOAKeCtM8",
-     "minutes": 120
+     "minutes": 120,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -544061,7 +544327,8 @@
     {
      "part": 1,
      "videoId": "j5ae2jliMp0",
-     "minutes": 77
+     "minutes": 77,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -544093,7 +544360,8 @@
     {
      "part": 1,
      "videoId": "nCnbsBkjUSk",
-     "minutes": 95
+     "minutes": 95,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -544125,7 +544393,8 @@
     {
      "part": 1,
      "videoId": "aVovqaaTkTA",
-     "minutes": 118
+     "minutes": 118,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -544157,7 +544426,8 @@
     {
      "part": 1,
      "videoId": "HrNafqYMbIw",
-     "minutes": 156
+     "minutes": 156,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -544189,7 +544459,8 @@
     {
      "part": 1,
      "videoId": "YncPpwWGEAs",
-     "minutes": 100
+     "minutes": 100,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -544221,7 +544492,8 @@
     {
      "part": 1,
      "videoId": "kR2Z1FS4m5o",
-     "minutes": 125
+     "minutes": 125,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -544253,7 +544525,8 @@
     {
      "part": 1,
      "videoId": "Wrf3krnh_iA",
-     "minutes": 115
+     "minutes": 115,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -544285,7 +544558,8 @@
     {
      "part": 1,
      "videoId": "T-j1DRPD5zs",
-     "minutes": 79
+     "minutes": 79,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -544317,7 +544591,8 @@
     {
      "part": 1,
      "videoId": "hOAZp2BurMw",
-     "minutes": 95
+     "minutes": 95,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -544349,7 +544624,8 @@
     {
      "part": 1,
      "videoId": "LLxPdNZ9iws",
-     "minutes": 111
+     "minutes": 111,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -544381,7 +544657,8 @@
     {
      "part": 1,
      "videoId": "-pbOW9pyay0",
-     "minutes": 102
+     "minutes": 102,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -544413,7 +544690,8 @@
     {
      "part": 1,
      "videoId": "N1dI0JLxk6c",
-     "minutes": 89
+     "minutes": 89,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -544445,7 +544723,8 @@
     {
      "part": 1,
      "videoId": "zXja2tCGYnw",
-     "minutes": 81
+     "minutes": 81,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -544477,7 +544756,8 @@
     {
      "part": 1,
      "videoId": "PlQFZSmiC5w",
-     "minutes": 104
+     "minutes": 104,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -544509,7 +544789,8 @@
     {
      "part": 1,
      "videoId": "oGt4KaL3nVY",
-     "minutes": 94
+     "minutes": 94,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -544541,7 +544822,8 @@
     {
      "part": 1,
      "videoId": "xiUVi3s50jg",
-     "minutes": 100
+     "minutes": 100,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -544573,7 +544855,8 @@
     {
      "part": 1,
      "videoId": "J3FB_fYWJRk",
-     "minutes": 80
+     "minutes": 80,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -544605,7 +544888,8 @@
     {
      "part": 1,
      "videoId": "Gd_hb8xz4VY",
-     "minutes": 148
+     "minutes": 148,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -544637,7 +544921,8 @@
     {
      "part": 1,
      "videoId": "r93E6FpeFyg",
-     "minutes": 113
+     "minutes": 113,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -544669,7 +544954,8 @@
     {
      "part": 1,
      "videoId": "BTi_CpJapaI",
-     "minutes": 75
+     "minutes": 75,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -544701,7 +544987,8 @@
     {
      "part": 1,
      "videoId": "iP5iC4u_ziI",
-     "minutes": 140
+     "minutes": 140,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -544733,7 +545020,8 @@
     {
      "part": 1,
      "videoId": "z-tTaoCPXfY",
-     "minutes": 100
+     "minutes": 100,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -544765,7 +545053,8 @@
     {
      "part": 1,
      "videoId": "JI75RwYKaus",
-     "minutes": 95
+     "minutes": 95,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -544797,7 +545086,8 @@
     {
      "part": 1,
      "videoId": "rNENSJN0ffI",
-     "minutes": 102
+     "minutes": 102,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -544829,7 +545119,8 @@
     {
      "part": 1,
      "videoId": "QeSO7P3T84k",
-     "minutes": 89
+     "minutes": 89,
+     "quality": "hd"
     }
    ],
    "alternates": [
@@ -544839,7 +545130,8 @@
       {
        "part": 1,
        "videoId": "tXrgRbndi6Q",
-       "minutes": 87
+       "minutes": 87,
+       "quality": "hd"
       }
      ]
     }
@@ -544873,7 +545165,8 @@
     {
      "part": 1,
      "videoId": "1pVwUcYZp74",
-     "minutes": 122
+     "minutes": 122,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -544905,7 +545198,8 @@
     {
      "part": 1,
      "videoId": "-GcwY4GVeUA",
-     "minutes": 107
+     "minutes": 107,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -544937,7 +545231,8 @@
     {
      "part": 1,
      "videoId": "fSv6lCcN5ss",
-     "minutes": 161
+     "minutes": 161,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -544969,7 +545264,8 @@
     {
      "part": 1,
      "videoId": "3WBZ2YnzvPA",
-     "minutes": 83
+     "minutes": 83,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545002,7 +545298,8 @@
     {
      "part": 1,
      "videoId": "SF_xRACFHZk",
-     "minutes": 115
+     "minutes": 115,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545034,7 +545331,8 @@
     {
      "part": 1,
      "videoId": "F0NtED71z-4",
-     "minutes": 102
+     "minutes": 102,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545066,7 +545364,8 @@
     {
      "part": 1,
      "videoId": "kK5BZwAceJg",
-     "minutes": 136
+     "minutes": 136,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545098,7 +545397,8 @@
     {
      "part": 1,
      "videoId": "Vd-BqVuDUwo",
-     "minutes": 144
+     "minutes": 144,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545130,7 +545430,8 @@
     {
      "part": 1,
      "videoId": "0Yj7qIfgiLU",
-     "minutes": 192
+     "minutes": 192,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545162,7 +545463,8 @@
     {
      "part": 1,
      "videoId": "cMaEKflaQRk",
-     "minutes": 87
+     "minutes": 87,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545194,7 +545496,8 @@
     {
      "part": 1,
      "videoId": "-e1g8Mf6nKc",
-     "minutes": 92
+     "minutes": 92,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545226,7 +545529,8 @@
     {
      "part": 1,
      "videoId": "A9Od9htujDQ",
-     "minutes": 101
+     "minutes": 101,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545258,7 +545562,8 @@
     {
      "part": 1,
      "videoId": "gDFj9VPKMWY",
-     "minutes": 110
+     "minutes": 110,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545290,7 +545595,8 @@
     {
      "part": 1,
      "videoId": "SrHZAbnxpus",
-     "minutes": 94
+     "minutes": 94,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545322,7 +545628,8 @@
     {
      "part": 1,
      "videoId": "nFytd3Tp-PI",
-     "minutes": 115
+     "minutes": 115,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545354,7 +545661,8 @@
     {
      "part": 1,
      "videoId": "M-ZVnr1_7pE",
-     "minutes": 84
+     "minutes": 84,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545386,7 +545694,8 @@
     {
      "part": 1,
      "videoId": "CAAVoZidZcg",
-     "minutes": 125
+     "minutes": 125,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545418,7 +545727,8 @@
     {
      "part": 1,
      "videoId": "rmvax7DK90E",
-     "minutes": 91
+     "minutes": 91,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545450,7 +545760,8 @@
     {
      "part": 1,
      "videoId": "q3nDZAlOcrg",
-     "minutes": 120
+     "minutes": 120,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545482,7 +545793,8 @@
     {
      "part": 1,
      "videoId": "HzhYGyT1Gyo",
-     "minutes": 74
+     "minutes": 74,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545514,7 +545826,8 @@
     {
      "part": 1,
      "videoId": "nS8gDQQDFr8",
-     "minutes": 90
+     "minutes": 90,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545546,7 +545859,8 @@
     {
      "part": 1,
      "videoId": "6imQLMsNWIw",
-     "minutes": 92
+     "minutes": 92,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545578,7 +545892,8 @@
     {
      "part": 1,
      "videoId": "rpXqb6a_ZfM",
-     "minutes": 71
+     "minutes": 71,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545610,7 +545925,8 @@
     {
      "part": 1,
      "videoId": "8FHOwiEq75w",
-     "minutes": 124
+     "minutes": 124,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545642,7 +545958,8 @@
     {
      "part": 1,
      "videoId": "G3cJ6VuyUOk",
-     "minutes": 90
+     "minutes": 90,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545674,7 +545991,8 @@
     {
      "part": 1,
      "videoId": "94uSSTLDTFo",
-     "minutes": 116
+     "minutes": 116,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545706,7 +546024,8 @@
     {
      "part": 1,
      "videoId": "8-LoV_E7KXQ",
-     "minutes": 95
+     "minutes": 95,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545738,7 +546057,8 @@
     {
      "part": 1,
      "videoId": "JaluBys8t7Q",
-     "minutes": 124
+     "minutes": 124,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545770,7 +546090,8 @@
     {
      "part": 1,
      "videoId": "8IapsbMXWDM",
-     "minutes": 109
+     "minutes": 109,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545802,7 +546123,8 @@
     {
      "part": 1,
      "videoId": "W-NWwn-HAKA",
-     "minutes": 88
+     "minutes": 88,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545834,7 +546156,8 @@
     {
      "part": 1,
      "videoId": "vIphhmnW648",
-     "minutes": 112
+     "minutes": 112,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545866,7 +546189,8 @@
     {
      "part": 1,
      "videoId": "sgwzHsSEDcc",
-     "minutes": 80
+     "minutes": 80,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545898,7 +546222,8 @@
     {
      "part": 1,
      "videoId": "le3seiLm9Z4",
-     "minutes": 91
+     "minutes": 91,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545930,7 +546255,8 @@
     {
      "part": 1,
      "videoId": "55d9vID52pU",
-     "minutes": 132
+     "minutes": 132,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545962,7 +546288,8 @@
     {
      "part": 1,
      "videoId": "hjtlE71yGng",
-     "minutes": 127
+     "minutes": 127,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -545994,7 +546321,8 @@
     {
      "part": 1,
      "videoId": "yPvmvzDEsWY",
-     "minutes": 119
+     "minutes": 119,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -546026,7 +546354,8 @@
     {
      "part": 1,
      "videoId": "B1q0GeXYS18",
-     "minutes": 81
+     "minutes": 81,
+     "quality": "hd"
     }
    ],
    "alternates": [
@@ -546036,7 +546365,8 @@
       {
        "part": 1,
        "videoId": "zB5V-WqO2Qg",
-       "minutes": 81
+       "minutes": 81,
+       "quality": "hd"
       }
      ]
     }
@@ -546070,7 +546400,8 @@
     {
      "part": 1,
      "videoId": "HEpdPfuhTwg",
-     "minutes": 85
+     "minutes": 85,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -546102,7 +546433,8 @@
     {
      "part": 1,
      "videoId": "BUyVx48MR2c",
-     "minutes": 143
+     "minutes": 143,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -546134,7 +546466,8 @@
     {
      "part": 1,
      "videoId": "A22GZmQndqg",
-     "minutes": 125
+     "minutes": 125,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -546166,7 +546499,8 @@
     {
      "part": 1,
      "videoId": "2oyfAu-oRZE",
-     "minutes": 104
+     "minutes": 104,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -546198,7 +546532,8 @@
     {
      "part": 1,
      "videoId": "C6xp71x9tD4",
-     "minutes": 118
+     "minutes": 118,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -546230,7 +546565,8 @@
     {
      "part": 1,
      "videoId": "Vwkl1-30cDQ",
-     "minutes": 83
+     "minutes": 83,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -546262,7 +546598,8 @@
     {
      "part": 1,
      "videoId": "KD_oSRnBfPU",
-     "minutes": 121
+     "minutes": 121,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -546294,7 +546631,8 @@
     {
      "part": 1,
      "videoId": "XRnzWYN-SlA",
-     "minutes": 100
+     "minutes": 100,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -546326,7 +546664,8 @@
     {
      "part": 1,
      "videoId": "vkFnR4k1wrw",
-     "minutes": 126
+     "minutes": 126,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -546358,7 +546697,8 @@
     {
      "part": 1,
      "videoId": "Y6hBfmQiRtI",
-     "minutes": 63
+     "minutes": 63,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -546390,7 +546730,8 @@
     {
      "part": 1,
      "videoId": "pWsOnLnyCg0",
-     "minutes": 140
+     "minutes": 140,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -546422,7 +546763,8 @@
     {
      "part": 1,
      "videoId": "SyuF8w5G4iA",
-     "minutes": 130
+     "minutes": 130,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -546454,7 +546796,8 @@
     {
      "part": 1,
      "videoId": "qwGYhUqNK2g",
-     "minutes": 144
+     "minutes": 144,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -546486,7 +546829,8 @@
     {
      "part": 1,
      "videoId": "O0aJQQsn07s",
-     "minutes": 102
+     "minutes": 102,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -546518,7 +546862,8 @@
     {
      "part": 1,
      "videoId": "NCwcyzD-z7c",
-     "minutes": 106
+     "minutes": 106,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -546550,7 +546895,8 @@
     {
      "part": 1,
      "videoId": "Cp2bjx0wIqU",
-     "minutes": 119
+     "minutes": 119,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -546582,7 +546928,8 @@
     {
      "part": 1,
      "videoId": "eNvLnV4u47k",
-     "minutes": 94
+     "minutes": 94,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -546614,7 +546961,8 @@
     {
      "part": 1,
      "videoId": "csvHmvAWeVQ",
-     "minutes": 84
+     "minutes": 84,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -546646,7 +546994,8 @@
     {
      "part": 1,
      "videoId": "0QhyvyukIew",
-     "minutes": 143
+     "minutes": 143,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -546678,7 +547027,8 @@
     {
      "part": 1,
      "videoId": "FtKi2ZshyIU",
-     "minutes": 92
+     "minutes": 92,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -546710,7 +547060,8 @@
     {
      "part": 1,
      "videoId": "vnmG0SzKPQU",
-     "minutes": 95
+     "minutes": 95,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -546742,7 +547093,8 @@
     {
      "part": 1,
      "videoId": "1XB11HC2v6Q",
-     "minutes": 113
+     "minutes": 113,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -546774,7 +547126,8 @@
     {
      "part": 1,
      "videoId": "0q-0cTRtNM8",
-     "minutes": 85
+     "minutes": 85,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -546806,7 +547159,8 @@
     {
      "part": 1,
      "videoId": "Jq7-SnLWqzA",
-     "minutes": 107
+     "minutes": 107,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -546838,7 +547192,8 @@
     {
      "part": 1,
      "videoId": "LTbEKtkfII4",
-     "minutes": 97
+     "minutes": 97,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -546870,7 +547225,8 @@
     {
      "part": 1,
      "videoId": "jPK6W93IxXY",
-     "minutes": 81
+     "minutes": 81,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -546902,7 +547258,8 @@
     {
      "part": 1,
      "videoId": "kmzVF8QS8ag",
-     "minutes": 89
+     "minutes": 89,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -546934,7 +547291,8 @@
     {
      "part": 1,
      "videoId": "OTh4hkgf0hg",
-     "minutes": 122
+     "minutes": 122,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -546966,7 +547324,8 @@
     {
      "part": 1,
      "videoId": "7KuNagWAbS0",
-     "minutes": 105
+     "minutes": 105,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -546998,7 +547357,8 @@
     {
      "part": 1,
      "videoId": "RbUrnWseLvo",
-     "minutes": 93
+     "minutes": 93,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -547030,7 +547390,8 @@
     {
      "part": 1,
      "videoId": "3YfRur1-gTg",
-     "minutes": 96
+     "minutes": 96,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -547062,7 +547423,8 @@
     {
      "part": 1,
      "videoId": "DYtcrNTK3GU",
-     "minutes": 105
+     "minutes": 105,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -547094,7 +547456,8 @@
     {
      "part": 1,
      "videoId": "BaMWFbFs6t8",
-     "minutes": 85
+     "minutes": 85,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -547126,7 +547489,8 @@
     {
      "part": 1,
      "videoId": "0N-KyvXzLZQ",
-     "minutes": 141
+     "minutes": 141,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -547158,7 +547522,8 @@
     {
      "part": 1,
      "videoId": "UpdNEtNW89E",
-     "minutes": 103
+     "minutes": 103,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -547190,7 +547555,8 @@
     {
      "part": 1,
      "videoId": "hiHEvy67WM4",
-     "minutes": 193
+     "minutes": 193,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -547223,7 +547589,8 @@
     {
      "part": 1,
      "videoId": "9YH-QfYGZ0w",
-     "minutes": 90
+     "minutes": 90,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -547255,7 +547622,8 @@
     {
      "part": 1,
      "videoId": "wBTP8DxLptQ",
-     "minutes": 106
+     "minutes": 106,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -547287,7 +547655,8 @@
     {
      "part": 1,
      "videoId": "CX68ooAzPR0",
-     "minutes": 119
+     "minutes": 119,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -547319,7 +547688,8 @@
     {
      "part": 1,
      "videoId": "b0FoNStuxEc",
-     "minutes": 90
+     "minutes": 90,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -547351,7 +547721,8 @@
     {
      "part": 1,
      "videoId": "CnCpotL1ukU",
-     "minutes": 89
+     "minutes": 89,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -547383,7 +547754,8 @@
     {
      "part": 1,
      "videoId": "zLPE9H0QfVc",
-     "minutes": 80
+     "minutes": 80,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -547415,7 +547787,8 @@
     {
      "part": 1,
      "videoId": "Kc4KyGwWKOo",
-     "minutes": 97
+     "minutes": 97,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -547447,7 +547820,8 @@
     {
      "part": 1,
      "videoId": "42hPOc9IQs8",
-     "minutes": 91
+     "minutes": 91,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -547479,7 +547853,8 @@
     {
      "part": 1,
      "videoId": "crmiOWfR4o4",
-     "minutes": 110
+     "minutes": 110,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -547511,7 +547886,8 @@
     {
      "part": 1,
      "videoId": "e_gZHJDnagQ",
-     "minutes": 87
+     "minutes": 87,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -547543,7 +547919,8 @@
     {
      "part": 1,
      "videoId": "C28t_Yn7gEc",
-     "minutes": 101
+     "minutes": 101,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -547575,7 +547952,8 @@
     {
      "part": 1,
      "videoId": "88m57iZckoY",
-     "minutes": 139
+     "minutes": 139,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -547607,7 +547985,8 @@
     {
      "part": 1,
      "videoId": "nXyRF6RpJiE",
-     "minutes": 97
+     "minutes": 97,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -547639,7 +548018,8 @@
     {
      "part": 1,
      "videoId": "oPsycylrvWQ",
-     "minutes": 106
+     "minutes": 106,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -547671,7 +548051,8 @@
     {
      "part": 1,
      "videoId": "grsziFhZWLk",
-     "minutes": 97
+     "minutes": 97,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -547703,7 +548084,8 @@
     {
      "part": 1,
      "videoId": "NmH98_bL754",
-     "minutes": 149
+     "minutes": 149,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -547735,7 +548117,8 @@
     {
      "part": 1,
      "videoId": "Z7TWTXu5vns",
-     "minutes": 121
+     "minutes": 121,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -547767,7 +548150,8 @@
     {
      "part": 1,
      "videoId": "bh9AAx7OEbg",
-     "minutes": 110
+     "minutes": 110,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -547799,7 +548183,8 @@
     {
      "part": 1,
      "videoId": "4hoiTRp40MI",
-     "minutes": 122
+     "minutes": 122,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -547831,7 +548216,8 @@
     {
      "part": 1,
      "videoId": "fOtLKFODvfU",
-     "minutes": 114
+     "minutes": 114,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -547863,7 +548249,8 @@
     {
      "part": 1,
      "videoId": "5v9h9xLM6KI",
-     "minutes": 86
+     "minutes": 86,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -547895,7 +548282,8 @@
     {
      "part": 1,
      "videoId": "IoJVyFVEtW0",
-     "minutes": 87
+     "minutes": 87,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -547927,7 +548315,8 @@
     {
      "part": 1,
      "videoId": "cFuMIf_iy74",
-     "minutes": 98
+     "minutes": 98,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -547959,7 +548348,8 @@
     {
      "part": 1,
      "videoId": "07vxMM_eD2g",
-     "minutes": 135
+     "minutes": 135,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -547991,7 +548381,8 @@
     {
      "part": 1,
      "videoId": "YRSHh_8PLl0",
-     "minutes": 128
+     "minutes": 128,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -548024,7 +548415,8 @@
     {
      "part": 1,
      "videoId": "Z_1zX51fINY",
-     "minutes": 100
+     "minutes": 100,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -548056,7 +548448,8 @@
     {
      "part": 1,
      "videoId": "cfrQm82rPiA",
-     "minutes": 112
+     "minutes": 112,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -548088,7 +548481,8 @@
     {
      "part": 1,
      "videoId": "cbIkN6e482Q",
-     "minutes": 83
+     "minutes": 83,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -548120,7 +548514,8 @@
     {
      "part": 1,
      "videoId": "wNGijsOGrio",
-     "minutes": 109
+     "minutes": 109,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -548152,7 +548547,8 @@
     {
      "part": 1,
      "videoId": "WGwn3QnmckE",
-     "minutes": 69
+     "minutes": 69,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -548184,7 +548580,8 @@
     {
      "part": 1,
      "videoId": "-_Z8nm4MyAo",
-     "minutes": 112
+     "minutes": 112,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -548216,7 +548613,8 @@
     {
      "part": 1,
      "videoId": "SDHyUd2L_ys",
-     "minutes": 105
+     "minutes": 105,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -548248,7 +548646,8 @@
     {
      "part": 1,
      "videoId": "mCQ67ScpKM4",
-     "minutes": 102
+     "minutes": 102,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -548280,7 +548679,8 @@
     {
      "part": 1,
      "videoId": "q4OXkloXcWQ",
-     "minutes": 91
+     "minutes": 91,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -548312,7 +548712,8 @@
     {
      "part": 1,
      "videoId": "t51x-Kz8tW0",
-     "minutes": 104
+     "minutes": 104,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -548344,7 +548745,8 @@
     {
      "part": 1,
      "videoId": "n-h76zn-JSE",
-     "minutes": 101
+     "minutes": 101,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -548376,7 +548778,8 @@
     {
      "part": 1,
      "videoId": "B2Qvu2JwnlM",
-     "minutes": 92
+     "minutes": 92,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -548408,7 +548811,8 @@
     {
      "part": 1,
      "videoId": "uIC03qEhixw",
-     "minutes": 101
+     "minutes": 101,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -548441,7 +548845,8 @@
     {
      "part": 1,
      "videoId": "S5cpWd-5fuk",
-     "minutes": 145
+     "minutes": 145,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -548473,7 +548878,8 @@
     {
      "part": 1,
      "videoId": "Y_uyOMmz0GM",
-     "minutes": 119
+     "minutes": 119,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -548505,7 +548911,8 @@
     {
      "part": 1,
      "videoId": "SrNrs6mqA08",
-     "minutes": 66
+     "minutes": 66,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -548537,7 +548944,8 @@
     {
      "part": 1,
      "videoId": "CD4nRJLyLfg",
-     "minutes": 149
+     "minutes": 149,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -548569,7 +548977,8 @@
     {
      "part": 1,
      "videoId": "be3ngB8LREQ",
-     "minutes": 133
+     "minutes": 133,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -548601,7 +549010,8 @@
     {
      "part": 1,
      "videoId": "Z4D7Zc0pMAo",
-     "minutes": 96
+     "minutes": 96,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -548633,7 +549043,8 @@
     {
      "part": 1,
      "videoId": "STScq6UXf_M",
-     "minutes": 125
+     "minutes": 125,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -548665,7 +549076,8 @@
     {
      "part": 1,
      "videoId": "3ZA3uLFw5EI",
-     "minutes": 95
+     "minutes": 95,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -548697,7 +549109,8 @@
     {
      "part": 1,
      "videoId": "0Sk75ZtcT2k",
-     "minutes": 123
+     "minutes": 123,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -548729,7 +549142,8 @@
     {
      "part": 1,
      "videoId": "IRwOV5uzfzM",
-     "minutes": 106
+     "minutes": 106,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -548761,7 +549175,8 @@
     {
      "part": 1,
      "videoId": "4kWUcFcqzhI",
-     "minutes": 115
+     "minutes": 115,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -548793,7 +549208,8 @@
     {
      "part": 1,
      "videoId": "o4sFEfkZI1c",
-     "minutes": 134
+     "minutes": 134,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -548825,7 +549241,8 @@
     {
      "part": 1,
      "videoId": "QmPSMrJVnc4",
-     "minutes": 85
+     "minutes": 85,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -548857,7 +549274,8 @@
     {
      "part": 1,
      "videoId": "_WEP205TBUQ",
-     "minutes": 96
+     "minutes": 96,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -548889,7 +549307,8 @@
     {
      "part": 1,
      "videoId": "Ncl3WXe03jE",
-     "minutes": 124
+     "minutes": 124,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -548921,7 +549340,8 @@
     {
      "part": 1,
      "videoId": "gZ3yDPby8Jw",
-     "minutes": 111
+     "minutes": 111,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -548953,7 +549373,8 @@
     {
      "part": 1,
      "videoId": "Chrpqh-SjEU",
-     "minutes": 90
+     "minutes": 90,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -548985,7 +549406,8 @@
     {
      "part": 1,
      "videoId": "o9sX-Te_nJc",
-     "minutes": 111
+     "minutes": 111,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -549017,7 +549439,8 @@
     {
      "part": 1,
      "videoId": "VwyMDkQel2k",
-     "minutes": 92
+     "minutes": 92,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -549049,7 +549472,8 @@
     {
      "part": 1,
      "videoId": "R70uaXo947o",
-     "minutes": 113
+     "minutes": 113,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -549081,7 +549505,8 @@
     {
      "part": 1,
      "videoId": "uTgpP3B3Fhg",
-     "minutes": 102
+     "minutes": 102,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -549113,7 +549538,8 @@
     {
      "part": 1,
      "videoId": "ZvmEH8YcqbM",
-     "minutes": 102
+     "minutes": 102,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -549145,7 +549571,8 @@
     {
      "part": 1,
      "videoId": "TIuKJ4H1Y9U",
-     "minutes": 90
+     "minutes": 90,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -549177,7 +549604,8 @@
     {
      "part": 1,
      "videoId": "kmHxjpsNdpo",
-     "minutes": 105
+     "minutes": 105,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -549209,7 +549637,8 @@
     {
      "part": 1,
      "videoId": "9KLqy79iWlk",
-     "minutes": 90
+     "minutes": 90,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -549241,7 +549670,8 @@
     {
      "part": 1,
      "videoId": "-iKXIZxoY6o",
-     "minutes": 184
+     "minutes": 184,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -549273,7 +549703,8 @@
     {
      "part": 1,
      "videoId": "EV5aAFIaSYk",
-     "minutes": 85
+     "minutes": 85,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -549305,7 +549736,8 @@
     {
      "part": 1,
      "videoId": "ZIabMZsE2j4",
-     "minutes": 151
+     "minutes": 151,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -549337,7 +549769,8 @@
     {
      "part": 1,
      "videoId": "YwTP5XA6KpU",
-     "minutes": 102
+     "minutes": 102,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -549369,7 +549802,8 @@
     {
      "part": 1,
      "videoId": "kbiqwAuanRQ",
-     "minutes": 104
+     "minutes": 104,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -549401,7 +549835,8 @@
     {
      "part": 1,
      "videoId": "hsfz8FZIALY",
-     "minutes": 105
+     "minutes": 105,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -549433,7 +549868,8 @@
     {
      "part": 1,
      "videoId": "sZsmJjDc68w",
-     "minutes": 103
+     "minutes": 103,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -549465,7 +549901,8 @@
     {
      "part": 1,
      "videoId": "YkpNUihugxs",
-     "minutes": 108
+     "minutes": 108,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -549497,7 +549934,8 @@
     {
      "part": 1,
      "videoId": "YmIEGn5k9dc",
-     "minutes": 95
+     "minutes": 95,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -549529,7 +549967,8 @@
     {
      "part": 1,
      "videoId": "WDxkOIbpLAE",
-     "minutes": 108
+     "minutes": 108,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -549561,7 +550000,8 @@
     {
      "part": 1,
      "videoId": "c4KqDzVlBp8",
-     "minutes": 100
+     "minutes": 100,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -549593,7 +550033,8 @@
     {
      "part": 1,
      "videoId": "1zqPeRdW4sk",
-     "minutes": 107
+     "minutes": 107,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -549625,7 +550066,8 @@
     {
      "part": 1,
      "videoId": "fJK_TaLddwA",
-     "minutes": 102
+     "minutes": 102,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -549657,7 +550099,8 @@
     {
      "part": 1,
      "videoId": "kdbBjBvoYTo",
-     "minutes": 120
+     "minutes": 120,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -549689,7 +550132,8 @@
     {
      "part": 1,
      "videoId": "F_L93OVuldE",
-     "minutes": 100
+     "minutes": 100,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -549721,7 +550165,8 @@
     {
      "part": 1,
      "videoId": "AIDFSzvpLec",
-     "minutes": 95
+     "minutes": 95,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -549753,7 +550198,8 @@
     {
      "part": 1,
      "videoId": "5MgA7uXZjdM",
-     "minutes": 215
+     "minutes": 215,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -549785,7 +550231,8 @@
     {
      "part": 1,
      "videoId": "yBTI_MLdwvU",
-     "minutes": 88
+     "minutes": 88,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -549817,7 +550264,8 @@
     {
      "part": 1,
      "videoId": "ur-M7e4fGvA",
-     "minutes": 70
+     "minutes": 70,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -549849,7 +550297,8 @@
     {
      "part": 1,
      "videoId": "YxtRDIlA14w",
-     "minutes": 86
+     "minutes": 86,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -549881,7 +550330,8 @@
     {
      "part": 1,
      "videoId": "jonSINZkIsg",
-     "minutes": 149
+     "minutes": 149,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -549913,7 +550363,8 @@
     {
      "part": 1,
      "videoId": "COY0a-XCewE",
-     "minutes": 114
+     "minutes": 114,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -549945,7 +550396,8 @@
     {
      "part": 1,
      "videoId": "6BpIy0-nMYY",
-     "minutes": 79
+     "minutes": 79,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -549977,7 +550429,8 @@
     {
      "part": 1,
      "videoId": "4FQaT-LJUdE",
-     "minutes": 108
+     "minutes": 108,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -550009,7 +550462,8 @@
     {
      "part": 1,
      "videoId": "XpWij8O08TQ",
-     "minutes": 112
+     "minutes": 112,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -550041,7 +550495,8 @@
     {
      "part": 1,
      "videoId": "1ie82ibr7TY",
-     "minutes": 100
+     "minutes": 100,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -550073,7 +550528,8 @@
     {
      "part": 1,
      "videoId": "NhVpeBtddWU",
-     "minutes": 70
+     "minutes": 70,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -550105,7 +550561,8 @@
     {
      "part": 1,
      "videoId": "whbSpHe95wM",
-     "minutes": 64
+     "minutes": 64,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -550137,7 +550594,8 @@
     {
      "part": 1,
      "videoId": "XEVVPF1valI",
-     "minutes": 101
+     "minutes": 101,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -550169,7 +550627,8 @@
     {
      "part": 1,
      "videoId": "KKmQk8UyAHc",
-     "minutes": 132
+     "minutes": 132,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -550201,7 +550660,8 @@
     {
      "part": 1,
      "videoId": "g2o-QEiq9OE",
-     "minutes": 101
+     "minutes": 101,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -550233,7 +550693,8 @@
     {
      "part": 1,
      "videoId": "9qu0FaopIX8",
-     "minutes": 98
+     "minutes": 98,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -550265,7 +550726,8 @@
     {
      "part": 1,
      "videoId": "UAo24iGajTc",
-     "minutes": 119
+     "minutes": 119,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -550297,7 +550759,8 @@
     {
      "part": 1,
      "videoId": "jehCY18AiK8",
-     "minutes": 100
+     "minutes": 100,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -550329,7 +550792,8 @@
     {
      "part": 1,
      "videoId": "8N1pFA3Grbg",
-     "minutes": 101
+     "minutes": 101,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -550361,7 +550825,8 @@
     {
      "part": 1,
      "videoId": "YSyPSOGQw0k",
-     "minutes": 73
+     "minutes": 73,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -550393,7 +550858,8 @@
     {
      "part": 1,
      "videoId": "TerFbPunX7M",
-     "minutes": 116
+     "minutes": 116,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -550425,7 +550891,8 @@
     {
      "part": 1,
      "videoId": "WU2RvqofX0I",
-     "minutes": 103
+     "minutes": 103,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -550457,7 +550924,8 @@
     {
      "part": 1,
      "videoId": "nNtnYgAkfec",
-     "minutes": 113
+     "minutes": 113,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -550489,7 +550957,8 @@
     {
      "part": 1,
      "videoId": "8q1SxuqU1Ns",
-     "minutes": 116
+     "minutes": 116,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -550521,7 +550990,8 @@
     {
      "part": 1,
      "videoId": "oSRJ63FR9eM",
-     "minutes": 88
+     "minutes": 88,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -550553,7 +551023,8 @@
     {
      "part": 1,
      "videoId": "kTI4IRiPDJU",
-     "minutes": 75
+     "minutes": 75,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -550585,7 +551056,8 @@
     {
      "part": 1,
      "videoId": "gMarSQhP8Yc",
-     "minutes": 114
+     "minutes": 114,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -550617,7 +551089,8 @@
     {
      "part": 1,
      "videoId": "LN3LomzFLdk",
-     "minutes": 109
+     "minutes": 109,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -550649,7 +551122,8 @@
     {
      "part": 1,
      "videoId": "QtMlKaPdTvs",
-     "minutes": 110
+     "minutes": 110,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -550681,7 +551155,8 @@
     {
      "part": 1,
      "videoId": "iAi1RZBHL24",
-     "minutes": 90
+     "minutes": 90,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -550713,7 +551188,8 @@
     {
      "part": 1,
      "videoId": "2p6p05r0aT8",
-     "minutes": 77
+     "minutes": 77,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -550745,7 +551221,8 @@
     {
      "part": 1,
      "videoId": "9gnlrXxMhCw",
-     "minutes": 113
+     "minutes": 113,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -550777,7 +551254,8 @@
     {
      "part": 1,
      "videoId": "rc7p2AxhPGs",
-     "minutes": 89
+     "minutes": 89,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -550809,7 +551287,8 @@
     {
      "part": 1,
      "videoId": "2yy5vuoU7Mc",
-     "minutes": 111
+     "minutes": 111,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -550841,7 +551320,8 @@
     {
      "part": 1,
      "videoId": "e_tmbiUWZKs",
-     "minutes": 85
+     "minutes": 85,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -550873,7 +551353,8 @@
     {
      "part": 1,
      "videoId": "BqfyOIH8cW8",
-     "minutes": 96
+     "minutes": 96,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -550905,7 +551386,8 @@
     {
      "part": 1,
      "videoId": "F0iQz3l938Q",
-     "minutes": 122
+     "minutes": 122,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -550937,7 +551419,8 @@
     {
      "part": 1,
      "videoId": "0Z_4_PHAVak",
-     "minutes": 110
+     "minutes": 110,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -550969,7 +551452,8 @@
     {
      "part": 1,
      "videoId": "WRkBF7mfuSo",
-     "minutes": 126
+     "minutes": 126,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551001,7 +551485,8 @@
     {
      "part": 1,
      "videoId": "hoVmgbu4qtM",
-     "minutes": 126
+     "minutes": 126,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551033,7 +551518,8 @@
     {
      "part": 1,
      "videoId": "rw734c-2ZxA",
-     "minutes": 89
+     "minutes": 89,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551065,7 +551551,8 @@
     {
      "part": 1,
      "videoId": "aUXMsr-BBcE",
-     "minutes": 107
+     "minutes": 107,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551097,7 +551584,8 @@
     {
      "part": 1,
      "videoId": "oJgWHEWndbs",
-     "minutes": 89
+     "minutes": 89,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551129,7 +551617,8 @@
     {
      "part": 1,
      "videoId": "2D8iMqvYlF0",
-     "minutes": 148
+     "minutes": 148,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551161,7 +551650,8 @@
     {
      "part": 1,
      "videoId": "lRCDF9NhDyc",
-     "minutes": 102
+     "minutes": 102,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551193,7 +551683,8 @@
     {
      "part": 1,
      "videoId": "Bp_oHvA9F-s",
-     "minutes": 85
+     "minutes": 85,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551225,7 +551716,8 @@
     {
      "part": 1,
      "videoId": "srHf83JlAjw",
-     "minutes": 81
+     "minutes": 81,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551258,7 +551750,8 @@
     {
      "part": 1,
      "videoId": "FLOi04j6ZSQ",
-     "minutes": 89
+     "minutes": 89,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551290,7 +551783,8 @@
     {
      "part": 1,
      "videoId": "DxPmDh5s1O8",
-     "minutes": 97
+     "minutes": 97,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551322,7 +551816,8 @@
     {
      "part": 1,
      "videoId": "OCVLzURF2AA",
-     "minutes": 79
+     "minutes": 79,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551354,7 +551849,8 @@
     {
      "part": 1,
      "videoId": "b2gBDwzIRac",
-     "minutes": 111
+     "minutes": 111,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551386,7 +551882,8 @@
     {
      "part": 1,
      "videoId": "dOFticUH1gk",
-     "minutes": 88
+     "minutes": 88,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551418,7 +551915,8 @@
     {
      "part": 1,
      "videoId": "4BbkTmyCqkU",
-     "minutes": 102
+     "minutes": 102,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551450,7 +551948,8 @@
     {
      "part": 1,
      "videoId": "kunxC4SBmXI",
-     "minutes": 142
+     "minutes": 142,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551482,7 +551981,8 @@
     {
      "part": 1,
      "videoId": "Stjw5OKqhfY",
-     "minutes": 111
+     "minutes": 111,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551514,7 +552014,8 @@
     {
      "part": 1,
      "videoId": "xayKmMtYF18",
-     "minutes": 115
+     "minutes": 115,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551546,7 +552047,8 @@
     {
      "part": 1,
      "videoId": "DqZp54F7NCo",
-     "minutes": 82
+     "minutes": 82,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551578,7 +552080,8 @@
     {
      "part": 1,
      "videoId": "NtejgRo3P-k",
-     "minutes": 83
+     "minutes": 83,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551610,7 +552113,8 @@
     {
      "part": 1,
      "videoId": "kpcAPJvFiok",
-     "minutes": 90
+     "minutes": 90,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551642,7 +552146,8 @@
     {
      "part": 1,
      "videoId": "L1spg8oDSr8",
-     "minutes": 94
+     "minutes": 94,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551674,7 +552179,8 @@
     {
      "part": 1,
      "videoId": "VrJ9R0yvDrg",
-     "minutes": 107
+     "minutes": 107,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551706,7 +552212,8 @@
     {
      "part": 1,
      "videoId": "C0PNyt3l8pw",
-     "minutes": 88
+     "minutes": 88,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551738,7 +552245,8 @@
     {
      "part": 1,
      "videoId": "d05TB__s-vM",
-     "minutes": 67
+     "minutes": 67,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551771,7 +552279,8 @@
     {
      "part": 1,
      "videoId": "glJnMXCpBg0",
-     "minutes": 72
+     "minutes": 72,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551803,7 +552312,8 @@
     {
      "part": 1,
      "videoId": "N8ICnjrX8SE",
-     "minutes": 88
+     "minutes": 88,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551836,7 +552346,8 @@
     {
      "part": 1,
      "videoId": "aOwPUsYft04",
-     "minutes": 78
+     "minutes": 78,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551870,7 +552381,8 @@
     {
      "part": 1,
      "videoId": "kF5556uOHCI",
-     "minutes": 81
+     "minutes": 81,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551902,7 +552414,8 @@
     {
      "part": 1,
      "videoId": "hFgwb_rFpn8",
-     "minutes": 90
+     "minutes": 90,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551934,7 +552447,8 @@
     {
      "part": 1,
      "videoId": "pK96KNXytTg",
-     "minutes": 131
+     "minutes": 131,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551966,7 +552480,8 @@
     {
      "part": 1,
      "videoId": "lvSBXv9vvWo",
-     "minutes": 91
+     "minutes": 91,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -551998,7 +552513,8 @@
     {
      "part": 1,
      "videoId": "-gLqxqR0haU",
-     "minutes": 109
+     "minutes": 109,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -552032,7 +552548,8 @@
     {
      "part": 1,
      "videoId": "lrEyAmxYS4A",
-     "minutes": 108
+     "minutes": 108,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -552064,7 +552581,8 @@
     {
      "part": 1,
      "videoId": "qqyrTlozpVA",
-     "minutes": 74
+     "minutes": 74,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -552096,7 +552614,8 @@
     {
      "part": 1,
      "videoId": "KDtpX24oWMk",
-     "minutes": 118
+     "minutes": 118,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -552129,7 +552648,8 @@
     {
      "part": 1,
      "videoId": "OkeszqiIFlU",
-     "minutes": 116
+     "minutes": 116,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -552162,7 +552682,8 @@
     {
      "part": 1,
      "videoId": "sHA2i2M4FNM",
-     "minutes": 97
+     "minutes": 97,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -552196,7 +552717,8 @@
     {
      "part": 1,
      "videoId": "2u7yxg9UPS0",
-     "minutes": 93
+     "minutes": 93,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -552228,7 +552750,8 @@
     {
      "part": 1,
      "videoId": "5BTNFQKPbcc",
-     "minutes": 96
+     "minutes": 96,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -552260,7 +552783,8 @@
     {
      "part": 1,
      "videoId": "i2nMEatSF7Y",
-     "minutes": 126
+     "minutes": 126,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -552292,7 +552816,8 @@
     {
      "part": 1,
      "videoId": "TtYj_F-PdN0",
-     "minutes": 86
+     "minutes": 86,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -552324,7 +552849,8 @@
     {
      "part": 1,
      "videoId": "IYvj3QqRWAA",
-     "minutes": 103
+     "minutes": 103,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -552356,7 +552882,8 @@
     {
      "part": 1,
      "videoId": "pbFs0kQvm2w",
-     "minutes": 97
+     "minutes": 97,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -552388,7 +552915,8 @@
     {
      "part": 1,
      "videoId": "FR2BOdtBxuY",
-     "minutes": 117
+     "minutes": 117,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -552420,7 +552948,8 @@
     {
      "part": 1,
      "videoId": "TJdYH0XXnU4",
-     "minutes": 84
+     "minutes": 84,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -552452,7 +552981,8 @@
     {
      "part": 1,
      "videoId": "BU-WaPV-hqU",
-     "minutes": 98
+     "minutes": 98,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -552484,7 +553014,8 @@
     {
      "part": 1,
      "videoId": "6NnMHNFtWlo",
-     "minutes": 74
+     "minutes": 74,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -552516,7 +553047,8 @@
     {
      "part": 1,
      "videoId": "e4eoHVnkl_0",
-     "minutes": 109
+     "minutes": 109,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -552548,7 +553080,8 @@
     {
      "part": 1,
      "videoId": "H9gBkRc8D1o",
-     "minutes": 104
+     "minutes": 104,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -552580,7 +553113,8 @@
     {
      "part": 1,
      "videoId": "LU47B_Em7Qw",
-     "minutes": 113
+     "minutes": 113,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -552612,7 +553146,8 @@
     {
      "part": 1,
      "videoId": "v2jNzZc3qVA",
-     "minutes": 89
+     "minutes": 89,
+     "quality": "hd"
     }
    ],
    "alternates": [
@@ -552622,7 +553157,8 @@
       {
        "part": 1,
        "videoId": "BjbFKJuNHXw",
-       "minutes": 89
+       "minutes": 89,
+       "quality": "hd"
       }
      ]
     }
@@ -552656,7 +553192,8 @@
     {
      "part": 1,
      "videoId": "6Hi8za0Y81U",
-     "minutes": 88
+     "minutes": 88,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -552688,7 +553225,8 @@
     {
      "part": 1,
      "videoId": "88ar8iMVBEo",
-     "minutes": 87
+     "minutes": 87,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -552720,7 +553258,8 @@
     {
      "part": 1,
      "videoId": "iVu2RxKyVm0",
-     "minutes": 85
+     "minutes": 85,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -552752,7 +553291,8 @@
     {
      "part": 1,
      "videoId": "UwdohKBChtk",
-     "minutes": 76
+     "minutes": 76,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -552784,7 +553324,8 @@
     {
      "part": 1,
      "videoId": "cLCHJjBM7zs",
-     "minutes": 91
+     "minutes": 91,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -552816,7 +553357,8 @@
     {
      "part": 1,
      "videoId": "s98uCkj3Jeg",
-     "minutes": 88
+     "minutes": 88,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -552848,7 +553390,8 @@
     {
      "part": 1,
      "videoId": "xPA5scMIEKs",
-     "minutes": 82
+     "minutes": 82,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -552880,7 +553423,8 @@
     {
      "part": 1,
      "videoId": "XGE2Lb_WfDE",
-     "minutes": 115
+     "minutes": 115,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -552912,7 +553456,8 @@
     {
      "part": 1,
      "videoId": "aX6YHxzubKY",
-     "minutes": 102
+     "minutes": 102,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -552944,7 +553489,8 @@
     {
      "part": 1,
      "videoId": "YvOH_39mmPA",
-     "minutes": 99
+     "minutes": 99,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -552976,7 +553522,8 @@
     {
      "part": 1,
      "videoId": "EpS3axWhqPI",
-     "minutes": 108
+     "minutes": 108,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -553008,7 +553555,8 @@
     {
      "part": 1,
      "videoId": "XKDgjvJOfbs",
-     "minutes": 116
+     "minutes": 116,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -553040,7 +553588,8 @@
     {
      "part": 1,
      "videoId": "jP0ViLKp03Q",
-     "minutes": 104
+     "minutes": 104,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -553072,7 +553621,8 @@
     {
      "part": 1,
      "videoId": "UTcbEFalDNI",
-     "minutes": 117
+     "minutes": 117,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -553104,7 +553654,8 @@
     {
      "part": 1,
      "videoId": "eYzrKB6z4pM",
-     "minutes": 106
+     "minutes": 106,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -553136,7 +553687,8 @@
     {
      "part": 1,
      "videoId": "GG7Ivj6mvu4",
-     "minutes": 80
+     "minutes": 80,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -553168,7 +553720,8 @@
     {
      "part": 1,
      "videoId": "Hf4Er0HS1NM",
-     "minutes": 91
+     "minutes": 91,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -553200,7 +553753,8 @@
     {
      "part": 1,
      "videoId": "kAzTlCFAlU0",
-     "minutes": 91
+     "minutes": 91,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -553232,7 +553786,8 @@
     {
      "part": 1,
      "videoId": "vGYqbvQY0wU",
-     "minutes": 101
+     "minutes": 101,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -553264,7 +553819,8 @@
     {
      "part": 1,
      "videoId": "J8VNaHdsGYY",
-     "minutes": 80
+     "minutes": 80,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -553296,7 +553852,8 @@
     {
      "part": 1,
      "videoId": "nz8f-a4LDJY",
-     "minutes": 89
+     "minutes": 89,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -553328,7 +553885,8 @@
     {
      "part": 1,
      "videoId": "VEO-mycZnnM",
-     "minutes": 86
+     "minutes": 86,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -553360,7 +553918,8 @@
     {
      "part": 1,
      "videoId": "D_PbWgHir8Y",
-     "minutes": 96
+     "minutes": 96,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -553392,7 +553951,8 @@
     {
      "part": 1,
      "videoId": "32lkCVtwtIY",
-     "minutes": 97
+     "minutes": 97,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -553424,7 +553984,8 @@
     {
      "part": 1,
      "videoId": "7KgWJ8Ih68I",
-     "minutes": 125
+     "minutes": 125,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -553456,7 +554017,8 @@
     {
      "part": 1,
      "videoId": "cVldWqWfMPY",
-     "minutes": 79
+     "minutes": 79,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -553488,7 +554050,8 @@
     {
      "part": 1,
      "videoId": "Sq2F7SHqYw4",
-     "minutes": 73
+     "minutes": 73,
+     "quality": "hd"
     }
    ],
    "channelName": "NollyReel"
@@ -553557,7 +554120,8 @@
     {
      "part": 1,
      "videoId": "erSUsUXU5Ac",
-     "minutes": 85
+     "minutes": 85,
+     "quality": "sd"
     }
    ],
    "channelName": "nollynetwork"
@@ -553591,7 +554155,8 @@
     {
      "part": 1,
      "videoId": "1kPAmZJFEKw",
-     "minutes": 83
+     "minutes": 83,
+     "quality": "sd"
     }
    ],
    "channelName": "nollynetwork"
@@ -553625,7 +554190,8 @@
     {
      "part": 1,
      "videoId": "dtwz8f5DqlA",
-     "minutes": 126
+     "minutes": 126,
+     "quality": "sd"
     }
    ],
    "channelName": "nollynetwork"
@@ -553659,7 +554225,8 @@
     {
      "part": 1,
      "videoId": "gzQJtsbvtUw",
-     "minutes": 98
+     "minutes": 98,
+     "quality": "sd"
     }
    ],
    "channelName": "nollynetwork"
@@ -553693,7 +554260,8 @@
     {
      "part": 1,
      "videoId": "8NqcMao9Dbw",
-     "minutes": 122
+     "minutes": 122,
+     "quality": "sd"
     }
    ],
    "channelName": "nollynetwork"
@@ -553727,7 +554295,8 @@
     {
      "part": 1,
      "videoId": "LGwZO1m7cGs",
-     "minutes": 151
+     "minutes": 151,
+     "quality": "sd"
     }
    ],
    "channelName": "nollynetwork"
@@ -553761,7 +554330,8 @@
     {
      "part": 1,
      "videoId": "jU-nWFYh458",
-     "minutes": 82
+     "minutes": 82,
+     "quality": "sd"
     }
    ],
    "channelName": "nollynetwork"
@@ -553795,7 +554365,8 @@
     {
      "part": 1,
      "videoId": "xNO0l85vlZY",
-     "minutes": 80
+     "minutes": 80,
+     "quality": "sd"
     }
    ],
    "channelName": "nollynetwork"
@@ -553828,7 +554399,8 @@
     {
      "part": 1,
      "videoId": "JMWrW3D3a20",
-     "minutes": 76
+     "minutes": 76,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -553862,7 +554434,8 @@
     {
      "part": 1,
      "videoId": "XTXf_BgliME",
-     "minutes": 176
+     "minutes": 176,
+     "quality": "sd"
     }
    ],
    "channelName": "nollynetwork"
@@ -553897,7 +554470,8 @@
     {
      "part": 1,
      "videoId": "3caE1Ym446M",
-     "minutes": 89
+     "minutes": 89,
+     "quality": "sd"
     }
    ],
    "channelName": "nollynetwork"
@@ -553931,7 +554505,8 @@
     {
      "part": 1,
      "videoId": "J1MptmiwIHE",
-     "minutes": 97
+     "minutes": 97,
+     "quality": "sd"
     }
    ],
    "channelName": "nollynetwork"
@@ -553965,7 +554540,8 @@
     {
      "part": 1,
      "videoId": "GdGiMt_AF-Y",
-     "minutes": 103
+     "minutes": 103,
+     "quality": "sd"
     }
    ],
    "channelName": "nollynetwork"
@@ -553999,7 +554575,8 @@
     {
      "part": 1,
      "videoId": "-2mOhbd8YjY",
-     "minutes": 103
+     "minutes": 103,
+     "quality": "sd"
     }
    ],
    "channelName": "nollynetwork"
@@ -554033,7 +554610,8 @@
     {
      "part": 1,
      "videoId": "3vJLRwZxNDI",
-     "minutes": 95
+     "minutes": 95,
+     "quality": "sd"
     }
    ],
    "channelName": "nollynetwork"
@@ -554067,7 +554645,8 @@
     {
      "part": 1,
      "videoId": "rWOg89_VbIs",
-     "minutes": 95
+     "minutes": 95,
+     "quality": "sd"
     }
    ],
    "channelName": "nollynetwork"
@@ -554101,7 +554680,8 @@
     {
      "part": 1,
      "videoId": "sEvsiLExOuE",
-     "minutes": 70
+     "minutes": 70,
+     "quality": "sd"
     }
    ],
    "channelName": "nollynetwork"
@@ -554134,7 +554714,8 @@
     {
      "part": 1,
      "videoId": "2LndSL91nAQ",
-     "minutes": 99
+     "minutes": 99,
+     "quality": "sd"
     }
    ],
    "channelName": "nollynetwork"
@@ -554167,7 +554748,8 @@
     {
      "part": 1,
      "videoId": "ybWThjmPVOk",
-     "minutes": 105
+     "minutes": 105,
+     "quality": "sd"
     }
    ],
    "channelName": "nollynetwork"
@@ -554200,7 +554782,8 @@
     {
      "part": 1,
      "videoId": "7ftEFRbFv4k",
-     "minutes": 95
+     "minutes": 95,
+     "quality": "sd"
     }
    ],
    "channelName": "nollynetwork"
@@ -554233,7 +554816,8 @@
     {
      "part": 1,
      "videoId": "2JO6wSKUTyo",
-     "minutes": 79
+     "minutes": 79,
+     "quality": "sd"
     }
    ],
    "channelName": "nollynetwork"
@@ -554267,7 +554851,8 @@
     {
      "part": 1,
      "videoId": "Frjmw_DKSIE",
-     "minutes": 93
+     "minutes": 93,
+     "quality": "sd"
     }
    ],
    "channelName": "nollynetwork"
@@ -554301,7 +554886,8 @@
     {
      "part": 1,
      "videoId": "fCE3K2uu9Wk",
-     "minutes": 71
+     "minutes": 71,
+     "quality": "sd"
     }
    ],
    "channelName": "nollynetwork"
@@ -554335,7 +554921,8 @@
     {
      "part": 1,
      "videoId": "9Ba2uRDa3fE",
-     "minutes": 80
+     "minutes": 80,
+     "quality": "sd"
     }
    ],
    "channelName": "nollynetwork"
@@ -554369,7 +554956,8 @@
     {
      "part": 1,
      "videoId": "0PQ8oO87cn0",
-     "minutes": 101
+     "minutes": 101,
+     "quality": "sd"
     }
    ],
    "channelName": "nollynetwork"
@@ -554402,7 +554990,8 @@
     {
      "part": 1,
      "videoId": "p_jxbZxhYvk",
-     "minutes": 85
+     "minutes": 85,
+     "quality": "sd"
     }
    ],
    "channelName": "nollynetwork"
@@ -554436,7 +555025,8 @@
     {
      "part": 1,
      "videoId": "dvA8BJwFe1Q",
-     "minutes": 81
+     "minutes": 81,
+     "quality": "sd"
     }
    ],
    "channelName": "nollynetwork"
@@ -554470,7 +555060,8 @@
     {
      "part": 1,
      "videoId": "j7-unraOrDs",
-     "minutes": 196
+     "minutes": 196,
+     "quality": "sd"
     }
    ],
    "alternates": [
@@ -554480,7 +555071,8 @@
       {
        "part": 1,
        "videoId": "LrJNF3QLLKU",
-       "minutes": 196
+       "minutes": 196,
+       "quality": "hd"
       }
      ]
     }
@@ -554516,7 +555108,8 @@
     {
      "part": 1,
      "videoId": "ZvlqtX7Meew",
-     "minutes": 101
+     "minutes": 101,
+     "quality": "sd"
     }
    ],
    "channelName": "nollynetwork"
@@ -554549,7 +555142,8 @@
     {
      "part": 1,
      "videoId": "L9DDGufmot8",
-     "minutes": 169
+     "minutes": 169,
+     "quality": "sd"
     }
    ],
    "channelName": "nollynetwork"
@@ -554582,7 +555176,8 @@
     {
      "part": 1,
      "videoId": "r3G5dUbfyYM",
-     "minutes": 57
+     "minutes": 57,
+     "quality": "sd"
     }
    ],
    "channelName": "nollynetwork"
@@ -554615,7 +555210,8 @@
     {
      "part": 1,
      "videoId": "KknVmZsOang",
-     "minutes": 107
+     "minutes": 107,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -554648,7 +555244,8 @@
     {
      "part": 1,
      "videoId": "9qbiImC28VU",
-     "minutes": 60
+     "minutes": 60,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -554681,7 +555278,8 @@
     {
      "part": 1,
      "videoId": "AywcQH8eXYY",
-     "minutes": 77
+     "minutes": 77,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -554715,7 +555313,8 @@
     {
      "part": 1,
      "videoId": "aYJa4ZjSjTc",
-     "minutes": 49
+     "minutes": 49,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -554748,7 +555347,8 @@
     {
      "part": 1,
      "videoId": "s0jgFT3nRKw",
-     "minutes": 57
+     "minutes": 57,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -554781,7 +555381,8 @@
     {
      "part": 1,
      "videoId": "SeI8j15AayA",
-     "minutes": 102
+     "minutes": 102,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -554814,7 +555415,8 @@
     {
      "part": 1,
      "videoId": "V4tCu8JXUsw",
-     "minutes": 106
+     "minutes": 106,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -554848,7 +555450,8 @@
     {
      "part": 1,
      "videoId": "0QNpaADAMlY",
-     "minutes": 123
+     "minutes": 123,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -554881,7 +555484,8 @@
     {
      "part": 1,
      "videoId": "TJdYS1ZQnT0",
-     "minutes": 77
+     "minutes": 77,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -554914,7 +555518,8 @@
     {
      "part": 1,
      "videoId": "4s5fBefec6I",
-     "minutes": 103
+     "minutes": 103,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -554948,7 +555553,8 @@
     {
      "part": 1,
      "videoId": "Ijna3bALF9Y",
-     "minutes": 122
+     "minutes": 122,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -554981,7 +555587,8 @@
     {
      "part": 1,
      "videoId": "2yu2z-KYZMI",
-     "minutes": 35
+     "minutes": 35,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -555015,7 +555622,8 @@
     {
      "part": 2,
      "videoId": "09r1ED_r-xk",
-     "minutes": 84
+     "minutes": 84,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -555047,7 +555655,8 @@
     {
      "part": 1,
      "videoId": "9tgPzfbVG30",
-     "minutes": 92
+     "minutes": 92,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -555082,7 +555691,8 @@
     {
      "part": 1,
      "videoId": "dMKqjuxsAsU",
-     "minutes": 82
+     "minutes": 82,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -555116,7 +555726,8 @@
     {
      "part": 1,
      "videoId": "qPq4aIyYr3c",
-     "minutes": 72
+     "minutes": 72,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -555150,7 +555761,8 @@
     {
      "part": 1,
      "videoId": "NeMpq_6szdI",
-     "minutes": 93
+     "minutes": 93,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -555184,7 +555796,8 @@
     {
      "part": 1,
      "videoId": "vhSAb7Fvxl4",
-     "minutes": 91
+     "minutes": 91,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -555218,7 +555831,8 @@
     {
      "part": 1,
      "videoId": "SBXgJvCU640",
-     "minutes": 53
+     "minutes": 53,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -555252,7 +555866,8 @@
     {
      "part": 1,
      "videoId": "syLdchC9WS4",
-     "minutes": 77
+     "minutes": 77,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -555284,7 +555899,8 @@
     {
      "part": 1,
      "videoId": "8Z-Px6QG_mI",
-     "minutes": 80
+     "minutes": 80,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -555316,7 +555932,8 @@
     {
      "part": 1,
      "videoId": "svkhkYVaXKg",
-     "minutes": 87
+     "minutes": 87,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -555350,7 +555967,8 @@
     {
      "part": 2,
      "videoId": "7JMq1UihLzQ",
-     "minutes": 142
+     "minutes": 142,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -555382,7 +556000,8 @@
     {
      "part": 1,
      "videoId": "vO3ow6bFUlQ",
-     "minutes": 110
+     "minutes": 110,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -555414,7 +556033,8 @@
     {
      "part": 1,
      "videoId": "8WK1muaytpE",
-     "minutes": 79
+     "minutes": 79,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -555448,7 +556068,8 @@
     {
      "part": 1,
      "videoId": "wAIgnavT-ws",
-     "minutes": 102
+     "minutes": 102,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -555482,7 +556103,8 @@
     {
      "part": 1,
      "videoId": "fn2Mci3b37c",
-     "minutes": 101
+     "minutes": 101,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -555516,7 +556138,8 @@
     {
      "part": 1,
      "videoId": "Rav1Nvp3Fj0",
-     "minutes": 65
+     "minutes": 65,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -555550,7 +556173,8 @@
     {
      "part": 1,
      "videoId": "GVSdTVQf5uw",
-     "minutes": 91
+     "minutes": 91,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -555584,7 +556208,8 @@
     {
      "part": 1,
      "videoId": "Oe-Sngz_vQ0",
-     "minutes": 119
+     "minutes": 119,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -555617,7 +556242,8 @@
     {
      "part": 1,
      "videoId": "6e99VDCyO4A",
-     "minutes": 57
+     "minutes": 57,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -555650,7 +556276,8 @@
     {
      "part": 1,
      "videoId": "jynlFxJ1LXU",
-     "minutes": 152
+     "minutes": 152,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -555683,7 +556310,8 @@
     {
      "part": 1,
      "videoId": "YY5CzJ_qj3Q",
-     "minutes": 97
+     "minutes": 97,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -555717,7 +556345,8 @@
     {
      "part": 1,
      "videoId": "qWjkhvC9x3c",
-     "minutes": 51
+     "minutes": 51,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -555751,7 +556380,8 @@
     {
      "part": 1,
      "videoId": "g1d3J0WkA_w",
-     "minutes": 99
+     "minutes": 99,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -555785,7 +556415,8 @@
     {
      "part": 1,
      "videoId": "9R1i5vws4F8",
-     "minutes": 95
+     "minutes": 95,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -555819,7 +556450,8 @@
     {
      "part": 1,
      "videoId": "NcVVcC35WL4",
-     "minutes": 101
+     "minutes": 101,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -555853,7 +556485,8 @@
     {
      "part": 1,
      "videoId": "C9ypFbayQsY",
-     "minutes": 181
+     "minutes": 181,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -555887,7 +556520,8 @@
     {
      "part": 1,
      "videoId": "KknvKd59D3Y",
-     "minutes": 105
+     "minutes": 105,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -555921,7 +556555,8 @@
     {
      "part": 1,
      "videoId": "PNci1idKAoM",
-     "minutes": 58
+     "minutes": 58,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -555954,7 +556589,8 @@
     {
      "part": 1,
      "videoId": "VWoIOabzYO8",
-     "minutes": 81
+     "minutes": 81,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -555988,7 +556624,8 @@
     {
      "part": 1,
      "videoId": "b__axa5xS1I",
-     "minutes": 92
+     "minutes": 92,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -556022,7 +556659,8 @@
     {
      "part": 1,
      "videoId": "OlBoHgllwyk",
-     "minutes": 100
+     "minutes": 100,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -556056,7 +556694,8 @@
     {
      "part": 1,
      "videoId": "pqwfdIP-zuA",
-     "minutes": 93
+     "minutes": 93,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -556090,7 +556729,8 @@
     {
      "part": 1,
      "videoId": "ol_VjJ0T6V8",
-     "minutes": 79
+     "minutes": 79,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -556123,7 +556763,8 @@
     {
      "part": 1,
      "videoId": "UUO_8UpjEnM",
-     "minutes": 100
+     "minutes": 100,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -556156,7 +556797,8 @@
     {
      "part": 1,
      "videoId": "9TC9JxH_1t0",
-     "minutes": 125
+     "minutes": 125,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -556189,7 +556831,8 @@
     {
      "part": 1,
      "videoId": "kFJ2S7thU_k",
-     "minutes": 57
+     "minutes": 57,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -556223,7 +556866,8 @@
     {
      "part": 1,
      "videoId": "cBubZCH4TRQ",
-     "minutes": 119
+     "minutes": 119,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -556256,7 +556900,8 @@
     {
      "part": 1,
      "videoId": "gbA1zqDQ_Ws",
-     "minutes": 105
+     "minutes": 105,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -556288,7 +556933,8 @@
     {
      "part": 1,
      "videoId": "ENw3mdAFT8U",
-     "minutes": 41
+     "minutes": 41,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -556320,7 +556966,8 @@
     {
      "part": 1,
      "videoId": "voEHPdU4glI",
-     "minutes": 52
+     "minutes": 52,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -556355,7 +557002,8 @@
     {
      "part": 1,
      "videoId": "PdIWYXDMllQ",
-     "minutes": 177
+     "minutes": 177,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -556389,7 +557037,8 @@
     {
      "part": 1,
      "videoId": "jSjuSo3BXeg",
-     "minutes": 70
+     "minutes": 70,
+     "quality": "sd"
     }
    ],
    "channelName": "nollynetwork"
@@ -556422,7 +557071,8 @@
     {
      "part": 1,
      "videoId": "q12Ltnfj06g",
-     "minutes": 57
+     "minutes": 57,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -556456,7 +557106,8 @@
     {
      "part": 1,
      "videoId": "RCfl27Hcu3E",
-     "minutes": 84
+     "minutes": 84,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -556489,7 +557140,8 @@
     {
      "part": 1,
      "videoId": "VlJvmGteQPQ",
-     "minutes": 137
+     "minutes": 137,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -556522,7 +557174,8 @@
     {
      "part": 1,
      "videoId": "zXIO0_ouS8k",
-     "minutes": 133
+     "minutes": 133,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -556556,7 +557209,8 @@
     {
      "part": 1,
      "videoId": "37Nt95oGcAU",
-     "minutes": 61
+     "minutes": 61,
+     "quality": "sd"
     }
    ],
    "channelName": "nollynetwork"
@@ -556589,7 +557243,8 @@
     {
      "part": 1,
      "videoId": "qUuRUKz01_o",
-     "minutes": 73
+     "minutes": 73,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -556622,7 +557277,8 @@
     {
      "part": 1,
      "videoId": "n1XUeI5Ma4Q",
-     "minutes": 83
+     "minutes": 83,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -556655,7 +557311,8 @@
     {
      "part": 1,
      "videoId": "TyIBR-fjgw0",
-     "minutes": 92
+     "minutes": 92,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -556688,7 +557345,8 @@
     {
      "part": 1,
      "videoId": "tYvrt7sDgng",
-     "minutes": 69
+     "minutes": 69,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -556721,7 +557379,8 @@
     {
      "part": 1,
      "videoId": "cP3pqJWIvDg",
-     "minutes": 99
+     "minutes": 99,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -556755,7 +557414,8 @@
     {
      "part": 1,
      "videoId": "NYv3qq8-8ms",
-     "minutes": 73
+     "minutes": 73,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -556788,7 +557448,8 @@
     {
      "part": 1,
      "videoId": "ippQ2ACSfEY",
-     "minutes": 101
+     "minutes": 101,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -556821,7 +557482,8 @@
     {
      "part": 1,
      "videoId": "gVDAaxOe4Fk",
-     "minutes": 119
+     "minutes": 119,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -556854,7 +557516,8 @@
     {
      "part": 1,
      "videoId": "CvzdM-SLJmA",
-     "minutes": 42
+     "minutes": 42,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -556887,7 +557550,8 @@
     {
      "part": 1,
      "videoId": "dElOXJNTeNQ",
-     "minutes": 101
+     "minutes": 101,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -556920,7 +557584,8 @@
     {
      "part": 1,
      "videoId": "AU0O_1TJ6to",
-     "minutes": 89
+     "minutes": 89,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -556954,7 +557619,8 @@
     {
      "part": 2,
      "videoId": "ti-rFv1nWgo",
-     "minutes": 78
+     "minutes": 78,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -556987,7 +557653,8 @@
     {
      "part": 1,
      "videoId": "U6ULN88aNjw",
-     "minutes": 63
+     "minutes": 63,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -557020,7 +557687,8 @@
     {
      "part": 1,
      "videoId": "AdJHJSNaFIE",
-     "minutes": 89
+     "minutes": 89,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -557053,7 +557721,8 @@
     {
      "part": 1,
      "videoId": "-623gkKZvUo",
-     "minutes": 81
+     "minutes": 81,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -557086,7 +557755,8 @@
     {
      "part": 1,
      "videoId": "2SDoGPGZSFk",
-     "minutes": 120
+     "minutes": 120,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -557118,7 +557788,8 @@
     {
      "part": 1,
      "videoId": "2fiSVl0SpxE",
-     "minutes": 100
+     "minutes": 100,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -557152,7 +557823,8 @@
     {
      "part": 2,
      "videoId": "MbSNXBG5caY",
-     "minutes": 103
+     "minutes": 103,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -557185,7 +557857,8 @@
     {
      "part": 1,
      "videoId": "fM4xA2_8ZYM",
-     "minutes": 44
+     "minutes": 44,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -557219,7 +557892,8 @@
     {
      "part": 1,
      "videoId": "F7mPEya8VHE",
-     "minutes": 129
+     "minutes": 129,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -557253,7 +557927,8 @@
     {
      "part": 1,
      "videoId": "6DtOGjTAiKY",
-     "minutes": 100
+     "minutes": 100,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
@@ -557286,7 +557961,8 @@
     {
      "part": 1,
      "videoId": "tMZ0S5CjTBg",
-     "minutes": 86
+     "minutes": 86,
+     "quality": "hd"
     }
    ],
    "channelName": "nollynetwork"
