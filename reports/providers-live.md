@@ -1,23 +1,23 @@
-# Live providers — 2026-11-20T23:05:52.039Z
+# Live providers — 2026-11-21T12:49:04.040Z
 
 ## Coverage
 
 - **archive**: 200 title(s)
-  - Hausa Soul Winning Gospel Presentation Only JESUS CHRIST Saves (?) — Public domain
-  - Nigerian Soldier Carries Actress 😂 😂 😂 🔥 🔥 04 (2021) — Public domain
-  - Sex Show 20Febrero 2012 (?) — CC BY-ND 3.0
-  - Rise Right | Fighting the Sculpture War | The Exaltation of the Holy Cross (2026) — CC BY 3.0
-  - Aboluyo Women's Cassava Processing Centre. Ibadan, Nigeria. 2003 (1993) — CC BY-NC-SA 4.0
-  - News and Akụkọ ụwa [NTA Aba, June 3, 2026] (2026) — CC BY-ND 4.0
+  - Sex Show 07 Ene 2013 (?) — CC BY-ND 3.0
+  - Paralisis Del Sueno (2010) — CC BY-NC-SA 4.0
+  - What Dessert Looks Like In 33 Countries Around The World (2020) — CC0
+  - A United Kingdom (2016) — CC BY-NC-SA 4.0
+  - .hack//Sign English Dub (Episodes 1-28) (2003) — Public domain
+  - Journeys through food, faith and culture - Jimi Famurewa I RSA REPLAY (2022) — CC BY-NC-ND 4.0
+  - Did You Know? Well You Should! (1988) — CC BY-NC-SA 3.0
+  - C4I Nov 15Dr Wm Mount and Patricia discuss issues (2016) — CC BY-NC-ND 3.0
+  - 2022-05-01 - BTWRLM471 - Board Governing Disinformation (2022) — CC BY-NC-SA 4.0
+  - 2-6 News [Adamawa Television, 2020s] (?) — CC BY-ND 4.0
+  - Better Days Films - Day 16 (2013) — CC BY-SA 4.0
+  - C4I - Aug 21 Mike Gaddy Bill of rights (2018) — CC BY-NC-ND 3.0
+  - Elo Perdido (2018) — Public domain
+  - Case Study: Return (?) — CC BY-NC-ND 3.0
   - Africa Revisited 2010 A triptych of differing themes. (2010) — CC BY 2.0
-  - #DiVOC PTT - How (some) biohackers tackle the COVID19 pandemic - an example - english translation (2021) — CC BY 3.0
-  - Ise agbe (2023) — CC BY-SA 4.0
-  - Sunday Service October 13th, 2024 (2024) — CC0
-  - Encryption - Practical Steps to Advocacy (2023) — CC BY-SA 4.0
-  - Zee crowded Race Back to The Moon | February 26, 2024 (2024) — CC BY-ND 4.0
-  - EKEREAGWU/AGBOROGWỤ DANCE (2022) — CC BY-NC-ND 4.0
-  - EN-HB(MM) (?) — CC BY 3.0
-  - New Year’s Eve Sunday Service December 31st, 2023 (2024) — CC0
 - **commons**: 0 title(s)
 - **faithstream**: 15 title(s) · types {"Movies/movie":51,"movie/null":23,"Animations/Animation":7,"Podcasts/podcast":5,"Devotionals/daily-devotionals":3,"Series/series-episode":25,"series_episode/null":1,"PrayerStreams/Prayer-room":27}
   - Love & Porridge (77 min)
