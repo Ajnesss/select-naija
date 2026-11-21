@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-21T02:39:12.083Z",
+ "generatedAt": "2026-11-21T13:36:30.080Z",
  "channels": {
   "UCbvdwZvZgdl-pPyomEmaEfg": {
    "name": "Omoni Oboli TV",
    "subscribers": 2120000,
-   "videos": 1352,
+   "videos": 1354,
    "films": 105
   },
   "UC83tx3zGcvQ_rXzsZigTnEA": {
@@ -16,7 +16,7 @@
   "UCjcFNZE51DmSrGYBqixs0Ug": {
    "name": "RuthKadiri247",
    "subscribers": 4210000,
-   "videos": 343,
+   "videos": 344,
    "films": 174
   },
   "UCypAoMCRQuNL2RBwy-x4oQg": {
@@ -88,13 +88,13 @@
   "UCRpVhC2Mv9B-CIhYXGb0IdA": {
    "name": "Nollywood RealnollyTV",
    "subscribers": 1920000,
-   "videos": 6227,
+   "videos": 6228,
    "films": 698
   },
   "UCm6NRZvIcYwpj79CIa1Lj9g": {
    "name": "IBAKATV",
    "subscribers": 1450000,
-   "videos": 187,
+   "videos": 188,
    "films": 11
   },
   "UCvpK1k1i23Xi5TM-ZDuSNDw": {
@@ -124,13 +124,13 @@
   "UC1By7koB6TJqjrfCvmYUIxQ": {
    "name": "AFOREVO STAGE",
    "subscribers": 2630000,
-   "videos": 3485,
+   "videos": 3488,
    "films": 2162
   },
   "UCi8vPG6uMxIjoZMhLLX2BkQ": {
    "name": "Nollywoodpicturestv",
    "subscribers": 3010000,
-   "videos": 10670,
+   "videos": 10672,
    "films": 1660
   },
   "UCNq7_TKmIc8J6j-qUcyxNFA": {
@@ -148,8 +148,8 @@
   "UCVsqair_RFTI1K5cuaLaNtg": {
    "name": "Nigerian Movies Plus",
    "subscribers": 1860000,
-   "videos": 3051,
-   "films": 1984
+   "videos": 3052,
+   "films": 1985
   },
   "UCJ1I13e9PN7u4iszJ6M0AXQ": {
    "name": "ROCKCELLY NOLLYWOOD FILMS TV",
@@ -255,7 +255,7 @@
   "UCJyFkDxxIgPVz-x_0UZPqfg": {
    "name": "AREWA24",
    "subscribers": 920000,
-   "videos": 5902,
+   "videos": 5903,
    "films": 390
   },
   "UClU5QkUqFL4a7AdxScHa2Vg": {
@@ -284,7 +284,7 @@
   "UCLgjn9SPLG7BxyuFB_uNfXQ": {
    "name": "BIODUNSTEPHEN TV",
    "subscribers": 472000,
-   "videos": 946,
+   "videos": 947,
    "films": 36
   },
   "UCiZWyHYEvZO-1MFIxy1ojQg": {
@@ -326,7 +326,7 @@
   "UCjS6UnmKjrBX3krk8oVZocg": {
    "name": "nollynetwork",
    "subscribers": 223000,
-   "videos": 296,
+   "videos": 297,
    "films": 113
   },
   "UCA_cLbPgQBD9mOCVPdToE1Q": {
@@ -193657,6 +193657,59 @@
    "channelName": "AFOREVO STAGE"
   },
   {
+   "id": "snaija-yt-close-and-deadly-2026",
+   "type": "movie",
+   "name": "Close and Deadly",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Epic"
+   ],
+   "cast": [],
+   "runtime": "133 min",
+   "description": "She was a princess. Beautiful, royal, loved by everyone. But behind the palace walls, she was suffering a secret pain that nobody could explain. Then came her wedding day, The biggest day in the kingdom. But what happened that day shocked the whole community. But the real truth was hidden in the pa",
+   "uploadedAt": "2026-11-21T12:31:09.000Z",
+   "poster": "https://i.ytimg.com/vi/h9UsZmrx_Ok/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nollywoodpicturestv (UCi8vPG6uMxIjoZMhLLX2BkQ)"
+   },
+   "channel": "UCi8vPG6uMxIjoZMhLLX2BkQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "h9UsZmrx_Ok",
+     "minutes": 32,
+     "quality": "hd"
+    },
+    {
+     "part": 2,
+     "videoId": "DgBSS81NrTI",
+     "minutes": 33,
+     "quality": "hd"
+    },
+    {
+     "part": 3,
+     "videoId": "cadx_J3dOb0",
+     "minutes": 36,
+     "quality": "hd"
+    },
+    {
+     "part": 4,
+     "videoId": "8GSmOwTNRfM",
+     "minutes": 32,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nollywoodpicturestv"
+  },
+  {
    "id": "snaija-yt-royal-promise-2026",
    "type": "movie",
    "name": "Royal Promise",
@@ -193754,47 +193807,6 @@
     {
      "part": 6,
      "videoId": "T9hsDGsLCNM",
-     "minutes": 33,
-     "quality": "hd"
-    }
-   ],
-   "channelName": "Nollywoodpicturestv"
-  },
-  {
-   "id": "snaija-yt-close-and-deadly-2026",
-   "type": "movie",
-   "name": "Close and Deadly",
-   "aliases": [],
-   "year": 2026,
-   "yearIsUpload": false,
-   "languages": [
-    "en"
-   ],
-   "category": "film",
-   "genres": [
-    "Romance",
-    "Epic"
-   ],
-   "cast": [],
-   "runtime": "65 min",
-   "description": "She was a princess. Beautiful, royal, loved by everyone. But behind the palace walls, she was suffering a secret pain that nobody could explain. Then came her wedding day, The biggest day in the kingdom. But what happened that day shocked the whole community. But the real truth was hidden in the pa",
-   "uploadedAt": "2026-11-18T12:14:43.000Z",
-   "poster": "https://i.ytimg.com/vi/h9UsZmrx_Ok/maxresdefault.jpg",
-   "posterShape": "landscape",
-   "sources": {
-    "all": "YouTube channel Nollywoodpicturestv (UCi8vPG6uMxIjoZMhLLX2BkQ)"
-   },
-   "channel": "UCi8vPG6uMxIjoZMhLLX2BkQ",
-   "parts": [
-    {
-     "part": 1,
-     "videoId": "h9UsZmrx_Ok",
-     "minutes": 32,
-     "quality": "hd"
-    },
-    {
-     "part": 2,
-     "videoId": "DgBSS81NrTI",
      "minutes": 33,
      "quality": "hd"
     }
@@ -288717,6 +288729,41 @@
     }
    ],
    "channelName": "Neptune3 Studios"
+  },
+  {
+   "id": "snaija-yt-the-powerful-ghost-of-our-dead-daughter-came-to-save-us-from-d-wicked-native-doctor-2026",
+   "type": "movie",
+   "name": "The Powerful Ghost of Our Dead Daughter Came to Save Us From D Wicked Native Doctor",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Supernatural",
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "139 min",
+   "description": "Consumed by greed and power, the ruthless priestess Ezenwanyi brings suffering upon an innocent family and wages war against Nneoma, the maiden chosen by the gods and loved by her son Kamso. As deadly forest trials,",
+   "uploadedAt": "2026-11-21T11:00:07.000Z",
+   "poster": "https://i.ytimg.com/vi/UkCpraWKlUk/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "UkCpraWKlUk",
+     "minutes": 139,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
   },
   {
    "id": "snaija-yt-battle-for-the-heart-of-the-crown-prince-2026",
@@ -558000,6 +558047,7 @@
      "episode": 17,
      "videoId": "TOGgz4aZ_cM",
      "minutes": 22,
+     "quality": "hd",
      "released": "2026-03-21T15:40:20.000Z",
      "alternates": []
     }
@@ -558039,6 +558087,7 @@
      "episode": 16,
      "videoId": "7-StWF6bRc0",
      "minutes": 22,
+     "quality": "hd",
      "released": "2026-03-18T17:53:15.000Z",
      "alternates": []
     }
@@ -558078,6 +558127,7 @@
      "episode": 15,
      "videoId": "hJ2KSTT56ho",
      "minutes": 22,
+     "quality": "hd",
      "released": "2026-02-24T20:17:49.000Z",
      "alternates": []
     }
@@ -558111,7 +558161,8 @@
     {
      "part": 1,
      "videoId": "tKGDoDoGlgo",
-     "minutes": 101
+     "minutes": 101,
+     "quality": "hd"
     }
    ],
    "channelName": "EL'S NOLLY TV "
@@ -558143,7 +558194,8 @@
     {
      "part": 1,
      "videoId": "F3uahcSbnUc",
-     "minutes": 87
+     "minutes": 87,
+     "quality": "hd"
     }
    ],
    "channelName": "EL'S NOLLY TV "
@@ -558175,7 +558227,8 @@
     {
      "part": 1,
      "videoId": "9Aun70_ELG4",
-     "minutes": 71
+     "minutes": 71,
+     "quality": "hd"
     }
    ],
    "channelName": "EL'S NOLLY TV "
@@ -558208,7 +558261,8 @@
     {
      "part": 1,
      "videoId": "ReNzC_uzJ18",
-     "minutes": 60
+     "minutes": 60,
+     "quality": "hd"
     }
    ],
    "channelName": "EL'S NOLLY TV "
@@ -558240,7 +558294,8 @@
     {
      "part": 6,
      "videoId": "6DsMBay0XK0",
-     "minutes": 33
+     "minutes": 33,
+     "quality": "hd"
     }
    ],
    "channelName": "EL'S NOLLY TV "
@@ -558273,7 +558328,8 @@
     {
      "part": 1,
      "videoId": "OYXgwapSs7k",
-     "minutes": 59
+     "minutes": 59,
+     "quality": "hd"
     }
    ],
    "channelName": "EL'S NOLLY TV "
@@ -558305,7 +558361,8 @@
     {
      "part": 1,
      "videoId": "h2Lho7IUwzw",
-     "minutes": 39
+     "minutes": 39,
+     "quality": "hd"
     }
    ],
    "channelName": "EL'S NOLLY TV "
@@ -558337,7 +558394,8 @@
     {
      "part": 1,
      "videoId": "9uu-X4P37x8",
-     "minutes": 45
+     "minutes": 45,
+     "quality": "hd"
     }
    ],
    "channelName": "EL'S NOLLY TV "
@@ -558369,7 +558427,8 @@
     {
      "part": 1,
      "videoId": "OhmqwXNetPA",
-     "minutes": 110
+     "minutes": 110,
+     "quality": "hd"
     }
    ],
    "channelName": "EL'S NOLLY TV "
@@ -558402,7 +558461,8 @@
     {
      "part": 1,
      "videoId": "6NyVW2fhuBw",
-     "minutes": 60
+     "minutes": 60,
+     "quality": "hd"
     }
    ],
    "channelName": "EL'S NOLLY TV "
@@ -558434,7 +558494,8 @@
     {
      "part": 1,
      "videoId": "tqY1P5BuAhY",
-     "minutes": 81
+     "minutes": 81,
+     "quality": "hd"
     }
    ],
    "channelName": "EL'S NOLLY TV "
@@ -558466,7 +558527,8 @@
     {
      "part": 1,
      "videoId": "4E450OWTgjs",
-     "minutes": 79
+     "minutes": 79,
+     "quality": "hd"
     }
    ],
    "channelName": "EL'S NOLLY TV "
@@ -558498,7 +558560,8 @@
     {
      "part": 2,
      "videoId": "tidvRGCsheI",
-     "minutes": 22
+     "minutes": 22,
+     "quality": "hd"
     }
    ],
    "channelName": "EL'S NOLLY TV "
@@ -558530,7 +558593,8 @@
     {
      "part": 1,
      "videoId": "ZmaAhfRljYQ",
-     "minutes": 34
+     "minutes": 34,
+     "quality": "hd"
     }
    ],
    "channelName": "EL'S NOLLY TV "
@@ -558562,7 +558626,8 @@
     {
      "part": 1,
      "videoId": "zPeMDT2rK9g",
-     "minutes": 31
+     "minutes": 31,
+     "quality": "hd"
     }
    ],
    "channelName": "EL'S NOLLY TV "
@@ -558595,7 +558660,8 @@
     {
      "part": 1,
      "videoId": "CpyTxcVoS68",
-     "minutes": 36
+     "minutes": 36,
+     "quality": "hd"
     }
    ],
    "channelName": "EL'S NOLLY TV "
@@ -558628,7 +558694,8 @@
     {
      "part": 1,
      "videoId": "Cbd-9E2fUlw",
-     "minutes": 108
+     "minutes": 108,
+     "quality": "hd"
     }
    ],
    "channelName": "EL'S NOLLY TV "
@@ -558660,7 +558727,8 @@
     {
      "part": 1,
      "videoId": "2ayVnsRNvVQ",
-     "minutes": 30
+     "minutes": 30,
+     "quality": "hd"
     }
    ],
    "channelName": "EL'S NOLLY TV "
@@ -558692,7 +558760,8 @@
     {
      "part": 1,
      "videoId": "XH5nf9Cdvys",
-     "minutes": 46
+     "minutes": 46,
+     "quality": "hd"
     }
    ],
    "channelName": "EL'S NOLLY TV "
@@ -558724,7 +558793,8 @@
     {
      "part": 1,
      "videoId": "OLSf16f5KCI",
-     "minutes": 90
+     "minutes": 90,
+     "quality": "hd"
     }
    ],
    "channelName": "EL'S NOLLY TV "
@@ -558757,7 +558827,8 @@
     {
      "part": 1,
      "videoId": "axdlxPY1_3A",
-     "minutes": 106
+     "minutes": 106,
+     "quality": "hd"
     }
    ],
    "channelName": "EL'S NOLLY TV "
