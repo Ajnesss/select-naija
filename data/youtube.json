@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-21T22:14:58.214Z",
+ "generatedAt": "2026-11-22T08:15:03.810Z",
  "channels": {
   "UCbvdwZvZgdl-pPyomEmaEfg": {
    "name": "Omoni Oboli TV",
@@ -81,7 +81,7 @@
   },
   "UCzeFm4h5hkGm4y6SV9zvGjA": {
    "name": "Frederick Leonard TV.",
-   "subscribers": 1130000,
+   "subscribers": 1140000,
    "videos": 327,
    "films": 29
   },
@@ -148,8 +148,8 @@
   "UCVsqair_RFTI1K5cuaLaNtg": {
    "name": "Nigerian Movies Plus",
    "subscribers": 1860000,
-   "videos": 3054,
-   "films": 1987
+   "videos": 3056,
+   "films": 1989
   },
   "UCJ1I13e9PN7u4iszJ6M0AXQ": {
    "name": "ROCKCELLY NOLLYWOOD FILMS TV",
@@ -284,7 +284,7 @@
   "UCLgjn9SPLG7BxyuFB_uNfXQ": {
    "name": "BIODUNSTEPHEN TV",
    "subscribers": 473000,
-   "videos": 947,
+   "videos": 948,
    "films": 36
   },
   "UCiZWyHYEvZO-1MFIxy1ojQg": {
@@ -288778,6 +288778,78 @@
     }
    ],
    "channelName": "Neptune3 Studios"
+  },
+  {
+   "id": "snaija-yt-the-powerful-ghost-of-my-dead-grand-daughter-came-to-save-me-from-my-wicked-village-2026",
+   "type": "movie",
+   "name": "The Powerful Ghost of My Dead Grand Daughter Came to Save Me From My Wicked Village!",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Epic",
+    "Supernatural",
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "159 min",
+   "description": "Struggling to survive on the streets, Helen and her grandmother believe their prayers have been answered when a generous woman welcomes them into her home. But what begins as an act of kindness soon turns into a fri",
+   "uploadedAt": "2026-11-21T23:00:23.000Z",
+   "poster": "https://i.ytimg.com/vi/75dPKhin50Q/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "75dPKhin50Q",
+     "minutes": 159,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
+  },
+  {
+   "id": "snaija-yt-you-killed-me-to-marry-my-prince-but-my-angry-ghost-is-back-to-hunt-your-peace-2026",
+   "type": "movie",
+   "name": "You Killed Me to Marry My Prince But My Angry Ghost Is Back to Hunt Your Peace!",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Epic",
+    "Supernatural"
+   ],
+   "cast": [],
+   "runtime": "175 min",
+   "description": "With a beautiful fiancée waiting to become his queen, a young prince unexpectedly falls in love with a humble food seller. Now caught between royal expectations and forbidden love, he faces a heartbreaking choice.",
+   "uploadedAt": "2026-11-21T23:00:20.000Z",
+   "poster": "https://i.ytimg.com/vi/OSQB0O9KNn0/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "OSQB0O9KNn0",
+     "minutes": 175,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
   },
   {
    "id": "snaija-yt-the-strange-ghost-came-with-special-powers-to-save-the-maiden-from-her-evil-stepmom-2026",
