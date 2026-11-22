@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-22T17:15:09.902Z",
+ "generatedAt": "2026-11-22T20:24:57.154Z",
  "channels": {
   "UCbvdwZvZgdl-pPyomEmaEfg": {
    "name": "Omoni Oboli TV",
    "subscribers": 2120000,
-   "videos": 1358,
+   "videos": 1360,
    "films": 105
   },
   "UC83tx3zGcvQ_rXzsZigTnEA": {
@@ -124,7 +124,7 @@
   "UC1By7koB6TJqjrfCvmYUIxQ": {
    "name": "AFOREVO STAGE",
    "subscribers": 2630000,
-   "videos": 3502,
+   "videos": 3505,
    "films": 2163
   },
   "UCi8vPG6uMxIjoZMhLLX2BkQ": {
@@ -148,8 +148,8 @@
   "UCVsqair_RFTI1K5cuaLaNtg": {
    "name": "Nigerian Movies Plus",
    "subscribers": 1860000,
-   "videos": 3058,
-   "films": 1991
+   "videos": 3059,
+   "films": 1992
   },
   "UCJ1I13e9PN7u4iszJ6M0AXQ": {
    "name": "ROCKCELLY NOLLYWOOD FILMS TV",
@@ -201,7 +201,7 @@
   },
   "UCMLiH9492y_qAPWfJY93ySQ": {
    "name": "Funke Akindele TV",
-   "subscribers": 19,
+   "subscribers": 20,
    "videos": 2,
    "films": 0
   },
@@ -231,7 +231,7 @@
   "UC6CxpgmZUkTH0NnksC0o_fg": {
    "name": "ABNUR ENTERTAINMENT",
    "subscribers": 887000,
-   "videos": 415,
+   "videos": 416,
    "films": 34
   },
   "UC3PkFyrpeoRxfwWpTUp2uUg": {
@@ -320,7 +320,7 @@
   "UC6izPafX_9ydQCa7xctxcuQ": {
    "name": "NollyReel",
    "subscribers": 150000,
-   "videos": 380,
+   "videos": 381,
    "films": 363
   },
   "UCjS6UnmKjrBX3krk8oVZocg": {
@@ -104564,6 +104564,55 @@
    "channelName": "Regina Daniels Tv"
   },
   {
+   "id": "snaija-yt-i-rejected-the-lady-my-mom-brought-for-me-married-a-village-girl-but-shattered-when-i-caught-her-2026",
+   "type": "movie",
+   "name": "I Rejected the Lady My Mom Brought for Me & Married a Village Girl But Shattered When I Caught Her",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Epic",
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "178 min",
+   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2026 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
+   "uploadedAt": "2026-11-22T18:52:10.000Z",
+   "poster": "https://i.ytimg.com/vi/0CEDdrHFwcs/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
+   },
+   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "0CEDdrHFwcs",
+     "minutes": 178,
+     "quality": "hd"
+    }
+   ],
+   "alternates": [
+    {
+     "label": "another upload",
+     "parts": [
+      {
+       "part": 1,
+       "videoId": "XUXVNc3VSwY",
+       "minutes": 178,
+       "quality": "hd"
+      }
+     ]
+    }
+   ],
+   "channelName": "AFOREVO STAGE"
+  },
+  {
    "id": "snaija-yt-she-came-back-after-years-of-abandoning-her-husband-but-was-shocked-to-see-him-happily-married-2026",
    "type": "movie",
    "name": "She Came Back After Years of Abandoning Her Husband But Was Shocked to See Him Happily Married",
@@ -112818,42 +112867,6 @@
        "quality": "hd"
       }
      ]
-    }
-   ],
-   "channelName": "AFOREVO STAGE"
-  },
-  {
-   "id": "snaija-yt-i-rejected-the-lady-my-mom-brought-for-me-married-a-village-girl-but-shattered-when-i-caught-her-2026",
-   "type": "movie",
-   "name": "I Rejected the Lady My Mom Brought for Me & Married a Village Girl But Shattered When I Caught Her",
-   "aliases": [],
-   "year": 2026,
-   "yearIsUpload": true,
-   "languages": [
-    "en"
-   ],
-   "category": "film",
-   "genres": [
-    "Romance",
-    "Epic",
-    "Family"
-   ],
-   "cast": [],
-   "runtime": "178 min",
-   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2026 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
-   "uploadedAt": "2026-10-08T08:00:11.000Z",
-   "poster": "https://i.ytimg.com/vi/0CEDdrHFwcs/maxresdefault.jpg",
-   "posterShape": "landscape",
-   "sources": {
-    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
-   },
-   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
-   "parts": [
-    {
-     "part": 1,
-     "videoId": "0CEDdrHFwcs",
-     "minutes": 178,
-     "quality": "hd"
     }
    ],
    "channelName": "AFOREVO STAGE"
@@ -288939,6 +288952,41 @@
     }
    ],
    "channelName": "Neptune3 Studios"
+  },
+  {
+   "id": "snaija-yt-the-powerful-ghost-of-my-sister-came-to-save-me-from-my-ugly-hearted-best-friend-2026",
+   "type": "movie",
+   "name": "The Powerful Ghost of My Sister Came to Save Me From My Ugly Hearted Best Friend!",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Supernatural",
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "92 min",
+   "description": "Convinced her security guard, Bunny Face, is responsible, a young woman sets out to uncover the mysterious thief. Instead, she discovers Omed Benson, an elderly homeless man, and his struggling son, Kelly.",
+   "uploadedAt": "2026-11-22T19:00:08.000Z",
+   "poster": "https://i.ytimg.com/vi/vtea_zV8i70/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "vtea_zV8i70",
+     "minutes": 92,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
   },
   {
    "id": "snaija-yt-my-evil-stepsister-piosoned-my-food-to-marry-my-rich-husband-but-my-ghost-is-back-2026",
@@ -542492,6 +542540,39 @@
    "channelName": "SceneOne TV"
   },
   {
+   "id": "snaija-yt-double-the-lies-2026",
+   "type": "movie",
+   "name": "Double the Lies",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Drama"
+   ],
+   "cast": [],
+   "runtime": "114 min",
+   "uploadedAt": "2026-11-22T19:00:39.000Z",
+   "poster": "https://i.ytimg.com/vi/gMarSQhP8Yc/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel NollyReel (UC6izPafX_9ydQCa7xctxcuQ)"
+   },
+   "channel": "UC6izPafX_9ydQCa7xctxcuQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "gMarSQhP8Yc",
+     "minutes": 114,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "NollyReel"
+  },
+  {
    "id": "snaija-yt-war-of-the-exes-2026",
    "type": "movie",
    "name": "War of the Exes",
@@ -551494,39 +551575,6 @@
      "part": 1,
      "videoId": "kTI4IRiPDJU",
      "minutes": 75,
-     "quality": "hd"
-    }
-   ],
-   "channelName": "NollyReel"
-  },
-  {
-   "id": "snaija-yt-double-the-lies-2026",
-   "type": "movie",
-   "name": "Double the Lies",
-   "aliases": [],
-   "year": 2026,
-   "yearIsUpload": false,
-   "languages": [
-    "en"
-   ],
-   "category": "film",
-   "genres": [
-    "Drama"
-   ],
-   "cast": [],
-   "runtime": "114 min",
-   "uploadedAt": "2026-03-20T19:00:43.000Z",
-   "poster": "https://i.ytimg.com/vi/gMarSQhP8Yc/maxresdefault.jpg",
-   "posterShape": "landscape",
-   "sources": {
-    "all": "YouTube channel NollyReel (UC6izPafX_9ydQCa7xctxcuQ)"
-   },
-   "channel": "UC6izPafX_9ydQCa7xctxcuQ",
-   "parts": [
-    {
-     "part": 1,
-     "videoId": "gMarSQhP8Yc",
-     "minutes": 114,
      "quality": "hd"
     }
    ],
