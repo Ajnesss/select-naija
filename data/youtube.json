@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-22T08:15:03.810Z",
+ "generatedAt": "2026-11-22T17:15:09.902Z",
  "channels": {
   "UCbvdwZvZgdl-pPyomEmaEfg": {
    "name": "Omoni Oboli TV",
    "subscribers": 2120000,
-   "videos": 1356,
+   "videos": 1358,
    "films": 105
   },
   "UC83tx3zGcvQ_rXzsZigTnEA": {
@@ -46,8 +46,8 @@
   "UCf6hnTFeMiX6FCwLEGDIjOw": {
    "name": "SANDRA OKUNZUWA TV",
    "subscribers": 1170000,
-   "videos": 934,
-   "films": 42
+   "videos": 935,
+   "films": 43
   },
   "UCHY9J0IWIWht6GqIBiLidBA": {
    "name": "Sonia Uche Tv",
@@ -88,13 +88,13 @@
   "UCRpVhC2Mv9B-CIhYXGb0IdA": {
    "name": "Nollywood RealnollyTV",
    "subscribers": 1920000,
-   "videos": 6228,
-   "films": 698
+   "videos": 6230,
+   "films": 700
   },
   "UCm6NRZvIcYwpj79CIa1Lj9g": {
    "name": "IBAKATV",
    "subscribers": 1450000,
-   "videos": 189,
+   "videos": 191,
    "films": 11
   },
   "UCvpK1k1i23Xi5TM-ZDuSNDw": {
@@ -105,7 +105,7 @@
   },
   "UCiahLsxiMoVkuUM1bbgPg0g": {
    "name": "OrjiTv",
-   "subscribers": 584000,
+   "subscribers": 585000,
    "videos": 247,
    "films": 119
   },
@@ -124,13 +124,13 @@
   "UC1By7koB6TJqjrfCvmYUIxQ": {
    "name": "AFOREVO STAGE",
    "subscribers": 2630000,
-   "videos": 3495,
-   "films": 2162
+   "videos": 3502,
+   "films": 2163
   },
   "UCi8vPG6uMxIjoZMhLLX2BkQ": {
    "name": "Nollywoodpicturestv",
    "subscribers": 3010000,
-   "videos": 10672,
+   "videos": 10673,
    "films": 1660
   },
   "UCNq7_TKmIc8J6j-qUcyxNFA": {
@@ -148,8 +148,8 @@
   "UCVsqair_RFTI1K5cuaLaNtg": {
    "name": "Nigerian Movies Plus",
    "subscribers": 1860000,
-   "videos": 3056,
-   "films": 1989
+   "videos": 3058,
+   "films": 1991
   },
   "UCJ1I13e9PN7u4iszJ6M0AXQ": {
    "name": "ROCKCELLY NOLLYWOOD FILMS TV",
@@ -320,7 +320,7 @@
   "UC6izPafX_9ydQCa7xctxcuQ": {
    "name": "NollyReel",
    "subscribers": 150000,
-   "videos": 379,
+   "videos": 380,
    "films": 363
   },
   "UCjS6UnmKjrBX3krk8oVZocg": {
@@ -41449,6 +41449,41 @@
    "channelName": "Bimbo Ademoye TV"
   },
   {
+   "id": "snaija-yt-my-brother-my-problem-2026",
+   "type": "movie",
+   "name": "My Brother, My Problem",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Comedy",
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "100 min",
+   "description": "Family wahala can be funny, but what happens when one brother wants everything his own way? Get ready for laughter, drama, family troubles, and plenty of unexpected moments! MY BROTHER, MY PROBLEM is an entertaining Nollywood family drama you don't want to miss!",
+   "uploadedAt": "2026-11-22T17:00:22.000Z",
+   "poster": "https://i.ytimg.com/vi/E5c8VEKR6iY/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Sandra Okunzuwa TV (UCf6hnTFeMiX6FCwLEGDIjOw)"
+   },
+   "channel": "UCf6hnTFeMiX6FCwLEGDIjOw",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "E5c8VEKR6iY",
+     "minutes": 100,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "SANDRA OKUNZUWA TV"
+  },
+  {
    "id": "snaija-yt-what-tomorrow-holds-2026",
    "type": "movie",
    "name": "What Tomorrow Holds",
@@ -52936,6 +52971,74 @@
     }
    ],
    "channelName": "Frederick Leonard TV."
+  },
+  {
+   "id": "snaija-yt-who-owns-the-child-4-malik-milton-2026",
+   "type": "movie",
+   "name": "Who Owns the Child 4 Malik Milton",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "31 min",
+   "uploadedAt": "2026-11-22T10:00:33.000Z",
+   "poster": "https://i.ytimg.com/vi/1U7V4EZ2tUQ/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nollywood RealnollyTV (UCRpVhC2Mv9B-CIhYXGb0IdA)"
+   },
+   "channel": "UCRpVhC2Mv9B-CIhYXGb0IdA",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "1U7V4EZ2tUQ",
+     "minutes": 31,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nollywood RealnollyTV"
+  },
+  {
+   "id": "snaija-yt-who-owns-the-child-3-malik-milton-2026",
+   "type": "movie",
+   "name": "Who Owns the Child 3 Malik Milton",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "31 min",
+   "uploadedAt": "2026-11-22T09:00:12.000Z",
+   "poster": "https://i.ytimg.com/vi/j8F5QA9sPkE/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nollywood RealnollyTV (UCRpVhC2Mv9B-CIhYXGb0IdA)"
+   },
+   "channel": "UCRpVhC2Mv9B-CIhYXGb0IdA",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "j8F5QA9sPkE",
+     "minutes": 31,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nollywood RealnollyTV"
   },
   {
    "id": "snaija-yt-who-owns-the-child-2-malik-milton-2026",
@@ -104461,6 +104564,179 @@
    "channelName": "Regina Daniels Tv"
   },
   {
+   "id": "snaija-yt-she-came-back-after-years-of-abandoning-her-husband-but-was-shocked-to-see-him-happily-married-2026",
+   "type": "movie",
+   "name": "She Came Back After Years of Abandoning Her Husband But Was Shocked to See Him Happily Married",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance"
+   ],
+   "cast": [],
+   "runtime": "135 min",
+   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2026 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
+   "uploadedAt": "2026-11-22T16:24:34.000Z",
+   "poster": "https://i.ytimg.com/vi/Pzh29Y_GstA/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
+   },
+   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "Pzh29Y_GstA",
+     "minutes": 135,
+     "quality": "hd"
+    }
+   ],
+   "alternates": [
+    {
+     "label": "another upload",
+     "parts": [
+      {
+       "part": 1,
+       "videoId": "fi4RkoGB4hc",
+       "minutes": 133,
+       "quality": "hd"
+      }
+     ]
+    }
+   ],
+   "channelName": "AFOREVO STAGE"
+  },
+  {
+   "id": "snaija-yt-ladies-be-the-first-to-see-this-amazing-love-movie-released-on-youtube-today-2026",
+   "type": "movie",
+   "name": "Ladies Be the First to See This Amazing Love Movie Released on Youtube Today",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance"
+   ],
+   "cast": [],
+   "runtime": "88 min",
+   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2026 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
+   "uploadedAt": "2026-11-22T15:00:09.000Z",
+   "poster": "https://i.ytimg.com/vi/iUieJA7A07s/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
+   },
+   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "iUieJA7A07s",
+     "minutes": 88,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "AFOREVO STAGE"
+  },
+  {
+   "id": "snaija-yt-her-husband-of-12yrs-kicked-her-out-thinking-she-would-be-miserable-but-god-changed-her-story-2025",
+   "type": "movie",
+   "name": "Her Husband of 12yrs Kicked Her Out Thinking She Would Be Miserable But God Changed Her Story",
+   "aliases": [],
+   "year": 2025,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance"
+   ],
+   "cast": [],
+   "runtime": "114 min",
+   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2025 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
+   "uploadedAt": "2026-11-22T14:00:55.000Z",
+   "poster": "https://i.ytimg.com/vi/c7Oq8D6xUi8/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
+   },
+   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "c7Oq8D6xUi8",
+     "minutes": 114,
+     "quality": "hd"
+    }
+   ],
+   "alternates": [
+    {
+     "label": "another upload",
+     "parts": [
+      {
+       "part": 1,
+       "videoId": "gGWiNE0iUk0",
+       "minutes": 113,
+       "quality": "hd"
+      }
+     ]
+    },
+    {
+     "label": "another upload",
+     "parts": [
+      {
+       "part": 1,
+       "videoId": "RnRllAcMUL4",
+       "minutes": 113,
+       "quality": "hd"
+      }
+     ]
+    }
+   ],
+   "channelName": "AFOREVO STAGE"
+  },
+  {
+   "id": "snaija-yt-i-plead-with-every-woman-to-watch-this-explosive-love-movie-learn-a-life-lesson-2026",
+   "type": "movie",
+   "name": "I Plead With Every Woman to Watch This Explosive Love Movie & Learn a Life Lesson",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance"
+   ],
+   "cast": [],
+   "runtime": "121 min",
+   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2026 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
+   "uploadedAt": "2026-11-22T12:30:09.000Z",
+   "poster": "https://i.ytimg.com/vi/gtmn8ETz2so/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
+   },
+   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "gtmn8ETz2so",
+     "minutes": 121,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "AFOREVO STAGE"
+  },
+  {
    "id": "snaija-yt-i-urge-every-lady-to-watch-this-life-changing-marriage-movie-learn-something-2026",
    "type": "movie",
    "name": "I Urge Every Lady to Watch This Life-Changing Marriage Movie & Learn Something",
@@ -107121,40 +107397,6 @@
      "part": 1,
      "videoId": "EyNosPuH3f4",
      "minutes": 183,
-     "quality": "hd"
-    }
-   ],
-   "channelName": "AFOREVO STAGE"
-  },
-  {
-   "id": "snaija-yt-i-plead-with-every-woman-to-watch-this-explosive-love-movie-learn-a-life-lesson-2026",
-   "type": "movie",
-   "name": "I Plead With Every Woman to Watch This Explosive Love Movie & Learn a Life Lesson",
-   "aliases": [],
-   "year": 2026,
-   "yearIsUpload": true,
-   "languages": [
-    "en"
-   ],
-   "category": "film",
-   "genres": [
-    "Romance"
-   ],
-   "cast": [],
-   "runtime": "121 min",
-   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2026 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
-   "uploadedAt": "2026-11-01T00:00:07.000Z",
-   "poster": "https://i.ytimg.com/vi/gtmn8ETz2so/maxresdefault.jpg",
-   "posterShape": "landscape",
-   "sources": {
-    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
-   },
-   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
-   "parts": [
-    {
-     "part": 1,
-     "videoId": "gtmn8ETz2so",
-     "minutes": 121,
      "quality": "hd"
     }
    ],
@@ -110458,40 +110700,6 @@
      "part": 1,
      "videoId": "adcg52pp32I",
      "minutes": 134,
-     "quality": "hd"
-    }
-   ],
-   "channelName": "AFOREVO STAGE"
-  },
-  {
-   "id": "snaija-yt-she-came-back-after-years-of-abandoning-her-husband-but-was-shocked-to-see-him-happily-married-2026",
-   "type": "movie",
-   "name": "She Came Back After Years of Abandoning Her Husband But Was Shocked to See Him Happily Married",
-   "aliases": [],
-   "year": 2026,
-   "yearIsUpload": true,
-   "languages": [
-    "en"
-   ],
-   "category": "film",
-   "genres": [
-    "Romance"
-   ],
-   "cast": [],
-   "runtime": "135 min",
-   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2026 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
-   "uploadedAt": "2026-10-14T09:15:28.000Z",
-   "poster": "https://i.ytimg.com/vi/Pzh29Y_GstA/maxresdefault.jpg",
-   "posterShape": "landscape",
-   "sources": {
-    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
-   },
-   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
-   "parts": [
-    {
-     "part": 1,
-     "videoId": "Pzh29Y_GstA",
-     "minutes": 135,
      "quality": "hd"
     }
    ],
@@ -170486,53 +170694,6 @@
      "videoId": "w2MEbVSWQuI",
      "minutes": 91,
      "quality": "hd"
-    }
-   ],
-   "channelName": "AFOREVO STAGE"
-  },
-  {
-   "id": "snaija-yt-her-husband-of-12yrs-kicked-her-out-thinking-she-would-be-miserable-but-god-changed-her-story-2025",
-   "type": "movie",
-   "name": "Her Husband of 12yrs Kicked Her Out Thinking She Would Be Miserable But God Changed Her Story",
-   "aliases": [],
-   "year": 2025,
-   "yearIsUpload": true,
-   "languages": [
-    "en"
-   ],
-   "category": "film",
-   "genres": [
-    "Romance"
-   ],
-   "cast": [],
-   "runtime": "114 min",
-   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2025 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
-   "uploadedAt": "2025-11-02T01:15:06.000Z",
-   "poster": "https://i.ytimg.com/vi/c7Oq8D6xUi8/maxresdefault.jpg",
-   "posterShape": "landscape",
-   "sources": {
-    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
-   },
-   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
-   "parts": [
-    {
-     "part": 1,
-     "videoId": "c7Oq8D6xUi8",
-     "minutes": 114,
-     "quality": "hd"
-    }
-   ],
-   "alternates": [
-    {
-     "label": "another upload",
-     "parts": [
-      {
-       "part": 1,
-       "videoId": "RnRllAcMUL4",
-       "minutes": 113,
-       "quality": "hd"
-      }
-     ]
     }
    ],
    "channelName": "AFOREVO STAGE"
@@ -288778,6 +288939,78 @@
     }
    ],
    "channelName": "Neptune3 Studios"
+  },
+  {
+   "id": "snaija-yt-my-evil-stepsister-piosoned-my-food-to-marry-my-rich-husband-but-my-ghost-is-back-2026",
+   "type": "movie",
+   "name": "My Evil Stepsister Piosoned My Food to Marry My Rich Husband But My Ghost Is Back!",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Epic",
+    "Supernatural"
+   ],
+   "cast": [],
+   "runtime": "131 min",
+   "description": "As Sumoaku village celebrates the long-awaited festival, families push their young graduates to find wealthy partners from abroad. But when money and parental expectations begin to threaten existing relationships, h",
+   "uploadedAt": "2026-11-22T17:00:21.000Z",
+   "poster": "https://i.ytimg.com/vi/qn9lwdtzKnc/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "qn9lwdtzKnc",
+     "minutes": 131,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
+  },
+  {
+   "id": "snaija-yt-the-strange-old-witch-from-the-forest-came-to-save-me-from-my-wicked-village-2026",
+   "type": "movie",
+   "name": "The Strange Old Witch From the Forest Came to Save Me From My Wicked Village!",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Epic",
+    "Supernatural"
+   ],
+   "cast": [],
+   "runtime": "129 min",
+   "description": "After fifteen years, the famous Keleke Festival returns to Sumoaku village, bringing excitement, romance, and new opportunities. But as families pressure their young graduates to marry wealthy partners from abroad,",
+   "uploadedAt": "2026-11-22T11:00:15.000Z",
+   "poster": "https://i.ytimg.com/vi/VjkV9jM9J5g/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "VjkV9jM9J5g",
+     "minutes": 129,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
   },
   {
    "id": "snaija-yt-the-powerful-ghost-of-my-dead-grand-daughter-came-to-save-me-from-my-wicked-village-2026",
@@ -542259,6 +542492,39 @@
    "channelName": "SceneOne TV"
   },
   {
+   "id": "snaija-yt-war-of-the-exes-2026",
+   "type": "movie",
+   "name": "War of the Exes",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Drama"
+   ],
+   "cast": [],
+   "runtime": "160 min",
+   "uploadedAt": "2026-11-22T17:00:31.000Z",
+   "poster": "https://i.ytimg.com/vi/JPtIpyrQxAs/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel NollyReel (UC6izPafX_9ydQCa7xctxcuQ)"
+   },
+   "channel": "UC6izPafX_9ydQCa7xctxcuQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "JPtIpyrQxAs",
+     "minutes": 160,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "NollyReel"
+  },
+  {
    "id": "snaija-yt-marriage-mender-2026",
    "type": "movie",
    "name": "Marriage Mender",
@@ -544234,39 +544500,6 @@
      "part": 1,
      "videoId": "8DQ81K9_mxo",
      "minutes": 97,
-     "quality": "hd"
-    }
-   ],
-   "channelName": "NollyReel"
-  },
-  {
-   "id": "snaija-yt-war-of-the-exes-2026",
-   "type": "movie",
-   "name": "War of the Exes",
-   "aliases": [],
-   "year": 2026,
-   "yearIsUpload": false,
-   "languages": [
-    "en"
-   ],
-   "category": "film",
-   "genres": [
-    "Drama"
-   ],
-   "cast": [],
-   "runtime": "160 min",
-   "uploadedAt": "2026-10-02T19:00:20.000Z",
-   "poster": "https://i.ytimg.com/vi/JPtIpyrQxAs/maxresdefault.jpg",
-   "posterShape": "landscape",
-   "sources": {
-    "all": "YouTube channel NollyReel (UC6izPafX_9ydQCa7xctxcuQ)"
-   },
-   "channel": "UC6izPafX_9ydQCa7xctxcuQ",
-   "parts": [
-    {
-     "part": 1,
-     "videoId": "JPtIpyrQxAs",
-     "minutes": 160,
      "quality": "hd"
     }
    ],
