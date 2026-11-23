@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-22T20:24:57.154Z",
+ "generatedAt": "2026-11-23T01:51:14.176Z",
  "channels": {
   "UCbvdwZvZgdl-pPyomEmaEfg": {
    "name": "Omoni Oboli TV",
@@ -21,7 +21,7 @@
   },
   "UCypAoMCRQuNL2RBwy-x4oQg": {
    "name": "Uchenna Mbunabo Tv",
-   "subscribers": 3970000,
+   "subscribers": 3980000,
    "videos": 274,
    "films": 167
   },
@@ -46,7 +46,7 @@
   "UCf6hnTFeMiX6FCwLEGDIjOw": {
    "name": "SANDRA OKUNZUWA TV",
    "subscribers": 1170000,
-   "videos": 935,
+   "videos": 936,
    "films": 43
   },
   "UCHY9J0IWIWht6GqIBiLidBA": {
@@ -124,8 +124,8 @@
   "UC1By7koB6TJqjrfCvmYUIxQ": {
    "name": "AFOREVO STAGE",
    "subscribers": 2630000,
-   "videos": 3505,
-   "films": 2163
+   "videos": 3508,
+   "films": 2164
   },
   "UCi8vPG6uMxIjoZMhLLX2BkQ": {
    "name": "Nollywoodpicturestv",
@@ -148,8 +148,8 @@
   "UCVsqair_RFTI1K5cuaLaNtg": {
    "name": "Nigerian Movies Plus",
    "subscribers": 1860000,
-   "videos": 3059,
-   "films": 1992
+   "videos": 3060,
+   "films": 1993
   },
   "UCJ1I13e9PN7u4iszJ6M0AXQ": {
    "name": "ROCKCELLY NOLLYWOOD FILMS TV",
@@ -104564,6 +104564,74 @@
    "channelName": "Regina Daniels Tv"
   },
   {
+   "id": "snaija-yt-i-urge-every-lady-to-watch-this-life-changing-marriage-movie-learn-something-2026",
+   "type": "movie",
+   "name": "I Urge Every Lady to Watch This Life-Changing Marriage Movie & Learn Something",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance"
+   ],
+   "cast": [],
+   "runtime": "144 min",
+   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2026 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
+   "uploadedAt": "2026-11-23T00:00:11.000Z",
+   "poster": "https://i.ytimg.com/vi/ei4erBcFJP4/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
+   },
+   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "ei4erBcFJP4",
+     "minutes": 144,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "AFOREVO STAGE"
+  },
+  {
+   "id": "snaija-yt-drop-everything-you-intend-to-do-and-and-watch-this-mindblowing-family-2026",
+   "type": "movie",
+   "name": "Drop Everything You Intend to Do and and Watch This Mindblowing Family",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "90 min",
+   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2026 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
+   "uploadedAt": "2026-11-22T22:00:09.000Z",
+   "poster": "https://i.ytimg.com/vi/ThTF-qES3-g/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
+   },
+   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "ThTF-qES3-g",
+     "minutes": 90,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "AFOREVO STAGE"
+  },
+  {
    "id": "snaija-yt-i-rejected-the-lady-my-mom-brought-for-me-married-a-village-girl-but-shattered-when-i-caught-her-2026",
    "type": "movie",
    "name": "I Rejected the Lady My Mom Brought for Me & Married a Village Girl But Shattered When I Caught Her",
@@ -104780,40 +104848,6 @@
      "part": 1,
      "videoId": "gtmn8ETz2so",
      "minutes": 121,
-     "quality": "hd"
-    }
-   ],
-   "channelName": "AFOREVO STAGE"
-  },
-  {
-   "id": "snaija-yt-i-urge-every-lady-to-watch-this-life-changing-marriage-movie-learn-something-2026",
-   "type": "movie",
-   "name": "I Urge Every Lady to Watch This Life-Changing Marriage Movie & Learn Something",
-   "aliases": [],
-   "year": 2026,
-   "yearIsUpload": true,
-   "languages": [
-    "en"
-   ],
-   "category": "film",
-   "genres": [
-    "Romance"
-   ],
-   "cast": [],
-   "runtime": "144 min",
-   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2026 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
-   "uploadedAt": "2026-11-21T20:00:11.000Z",
-   "poster": "https://i.ytimg.com/vi/ei4erBcFJP4/maxresdefault.jpg",
-   "posterShape": "landscape",
-   "sources": {
-    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
-   },
-   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
-   "parts": [
-    {
-     "part": 1,
-     "videoId": "ei4erBcFJP4",
-     "minutes": 144,
      "quality": "hd"
     }
    ],
@@ -288952,6 +288986,41 @@
     }
    ],
    "channelName": "Neptune3 Studios"
+  },
+  {
+   "id": "snaija-yt-the-strange-river-goddess-gave-me-special-powers-to-stop-my-evil-heartless-husband-2026",
+   "type": "movie",
+   "name": "The Strange River Goddess Gave Me Special Powers to Stop My Evil Heartless Husband!",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Supernatural"
+   ],
+   "cast": [],
+   "runtime": "65 min",
+   "description": "After subjecting his wife to emotional and physical abuse, a ruthless husband sends her packing and begins a relationship with another woman. But just when he thinks he has found happiness, events take a shocking tu",
+   "uploadedAt": "2026-11-22T23:00:33.000Z",
+   "poster": "https://i.ytimg.com/vi/t784iLXrvTw/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "t784iLXrvTw",
+     "minutes": 65,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
   },
   {
    "id": "snaija-yt-the-powerful-ghost-of-my-sister-came-to-save-me-from-my-ugly-hearted-best-friend-2026",
