@@ -1,6 +1,6 @@
 # Select Naija coverage report
 
-Generated 2026-11-22T17:27:04.440Z. Links last verified 2026-11-22T17:27:04.384Z.
+Generated 2026-11-23T21:43:55.758Z. Links last verified 2026-11-23T21:43:55.700Z.
 A title counts as covered only if a verified Select Naija link is shown for it.
 
 ## Test catalogue by group
@@ -14,48 +14,48 @@ A title counts as covered only if a verified Select Naija link is shown for it.
 
 | Language | Catalogued | Covered | Coverage | Without TMDB/IMDb ID |
 | --- | --- | --- | --- | --- |
-| English | 12779 | 11335 | 88.7% | 12580 |
-| Yoruba | 849 | 744 | 87.6% | 802 |
-| Igbo | 1353 | 1334 | 98.6% | 1337 |
+| English | 12788 | 11342 | 88.7% | 12588 |
+| Yoruba | 849 | 743 | 87.5% | 802 |
+| Igbo | 1353 | 1333 | 98.5% | 1337 |
 | Hausa | 507 | 502 | 99% | 501 |
 | fr | 1 | 1 | 100% | 1 |
 
 ## Stream health (YouTube)
 
-Videos checked through the official API: 27543 (2026-11-22T17:15:39.497Z).
+Videos checked through the official API: 27552 (2026-11-23T21:32:34.392Z).
 | API status | Videos |
 | --- | --- |
-| ok | 27511 |
+| ok | 27517 |
 | age | 30 |
-| gone | 2 |
+| gone | 5 |
 
-HD (720p or better, as YouTube reports it): 22686; SD: 4857.
-Playback in YouTube's official embedded player: played 0, failed 0, inconclusive 0, not yet tested 27511.
+HD (720p or better, as YouTube reports it): 22695; SD: 4857.
+Playback in YouTube's official embedded player: played 0, failed 0, inconclusive 0, not yet tested 27517.
 Last playback run: 30 tested in 0 min ({"error 150":30}) — not applied: YouTube asks the test server to sign in ("confirm you are not a bot"), so playback cannot be confirmed from GitHub.
 
 ## Source breakdown (plays inside Nuvio)
 
-12604 playable titles; 12453 (98.8%) rely on YouTube alone.
+12610 playable titles; 12457 (98.8%) rely on YouTube alone.
 
-**Unique non-YouTube playable titles: 151** (titles with a working source other than YouTube: a file that plays in Nuvio, or the film's own page in a free UK service's app; searches, live channels, trailers and YouTube duplicates are not counted).
+**Unique non-YouTube playable titles: 153** (titles with a working source other than YouTube: a file that plays in Nuvio, or the film's own page in a free UK service's app; searches, live channels, trailers and YouTube duplicates are not counted).
 
 | Independent provider | Playable titles |
 | --- | --- |
-| Tubi | 137 |
+| Tubi | 139 |
 | Prime Video | 19 |
 | Plex | 13 |
 
 | Provider | Playable titles |
 | --- | --- |
-| YouTube | 12473 |
-| Tubi | 137 |
+| YouTube | 12477 |
+| Tubi | 139 |
 | Prime Video | 19 |
 | Plex | 13 |
 
 | Provider: channel | Playable titles |
 | --- | --- |
-| YouTube: AFOREVO STAGE | 2163 |
-| YouTube: Nigerian Movies Plus | 1991 |
+| YouTube: AFOREVO STAGE | 2164 |
+| YouTube: Nigerian Movies Plus | 1996 |
 | YouTube: Nollywoodpicturestv | 1660 |
 | YouTube: BTAtv | 1404 |
 | YouTube: ROCKCELLY NOLLYWOOD FILMS TV | 835 |
@@ -65,10 +65,10 @@ Last playback run: 30 tested in 0 min ({"error 150":30}) — not applied: YouTub
 | YouTube: NollyReel | 363 |
 | YouTube: APATATV+ | 341 |
 | YouTube: RuthKadiri247 | 174 |
-| YouTube: LibraTv | 169 |
-| YouTube: Uchenna Mbunabo Tv | 165 |
+| YouTube: LibraTv | 168 |
+| YouTube: Uchenna Mbunabo Tv | 164 |
 | YouTube: Global Update Movies Nollywood | 145 |
-| Tubi: - | 137 |
+| Tubi: - | 139 |
 | YouTube: OrjiTv | 119 |
 | YouTube: nollynetwork | 113 |
 | YouTube: Omoni Oboli TV | 105 |
@@ -112,10 +112,10 @@ Last playback run: 30 tested in 0 min ({"error 150":30}) — not applied: YouTub
 
 | Provider | Score | Reliability 30d | Accuracy | Freshness | Checks 30d |
 | --- | --- | --- | --- | --- | --- |
-| Tubi | 93 | 88% | 100% | 100% | 2316 |
-| Plex | 95 | 91% | 100% | 100% | 35 |
-| Select Naija test file | 100 | 100% | 100% | 100% | 37 |
-| YouTube | 100 | 100% | 100% | 100% | 22 |
+| Tubi | 92 | 87% | 100% | 100% | 2492 |
+| Plex | 95 | 92% | 100% | 100% | 36 |
+| Select Naija test file | 100 | 100% | 100% | 100% | 38 |
+| YouTube | 100 | 100% | 100% | 100% | 23 |
 
 ## Gaps: test titles with no verified source
 

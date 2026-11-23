@@ -1,16 +1,16 @@
 {
- "generatedAt": "2026-11-23T16:14:37.003Z",
+ "generatedAt": "2026-11-23T21:32:04.806Z",
  "channels": {
   "UCbvdwZvZgdl-pPyomEmaEfg": {
    "name": "Omoni Oboli TV",
    "subscribers": 2120000,
-   "videos": 1361,
+   "videos": 1362,
    "films": 105
   },
   "UC83tx3zGcvQ_rXzsZigTnEA": {
    "name": "APATATV+",
    "subscribers": 2640000,
-   "videos": 2326,
+   "videos": 2328,
    "films": 341
   },
   "UCjcFNZE51DmSrGYBqixs0Ug": {
@@ -34,7 +34,7 @@
   "UCLLA3OKhzK-tzXFvXhnGKZQ": {
    "name": "FAAN TV",
    "subscribers": 1440000,
-   "videos": 2784,
+   "videos": 2785,
    "films": 50
   },
   "UCneM4DHHUWMVwmYktz8X46g": {
@@ -46,7 +46,7 @@
   "UCf6hnTFeMiX6FCwLEGDIjOw": {
    "name": "SANDRA OKUNZUWA TV",
    "subscribers": 1170000,
-   "videos": 939,
+   "videos": 940,
    "films": 43
   },
   "UCHY9J0IWIWht6GqIBiLidBA": {
@@ -148,8 +148,8 @@
   "UCVsqair_RFTI1K5cuaLaNtg": {
    "name": "Nigerian Movies Plus",
    "subscribers": 1860000,
-   "videos": 3061,
-   "films": 1994
+   "videos": 3063,
+   "films": 1996
   },
   "UCJ1I13e9PN7u4iszJ6M0AXQ": {
    "name": "ROCKCELLY NOLLYWOOD FILMS TV",
@@ -190,7 +190,7 @@
   "UCzKrLr1ZD1uds-7c7vaSjVA": {
    "name": "Uche Nancy tv",
    "subscribers": 2380000,
-   "videos": 1713,
+   "videos": 1714,
    "films": 667
   },
   "UCB4TZvSKXjSx2pyJG-zIxsQ": {
@@ -230,7 +230,7 @@
   },
   "UC6CxpgmZUkTH0NnksC0o_fg": {
    "name": "ABNUR ENTERTAINMENT",
-   "subscribers": 887000,
+   "subscribers": 888000,
    "videos": 416,
    "films": 34
   },
@@ -283,7 +283,7 @@
   },
   "UCLgjn9SPLG7BxyuFB_uNfXQ": {
    "name": "BIODUNSTEPHEN TV",
-   "subscribers": 473000,
+   "subscribers": 474000,
    "videos": 949,
    "films": 36
   },
@@ -288998,6 +288998,76 @@
     }
    ],
    "channelName": "Neptune3 Studios"
+  },
+  {
+   "id": "snaija-yt-the-powerful-ghost-of-my-grandmother-came-to-save-me-from-my-wicked-boss-in-the-city-2026",
+   "type": "movie",
+   "name": "The Powerful Ghost of My Grandmother Came to Save Me From My Wicked Boss in the City",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Supernatural"
+   ],
+   "cast": [],
+   "runtime": "114 min",
+   "description": "Blinded by greed, a woman enters a marriage built on deception while secretly living a reckless life. But just when she thinks she can have it all, her actions return to haunt her. Will she escape the consequences,",
+   "uploadedAt": "2026-11-23T19:00:13.000Z",
+   "poster": "https://i.ytimg.com/vi/mgiOj5UW9C0/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "mgiOj5UW9C0",
+     "minutes": 114,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
+  },
+  {
+   "id": "snaija-yt-you-killed-me-because-i-refuse-to-marry-you-but-my-ghost-is-back-to-make-you-suffer-2026",
+   "type": "movie",
+   "name": "You Killed Me Because I Refuse to Marry You But My Ghost Is Back to Make You Suffer!",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Supernatural"
+   ],
+   "cast": [],
+   "runtime": "154 min",
+   "description": "A ruthless teacher turns his classroom into a place of fear, sexually exploiting female students and terrorizing the boys who dare to challenge him. But as his cruelty grows, the victims face a difficult choice: rem",
+   "uploadedAt": "2026-11-23T17:00:36.000Z",
+   "poster": "https://i.ytimg.com/vi/kJROc21xEzU/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "kJROc21xEzU",
+     "minutes": 154,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
   },
   {
    "id": "snaija-yt-you-took-my-children-to-the-city-for-money-ritual-but-my-ghost-is-back-to-hunt-2026",
