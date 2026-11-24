@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-23T21:43:55.700Z",
+ "generatedAt": "2026-11-24T20:30:29.316Z",
  "links": {
   "selftest:bbb-10s": {
    "checks": [
@@ -192,11 +192,16 @@
      "at": "2026-11-23T21:34:15.517Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:20:07.638Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:34:15.517Z",
+   "lastCheck": "2026-11-24T20:20:07.638Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:34:15.517Z",
+   "lastOk": "2026-11-24T20:20:07.638Z",
    "finalUrl": "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4"
   },
   "plex:nollywood-babylon": {
@@ -380,12 +385,17 @@
      "at": "2026-11-23T21:34:16.550Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:20:11.241Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:34:16.550Z",
+   "lastCheck": "2026-11-24T20:20:11.241Z",
    "lastReason": null,
    "ukListed": "Filmzie (ads)",
-   "lastOk": "2026-11-23T21:34:16.550Z",
+   "lastOk": "2026-11-24T20:20:11.241Z",
    "finalUrl": "https://watch.plex.tv/en-GB/movie/nollywood-babylon-2008?supportsPublicPosts=1&supportsUdpDiscussionUgcCards=1&supportsUdpReviewUgcCards=1&supportsMentions=1",
    "ukSignal": "uk-check"
   },
@@ -570,9 +580,14 @@
      "at": "2026-11-23T21:34:16.687Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:20:08.887Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:34:16.687Z",
+   "lastCheck": "2026-11-24T20:20:08.887Z",
    "lastReason": "unavailable:content unavailable",
    "ukListed": "Apple TV Store (rent), Amazon Video (rent), Sky Store (rent), YouTube (rent), Apple TV Store (buy), Amazon Video (buy), Sky Store (buy), YouTube (buy)"
   },
@@ -702,11 +717,16 @@
      "at": "2026-11-23T21:34:20.018Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:20:12.234Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:34:20.018Z",
+   "lastCheck": "2026-11-24T20:20:12.234Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:34:20.018Z",
+   "lastOk": "2026-11-24T20:20:12.234Z",
    "finalUrl": "https://tubitv.com/movies/100047943/gwoza",
    "ukSignal": "uk-check"
   },
@@ -836,11 +856,16 @@
      "at": "2026-11-23T21:34:23.292Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:20:15.664Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:34:23.292Z",
+   "lastCheck": "2026-11-24T20:20:15.664Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:34:23.292Z",
+   "lastOk": "2026-11-24T20:20:15.664Z",
    "finalUrl": "https://tubitv.com/movies/100048301/the-man-i-married",
    "ukSignal": "uk-check"
   },
@@ -970,11 +995,16 @@
      "at": "2026-11-23T21:34:26.430Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:20:18.822Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:34:26.430Z",
+   "lastCheck": "2026-11-24T20:20:18.822Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:34:26.430Z",
+   "lastOk": "2026-11-24T20:20:18.822Z",
    "finalUrl": "https://tubitv.com/movies/100061282/rattlesnake-the-ahanna-story",
    "ukSignal": "uk-check"
   },
@@ -1104,11 +1134,16 @@
      "at": "2026-11-23T21:34:29.643Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:20:21.953Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:34:29.643Z",
+   "lastCheck": "2026-11-24T20:20:21.953Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:34:29.643Z",
+   "lastOk": "2026-11-24T20:20:21.953Z",
    "finalUrl": "https://tubitv.com/movies/100027151/a-romantic-comedy-featuring-lara-tobi",
    "ukSignal": "uk-check"
   },
@@ -1238,11 +1273,16 @@
      "at": "2026-11-23T21:34:33.061Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:20:25.421Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:34:33.061Z",
+   "lastCheck": "2026-11-24T20:20:25.421Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:34:33.061Z",
+   "lastOk": "2026-11-24T20:20:25.421Z",
    "finalUrl": "https://tubitv.com/movies/559737/payday",
    "ukSignal": "uk-check"
   },
@@ -1372,11 +1412,16 @@
      "at": "2026-11-23T21:34:36.148Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:20:28.537Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:34:36.148Z",
+   "lastCheck": "2026-11-24T20:20:28.537Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:34:36.148Z",
+   "lastOk": "2026-11-24T20:20:28.537Z",
    "finalUrl": "https://tubitv.com/movies/100021696/rust",
    "ukSignal": "uk-check"
   },
@@ -1506,11 +1551,16 @@
      "at": "2026-11-23T21:34:39.327Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:20:31.921Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:34:39.327Z",
+   "lastCheck": "2026-11-24T20:20:31.921Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:34:39.327Z",
+   "lastOk": "2026-11-24T20:20:31.921Z",
    "finalUrl": "https://tubitv.com/movies/100055846/brotherhood",
    "ukSignal": "uk-check"
   },
@@ -1640,11 +1690,16 @@
      "at": "2026-11-23T21:34:42.753Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:20:35.137Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:34:42.753Z",
+   "lastCheck": "2026-11-24T20:20:35.137Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:34:42.753Z",
+   "lastOk": "2026-11-24T20:20:35.137Z",
    "finalUrl": "https://tubitv.com/movies/100050308/emotional-healer",
    "ukSignal": "uk-check"
   },
@@ -1774,11 +1829,16 @@
      "at": "2026-11-23T21:34:45.882Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:20:38.785Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:34:45.882Z",
+   "lastCheck": "2026-11-24T20:20:38.785Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:34:45.882Z",
+   "lastOk": "2026-11-24T20:20:38.785Z",
    "finalUrl": "https://tubitv.com/movies/100046151/love-don-t-cost-a-thing",
    "ukSignal": "uk-check"
   },
@@ -1908,11 +1968,16 @@
      "at": "2026-11-23T21:34:49.303Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:20:42.125Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:34:49.303Z",
+   "lastCheck": "2026-11-24T20:20:42.125Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:34:49.303Z",
+   "lastOk": "2026-11-24T20:20:42.125Z",
    "finalUrl": "https://tubitv.com/movies/100054434/still-falling",
    "ukSignal": "uk-check"
   },
@@ -2042,11 +2107,16 @@
      "at": "2026-11-23T21:34:52.491Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:20:45.240Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:34:52.491Z",
+   "lastCheck": "2026-11-24T20:20:45.240Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:34:52.491Z",
+   "lastOk": "2026-11-24T20:20:45.240Z",
    "finalUrl": "https://tubitv.com/movies/100036029/the-wrong-guy",
    "ukSignal": "uk-check"
   },
@@ -2176,11 +2246,16 @@
      "at": "2026-11-23T21:34:55.621Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:20:48.473Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:34:55.621Z",
+   "lastCheck": "2026-11-24T20:20:48.473Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:34:55.621Z",
+   "lastOk": "2026-11-24T20:20:48.473Z",
    "finalUrl": "https://tubitv.com/movies/100064657/club",
    "ukSignal": "uk-check"
   },
@@ -2310,11 +2385,16 @@
      "at": "2026-11-23T21:34:58.833Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:20:51.664Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:34:58.833Z",
+   "lastCheck": "2026-11-24T20:20:51.664Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:34:58.833Z",
+   "lastOk": "2026-11-24T20:20:51.664Z",
    "finalUrl": "https://tubitv.com/movies/632806/4th-republic",
    "ukSignal": "uk-check"
   },
@@ -2444,11 +2524,16 @@
      "at": "2026-11-23T21:35:01.977Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:20:54.764Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:35:01.977Z",
+   "lastCheck": "2026-11-24T20:20:54.764Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:35:01.977Z",
+   "lastOk": "2026-11-24T20:20:54.764Z",
    "finalUrl": "https://tubitv.com/movies/627987/sylvia",
    "ukSignal": "uk-check"
   },
@@ -2578,11 +2663,16 @@
      "at": "2026-11-23T21:35:05.352Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:20:58.861Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:35:05.352Z",
+   "lastCheck": "2026-11-24T20:20:58.861Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:35:05.352Z",
+   "lastOk": "2026-11-24T20:20:58.861Z",
    "finalUrl": "https://tubitv.com/movies/100054255/ada-omo-daddy",
    "ukSignal": "uk-check"
   },
@@ -2712,11 +2802,16 @@
      "at": "2026-11-23T21:35:08.531Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:21:02.267Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:35:08.531Z",
+   "lastCheck": "2026-11-24T20:21:02.267Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:35:08.531Z",
+   "lastOk": "2026-11-24T20:21:02.267Z",
    "finalUrl": "https://tubitv.com/movies/100050088/when-i-see-you",
    "ukSignal": "uk-check"
   },
@@ -2846,11 +2941,16 @@
      "at": "2026-11-23T21:35:11.681Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:21:05.437Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:35:11.681Z",
+   "lastCheck": "2026-11-24T20:21:05.437Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:35:11.681Z",
+   "lastOk": "2026-11-24T20:21:05.437Z",
    "finalUrl": "https://tubitv.com/movies/627725/merry-men",
    "ukSignal": "uk-check"
   },
@@ -2980,11 +3080,16 @@
      "at": "2026-11-23T21:35:14.849Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:21:08.600Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:35:14.849Z",
+   "lastCheck": "2026-11-24T20:21:08.600Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:35:14.849Z",
+   "lastOk": "2026-11-24T20:21:08.600Z",
    "finalUrl": "https://tubitv.com/movies/100043824/conversations-in-transit",
    "ukSignal": "uk-check"
   },
@@ -3114,11 +3219,16 @@
      "at": "2026-11-23T21:35:18.304Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:21:11.714Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:35:18.304Z",
+   "lastCheck": "2026-11-24T20:21:11.714Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:35:18.304Z",
+   "lastOk": "2026-11-24T20:21:11.714Z",
    "finalUrl": "https://tubitv.com/movies/100050327/appealing",
    "ukSignal": "uk-check"
   },
@@ -3248,11 +3358,16 @@
      "at": "2026-11-23T21:35:21.728Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:21:15.076Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:35:21.728Z",
+   "lastCheck": "2026-11-24T20:21:15.076Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:35:21.728Z",
+   "lastOk": "2026-11-24T20:21:15.076Z",
    "finalUrl": "https://tubitv.com/movies/100048274/iwo",
    "ukSignal": "uk-check"
   },
@@ -3382,11 +3497,16 @@
      "at": "2026-11-23T21:35:25.416Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:21:18.778Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:35:25.416Z",
+   "lastCheck": "2026-11-24T20:21:18.778Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:35:25.416Z",
+   "lastOk": "2026-11-24T20:21:18.778Z",
    "finalUrl": "https://tubitv.com/movies/100058024/perfect-wife-for-dad",
    "ukSignal": "uk-check"
   },
@@ -3516,11 +3636,16 @@
      "at": "2026-11-23T21:35:28.570Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:21:21.980Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:35:28.570Z",
+   "lastCheck": "2026-11-24T20:21:21.980Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:35:28.570Z",
+   "lastOk": "2026-11-24T20:21:21.980Z",
    "finalUrl": "https://tubitv.com/movies/100056772/i-found-you",
    "ukSignal": "uk-check"
   },
@@ -3650,11 +3775,16 @@
      "at": "2026-11-23T21:35:31.967Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:21:25.143Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:35:31.967Z",
+   "lastCheck": "2026-11-24T20:21:25.143Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:35:31.967Z",
+   "lastOk": "2026-11-24T20:21:25.143Z",
    "finalUrl": "https://tubitv.com/movies/100050306/mama-cash",
    "ukSignal": "uk-check"
   },
@@ -3784,11 +3914,16 @@
      "at": "2026-11-23T21:35:35.442Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:21:28.277Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:35:35.442Z",
+   "lastCheck": "2026-11-24T20:21:28.277Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:35:35.442Z",
+   "lastOk": "2026-11-24T20:21:28.277Z",
    "finalUrl": "https://tubitv.com/movies/100061938/when-love-ends",
    "ukSignal": "uk-check"
   },
@@ -3918,11 +4053,16 @@
      "at": "2026-11-23T21:35:38.668Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:21:31.435Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:35:38.668Z",
+   "lastCheck": "2026-11-24T20:21:31.435Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:35:38.668Z",
+   "lastOk": "2026-11-24T20:21:31.435Z",
    "finalUrl": "https://tubitv.com/movies/100059229/abujaa",
    "ukSignal": "uk-check"
   },
@@ -4052,11 +4192,16 @@
      "at": "2026-11-23T21:35:42.178Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:21:34.542Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:35:42.178Z",
+   "lastCheck": "2026-11-24T20:21:34.542Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:35:42.178Z",
+   "lastOk": "2026-11-24T20:21:34.542Z",
    "finalUrl": "https://tubitv.com/movies/100056709/dinner",
    "ukSignal": "uk-check"
   },
@@ -4186,11 +4331,16 @@
      "at": "2026-11-23T21:35:45.377Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:21:37.958Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:35:45.377Z",
+   "lastCheck": "2026-11-24T20:21:37.958Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:35:45.377Z",
+   "lastOk": "2026-11-24T20:21:37.958Z",
    "finalUrl": "https://tubitv.com/movies/100021702/one-lagos-night",
    "ukSignal": "uk-check"
   },
@@ -4320,11 +4470,16 @@
      "at": "2026-11-23T21:35:48.796Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:21:41.291Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:35:48.796Z",
+   "lastCheck": "2026-11-24T20:21:41.291Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:35:48.796Z",
+   "lastOk": "2026-11-24T20:21:41.291Z",
    "finalUrl": "https://tubitv.com/movies/100051250/naked-lies",
    "ukSignal": "uk-check"
   },
@@ -4454,11 +4609,16 @@
      "at": "2026-11-23T21:35:51.965Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:21:44.693Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:35:51.965Z",
+   "lastCheck": "2026-11-24T20:21:44.693Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:35:51.965Z",
+   "lastOk": "2026-11-24T20:21:44.693Z",
    "finalUrl": "https://tubitv.com/movies/100041881/the-drop",
    "ukSignal": "uk-check"
   },
@@ -4588,11 +4748,16 @@
      "at": "2026-11-23T21:35:55.097Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:21:47.790Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:35:55.097Z",
+   "lastCheck": "2026-11-24T20:21:47.790Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:35:55.097Z",
+   "lastOk": "2026-11-24T20:21:47.790Z",
    "finalUrl": "https://tubitv.com/movies/100027182/roommate-couple",
    "ukSignal": "uk-check"
   },
@@ -4722,11 +4887,16 @@
      "at": "2026-11-23T21:35:58.217Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:21:50.927Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:35:58.217Z",
+   "lastCheck": "2026-11-24T20:21:50.927Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:35:58.217Z",
+   "lastOk": "2026-11-24T20:21:50.927Z",
    "finalUrl": "https://tubitv.com/movies/100056850/will-you-marry-my-husband",
    "ukSignal": "uk-check"
   },
@@ -4856,11 +5026,16 @@
      "at": "2026-11-23T21:36:01.516Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:21:54.087Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:36:01.516Z",
+   "lastCheck": "2026-11-24T20:21:54.087Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:36:01.516Z",
+   "lastOk": "2026-11-24T20:21:54.087Z",
    "finalUrl": "https://tubitv.com/movies/100061371/a-one-night-sin",
    "ukSignal": "uk-check"
   },
@@ -4990,11 +5165,16 @@
      "at": "2026-11-23T21:36:04.660Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:21:57.268Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:36:04.660Z",
+   "lastCheck": "2026-11-24T20:21:57.268Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:36:04.660Z",
+   "lastOk": "2026-11-24T20:21:57.268Z",
    "finalUrl": "https://tubitv.com/movies/100048260/african-man",
    "ukSignal": "uk-check"
   },
@@ -5124,11 +5304,16 @@
      "at": "2026-11-23T21:36:08.312Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:22:00.450Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:36:08.312Z",
+   "lastCheck": "2026-11-24T20:22:00.450Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:36:08.312Z",
+   "lastOk": "2026-11-24T20:22:00.450Z",
    "finalUrl": "https://tubitv.com/movies/100050326/roses-capsule",
    "ukSignal": "uk-check"
   },
@@ -5258,11 +5443,16 @@
      "at": "2026-11-23T21:36:11.488Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:22:03.516Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:36:11.488Z",
+   "lastCheck": "2026-11-24T20:22:03.516Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:36:11.488Z",
+   "lastOk": "2026-11-24T20:22:03.516Z",
    "finalUrl": "https://tubitv.com/movies/100057318/love-stood-still",
    "ukSignal": "uk-check"
   },
@@ -5392,11 +5582,16 @@
      "at": "2026-11-23T21:36:14.932Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:22:06.642Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:36:14.932Z",
+   "lastCheck": "2026-11-24T20:22:06.642Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:36:14.932Z",
+   "lastOk": "2026-11-24T20:22:06.642Z",
    "finalUrl": "https://tubitv.com/movies/100044750/a-family-affair",
    "ukSignal": "uk-check"
   },
@@ -5526,11 +5721,16 @@
      "at": "2026-11-23T21:36:18.316Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:22:09.777Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:36:18.316Z",
+   "lastCheck": "2026-11-24T20:22:09.777Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:36:18.316Z",
+   "lastOk": "2026-11-24T20:22:09.777Z",
    "finalUrl": "https://tubitv.com/movies/100053116/moji",
    "ukSignal": "uk-check"
   },
@@ -5660,11 +5860,16 @@
      "at": "2026-11-23T21:36:21.700Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:22:13.149Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:36:21.700Z",
+   "lastCheck": "2026-11-24T20:22:13.149Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:36:21.700Z",
+   "lastOk": "2026-11-24T20:22:13.149Z",
    "finalUrl": "https://tubitv.com/movies/100052531/the-silent-intruder",
    "ukSignal": "uk-check"
   },
@@ -5794,11 +5999,16 @@
      "at": "2026-11-23T21:36:24.871Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:22:16.631Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:36:24.871Z",
+   "lastCheck": "2026-11-24T20:22:16.631Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:36:24.871Z",
+   "lastOk": "2026-11-24T20:22:16.631Z",
    "finalUrl": "https://tubitv.com/movies/100056800/here-comes-the-bride",
    "ukSignal": "uk-check"
   },
@@ -5928,11 +6138,16 @@
      "at": "2026-11-23T21:36:28.252Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:22:19.855Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:36:28.252Z",
+   "lastCheck": "2026-11-24T20:22:19.855Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:36:28.252Z",
+   "lastOk": "2026-11-24T20:22:19.855Z",
    "finalUrl": "https://tubitv.com/movies/100058534/mutual-benefits",
    "ukSignal": "uk-check"
   },
@@ -6062,11 +6277,16 @@
      "at": "2026-11-23T21:36:31.412Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:22:23.518Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:36:31.412Z",
+   "lastCheck": "2026-11-24T20:22:23.518Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:36:31.412Z",
+   "lastOk": "2026-11-24T20:22:23.518Z",
    "finalUrl": "https://tubitv.com/movies/100057297/chef-for-hire",
    "ukSignal": "uk-check"
   },
@@ -6196,11 +6416,16 @@
      "at": "2026-11-23T21:36:34.606Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:22:26.979Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:36:34.606Z",
+   "lastCheck": "2026-11-24T20:22:26.979Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:36:34.606Z",
+   "lastOk": "2026-11-24T20:22:26.979Z",
    "finalUrl": "https://tubitv.com/movies/100060292/goodluck-charm",
    "ukSignal": "uk-check"
   },
@@ -6330,11 +6555,16 @@
      "at": "2026-11-23T21:36:38.049Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:22:30.402Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:36:38.049Z",
+   "lastCheck": "2026-11-24T20:22:30.402Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:36:38.049Z",
+   "lastOk": "2026-11-24T20:22:30.402Z",
    "finalUrl": "https://tubitv.com/movies/100027191/a-necessary-step",
    "ukSignal": "uk-check"
   },
@@ -6464,11 +6694,16 @@
      "at": "2026-11-23T21:36:41.780Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:22:33.496Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:36:41.780Z",
+   "lastCheck": "2026-11-24T20:22:33.496Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:36:41.780Z",
+   "lastOk": "2026-11-24T20:22:33.496Z",
    "finalUrl": "https://tubitv.com/movies/100057146/grease-to-grace",
    "ukSignal": "uk-check"
   },
@@ -6598,11 +6833,16 @@
      "at": "2026-11-23T21:36:44.800Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:22:36.893Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:36:44.800Z",
+   "lastCheck": "2026-11-24T20:22:36.893Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:36:44.800Z",
+   "lastOk": "2026-11-24T20:22:36.893Z",
    "finalUrl": "https://tubitv.com/movies/100059194/mama-drama",
    "ukSignal": "uk-check"
   },
@@ -6732,11 +6972,16 @@
      "at": "2026-11-23T21:36:47.978Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:22:39.987Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:36:47.978Z",
+   "lastCheck": "2026-11-24T20:22:39.987Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:36:47.978Z",
+   "lastOk": "2026-11-24T20:22:39.987Z",
    "finalUrl": "https://tubitv.com/movies/100054340/over-and-over-again",
    "ukSignal": "uk-check"
   },
@@ -6866,11 +7111,16 @@
      "at": "2026-11-23T21:36:51.098Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:22:43.348Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:36:51.098Z",
+   "lastCheck": "2026-11-24T20:22:43.348Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:36:51.098Z",
+   "lastOk": "2026-11-24T20:22:43.348Z",
    "finalUrl": "https://tubitv.com/movies/100052484/devil-in-disguise",
    "ukSignal": "uk-check"
   },
@@ -7000,11 +7250,16 @@
      "at": "2026-11-23T21:36:54.500Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:22:46.452Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:36:54.500Z",
+   "lastCheck": "2026-11-24T20:22:46.452Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:36:54.500Z",
+   "lastOk": "2026-11-24T20:22:46.452Z",
    "finalUrl": "https://tubitv.com/movies/100058530/fiance-for-hire",
    "ukSignal": "uk-check"
   },
@@ -7134,11 +7389,16 @@
      "at": "2026-11-23T21:36:57.683Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:22:49.651Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:36:57.683Z",
+   "lastCheck": "2026-11-24T20:22:49.651Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:36:57.683Z",
+   "lastOk": "2026-11-24T20:22:49.651Z",
    "finalUrl": "https://tubitv.com/movies/100059322/meet-me-halfway",
    "ukSignal": "uk-check"
   },
@@ -7268,11 +7528,16 @@
      "at": "2026-11-23T21:37:00.871Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:22:52.790Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:37:00.871Z",
+   "lastCheck": "2026-11-24T20:22:52.790Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:37:00.871Z",
+   "lastOk": "2026-11-24T20:22:52.790Z",
    "finalUrl": "https://tubitv.com/movies/100060268/merry-men-2",
    "ukSignal": "uk-check"
   },
@@ -7397,11 +7662,16 @@
      "at": "2026-11-23T21:37:04.022Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:22:56.241Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:37:04.022Z",
+   "lastCheck": "2026-11-24T20:22:56.241Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:37:04.022Z",
+   "lastOk": "2026-11-24T20:22:56.241Z",
    "finalUrl": "https://tubitv.com/movies/100045559/the-thing-about-pain",
    "ukSignal": "uk-check"
   },
@@ -7526,11 +7796,16 @@
      "at": "2026-11-23T21:37:07.473Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:22:59.596Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:37:07.473Z",
+   "lastCheck": "2026-11-24T20:22:59.596Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:37:07.473Z",
+   "lastOk": "2026-11-24T20:22:59.596Z",
    "finalUrl": "https://tubitv.com/movies/100027178/switched-up",
    "ukSignal": "uk-check"
   },
@@ -7655,11 +7930,16 @@
      "at": "2026-11-23T21:37:10.626Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:23:03.014Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:37:10.626Z",
+   "lastCheck": "2026-11-24T20:23:03.014Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:37:10.626Z",
+   "lastOk": "2026-11-24T20:23:03.014Z",
    "finalUrl": "https://tubitv.com/movies/100058435/living-in-bondage-breaking-free",
    "ukSignal": "uk-check"
   },
@@ -7784,11 +8064,16 @@
      "at": "2026-11-23T21:37:13.985Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:23:06.106Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:37:13.985Z",
+   "lastCheck": "2026-11-24T20:23:06.106Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:37:13.985Z",
+   "lastOk": "2026-11-24T20:23:06.106Z",
    "finalUrl": "https://tubitv.com/movies/100048327/rejected",
    "ukSignal": "uk-check"
   },
@@ -7913,11 +8198,16 @@
      "at": "2026-11-23T21:37:17.118Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:23:09.137Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:37:17.118Z",
+   "lastCheck": "2026-11-24T20:23:09.137Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:37:17.118Z",
+   "lastOk": "2026-11-24T20:23:09.137Z",
    "finalUrl": "https://tubitv.com/movies/100050071/mothers-in-love",
    "ukSignal": "uk-check"
   },
@@ -8037,11 +8327,16 @@
      "at": "2026-11-23T21:34:16.326Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:20:08.222Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:34:16.326Z",
+   "lastCheck": "2026-11-24T20:20:08.222Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:34:16.326Z",
+   "lastOk": "2026-11-24T20:20:08.222Z",
    "finalUrl": "https://www.youtube.com/watch?v=1FfwOJzNxfQ"
   },
   "tubi:100056985": {
@@ -8140,11 +8435,16 @@
      "at": "2026-11-23T21:37:20.510Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:23:12.498Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:37:20.510Z",
+   "lastCheck": "2026-11-24T20:23:12.498Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:37:20.510Z",
+   "lastOk": "2026-11-24T20:23:12.498Z",
    "finalUrl": "https://tubitv.com/movies/100056985/situationship",
    "ukSignal": "uk-check"
   },
@@ -8244,11 +8544,16 @@
      "at": "2026-11-23T21:37:23.632Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:23:15.693Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:37:23.632Z",
+   "lastCheck": "2026-11-24T20:23:15.693Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:37:23.632Z",
+   "lastOk": "2026-11-24T20:23:15.693Z",
    "finalUrl": "https://tubitv.com/movies/100064942/turning-tables",
    "ukSignal": "uk-check"
   },
@@ -8348,11 +8653,16 @@
      "at": "2026-11-23T21:37:26.805Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:23:19.372Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:37:26.805Z",
+   "lastCheck": "2026-11-24T20:23:19.372Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:37:26.805Z",
+   "lastOk": "2026-11-24T20:23:19.372Z",
    "finalUrl": "https://tubitv.com/movies/100065870/lisabi-the-legend-is-born",
    "ukSignal": "uk-check"
   },
@@ -8452,11 +8762,16 @@
      "at": "2026-11-23T21:37:30.332Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:23:22.461Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:37:30.332Z",
+   "lastCheck": "2026-11-24T20:23:22.461Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:37:30.332Z",
+   "lastOk": "2026-11-24T20:23:22.461Z",
    "finalUrl": "https://tubitv.com/movies/100061376/anywhere-but-home",
    "ukSignal": "uk-check"
   },
@@ -8556,11 +8871,16 @@
      "at": "2026-11-23T21:37:33.502Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:23:25.547Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:37:33.502Z",
+   "lastCheck": "2026-11-24T20:23:25.547Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:37:33.502Z",
+   "lastOk": "2026-11-24T20:23:25.547Z",
    "finalUrl": "https://tubitv.com/movies/100048288/shades-of-love",
    "ukSignal": "uk-check"
   },
@@ -8660,11 +8980,16 @@
      "at": "2026-11-23T21:37:36.669Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:23:28.681Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:37:36.669Z",
+   "lastCheck": "2026-11-24T20:23:28.681Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:37:36.669Z",
+   "lastOk": "2026-11-24T20:23:28.681Z",
    "finalUrl": "https://tubitv.com/movies/100061659/lily-s-voice",
    "ukSignal": "uk-check"
   },
@@ -8764,11 +9089,16 @@
      "at": "2026-11-23T21:37:39.821Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:23:32.058Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:37:39.821Z",
+   "lastCheck": "2026-11-24T20:23:32.058Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:37:39.821Z",
+   "lastOk": "2026-11-24T20:23:32.058Z",
    "finalUrl": "https://tubitv.com/movies/100022908/fading",
    "ukSignal": "uk-check"
   },
@@ -8868,11 +9198,16 @@
      "at": "2026-11-23T21:37:43.521Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:23:35.294Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:37:43.521Z",
+   "lastCheck": "2026-11-24T20:23:35.294Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:37:43.521Z",
+   "lastOk": "2026-11-24T20:23:35.294Z",
    "finalUrl": "https://tubitv.com/movies/100056965/for-the-love-of-zaram",
    "ukSignal": "uk-check"
   },
@@ -8967,11 +9302,16 @@
      "at": "2026-11-23T21:37:46.719Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:23:38.680Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:37:46.719Z",
+   "lastCheck": "2026-11-24T20:23:38.680Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:37:46.719Z",
+   "lastOk": "2026-11-24T20:23:38.680Z",
    "finalUrl": "https://tubitv.com/movies/100062605/handsome-demon",
    "ukSignal": "uk-check"
   },
@@ -9066,11 +9406,16 @@
      "at": "2026-11-23T21:37:50.295Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:23:42.128Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:37:50.295Z",
+   "lastCheck": "2026-11-24T20:23:42.128Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:37:50.295Z",
+   "lastOk": "2026-11-24T20:23:42.128Z",
    "finalUrl": "https://tubitv.com/series/300008372/halita",
    "ukSignal": "uk-check"
   },
@@ -9160,11 +9505,16 @@
      "at": "2026-11-23T21:37:53.862Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:23:45.557Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:37:53.862Z",
+   "lastCheck": "2026-11-24T20:23:45.557Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:37:53.862Z",
+   "lastOk": "2026-11-24T20:23:45.557Z",
    "finalUrl": "https://tubitv.com/series/300016637/father-forgive-me",
    "ukSignal": "uk-check"
   },
@@ -9254,11 +9604,16 @@
      "at": "2026-11-23T21:37:57.323Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:23:48.659Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:37:57.323Z",
+   "lastCheck": "2026-11-24T20:23:48.659Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:37:57.323Z",
+   "lastOk": "2026-11-24T20:23:48.659Z",
    "finalUrl": "https://tubitv.com/movies/100066807/who-s-the-boss",
    "ukSignal": "uk-check"
   },
@@ -9348,11 +9703,16 @@
      "at": "2026-11-23T21:38:00.744Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:23:52.030Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:38:00.744Z",
+   "lastCheck": "2026-11-24T20:23:52.030Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:38:00.744Z",
+   "lastOk": "2026-11-24T20:23:52.030Z",
    "finalUrl": "https://tubitv.com/movies/100054600/timini",
    "ukSignal": "uk-check"
   },
@@ -9442,11 +9802,16 @@
      "at": "2026-11-23T21:38:03.906Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:23:55.386Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:38:03.906Z",
+   "lastCheck": "2026-11-24T20:23:55.386Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:38:03.906Z",
+   "lastOk": "2026-11-24T20:23:55.386Z",
    "finalUrl": "https://tubitv.com/movies/100045588/green-faith",
    "ukSignal": "uk-check"
   },
@@ -9536,11 +9901,16 @@
      "at": "2026-11-23T21:38:07.279Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:23:58.510Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:38:07.279Z",
+   "lastCheck": "2026-11-24T20:23:58.510Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:38:07.279Z",
+   "lastOk": "2026-11-24T20:23:58.510Z",
    "finalUrl": "https://tubitv.com/movies/100029525/ca-hing-out",
    "ukSignal": "uk-check"
   },
@@ -9625,11 +9995,16 @@
      "at": "2026-11-23T21:38:10.674Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:24:01.942Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:38:10.674Z",
+   "lastCheck": "2026-11-24T20:24:01.942Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:38:10.674Z",
+   "lastOk": "2026-11-24T20:24:01.942Z",
    "finalUrl": "https://tubitv.com/movies/100026684/agabala-goddess-of-justice",
    "ukSignal": "uk-check"
   },
@@ -9699,11 +10074,16 @@
      "at": "2026-11-23T21:38:13.774Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:24:05.025Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:38:13.774Z",
+   "lastCheck": "2026-11-24T20:24:05.025Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:38:13.774Z",
+   "lastOk": "2026-11-24T20:24:05.025Z",
    "finalUrl": "https://tubitv.com/movies/100060265/fate-of-alakada",
    "ukSignal": "uk-check"
   },
@@ -9773,11 +10153,16 @@
      "at": "2026-11-23T21:38:17.058Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:24:08.157Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:38:17.058Z",
+   "lastCheck": "2026-11-24T20:24:08.157Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:38:17.058Z",
+   "lastOk": "2026-11-24T20:24:08.157Z",
    "finalUrl": "https://tubitv.com/movies/100052995/taxi-driver-oko-ashewo",
    "ukSignal": "uk-check"
   },
@@ -9847,11 +10232,16 @@
      "at": "2026-11-23T21:38:20.207Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:24:11.545Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:38:20.207Z",
+   "lastCheck": "2026-11-24T20:24:11.545Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:38:20.207Z",
+   "lastOk": "2026-11-24T20:24:11.545Z",
    "finalUrl": "https://tubitv.com/movies/100021690/desecrated",
    "ukSignal": "uk-check"
   },
@@ -9921,11 +10311,16 @@
      "at": "2026-11-23T21:38:23.346Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:24:15.194Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:38:23.346Z",
+   "lastCheck": "2026-11-24T20:24:15.194Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:38:23.346Z",
+   "lastOk": "2026-11-24T20:24:15.194Z",
    "finalUrl": "https://tubitv.com/movies/100026497/love-interest",
    "ukSignal": "uk-check"
   },
@@ -9990,11 +10385,16 @@
      "at": "2026-11-23T21:38:26.730Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:24:18.267Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:38:26.730Z",
+   "lastCheck": "2026-11-24T20:24:18.267Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:38:26.730Z",
+   "lastOk": "2026-11-24T20:24:18.267Z",
    "finalUrl": "https://tubitv.com/movies/100065869/lisabi-the-uprising",
    "ukSignal": "uk-check"
   },
@@ -10059,11 +10459,16 @@
      "at": "2026-11-23T21:38:29.919Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:24:21.818Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:38:29.919Z",
+   "lastCheck": "2026-11-24T20:24:21.818Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:38:29.919Z",
+   "lastOk": "2026-11-24T20:24:21.818Z",
    "finalUrl": "https://tubitv.com/movies/680822/the-love-between-us",
    "ukSignal": "uk-check"
   },
@@ -10128,11 +10533,16 @@
      "at": "2026-11-23T21:38:33.158Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:24:25.191Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:38:33.158Z",
+   "lastCheck": "2026-11-24T20:24:25.191Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:38:33.158Z",
+   "lastOk": "2026-11-24T20:24:25.191Z",
    "finalUrl": "https://tubitv.com/movies/100063447/day-of-destiny",
    "ukSignal": "uk-check"
   },
@@ -10197,11 +10607,16 @@
      "at": "2026-11-23T21:38:36.285Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:24:28.334Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:38:36.285Z",
+   "lastCheck": "2026-11-24T20:24:28.334Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:38:36.285Z",
+   "lastOk": "2026-11-24T20:24:28.334Z",
    "finalUrl": "https://tubitv.com/movies/100020752/otiti",
    "ukSignal": "uk-check"
   },
@@ -10266,9 +10681,14 @@
      "at": "2026-11-23T21:38:39.403Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:24:31.469Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:38:39.403Z",
+   "lastCheck": "2026-11-24T20:24:31.469Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:100006273": {
@@ -10332,11 +10752,16 @@
      "at": "2026-11-23T21:38:42.784Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:24:34.968Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:38:42.784Z",
+   "lastCheck": "2026-11-24T20:24:34.968Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:38:42.784Z",
+   "lastOk": "2026-11-24T20:24:34.968Z",
    "finalUrl": "https://tubitv.com/movies/100006273/stranded",
    "ukSignal": "uk-check"
   },
@@ -10401,11 +10826,16 @@
      "at": "2026-11-23T21:38:46.180Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:24:38.141Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:38:46.180Z",
+   "lastCheck": "2026-11-24T20:24:38.141Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:38:46.180Z",
+   "lastOk": "2026-11-24T20:24:38.141Z",
    "finalUrl": "https://tubitv.com/movies/627666/moms-at-war",
    "ukSignal": "uk-check"
   },
@@ -10470,9 +10900,14 @@
      "at": "2026-11-23T21:38:49.323Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:24:41.183Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:38:49.323Z",
+   "lastCheck": "2026-11-24T20:24:41.183Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:100048070": {
@@ -10536,11 +10971,16 @@
      "at": "2026-11-23T21:38:52.981Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:24:44.567Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:38:52.981Z",
+   "lastCheck": "2026-11-24T20:24:44.567Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:38:52.981Z",
+   "lastOk": "2026-11-24T20:24:44.567Z",
    "finalUrl": "https://tubitv.com/movies/100048070/yeni",
    "ukSignal": "uk-check"
   },
@@ -10605,11 +11045,16 @@
      "at": "2026-11-23T21:38:56.140Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:24:48.008Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:38:56.140Z",
+   "lastCheck": "2026-11-24T20:24:48.008Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:38:56.140Z",
+   "lastOk": "2026-11-24T20:24:48.008Z",
    "finalUrl": "https://tubitv.com/movies/100062963/the-man-for-the-job",
    "ukSignal": "uk-check"
   },
@@ -10674,11 +11119,16 @@
      "at": "2026-11-23T21:38:59.538Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:24:51.094Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:38:59.538Z",
+   "lastCheck": "2026-11-24T20:24:51.094Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:38:59.538Z",
+   "lastOk": "2026-11-24T20:24:51.094Z",
    "finalUrl": "https://tubitv.com/movies/100065514/love-you-me-single",
    "ukSignal": "uk-check"
   },
@@ -10743,11 +11193,16 @@
      "at": "2026-11-23T21:39:02.676Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:24:54.260Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:39:02.676Z",
+   "lastCheck": "2026-11-24T20:24:54.260Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:39:02.676Z",
+   "lastOk": "2026-11-24T20:24:54.260Z",
    "finalUrl": "https://tubitv.com/movies/100051712/a-country-called-ghana",
    "ukSignal": "uk-check"
   },
@@ -10812,11 +11267,16 @@
      "at": "2026-11-23T21:39:05.819Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:24:57.652Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:39:05.819Z",
+   "lastCheck": "2026-11-24T20:24:57.652Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:39:05.819Z",
+   "lastOk": "2026-11-24T20:24:57.652Z",
    "finalUrl": "https://tubitv.com/movies/100052032/curse-of-the-river",
    "ukSignal": "uk-check"
   },
@@ -10881,11 +11341,16 @@
      "at": "2026-11-23T21:39:09.166Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:25:00.832Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:39:09.166Z",
+   "lastCheck": "2026-11-24T20:25:00.832Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:39:09.166Z",
+   "lastOk": "2026-11-24T20:25:00.832Z",
    "finalUrl": "https://tubitv.com/movies/100066811/out-of-luck",
    "ukSignal": "uk-check"
   },
@@ -10950,11 +11415,16 @@
      "at": "2026-11-23T21:39:12.584Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:25:04.249Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:39:12.584Z",
+   "lastCheck": "2026-11-24T20:25:04.249Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:39:12.584Z",
+   "lastOk": "2026-11-24T20:25:04.249Z",
    "finalUrl": "https://tubitv.com/movies/100022211/the-visit",
    "ukSignal": "uk-check"
   },
@@ -11019,11 +11489,16 @@
      "at": "2026-11-23T21:39:15.697Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:25:07.434Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:39:15.697Z",
+   "lastCheck": "2026-11-24T20:25:07.434Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:39:15.697Z",
+   "lastOk": "2026-11-24T20:25:07.434Z",
    "finalUrl": "https://tubitv.com/movies/627965/three-thieves",
    "ukSignal": "uk-check"
   },
@@ -11088,11 +11563,16 @@
      "at": "2026-11-23T21:39:19.085Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:25:10.811Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:39:19.085Z",
+   "lastCheck": "2026-11-24T20:25:10.811Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:39:19.085Z",
+   "lastOk": "2026-11-24T20:25:10.811Z",
    "finalUrl": "https://tubitv.com/movies/100048281/munachi",
    "ukSignal": "uk-check"
   },
@@ -11157,11 +11637,16 @@
      "at": "2026-11-23T21:39:22.468Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:25:13.993Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:39:22.468Z",
+   "lastCheck": "2026-11-24T20:25:13.993Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:39:22.468Z",
+   "lastOk": "2026-11-24T20:25:13.993Z",
    "finalUrl": "https://tubitv.com/movies/100021910/light-in-the-dark",
    "ukSignal": "uk-check"
   },
@@ -11221,9 +11706,14 @@
      "at": "2026-11-23T21:39:25.663Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:25:17.073Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:39:25.663Z",
+   "lastCheck": "2026-11-24T20:25:17.073Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:495757": {
@@ -11277,11 +11767,16 @@
      "at": "2026-11-23T21:39:28.807Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:25:20.214Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:39:28.807Z",
+   "lastCheck": "2026-11-24T20:25:20.214Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:39:28.807Z",
+   "lastOk": "2026-11-24T20:25:20.214Z",
    "finalUrl": "https://tubitv.com/movies/495757/she-said-no",
    "ukSignal": "uk-check"
   },
@@ -11336,9 +11831,14 @@
      "at": "2026-11-23T21:39:32.321Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:25:23.378Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:39:32.321Z",
+   "lastCheck": "2026-11-24T20:25:23.378Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:100044662": {
@@ -11392,9 +11892,14 @@
      "at": "2026-11-23T21:39:35.542Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:25:26.491Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:39:35.542Z",
+   "lastCheck": "2026-11-24T20:25:26.491Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:665817": {
@@ -11448,9 +11953,14 @@
      "at": "2026-11-23T21:39:38.995Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:25:29.894Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:39:38.995Z",
+   "lastCheck": "2026-11-24T20:25:29.894Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:466652": {
@@ -11504,9 +12014,14 @@
      "at": "2026-11-23T21:39:42.220Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:25:33.315Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:39:42.220Z",
+   "lastCheck": "2026-11-24T20:25:33.315Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:342037": {
@@ -11560,9 +12075,14 @@
      "at": "2026-11-23T21:39:45.368Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:25:36.707Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:39:45.368Z",
+   "lastCheck": "2026-11-24T20:25:36.707Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:100013725": {
@@ -11616,9 +12136,14 @@
      "at": "2026-11-23T21:39:48.588Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:25:40.088Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:39:48.588Z",
+   "lastCheck": "2026-11-24T20:25:40.088Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:100049690": {
@@ -11672,9 +12197,14 @@
      "at": "2026-11-23T21:39:51.982Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:25:43.822Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:39:51.982Z",
+   "lastCheck": "2026-11-24T20:25:43.822Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:100049022": {
@@ -11728,9 +12258,14 @@
      "at": "2026-11-23T21:39:55.350Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:25:46.969Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:39:55.350Z",
+   "lastCheck": "2026-11-24T20:25:46.969Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:100053049": {
@@ -11784,9 +12319,14 @@
      "at": "2026-11-23T21:39:58.710Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:25:50.096Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:39:58.710Z",
+   "lastCheck": "2026-11-24T20:25:50.096Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:100049698": {
@@ -11840,9 +12380,14 @@
      "at": "2026-11-23T21:40:01.965Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:25:53.262Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:40:01.965Z",
+   "lastCheck": "2026-11-24T20:25:53.262Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:100027004": {
@@ -11896,11 +12441,16 @@
      "at": "2026-11-23T21:40:05.586Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:25:56.670Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:40:05.586Z",
+   "lastCheck": "2026-11-24T20:25:56.670Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:40:05.586Z",
+   "lastOk": "2026-11-24T20:25:56.670Z",
    "finalUrl": "https://tubitv.com/movies/100027004/playing-with-fire",
    "ukSignal": "uk-check"
   },
@@ -11955,9 +12505,14 @@
      "at": "2026-11-23T21:40:09.009Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:25:59.831Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:40:09.009Z",
+   "lastCheck": "2026-11-24T20:25:59.831Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:468612": {
@@ -12011,9 +12566,14 @@
      "at": "2026-11-23T21:40:12.219Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:26:03.005Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:40:12.219Z",
+   "lastCheck": "2026-11-24T20:26:03.005Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:100033566": {
@@ -12067,11 +12627,16 @@
      "at": "2026-11-23T21:40:15.583Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:26:06.418Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:40:15.583Z",
+   "lastCheck": "2026-11-24T20:26:06.418Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:40:15.583Z",
+   "lastOk": "2026-11-24T20:26:06.418Z",
    "finalUrl": "https://tubitv.com/movies/100033566/my-kingdom",
    "ukSignal": "uk-check"
   },
@@ -12126,9 +12691,14 @@
      "at": "2026-11-23T21:40:19.021Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:26:09.902Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:40:19.021Z",
+   "lastCheck": "2026-11-24T20:26:09.902Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:371079": {
@@ -12182,9 +12752,14 @@
      "at": "2026-11-23T21:40:22.391Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:26:13.054Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:40:22.391Z",
+   "lastCheck": "2026-11-24T20:26:13.054Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:100049747": {
@@ -12238,11 +12813,16 @@
      "at": "2026-11-23T21:40:25.544Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:26:16.536Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:40:25.544Z",
+   "lastCheck": "2026-11-24T20:26:16.536Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:40:25.544Z",
+   "lastOk": "2026-11-24T20:26:16.536Z",
    "finalUrl": "https://tubitv.com/movies/100049747/obsession",
    "ukSignal": "uk-check"
   },
@@ -12297,11 +12877,16 @@
      "at": "2026-11-23T21:40:28.641Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:26:19.991Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:40:28.641Z",
+   "lastCheck": "2026-11-24T20:26:19.991Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:40:28.641Z",
+   "lastOk": "2026-11-24T20:26:19.991Z",
    "finalUrl": "https://tubitv.com/movies/100027987/heartless",
    "ukSignal": "uk-check"
   },
@@ -12356,11 +12941,16 @@
      "at": "2026-11-23T21:40:32.098Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:26:23.415Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:40:32.098Z",
+   "lastCheck": "2026-11-24T20:26:23.415Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:40:32.098Z",
+   "lastOk": "2026-11-24T20:26:23.415Z",
    "finalUrl": "https://tubitv.com/movies/100053211/wrong-number",
    "ukSignal": "uk-check"
   },
@@ -12415,11 +13005,16 @@
      "at": "2026-11-23T21:40:36.243Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:26:26.533Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:40:36.243Z",
+   "lastCheck": "2026-11-24T20:26:26.533Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:40:36.243Z",
+   "lastOk": "2026-11-24T20:26:26.533Z",
    "finalUrl": "https://tubitv.com/movies/100056339/broken",
    "ukSignal": "uk-check"
   },
@@ -12474,9 +13069,14 @@
      "at": "2026-11-23T21:40:39.666Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:26:29.650Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:40:39.666Z",
+   "lastCheck": "2026-11-24T20:26:29.650Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:100060802": {
@@ -12530,9 +13130,14 @@
      "at": "2026-11-23T21:40:42.810Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:26:33.011Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:40:42.810Z",
+   "lastCheck": "2026-11-24T20:26:33.011Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:514306": {
@@ -12586,9 +13191,14 @@
      "at": "2026-11-23T21:40:45.947Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:26:36.192Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:40:45.947Z",
+   "lastCheck": "2026-11-24T20:26:36.192Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:100007661": {
@@ -12642,9 +13252,14 @@
      "at": "2026-11-23T21:40:49.335Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:26:39.584Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:40:49.335Z",
+   "lastCheck": "2026-11-24T20:26:39.584Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:100057241": {
@@ -12693,11 +13308,16 @@
      "at": "2026-11-23T21:40:52.479Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:26:43.193Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:40:52.479Z",
+   "lastCheck": "2026-11-24T20:26:43.193Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:40:52.479Z",
+   "lastOk": "2026-11-24T20:26:43.193Z",
    "finalUrl": "https://tubitv.com/movies/100057241/forever-is-not-long-enough",
    "ukSignal": "uk-check"
   },
@@ -12742,11 +13362,16 @@
      "at": "2026-11-23T21:40:56.211Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:26:46.291Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:40:56.211Z",
+   "lastCheck": "2026-11-24T20:26:46.291Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:40:56.211Z",
+   "lastOk": "2026-11-24T20:26:46.291Z",
    "finalUrl": "https://tubitv.com/movies/100053306/the-arbitration",
    "ukSignal": "uk-check"
   },
@@ -12791,11 +13416,16 @@
      "at": "2026-11-23T21:40:59.374Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:26:49.523Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:40:59.374Z",
+   "lastCheck": "2026-11-24T20:26:49.523Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:40:59.374Z",
+   "lastOk": "2026-11-24T20:26:49.523Z",
    "finalUrl": "https://tubitv.com/movies/100048285/real-man",
    "ukSignal": "uk-check"
   },
@@ -12840,11 +13470,16 @@
      "at": "2026-11-23T21:41:02.581Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:26:52.599Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:41:02.581Z",
+   "lastCheck": "2026-11-24T20:26:52.599Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:41:02.581Z",
+   "lastOk": "2026-11-24T20:26:52.599Z",
    "finalUrl": "https://tubitv.com/movies/100057507/a-ride-to-love",
    "ukSignal": "uk-check"
   },
@@ -12889,11 +13524,16 @@
      "at": "2026-11-23T21:41:05.856Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:26:55.931Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:41:05.856Z",
+   "lastCheck": "2026-11-24T20:26:55.931Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:41:05.856Z",
+   "lastOk": "2026-11-24T20:26:55.931Z",
    "finalUrl": "https://tubitv.com/movies/100021698/split",
    "ukSignal": "uk-check"
   },
@@ -12933,11 +13573,16 @@
      "at": "2026-11-23T21:41:09.009Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:26:59.055Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:41:09.009Z",
+   "lastCheck": "2026-11-24T20:26:59.055Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:41:09.009Z",
+   "lastOk": "2026-11-24T20:26:59.055Z",
    "finalUrl": "https://tubitv.com/movies/100056711/the-accidental-spy",
    "ukSignal": "uk-check"
   },
@@ -12977,11 +13622,16 @@
      "at": "2026-11-23T21:41:12.430Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:27:02.768Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:41:12.430Z",
+   "lastCheck": "2026-11-24T20:27:02.768Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:41:12.430Z",
+   "lastOk": "2026-11-24T20:27:02.768Z",
    "finalUrl": "https://tubitv.com/movies/100061368/friends-only",
    "ukSignal": "uk-check"
   },
@@ -13021,9 +13671,14 @@
      "at": "2026-11-23T21:41:15.608Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:27:06.243Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:41:15.608Z",
+   "lastCheck": "2026-11-24T20:27:06.243Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:100021701": {
@@ -13057,11 +13712,16 @@
      "at": "2026-11-23T21:41:19.020Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:27:09.481Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:41:19.020Z",
+   "lastCheck": "2026-11-24T20:27:09.481Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:41:19.020Z",
+   "lastOk": "2026-11-24T20:27:09.481Z",
    "finalUrl": "https://tubitv.com/movies/100021701/stay-at-home-dad",
    "ukSignal": "uk-check"
   },
@@ -13096,11 +13756,16 @@
      "at": "2026-11-23T21:41:22.184Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:27:12.659Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:41:22.184Z",
+   "lastCheck": "2026-11-24T20:27:12.659Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:41:22.184Z",
+   "lastOk": "2026-11-24T20:27:12.659Z",
    "finalUrl": "https://tubitv.com/movies/100022906/grim",
    "ukSignal": "uk-check"
   },
@@ -13135,11 +13800,16 @@
      "at": "2026-11-23T21:41:25.637Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:27:15.771Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:41:25.637Z",
+   "lastCheck": "2026-11-24T20:27:15.771Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:41:25.637Z",
+   "lastOk": "2026-11-24T20:27:15.771Z",
    "finalUrl": "https://tubitv.com/movies/100051695/ajitu-the-hidden-peril",
    "ukSignal": "uk-check"
   },
@@ -13169,11 +13839,16 @@
      "at": "2026-11-23T21:41:29.074Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:27:19.150Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:41:29.074Z",
+   "lastCheck": "2026-11-24T20:27:19.150Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:41:29.074Z",
+   "lastOk": "2026-11-24T20:27:19.150Z",
    "finalUrl": "https://tubitv.com/movies/100055487/a-ride-with-forever",
    "ukSignal": "uk-check"
   },
@@ -13203,11 +13878,16 @@
      "at": "2026-11-23T21:41:32.286Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:27:22.603Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:41:32.286Z",
+   "lastCheck": "2026-11-24T20:27:22.603Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:41:32.286Z",
+   "lastOk": "2026-11-24T20:27:22.603Z",
    "finalUrl": "https://tubitv.com/movies/100055486/the-department",
    "ukSignal": "uk-check"
   },
@@ -13237,11 +13917,16 @@
      "at": "2026-11-23T21:41:35.735Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:27:25.978Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:41:35.735Z",
+   "lastCheck": "2026-11-24T20:27:25.978Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:41:35.735Z",
+   "lastOk": "2026-11-24T20:27:25.978Z",
    "finalUrl": "https://tubitv.com/movies/100048276/just-the-two-of-us",
    "ukSignal": "uk-check"
   },
@@ -13271,11 +13956,16 @@
      "at": "2026-11-23T21:41:38.859Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:27:29.058Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:41:38.859Z",
+   "lastCheck": "2026-11-24T20:27:29.058Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:41:38.859Z",
+   "lastOk": "2026-11-24T20:27:29.058Z",
    "finalUrl": "https://tubitv.com/movies/100048320/oosa-aafin-palace-deity",
    "ukSignal": "uk-check"
   },
@@ -13305,11 +13995,16 @@
      "at": "2026-11-23T21:41:42.336Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:27:32.188Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:41:42.336Z",
+   "lastCheck": "2026-11-24T20:27:32.188Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:41:42.336Z",
+   "lastOk": "2026-11-24T20:27:32.188Z",
    "finalUrl": "https://tubitv.com/movies/100048263/arun",
    "ukSignal": "uk-check"
   },
@@ -13339,11 +14034,16 @@
      "at": "2026-11-23T21:41:45.846Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:27:35.322Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:41:45.846Z",
+   "lastCheck": "2026-11-24T20:27:35.322Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:41:45.846Z",
+   "lastOk": "2026-11-24T20:27:35.322Z",
    "finalUrl": "https://tubitv.com/movies/100021691/entangled",
    "ukSignal": "uk-check"
   },
@@ -13373,11 +14073,16 @@
      "at": "2026-11-23T21:41:49.040Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:27:38.745Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:41:49.040Z",
+   "lastCheck": "2026-11-24T20:27:38.745Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:41:49.040Z",
+   "lastOk": "2026-11-24T20:27:38.745Z",
    "finalUrl": "https://tubitv.com/movies/100021478/different-worlds",
    "ukSignal": "uk-check"
   },
@@ -13407,11 +14112,16 @@
      "at": "2026-11-23T21:41:52.762Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:27:42.133Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:41:52.762Z",
+   "lastCheck": "2026-11-24T20:27:42.133Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:41:52.762Z",
+   "lastOk": "2026-11-24T20:27:42.133Z",
    "finalUrl": "https://tubitv.com/movies/100022915/soft-work",
    "ukSignal": "uk-check"
   },
@@ -13441,11 +14151,16 @@
      "at": "2026-11-23T21:41:55.953Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:27:45.319Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:41:55.953Z",
+   "lastCheck": "2026-11-24T20:27:45.319Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:41:55.953Z",
+   "lastOk": "2026-11-24T20:27:45.319Z",
    "finalUrl": "https://tubitv.com/movies/632808/couple-of-days",
    "ukSignal": "uk-check"
   },
@@ -13475,11 +14190,16 @@
      "at": "2026-11-23T21:41:59.401Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:27:48.946Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:41:59.401Z",
+   "lastCheck": "2026-11-24T20:27:48.946Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:41:59.401Z",
+   "lastOk": "2026-11-24T20:27:48.946Z",
    "finalUrl": "https://tubitv.com/movies/100024025/never-saw-it-coming",
    "ukSignal": "uk-check"
   },
@@ -13509,11 +14229,16 @@
      "at": "2026-11-23T21:42:02.576Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:27:51.962Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:42:02.576Z",
+   "lastCheck": "2026-11-24T20:27:51.962Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:42:02.576Z",
+   "lastOk": "2026-11-24T20:27:51.962Z",
    "finalUrl": "https://tubitv.com/movies/704115/in-my-head",
    "ukSignal": "uk-check"
   },
@@ -13543,11 +14268,16 @@
      "at": "2026-11-23T21:42:05.734Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:27:55.039Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:42:05.734Z",
+   "lastCheck": "2026-11-24T20:27:55.039Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:42:05.734Z",
+   "lastOk": "2026-11-24T20:27:55.039Z",
    "finalUrl": "https://tubitv.com/movies/627971/power-of-1",
    "ukSignal": "uk-check"
   },
@@ -13577,11 +14307,16 @@
      "at": "2026-11-23T21:42:09.171Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:27:58.398Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:42:09.171Z",
+   "lastCheck": "2026-11-24T20:27:58.398Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:42:09.171Z",
+   "lastOk": "2026-11-24T20:27:58.398Z",
    "finalUrl": "https://tubitv.com/movies/100063573/the-sisters",
    "ukSignal": "uk-check"
   },
@@ -13611,9 +14346,14 @@
      "at": "2026-11-23T21:42:12.983Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:28:01.664Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:42:12.983Z",
+   "lastCheck": "2026-11-24T20:28:01.664Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:100038718": {
@@ -13642,9 +14382,14 @@
      "at": "2026-11-23T21:42:16.215Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:28:04.794Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:42:16.215Z",
+   "lastCheck": "2026-11-24T20:28:04.794Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:100025072": {
@@ -13673,11 +14418,16 @@
      "at": "2026-11-23T21:42:19.348Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:28:07.969Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:42:19.348Z",
+   "lastCheck": "2026-11-24T20:28:07.969Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:42:19.348Z",
+   "lastOk": "2026-11-24T20:28:07.969Z",
    "finalUrl": "https://tubitv.com/movies/100025072/two-sisters",
    "ukSignal": "uk-check"
   },
@@ -13707,11 +14457,16 @@
      "at": "2026-11-23T21:42:22.688Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:28:11.182Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:42:22.688Z",
+   "lastCheck": "2026-11-24T20:28:11.182Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:42:22.688Z",
+   "lastOk": "2026-11-24T20:28:11.182Z",
    "finalUrl": "https://tubitv.com/movies/100030683/boundaries",
    "ukSignal": "uk-check"
   },
@@ -13741,9 +14496,14 @@
      "at": "2026-11-23T21:42:25.812Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:28:14.320Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:42:25.812Z",
+   "lastCheck": "2026-11-24T20:28:14.320Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:521979": {
@@ -13772,9 +14532,14 @@
      "at": "2026-11-23T21:42:29.356Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:28:17.518Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:42:29.356Z",
+   "lastCheck": "2026-11-24T20:28:17.518Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:724501": {
@@ -13803,9 +14568,14 @@
      "at": "2026-11-23T21:42:32.521Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:28:20.726Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:42:32.521Z",
+   "lastCheck": "2026-11-24T20:28:20.726Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:712845": {
@@ -13834,11 +14604,16 @@
      "at": "2026-11-23T21:42:35.959Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:28:24.182Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:42:35.959Z",
+   "lastCheck": "2026-11-24T20:28:24.182Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:42:35.959Z",
+   "lastOk": "2026-11-24T20:28:24.182Z",
    "finalUrl": "https://tubitv.com/movies/712845/meant-to-be",
    "ukSignal": "uk-check"
   },
@@ -13863,11 +14638,16 @@
      "at": "2026-11-23T21:42:39.201Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:28:27.422Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:42:39.201Z",
+   "lastCheck": "2026-11-24T20:28:27.422Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:42:39.201Z",
+   "lastOk": "2026-11-24T20:28:27.422Z",
    "finalUrl": "https://tubitv.com/movies/100062083/the-good-wife",
    "ukSignal": "uk-check"
   },
@@ -13892,11 +14672,16 @@
      "at": "2026-11-23T21:42:42.667Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:28:30.561Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:42:42.667Z",
+   "lastCheck": "2026-11-24T20:28:30.561Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:42:42.667Z",
+   "lastOk": "2026-11-24T20:28:30.561Z",
    "finalUrl": "https://tubitv.com/movies/100061374/friendly-enemies",
    "ukSignal": "uk-check"
   },
@@ -13921,11 +14706,16 @@
      "at": "2026-11-23T21:42:46.085Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:28:34.071Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:42:46.085Z",
+   "lastCheck": "2026-11-24T20:28:34.071Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:42:46.085Z",
+   "lastOk": "2026-11-24T20:28:34.071Z",
    "finalUrl": "https://tubitv.com/movies/100061683/a-happy-ending",
    "ukSignal": "uk-check"
   },
@@ -13950,11 +14740,16 @@
      "at": "2026-11-23T21:42:49.721Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:28:37.231Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:42:49.721Z",
+   "lastCheck": "2026-11-24T20:28:37.231Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:42:49.721Z",
+   "lastOk": "2026-11-24T20:28:37.231Z",
    "finalUrl": "https://tubitv.com/movies/574320/blood-oil",
    "ukSignal": "uk-check"
   },
@@ -13979,9 +14774,14 @@
      "at": "2026-11-23T21:42:52.831Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:28:40.638Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:42:52.831Z",
+   "lastCheck": "2026-11-24T20:28:40.638Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:100003102": {
@@ -14005,9 +14805,14 @@
      "at": "2026-11-23T21:42:56.468Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:28:43.701Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:42:56.468Z",
+   "lastCheck": "2026-11-24T20:28:43.701Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:579088": {
@@ -14031,9 +14836,14 @@
      "at": "2026-11-23T21:42:59.652Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:28:47.104Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:42:59.652Z",
+   "lastCheck": "2026-11-24T20:28:47.104Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:574318": {
@@ -14057,11 +14867,16 @@
      "at": "2026-11-23T21:43:03.073Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:28:50.508Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:43:03.073Z",
+   "lastCheck": "2026-11-24T20:28:50.508Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:43:03.073Z",
+   "lastOk": "2026-11-24T20:28:50.508Z",
    "finalUrl": "https://tubitv.com/movies/574318/betrayed",
    "ukSignal": "uk-check"
   },
@@ -14086,9 +14901,14 @@
      "at": "2026-11-23T21:43:06.236Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:28:53.667Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:43:06.236Z",
+   "lastCheck": "2026-11-24T20:28:53.667Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:100061687": {
@@ -14112,9 +14932,14 @@
      "at": "2026-11-23T21:43:09.331Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:28:56.759Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:43:09.331Z",
+   "lastCheck": "2026-11-24T20:28:56.759Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:671673": {
@@ -14138,9 +14963,14 @@
      "at": "2026-11-23T21:43:12.476Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:29:00.154Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:43:12.476Z",
+   "lastCheck": "2026-11-24T20:29:00.154Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:100053521": {
@@ -14164,9 +14994,14 @@
      "at": "2026-11-23T21:43:15.855Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:29:03.567Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:43:15.855Z",
+   "lastCheck": "2026-11-24T20:29:03.567Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:100006955": {
@@ -14190,9 +15025,14 @@
      "at": "2026-11-23T21:43:19.460Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:29:06.720Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:43:19.460Z",
+   "lastCheck": "2026-11-24T20:29:06.720Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:100053958": {
@@ -14216,11 +15056,16 @@
      "at": "2026-11-23T21:43:22.687Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:29:10.137Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:43:22.687Z",
+   "lastCheck": "2026-11-24T20:29:10.137Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:43:22.687Z",
+   "lastOk": "2026-11-24T20:29:10.137Z",
    "finalUrl": "https://tubitv.com/movies/100053958/love-in-strange-places",
    "ukSignal": "uk-check"
   },
@@ -14245,11 +15090,16 @@
      "at": "2026-11-23T21:43:25.847Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:29:13.535Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:43:25.847Z",
+   "lastCheck": "2026-11-24T20:29:13.535Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:43:25.847Z",
+   "lastOk": "2026-11-24T20:29:13.535Z",
    "finalUrl": "https://tubitv.com/movies/100002033/you-never-know",
    "ukSignal": "uk-check"
   },
@@ -14274,9 +15124,14 @@
      "at": "2026-11-23T21:43:29.369Z",
      "ok": false,
      "reason": "unavailable:content unavailable"
+    },
+    {
+     "at": "2026-11-24T20:29:16.672Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
     }
    ],
-   "lastCheck": "2026-11-23T21:43:29.369Z",
+   "lastCheck": "2026-11-24T20:29:16.672Z",
    "lastReason": "unavailable:content unavailable"
   },
   "tubi:100055012": {
@@ -14300,11 +15155,16 @@
      "at": "2026-11-23T21:43:32.523Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:29:19.780Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:43:32.523Z",
+   "lastCheck": "2026-11-24T20:29:19.780Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:43:32.523Z",
+   "lastOk": "2026-11-24T20:29:19.780Z",
    "finalUrl": "https://tubitv.com/movies/100055012/love-trap",
    "ukSignal": "uk-check"
   },
@@ -14324,11 +15184,16 @@
      "at": "2026-11-23T21:43:35.667Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:29:23.441Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:43:35.667Z",
+   "lastCheck": "2026-11-24T20:29:23.441Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:43:35.667Z",
+   "lastOk": "2026-11-24T20:29:23.441Z",
    "finalUrl": "https://tubitv.com/movies/100022911/tide",
    "ukSignal": "uk-check"
   },
@@ -14348,11 +15213,16 @@
      "at": "2026-11-23T21:43:38.877Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:29:26.580Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:43:38.877Z",
+   "lastCheck": "2026-11-24T20:29:26.580Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:43:38.877Z",
+   "lastOk": "2026-11-24T20:29:26.580Z",
    "finalUrl": "https://tubitv.com/movies/100064940/ghost-story",
    "ukSignal": "uk-check"
   },
@@ -14372,11 +15242,16 @@
      "at": "2026-11-23T21:43:42.545Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:29:29.865Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:43:42.545Z",
+   "lastCheck": "2026-11-24T20:29:29.865Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:43:42.545Z",
+   "lastOk": "2026-11-24T20:29:29.865Z",
    "finalUrl": "https://tubitv.com/movies/100027179/surviving-you",
    "ukSignal": "uk-check"
   },
@@ -14391,11 +15266,16 @@
      "at": "2026-11-23T21:43:45.757Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:29:32.985Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:43:45.757Z",
+   "lastCheck": "2026-11-24T20:29:32.985Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:43:45.757Z",
+   "lastOk": "2026-11-24T20:29:32.985Z",
    "finalUrl": "https://tubitv.com/series/300023034/apartment-13",
    "ukSignal": "uk-check"
   },
@@ -14410,11 +15290,16 @@
      "at": "2026-11-23T21:43:48.951Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:29:36.149Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:43:48.951Z",
+   "lastCheck": "2026-11-24T20:29:36.149Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:43:48.951Z",
+   "lastOk": "2026-11-24T20:29:36.149Z",
    "finalUrl": "https://tubitv.com/movies/100061372/all-it-s-takes",
    "ukSignal": "uk-check"
   },
@@ -14424,11 +15309,16 @@
      "at": "2026-11-23T21:43:52.269Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:29:39.510Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:43:52.269Z",
+   "lastCheck": "2026-11-24T20:29:39.510Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:43:52.269Z",
+   "lastOk": "2026-11-24T20:29:39.510Z",
    "finalUrl": "https://tubitv.com/movies/100029563/lost",
    "ukSignal": "uk-check"
   },
@@ -14438,43 +15328,223 @@
      "at": "2026-11-23T21:43:55.698Z",
      "ok": true,
      "reason": null
+    },
+    {
+     "at": "2026-11-24T20:29:43.177Z",
+     "ok": true,
+     "reason": null
     }
    ],
-   "lastCheck": "2026-11-23T21:43:55.698Z",
+   "lastCheck": "2026-11-24T20:29:43.177Z",
    "lastReason": null,
-   "lastOk": "2026-11-23T21:43:55.698Z",
+   "lastOk": "2026-11-24T20:29:43.177Z",
    "finalUrl": "https://tubitv.com/movies/100027184/love-official",
+   "ukSignal": "uk-check"
+  },
+  "tubi:100026466": {
+   "checks": [
+    {
+     "at": "2026-11-24T20:29:46.301Z",
+     "ok": true,
+     "reason": null
+    }
+   ],
+   "lastCheck": "2026-11-24T20:29:46.301Z",
+   "lastReason": null,
+   "lastOk": "2026-11-24T20:29:46.301Z",
+   "finalUrl": "https://tubitv.com/movies/100026466/benignity",
+   "ukSignal": "uk-check"
+  },
+  "tubi:100041666": {
+   "checks": [
+    {
+     "at": "2026-11-24T20:29:49.684Z",
+     "ok": true,
+     "reason": null
+    }
+   ],
+   "lastCheck": "2026-11-24T20:29:49.684Z",
+   "lastReason": null,
+   "lastOk": "2026-11-24T20:29:49.684Z",
+   "finalUrl": "https://tubitv.com/movies/100041666/loving-belinda",
+   "ukSignal": "uk-check"
+  },
+  "tubi:100037889": {
+   "checks": [
+    {
+     "at": "2026-11-24T20:29:53.389Z",
+     "ok": true,
+     "reason": null
+    }
+   ],
+   "lastCheck": "2026-11-24T20:29:53.389Z",
+   "lastReason": null,
+   "lastOk": "2026-11-24T20:29:53.389Z",
+   "finalUrl": "https://tubitv.com/movies/100037889/what-no-one-knows",
+   "ukSignal": "uk-check"
+  },
+  "tubi:576694": {
+   "checks": [
+    {
+     "at": "2026-11-24T20:29:56.487Z",
+     "ok": true,
+     "reason": null
+    }
+   ],
+   "lastCheck": "2026-11-24T20:29:56.487Z",
+   "lastReason": null,
+   "lastOk": "2026-11-24T20:29:56.487Z",
+   "finalUrl": "https://tubitv.com/movies/576694/knockout-blessing",
+   "ukSignal": "uk-check"
+  },
+  "tubi:600991": {
+   "checks": [
+    {
+     "at": "2026-11-24T20:29:59.690Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
+    }
+   ],
+   "lastCheck": "2026-11-24T20:29:59.690Z",
+   "lastReason": "unavailable:content unavailable"
+  },
+  "tubi:488347": {
+   "checks": [
+    {
+     "at": "2026-11-24T20:30:02.957Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
+    }
+   ],
+   "lastCheck": "2026-11-24T20:30:02.957Z",
+   "lastReason": "unavailable:content unavailable"
+  },
+  "tubi:100007983": {
+   "checks": [
+    {
+     "at": "2026-11-24T20:30:06.635Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
+    }
+   ],
+   "lastCheck": "2026-11-24T20:30:06.635Z",
+   "lastReason": "unavailable:content unavailable"
+  },
+  "tubi:100008913": {
+   "checks": [
+    {
+     "at": "2026-11-24T20:30:09.814Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
+    }
+   ],
+   "lastCheck": "2026-11-24T20:30:09.814Z",
+   "lastReason": "unavailable:content unavailable"
+  },
+  "tubi:587248": {
+   "checks": [
+    {
+     "at": "2026-11-24T20:30:12.879Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
+    }
+   ],
+   "lastCheck": "2026-11-24T20:30:12.879Z",
+   "lastReason": "unavailable:content unavailable"
+  },
+  "tubi:570250": {
+   "checks": [
+    {
+     "at": "2026-11-24T20:30:15.998Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
+    }
+   ],
+   "lastCheck": "2026-11-24T20:30:15.998Z",
+   "lastReason": "unavailable:content unavailable"
+  },
+  "tubi:100008499": {
+   "checks": [
+    {
+     "at": "2026-11-24T20:30:19.377Z",
+     "ok": true,
+     "reason": null
+    }
+   ],
+   "lastCheck": "2026-11-24T20:30:19.377Z",
+   "lastReason": null,
+   "lastOk": "2026-11-24T20:30:19.377Z",
+   "finalUrl": "https://tubitv.com/movies/100008499/flesh-and-blood",
+   "ukSignal": "uk-check"
+  },
+  "tubi:100009054": {
+   "checks": [
+    {
+     "at": "2026-11-24T20:30:22.518Z",
+     "ok": true,
+     "reason": null
+    }
+   ],
+   "lastCheck": "2026-11-24T20:30:22.518Z",
+   "lastReason": null,
+   "lastOk": "2026-11-24T20:30:22.518Z",
+   "finalUrl": "https://tubitv.com/movies/100009054/mary-mary",
+   "ukSignal": "uk-check"
+  },
+  "tubi:311756": {
+   "checks": [
+    {
+     "at": "2026-11-24T20:30:25.914Z",
+     "ok": false,
+     "reason": "unavailable:content unavailable"
+    }
+   ],
+   "lastCheck": "2026-11-24T20:30:25.914Z",
+   "lastReason": "unavailable:content unavailable"
+  },
+  "tubi:499603": {
+   "checks": [
+    {
+     "at": "2026-11-24T20:30:29.314Z",
+     "ok": true,
+     "reason": null
+    }
+   ],
+   "lastCheck": "2026-11-24T20:30:29.314Z",
+   "lastReason": null,
+   "lastOk": "2026-11-24T20:30:29.314Z",
+   "finalUrl": "https://tubitv.com/movies/499603/till-we-meet-again",
    "ukSignal": "uk-check"
   }
  },
  "providers": {
   "tubi": {
    "score": 92,
-   "reliability30d": 87,
+   "reliability30d": 86,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 2492
+   "checks30d": 2682
   },
   "plex": {
    "score": 95,
    "reliability30d": 92,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 36
+   "checks30d": 37
   },
   "selftest": {
    "score": 100,
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 38
+   "checks30d": 39
   },
   "youtube": {
    "score": 100,
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 23
+   "checks30d": 24
   }
  },
  "checkedFrom": "github-actions; provider pages through the London check point (UK)"

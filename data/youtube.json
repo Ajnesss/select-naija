@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-24T16:01:56.589Z",
+ "generatedAt": "2026-11-24T20:17:56.755Z",
  "channels": {
   "UCbvdwZvZgdl-pPyomEmaEfg": {
    "name": "Omoni Oboli TV",
    "subscribers": 2120000,
-   "videos": 1363,
+   "videos": 1364,
    "films": 105
   },
   "UC83tx3zGcvQ_rXzsZigTnEA": {
@@ -28,8 +28,8 @@
   "UCThviXLHvH8VwqxQEa4vZaw": {
    "name": "Maurice Sam TV",
    "subscribers": 2910000,
-   "videos": 272,
-   "films": 100
+   "videos": 274,
+   "films": 101
   },
   "UCLLA3OKhzK-tzXFvXhnGKZQ": {
    "name": "FAAN TV",
@@ -46,7 +46,7 @@
   "UCf6hnTFeMiX6FCwLEGDIjOw": {
    "name": "SANDRA OKUNZUWA TV",
    "subscribers": 1170000,
-   "videos": 941,
+   "videos": 942,
    "films": 43
   },
   "UCHY9J0IWIWht6GqIBiLidBA": {
@@ -124,7 +124,7 @@
   "UC1By7koB6TJqjrfCvmYUIxQ": {
    "name": "AFOREVO STAGE",
    "subscribers": 2630000,
-   "videos": 3509,
+   "videos": 3510,
    "films": 2165
   },
   "UCi8vPG6uMxIjoZMhLLX2BkQ": {
@@ -148,8 +148,8 @@
   "UCVsqair_RFTI1K5cuaLaNtg": {
    "name": "Nigerian Movies Plus",
    "subscribers": 1860000,
-   "videos": 3065,
-   "films": 1997
+   "videos": 3067,
+   "films": 1999
   },
   "UCJ1I13e9PN7u4iszJ6M0AXQ": {
    "name": "ROCKCELLY NOLLYWOOD FILMS TV",
@@ -255,7 +255,7 @@
   "UCJyFkDxxIgPVz-x_0UZPqfg": {
    "name": "AREWA24",
    "subscribers": 921000,
-   "videos": 5905,
+   "videos": 5906,
    "films": 390
   },
   "UClU5QkUqFL4a7AdxScHa2Vg": {
@@ -302,7 +302,7 @@
   "UC9HDrOalDVN0Wv-Q7zTkQCg": {
    "name": "Okiki Premium TV",
    "subscribers": 355000,
-   "videos": 429,
+   "videos": 431,
    "films": 46
   },
   "UCdYgV-WJEog1H_PxN45cNWg": {
@@ -28518,6 +28518,40 @@
     }
    ],
    "channelName": "Uchenna Mbunabo Tv"
+  },
+  {
+   "id": "snaija-yt-no-way-out-2026",
+   "type": "movie",
+   "name": "No Way Out",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Drama"
+   ],
+   "cast": [],
+   "runtime": "97 min",
+   "description": "When danger comes knocking and every decision matters, how far would you go to survive? NO WAY OUT – An exciting Nollywood movie you don't want to miss!",
+   "uploadedAt": "2026-11-24T17:02:00.000Z",
+   "poster": "https://i.ytimg.com/vi/IxWjMw6ClJQ/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Maurice Sam TV (UCThviXLHvH8VwqxQEa4vZaw)"
+   },
+   "channel": "UCThviXLHvH8VwqxQEa4vZaw",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "IxWjMw6ClJQ",
+     "minutes": 97,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Maurice Sam TV"
   },
   {
    "id": "snaija-yt-chasing-shadows-2026",
@@ -104564,6 +104598,40 @@
    "channelName": "Regina Daniels Tv"
   },
   {
+   "id": "snaija-yt-i-plead-with-every-woman-to-watch-this-explosive-love-movie-learn-a-life-lesson-2026",
+   "type": "movie",
+   "name": "I Plead With Every Woman to Watch This Explosive Love Movie & Learn a Life Lesson",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance"
+   ],
+   "cast": [],
+   "runtime": "138 min",
+   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2026 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
+   "uploadedAt": "2026-11-24T19:00:33.000Z",
+   "poster": "https://i.ytimg.com/vi/1F1TGA0JTGI/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
+   },
+   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "1F1TGA0JTGI",
+     "minutes": 138,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "AFOREVO STAGE"
+  },
+  {
    "id": "snaija-yt-every-lady-will-cry-tears-while-watching-this-touching-love-movie-but-smile-later-2026",
    "type": "movie",
    "name": "Every Lady Will Cry Tears While Watching This Touching Love Movie But Smile Later",
@@ -104849,40 +104917,6 @@
        "quality": "hd"
       }
      ]
-    }
-   ],
-   "channelName": "AFOREVO STAGE"
-  },
-  {
-   "id": "snaija-yt-i-plead-with-every-woman-to-watch-this-explosive-love-movie-learn-a-life-lesson-2026",
-   "type": "movie",
-   "name": "I Plead With Every Woman to Watch This Explosive Love Movie & Learn a Life Lesson",
-   "aliases": [],
-   "year": 2026,
-   "yearIsUpload": true,
-   "languages": [
-    "en"
-   ],
-   "category": "film",
-   "genres": [
-    "Romance"
-   ],
-   "cast": [],
-   "runtime": "121 min",
-   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2026 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
-   "uploadedAt": "2026-11-22T12:30:09.000Z",
-   "poster": "https://i.ytimg.com/vi/gtmn8ETz2so/maxresdefault.jpg",
-   "posterShape": "landscape",
-   "sources": {
-    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
-   },
-   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
-   "parts": [
-    {
-     "part": 1,
-     "videoId": "gtmn8ETz2so",
-     "minutes": 121,
-     "quality": "hd"
     }
    ],
    "channelName": "AFOREVO STAGE"
@@ -289044,6 +289078,76 @@
     }
    ],
    "channelName": "Neptune3 Studios"
+  },
+  {
+   "id": "snaija-yt-i-was-banished-to-die-in-the-evil-forest-but-the-strange-rivergoddess-surprised-me-2026",
+   "type": "movie",
+   "name": "I Was Banished to Die in the Evil Forest But the Strange Rivergoddess Surprised Me!",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Drama"
+   ],
+   "cast": [],
+   "runtime": "85 min",
+   "description": "Caught between faith, tradition, and their deepest desires, a series of shocking events throws lives into chaos. As the consequences of a desperate sacrifice begin to unfold, everyone must face a terrifying truth.",
+   "uploadedAt": "2026-11-24T19:00:05.000Z",
+   "poster": "https://i.ytimg.com/vi/sO0AMvN4EUU/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "sO0AMvN4EUU",
+     "minutes": 85,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
+  },
+  {
+   "id": "snaija-yt-dis-evil-kingdom-will-know-no-peace-until-i-get-my-revenge-on-the-wicked-chiefpriest-2026",
+   "type": "movie",
+   "name": "Dis Evil Kingdom Will Know No Peace Until I Get My Revenge on the Wicked Chiefpriest",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Thriller",
+    "Epic"
+   ],
+   "cast": [],
+   "runtime": "169 min",
+   "description": "Blinded by love and royal pride, Prince Odogu will stop at nothing to make Ulima his queen. But Ulima's heart belongs to Ikemba, a man rejected by society. As jealousy, obsession, and forbidden love tear through the",
+   "uploadedAt": "2026-11-24T17:00:15.000Z",
+   "poster": "https://i.ytimg.com/vi/Z4J40bvyyjY/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "Z4J40bvyyjY",
+     "minutes": 169,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
   },
   {
    "id": "snaija-yt-my-angry-ghost-will-not-rest-in-peace-until-i-silence-everyone-who-buried-me-alive-2026",
