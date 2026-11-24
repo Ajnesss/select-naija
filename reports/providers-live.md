@@ -1,23 +1,23 @@
-# Live providers — 2026-11-23T14:55:17.233Z
+# Live providers — 2026-11-24T15:00:32.643Z
 
 ## Coverage
 
 - **archive**: 200 title(s)
-  - Sex Show 07 Ene 2013 (?) — CC BY-ND 3.0
-  - Paralisis Del Sueno (2010) — CC BY-NC-SA 4.0
-  - A United Kingdom (2016) — CC BY-NC-SA 4.0
-  - What Dessert Looks Like In 33 Countries Around The World (2020) — CC0
-  - George W Bush 20011102_5_ (?) — Public domain
-  - C4I for May 13 a barrell roll of flippin facts! (2014) — CC BY-NC-ND 3.0
-  - IKORODO DANCE (2022) — CC BY-NC-ND 4.0
-  - Peak Oil - Politics, Geopolitics, and Choke Points (2008) — CC BY-ND 3.0
-  - Case Study: Return (?) — CC BY-NC-ND 3.0
-  - Nigeria01 (?) — Public domain
-  - Human Touch 68 Democracy And Destabilization (?) — CC BY-NC-ND 4.0
+  - Sex Show 20Febrero 2012 (?) — CC BY-ND 3.0
+  - Nigeria02 (?) — Public domain
+  - programa 29_08_2011 (?) — CC0
   - Countering Asymmetric Threats: Evaluating Nigeria’s Strategic Approaches to International Terrorism in the Boko Haram Era (2026) — CC0
-  - George W Bush 20060329_ (?) — Public domain
-  - Africa Revisited 2010 A triptych of differing themes. (2010) — CC BY 2.0
-  - Clinical, hematobiochemical and histopathological alterations in acute inhalational cypermethrin toxicity in Issa brown commercial layers and treatment protocol: a case report (2026) — CC0
+  - The White Aryan ije - marun root ije yii (?) — Public domain
+  - Eduardo Fuentes (1997) (1997) — CC BY-ND 4.0
+  - Nestlé blüht auf – Äthiopien verdorrt (2018) — CC BY 3.0
+  - Strike 4 A Cure (?) — CC BY-NC-ND 2.0
+  - NTA News [January 27, 2002] (2002) — CC BY-ND 4.0
+  - Iwan Baan: Ingenious homes in unexpected places (2013) — CC BY-NC-ND 3.0
+  - Nigerian Soldier Carries Actress 😂 😂 😂 🔥 🔥 04 (2021) — Public domain
+  - EN-HB(MM) (?) — CC BY 3.0
+  - DTNS 20240304 (2024) — CC BY-ND 4.0
+  - Katsina State Television Service Livestream [December 7, 2020] (2020) — CC BY-ND 4.0
+  - final_clean_version-7IMPACT OF INDIGENOUS KNOWLEDGE ON ECOTOURISM IN OHAFIA LGA, ABIA STATE, NIGERIA (2026) — CC0
 - **commons**: 0 title(s)
 - **faithstream**: 16 title(s) · types {"Movies/movie":52,"movie/null":23,"Animations/Animation":7,"Podcasts/podcast":5,"Devotionals/daily-devotionals":3,"Series/series-episode":25,"series_episode/null":1,"PrayerStreams/Prayer-room":27}
   - BREAKING POINT (61 min)
