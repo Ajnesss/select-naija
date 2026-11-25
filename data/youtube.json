@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T01:29:00.784Z",
+ "generatedAt": "2026-11-25T15:50:25.929Z",
  "channels": {
   "UCbvdwZvZgdl-pPyomEmaEfg": {
    "name": "Omoni Oboli TV",
@@ -27,7 +27,7 @@
   },
   "UCThviXLHvH8VwqxQEa4vZaw": {
    "name": "Maurice Sam TV",
-   "subscribers": 2910000,
+   "subscribers": 2920000,
    "videos": 275,
    "films": 101
   },
@@ -63,13 +63,13 @@
   },
   "UCVVs7iCZgDTBi7nPs4m4ksg": {
    "name": "Uduak Isong TV",
-   "subscribers": 825000,
+   "subscribers": 826000,
    "videos": 154,
    "films": 74
   },
   "UCGRC6hm8mD8WqeY0auwrCrQ": {
    "name": "Uche Montana TV",
-   "subscribers": 2050000,
+   "subscribers": 2060000,
    "videos": 113,
    "films": 24
   },
@@ -88,8 +88,8 @@
   "UCRpVhC2Mv9B-CIhYXGb0IdA": {
    "name": "Nollywood RealnollyTV",
    "subscribers": 1920000,
-   "videos": 6231,
-   "films": 700
+   "videos": 6233,
+   "films": 702
   },
   "UCm6NRZvIcYwpj79CIa1Lj9g": {
    "name": "IBAKATV",
@@ -100,8 +100,8 @@
   "UCvpK1k1i23Xi5TM-ZDuSNDw": {
    "name": "LibraTv",
    "subscribers": 958000,
-   "videos": 354,
-   "films": 169
+   "videos": 355,
+   "films": 170
   },
   "UCiahLsxiMoVkuUM1bbgPg0g": {
    "name": "OrjiTv",
@@ -130,8 +130,8 @@
   "UCi8vPG6uMxIjoZMhLLX2BkQ": {
    "name": "Nollywoodpicturestv",
    "subscribers": 3010000,
-   "videos": 10679,
-   "films": 1660
+   "videos": 10682,
+   "films": 1661
   },
   "UCNq7_TKmIc8J6j-qUcyxNFA": {
    "name": "Bconceptnetwork",
@@ -148,13 +148,13 @@
   "UCVsqair_RFTI1K5cuaLaNtg": {
    "name": "Nigerian Movies Plus",
    "subscribers": 1860000,
-   "videos": 3068,
-   "films": 2000
+   "videos": 3069,
+   "films": 2001
   },
   "UCJ1I13e9PN7u4iszJ6M0AXQ": {
    "name": "ROCKCELLY NOLLYWOOD FILMS TV",
    "subscribers": 467000,
-   "videos": 1210,
+   "videos": 1211,
    "films": 835
   },
   "UCmbe3umZDBlQV_f08IPz5HA": {
@@ -225,7 +225,7 @@
   "UCfY4SmVarak6C7C5M2ebNtA": {
    "name": "UK ENTERTAINMENT",
    "subscribers": 434000,
-   "videos": 432,
+   "videos": 433,
    "films": 7
   },
   "UC6CxpgmZUkTH0NnksC0o_fg": {
@@ -255,7 +255,7 @@
   "UCJyFkDxxIgPVz-x_0UZPqfg": {
    "name": "AREWA24",
    "subscribers": 921000,
-   "videos": 5906,
+   "videos": 5908,
    "films": 390
   },
   "UClU5QkUqFL4a7AdxScHa2Vg": {
@@ -267,7 +267,7 @@
   "UCPdsCoSqO4dZcnkX_4do6hA": {
    "name": "KAP STREAM",
    "subscribers": 40200,
-   "videos": 109,
+   "videos": 110,
    "films": 7
   },
   "UCuoDa0ZOF0h9doIaJIkr8yA": {
@@ -284,7 +284,7 @@
   "UCLgjn9SPLG7BxyuFB_uNfXQ": {
    "name": "BIODUNSTEPHEN TV",
    "subscribers": 474000,
-   "videos": 950,
+   "videos": 951,
    "films": 36
   },
   "UCiZWyHYEvZO-1MFIxy1ojQg": {
@@ -302,8 +302,8 @@
   "UC9HDrOalDVN0Wv-Q7zTkQCg": {
    "name": "Okiki Premium TV",
    "subscribers": 355000,
-   "videos": 431,
-   "films": 46
+   "videos": 435,
+   "films": 47
   },
   "UCdYgV-WJEog1H_PxN45cNWg": {
    "name": "YORUBAPLAY",
@@ -326,7 +326,7 @@
   "UCjS6UnmKjrBX3krk8oVZocg": {
    "name": "nollynetwork",
    "subscribers": 223000,
-   "videos": 299,
+   "videos": 300,
    "films": 113
   },
   "UCA_cLbPgQBD9mOCVPdToE1Q": {
@@ -53007,6 +53007,74 @@
    "channelName": "Frederick Leonard TV."
   },
   {
+   "id": "snaija-yt-who-owns-the-child-6-malik-milton-2026",
+   "type": "movie",
+   "name": "Who Owns the Child 6 Malik Milton",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "34 min",
+   "uploadedAt": "2026-11-25T10:00:10.000Z",
+   "poster": "https://i.ytimg.com/vi/i8afAUCIbtU/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nollywood RealnollyTV (UCRpVhC2Mv9B-CIhYXGb0IdA)"
+   },
+   "channel": "UCRpVhC2Mv9B-CIhYXGb0IdA",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "i8afAUCIbtU",
+     "minutes": 34,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nollywood RealnollyTV"
+  },
+  {
+   "id": "snaija-yt-who-owns-the-child-5-malik-milton-2026",
+   "type": "movie",
+   "name": "Who Owns the Child 5 Malik Milton",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "34 min",
+   "uploadedAt": "2026-11-25T09:00:09.000Z",
+   "poster": "https://i.ytimg.com/vi/wpvCbW4xbrA/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nollywood RealnollyTV (UCRpVhC2Mv9B-CIhYXGb0IdA)"
+   },
+   "channel": "UCRpVhC2Mv9B-CIhYXGb0IdA",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "wpvCbW4xbrA",
+     "minutes": 34,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nollywood RealnollyTV"
+  },
+  {
    "id": "snaija-yt-who-owns-the-child-4-malik-milton-2026",
    "type": "movie",
    "name": "Who Owns the Child 4 Malik Milton",
@@ -93672,6 +93740,40 @@
     }
    ],
    "channelName": "IBAKATV"
+  },
+  {
+   "id": "snaija-yt-black-model-2026",
+   "type": "movie",
+   "name": "Black Model",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": false,
+   "languages": [
+    "yo"
+   ],
+   "category": "film",
+   "genres": [
+    "Drama"
+   ],
+   "cast": [],
+   "runtime": "83 min",
+   "description": "A circle of wealthy, well-connected men believe their status and influence put them above accountability—until life delivers a surprise twist they never saw coming!",
+   "uploadedAt": "2026-11-25T13:50:52.000Z",
+   "poster": "https://i.ytimg.com/vi/DqMZyVrQGzE/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel LibraTv (UCvpK1k1i23Xi5TM-ZDuSNDw)"
+   },
+   "channel": "UCvpK1k1i23Xi5TM-ZDuSNDw",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "DqMZyVrQGzE",
+     "minutes": 83,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "LibraTv"
   },
   {
    "id": "snaija-yt-ebute-ife-2026",
@@ -193982,6 +194084,46 @@
    "channelName": "AFOREVO STAGE"
   },
   {
+   "id": "snaija-yt-black-vow-2026",
+   "type": "movie",
+   "name": "Black Vow",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Drama"
+   ],
+   "cast": [],
+   "runtime": "81 min",
+   "description": "Black Vow- New Nollywood Movie is a 2026 Nigerian film. Kanayo, Ella Idu - And More actors and actresses. - Black Vow (New Movie) - 2026 Latest New Nigerian Nollywood Movie",
+   "uploadedAt": "2026-11-25T12:01:11.000Z",
+   "poster": "https://i.ytimg.com/vi/VR9IUMyZIKY/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nollywoodpicturestv (UCi8vPG6uMxIjoZMhLLX2BkQ)"
+   },
+   "channel": "UCi8vPG6uMxIjoZMhLLX2BkQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "VR9IUMyZIKY",
+     "minutes": 40,
+     "quality": "hd"
+    },
+    {
+     "part": 2,
+     "videoId": "_G1bDgauy8Q",
+     "minutes": 41,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nollywoodpicturestv"
+  },
+  {
    "id": "snaija-yt-close-and-deadly-2026",
    "type": "movie",
    "name": "Close and Deadly",
@@ -289080,6 +289222,41 @@
    "channelName": "Neptune3 Studios"
   },
   {
+   "id": "snaija-yt-the-angry-ghost-of-my-sugar-daddy-s-wife-will-not-let-me-rest-since-i-killed-her-2026",
+   "type": "movie",
+   "name": "The Angry Ghost of My Sugar Daddy's Wife Will Not Let Me Rest Since I Killed Her!",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Supernatural"
+   ],
+   "cast": [],
+   "runtime": "152 min",
+   "description": "In This African Nollywood Drama ....Blinded by greed and jealousy, Ijeoma murders her own friend in a desperate attempt to marry her wealthy husband. But just when she thinks she has gotten everything she desires, calamity strikes without mercy.",
+   "uploadedAt": "2026-11-25T11:00:08.000Z",
+   "poster": "https://i.ytimg.com/vi/yje2rBACaF8/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "yje2rBACaF8",
+     "minutes": 152,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
+  },
+  {
    "id": "snaija-yt-my-ghost-will-give-this-village-no-peace-until-i-silence-d-wicked-man-who-killed-me-2026",
    "type": "movie",
    "name": "My Ghost Will Give This Village No Peace Until I Silence D Wicked Man Who Killed Me",
@@ -359924,9 +360101,9 @@
     "Drama"
    ],
    "cast": [],
-   "runtime": "140 min",
+   "runtime": "301 min",
    "description": "2019 Latest Nigerian Movies African Nollywood Movies",
-   "uploadedAt": "2026-11-06T16:00:38.000Z",
+   "uploadedAt": "2026-11-25T15:45:11.000Z",
    "poster": "https://i.ytimg.com/vi/5YwAubmeN8Y/hqdefault.jpg",
    "posterShape": "landscape",
    "sources": {
@@ -359938,6 +360115,12 @@
      "part": 1,
      "videoId": "5YwAubmeN8Y",
      "minutes": 140,
+     "quality": "hd"
+    },
+    {
+     "part": 2,
+     "videoId": "imJO-g-9PRE",
+     "minutes": 161,
      "quality": "hd"
     }
    ],
@@ -541023,6 +541206,41 @@
     }
    ],
    "channelName": "AMCChannels"
+  },
+  {
+   "id": "snaija-yt-abowaba-2026",
+   "type": "movie",
+   "name": "Abowaba",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": false,
+   "languages": [
+    "yo"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Epic"
+   ],
+   "cast": [],
+   "runtime": "107 min",
+   "description": "A king consumed by his love for war and thirst for power will stop at nothing to conquer kingdoms and maintain his dominance. But when a woman he least suspects betrays him, his trusted guards fall, and the very power he fought so hard to protect begins to slip from his hands.",
+   "uploadedAt": "2026-11-25T11:00:19.000Z",
+   "poster": "https://i.ytimg.com/vi/mSuqnVYO1EQ/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Okiki Premium TV (UC9HDrOalDVN0Wv-Q7zTkQCg)"
+   },
+   "channel": "UC9HDrOalDVN0Wv-Q7zTkQCg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "mSuqnVYO1EQ",
+     "minutes": 107,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Okiki Premium TV"
   },
   {
    "id": "snaija-yt-aye-n-sare-2026",
