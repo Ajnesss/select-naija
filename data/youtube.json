@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-24T20:17:56.755Z",
+ "generatedAt": "2026-11-25T01:29:00.784Z",
  "channels": {
   "UCbvdwZvZgdl-pPyomEmaEfg": {
    "name": "Omoni Oboli TV",
@@ -28,7 +28,7 @@
   "UCThviXLHvH8VwqxQEa4vZaw": {
    "name": "Maurice Sam TV",
    "subscribers": 2910000,
-   "videos": 274,
+   "videos": 275,
    "films": 101
   },
   "UCLLA3OKhzK-tzXFvXhnGKZQ": {
@@ -75,7 +75,7 @@
   },
   "UCnZ28GESUBXyZSIvzcs1RXA": {
    "name": "ChinneyLoveEze Tv",
-   "subscribers": 835000,
+   "subscribers": 836000,
    "videos": 160,
    "films": 65
   },
@@ -124,7 +124,7 @@
   "UC1By7koB6TJqjrfCvmYUIxQ": {
    "name": "AFOREVO STAGE",
    "subscribers": 2630000,
-   "videos": 3510,
+   "videos": 3511,
    "films": 2165
   },
   "UCi8vPG6uMxIjoZMhLLX2BkQ": {
@@ -148,8 +148,8 @@
   "UCVsqair_RFTI1K5cuaLaNtg": {
    "name": "Nigerian Movies Plus",
    "subscribers": 1860000,
-   "videos": 3067,
-   "films": 1999
+   "videos": 3068,
+   "films": 2000
   },
   "UCJ1I13e9PN7u4iszJ6M0AXQ": {
    "name": "ROCKCELLY NOLLYWOOD FILMS TV",
@@ -236,7 +236,7 @@
   },
   "UC3PkFyrpeoRxfwWpTUp2uUg": {
    "name": "YAKUBU MOHAMMED 2EFFECT TV",
-   "subscribers": 386000,
+   "subscribers": 387000,
    "videos": 376,
    "films": 31
   },
@@ -104598,6 +104598,40 @@
    "channelName": "Regina Daniels Tv"
   },
   {
+   "id": "snaija-yt-i-urge-every-lady-to-watch-this-life-changing-marriage-movie-learn-something-2026",
+   "type": "movie",
+   "name": "I Urge Every Lady to Watch This Life-Changing Marriage Movie & Learn Something",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance"
+   ],
+   "cast": [],
+   "runtime": "144 min",
+   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2026 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
+   "uploadedAt": "2026-11-24T22:00:22.000Z",
+   "poster": "https://i.ytimg.com/vi/ei4erBcFJP4/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
+   },
+   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "ei4erBcFJP4",
+     "minutes": 144,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "AFOREVO STAGE"
+  },
+  {
    "id": "snaija-yt-i-plead-with-every-woman-to-watch-this-explosive-love-movie-learn-a-life-lesson-2026",
    "type": "movie",
    "name": "I Plead With Every Woman to Watch This Explosive Love Movie & Learn a Life Lesson",
@@ -104660,40 +104694,6 @@
      "part": 1,
      "videoId": "0zcG4vntZ_E",
      "minutes": 132,
-     "quality": "hd"
-    }
-   ],
-   "channelName": "AFOREVO STAGE"
-  },
-  {
-   "id": "snaija-yt-i-urge-every-lady-to-watch-this-life-changing-marriage-movie-learn-something-2026",
-   "type": "movie",
-   "name": "I Urge Every Lady to Watch This Life-Changing Marriage Movie & Learn Something",
-   "aliases": [],
-   "year": 2026,
-   "yearIsUpload": true,
-   "languages": [
-    "en"
-   ],
-   "category": "film",
-   "genres": [
-    "Romance"
-   ],
-   "cast": [],
-   "runtime": "144 min",
-   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2026 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
-   "uploadedAt": "2026-11-23T00:00:11.000Z",
-   "poster": "https://i.ytimg.com/vi/ei4erBcFJP4/maxresdefault.jpg",
-   "posterShape": "landscape",
-   "sources": {
-    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
-   },
-   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
-   "parts": [
-    {
-     "part": 1,
-     "videoId": "ei4erBcFJP4",
-     "minutes": 144,
      "quality": "hd"
     }
    ],
@@ -289078,6 +289078,42 @@
     }
    ],
    "channelName": "Neptune3 Studios"
+  },
+  {
+   "id": "snaija-yt-my-ghost-will-give-this-village-no-peace-until-i-silence-d-wicked-man-who-killed-me-2026",
+   "type": "movie",
+   "name": "My Ghost Will Give This Village No Peace Until I Silence D Wicked Man Who Killed Me",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Thriller",
+    "Epic",
+    "Supernatural"
+   ],
+   "cast": [],
+   "runtime": "196 min",
+   "description": "Two rival gangs clash in a deadly battle for control of the streets. As revenge, greed, and ambition ignite a dangerous gang war, friendships crumble and loyalties are tested. In a world where only the strongest sur",
+   "uploadedAt": "2026-11-24T23:00:19.000Z",
+   "poster": "https://i.ytimg.com/vi/LvMyWszaL2o/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "LvMyWszaL2o",
+     "minutes": 196,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
   },
   {
    "id": "snaija-yt-i-was-banished-to-die-in-the-evil-forest-but-the-strange-rivergoddess-surprised-me-2026",
