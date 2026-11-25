@@ -1,23 +1,23 @@
-# Live providers — 2026-11-24T15:00:32.643Z
+# Live providers — 2026-11-25T14:35:43.129Z
 
 ## Coverage
 
 - **archive**: 200 title(s)
-  - Sex Show 20Febrero 2012 (?) — CC BY-ND 3.0
-  - Nigeria02 (?) — Public domain
-  - programa 29_08_2011 (?) — CC0
-  - Countering Asymmetric Threats: Evaluating Nigeria’s Strategic Approaches to International Terrorism in the Boko Haram Era (2026) — CC0
-  - The White Aryan ije - marun root ije yii (?) — Public domain
-  - Eduardo Fuentes (1997) (1997) — CC BY-ND 4.0
-  - Nestlé blüht auf – Äthiopien verdorrt (2018) — CC BY 3.0
-  - Strike 4 A Cure (?) — CC BY-NC-ND 2.0
-  - NTA News [January 27, 2002] (2002) — CC BY-ND 4.0
-  - Iwan Baan: Ingenious homes in unexpected places (2013) — CC BY-NC-ND 3.0
-  - Nigerian Soldier Carries Actress 😂 😂 😂 🔥 🔥 04 (2021) — Public domain
-  - EN-HB(MM) (?) — CC BY 3.0
-  - DTNS 20240304 (2024) — CC BY-ND 4.0
-  - Katsina State Television Service Livestream [December 7, 2020] (2020) — CC BY-ND 4.0
-  - final_clean_version-7IMPACT OF INDIGENOUS KNOWLEDGE ON ECOTOURISM IN OHAFIA LGA, ABIA STATE, NIGERIA (2026) — CC0
+  - How To Write a Case Study (CIAPS Class) (2024) — CC BY-NC-ND 4.0
+  - Cooking in Harmony: Happy Black History Month (2026) — CC BY-NC-SA 4.0
+  - Argentina 2 Nigeria 1 Mundial Sub-20 2005 Argentina Campeón del Mundo (2010) — Public domain
+  - The Backyardigans: Escape from Fairytale Village (American 2008 DVD ISO) (2008) — Public domain
+  - Uwa Diva (2020) — CC0
+  - Sex Show 07 Ene 2013 (?) — CC BY-ND 3.0
+  - Paralisis Del Sueno (2010) — CC BY-NC-SA 4.0
+  - A United Kingdom (2016) — CC BY-NC-SA 4.0
+  - Did You Know? Well You Should! (1988) — CC BY-NC-SA 3.0
+  - 2022-05-01 - BTWRLM471 - Board Governing Disinformation (2022) — CC BY-NC-SA 4.0
+  - George W Bush 20011102_5_ (?) — Public domain
+  - 2-6 News [Adamawa Television, 2020s] (?) — CC BY-ND 4.0
+  - Peak Oil - Politics, Geopolitics, and Choke Points (2008) — CC BY-ND 3.0
+  - Case Study: Return (?) — CC BY-NC-ND 3.0
+  - Ebola – soll eine weltweite Epidemie ausgerufen werden? (2014) — CC BY 3.0
 - **commons**: 0 title(s)
 - **faithstream**: 16 title(s) · types {"Movies/movie":52,"movie/null":23,"Animations/Animation":7,"Podcasts/podcast":5,"Devotionals/daily-devotionals":3,"Series/series-episode":25,"series_episode/null":1,"PrayerStreams/Prayer-room":27}
   - BREAKING POINT (61 min)
