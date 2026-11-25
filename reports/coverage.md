@@ -1,6 +1,6 @@
 # Select Naija coverage report
 
-Generated 2026-11-24T20:30:29.369Z. Links last verified 2026-11-24T20:30:29.316Z.
+Generated 2026-11-25T19:39:05.892Z. Links last verified 2026-11-25T19:39:05.841Z.
 A title counts as covered only if a verified Select Naija link is shown for it.
 
 ## Test catalogue by group
@@ -14,8 +14,8 @@ A title counts as covered only if a verified Select Naija link is shown for it.
 
 | Language | Catalogued | Covered | Coverage | Without TMDB/IMDb ID |
 | --- | --- | --- | --- | --- |
-| English | 12795 | 11349 | 88.7% | 12595 |
-| Yoruba | 849 | 743 | 87.5% | 802 |
+| English | 12806 | 11360 | 88.7% | 12606 |
+| Yoruba | 851 | 744 | 87.4% | 804 |
 | Igbo | 1353 | 1333 | 98.5% | 1337 |
 | Hausa | 507 | 502 | 99% | 501 |
 | fr | 1 | 1 | 100% | 1 |
@@ -23,44 +23,44 @@ A title counts as covered only if a verified Select Naija link is shown for it.
 
 ## Stream health (YouTube)
 
-Videos checked through the official API: 27559 (2026-11-24T20:18:24.646Z).
+Videos checked through the official API: 27572 (2026-11-25T19:26:04.502Z).
 | API status | Videos |
 | --- | --- |
-| ok | 27518 |
+| ok | 27530 |
 | age | 30 |
-| gone | 11 |
+| gone | 12 |
 
-HD (720p or better, as YouTube reports it): 22702; SD: 4857.
-Playback in YouTube's official embedded player: played 0, failed 0, inconclusive 0, not yet tested 27518.
+HD (720p or better, as YouTube reports it): 22715; SD: 4857.
+Playback in YouTube's official embedded player: played 0, failed 0, inconclusive 0, not yet tested 27530.
 Last playback run: 30 tested in 0 min ({"error 150":30}) — not applied: YouTube asks the test server to sign in ("confirm you are not a bot"), so playback cannot be confirmed from GitHub.
 
 ## Source breakdown (plays inside Nuvio)
 
-12618 playable titles; 12458 (98.7%) rely on YouTube alone.
+12630 playable titles; 12467 (98.7%) rely on YouTube alone.
 
-**Unique non-YouTube playable titles: 160** (titles with a working source other than YouTube: a file that plays in Nuvio, or the film's own page in a free UK service's app; searches, live channels, trailers and YouTube duplicates are not counted).
+**Unique non-YouTube playable titles: 163** (titles with a working source other than YouTube: a file that plays in Nuvio, or the film's own page in a free UK service's app; searches, live channels, trailers and YouTube duplicates are not counted).
 
 | Independent provider | Playable titles |
 | --- | --- |
-| Tubi | 146 |
+| Tubi | 149 |
 | Prime Video | 19 |
 | Plex | 14 |
 
 | Provider | Playable titles |
 | --- | --- |
-| YouTube | 12481 |
-| Tubi | 146 |
+| YouTube | 12490 |
+| Tubi | 149 |
 | Prime Video | 19 |
 | Plex | 14 |
 
 | Provider: channel | Playable titles |
 | --- | --- |
-| YouTube: AFOREVO STAGE | 2165 |
-| YouTube: Nigerian Movies Plus | 1999 |
-| YouTube: Nollywoodpicturestv | 1659 |
+| YouTube: AFOREVO STAGE | 2166 |
+| YouTube: Nigerian Movies Plus | 2003 |
+| YouTube: Nollywoodpicturestv | 1660 |
 | YouTube: BTAtv | 1404 |
 | YouTube: ROCKCELLY NOLLYWOOD FILMS TV | 835 |
-| YouTube: Nollywood RealnollyTV | 700 |
+| YouTube: Nollywood RealnollyTV | 702 |
 | YouTube: Uche Nancy tv | 667 |
 | YouTube: AREWA24 | 390 |
 | YouTube: NollyReel | 363 |
@@ -68,7 +68,7 @@ Last playback run: 30 tested in 0 min ({"error 150":30}) — not applied: YouTub
 | YouTube: RuthKadiri247 | 174 |
 | YouTube: LibraTv | 168 |
 | YouTube: Uchenna Mbunabo Tv | 164 |
-| Tubi: - | 146 |
+| Tubi: - | 149 |
 | YouTube: Global Update Movies Nollywood | 145 |
 | YouTube: OrjiTv | 119 |
 | YouTube: nollynetwork | 113 |
@@ -81,7 +81,7 @@ Last playback run: 30 tested in 0 min ({"error 150":30}) — not applied: YouTub
 | YouTube: Sonia Uche Tv | 60 |
 | YouTube: TK ÒPÓMÚLÉRÓ | 58 |
 | YouTube: FAAN TV | 50 |
-| YouTube: Okiki Premium TV | 46 |
+| YouTube: Okiki Premium TV | 47 |
 | YouTube: SANDRA OKUNZUWA TV | 43 |
 | YouTube: BIODUNSTEPHEN TV | 36 |
 | YouTube: ABNUR ENTERTAINMENT | 34 |
@@ -113,10 +113,10 @@ Last playback run: 30 tested in 0 min ({"error 150":30}) — not applied: YouTub
 
 | Provider | Score | Reliability 30d | Accuracy | Freshness | Checks 30d |
 | --- | --- | --- | --- | --- | --- |
-| Tubi | 92 | 86% | 100% | 100% | 2682 |
-| Plex | 95 | 92% | 100% | 100% | 37 |
-| Select Naija test file | 100 | 100% | 100% | 100% | 39 |
-| YouTube | 100 | 100% | 100% | 100% | 24 |
+| Tubi | 91 | 86% | 100% | 100% | 2877 |
+| Plex | 95 | 92% | 100% | 100% | 38 |
+| Select Naija test file | 100 | 100% | 100% | 100% | 40 |
+| YouTube | 100 | 100% | 100% | 100% | 25 |
 
 ## Gaps: test titles with no verified source
 

@@ -1,16 +1,16 @@
 {
- "generatedAt": "2026-11-25T15:50:25.929Z",
+ "generatedAt": "2026-11-25T19:25:38.324Z",
  "channels": {
   "UCbvdwZvZgdl-pPyomEmaEfg": {
    "name": "Omoni Oboli TV",
    "subscribers": 2120000,
-   "videos": 1364,
+   "videos": 1365,
    "films": 105
   },
   "UC83tx3zGcvQ_rXzsZigTnEA": {
    "name": "APATATV+",
    "subscribers": 2640000,
-   "videos": 2329,
+   "videos": 2330,
    "films": 341
   },
   "UCjcFNZE51DmSrGYBqixs0Ug": {
@@ -124,8 +124,8 @@
   "UC1By7koB6TJqjrfCvmYUIxQ": {
    "name": "AFOREVO STAGE",
    "subscribers": 2630000,
-   "videos": 3511,
-   "films": 2165
+   "videos": 3513,
+   "films": 2166
   },
   "UCi8vPG6uMxIjoZMhLLX2BkQ": {
    "name": "Nollywoodpicturestv",
@@ -148,8 +148,8 @@
   "UCVsqair_RFTI1K5cuaLaNtg": {
    "name": "Nigerian Movies Plus",
    "subscribers": 1860000,
-   "videos": 3069,
-   "films": 2001
+   "videos": 3071,
+   "films": 2003
   },
   "UCJ1I13e9PN7u4iszJ6M0AXQ": {
    "name": "ROCKCELLY NOLLYWOOD FILMS TV",
@@ -212,7 +212,7 @@
   },
   "UCK-FDSIDGzjK6PYWcFaOzkA": {
    "name": "Saira Movies",
-   "subscribers": 2220000,
+   "subscribers": 2230000,
    "videos": 420,
    "films": 7
   },
@@ -104700,6 +104700,87 @@
    "channelName": "Regina Daniels Tv"
   },
   {
+   "id": "snaija-yt-i-plead-with-every-woman-to-watch-this-explosive-love-movie-learn-a-life-lesson-2026",
+   "type": "movie",
+   "name": "I Plead With Every Woman to Watch This Explosive Love Movie & Learn a Life Lesson",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance"
+   ],
+   "cast": [],
+   "runtime": "138 min",
+   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2026 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
+   "uploadedAt": "2026-11-25T19:00:32.000Z",
+   "poster": "https://i.ytimg.com/vi/1F1TGA0JTGI/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
+   },
+   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "1F1TGA0JTGI",
+     "minutes": 138,
+     "quality": "hd"
+    }
+   ],
+   "alternates": [
+    {
+     "label": "another upload",
+     "parts": [
+      {
+       "part": 1,
+       "videoId": "uayXAqQR3bM",
+       "minutes": 133,
+       "quality": "hd"
+      }
+     ]
+    }
+   ],
+   "channelName": "AFOREVO STAGE"
+  },
+  {
+   "id": "snaija-yt-you-will-cry-for-2days-after-watching-this-sad-suffering-story-of-a-poor-helpless-girl-2026",
+   "type": "movie",
+   "name": "You Will Cry for 2days After Watching This Sad Suffering Story of a Poor Helpless Girl",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Drama"
+   ],
+   "cast": [],
+   "runtime": "111 min",
+   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2026 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
+   "uploadedAt": "2026-11-25T16:00:25.000Z",
+   "poster": "https://i.ytimg.com/vi/5yVJMHw_exY/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
+   },
+   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "5yVJMHw_exY",
+     "minutes": 111,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "AFOREVO STAGE"
+  },
+  {
    "id": "snaija-yt-i-urge-every-lady-to-watch-this-life-changing-marriage-movie-learn-something-2026",
    "type": "movie",
    "name": "I Urge Every Lady to Watch This Life-Changing Marriage Movie & Learn Something",
@@ -104728,40 +104809,6 @@
      "part": 1,
      "videoId": "ei4erBcFJP4",
      "minutes": 144,
-     "quality": "hd"
-    }
-   ],
-   "channelName": "AFOREVO STAGE"
-  },
-  {
-   "id": "snaija-yt-i-plead-with-every-woman-to-watch-this-explosive-love-movie-learn-a-life-lesson-2026",
-   "type": "movie",
-   "name": "I Plead With Every Woman to Watch This Explosive Love Movie & Learn a Life Lesson",
-   "aliases": [],
-   "year": 2026,
-   "yearIsUpload": true,
-   "languages": [
-    "en"
-   ],
-   "category": "film",
-   "genres": [
-    "Romance"
-   ],
-   "cast": [],
-   "runtime": "138 min",
-   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2026 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
-   "uploadedAt": "2026-11-24T19:00:33.000Z",
-   "poster": "https://i.ytimg.com/vi/1F1TGA0JTGI/maxresdefault.jpg",
-   "posterShape": "landscape",
-   "sources": {
-    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
-   },
-   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
-   "parts": [
-    {
-     "part": 1,
-     "videoId": "1F1TGA0JTGI",
-     "minutes": 138,
      "quality": "hd"
     }
    ],
@@ -289220,6 +289267,76 @@
     }
    ],
    "channelName": "Neptune3 Studios"
+  },
+  {
+   "id": "snaija-yt-i-left-my-boyfriend-because-he-was-blind-and-broke-only-to-get-the-shock-of-my-life-2026",
+   "type": "movie",
+   "name": "I Left My Boyfriend Because He Was Blind and Broke Only to Get the Shock of My Life",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "158 min",
+   "description": "He returned from abroad broke, rejected, and humiliated by his own family. But when life pushed him to his lowest point, love and determination gave him a second chance. His incredible journey from failure to succes",
+   "uploadedAt": "2026-11-25T19:00:15.000Z",
+   "poster": "https://i.ytimg.com/vi/ETj0aaDtex0/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "ETj0aaDtex0",
+     "minutes": 158,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
+  },
+  {
+   "id": "snaija-yt-you-think-you-can-kill-me-and-marry-my-husband-but-my-ghost-will-hunt-you-to-death-2026",
+   "type": "movie",
+   "name": "You Think You Can Kill Me and Marry My Husband But My Ghost Will Hunt You to Death!",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Supernatural"
+   ],
+   "cast": [],
+   "runtime": "157 min",
+   "description": "In This African Nollywood Drama ....Consumed by greed and jealousy, Ijeoma commits the ultimate betrayal, murdering her friend to take her place beside a wealthy man. But her desperate quest for riches soon turns into a terrifying nightmare when cala",
+   "uploadedAt": "2026-11-25T17:00:27.000Z",
+   "poster": "https://i.ytimg.com/vi/eC-3pYhQCN8/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "eC-3pYhQCN8",
+     "minutes": 157,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
   },
   {
    "id": "snaija-yt-the-angry-ghost-of-my-sugar-daddy-s-wife-will-not-let-me-rest-since-i-killed-her-2026",
