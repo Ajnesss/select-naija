@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T19:25:38.324Z",
+ "generatedAt": "2026-11-26T01:02:45.900Z",
  "channels": {
   "UCbvdwZvZgdl-pPyomEmaEfg": {
    "name": "Omoni Oboli TV",
@@ -15,7 +15,7 @@
   },
   "UCjcFNZE51DmSrGYBqixs0Ug": {
    "name": "RuthKadiri247",
-   "subscribers": 4210000,
+   "subscribers": 4220000,
    "videos": 344,
    "films": 174
   },
@@ -124,7 +124,7 @@
   "UC1By7koB6TJqjrfCvmYUIxQ": {
    "name": "AFOREVO STAGE",
    "subscribers": 2630000,
-   "videos": 3513,
+   "videos": 3514,
    "films": 2166
   },
   "UCi8vPG6uMxIjoZMhLLX2BkQ": {
@@ -148,8 +148,8 @@
   "UCVsqair_RFTI1K5cuaLaNtg": {
    "name": "Nigerian Movies Plus",
    "subscribers": 1860000,
-   "videos": 3071,
-   "films": 2003
+   "videos": 3072,
+   "films": 2004
   },
   "UCJ1I13e9PN7u4iszJ6M0AXQ": {
    "name": "ROCKCELLY NOLLYWOOD FILMS TV",
@@ -225,7 +225,7 @@
   "UCfY4SmVarak6C7C5M2ebNtA": {
    "name": "UK ENTERTAINMENT",
    "subscribers": 434000,
-   "videos": 433,
+   "videos": 434,
    "films": 7
   },
   "UC6CxpgmZUkTH0NnksC0o_fg": {
@@ -104700,6 +104700,40 @@
    "channelName": "Regina Daniels Tv"
   },
   {
+   "id": "snaija-yt-no-2026",
+   "type": "movie",
+   "name": "No",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Drama"
+   ],
+   "cast": [],
+   "runtime": "191 min",
+   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2026 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
+   "uploadedAt": "2026-11-25T22:00:38.000Z",
+   "poster": "https://i.ytimg.com/vi/d45h01loqf0/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
+   },
+   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "d45h01loqf0",
+     "minutes": 191,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "AFOREVO STAGE"
+  },
+  {
    "id": "snaija-yt-i-plead-with-every-woman-to-watch-this-explosive-love-movie-learn-a-life-lesson-2026",
    "type": "movie",
    "name": "I Plead With Every Woman to Watch This Explosive Love Movie & Learn a Life Lesson",
@@ -107967,40 +108001,6 @@
        "quality": "hd"
       }
      ]
-    }
-   ],
-   "channelName": "AFOREVO STAGE"
-  },
-  {
-   "id": "snaija-yt-no-2026",
-   "type": "movie",
-   "name": "No",
-   "aliases": [],
-   "year": 2026,
-   "yearIsUpload": true,
-   "languages": [
-    "en"
-   ],
-   "category": "film",
-   "genres": [
-    "Drama"
-   ],
-   "cast": [],
-   "runtime": "191 min",
-   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2026 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
-   "uploadedAt": "2026-10-30T04:00:10.000Z",
-   "poster": "https://i.ytimg.com/vi/d45h01loqf0/maxresdefault.jpg",
-   "posterShape": "landscape",
-   "sources": {
-    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
-   },
-   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
-   "parts": [
-    {
-     "part": 1,
-     "videoId": "d45h01loqf0",
-     "minutes": 191,
-     "quality": "hd"
     }
    ],
    "channelName": "AFOREVO STAGE"
@@ -289267,6 +289267,42 @@
     }
    ],
    "channelName": "Neptune3 Studios"
+  },
+  {
+   "id": "snaija-yt-jealousy-made-my-sister-killed-me-because-of-the-prince-but-the-goddess-shocked-her-2026",
+   "type": "movie",
+   "name": "Jealousy Made My Sister Killed Me Because of the Prince But the Goddess Shocked Her!",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Epic",
+    "Supernatural",
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "132 min",
+   "description": "What was once a peaceful home becomes a living nightmare when Akima's strange behavior and violent rebellion leave her mother terrified. As disturbing events unfold and suspicions of an evil spiritual influence grow",
+   "uploadedAt": "2026-11-25T23:00:33.000Z",
+   "poster": "https://i.ytimg.com/vi/fMtn7SfeA5E/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "fMtn7SfeA5E",
+     "minutes": 132,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
   },
   {
    "id": "snaija-yt-i-left-my-boyfriend-because-he-was-blind-and-broke-only-to-get-the-shock-of-my-life-2026",
