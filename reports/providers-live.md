@@ -1,23 +1,23 @@
-# Live providers — 2026-11-25T14:35:43.129Z
+# Live providers — 2026-11-26T14:01:20.194Z
 
 ## Coverage
 
 - **archive**: 200 title(s)
-  - How To Write a Case Study (CIAPS Class) (2024) — CC BY-NC-ND 4.0
-  - Cooking in Harmony: Happy Black History Month (2026) — CC BY-NC-SA 4.0
-  - Argentina 2 Nigeria 1 Mundial Sub-20 2005 Argentina Campeón del Mundo (2010) — Public domain
-  - The Backyardigans: Escape from Fairytale Village (American 2008 DVD ISO) (2008) — Public domain
-  - Uwa Diva (2020) — CC0
-  - Sex Show 07 Ene 2013 (?) — CC BY-ND 3.0
-  - Paralisis Del Sueno (2010) — CC BY-NC-SA 4.0
-  - A United Kingdom (2016) — CC BY-NC-SA 4.0
-  - Did You Know? Well You Should! (1988) — CC BY-NC-SA 3.0
-  - 2022-05-01 - BTWRLM471 - Board Governing Disinformation (2022) — CC BY-NC-SA 4.0
-  - George W Bush 20011102_5_ (?) — Public domain
-  - 2-6 News [Adamawa Television, 2020s] (?) — CC BY-ND 4.0
-  - Peak Oil - Politics, Geopolitics, and Choke Points (2008) — CC BY-ND 3.0
+  - ISE ALAGBEDE (2023) — CC BY-SA 4.0
+  - IKORODO DANCE (2022) — CC BY-NC-ND 4.0
   - Case Study: Return (?) — CC BY-NC-ND 3.0
-  - Ebola – soll eine weltweite Epidemie ausgerufen werden? (2014) — CC BY 3.0
+  - Nigeria01 (?) — Public domain
+  - Countering Asymmetric Threats: Evaluating Nigeria’s Strategic Approaches to International Terrorism in the Boko Haram Era (2026) — CC0
+  - Africa Revisited 2010 A triptych of differing themes. (2010) — CC BY 2.0
+  - George W Bush 20060329_ (?) — Public domain
+  - Clinical, hematobiochemical and histopathological alterations in acute inhalational cypermethrin toxicity in Issa brown commercial layers and treatment protocol: a case report (2026) — CC0
+  - Sacred Journeys and Local Growth: Assessing the Economic Catalyst and Cultural Shifts of Religious Tourism in Akwa Ibom State, Nigeria (2026) — CC0
+  - Optimising agro-infrastructural security and disaster readiness: A constrained fuzzy multi-objective goal programming approach to workforce performance planning in the Nigeria Security and Civil Defence Corps (2026) — CC0
+  - sex show 17 Oct 2011 (?) — CC BY-ND 3.0
+  - Uner the Spread of the Holy Spirit's Wings (2012) — CC BY-NC-ND 3.0
+  - 58 Suratul Mujadala in Arabic and Hausa – Recitation by Almishary Rashid and Translation by Alamin Tahir (2025) — CC BY-NC 4.0
+  - Human Touch 63 Emmanuel Nwosu (2023) — CC BY-NC-ND 4.0
+  - Major findings in the research of new coronavirus pneumonia: The mechanism of mutual mutagenesis and mutation of new coronavirus pneumonia bacteria (Fangruida) (2021) — Public domain
 - **commons**: 0 title(s)
 - **faithstream**: 16 title(s) · types {"Movies/movie":52,"movie/null":23,"Animations/Animation":7,"Podcasts/podcast":5,"Devotionals/daily-devotionals":3,"Series/series-episode":25,"series_episode/null":1,"PrayerStreams/Prayer-room":27}
   - BREAKING POINT (61 min)
