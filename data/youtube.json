@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T09:40:54.550Z",
+ "generatedAt": "2026-11-26T19:08:48.551Z",
  "channels": {
   "UCbvdwZvZgdl-pPyomEmaEfg": {
    "name": "Omoni Oboli TV",
@@ -16,8 +16,8 @@
   "UCjcFNZE51DmSrGYBqixs0Ug": {
    "name": "RuthKadiri247",
    "subscribers": 4220000,
-   "videos": 345,
-   "films": 174
+   "videos": 346,
+   "films": 175
   },
   "UCypAoMCRQuNL2RBwy-x4oQg": {
    "name": "Uchenna Mbunabo Tv",
@@ -34,7 +34,7 @@
   "UCLLA3OKhzK-tzXFvXhnGKZQ": {
    "name": "FAAN TV",
    "subscribers": 1440000,
-   "videos": 2785,
+   "videos": 2786,
    "films": 50
   },
   "UCneM4DHHUWMVwmYktz8X46g": {
@@ -52,8 +52,8 @@
   "UCHY9J0IWIWht6GqIBiLidBA": {
    "name": "Sonia Uche Tv",
    "subscribers": 1560000,
-   "videos": 147,
-   "films": 60
+   "videos": 148,
+   "films": 61
   },
   "UCt8C0h1RscuQL6P0nGDkXIg": {
    "name": "GEORGINA IBEH TV",
@@ -82,7 +82,7 @@
   "UCzeFm4h5hkGm4y6SV9zvGjA": {
    "name": "Frederick Leonard TV.",
    "subscribers": 1140000,
-   "videos": 327,
+   "videos": 328,
    "films": 29
   },
   "UCRpVhC2Mv9B-CIhYXGb0IdA": {
@@ -94,7 +94,7 @@
   "UCm6NRZvIcYwpj79CIa1Lj9g": {
    "name": "IBAKATV",
    "subscribers": 1450000,
-   "videos": 193,
+   "videos": 194,
    "films": 11
   },
   "UCvpK1k1i23Xi5TM-ZDuSNDw": {
@@ -106,7 +106,7 @@
   "UCiahLsxiMoVkuUM1bbgPg0g": {
    "name": "OrjiTv",
    "subscribers": 585000,
-   "videos": 247,
+   "videos": 248,
    "films": 119
   },
   "UCw2noEeao113AcTVlXnW4Wg": {
@@ -124,13 +124,13 @@
   "UC1By7koB6TJqjrfCvmYUIxQ": {
    "name": "AFOREVO STAGE",
    "subscribers": 2630000,
-   "videos": 3514,
-   "films": 2166
+   "videos": 3516,
+   "films": 2167
   },
   "UCi8vPG6uMxIjoZMhLLX2BkQ": {
    "name": "Nollywoodpicturestv",
    "subscribers": 3010000,
-   "videos": 10682,
+   "videos": 10685,
    "films": 1661
   },
   "UCNq7_TKmIc8J6j-qUcyxNFA": {
@@ -148,8 +148,8 @@
   "UCVsqair_RFTI1K5cuaLaNtg": {
    "name": "Nigerian Movies Plus",
    "subscribers": 1860000,
-   "videos": 3072,
-   "films": 2004
+   "videos": 3075,
+   "films": 2007
   },
   "UCJ1I13e9PN7u4iszJ6M0AXQ": {
    "name": "ROCKCELLY NOLLYWOOD FILMS TV",
@@ -190,7 +190,7 @@
   "UCzKrLr1ZD1uds-7c7vaSjVA": {
    "name": "Uche Nancy tv",
    "subscribers": 2380000,
-   "videos": 1714,
+   "videos": 1716,
    "films": 667
   },
   "UCB4TZvSKXjSx2pyJG-zIxsQ": {
@@ -231,12 +231,12 @@
   "UC6CxpgmZUkTH0NnksC0o_fg": {
    "name": "ABNUR ENTERTAINMENT",
    "subscribers": 888000,
-   "videos": 416,
+   "videos": 417,
    "films": 34
   },
   "UC3PkFyrpeoRxfwWpTUp2uUg": {
    "name": "YAKUBU MOHAMMED 2EFFECT TV",
-   "subscribers": 387000,
+   "subscribers": 388000,
    "videos": 376,
    "films": 31
   },
@@ -255,7 +255,7 @@
   "UCJyFkDxxIgPVz-x_0UZPqfg": {
    "name": "AREWA24",
    "subscribers": 921000,
-   "videos": 5910,
+   "videos": 5914,
    "films": 390
   },
   "UClU5QkUqFL4a7AdxScHa2Vg": {
@@ -266,7 +266,7 @@
   },
   "UCPdsCoSqO4dZcnkX_4do6hA": {
    "name": "KAP STREAM",
-   "subscribers": 40200,
+   "subscribers": 40300,
    "videos": 110,
    "films": 7
   },
@@ -326,7 +326,7 @@
   "UCjS6UnmKjrBX3krk8oVZocg": {
    "name": "nollynetwork",
    "subscribers": 223000,
-   "videos": 300,
+   "videos": 301,
    "films": 113
   },
   "UCA_cLbPgQBD9mOCVPdToE1Q": {
@@ -16722,6 +16722,39 @@
     }
    ],
    "channelName": "APATATV+"
+  },
+  {
+   "id": "snaija-yt-her-majesty-2026",
+   "type": "movie",
+   "name": "Her Majesty",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Drama"
+   ],
+   "cast": [],
+   "runtime": "101 min",
+   "uploadedAt": "2026-11-26T16:03:36.000Z",
+   "poster": "https://i.ytimg.com/vi/A7K5OyFZrdE/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Ruth Kadiri 247 (UCjcFNZE51DmSrGYBqixs0Ug)"
+   },
+   "channel": "UCjcFNZE51DmSrGYBqixs0Ug",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "A7K5OyFZrdE",
+     "minutes": 101,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "RuthKadiri247"
   },
   {
    "id": "snaija-yt-the-guest-room-2026",
@@ -42962,6 +42995,41 @@
     }
    ],
    "channelName": "SANDRA OKUNZUWA TV"
+  },
+  {
+   "id": "snaija-yt-the-rising-2026",
+   "type": "movie",
+   "name": "The Rising",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "119 min",
+   "description": "When family becomes a source of pain and love comes with unexpected challenges, two women find themselves facing difficult choices that could change their lives forever. Bound by betrayal, friendship and the search for a fresh start, they must find the strength to rise above the circumstances holdin",
+   "uploadedAt": "2026-11-26T17:46:11.000Z",
+   "poster": "https://i.ytimg.com/vi/zBKQo1_eT78/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Sonia Uche TV (UCHY9J0IWIWht6GqIBiLidBA)"
+   },
+   "channel": "UCHY9J0IWIWht6GqIBiLidBA",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "zBKQo1_eT78",
+     "minutes": 119,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Sonia Uche Tv"
   },
   {
    "id": "snaija-yt-gloria-must-go-2026",
@@ -104700,6 +104768,74 @@
    "channelName": "Regina Daniels Tv"
   },
   {
+   "id": "snaija-yt-i-plead-with-every-woman-to-watch-dis-explosive-family-movie-learn-a-life-lesson-2026",
+   "type": "movie",
+   "name": "I Plead With Every Woman to Watch Dis Explosive Family Movie & Learn a Life Lesson",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "117 min",
+   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2026 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
+   "uploadedAt": "2026-11-26T19:00:38.000Z",
+   "poster": "https://i.ytimg.com/vi/WqeoPyhQJPc/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
+   },
+   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "WqeoPyhQJPc",
+     "minutes": 117,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "AFOREVO STAGE"
+  },
+  {
+   "id": "snaija-yt-drop-everything-you-intend-to-do-and-and-watch-this-mindblowing-family-2026",
+   "type": "movie",
+   "name": "Drop Everything You Intend to Do and and Watch This Mindblowing Family",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "130 min",
+   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2026 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
+   "uploadedAt": "2026-11-26T16:00:14.000Z",
+   "poster": "https://i.ytimg.com/vi/ZVtUQc4mh-4/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
+   },
+   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "ZVtUQc4mh-4",
+     "minutes": 130,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "AFOREVO STAGE"
+  },
+  {
    "id": "snaija-yt-no-2026",
    "type": "movie",
    "name": "No",
@@ -104877,40 +105013,6 @@
      "part": 1,
      "videoId": "0zcG4vntZ_E",
      "minutes": 132,
-     "quality": "hd"
-    }
-   ],
-   "channelName": "AFOREVO STAGE"
-  },
-  {
-   "id": "snaija-yt-drop-everything-you-intend-to-do-and-and-watch-this-mindblowing-family-2026",
-   "type": "movie",
-   "name": "Drop Everything You Intend to Do and and Watch This Mindblowing Family",
-   "aliases": [],
-   "year": 2026,
-   "yearIsUpload": true,
-   "languages": [
-    "en"
-   ],
-   "category": "film",
-   "genres": [
-    "Family"
-   ],
-   "cast": [],
-   "runtime": "90 min",
-   "description": "Our focus is to bring the very best of Nollywood Nigerian Movies to your door step. Stay Tune to our new released movies on AFOREVO STAGE for 2026 Nollywood Nigerian Movies cos giving you an experience that is worth every moment you stay online.",
-   "uploadedAt": "2026-11-22T22:00:09.000Z",
-   "poster": "https://i.ytimg.com/vi/ThTF-qES3-g/maxresdefault.jpg",
-   "posterShape": "landscape",
-   "sources": {
-    "all": "YouTube channel AFOREVO STAGE (UC1By7koB6TJqjrfCvmYUIxQ)"
-   },
-   "channel": "UC1By7koB6TJqjrfCvmYUIxQ",
-   "parts": [
-    {
-     "part": 1,
-     "videoId": "ThTF-qES3-g",
-     "minutes": 90,
      "quality": "hd"
     }
    ],
@@ -194131,6 +194233,70 @@
    "channelName": "AFOREVO STAGE"
   },
   {
+   "id": "snaija-yt-royal-promise-2026",
+   "type": "movie",
+   "name": "Royal Promise",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": false,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Drama"
+   ],
+   "cast": [],
+   "runtime": "253 min",
+   "description": "Royal Promise - New Nollywood Movie is a 2026 Nigerian film.",
+   "uploadedAt": "2026-11-26T11:48:32.000Z",
+   "poster": "https://i.ytimg.com/vi/M4qlCzHKLZY/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nollywoodpicturestv (UCi8vPG6uMxIjoZMhLLX2BkQ)"
+   },
+   "channel": "UCi8vPG6uMxIjoZMhLLX2BkQ",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "M4qlCzHKLZY",
+     "minutes": 41,
+     "quality": "hd"
+    },
+    {
+     "part": 2,
+     "videoId": "zkMzjLN-Sdg",
+     "minutes": 41,
+     "quality": "hd"
+    },
+    {
+     "part": 3,
+     "videoId": "Npg2z43A2kc",
+     "minutes": 40,
+     "quality": "hd"
+    },
+    {
+     "part": 4,
+     "videoId": "65jZLytHUZ4",
+     "minutes": 42,
+     "quality": "hd"
+    },
+    {
+     "part": 5,
+     "videoId": "QKlNpfiX8S4",
+     "minutes": 43,
+     "quality": "hd"
+    },
+    {
+     "part": 6,
+     "videoId": "UG2fUUAUFao",
+     "minutes": 46,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nollywoodpicturestv"
+  },
+  {
    "id": "snaija-yt-black-vow-2026",
    "type": "movie",
    "name": "Black Vow",
@@ -194230,58 +194396,6 @@
      "part": 6,
      "videoId": "xnsMkuijf5k",
      "minutes": 31,
-     "quality": "hd"
-    }
-   ],
-   "channelName": "Nollywoodpicturestv"
-  },
-  {
-   "id": "snaija-yt-royal-promise-2026",
-   "type": "movie",
-   "name": "Royal Promise",
-   "aliases": [],
-   "year": 2026,
-   "yearIsUpload": false,
-   "languages": [
-    "en"
-   ],
-   "category": "film",
-   "genres": [
-    "Drama"
-   ],
-   "cast": [],
-   "runtime": "164 min",
-   "description": "Royal Promise - New Nollywood Movie is a 2026 Nigerian film.",
-   "uploadedAt": "2026-11-23T11:30:06.000Z",
-   "poster": "https://i.ytimg.com/vi/M4qlCzHKLZY/maxresdefault.jpg",
-   "posterShape": "landscape",
-   "sources": {
-    "all": "YouTube channel Nollywoodpicturestv (UCi8vPG6uMxIjoZMhLLX2BkQ)"
-   },
-   "channel": "UCi8vPG6uMxIjoZMhLLX2BkQ",
-   "parts": [
-    {
-     "part": 1,
-     "videoId": "M4qlCzHKLZY",
-     "minutes": 41,
-     "quality": "hd"
-    },
-    {
-     "part": 2,
-     "videoId": "zkMzjLN-Sdg",
-     "minutes": 41,
-     "quality": "hd"
-    },
-    {
-     "part": 3,
-     "videoId": "Npg2z43A2kc",
-     "minutes": 40,
-     "quality": "hd"
-    },
-    {
-     "part": 4,
-     "videoId": "65jZLytHUZ4",
-     "minutes": 42,
      "quality": "hd"
     }
    ],
@@ -289267,6 +289381,112 @@
     }
    ],
    "channelName": "Neptune3 Studios"
+  },
+  {
+   "id": "snaija-yt-my-wicked-stepmother-said-she-will-suffer-me-to-death-but-my-mother-s-ghost-stop-her-2026",
+   "type": "movie",
+   "name": "My Wicked Stepmother Said She Will Suffer Me to Death But My Mother's Ghost Stop Her",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Supernatural",
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "108 min",
+   "description": "They humiliated her, mistreated her, and pushed her to the edge, but nothing could break her spirit. Through heartbreak, rejection, and countless struggles, she remained determined to rise above her pain and shine a",
+   "uploadedAt": "2026-11-26T19:00:00.000Z",
+   "poster": "https://i.ytimg.com/vi/7jAFLTCEiUA/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "7jAFLTCEiUA",
+     "minutes": 108,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
+  },
+  {
+   "id": "snaija-yt-the-strange-mother-goddess-came-with-dark-powers-to-save-me-from-the-wicked-maiden-2026",
+   "type": "movie",
+   "name": "The Strange Mother Goddess Came With Dark Powers to Save Me From the Wicked Maiden!",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Epic",
+    "Supernatural"
+   ],
+   "cast": [],
+   "runtime": "168 min",
+   "description": "Accused of attacking a priest, Amara faces a dangerous royal scandal. While her fiancé fights to free her, a powerful prince secretly sets his heart on claiming her. Caught between true love and royal obsession, Ama",
+   "uploadedAt": "2026-11-26T17:00:16.000Z",
+   "poster": "https://i.ytimg.com/vi/rcZ72HyGyL0/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "rcZ72HyGyL0",
+     "minutes": 168,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
+  },
+  {
+   "id": "snaija-yt-the-angry-ghost-of-my-father-came-to-save-us-from-the-wicked-occultic-billionaire-2026",
+   "type": "movie",
+   "name": "The Angry Ghost of My Father Came to Save Us From the Wicked Occultic Billionaire!",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Supernatural",
+    "Family"
+   ],
+   "cast": [],
+   "runtime": "123 min",
+   "description": "Madame Sylvia and her sister Annabelle will stop at nothing to become rich—even if it means making deals with dark spiritual powers. But when their hunger for wealth pulls them deeper into the world of occult practi",
+   "uploadedAt": "2026-11-26T11:00:35.000Z",
+   "poster": "https://i.ytimg.com/vi/QjP88RzTauc/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "QjP88RzTauc",
+     "minutes": 123,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
   },
   {
    "id": "snaija-yt-jealousy-made-my-sister-killed-me-because-of-the-prince-but-the-goddess-shocked-her-2026",

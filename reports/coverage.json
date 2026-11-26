@@ -1,43 +1,43 @@
 {
- "playable": 12630,
- "youtubeOnly": 12467,
+ "playable": 12643,
+ "youtubeOnly": 12474,
  "youtubeShare": 98.7,
- "nonYoutube": 163,
+ "nonYoutube": 169,
  "nonYoutubeBySource": {
   "Plex": 14,
-  "Tubi": 149,
+  "Tubi": 155,
   "Prime Video": 19
  },
  "bySource": {
   "Plex": 14,
-  "YouTube": 12490,
-  "Tubi": 149,
+  "YouTube": 12497,
+  "Tubi": 155,
   "Prime Video": 19
  },
  "byChannel": {
   "Plex: -": 14,
   "YouTube: ROCKCELLY NOLLYWOOD FILMS TV": 835,
-  "Tubi: -": 149,
+  "Tubi: -": 155,
   "YouTube: BTAtv": 1404,
-  "Prime Video: -": 19,
-  "YouTube: Nigerian Movies Plus": 2003,
-  "YouTube: EbonyLife Films": 1,
   "YouTube: Uchenna Mbunabo Tv": 164,
+  "YouTube: EbonyLife Films": 1,
+  "Prime Video: -": 19,
+  "YouTube: Nigerian Movies Plus": 2007,
   "YouTube: Uche Nancy tv": 667,
-  "YouTube: Nollywood RealnollyTV": 702,
   "YouTube: nollynetwork": 113,
+  "YouTube: Nollywood RealnollyTV": 702,
   "YouTube: Nollywoodpicturestv": 1660,
+  "YouTube: RuthKadiri247": 175,
   "YouTube: Omoni Oboli TV": 105,
   "YouTube: NollyReel": 363,
   "YouTube: APATATV+": 341,
-  "YouTube: RuthKadiri247": 174,
   "YouTube: Uduak Isong TV": 74,
   "YouTube: OrjiTv": 119,
   "YouTube: Maurice Sam TV": 101,
   "YouTube: FAAN TV": 50,
   "YouTube: Bimbo Ademoye TV": 16,
   "YouTube: SANDRA OKUNZUWA TV": 43,
-  "YouTube: Sonia Uche Tv": 60,
+  "YouTube: Sonia Uche Tv": 61,
   "YouTube: GEORGINA IBEH TV": 33,
   "YouTube: Uche Montana TV": 24,
   "YouTube: ChinneyLoveEze Tv": 65,
@@ -45,7 +45,7 @@
   "YouTube: IBAKATV": 11,
   "YouTube: LibraTv": 168,
   "YouTube: Regina Daniels Tv": 4,
-  "YouTube: AFOREVO STAGE": 2166,
+  "YouTube: AFOREVO STAGE": 2167,
   "YouTube: Bconceptnetwork": 13,
   "YouTube: Neptune3 Studios": 12,
   "YouTube: Global Update Movies Nollywood": 145,
@@ -69,8 +69,8 @@
   "YouTube: SceneOne TV": 1,
   "YouTube: EL'S NOLLY TV ": 24
  },
- "generatedAt": "2026-11-25T19:39:05.892Z",
- "statusGeneratedAt": "2026-11-25T19:39:05.841Z",
+ "generatedAt": "2026-11-26T19:21:42.474Z",
+ "statusGeneratedAt": "2026-11-26T19:21:42.422Z",
  "groups": {
   "classics": {
    "total": 1,
@@ -85,9 +85,9 @@
  },
  "languages": {
   "en": {
-   "catalogued": 12806,
-   "covered": 11360,
-   "withoutTmdb": 12606,
+   "catalogued": 12817,
+   "covered": 11373,
+   "withoutTmdb": 12619,
    "coverage": 88.7
   },
   "yo": {
@@ -124,31 +124,31 @@
  "providers": {
   "tubi": {
    "score": 91,
-   "reliability30d": 86,
+   "reliability30d": 85,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 2877
+   "checks30d": 3078
   },
   "plex": {
    "score": 95,
    "reliability30d": 92,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 38
+   "checks30d": 39
   },
   "selftest": {
    "score": 100,
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 40
+   "checks30d": 41
   },
   "youtube": {
    "score": 100,
    "reliability30d": 100,
    "accuracy": 100,
    "freshness": 100,
-   "checks30d": 25
+   "checks30d": 26
   }
  },
  "gaps": [
