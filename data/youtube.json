@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T22:27:37.197Z",
+ "generatedAt": "2026-11-27T09:46:01.125Z",
  "channels": {
   "UCbvdwZvZgdl-pPyomEmaEfg": {
    "name": "Omoni Oboli TV",
@@ -34,7 +34,7 @@
   "UCLLA3OKhzK-tzXFvXhnGKZQ": {
    "name": "FAAN TV",
    "subscribers": 1440000,
-   "videos": 2786,
+   "videos": 2787,
    "films": 50
   },
   "UCneM4DHHUWMVwmYktz8X46g": {
@@ -148,8 +148,8 @@
   "UCVsqair_RFTI1K5cuaLaNtg": {
    "name": "Nigerian Movies Plus",
    "subscribers": 1860000,
-   "videos": 3075,
-   "films": 2007
+   "videos": 3076,
+   "films": 2008
   },
   "UCJ1I13e9PN7u4iszJ6M0AXQ": {
    "name": "ROCKCELLY NOLLYWOOD FILMS TV",
@@ -230,7 +230,7 @@
   },
   "UC6CxpgmZUkTH0NnksC0o_fg": {
    "name": "ABNUR ENTERTAINMENT",
-   "subscribers": 888000,
+   "subscribers": 889000,
    "videos": 417,
    "films": 34
   },
@@ -284,7 +284,7 @@
   "UCLgjn9SPLG7BxyuFB_uNfXQ": {
    "name": "BIODUNSTEPHEN TV",
    "subscribers": 474000,
-   "videos": 953,
+   "videos": 954,
    "films": 36
   },
   "UCiZWyHYEvZO-1MFIxy1ojQg": {
@@ -289381,6 +289381,42 @@
     }
    ],
    "channelName": "Neptune3 Studios"
+  },
+  {
+   "id": "snaija-yt-i-killed-my-sister-so-i-can-marry-her-man-but-her-ghost-has-been-hunting-my-peace-2026",
+   "type": "movie",
+   "name": "I Killed My Sister So I Can Marry Her Man But Her Ghost Has Been Hunting My Peace!",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Thriller",
+    "Supernatural"
+   ],
+   "cast": [],
+   "runtime": "111 min",
+   "description": "After years of separation, two sisters reunite, only to find themselves locked in a ruthless supernatural battle for power and revenge. As dark forces rise and shocking family secrets are exposed, their rivalry beco",
+   "uploadedAt": "2026-11-26T23:00:21.000Z",
+   "poster": "https://i.ytimg.com/vi/073ufSDeUBk/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "073ufSDeUBk",
+     "minutes": 111,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
   },
   {
    "id": "snaija-yt-my-wicked-stepmother-said-she-will-suffer-me-to-death-but-my-mother-s-ghost-stop-her-2026",
