@@ -1,25 +1,25 @@
-# Live providers — 2026-11-26T14:01:20.194Z
+# Live providers — 2026-11-27T14:00:18.096Z
 
 ## Coverage
 
 - **archive**: 200 title(s)
-  - ISE ALAGBEDE (2023) — CC BY-SA 4.0
-  - IKORODO DANCE (2022) — CC BY-NC-ND 4.0
-  - Case Study: Return (?) — CC BY-NC-ND 3.0
-  - Nigeria01 (?) — Public domain
-  - Countering Asymmetric Threats: Evaluating Nigeria’s Strategic Approaches to International Terrorism in the Boko Haram Era (2026) — CC0
-  - Africa Revisited 2010 A triptych of differing themes. (2010) — CC BY 2.0
-  - George W Bush 20060329_ (?) — Public domain
-  - Clinical, hematobiochemical and histopathological alterations in acute inhalational cypermethrin toxicity in Issa brown commercial layers and treatment protocol: a case report (2026) — CC0
-  - Sacred Journeys and Local Growth: Assessing the Economic Catalyst and Cultural Shifts of Religious Tourism in Akwa Ibom State, Nigeria (2026) — CC0
-  - Optimising agro-infrastructural security and disaster readiness: A constrained fuzzy multi-objective goal programming approach to workforce performance planning in the Nigeria Security and Civil Defence Corps (2026) — CC0
-  - sex show 17 Oct 2011 (?) — CC BY-ND 3.0
-  - Uner the Spread of the Holy Spirit's Wings (2012) — CC BY-NC-ND 3.0
-  - 58 Suratul Mujadala in Arabic and Hausa – Recitation by Almishary Rashid and Translation by Alamin Tahir (2025) — CC BY-NC 4.0
-  - Human Touch 63 Emmanuel Nwosu (2023) — CC BY-NC-ND 4.0
-  - Major findings in the research of new coronavirus pneumonia: The mechanism of mutual mutagenesis and mutation of new coronavirus pneumonia bacteria (Fangruida) (2021) — Public domain
+  - Naz B Boomaye Official Video (2014) — Public domain
+  - producciÃ³n sex show enero 2011 (?) — CC0
+  - Chris Abani on the stories of Africa (2007) — CC BY-NC-ND 3.0
+  - Media Edge 526 (?) — CC BY-NC-ND 3.0
+  - FLOODS WIND VIRUS FOR CARP CONTROL #WEATHER WARFARE LIVE !! (2020) — CC BY-NC-ND 4.0
+  - BIO GERM FOG 20 FT SNOW DRIFTS #WEATHER WARFARE LIVE !! (2020) — CC BY-NC-ND 4.0
+  - Tech News Today 68: Lag-on*Con (2010) — CC BY-NC-SA 3.0
+  - Groundnut and Zobo ($12) (2018) — CC BY 2.0
+  - Nigerian Soldier Carries Actress 😂 😂 😂 🔥 🔥 04 (2021) — Public domain
+  - EKEREAGWU/AGBOROGWỤ DANCE (2022) — CC BY-NC-ND 4.0
+  - EN-HB(MM) (?) — CC BY 3.0
+  - Katsina State Television Service Livestream [December 7, 2020] (2020) — CC BY-ND 4.0
+  - 2025-11-16 - BTWRLM654 - War Time Mafia Networks (2025) — CC BY-NC-ND 4.0
+  - final_clean_version-7IMPACT OF INDIGENOUS KNOWLEDGE ON ECOTOURISM IN OHAFIA LGA, ABIA STATE, NIGERIA (2026) — CC0
+  - Sex Show 16 Abril 2012 (?) — CC BY-ND 3.0
 - **commons**: 0 title(s)
-- **faithstream**: 16 title(s) · types {"Movies/movie":52,"movie/null":23,"Animations/Animation":7,"Podcasts/podcast":5,"Devotionals/daily-devotionals":3,"Series/series-episode":25,"series_episode/null":1,"PrayerStreams/Prayer-room":27}
+- **faithstream**: 16 title(s) · types {"series_episode/null":10,"Movies/movie":52,"movie/null":23,"Animations/Animation":7,"Podcasts/podcast":5,"Devotionals/daily-devotionals":3,"Series/series-episode":25,"PrayerStreams/Prayer-room":27}
   - BREAKING POINT (61 min)
   - Love & Porridge (77 min)
   - WOUNDED (53 min)
