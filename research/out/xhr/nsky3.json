@@ -1,0 +1,29 @@
+[
+ {
+  "url": "https://nskytv.com/",
+  "xhr": [],
+  "media": [
+   "https://nskytv.com/nsky-promo.mp4",
+   "https://nskytv.com/videos/nsky-promo-2.mp4"
+  ],
+  "scripts": [
+   {
+    "u": "https://nskytv.com/assets/index-BclF-jyf.js",
+    "hits": {
+     "embed": [
+      "allowFullScreen"
+     ]
+    }
+   }
+  ],
+  "status": 200,
+  "finalUrl": "https://nskytv.com/",
+  "title": "nsky-tv",
+  "text": "A NEW EXPERIENCE IS COMING THE FUTURE OF ENTERTAINMENT Something Extraordinary Is Coming. Nigeria's Vibes. Your TV. We're building a new home for live television, entertainment, culture and unforgettable experiences. NSKY TV PREVIEW Experience what's coming WEBSITE UNDER CONSTRUCTION We're working behind the scenes to bring you something amazing. Stay tuned for the official launch. Tap video to enable sound © 2026 NSKY TV. All Rights Reserved. Nigeria's Vibes. Your TV.",
+  "html": "<!DOCTYPE html><html lang=\"en\"><head>\n    <meta charset=\"UTF-8\">\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>nsky-tv</title>\n    <script type=\"module\" crossorigin=\"\" src=\"/assets/index-BclF-jyf.js\"></script>\n    <link rel=\"stylesheet\" crossorigin=\"\" href=\"/assets/index-COe6RyR5.css\">\n  </head>\n  <body>\n    <div id=\"root\"><div class=\"nsky-website\"><header class=\"nsky-header\"><div class=\"header-container\"><a href=\"#home\" class=\"brand-logo\"><img alt=\"NSKY TV\" src=\"/nsky-logo.png\"></a><span class=\"header-status\"><span class=\"status-dot\"></span>A NEW EXPERIENCE IS COMING</span></div></header><main id=\"home\"><section class=\"coming-soon\"><div class=\"coming-soon-content\"><span class=\"section-label\">THE FUTURE OF ENTERTAINMENT</span><h1>Something <span>Extraordinary</span><br> Is Coming.</h1><p class=\"intro-text\">Nigeria's Vibes. Your TV.<br>We're building a new home for live television, entertainment, culture and unforgettable experiences.</p><div class=\"video-section\"><div class=\"video-heading\"><span class=\"live-indicator\"><span></span> NSKY TV PREVIEW</span><span>Experience what's coming</span></div><video class=\"promo-video\" autoplay=\"\" loop=\"\" playsinline=\"\" controls=\"\" preload=\"metadata\"><source src=\"/nsky-promo.mp4\" type=\"video/mp4\">Your browser does not support video playback.</video></div><div class=\"construction-message\"><span class=\"construction-line\"></span><h2>WEBSITE UNDER CONSTRUCTION</h2><p>We're working behind the scenes to bring you something amazing. Stay tuned for the official launch.</p></div></div></section><section class=\"fullscreen-promo\"><video class=\"fullscreen-promo-video\" src=\"/videos/nsky-promo-2.mp4\" autoplay=\"\" loop=\"\" playsinline=\"\" preload=\"metadata\" aria-label=\"NSKY TV promotional video. Click to toggle sound.\"></video><p class=\"video-sound-hint\">Tap video to enable sound</p></section></main><footer class=\"nsky-footer\"><p>© 2026 NSKY TV. All Rights Reserved.</p><span>Nigeria's Vibes. Your TV.</span></footer></div></div>\n  \n\n</body></html>",
+  "links": [
+   "https://nskytv.com/#home"
+  ],
+  "iframes": []
+ }
+]
