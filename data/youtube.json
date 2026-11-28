@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-27T22:09:27.335Z",
+ "generatedAt": "2026-11-28T08:58:32.327Z",
  "channels": {
   "UCbvdwZvZgdl-pPyomEmaEfg": {
    "name": "Omoni Oboli TV",
    "subscribers": 2120000,
-   "videos": 1368,
+   "videos": 1369,
    "films": 106
   },
   "UC83tx3zGcvQ_rXzsZigTnEA": {
@@ -52,7 +52,7 @@
   "UCHY9J0IWIWht6GqIBiLidBA": {
    "name": "Sonia Uche Tv",
    "subscribers": 1560000,
-   "videos": 148,
+   "videos": 149,
    "films": 61
   },
   "UCt8C0h1RscuQL6P0nGDkXIg": {
@@ -148,8 +148,8 @@
   "UCVsqair_RFTI1K5cuaLaNtg": {
    "name": "Nigerian Movies Plus",
    "subscribers": 1860000,
-   "videos": 3076,
-   "films": 2010
+   "videos": 3077,
+   "films": 2011
   },
   "UCJ1I13e9PN7u4iszJ6M0AXQ": {
    "name": "ROCKCELLY NOLLYWOOD FILMS TV",
@@ -171,7 +171,7 @@
   },
   "UCVH71XJ6Euv_UnOexinFgcg": {
    "name": "EbonyLife Films",
-   "subscribers": 37200,
+   "subscribers": 37300,
    "videos": 107,
    "films": 1
   },
@@ -284,7 +284,7 @@
   "UCLgjn9SPLG7BxyuFB_uNfXQ": {
    "name": "BIODUNSTEPHEN TV",
    "subscribers": 475000,
-   "videos": 954,
+   "videos": 955,
    "films": 36
   },
   "UCiZWyHYEvZO-1MFIxy1ojQg": {
@@ -302,7 +302,7 @@
   "UC9HDrOalDVN0Wv-Q7zTkQCg": {
    "name": "Okiki Premium TV",
    "subscribers": 355000,
-   "videos": 437,
+   "videos": 436,
    "films": 47
   },
   "UCdYgV-WJEog1H_PxN45cNWg": {
@@ -326,7 +326,7 @@
   "UCjS6UnmKjrBX3krk8oVZocg": {
    "name": "nollynetwork",
    "subscribers": 223000,
-   "videos": 303,
+   "videos": 304,
    "films": 114
   },
   "UCA_cLbPgQBD9mOCVPdToE1Q": {
@@ -289461,6 +289461,42 @@
     }
    ],
    "channelName": "Neptune3 Studios"
+  },
+  {
+   "id": "snaija-yt-my-son-banished-me-because-of-his-evil-wife-but-the-powerful-goddess-stop-them-2026",
+   "type": "movie",
+   "name": "My Son Banished Me Because of His Evil Wife But the Powerful Goddess Stop Them!",
+   "aliases": [],
+   "year": 2026,
+   "yearIsUpload": true,
+   "languages": [
+    "en"
+   ],
+   "category": "film",
+   "genres": [
+    "Romance",
+    "Epic",
+    "Supernatural"
+   ],
+   "cast": [],
+   "runtime": "146 min",
+   "description": "A powerful kingdom is shaken by shocking family secrets, infidelity, betrayal, and terrifying accusations of witchcraft. As supernatural forces emerge and devastating tragedies unfold, dark truths threaten to destro",
+   "uploadedAt": "2026-11-27T23:00:08.000Z",
+   "poster": "https://i.ytimg.com/vi/L-PQveRXDDk/maxresdefault.jpg",
+   "posterShape": "landscape",
+   "sources": {
+    "all": "YouTube channel Nigerian Movies Plus (UCVsqair_RFTI1K5cuaLaNtg)"
+   },
+   "channel": "UCVsqair_RFTI1K5cuaLaNtg",
+   "parts": [
+    {
+     "part": 1,
+     "videoId": "L-PQveRXDDk",
+     "minutes": 146,
+     "quality": "hd"
+    }
+   ],
+   "channelName": "Nigerian Movies Plus"
   },
   {
    "id": "snaija-yt-the-powerful-ghost-of-my-mother-came-to-save-me-from-my-bitter-heartless-stepmother-2026",
