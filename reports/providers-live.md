@@ -1,23 +1,23 @@
-# Live providers — 2026-11-27T14:00:18.096Z
+# Live providers — 2026-11-28T13:15:13.745Z
 
 ## Coverage
 
 - **archive**: 200 title(s)
-  - Naz B Boomaye Official Video (2014) — Public domain
-  - producciÃ³n sex show enero 2011 (?) — CC0
-  - Chris Abani on the stories of Africa (2007) — CC BY-NC-ND 3.0
-  - Media Edge 526 (?) — CC BY-NC-ND 3.0
-  - FLOODS WIND VIRUS FOR CARP CONTROL #WEATHER WARFARE LIVE !! (2020) — CC BY-NC-ND 4.0
-  - BIO GERM FOG 20 FT SNOW DRIFTS #WEATHER WARFARE LIVE !! (2020) — CC BY-NC-ND 4.0
-  - Tech News Today 68: Lag-on*Con (2010) — CC BY-NC-SA 3.0
-  - Groundnut and Zobo ($12) (2018) — CC BY 2.0
-  - Nigerian Soldier Carries Actress 😂 😂 😂 🔥 🔥 04 (2021) — Public domain
-  - EKEREAGWU/AGBOROGWỤ DANCE (2022) — CC BY-NC-ND 4.0
-  - EN-HB(MM) (?) — CC BY 3.0
-  - Katsina State Television Service Livestream [December 7, 2020] (2020) — CC BY-ND 4.0
-  - 2025-11-16 - BTWRLM654 - War Time Mafia Networks (2025) — CC BY-NC-ND 4.0
-  - final_clean_version-7IMPACT OF INDIGENOUS KNOWLEDGE ON ECOTOURISM IN OHAFIA LGA, ABIA STATE, NIGERIA (2026) — CC0
-  - Sex Show 16 Abril 2012 (?) — CC BY-ND 3.0
+  - Sex Show 07 Ene 2013 (?) — CC BY-ND 3.0
+  - Paralisis Del Sueno (2010) — CC BY-NC-SA 4.0
+  - NYC General Assembly, January 12, 2012 (?) — CC BY-NC-ND 3.0
+  - new world next week - jan14 (2010) — Public domain
+  - OluTimehin Adegbeye: Who belongs in a city? (2017) — CC BY-NC-ND 4.0
+  - Sex Show 07mayo 2012 (?) — CC BY-ND 3.0
+  - Case Study: Return (?) — CC BY-NC-ND 3.0
+  - Shock (?) — CC BY-ND 3.0
+  - New World Next Week: Episode249 - Putin on Paris, Endangered Encryption, Shengen Ending (2015) — CC BY-NC-SA 4.0
+  - Human Touch 68 Democracy And Destabilization (?) — CC BY-NC-ND 4.0
+  - George W Bush 20060329_ (?) — Public domain
+  - Street Fighter III: 3rd Strike: (CR) Fanta07 vs(CR) nigerian citizien - 2021-05-11 04:41:40 (?) — CC0
+  - Stephanie Busari: How fake news does real harm (2017) — CC BY-NC-ND 3.0
+  - Countering Asymmetric Threats: Evaluating Nigeria’s Strategic Approaches to International Terrorism in the Boko Haram Era (2026) — CC0
+  - How to Handle Complaints (CIAPS Lecture) (2024) — CC BY-NC-ND 4.0
 - **commons**: 0 title(s)
 - **faithstream**: 16 title(s) · types {"series_episode/null":10,"Movies/movie":52,"movie/null":23,"Animations/Animation":7,"Podcasts/podcast":5,"Devotionals/daily-devotionals":3,"Series/series-episode":25,"PrayerStreams/Prayer-room":27}
   - BREAKING POINT (61 min)
